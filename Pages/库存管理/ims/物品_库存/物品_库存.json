@@ -547,7 +547,7 @@
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
             "TargetTableName": "物品表",
-            "ID": "2efddc41efa34c5cb65b8967a350ebdc"
+            "ID": "cfd411ab32944576b30895740adbd0df"
           }
         ],
         "Text": "重置",
@@ -666,10 +666,10 @@
                         }
                       ]
                     },
-                    "ID": "8564b97f2e154103914083facec73737"
+                    "ID": "3207d5fd115a4cc0b1f05a971c2d77a9"
                   }
                 ],
-                "ID": "a2e936f1-1bb3-45ce-9ca5-a0b0bff1134b"
+                "ID": "482149a9-c6bd-4f8b-9a75-321f305ceac1"
               },
               {
                 "Condition": {
@@ -776,10 +776,10 @@
                         }
                       ]
                     },
-                    "ID": "5a5b85c77981417f85220169e93b957c"
+                    "ID": "9b270555bdf0443ab5324cc769e72bb1"
                   }
                 ],
-                "ID": "13ee72db-adc9-41cb-9172-25bb0f1418c4"
+                "ID": "854e699d-9b64-4b55-a842-48b285b445ec"
               },
               {
                 "Condition": {
@@ -886,10 +886,10 @@
                         }
                       ]
                     },
-                    "ID": "2e2a5c45a5cf48968fcb2ff4b82b130d"
+                    "ID": "73d04557ae324449bb9654ff77917700"
                   }
                 ],
-                "ID": "1293f188-a330-4ed1-902d-2959d7180856"
+                "ID": "3f8438df-1ac6-4702-9826-f6ca8ea52856"
               },
               {
                 "CommandList": [
@@ -969,10 +969,10 @@
                       ],
                       "RelationType": 1
                     },
-                    "ID": "40c0feb7401f494d85130c07f4b1c2d9"
+                    "ID": "d7c37c5f4e024a86964f7ef62ba1c250"
                   }
                 ],
-                "ID": "81bf5028-dce9-43ee-861e-eec60bbb91c7"
+                "ID": "000bbb20-4e9f-4f66-97a0-ab65262dce9c"
               }
             ]
           }
@@ -1016,7 +1016,7 @@
                 }
               }
             },
-            "ID": "688354ce3e5e4125a24576fc4e6e2713"
+            "ID": "83c50c986e7b4084a78e243aa1f1aa2e"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -1071,7 +1071,7 @@
                     ]
                   }
                 ],
-                "ID": "38a7d0d4-1b69-4a04-bc55-375201ff054a"
+                "ID": "80f1803e-23cd-4bb7-a803-e520fc30055d"
               },
               {
                 "CommandList": [
@@ -1099,7 +1099,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "4e7743c8-c12f-4d70-9874-e23b21fe353f"
+                "ID": "da170df2-eb35-4379-9e62-23d0132c868f"
               }
             ]
           }
@@ -1171,7 +1171,7 @@
                     ]
                   }
                 ],
-                "ID": "2ea92d49-33a9-4445-b3bd-97f282eb6833"
+                "ID": "07309f48-2359-4576-8038-de02a007868c"
               },
               {
                 "CommandList": [
@@ -1199,7 +1199,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "a25f244f-6420-46a2-8ca9-3794420e072f"
+                "ID": "078a839b-4eec-44f8-aa86-adc05c93fa9b"
               }
             ]
           }
@@ -1255,7 +1255,7 @@
                 }
               }
             },
-            "ID": "1e3eb7f3d4fa4d5585b53b9883f5ea3c"
+            "ID": "be39e54a16664368b05c0f54384d5699"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1276,7 +1276,7 @@
                 }
               }
             },
-            "ID": "b5c9ffe7c715456a9db3e3372f0eef75"
+            "ID": "817a88c9129e41749662269c651fe58f"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1297,7 +1297,7 @@
                 }
               }
             },
-            "ID": "0581be1ce72843feb69dfde87b89c251"
+            "ID": "5341cb3f3aa54efb8f8148c17567847d"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -1352,7 +1352,7 @@
                     ]
                   }
                 ],
-                "ID": "7f638634-80d1-4c9d-99bb-91fc4d88bf8e"
+                "ID": "4ac045e0-433e-4410-a87f-ae7cd4ddd89d"
               },
               {
                 "Condition": {
@@ -1405,7 +1405,7 @@
                     ]
                   }
                 ],
-                "ID": "192f6a60-03d0-40f2-9a27-ba2efc1acdb8"
+                "ID": "0c74257e-6dc9-42e5-901e-0c3e4bc722a1"
               },
               {
                 "Condition": {
@@ -1458,7 +1458,7 @@
                     ]
                   }
                 ],
-                "ID": "9e3b6281-e8e1-41a8-bad5-7fc0caf1ef35"
+                "ID": "294fc911-554d-4fbe-bdf9-b7e15baeb442"
               },
               {
                 "CommandList": [
@@ -1513,12 +1513,12 @@
                             }
                           }
                         ],
-                        "ID": "5669cd5e-de63-4929-85ad-522801d4b850"
+                        "ID": "6a409655-22d6-43b7-ad33-d1f2b0fb062f"
                       }
                     ]
                   }
                 ],
-                "ID": "eee4584d-73a1-4b36-b59c-1050f82066f7"
+                "ID": "8a5ba41f-bcbe-46b8-978d-322eda8e7a69"
               }
             ]
           }
@@ -1704,7 +1704,7 @@
                             ]
                           }
                         ],
-                        "ID": "f178fd3c-c65a-490f-b2a3-4231a7f55a2c"
+                        "ID": "0fa9b9d3-5cd7-4c3c-bae0-b5db7bd8a49f"
                       },
                       {
                         "CommandList": [
@@ -1745,12 +1745,12 @@
                             ]
                           }
                         ],
-                        "ID": "c2eae88d-a34a-44bc-99d2-03f861afe2fb"
+                        "ID": "0b073489-9ab2-4b09-8bf6-ee152887fa19"
                       }
                     ]
                   }
                 ],
-                "ID": "24a08104-e0a2-4720-baec-c9a3a9af2ba0"
+                "ID": "2e562983-befe-444a-af71-86ee7e498765"
               }
             ]
           }
@@ -2985,7 +2985,7 @@
             }
           }
         },
-        "ID": "cfc133e66ec94565a3ef9da237004a4c"
+        "ID": "3875398bef2241cca484f34bc2413eac"
       },
       {
         "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -3055,4 +3055,4 @@
       "Size": "1088,528"
     }
   ]
-}//iDBj5tig+5xpWpXJ8VxiHmcF8aSgHbmi1k/DC7S4KA0b0DsdcB09fxpVqdKEXsWki4n/q1CBkGuthg7r/qVrPH5vh3aihSnmGDcy5Ow8SQNX5qbUG+y4ljj/+OTgs+Pg4SGsaCXDM4qrINCtpmwB51esG7rNbjZSX5DTqkxaDkmgd9v05PVCaw4+JQGj/NcH8xmrn/VsaS5FswOYmKlf95YrnzrZuXq7o9tlPCU9KPg39XL5VVMABnS0P1KTGA2z4YJ909mQH0JFSCCwGUfgCYD1ANJoX0nQs/wKoQkcOHPT8ZnZouGhsT0Ttm8pw41mOCtrTn7Iw41Gnsn98IZ34UJpnpDn4n/z0YA/Lx5URkJxkMfJ6uxdr3yfZWaOJz2CUdCf8PcjrYXfYnwhGfiSK4t46yglXTWhiRcObAyYV3aKFMaKEpQH5Yi4/qzZrH73CMnshNkwAzY0IKMQD2O6jlkNY4ObMCqGMReyeobgaY0svT2Wguop4nYyTl4vMVcuNO44rJhQj7b38pYKfujMW8ZFZb9oSOsOZWDsI/AUwqgS6mHOFJaiqwfRi0jobNytpWvH+R5N3qnGGyznHbcO7keE8I18Jlgl7dgWqXo7HD9U+GgVd7Y1SVkJRddBT3MHRPhxwxScMH2hea41WXpjE9dXITBFQq2v5lsWmNA7P007sgfudwAMtUktiJvBh7VbFekldtXeXv0YVyTaqkj4c7IHK0iZIaaoCqmxd/Ch1rUnKCJ6I9Agqbdb4HKMxz+f1vIzayoTl9IwyQFo0WLs4YTZgNHvTqlExo5Vgp4TJSnCLqNvlrIRo57v7hUplibqX2Tbig9pQZUuteXiNvIqgywcEtSJo73mR+CLb/ASN2qWXF6mr+proYA04uwGT2smqBJKN6WzcriOXbHQMqHvCw==|920
+}//vj8ps1YW5znuB7tOA3MZNYbK8kz+V7z+YY+fMOrAz4+e2gBlgCswab8uVkC0fN41DxGgly/LWJEio+Lc/sETwiTwaJiVF/aDJc2ifEMmX4nxVBoagobaqHMNP3srWQyxg91wD57q+ioz//MsdqO74gWHwSS3zsmMnq2qv14uHc9fuP27HmpmpJIqQwHibRfiJ27Nn2b5Sf+8cH9hkNWoyqlzRbLBSVLHiFnJw624wdQONZNVo5aIl2G/eFhluBm5AAgicNGYSYH0mqBnubML/pI0em+kpupziRGFsUbtwtPB2hImNlN2rXHsM8gXhwp4POpI/sJ/qBKkto8CQ20pCyCQjigFFiYhqxdVCa/DrNGuEl7oM+4DSlpT+7ChqZvNQU6xdlSb+peB0pJNXxf8pmcQmvwo7B568P6I3UmFSgXJ65KcVf6Mp9hwUJ5THVeh8bjkY/WHXrz2n2F0pdi/bvV38VDYQcPhFfSLX0Nysv9EXjt/zFXDBmAGzgCQqcXhnUHkJeRA8ClAz7mOevGzqLmZHG1p7+L8QpXfDbjjEwy/FQTmSDP9JrWdYBHohwBUR+F5jKDf7XoZuShCCKU//2NLrEBFc7rLQQrDyFNIca11oMX9JdFVwo9h8Zvte13Fe2yfsaK8Hmft+mKAyDGMWqfPloEtFS0jxL5Hpo+iJwBRS2fJZeT8NNHY9/jVkgjhxWPWd8JvgUAX6HJvpjxkKuCtIgAao/mAK5ujA62P/Em8fnXziLro3ykpSMrNoUvuPi3kxPnFcrUOpHZ65LG9ZeCHqd/jF9QbjCTqUJzXdiFdyLf6m01pvbenx97nOON0FjiT7aNLq+Lj6miwcj4QaZ5WZRDfjZn/E2Z5/29zBQFarqDyXd/Yyw1A8DSfPIVHHj0BuRXOWi9jgs+RAqcM5g==|920

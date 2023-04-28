@@ -1,0 +1,461 @@
+{
+  "Name": "采购发票维护",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "采购员",
+                "采购主管",
+                "Administrator"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "采购单ID"
+        },
+        {
+          "Name": "到票金额"
+        },
+        {
+          "Name": "发票编号"
+        },
+        {
+          "Name": "备注"
+        },
+        {
+          "Name": "类型"
+        },
+        {
+          "Name": "记录ID"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=类型"
+                  }
+                },
+                "value": "修改"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "历史金额信息",
+                  "TableValue": {
+                    "TableName": "采购订单到票历史表",
+                    "TableValueType": 1,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "采购订单到票历史表",
+                          "ColumnName": "采购订单ID",
+                          "GUID": "d4b6fcfa-e0bf-4893-a593-81de56e47e7d"
+                        },
+                        "ColumnName": "采购订单ID"
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "采购订单到票历史表",
+                          "ColumnName": "采购订单ID",
+                          "GUID": "61dae705-62c3-4db4-a9b1-0a8480f3b3be",
+                          "RelationBinding": {
+                            "RelatedTable": "采购订单表",
+                            "RelatedColumn": "ID",
+                            "DisplayColumn": "已到票金额"
+                          }
+                        },
+                        "ColumnName": "已到票金额"
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "采购订单到票历史表",
+                          "ColumnName": "本期到票金额",
+                          "GUID": "53d432ad-59d2-4d4a-a5f6-dffb62492885"
+                        },
+                        "ColumnName": "本期到票金额"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "ID",
+                        "GUID": "cacd6483-e401-4473-bbcd-81e5596c67dd"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=记录ID"
+                      }
+                    }
+                  },
+                  "ID": "433fa74c7e514ce5bf387f398181d5ca"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "采购订单到票历史表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "采购订单到票历史表",
+                      "ColumnName": "ID",
+                      "GUID": "c4216032-29df-4fdb-adf0-4f17430a58b6"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=记录ID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "发票号码",
+                        "GUID": "fd556d64-ad66-4da7-993e-c48722783f9c"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=发票编号"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "备注",
+                        "GUID": "a3122e54-01f7-4c73-b3a2-7f487d3e8e15"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=备注"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "本期到票金额",
+                        "GUID": "373d8461-8a52-4537-9365-88b00d9e52d3"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=到票金额"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "采购订单表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "采购订单表",
+                      "ColumnName": "ID",
+                      "GUID": "293aa621-b399-43dd-9a0b-1004d553643d"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=历史金额信息.采购订单ID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单表",
+                        "ColumnName": "已到票金额",
+                        "GUID": "be35aacc-0901-4cbe-b919-985f5df2af00"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=历史金额信息.已到票金额-历史金额信息.本期到票金额+到票金额"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "2d1d2604-5c80-46e9-b8f8-eb2f714f37ac"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=类型"
+                  }
+                },
+                "value": "删除"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "金额信息",
+                  "TableValue": {
+                    "TableName": "采购订单到票历史表",
+                    "TableValueType": 1,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "采购订单到票历史表",
+                          "ColumnName": "采购订单ID",
+                          "GUID": "2be21037-5743-4935-bf96-1c484cdc99a3"
+                        },
+                        "ColumnName": "采购订单ID"
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "采购订单到票历史表",
+                          "ColumnName": "采购订单ID",
+                          "GUID": "b3142036-d57a-4890-bbf1-a0d8622f8e3e",
+                          "RelationBinding": {
+                            "RelatedTable": "采购订单表",
+                            "RelatedColumn": "ID",
+                            "DisplayColumn": "已到票金额"
+                          }
+                        },
+                        "ColumnName": "已到票金额"
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "采购订单到票历史表",
+                          "ColumnName": "本期到票金额",
+                          "GUID": "4889e263-1477-4b01-b7b2-93790687587c"
+                        },
+                        "ColumnName": "本期到票金额"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "ID",
+                        "GUID": "99bda6c4-5083-48ea-8e66-4d5c1fccf080"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=记录ID"
+                      }
+                    }
+                  },
+                  "ID": "3e8cd6fe7eff45bd88f612d21aca3a56"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "采购订单表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "采购订单表",
+                      "ColumnName": "ID",
+                      "GUID": "a22e7d80-3855-4791-9753-da7e897c2a99"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=金额信息.采购订单ID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单表",
+                        "ColumnName": "已到票金额",
+                        "GUID": "2e32823f-28ba-4893-99fd-6b47735fbe59"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=金额信息.已到票金额-金额信息.本期到票金额"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "采购订单到票历史表",
+                  "UpdateType": "delete",
+                  "ShowConfirm": true,
+                  "ConfirmText": "您确定要删除吗？",
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "采购订单到票历史表",
+                      "ColumnName": "ID",
+                      "GUID": "9347de3b-f397-47d1-8b36-9ab7809f8234"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=记录ID"
+                    }
+                  }
+                }
+              ],
+              "ID": "dcff6006-b74c-412d-8b70-7a2b98c653cc"
+            },
+            {
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "已到票金额",
+                  "TableValue": {
+                    "TableName": "采购订单表",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "采购订单表",
+                          "ColumnName": "已到票金额",
+                          "GUID": "fbd2d81e-8b7f-4632-8358-de7648324fce"
+                        },
+                        "ColumnName": "已到票金额"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "采购订单表",
+                        "ColumnName": "ID",
+                        "GUID": "534b926e-59f9-4f3e-906d-cfebd3d7ceb9"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=采购单ID"
+                      }
+                    }
+                  },
+                  "ID": "c85ed85ede2f4db38f0d339bab591a7e"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "采购订单到票历史表",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "采购订单ID",
+                        "GUID": "140ce6d7-9bfe-4cec-909a-6e66f7ecf232"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=采购单ID"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "日期",
+                        "GUID": "df88ca0a-d4d0-4a2f-a72f-bc25fd3349b4"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=TODAY()"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "本期到票金额",
+                        "GUID": "27385b87-cb98-4150-ab21-d80e7cfbec29"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=到票金额"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "发票号码",
+                        "GUID": "b569eb93-0a0f-40e2-837e-711654ee82bb"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=发票编号"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单到票历史表",
+                        "ColumnName": "备注",
+                        "GUID": "2b733bc5-ab87-4f4e-8ddf-8ee7180a48c0"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=备注"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "采购订单表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "采购订单表",
+                      "ColumnName": "ID",
+                      "GUID": "4b960a9a-0002-4e7b-bedd-74dff2227c29"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=采购单ID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "采购订单表",
+                        "ColumnName": "已到票金额",
+                        "GUID": "c35d3655-f950-4eeb-a1a2-d594860c3783"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=已到票金额+到票金额"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "79ee684a-7458-4802-bf48-c8bbe4050203"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

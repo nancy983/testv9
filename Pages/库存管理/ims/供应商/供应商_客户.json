@@ -435,7 +435,7 @@
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
             "TargetTableName": "供应商_客户表",
-            "ID": "9b285acc25fc44f796f8fd05517d3d64"
+            "ID": "0adda7db5fdb4c4e907ad7ea47d621fa"
           }
         ],
         "Text": "重置",
@@ -494,7 +494,7 @@
               ],
               "RelationType": 1
             },
-            "ID": "5a3a29e06b344b4db1ab45fbff8fee25"
+            "ID": "df3c8ca1c53341098a07b0f684269713"
           }
         ],
         "Text": "查询",
@@ -602,7 +602,7 @@
                 }
               }
             },
-            "ID": "ef6a389c6665448ab85a66ae81108c22"
+            "ID": "676b24850c2c4f47b327c3f33e27106e"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -634,7 +634,7 @@
                 }
               }
             },
-            "ID": "a616644ad4d44effba25c9096ab53b34"
+            "ID": "8adfb642b8154b68a8a04073169c8fc8"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -666,7 +666,7 @@
                 }
               }
             },
-            "ID": "962ebb51ea634d5e9741550f035cc56d"
+            "ID": "5e7d241565ad476e8a893a66856e60f9"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -771,7 +771,7 @@
                             ]
                           }
                         ],
-                        "ID": "c4323124-9eba-4c85-bba4-a94861f5bb92"
+                        "ID": "c7c44746-8f54-487c-9f2b-8e1b12a727c9"
                       },
                       {
                         "CommandList": [
@@ -811,12 +811,12 @@
                             ]
                           }
                         ],
-                        "ID": "b00ec0ec-4940-429f-bf7d-c36018a98eea"
+                        "ID": "a7af5feb-7bd0-49cc-b582-b2356eda6e24"
                       }
                     ]
                   }
                 ],
-                "ID": "4e4826dd-9ec3-451c-88be-18ada292cb1a"
+                "ID": "aac5ff19-3b9c-4ec7-af73-c92e40b1009e"
               },
               {
                 "CommandList": [
@@ -879,12 +879,12 @@
                             "ShowConfirm": false
                           }
                         ],
-                        "ID": "dba5a1ec-a539-4b80-95a4-8b8b8767b52d"
+                        "ID": "fbfcecbc-20e5-4998-b2cb-ffdc55a56214"
                       }
                     ]
                   }
                 ],
-                "ID": "2ff87604-2cc7-4980-9bae-84c21e94a312"
+                "ID": "08c82190-dc6c-4a9a-9a33-82905e8c4397"
               }
             ]
           }
@@ -1468,4 +1468,4 @@
       "Formula": "供应商_客户!$BI$4"
     }
   ]
-}//TTUKxr+FMMT46z3YrxqXx5PzoBAsO/Ij9BEKceMvj/6ja29GkxY8XnjyaDr/NviTntD9tOkcwnYQqt6vnJEpT0hie9XW1uH9hDm+6MVcu6B3TmjnnReVvYtTLYBxOrcwLDH6zy+BgjmZwAtDRA9aEHxACMxjLRAQ0BHrsPZAcgp/UFHWj2DaNRtLcEYFEFdb7oj2cZQ0yc2KzxUKMnn4t31q4pZaMelb7VB5A9OKta2WFGSPM1zwVJTKhZxfAshdfssjcwTMDtzUx9pvpJkK8emKbkmQUhwbpbuWYn6JZEOGN83lOBMDOby8UDAVU53IfvVDoJ+HKWWgVmKTj3mLj37+Taextqh+39o2ULvIpWdhZw8ESTzsUp0aifRSVNZkK0XgZXDrX0g04ELW3k4BhfS7gb+j15/qf1Kn8INnVN765sDcQO38CzUnCGdN1iAs9ZWY2PR1QWQd5d8OxjXaUQrZ0qS0KMaM3S2xXnqv1HhWIY2Fe4vEJuxzSvdJFHAL/wkaS6z1nXa9y63Oeo72EN3QeIYTv6H1W+Lbw1+ilzrooHG2r5zrQAssAmsCA6byEp1K5Ez8tQBVjYin5WC4zXVQBvLRo8a1qkoKNQvg6k1bUHXr3jYctb/hqSUIXEnF5g92VeYEldpDgwfDtmDau4VrDNEWzHRCDoV6+cxGpwlLJNRCF6ciIjouHj17TcE3IE9IzEr0zhZ5wGsFm95AyV40X3aMtauUou8mR59UmzBUKAwwO3pAv+RQmsiwT3DCFmOtsLmKTuXP8g1afJCg6HH2vvo2TJEM+/W8cgA27TGqPz6WLhc+n2VXtfv3ZB+MDwK54ZoycNyYknOKl/nYeagc7RhoOsO1ds/x4M1Y9R00V/SiYrbEEP4xCVR/iSqNBX3wkwsuZQkElKpyfTTt1g==|920
+}//fgfdF5Qc6zR7MmegoyauGNZRguLU8BskH4EJy8C+oSYvXrkL1yunXM7colzTc9J23iRMGqA8Y5gICwH3xuNyfzpF6f0QbOIuwBgrYGI06PUYeMU17r3WzHuq/7603pPKpqWhN67IvglvEFlJnNugVcnMSCtT0bNJtsQ2bld169bqNB8zmOzcfggO6BTF7kkMsFbv9QdvKWYUUTdIP+uC5Qi7+bN6Sy0B4/OL5yr2OMECGqXWFyoVyqYYpA2k0s1M7DGWO4wv8an2hq3s6lYKjdq9yK0tP+qfpDtkbJtuQ7qTxgMXBGv4oZ7y7sJHhRIdDVAzFlwBHNuENhQOLyKX+d1uSl0AEgztn+WUT+YI5xVGCxtFQSrL3piMMZ3/ln3BR15/rhDUUbqdJ8JHAri1X0ZokadRtT7nHKJPoUz1vD5fKXnO/Tqz3eE69lLR7Q+QFLH9bVlzWUf4rNBDntVPAjIu+mOITMUeH0ICZpb0fOiDfzGjy8FO1rby2IQHMKDJfljDBf223zC9WHvXBsR38iaE9cRGQGSfdRwdjfTcYh3R1oKebiAsqfKDXYN7h7YkQPYLo0voOybAYDXv2p09JhxuI+y120YnRBTTaSo0GaOmqll2YZOMFX3yw5LpKJll4q7iFOOwIeLCpO1+DhOJUFDZbf9v5vOSO4ghynDxiOgUe70j+2kxP+NydnkY0JIH4FA2SY73AlsXJXUGJGcAmtbgCRJgX9LovQ0f6scV51ApQn+GHq1jnTysXEoB+YSghgH+ymbP6qQK+ByjqhqMqMUuGAHgSRYDpMbESAjxRcJOHOUyCvOcsNzGXsq2S8HbjQJrw8lFAKawmUNKUsU7CF1vtSW1QMuFzVy8jhtXFcbezMDlvuI3Vcy9hahWlQIG6sJOskvOYOXSL5Tyfra8IQ==|920

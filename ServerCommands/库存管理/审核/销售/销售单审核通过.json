@@ -1,0 +1,107 @@
+{
+  "Name": "销售单审核通过",
+  "Description": "销售审核通过仅需要更新状态便可出库流转了",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "Name": "审核实例ID"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "销售单ID",
+          "TableValue": {
+            "TableName": "销售订单表",
+            "OnlyGetValue": true,
+            "TableValueType": 0,
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "销售订单表",
+                  "ColumnName": "ID",
+                  "GUID": "00e239c3-b18f-4270-b9e4-ef37e5973772"
+                },
+                "ColumnName": "ID"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "销售订单表",
+                "ColumnName": "审核实例ID",
+                "GUID": "a7425e83-1571-4df8-a0fd-25db14cb746a"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=审核实例ID"
+              }
+            }
+          },
+          "ID": "7ecff352fc3e44af8992d5ba316965d6"
+        },
+        {
+          "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+          "ServerCommandName": "关联供应商客户与物品",
+          "Parameters": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+              "ParamName": "业务单ID",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=销售单ID"
+              }
+            },
+            {
+              "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+              "ParamName": "业务类型",
+              "Value": "销售"
+            }
+          ],
+          "RefreshAfterFinish": true,
+          "CheckDataValidation": true
+        },
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "销售订单表",
+          "ShowConfirm": false,
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "销售订单表",
+              "ColumnName": "ID",
+              "GUID": "1a718fcf-5f5f-4a1c-a7dc-5b8b64336579"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=销售单ID"
+            }
+          },
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "销售订单表",
+                "ColumnName": "审核状态",
+                "GUID": "99e2282a-3481-4c2c-8331-a6f329415f3c"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=3"
+              }
+            }
+          ],
+          "Comments": "将状态变更为已审核，出入库便可以流转了"
+        }
+      ]
+    }
+  ]
+}

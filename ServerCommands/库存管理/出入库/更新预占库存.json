@@ -1,0 +1,207 @@
+{
+  "Name": "更新预占库存",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "Name": "物品ID",
+          "TestData": "1"
+        },
+        {
+          "Name": "占用数",
+          "TestData": "10"
+        },
+        {
+          "Name": "出入库标识",
+          "TestData": "5"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=出入库标识"
+              }
+            },
+            "value": "5"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "库存占用校验",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "占用数",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=占用数"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "物品ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=物品ID"
+                  }
+                }
+              ],
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true,
+              "Comments": "出库时需要判断可用库存的数量，保证锁定成功"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "出库预占库存",
+              "TableValue": {
+                "TableName": "物品表",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "物品表",
+                      "ColumnName": "待出库",
+                      "GUID": "9498609c-57f8-4261-8e38-b29a77e2f789"
+                    },
+                    "ColumnName": "出库预占库存"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "物品表",
+                    "ColumnName": "ID",
+                    "GUID": "567e3fc3-76d2-4229-9286-10fd0000c0ec"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=物品ID"
+                  }
+                }
+              },
+              "ID": "b4fbe906851747649cd1dac438bc8c8e"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "物品表",
+              "ShowConfirm": false,
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "物品表",
+                  "ColumnName": "ID",
+                  "GUID": "f8bdb178-37b6-43c1-ab9d-3a7f6669c892"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品ID"
+                }
+              },
+              "UpdateBindingValues": [
+                {
+                  "BindingInfo": {
+                    "TableName": "物品表",
+                    "ColumnName": "待出库",
+                    "GUID": "a7c93a2f-20f5-4e60-bf2f-25046992efe5"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=出库预占库存+占用数"
+                  }
+                }
+              ]
+            }
+          ],
+          "Comments": "出库",
+          "ID": "818d3bf6-22d0-42be-8b88-d6f8bac82384"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "入库预占库存",
+              "TableValue": {
+                "TableName": "物品表",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "物品表",
+                      "ColumnName": "待入库",
+                      "GUID": "7429d06a-9670-4640-8d0d-715196ddc09c"
+                    },
+                    "ColumnName": "入库预占库存"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "物品表",
+                    "ColumnName": "ID",
+                    "GUID": "65d01b92-a990-402d-96cf-463d9add241b"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=物品ID"
+                  }
+                }
+              },
+              "ID": "5e0b511f0f3a4f45a255c51a8211f6fd"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "物品表",
+              "ShowConfirm": false,
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "物品表",
+                  "ColumnName": "ID",
+                  "GUID": "915745ad-caa6-4f63-96c1-2dbcb7fc90e4"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=物品ID"
+                }
+              },
+              "UpdateBindingValues": [
+                {
+                  "BindingInfo": {
+                    "TableName": "物品表",
+                    "ColumnName": "待入库",
+                    "GUID": "a54b6616-5b02-4b1c-bb64-3cab051d89bd"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=入库预占库存+占用数"
+                  }
+                }
+              ]
+            }
+          ],
+          "Comments": "入库",
+          "ID": "977f3060-30ec-4bf0-b103-e036642384be"
+        }
+      ]
+    }
+  ]
+}

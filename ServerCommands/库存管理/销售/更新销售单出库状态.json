@@ -1,0 +1,279 @@
+{
+  "Name": "更新销售单出库状态",
+  "Description": "判断销售单包含的所有商品已出库，如果全部出库则更新为已出库",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "Name": "销售单号",
+          "TestData": "XS-20221227-0002"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "仓库主管1"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "销售单物品列表",
+      "TableValue": {
+        "TableName": "销售订单详情表",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "销售订单详情表",
+              "ColumnName": "物品ID",
+              "GUID": "7279224d-40ec-4fd8-90a1-056304791e7b"
+            },
+            "ColumnName": "物品ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "销售订单详情表",
+              "ColumnName": "销售数量",
+              "GUID": "9faaf6dd-040e-455c-abf8-3755a2b3ef18"
+            },
+            "ColumnName": "销售数量"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "销售订单详情表",
+              "ColumnName": "物品ID",
+              "GUID": "17b27754-8918-41d9-8a24-f8f0c33d8c5e",
+              "RelationBinding": {
+                "RelatedTable": "物品表",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "名称"
+              }
+            },
+            "ColumnName": "物品名称"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "销售订单详情表",
+            "ColumnName": "销售订单ID",
+            "GUID": "cbf79759-61f0-48f6-be58-11fc532601e6",
+            "RelationBinding": {
+              "RelatedTable": "销售订单表",
+              "RelatedColumn": "ID",
+              "DisplayColumn": "单号"
+            }
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=销售单号"
+          }
+        }
+      },
+      "ID": "4a20e17251664f14afab3a8364b13928"
+    },
+    {
+      "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+      "LoopInfo": {
+        "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+        "LoopCount": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=销售单物品列表"
+        },
+        "LoopItemParamName": "Item"
+      },
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "已出库数列表",
+          "TableValue": {
+            "TableName": "出入库详情表",
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "出入库详情表",
+                  "ColumnName": "数量",
+                  "GUID": "76f0d440-f935-4736-bd67-43003314ec46"
+                },
+                "ColumnName": "数量"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "出入库详情表",
+                    "ColumnName": "物品ID",
+                    "GUID": "4671e7dc-545a-4827-bf65-75cd87640464"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.物品ID"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "出入库详情表",
+                    "ColumnName": "出入库ID",
+                    "GUID": "277d49c2-05d0-455d-bfa4-3b48a6f039ed",
+                    "RelationBinding": {
+                      "RelatedTable": "出入库表",
+                      "RelatedColumn": "ID",
+                      "DisplayColumn": "其他出入库对象"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=销售单号"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "出入库详情表",
+                    "ColumnName": "出入库ID",
+                    "GUID": "90653ca6-c6a7-48b8-abe8-3e207205cbc7",
+                    "RelationBinding": {
+                      "RelatedTable": "出入库表",
+                      "RelatedColumn": "ID",
+                      "DisplayColumn": "审核状态"
+                    }
+                  },
+                  "Value": "3"
+                }
+              ]
+            }
+          },
+          "ID": "39ed90027807430b9efda03d5ee2de6d"
+        },
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "已出库总数",
+          "ParameterValue": "0",
+          "ID": "45b55c43cbf742c19780c4ab08f91dc9"
+        },
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=已出库数列表"
+            },
+            "LoopItemParamName": "subItem"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "已出库总数",
+              "ParameterValue": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=已出库总数+subItem.数量"
+              },
+              "ID": "1b79af25817447819172d9bf4f7da728"
+            }
+          ]
+        },
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=已出库总数"
+                  }
+                },
+                "value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Item.销售数量"
+                },
+                "compareType": 1
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "销售订单表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "销售订单表",
+                      "ColumnName": "单号",
+                      "GUID": "81f16d9d-fe69-48a7-90af-7553282b46d1"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=销售单号"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "销售订单表",
+                        "ColumnName": "出库状态",
+                        "GUID": "b02442aa-627e-487e-87d8-71ca7cd7c889"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=9"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                  "ErrorCode": "0",
+                  "Message": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.物品名称&\"未完全出库\""
+                  }
+                }
+              ],
+              "ID": "c185c7e6-02a4-4fe4-9cd8-b64fafd0f04a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "销售订单表",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "销售订单表",
+          "ColumnName": "单号",
+          "GUID": "ef1a899f-92cc-44d2-92dd-93194945a072"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=销售单号"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "销售订单表",
+            "ColumnName": "出库状态",
+            "GUID": "4e3e816f-504c-4ebd-9265-3a77843771bb"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=10"
+          }
+        }
+      ]
+    }
+  ]
+}

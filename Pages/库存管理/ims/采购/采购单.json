@@ -385,7 +385,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "83cc3871-fe1c-42e3-b6a2-6864a398efae"
+                "ID": "2aaf1e0b-2aa0-4008-838b-39bc92a2533f"
               }
             ]
           },
@@ -424,7 +424,7 @@
                   }
                 ],
                 "Comments": "新建",
-                "ID": "748c6cc9-c7e7-48f9-9948-bca888085ac2"
+                "ID": "5305a117-316b-4db3-88ae-133646dbbd2c"
               },
               {
                 "CommandList": [
@@ -456,7 +456,7 @@
                     ]
                   }
                 ],
-                "ID": "9d5ba3b0-41a2-4ffb-b77a-91d0f3928e73"
+                "ID": "5dc58818-826e-4a0f-a1fe-480323219189"
               }
             ]
           }
@@ -496,7 +496,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "9f053dfd-9729-45f2-8341-4e35802006f5"
+                "ID": "1a3fb25f-a80f-4853-9dbd-b21eb005ca96"
               }
             ]
           },
@@ -544,7 +544,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "b7db31c5-0dee-47c0-a964-45db2aad5503"
+                "ID": "fe81a0cb-853b-42d9-bf9c-eb33424ae903"
               }
             ]
           }
@@ -825,7 +825,7 @@
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
             "TargetTableName": "采购订单表",
-            "ID": "8c29f1dbbe05418bbb9f8f8295bec6f6"
+            "ID": "9cce3fea9ac4432b962de3d281d5623a"
           }
         ],
         "Text": "重置",
@@ -968,7 +968,7 @@
                 }
               ]
             },
-            "ID": "74174c3b613642cf942bf20f7efd8861"
+            "ID": "d3bc5207c0754ca8b58b578f9e94d60f"
           }
         ],
         "Text": "查询",
@@ -1121,7 +1121,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=采购单!C12"
                     },
-                    "ID": "3172eb3253c04533b638dc5385d06520"
+                    "ID": "99a105ee810e472ba904d348e40f939a"
                   },
                   {
                     "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
@@ -1202,7 +1202,7 @@
                             ]
                           }
                         ],
-                        "ID": "387a6015-5165-4b46-985c-ef932689d437"
+                        "ID": "50d873c0-a692-46b9-8e01-974acb528107"
                       },
                       {
                         "CommandList": [
@@ -1246,12 +1246,12 @@
                             ]
                           }
                         ],
-                        "ID": "2c76673d-5f60-48fe-8a4d-bf58b16db1f8"
+                        "ID": "0db82936-9613-4fc1-ba3b-4b33f0fb0102"
                       }
                     ]
                   }
                 ],
-                "ID": "49d4591f-3008-48c3-8961-f7b85e94f651"
+                "ID": "fa296d4b-2b5b-4f49-bf19-7305e0466814"
               }
             ]
           }
@@ -1519,7 +1519,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "aab01c63-2b96-459e-a338-669dcf4a99ba"
+                "ID": "9846ceb5-ecbb-4334-9536-4870272a0d2f"
               },
               {
                 "CommandList": [
@@ -1559,7 +1559,7 @@
                     ]
                   }
                 ],
-                "ID": "0f946ad2-1644-4312-8400-93a2d9e88ece"
+                "ID": "509e6f44-f464-4420-ba07-2d29aba24c3f"
               }
             ]
           }
@@ -1611,7 +1611,7 @@
                     "PageName": "发票记录"
                   }
                 ],
-                "ID": "22628751-4ec8-40b6-afc0-db3dea58e472"
+                "ID": "b0a81ac4-2f16-47c5-90eb-26bea7d3f85d"
               },
               {
                 "CommandList": [
@@ -1651,7 +1651,7 @@
                     ]
                   }
                 ],
-                "ID": "bd3eb83b-b18a-4d44-830e-b6cceb413919"
+                "ID": "709a9112-3ce5-4a1c-9583-69d78c22d6c6"
               }
             ]
           }
@@ -2886,4 +2886,4 @@
       "Size": "1263,496"
     }
   ]
-}//T36JnvQrVuD9shjo6CBECR8C6xmi55rv7ICQrBxdoa1mkhv7yFJJboJ6CgM+m7Az62Xvk3hmDgjRalXywQ2bpr7zvyknmHAgfuR1KpYMcFKE3Cv0lpt7GI4cMHfW3xtdSgeGBlkBxAQqmcMBu6B/7Eus7cq25hKuNpT0d4yFV1N5hv82zj7yY5ghADLLCIaa6WGlWMXevB6LGTA0hBXvB/M8RChtIXuH4CniAQaITQfME7j6dY06Ib6PTJTPRsFRLfQ0PKM6VvltQCkoUkdrgARrPbV/b54Gts6QS/OkGXgD23t/KyMPDrGa7rKUnM0ahBItgQYh2uSGimQa2cGkGrYPg299by8iss2lYigHiO6ohZhykv7lGGWc3eQdauyRTm5Z93jucSt4HXsAarF99h3KaXefUhEC/3XKBMXcZ9pdTJTXl0yL14sWzKULn2xp4YezHuARLyR+f/pCcCgDMQsM7Fybor/e17+QYHHF13imWWgQ0gstK2OZ6LydAPvYVgiJe7i+uHyzRiN6oQD1vtNzqD88gvX6LHf4lafAxH/w3urcjWVl9BZqOzsMHWyKwtQZneOKLsWKVeIgt7nXnAyTJsGd40qtyZU1tM2PcYC7VK+3lQNV8toLnd+w6ZLir/wewZQVFJDBvW6PdPeGZZC5AMwZmQWjQGUyRQcGQ68K6+W6NC6lvmJnY5LZWwXnUf9QyTyF3e5zEiYdWqWj9RlnUCbCJPXDkksfzR9nHabi7S/VbhSiKzqNlRgqSO2gY6l6hF+8NtTWwn0EW4OtPLiflC/L2SX+cuWRMfNojBeZghQcxeyYmqr28oYkTt+RB2mZK82lbo8TGuYnCe/lhy80jo7XUmH2m2wDNFhJBnKcwME58xzUoNr+GOnxwsYVpXGhLFMnZjRsrDvyTxhQlQ==|920
+}//TZzV/416EykNptfDMcYf7/P6Mn6NwNfixJG3b3AzA/jQ8jqya6E5hi4ybRPmWgfMqzth5yygmji5jtR6jatc4+z0xSSZSvBPzaNndxc2jXw6cPGrZWksc4Jiu2NMvGCsrWqrvK4Ll8cOESdYzDgmsplZHTyyiHE5Q6A5p2NsWIvv/NXsq8s/gor9f34BDh5VuBNus7M1ZpyO1ZkbvrQ65dvDYgkBlrgfIa6+8eYre2AhRT68iQLQLClNxKPWL+wtouj8DqiOY62OBqNWl20N/B7v+7cagi0UTneCkkhlUh2pEeOhzm+RLBPVqGt0luEbfPtegZkjbTqxXF/4X13miGP5amJWF7XdUyKy7KXCIbbu5/xVVV3sdm+gM2Y1jtIXhJerx3CqAS4hb0CcWAIi7L2u//RXzkDy1ft4LfBYdtYWpsozWpUGhbSRl9zn2XR/2s41HMiTKLIQRfVQaF62XcYRWNj1i2WK4G4U0jTVLKSyq2VopB9cUXvzy4HbeXrZrxBo0LgTKduqYF2n4ELKly9iBB//a2PL/5BcTLAMROAlpz/SnkEdWxjHGD/P21kSGW3s8bsWAsqbY1h1cNsKzMGRmi8vnzVFL9BcCe1r2/iI+QoirqJwK6KQxQ2lCZERvwcSQ/YJt80Gy524kzZ4+UiRLrrlXDP5GdUDYanJl+87S3VXxuLNeM/AU3/HJTxCTQZ1XGKfXpWb3YDY6UKY7NDQofV34JvVi2zEu8+qWZf5NJEyrWT6ta5A4FL/1mmQH8YTaAecivJrpXKrQ+wCfzHqN2ReYjJzsGYLupTT53gTxt4Gcd7sPnvCB0rLaLG8iXT9HqkouwniKYB3AKjx4I/HjN4d+rzyxyAIqj+D1rRM8sIpaHvi0347IrPk9eALTTSGcdQ0a+1nvGcrEm/NxA==|920

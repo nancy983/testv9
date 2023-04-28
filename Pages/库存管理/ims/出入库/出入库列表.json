@@ -609,7 +609,7 @@
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
             "TargetTableName": "出入库表",
-            "ID": "0fe043e93a514dfd8a6920c9f94b377a"
+            "ID": "4b492918a2ee45538d802cfd5c0c9d59"
           }
         ],
         "Text": "重置",
@@ -690,7 +690,7 @@
                 }
               ]
             },
-            "ID": "07b11eb670154c13b657604d6d5c568b"
+            "ID": "51bd4cd943874f35a4bd169e0be768e3"
           }
         ],
         "Text": "查询",
@@ -750,7 +750,7 @@
                     ]
                   }
                 ],
-                "ID": "f64b6c82-886e-4ba0-9d92-e581f3daf05c"
+                "ID": "86f1e0b9-b404-48eb-bcd5-427bc6a8a268"
               },
               {
                 "Condition": {
@@ -783,7 +783,7 @@
                     ]
                   }
                 ],
-                "ID": "bc3c5f05-652f-4151-bd10-fdb85226a2cb"
+                "ID": "fe042908-a7dc-45f1-a754-5b0d4f88f32c"
               },
               {
                 "Condition": {
@@ -825,7 +825,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "7dfe647e-7566-42b7-85ba-5ddf100107b3"
+                "ID": "df340c84-8d77-4d36-ba63-12a1f9568a80"
               }
             ]
           }
@@ -1188,7 +1188,7 @@
                     ]
                   }
                 ],
-                "ID": "dbcadff1-31c8-4c36-8695-27760832401e"
+                "ID": "4418a97d-617a-49e7-932a-6f1706084cce"
               },
               {
                 "CommandList": [
@@ -1233,7 +1233,7 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=出入库列表!C12"
                             },
-                            "ID": "258415c3c21c43a1bfe8de9262db1f92"
+                            "ID": "c585928f52094ca7a4c2394548db2a8c"
                           },
                           {
                             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1242,7 +1242,7 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=出入库列表!BQ9"
                             },
-                            "ID": "b975aae38e2e4d1fa208c77d662f196c"
+                            "ID": "329395232e5f4b88ba44f8798fc2a230"
                           },
                           {
                             "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
@@ -1323,7 +1323,7 @@
                                     ]
                                   }
                                 ],
-                                "ID": "2b07941e-40c9-4022-8583-4a83333980aa"
+                                "ID": "4e510f58-0919-4442-a4f6-e0c4edb1a938"
                               },
                               {
                                 "CommandList": [
@@ -1367,17 +1367,17 @@
                                     ]
                                   }
                                 ],
-                                "ID": "2fa29914-0d11-472c-bab8-52ce2ad14545"
+                                "ID": "3e819994-1e9c-404c-82b2-f26be0047558"
                               }
                             ]
                           }
                         ],
-                        "ID": "2e2cae3b-624a-49b2-a54a-f62b8e2da3f6"
+                        "ID": "33a3afcc-29bc-42b1-8e01-a4103e0e4d9e"
                       }
                     ]
                   }
                 ],
-                "ID": "ce330148-409d-4724-9937-70b0227a9bc0"
+                "ID": "4e1513a8-19cd-42d8-b44f-5a7c402b0ef7"
               }
             ]
           }
@@ -1430,7 +1430,7 @@
                 }
               }
             ],
-            "ID": "94257ffe704f42c4a33cca40ee2b31a4"
+            "ID": "2907d02cc10f43de9619e430c1420028"
           }
         ],
         "ImagePath": "Application/053_settings_4.svg",
@@ -1585,7 +1585,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "3f213d9e-9a53-4ecd-bc57-4997fde092e9"
+                "ID": "3511f4c7-4ff1-42ad-922f-3fac50ef3d99"
               }
             ]
           }
@@ -1891,7 +1891,7 @@
                     "LoadBindingDataOption": 2
                   }
                 ],
-                "ID": "fc5708e9-5e85-4be5-8881-272611646fe5"
+                "ID": "9c3768ef-f6e7-4303-b99f-9ff0f8c07cc1"
               }
             ]
           }
@@ -3105,4 +3105,4 @@
       "Size": "1567,480"
     }
   ]
-}//OvL6xZQ8EqYL3vRb7LDBitXNBC0pkJ0DnmHmRhLhr5TvDfh2zJB9Jux3/tOKtKHMqescWmbTnZWRJyEkYUm7Qo0wkQdHGmFu/Q1Gs8KW9AyTIQSyr33ZIEtEG6l1fcICPJFagRPFtOh17tLPfcUFYES6DzYjRxZ77EwYwNqUsVNnYbrtGBcdobMOD2gYkni5n3j0NWUl/3TlTgl3j0GGyRDy3h/w7xiZB1n5k/VFgYdDi2fkCsA+ivfHpWNOr/129Pdks7GM31/0+SNbEJsn8ym9r3bCTTN+UBSLiSjdHVF4PzTwJOmjmkRYzIvGTsq/eTViXf1witXXaRt3svKRBjnuj21A6MoONnW/CqwAC6jf9gOuDKk9AEGA0KFGzVRpxoBXmp7MGFCxFGBY1uYBGcdM0bpWPA4eFNQYPKgPlyotCoB8C9X/ljF/B2hGUShgZoGK/+CQzE+6HfjYQNGgXNSYxwVUFGF+bZnVYDzzdzPFur0dCABy9oHo8MyVL93m5pyoV3x1kJyRSb5Sk9r3Td7mPKpy624op856BCl3cV3S+r3Sqkatv9oQ6BDGt5Pez6oCl4Arl06wpsNG6PB8QCtlIVgn1N0zCHnLOJA9EZKVYgbVm8keDZW1EKDiau3R9xZxlX0Yp2QEhy9kHIAq70p4rRMpiEIak8E/T32hstj6+bVhtCSBoYDVskszzv3jMjiuBTsr6WrXsbjuhBy4/ZJOeashVRMU8INEYmde/gvgjFAUei1Kug7FOMWP1FKQrQfLcQyB6TAZ/9ajSudlhi8ta1JUQy4WSDSiSoJ2niNG5WRebaLuW2IpUUyHD2WtpXT8RrUDdjciTzMHF5sQM+GWIhvNbxxz0wkTy9B24YUNXCXguK+qQKsS9essBkeW899Mr9YT4KqsI8u0+e3RBQ==|920
+}//an08TzbVsnrtrT08adMX1NDMgv8dGXK4jXoWogy5++hlOofbgFJNa4q3G8g7UAwfkLrALzTwJchZ30uLO755fvfQFNVtHQ0xyewgOzFs8IQeXVQUBKryUrDJlludRf60yoqMspPRfkhDjIapJcfX2kt+2mXOSO4r9o6MNFI+pkmBxQUJZi2yvVDky3WbCXWns4GWo1eIo32lTw7ybhrnz+Sdb6fac6u8XsKUUd//d1c2kcH1dvmnANWNroI0liX1u5eCBe/yWJiMq8Em16AReiKEdsz1/aQm4JnvEFkVCbQ84ZWkbU+kj+XOV2O9HLStFMNmzQmukpd+hkxtmvrRaefhdW0d5XXaCjvvduZWWHXGq2JcpmJsBUa0hlOtfzTHdNfq0tWqyqa0/DmGSuDvwx7BbEELHTzGHuEkeqH6DaTiI4XQPU4j+nXZObxjd3/qzgiagyLCNbyO77MPC+ne+pAqPGJBXwGq7WcgpyJ4Lmg9wIl17NZS9lk+OsSB6Tm6MAV+TRhavgbbEWxV15mwhYIt8ZfUz8aaoqoA6eDOu5KJO2rhFbEDWkWFHF0EjRov/4pZlUiQAzutyYznWMcEMc5ioO7vXwaw2ypMras4HF0orocPCnYv/vhKxbro7MFGM4gf9hNLgNOMrsB6rdmF/gYr6s11yHbm7lKH7LG2lkytcK4oGqYmo3mnv1TV6E+N3PGsk0O7dWF0iY628Dk3Q0gPdZH/alcrQdD3Hyx6jwv8ZbhJH55ZTAwMWMX+7Cx43bsCMxHQ/pnEwOILqF2N/DJaVJQ7+aP8F2r+SSi7VUy8TnPV5kgiDOyskP8BOelqwLUJ8waiIvtinx+/vSTf1YPKsTErvu9aMery8k7WdZHmA5Clj8tLDcOsNDBC9WpeFY4DB2fOT3TmO8EbJ3Sobg==|920

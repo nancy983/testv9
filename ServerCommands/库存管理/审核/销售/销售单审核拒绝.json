@@ -1,0 +1,48 @@
+{
+  "Name": "销售单审核拒绝",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "Name": "审核实例ID"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "销售订单表",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "销售订单表",
+          "ColumnName": "审核实例ID",
+          "GUID": "ee199424-a0ae-43ae-a2cc-cddfd91d55c5"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=审核实例ID"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "销售订单表",
+            "ColumnName": "审核状态",
+            "GUID": "205dd66e-9af7-476f-a98c-a60a562fa3a0"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=4"
+          }
+        }
+      ],
+      "Comments": "将状态变更为被拒绝"
+    }
+  ]
+}

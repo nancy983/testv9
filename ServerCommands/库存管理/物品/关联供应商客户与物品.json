@@ -1,0 +1,359 @@
+{
+  "Name": "关联供应商客户与物品",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "Name": "业务单ID"
+        },
+        {
+          "Name": "业务类型"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=业务类型"
+              }
+            },
+            "value": "采购"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "采购物品详情",
+              "TableValue": {
+                "TableName": "采购订单详情表",
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "采购订单详情表",
+                      "ColumnName": "物品ID",
+                      "GUID": "be75efd0-e11b-4589-9e55-40d802a2631f"
+                    },
+                    "ColumnName": "物品ID"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "采购订单详情表",
+                      "ColumnName": "采购订单ID",
+                      "GUID": "c1c06bb6-e0f8-42a9-a315-f22e39bb2cf1",
+                      "RelationBinding": {
+                        "RelatedTable": "采购订单表",
+                        "RelatedColumn": "ID",
+                        "DisplayColumn": "供应商ID"
+                      }
+                    },
+                    "ColumnName": "供应商ID"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "采购订单详情表",
+                    "ColumnName": "采购订单ID",
+                    "GUID": "4c75646e-3d90-4c98-ae4c-cf0d2e15a7a9"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=业务单ID"
+                  }
+                }
+              },
+              "ID": "098adb1198eb4f6795ada86f13de250f"
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=采购物品详情"
+                },
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "关联记录数",
+                  "TableValue": {
+                    "TableName": "供应商客户物品相关表",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "供应商客户物品相关表",
+                          "ColumnName": "数量",
+                          "GUID": "9554f6be-d6f4-40fb-b422-59aded425447"
+                        },
+                        "ColumnName": "数量"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "供应商客户物品相关表",
+                            "ColumnName": "供应商_客户ID",
+                            "GUID": "acfb3cca-68c0-4de5-8347-d60675fe6e28"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.供应商ID"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "供应商客户物品相关表",
+                            "ColumnName": "物品ID",
+                            "GUID": "2ae7d091-a771-441c-a5db-9a39620d18c0"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.物品ID"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "ID": "565c0cbc27534b92a2fe306aca1c45e6"
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                          "ParamObject": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=关联记录数"
+                          }
+                        },
+                        "value": "0"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "供应商客户物品相关表",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": [
+                            {
+                              "BindingInfo": {
+                                "TableName": "供应商客户物品相关表",
+                                "ColumnName": "供应商_客户ID",
+                                "GUID": "d5bc8092-1b8a-4d6a-a03a-8eed42512f98"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=Item.供应商ID"
+                              }
+                            },
+                            {
+                              "BindingInfo": {
+                                "TableName": "供应商客户物品相关表",
+                                "ColumnName": "物品ID",
+                                "GUID": "f561b3d3-2014-45b7-b364-f27e71cd2c5b"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=Item.物品ID"
+                              }
+                            }
+                          ],
+                          "ParamNameToSaveNewRowValue": ""
+                        }
+                      ],
+                      "ID": "c3fbaf47-8467-4fa2-bda3-6de00ac3ba87"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "ID": "7eaf84b6-9703-490d-a043-cebadfd18f72"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "销售物品详情",
+              "TableValue": {
+                "TableName": "销售订单详情表",
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "销售订单详情表",
+                      "ColumnName": "物品ID",
+                      "GUID": "0a266967-1091-4c0b-ada2-3dd40916e80a"
+                    },
+                    "ColumnName": "物品ID"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "销售订单详情表",
+                      "ColumnName": "销售订单ID",
+                      "GUID": "70d0ac84-df12-4c9e-bbd6-dd69c71159ee",
+                      "RelationBinding": {
+                        "RelatedTable": "销售订单表",
+                        "RelatedColumn": "ID",
+                        "DisplayColumn": "客户ID"
+                      }
+                    },
+                    "ColumnName": "客户ID"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "销售订单详情表",
+                    "ColumnName": "ID",
+                    "GUID": "4a588dca-4094-4f79-b565-868ec0a29b0b"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=业务单ID"
+                  }
+                }
+              },
+              "ID": "f2037febc6cf40c8b5b180c8016a285a"
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售物品详情"
+                },
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "关联记录数",
+                  "TableValue": {
+                    "TableName": "供应商客户物品相关表",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "供应商客户物品相关表",
+                          "ColumnName": "数量",
+                          "GUID": "9d9970ff-69d4-4cb5-ae76-46d3f5a0e492"
+                        },
+                        "ColumnName": "数量"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "供应商客户物品相关表",
+                            "ColumnName": "供应商_客户ID",
+                            "GUID": "9bbed1f7-ed7f-43fc-8eef-cfdca3b49f48"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.客户ID"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "供应商客户物品相关表",
+                            "ColumnName": "物品ID",
+                            "GUID": "d8368d15-1c6d-43c5-b432-1b9da8ee5ae3"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.物品ID"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "ID": "5e06e347691440c4ab81154eb40b4714"
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                          "ParamObject": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=关联记录数"
+                          }
+                        },
+                        "value": "0"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "供应商客户物品相关表",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": [
+                            {
+                              "BindingInfo": {
+                                "TableName": "供应商客户物品相关表",
+                                "ColumnName": "供应商_客户ID",
+                                "GUID": "c9b00166-3424-43c4-84a1-4336e51ac889"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=Item.客户ID"
+                              }
+                            },
+                            {
+                              "BindingInfo": {
+                                "TableName": "供应商客户物品相关表",
+                                "ColumnName": "物品ID",
+                                "GUID": "18658202-9db2-4265-8f32-0f9e8650e309"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=Item.物品ID"
+                              }
+                            }
+                          ],
+                          "ParamNameToSaveNewRowValue": ""
+                        }
+                      ],
+                      "ID": "7336b44f-b5b0-4920-bc5c-c55a96816fd4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "ID": "4ecc2b8f-90a6-498d-88e3-048d87f22e5e"
+        }
+      ]
+    }
+  ]
+}

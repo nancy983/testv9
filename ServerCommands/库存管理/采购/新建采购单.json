@@ -1,0 +1,377 @@
+{
+  "Name": "新建采购单",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "采购员",
+                "采购主管",
+                "Administrator"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "采购日期"
+        },
+        {
+          "Name": "供应商ID"
+        },
+        {
+          "Name": "联系人"
+        },
+        {
+          "Name": "联系电话"
+        },
+        {
+          "Name": "交付日期"
+        },
+        {
+          "Name": "项目ID"
+        },
+        {
+          "Name": "采购员"
+        },
+        {
+          "Name": "采购部门"
+        },
+        {
+          "Name": "总金额"
+        },
+        {
+          "Name": "备注"
+        },
+        {
+          "Name": "交付地址"
+        },
+        {
+          "Type": 1,
+          "ArrayParamItems": [
+            {
+              "Name": "物品ID"
+            },
+            {
+              "Name": "数量"
+            },
+            {
+              "Name": "单价"
+            },
+            {
+              "Name": "备注"
+            }
+          ],
+          "Name": "采购详情"
+        },
+        {
+          "Name": "是否提交申请"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "采购订单表",
+          "UpdateType": "add",
+          "ShowConfirm": false,
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "采购日期",
+                "GUID": "39b55935-6498-47bf-b136-748963ddb43e"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=采购日期"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "供应商ID",
+                "GUID": "4001645e-2b52-4b28-aa07-69e0f5f8b03c"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=供应商ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "联系人",
+                "GUID": "016656dd-637e-47c8-869e-60404a3271ae"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=联系人"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "联系电话",
+                "GUID": "97c95197-8a5a-4641-ae5f-24c6f35db01e"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=联系电话"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "交付日期",
+                "GUID": "287fb00d-65a4-4a75-995e-9aff968d7f8d"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=交付日期"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "项目ID",
+                "GUID": "688f7273-a8a6-484c-82cb-cd214da9aa0d"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=项目ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "采购员",
+                "GUID": "edfca30d-77d1-47b9-9f1b-69c552ed89a2"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=采购员"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "采购部门",
+                "GUID": "970d4890-c735-41bf-a67f-f156403db836"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=采购部门"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "总金额",
+                "GUID": "030765ac-9dff-4170-a78b-ad2c896d8500"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=总金额"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "备注",
+                "GUID": "a8dd6648-8bcc-40ca-b659-ebe1f52a1b41"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=备注"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "交付地址",
+                "GUID": "534e517b-9a2d-412c-9559-1a05cecb2179"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=交付地址"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "入库状态",
+                "GUID": "e2ac1a2c-3d70-403a-8d3e-262ea2840f96"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=5"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "已付款金额",
+                "GUID": "7afd905b-8170-4848-b522-3b1f7d2143c4"
+              },
+              "Value": "0"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "已到票金额",
+                "GUID": "f3a36d9c-cc7e-499d-9ab2-82649b0c45c7"
+              },
+              "Value": "0"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "审核状态",
+                "GUID": "27b64957-3e14-4d54-908f-865d1e87312f"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=1"
+              }
+            }
+          ],
+          "ParamNameToSaveNewRowValue": "采购单"
+        },
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=采购详情"
+            },
+            "LoopItemParamName": "Item"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "采购订单详情表",
+              "UpdateType": "add",
+              "ShowConfirm": false,
+              "UpdateBindingValues": [
+                {
+                  "BindingInfo": {
+                    "TableName": "采购订单详情表",
+                    "ColumnName": "采购订单ID",
+                    "GUID": "46dc3650-25be-4841-8670-0ccdee87f30c"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=采购单.ID"
+                  }
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "采购订单详情表",
+                    "ColumnName": "物品ID",
+                    "GUID": "cea464b6-0719-4713-b8f7-563ef4382d48"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.物品ID"
+                  }
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "采购订单详情表",
+                    "ColumnName": "采购数量",
+                    "GUID": "cc257a69-4ebe-488a-97c2-d8a0eb069a4c"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.数量"
+                  }
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "采购订单详情表",
+                    "ColumnName": "单价",
+                    "GUID": "6934ba2d-f76f-49b6-9144-269908e8ad76"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.单价"
+                  }
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "采购订单详情表",
+                    "ColumnName": "备注",
+                    "GUID": "6904fc1a-8100-46bc-938d-92b6d77f9773"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.备注"
+                  }
+                }
+              ],
+              "ParamNameToSaveNewRowValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=是否提交申请"
+              }
+            },
+            "value": "是"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "提交审核申请",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "审核类型",
+                  "Value": "采购"
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "业务单ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=采购单.ID"
+                  }
+                }
+              ],
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true
+            }
+          ],
+          "ID": "a00a66c2-ce06-46ad-908f-3979bf20791a"
+        }
+      ]
+    }
+  ]
+}

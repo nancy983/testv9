@@ -1,0 +1,227 @@
+{
+  "Name": "出入库审核通过",
+  "Description": "审核通过时需要将真实库存与状态更新",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "Name": "审核实例ID",
+          "TestData": "7772a054-84f8-11ed-9004-80b655a5bea4"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "出入库单",
+      "TableValue": {
+        "TableName": "出入库表",
+        "TableValueType": 1,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "ID",
+              "GUID": "54c5d18f-7057-45eb-b30f-624ff6270bf6"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "出入库",
+              "GUID": "830793a7-c965-40e9-9ea3-68ad93453db1"
+            },
+            "ColumnName": "出入库"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "单号",
+              "GUID": "fd13e7d2-c340-4730-8649-ce5002162824"
+            },
+            "ColumnName": "单号"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "其他出入库对象",
+              "GUID": "08a7a1a3-bcb8-4669-98f9-f6e15e1e4e30"
+            },
+            "ColumnName": "其他出入库对象"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "类型",
+              "GUID": "4e2f39c3-80d1-4f4d-872d-b2ca8e3701f4"
+            },
+            "ColumnName": "类型"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "出入库表",
+            "ColumnName": "审核实例ID",
+            "GUID": "b633d5e8-b3d8-438b-b9fb-f53164179678"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=审核实例ID"
+          }
+        }
+      },
+      "ID": "bfa140b1bd5d4e429cd941ee785d6266"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "出入库物品数组",
+      "TableValue": {
+        "TableName": "出入库详情表",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "出入库详情表",
+              "ColumnName": "物品ID",
+              "GUID": "18df83b9-18ae-4b14-858c-68c1bc540eca"
+            },
+            "ColumnName": "物品ID"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "出入库详情表",
+              "ColumnName": "数量",
+              "GUID": "ab198dc5-7b7e-4622-8d4c-92aad5b292d6"
+            },
+            "ColumnName": "数量"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "出入库详情表",
+            "ColumnName": "出入库ID",
+            "GUID": "c992f853-eeeb-4db7-8ec0-5c53a5ffd3b0"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=出入库单.ID"
+          }
+        }
+      },
+      "ID": "a648046e011e4d07a1da5a030b604a8f"
+    },
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=出入库物品数组"
+            },
+            "LoopItemParamName": "出入库物品"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "更新真实库存",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "物品ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=出入库物品.物品ID"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "占用数",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=出入库物品.数量"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "出入库标识",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=出入库单.出入库"
+                  }
+                }
+              ],
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true,
+              "Comments": "变更物品的真实库存"
+            }
+          ]
+        },
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "出入库表",
+          "ShowConfirm": false,
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "ID",
+              "GUID": "579ea3e3-712f-48f1-a4e6-2b2d51994688"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=出入库单.ID"
+            }
+          },
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "出入库表",
+                "ColumnName": "审核状态",
+                "GUID": "3f5fe638-de23-4762-b102-13344986228d"
+              },
+              "Value": "3"
+            }
+          ],
+          "Comments": "将状态变更为已审核"
+        },
+        {
+          "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+          "ServerCommandName": "更新流转单状态",
+          "Parameters": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+              "ParamName": "业务单号",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=出入库单.其他出入库对象"
+              }
+            },
+            {
+              "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+              "ParamName": "出入库类型",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=出入库单.类型"
+              }
+            }
+          ],
+          "RefreshAfterFinish": true,
+          "CheckDataValidation": true,
+          "Comments": "如果是流转过来的，要将对应的状态修改"
+        }
+      ]
+    }
+  ]
+}
