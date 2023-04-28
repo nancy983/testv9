@@ -6617,12 +6617,12 @@
   },
   {
     "ModuleName": "UserControlPage/验证组件信息",
-    "State": 4,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\EmmaZhao",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2023-04-28T16:37:20.8651986+08:00",
+    "LockDateTime": "2023-04-28T16:37:38.715471+08:00",
     "ModuleType": 31,
     "ToRemoveFiles": [
       "UserControlPages\\验证组件信息.json"
@@ -6769,5 +6769,15 @@
     },
     "LockDateTime": "2023-04-28T16:37:14.9927173+08:00",
     "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/请假流程表单",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T16:37:38.7154889+08:00",
+    "ModuleType": 31
   }
 ]
