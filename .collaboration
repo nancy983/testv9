@@ -4168,11 +4168,29 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令5",
-    "ModuleType": 15
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:21:30.9115391+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\服务端命令5.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/数组和导入导出CSV",
-    "ModuleType": 15
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:21:30.9115466+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\数组和导入导出CSV.json"
+    ]
   },
   {
     "ModuleName": "ServerCommands/ServerCommand",
