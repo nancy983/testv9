@@ -1191,17 +1191,50 @@
   },
   {
     "ModuleName": "ProcessItem/出入库审核",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:06:44.3323174+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\库存管理\\出入库审核.json",
+      "Process\\库存管理\\出入库审核.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/采购单审核",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:06:44.3323144+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\库存管理\\采购单审核.json",
+      "Process\\库存管理\\采购单审核.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/销售单审核",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:06:44.3323194+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\库存管理\\销售单审核.json",
+      "Process\\库存管理\\销售单审核.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -1416,7 +1449,18 @@
   },
   {
     "ModuleName": "ProcessItem/流程1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:06:44.3323125+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\流程1.json",
+      "Process\\流程1.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -4845,7 +4889,18 @@
   },
   {
     "ModuleName": "ProcessItem/啊实打实打算",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:06:44.3323212+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\啊实打实打算.json",
+      "Process\\啊实打实打算.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -8041,18 +8096,18 @@
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:06:20.4748164+08:00",
+    "LockDateTime": "2023-04-28T16:06:44.3322936+08:00",
     "ModuleType": 28,
     "ExclusiveType": 1
   },
   {
-    "ModuleName": "Process/导入文件夹1",
+    "ModuleName": "Process/branty",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:06:20.4748267+08:00",
+    "LockDateTime": "2023-04-28T16:06:44.3322585+08:00",
     "ModuleType": 29
   },
   {
@@ -8062,7 +8117,7 @@
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:06:20.474833+08:00",
+    "LockDateTime": "2023-04-28T16:06:44.332297+08:00",
     "ModuleType": 28,
     "ExclusiveType": 1
   },
@@ -8073,7 +8128,7 @@
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:06:20.4748364+08:00",
+    "LockDateTime": "2023-04-28T16:06:44.3323006+08:00",
     "ModuleType": 28,
     "ExclusiveType": 1
   },
@@ -8084,7 +8139,7 @@
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:06:20.4748472+08:00",
+    "LockDateTime": "2023-04-28T16:06:44.3323031+08:00",
     "ModuleType": 28,
     "ExclusiveType": 1
   },
@@ -8095,7 +8150,7 @@
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:06:20.4748493+08:00",
+    "LockDateTime": "2023-04-28T16:06:44.3323072+08:00",
     "ModuleType": 28,
     "ExclusiveType": 1
   },
@@ -8106,7 +8161,7 @@
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:06:20.4748509+08:00",
+    "LockDateTime": "2023-04-28T16:06:44.3323096+08:00",
     "ModuleType": 28,
     "ExclusiveType": 1
   }
