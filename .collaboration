@@ -1679,12 +1679,12 @@
   },
   {
     "ModuleName": "ServerCommands/出入库",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5570995+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0000984+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\出入库"
@@ -1692,12 +1692,12 @@
   },
   {
     "ModuleName": "ServerCommand/修改出入库单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5566251+08:00",
+    "LockDateTime": "2023-04-28T16:15:53.9998374+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\修改出入库单.json"
@@ -1705,12 +1705,12 @@
   },
   {
     "ModuleName": "ServerCommand/删除出入库单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5567198+08:00",
+    "LockDateTime": "2023-04-28T16:15:53.9998529+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\删除出入库单.json"
@@ -1718,12 +1718,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/库存占用校验",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5569539+08:00",
+    "LockDateTime": "2023-04-28T16:15:53.9999807+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\库存占用校验.json"
@@ -1731,12 +1731,12 @@
   },
   {
     "ModuleName": "ServerCommand/新建出入库单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5569661+08:00",
+    "LockDateTime": "2023-04-28T16:15:53.9999874+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\新建出入库单.json"
@@ -1744,12 +1744,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/新建出入库单_私有",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.556998+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.000008+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\新建出入库单_私有.json"
@@ -1757,12 +1757,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/更新流转单状态",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5570077+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0000172+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\更新流转单状态.json"
@@ -1770,12 +1770,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/更新真实库存",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5570351+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0000428+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\更新真实库存.json"
@@ -1783,12 +1783,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/更新预占库存",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5570662+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0000699+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\更新预占库存.json"
@@ -1796,12 +1796,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/释放预占库存",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5570911+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0000922+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\出入库\\释放预占库存.json"
@@ -1809,12 +1809,12 @@
   },
   {
     "ModuleName": "ServerCommands/审核",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5575773+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0005661+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\审核"
@@ -1822,12 +1822,12 @@
   },
   {
     "ModuleName": "ServerCommands/审核/出入库",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5574549+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0004448+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\出入库"
@@ -1835,12 +1835,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/出入库单提交审核",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5573847+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0002093+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\出入库\\出入库单提交审核.json"
@@ -1848,12 +1848,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/出入库审核拒绝",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.55742+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0004075+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\出入库\\出入库审核拒绝.json"
@@ -1861,12 +1861,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/出入库审核通过",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.55745+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0004402+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\出入库\\出入库审核通过.json"
@@ -1874,12 +1874,12 @@
   },
   {
     "ModuleName": "ServerCommands/审核/采购",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5575016+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0004951+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\采购"
@@ -1887,12 +1887,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/采购单审核拒绝",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5574638+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0004569+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\采购\\采购单审核拒绝.json"
@@ -1900,12 +1900,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/采购单审核通过",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.55748+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0004721+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\采购\\采购单审核通过.json"
@@ -1913,12 +1913,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/采购单提交审核",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5574985+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0004911+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\采购\\采购单提交审核.json"
@@ -1926,12 +1926,12 @@
   },
   {
     "ModuleName": "ServerCommands/审核/销售",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5575458+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.000537+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\销售"
@@ -1939,12 +1939,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/销售单审核拒绝",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.55751+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0005039+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\销售\\销售单审核拒绝.json"
@@ -1952,12 +1952,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/销售单审核通过",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5575257+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0005185+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\销售\\销售单审核通过.json"
@@ -1965,12 +1965,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/销售单提交审核",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5575434+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0005335+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\销售\\销售单提交审核.json"
@@ -1978,12 +1978,12 @@
   },
   {
     "ModuleName": "ServerCommand/执行审核操作",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5575636+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0005547+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\执行审核操作.json"
@@ -1991,12 +1991,12 @@
   },
   {
     "ModuleName": "ServerCommand/提交审核申请",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5575745+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0005643+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\审核\\提交审核申请.json"
@@ -2004,12 +2004,12 @@
   },
   {
     "ModuleName": "ServerCommands/物品",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5577266+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0006948+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\物品"
@@ -2017,12 +2017,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/关联供应商客户与物品",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5576295+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0006148+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\物品\\关联供应商客户与物品.json"
@@ -2030,12 +2030,12 @@
   },
   {
     "ModuleName": "ServerCommand/删除物品",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5577238+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0006926+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\物品\\删除物品.json"
@@ -2043,12 +2043,12 @@
   },
   {
     "ModuleName": "ServerCommands/盘点",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5580079+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0008695+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\盘点"
@@ -2056,12 +2056,12 @@
   },
   {
     "ModuleName": "ServerCommand/删除盘点单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5578157+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0007208+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\盘点\\删除盘点单.json"
@@ -2069,12 +2069,12 @@
   },
   {
     "ModuleName": "ServerCommand/开始盘点",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.557848+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0007406+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\盘点\\开始盘点.json"
@@ -2082,12 +2082,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/根据盘点单出入库",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5579228+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0008045+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\盘点\\根据盘点单出入库.json"
@@ -2095,12 +2095,12 @@
   },
   {
     "ModuleName": "ServerCommand/检查是否盘点中-api",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5579318+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0008121+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\盘点\\检查是否盘点中-api.json"
@@ -2108,12 +2108,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/检查是否盘点中",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5579624+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0008325+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\盘点\\检查是否盘点中.json"
@@ -2121,12 +2121,12 @@
   },
   {
     "ModuleName": "ServerCommand/盘点维护",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.558004+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0008671+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\盘点\\盘点维护.json"
@@ -2134,12 +2134,12 @@
   },
   {
     "ModuleName": "ServerCommands/采购",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5582752+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0010778+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\采购"
@@ -2147,12 +2147,12 @@
   },
   {
     "ModuleName": "ServerCommand/修改采购单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5580418+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0008911+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\采购\\修改采购单.json"
@@ -2160,12 +2160,12 @@
   },
   {
     "ModuleName": "ServerCommand/删除采购单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5580605+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0009013+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\采购\\删除采购单.json"
@@ -2173,12 +2173,12 @@
   },
   {
     "ModuleName": "ServerCommand/新建采购单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5580833+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0009332+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\采购\\新建采购单.json"
@@ -2186,12 +2186,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/更新采购单入库状态",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5581666+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0009872+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\采购\\更新采购单入库状态.json"
@@ -2199,12 +2199,12 @@
   },
   {
     "ModuleName": "ServerCommand/采购发票维护",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5582221+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0010324+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\采购\\采购发票维护.json"
@@ -2212,12 +2212,12 @@
   },
   {
     "ModuleName": "ServerCommand/采购金额维护",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5582721+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0010754+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\采购\\采购金额维护.json"
@@ -2225,12 +2225,12 @@
   },
   {
     "ModuleName": "ServerCommands/销售",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5584036+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0011935+08:00",
     "ModuleType": 20,
     "ToRemoveFiles": [
       "ServerCommands\\销售"
@@ -2238,12 +2238,12 @@
   },
   {
     "ModuleName": "ServerCommand/修改销售单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5583104+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0011054+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\销售\\修改销售单.json"
@@ -2251,12 +2251,12 @@
   },
   {
     "ModuleName": "ServerCommand/删除销售单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5583227+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0011166+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\销售\\删除销售单.json"
@@ -2264,12 +2264,12 @@
   },
   {
     "ModuleName": "ServerCommand/新建销售单",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5583441+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.001136+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\销售\\新建销售单.json"
@@ -2277,12 +2277,12 @@
   },
   {
     "ModuleName": "ServerCommandPrivate/更新销售单出库状态",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:14:50.5583996+08:00",
+    "LockDateTime": "2023-04-28T16:15:54.0011909+08:00",
     "ModuleType": 27,
     "ToRemoveFiles": [
       "ServerCommands\\销售\\更新销售单出库状态.json"
@@ -7942,6 +7942,96 @@
       "Email": "branty.yan@grapecity.com"
     },
     "LockDateTime": "2023-04-28T16:15:44.4192475+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/出入库",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0001045+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/审核/出入库",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0004478+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/审核/采购",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.000497+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/审核/销售",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0005386+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/审核",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0005678+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/物品",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0006968+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/盘点",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0008712+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/采购",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0010797+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/库存管理/销售",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:54.0011952+08:00",
     "ModuleType": 20
   }
 ]
