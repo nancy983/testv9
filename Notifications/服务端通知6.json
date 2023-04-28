@@ -1,0 +1,36 @@
+{
+  "Name": "服务端通知6",
+  "Params": [
+    {
+      "Name": "参数1"
+    },
+    {
+      "Name": "参数2"
+    },
+    {
+      "Name": "参数3"
+    },
+    {
+      "Name": "参数4"
+    }
+  ],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ServerNotification.ServerNotificationPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ServerNotification.ServerNotificationPermissionResource, Forguncy.RbacPermission.Core"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ServerNotification.ServerNotificationPermissionBinding, Forguncy.RbacPermission.Core",
+        "roleNames": [
+          "库存管理员",
+          "仓库主管",
+          "采购主管",
+          "技术开发部员工",
+          "集团总部员工",
+          "技术开发主管"
+        ]
+      }
+    ]
+  }
+}
