@@ -2106,7 +2106,16 @@
   },
   {
     "ModuleName": "PCPage/帮助手册",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:47:47.0247574+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\帮助手册.json"
+    ]
   },
   {
     "ModuleName": "Pages/nancyyang",
