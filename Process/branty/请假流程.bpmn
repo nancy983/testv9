@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:fgc="http://www.forguncy.com/schema/bpmn/1.0" xmlns:activiti="http://activiti.org/bpmn" id="_f0891378-904d-4a7a-9433-88bd2bac0c55" name="BPMN Model" targetNamespace="http://www.forguncy.com/schema/bpmn/1.0" expressionLanguage="https://www.ecma-international.org/publications/standards/Ecma-334.htm">
+  <extension/>
+  <process id="_2da5ee3c-6fc0-43fd-8d9c-8229b6f7dade" isExecutable="true">
+    <documentation/>
+    <extensionElements>
+      <fgc:ForguncyExtension Properties="{&quot;variableSetting&quot;:{&quot;variables&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:100,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:101,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:102,&quot;commands&quot;:[]}]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;page&quot;:&quot;请假表_详情页面&quot;,&quot;tables&quot;:[&quot;请假表&quot;]}"/>
+    </extensionElements>
+    <startEvent id="_f08335ab-b838-4a55-8421-200f30047003" name="开始">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:401,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <outgoing>_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f</outgoing>
+    </startEvent>
+    <userTask id="_c4888637-b61c-4ffb-a818-95443aba9610" name="填单" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${userTaskResolver.getAssignee(execution)}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;commitOption&quot;:{&quot;autoSave&quot;:true},&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;提交&quot;},{&quot;key&quot;:&quot;1644290566823-71614d19&quot;,&quot;type&quot;:200,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;作废&quot;,&quot;terminateOption&quot;:{&quot;type&quot;:2}},{&quot;key&quot;:&quot;1&quot;,&quot;type&quot;:1000,&quot;enable&quot;:true,&quot;title&quot;:&quot;暂存&quot;,&quot;remarks&quot;:[]},{&quot;type&quot;:301,&quot;key&quot;:&quot;1681955582922-93c01a99&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;取回&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;getBackOption&quot;:{}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1641910702820&quot;,&quot;type&quot;:1,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;%Process.Starter%&quot;},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:false,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f</incoming>
+      <outgoing>_9fac5c71-636e-41e6-915a-49a1e7b67072</outgoing>
+    </userTask>
+    <userTask id="_1f754255-6fd9-4eab-8d0f-10df7976e222" name="项目组审批" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;同意&quot;},{&quot;key&quot;:&quot;1644290578551-fb1cce84&quot;,&quot;type&quot;:200,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;拒绝&quot;,&quot;terminateOption&quot;:{&quot;type&quot;:2}},{&quot;type&quot;:301,&quot;key&quot;:&quot;1681955620020-cce411c4&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;取回&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;getBackOption&quot;:{}},{&quot;type&quot;:600,&quot;key&quot;:&quot;1681955626975-494498ea&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;加签&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;addOnSignOption&quot;:{&quot;autoSave&quot;:false,&quot;type&quot;:3}},{&quot;type&quot;:500,&quot;key&quot;:&quot;1681955638662-5446f448&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;委托&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;delegateOption&quot;:{&quot;autoSave&quot;:false}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1681801906257-ae537a12&quot;,&quot;type&quot;:1,&quot;value&quot;:{&quot;valueType&quot;:2,&quot;tableFieldValue&quot;:{&quot;$type&quot;:&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess&quot;,&quot;TableName&quot;:&quot;请假表&quot;,&quot;ColumnName&quot;:&quot;申请人&quot;}},&quot;organizationFilter&quot;:{&quot;direction&quot;:1,&quot;filterType&quot;:2,&quot;specifiedRole&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;项目负责人&quot;}},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:true,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_1k7l8vn</incoming>
+      <outgoing>Flow_0fq4aom</outgoing>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances/nrOfInstances == 1}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <endEvent id="_3392ccdd-ae91-44fa-b2ee-f744284c12b0" name="结束">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_009w0t9</incoming>
+      <incoming>Flow_0gk49mz</incoming>
+      <incoming>Flow_1clfg0b</incoming>
+      <incoming>Flow_18ezk50</incoming>
+    </endEvent>
+    <sequenceFlow id="_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f" name="" sourceRef="_f08335ab-b838-4a55-8421-200f30047003" targetRef="_c4888637-b61c-4ffb-a818-95443aba9610">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="_9fac5c71-636e-41e6-915a-49a1e7b67072" name="" sourceRef="_c4888637-b61c-4ffb-a818-95443aba9610" targetRef="Gateway_10ovvw5">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <exclusiveGateway id="Gateway_0ssl8s7">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:401,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <incoming>Flow_0ai0sl3</incoming>
+      <outgoing>Flow_0wchf6l</outgoing>
+      <outgoing>Flow_0ybaxns</outgoing>
+      <outgoing>Flow_1rhfpst</outgoing>
+      <outgoing>Flow_1k7l8vn</outgoing>
+    </exclusiveGateway>
+    <exclusiveGateway id="Gateway_10ovvw5">
+      <incoming>_9fac5c71-636e-41e6-915a-49a1e7b67072</incoming>
+      <outgoing>Flow_0ai0sl3</outgoing>
+      <outgoing>Flow_1e8bqbh</outgoing>
+    </exclusiveGateway>
+    <userTask id="Activity_06vanql" name="人事审批" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;100&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;title&quot;:&quot;提交&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}]}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1681801873265-7f849d51&quot;,&quot;type&quot;:1,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;LuZhiFeng&quot;},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_1e8bqbh</incoming>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances &gt; 0}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <userTask id="Activity_0ovq03o" name="部门审批" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;同意&quot;},{&quot;key&quot;:&quot;1644290578551-fb1cce84&quot;,&quot;type&quot;:200,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;拒绝&quot;,&quot;terminateOption&quot;:{&quot;type&quot;:2}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1681801942595-e9aa0d3b&quot;,&quot;type&quot;:1,&quot;value&quot;:{&quot;valueType&quot;:2,&quot;tableFieldValue&quot;:{&quot;$type&quot;:&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess&quot;,&quot;TableName&quot;:&quot;请假表&quot;,&quot;ColumnName&quot;:&quot;申请人&quot;}},&quot;organizationFilter&quot;:{&quot;direction&quot;:3,&quot;filterType&quot;:2,&quot;specifiedRole&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;部门经理&quot;}},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1,&quot;enable&quot;:true},{&quot;status&quot;:2,&quot;enable&quot;:false},{&quot;status&quot;:3,&quot;enable&quot;:false}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_1teqvyr</incoming>
+      <incoming>Flow_1rhfpst</incoming>
+      <outgoing>Flow_1wk8lns</outgoing>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances &gt; 0}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <userTask id="Activity_0q3b43o" name="事业部审批" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;同意&quot;},{&quot;key&quot;:&quot;1644290578551-fb1cce84&quot;,&quot;type&quot;:200,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;拒绝&quot;,&quot;terminateOption&quot;:{&quot;type&quot;:2}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1681801958599-76ece30d&quot;,&quot;type&quot;:1,&quot;value&quot;:{&quot;valueType&quot;:2,&quot;tableFieldValue&quot;:{&quot;$type&quot;:&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess&quot;,&quot;TableName&quot;:&quot;请假表&quot;,&quot;ColumnName&quot;:&quot;申请人&quot;}},&quot;organizationFilter&quot;:{&quot;direction&quot;:3,&quot;filterType&quot;:2,&quot;specifiedRole&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;事业部经理&quot;}},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_0qwb4yy</incoming>
+      <incoming>Flow_0ybaxns</incoming>
+      <outgoing>Flow_1310juj</outgoing>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances &gt; 0}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <exclusiveGateway id="Gateway_04fjmso">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:401,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <incoming>Flow_0fq4aom</incoming>
+      <outgoing>Flow_009w0t9</outgoing>
+      <outgoing>Flow_1teqvyr</outgoing>
+    </exclusiveGateway>
+    <sequenceFlow id="Flow_0fq4aom" sourceRef="_1f754255-6fd9-4eab-8d0f-10df7976e222" targetRef="Gateway_04fjmso">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <exclusiveGateway id="Gateway_0wtelz6">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:401,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <incoming>Flow_1wk8lns</incoming>
+      <outgoing>Flow_0gk49mz</outgoing>
+      <outgoing>Flow_0qwb4yy</outgoing>
+    </exclusiveGateway>
+    <sequenceFlow id="Flow_1wk8lns" sourceRef="Activity_0ovq03o" targetRef="Gateway_0wtelz6">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <exclusiveGateway id="Gateway_0fga09q">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:401,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <incoming>Flow_1310juj</incoming>
+      <outgoing>Flow_18ezk50</outgoing>
+      <outgoing>Flow_0xk0e3m</outgoing>
+    </exclusiveGateway>
+    <sequenceFlow id="Flow_1310juj" sourceRef="Activity_0q3b43o" targetRef="Gateway_0fga09q">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <userTask id="Activity_14lequ8" name="公司审批" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;同意&quot;},{&quot;key&quot;:&quot;1644290578551-fb1cce84&quot;,&quot;type&quot;:200,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;拒绝&quot;,&quot;terminateOption&quot;:{&quot;type&quot;:2}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1681801974953-58057b87&quot;,&quot;type&quot;:3,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;葡萄城&quot;},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_0xk0e3m</incoming>
+      <incoming>Flow_0wchf6l</incoming>
+      <outgoing>Flow_1clfg0b</outgoing>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances &gt; 0}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <sequenceFlow id="Flow_1clfg0b" sourceRef="Activity_14lequ8" targetRef="_3392ccdd-ae91-44fa-b2ee-f744284c12b0">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <sequenceFlow id="Flow_0wchf6l" name="总经理提交" sourceRef="Gateway_0ssl8s7" targetRef="Activity_14lequ8">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;sequenceProperty&quot;:{&quot;condition&quot;:&quot;{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfCondition, ServerDesignerCommon\&quot;,\&quot;LeftBracket\&quot;:0,\&quot;param\&quot;:{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfConditionProcessTableDataParam, ServerDesignerCommon\&quot;,\&quot;BindingInfo\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess\&quot;,\&quot;TableName\&quot;:\&quot;请假表\&quot;,\&quot;ColumnName\&quot;:\&quot;申请人\&quot;,\&quot;AttachType\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess\&quot;,\&quot;UserColumnAttachType\&quot;:3}},\&quot;IfConditionParamType\&quot;:5},\&quot;compareType\&quot;:10,\&quot;value\&quot;:\&quot;总经理\&quot;,\&quot;RightBracket\&quot;:0}&quot;},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <conditionExpression xsi:type="tFormalExpression">${sequenceFlowResolver.getConditionResult(execution,'Flow_0wchf6l')}</conditionExpression>
+    </sequenceFlow><sequenceFlow id="Flow_0ybaxns" name="事业部经理提交" sourceRef="Gateway_0ssl8s7" targetRef="Activity_0q3b43o">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;sequenceProperty&quot;:{&quot;condition&quot;:&quot;{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfCondition, ServerDesignerCommon\&quot;,\&quot;LeftBracket\&quot;:0,\&quot;param\&quot;:{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfConditionProcessTableDataParam, ServerDesignerCommon\&quot;,\&quot;BindingInfo\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess\&quot;,\&quot;TableName\&quot;:\&quot;请假表\&quot;,\&quot;ColumnName\&quot;:\&quot;申请人\&quot;,\&quot;AttachType\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess\&quot;,\&quot;UserColumnAttachType\&quot;:3}},\&quot;IfConditionParamType\&quot;:5},\&quot;compareType\&quot;:10,\&quot;value\&quot;:\&quot;事业部经理\&quot;,\&quot;RightBracket\&quot;:0}&quot;},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <conditionExpression xsi:type="tFormalExpression">${sequenceFlowResolver.getConditionResult(execution,'Flow_0ybaxns')}</conditionExpression>
+    </sequenceFlow><sequenceFlow id="Flow_1rhfpst" name="部门经理提交" sourceRef="Gateway_0ssl8s7" targetRef="Activity_0ovq03o">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;sequenceProperty&quot;:{&quot;condition&quot;:&quot;{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfCondition, ServerDesignerCommon\&quot;,\&quot;LeftBracket\&quot;:0,\&quot;param\&quot;:{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfConditionProcessTableDataParam, ServerDesignerCommon\&quot;,\&quot;BindingInfo\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess\&quot;,\&quot;TableName\&quot;:\&quot;请假表\&quot;,\&quot;ColumnName\&quot;:\&quot;申请人\&quot;,\&quot;AttachType\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess\&quot;,\&quot;UserColumnAttachType\&quot;:3}},\&quot;IfConditionParamType\&quot;:5},\&quot;compareType\&quot;:10,\&quot;value\&quot;:\&quot;部门经理\&quot;,\&quot;RightBracket\&quot;:0}&quot;},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <conditionExpression xsi:type="tFormalExpression">${sequenceFlowResolver.getConditionResult(execution,'Flow_1rhfpst')}</conditionExpression>
+    </sequenceFlow><sequenceFlow id="Flow_1k7l8vn" sourceRef="Gateway_0ssl8s7" targetRef="_1f754255-6fd9-4eab-8d0f-10df7976e222">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow><sequenceFlow id="Flow_0ai0sl3" sourceRef="Gateway_10ovvw5" targetRef="Gateway_0ssl8s7">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow><sequenceFlow id="Flow_1e8bqbh" sourceRef="Gateway_10ovvw5" targetRef="Activity_06vanql">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow><sequenceFlow id="Flow_009w0t9" name="&lt;=1" sourceRef="Gateway_04fjmso" targetRef="_3392ccdd-ae91-44fa-b2ee-f744284c12b0">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;sequenceProperty&quot;:{},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+    </sequenceFlow><sequenceFlow id="Flow_1teqvyr" sourceRef="Gateway_04fjmso" targetRef="Activity_0ovq03o">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow><sequenceFlow id="Flow_0gk49mz" name="&lt;=3" sourceRef="Gateway_0wtelz6" targetRef="_3392ccdd-ae91-44fa-b2ee-f744284c12b0">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;sequenceProperty&quot;:{&quot;condition&quot;:&quot;{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfCondition, ServerDesignerCommon\&quot;,\&quot;LeftBracket\&quot;:0,\&quot;param\&quot;:{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfConditionProcessTableDataParam, ServerDesignerCommon\&quot;,\&quot;BindingInfo\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess\&quot;,\&quot;TableName\&quot;:\&quot;请假表\&quot;,\&quot;ColumnName\&quot;:\&quot;请假天数\&quot;},\&quot;IfConditionParamType\&quot;:5},\&quot;compareType\&quot;:5,\&quot;value\&quot;:\&quot;3\&quot;,\&quot;RightBracket\&quot;:0}&quot;},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <conditionExpression xsi:type="tFormalExpression">${sequenceFlowResolver.getConditionResult(execution,'Flow_0gk49mz')}</conditionExpression>
+    </sequenceFlow><sequenceFlow id="Flow_0qwb4yy" sourceRef="Gateway_0wtelz6" targetRef="Activity_0q3b43o">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow><sequenceFlow id="Flow_18ezk50" name="&lt;=5" sourceRef="Gateway_0fga09q" targetRef="_3392ccdd-ae91-44fa-b2ee-f744284c12b0">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;sequenceProperty&quot;:{&quot;condition&quot;:&quot;{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfCondition, ServerDesignerCommon\&quot;,\&quot;LeftBracket\&quot;:0,\&quot;param\&quot;:{\&quot;$type\&quot;:\&quot;Forguncy.Model.IfConditionProcessTableDataParam, ServerDesignerCommon\&quot;,\&quot;BindingInfo\&quot;:{\&quot;$type\&quot;:\&quot;ForguncyDataAccess.BindingInfo, ForguncyDataAccess\&quot;,\&quot;TableName\&quot;:\&quot;请假表\&quot;,\&quot;ColumnName\&quot;:\&quot;请假天数\&quot;},\&quot;IfConditionParamType\&quot;:5},\&quot;compareType\&quot;:5,\&quot;value\&quot;:\&quot;5\&quot;,\&quot;RightBracket\&quot;:0}&quot;},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]}}"/>
+      </extensionElements>
+      <conditionExpression xsi:type="tFormalExpression">${sequenceFlowResolver.getConditionResult(execution,'Flow_18ezk50')}</conditionExpression>
+    </sequenceFlow><sequenceFlow id="Flow_0xk0e3m" sourceRef="Gateway_0fga09q" targetRef="Activity_14lequ8">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow></process>
+  <BPMNDiagram xmlns="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="_bc75e97d-3718-40b3-954c-1093a5051bd0" name="" resolution="96">
+    <BPMNPlane bpmnElement="_2da5ee3c-6fc0-43fd-8d9c-8229b6f7dade">
+      <BPMNEdge id="Flow_0xk0e3m_di" bpmnElement="Flow_0xk0e3m" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="1195" y="-140"/>
+        <di:waypoint x="1240" y="-140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_18ezk50_di" bpmnElement="Flow_18ezk50" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="1170" y="-115"/>
+        <di:waypoint x="1170" y="-50"/>
+        <di:waypoint x="910" y="-50"/>
+        <BPMNLabel>
+          <dc:Bounds x="1172" y="-85" width="27" height="16"/>
+        </BPMNLabel>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_0qwb4yy_di" bpmnElement="Flow_0qwb4yy" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="915" y="-140"/>
+        <di:waypoint x="960" y="-140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_0gk49mz_di" bpmnElement="Flow_0gk49mz" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="890" y="-115"/>
+        <di:waypoint x="890" y="-70"/>
+        <BPMNLabel>
+          <dc:Bounds x="892" y="-95" width="27" height="16"/>
+        </BPMNLabel>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1teqvyr_di" bpmnElement="Flow_1teqvyr" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="635" y="-140"/>
+        <di:waypoint x="700" y="-140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_009w0t9_di" bpmnElement="Flow_009w0t9" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="610" y="-115"/>
+        <di:waypoint x="610" y="-50"/>
+        <di:waypoint x="870" y="-50"/>
+        <BPMNLabel>
+          <dc:Bounds x="612" y="-85" width="27" height="16"/>
+        </BPMNLabel>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1e8bqbh_di" bpmnElement="Flow_1e8bqbh" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="200" y="45"/>
+        <di:waypoint x="200" y="200"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_0ai0sl3_di" bpmnElement="Flow_0ai0sl3" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="225" y="20"/>
+        <di:waypoint x="285" y="20"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1k7l8vn_di" bpmnElement="Flow_1k7l8vn" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="310" y="-5"/>
+        <di:waypoint x="310" y="-140"/>
+        <di:waypoint x="410" y="-140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1rhfpst_di" bpmnElement="Flow_1rhfpst" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="335" y="20"/>
+        <di:waypoint x="760" y="20"/>
+        <di:waypoint x="760" y="-120"/>
+        <BPMNLabel>
+          <dc:Bounds x="509" y="2" width="77" height="16"/>
+        </BPMNLabel>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_0ybaxns_di" bpmnElement="Flow_0ybaxns" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="310" y="45"/>
+        <di:waypoint x="310" y="70"/>
+        <di:waypoint x="1020" y="70"/>
+        <di:waypoint x="1020" y="-120"/>
+        <BPMNLabel>
+          <dc:Bounds x="626" y="52" width="79" height="32"/>
+        </BPMNLabel>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_0wchf6l_di" bpmnElement="Flow_0wchf6l" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="310" y="45"/>
+        <di:waypoint x="310" y="130"/>
+        <di:waypoint x="1300" y="130"/>
+        <di:waypoint x="1300" y="-120"/>
+        <BPMNLabel>
+          <dc:Bounds x="773" y="112" width="64" height="16"/>
+        </BPMNLabel>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1clfg0b_di" bpmnElement="Flow_1clfg0b" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="1300" y="-120"/>
+        <di:waypoint x="1300" y="-50"/>
+        <di:waypoint x="910" y="-50"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1310juj_di" bpmnElement="Flow_1310juj" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="1080" y="-140"/>
+        <di:waypoint x="1145" y="-140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1wk8lns_di" bpmnElement="Flow_1wk8lns" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="820" y="-140"/>
+        <di:waypoint x="865" y="-140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_0fq4aom_di" bpmnElement="Flow_0fq4aom" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="530" y="-140"/>
+        <di:waypoint x="585" y="-140"/>
+      </BPMNEdge>
+      <BPMNEdge id="_a4482b47-1e47-4d58-85ed-30f504ce12b9" bpmnElement="_9fac5c71-636e-41e6-915a-49a1e7b67072" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="130" y="20"/>
+        <di:waypoint x="175" y="20"/>
+      </BPMNEdge>
+      <BPMNEdge id="_b2af9167-b562-4ac3-a386-acf24b122376" bpmnElement="_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="-50" y="20"/>
+        <di:waypoint x="10" y="20"/>
+      </BPMNEdge>
+      <BPMNShape id="_77a930b7-a08f-48be-9e93-2006953ed6ad" bpmnElement="_f08335ab-b838-4a55-8421-200f30047003" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="-90" y="0" width="40" height="40"/>
+        <BPMNLabel>
+          <dc:Bounds x="-83" y="47" width="26" height="16"/>
+        </BPMNLabel>
+      </BPMNShape>
+      <BPMNShape id="_2e819254-0a57-4077-b12c-2b6b6063cbcd" bpmnElement="_c4888637-b61c-4ffb-a818-95443aba9610" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="10" y="0" width="120" height="40"/>
+      </BPMNShape>
+      <BPMNShape id="_2bf92c2b-1b3d-4815-b6c9-f696d0b501a1" bpmnElement="_1f754255-6fd9-4eab-8d0f-10df7976e222" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="410" y="-160" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+      <BPMNShape id="_dffb7850-c3b4-4469-b322-8af82e48919d" bpmnElement="_3392ccdd-ae91-44fa-b2ee-f744284c12b0" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="870" y="-70" width="40" height="40"/>
+        <BPMNLabel>
+          <dc:Bounds x="877" y="-23" width="26" height="16"/>
+        </BPMNLabel>
+      </BPMNShape>
+      <BPMNShape id="Gateway_0ssl8s7_di" bpmnElement="Gateway_0ssl8s7" isMarkerVisible="true">
+        <dc:Bounds x="285" y="-5" width="50" height="50"/>
+      </BPMNShape>
+      <BPMNShape id="Gateway_10ovvw5_di" bpmnElement="Gateway_10ovvw5" isMarkerVisible="true">
+        <dc:Bounds x="175" y="-5" width="50" height="50"/>
+      </BPMNShape>
+      <BPMNShape id="Activity_06vanql_di" bpmnElement="Activity_06vanql">
+        <dc:Bounds x="140" y="200" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+      <BPMNShape id="BPMNShape_1ny2kw9" bpmnElement="Activity_0ovq03o" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <dc:Bounds x="700" y="-160" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+      <BPMNShape id="BPMNShape_1ri9o5f" bpmnElement="Activity_0q3b43o" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <dc:Bounds x="960" y="-160" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+      <BPMNShape id="Gateway_04fjmso_di" bpmnElement="Gateway_04fjmso" isMarkerVisible="true">
+        <dc:Bounds x="585" y="-165" width="50" height="50"/>
+      </BPMNShape>
+      <BPMNShape id="Gateway_0wtelz6_di" bpmnElement="Gateway_0wtelz6" isMarkerVisible="true">
+        <dc:Bounds x="865" y="-165" width="50" height="50"/>
+      </BPMNShape>
+      <BPMNShape id="Gateway_0fga09q_di" bpmnElement="Gateway_0fga09q" isMarkerVisible="true">
+        <dc:Bounds x="1145" y="-165" width="50" height="50"/>
+      </BPMNShape>
+      <BPMNShape id="BPMNShape_1dyq6ra" bpmnElement="Activity_14lequ8" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <dc:Bounds x="1240" y="-160" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+    </BPMNPlane>
+  </BPMNDiagram>
+</definitions>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:fgc="http://www.forguncy.com/schema/bpmn/1.0" xmlns:activiti="http://activiti.org/bpmn" id="_f0891378-904d-4a7a-9433-88bd2bac0c55" name="BPMN Model" targetNamespace="http://www.forguncy.com/schema/bpmn/1.0" expressionLanguage="https://www.ecma-international.org/publications/standards/Ecma-334.htm">
+  <extension/>
+  <process id="_50e4302d-29dd-41ac-a976-d709d4205b9d" isExecutable="true">
+    <documentation/>
+    <extensionElements>
+      <fgc:ForguncyExtension Properties="{&quot;variableSetting&quot;:{&quot;variables&quot;:[{&quot;name&quot;:&quot;变量_1&quot;,&quot;initialValue&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;1&quot;}}]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:100,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:101,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:102,&quot;commands&quot;:[]}]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;page&quot;:&quot;请假表_详情页面&quot;,&quot;tables&quot;:[&quot;请假表&quot;]}"/>
+    </extensionElements>
+    <startEvent id="_f08335ab-b838-4a55-8421-200f30047003" name="开始">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:401,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <outgoing>_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f</outgoing>
+    </startEvent>
+    <userTask id="_c4888637-b61c-4ffb-a818-95443aba9610" name="填单" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${userTaskResolver.getAssignee(execution)}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;commitOption&quot;:{&quot;autoSave&quot;:true},&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;title&quot;:&quot;提交&quot;},{&quot;key&quot;:&quot;1644290566823-71614d19&quot;,&quot;type&quot;:200,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;作废&quot;,&quot;terminateOption&quot;:{&quot;type&quot;:2}},{&quot;key&quot;:&quot;1&quot;,&quot;type&quot;:1000,&quot;enable&quot;:true,&quot;title&quot;:&quot;暂存&quot;,&quot;remarks&quot;:[]},{&quot;type&quot;:301,&quot;key&quot;:&quot;1679561351640-d3910a35&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;取回&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;getBackOption&quot;:{}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1641910702820&quot;,&quot;type&quot;:1,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;%Process.Starter%&quot;},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:false,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f</incoming>
+      <outgoing>Flow_0opyog2</outgoing>
+    </userTask>
+    <userTask id="_1f754255-6fd9-4eab-8d0f-10df7976e222" name="审批1" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;0&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;同意&quot;},{&quot;key&quot;:&quot;1644290578551-fb1cce84&quot;,&quot;type&quot;:200,&quot;enable&quot;:true,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}],&quot;title&quot;:&quot;拒绝&quot;,&quot;terminateOption&quot;:{&quot;type&quot;:2}},{&quot;type&quot;:301,&quot;key&quot;:&quot;1679561357228-5c8e10aa&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;取回&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;getBackOption&quot;:{}},{&quot;type&quot;:500,&quot;key&quot;:&quot;1679643029419-eb7ad58b&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;委托&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;delegateOption&quot;:{&quot;autoSave&quot;:false}},{&quot;type&quot;:600,&quot;key&quot;:&quot;1679901455335-141a5afc&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;加签&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;addOnSignOption&quot;:{&quot;autoSave&quot;:false,&quot;type&quot;:3}},{&quot;type&quot;:800,&quot;key&quot;:&quot;1679901471150-a44220d3&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;抄送&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;carbonCopyOption&quot;:{&quot;autoSave&quot;:false}},{&quot;type&quot;:400,&quot;key&quot;:&quot;1679908906136-289317e6&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;调度&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;dispatchOption&quot;:{&quot;autoSave&quot;:false,&quot;targetNodeName&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;审批3&quot;}}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1679895578683-6f88a594&quot;,&quot;type&quot;:2,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;项目负责人&quot;},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1,&quot;enable&quot;:false},{&quot;status&quot;:2,&quot;enable&quot;:false},{&quot;status&quot;:3,&quot;enable&quot;:false}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_0opyog2</incoming>
+      <outgoing>Flow_04rurxc</outgoing>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances &gt; 0}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <endEvent id="_3392ccdd-ae91-44fa-b2ee-f744284c12b0" name="结束">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_0062kk2</incoming>
+    </endEvent>
+    <sequenceFlow id="_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f" name="" sourceRef="_f08335ab-b838-4a55-8421-200f30047003" targetRef="_c4888637-b61c-4ffb-a818-95443aba9610">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <userTask id="Activity_0hbtcnf" name="审批2" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;100&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;title&quot;:&quot;同意&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;commitOption&quot;:{&quot;autoSave&quot;:false}},{&quot;type&quot;:200,&quot;key&quot;:&quot;1679555812217-3d73f449&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;拒绝&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;terminateOption&quot;:{&quot;type&quot;:2}},{&quot;type&quot;:300,&quot;key&quot;:&quot;1679561375891-3f396378&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;回退&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;rollbackOption&quot;:{&quot;type&quot;:2}},{&quot;type&quot;:400,&quot;key&quot;:&quot;1679561387328-552ac0d9&quot;,&quot;enable&quot;:true,&quot;title&quot;:&quot;调度&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:false},{&quot;key&quot;:2,&quot;enable&quot;:false}],&quot;dispatchOption&quot;:{&quot;autoSave&quot;:false,&quot;targetNodeName&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;审批1&quot;}}}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1679895593679-2197eacd&quot;,&quot;type&quot;:1,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;LuZhiFeng&quot;},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:1}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1679909194475-7be6f19a&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_04rurxc</incoming>
+      <outgoing>Flow_1eqa9kc</outgoing>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances &gt; 0}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <sequenceFlow id="Flow_1eqa9kc" sourceRef="Activity_0hbtcnf" targetRef="Activity_1rynfws">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="Flow_0opyog2" sourceRef="_c4888637-b61c-4ffb-a818-95443aba9610" targetRef="_1f754255-6fd9-4eab-8d0f-10df7976e222">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="Flow_04rurxc" sourceRef="_1f754255-6fd9-4eab-8d0f-10df7976e222" targetRef="Activity_0hbtcnf">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+    <userTask id="Activity_1rynfws" name="审批3" activiti:formKey="${formKeyResolver.getFormKey(execution)}" activiti:assignee="${FGC_activitiAssignee}">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;generalSetting&quot;:{&quot;tables&quot;:[],&quot;actions&quot;:[{&quot;key&quot;:&quot;100&quot;,&quot;type&quot;:100,&quot;enable&quot;:true,&quot;title&quot;:&quot;提交&quot;,&quot;remarks&quot;:[{&quot;key&quot;:1,&quot;enable&quot;:true}]}]},&quot;userSetting&quot;:{&quot;assigneeSettings&quot;:[{&quot;key&quot;:&quot;1679909013604-f48dda6d&quot;,&quot;type&quot;:2,&quot;value&quot;:{&quot;valueType&quot;:1,&quot;fixedValue&quot;:&quot;测试权限&quot;},&quot;enable&quot;:true}],&quot;assigneeTarget&quot;:2,&quot;isMultiple&quot;:true,&quot;isCountersign&quot;:false,&quot;isSequential&quot;:false,&quot;autoCommitStrategies&quot;:[{&quot;status&quot;:1},{&quot;status&quot;:2},{&quot;status&quot;:3}],&quot;nobodyAssignStrategy&quot;:{&quot;status&quot;:2}},&quot;dataSetting&quot;:{&quot;tablePermissions&quot;:[]},&quot;timeoutSetting&quot;:{&quot;deadlines&quot;:[]},&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:400,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;1&quot;,&quot;enable&quot;:true,&quot;event&quot;:300,&quot;commands&quot;:[]},{&quot;id&quot;:&quot;2&quot;,&quot;enable&quot;:true,&quot;event&quot;:302,&quot;commands&quot;:[]}]},&quot;variableSetting&quot;:{&quot;variables&quot;:[]}}"/>
+      </extensionElements>
+      <incoming>Flow_1eqa9kc</incoming>
+      <outgoing>Flow_0062kk2</outgoing>
+      <multiInstanceLoopCharacteristics  activiti:collection="${userTaskResolver.getCollection(execution)}" activiti:elementVariable="FGC_activitiAssignee"><completionCondition>${nrOfCompletedInstances &gt; 0}</completionCondition></multiInstanceLoopCharacteristics>
+    </userTask>
+    <sequenceFlow id="Flow_0062kk2" sourceRef="Activity_1rynfws" targetRef="_3392ccdd-ae91-44fa-b2ee-f744284c12b0">
+      <extensionElements>
+        <fgc:ForguncyExtension Properties="{&quot;eventSetting&quot;:{&quot;eventHandlers&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;enable&quot;:true,&quot;event&quot;:200,&quot;commands&quot;:[]}]},&quot;sequenceProperty&quot;:{}}"/>
+      </extensionElements>
+    </sequenceFlow>
+  </process>
+  <BPMNDiagram xmlns="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="_bc75e97d-3718-40b3-954c-1093a5051bd0" name="" resolution="96">
+    <BPMNPlane bpmnElement="_50e4302d-29dd-41ac-a976-d709d4205b9d">
+      <BPMNEdge id="Flow_0062kk2_di" bpmnElement="Flow_0062kk2" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="780" y="140"/>
+        <di:waypoint x="900" y="140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_04rurxc_di" bpmnElement="Flow_04rurxc" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="320" y="140"/>
+        <di:waypoint x="430" y="140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_0opyog2_di" bpmnElement="Flow_0opyog2" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="90" y="140"/>
+        <di:waypoint x="200" y="140"/>
+      </BPMNEdge>
+      <BPMNEdge id="Flow_1eqa9kc_di" bpmnElement="Flow_1eqa9kc" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="550" y="140"/>
+        <di:waypoint x="660" y="140"/>
+      </BPMNEdge>
+      <BPMNEdge id="_b2af9167-b562-4ac3-a386-acf24b122376" bpmnElement="_4f4ab1b2-ce52-46c6-bcc8-52c43b0c4a9f" color:border-color="rgb(172, 172, 172)" color:background-color="rgb(172, 172, 172)">
+        <di:waypoint x="-150" y="140"/>
+        <di:waypoint x="-150" y="140"/>
+        <di:waypoint x="-30" y="140"/>
+        <di:waypoint x="-30" y="140"/>
+      </BPMNEdge>
+      <BPMNShape id="_77a930b7-a08f-48be-9e93-2006953ed6ad" bpmnElement="_f08335ab-b838-4a55-8421-200f30047003" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="-190" y="120" width="40" height="40"/>
+        <BPMNLabel>
+          <dc:Bounds x="-183" y="167" width="26" height="16"/>
+        </BPMNLabel>
+      </BPMNShape>
+      <BPMNShape id="_2e819254-0a57-4077-b12c-2b6b6063cbcd" bpmnElement="_c4888637-b61c-4ffb-a818-95443aba9610" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="-30" y="120" width="120" height="40"/>
+      </BPMNShape>
+      <BPMNShape id="_2bf92c2b-1b3d-4815-b6c9-f696d0b501a1" bpmnElement="_1f754255-6fd9-4eab-8d0f-10df7976e222" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="200" y="120" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+      <BPMNShape id="_dffb7850-c3b4-4469-b322-8af82e48919d" bpmnElement="_3392ccdd-ae91-44fa-b2ee-f744284c12b0" isHorizontal="false" isExpanded="false" isMarkerVisible="false" isMessageVisible="false">
+        <Bounds xmlns="http://www.omg.org/spec/DD/20100524/DC" x="900" y="120" width="40" height="40"/>
+        <BPMNLabel>
+          <dc:Bounds x="907" y="167" width="26" height="16"/>
+        </BPMNLabel>
+      </BPMNShape>
+      <BPMNShape id="Activity_0hbtcnf_di" bpmnElement="Activity_0hbtcnf">
+        <dc:Bounds x="430" y="120" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+      <BPMNShape id="Activity_1rynfws_di" bpmnElement="Activity_1rynfws">
+        <dc:Bounds x="660" y="120" width="120" height="40"/>
+        <BPMNLabel/>
+      </BPMNShape>
+    </BPMNPlane>
+  </BPMNDiagram>
+</definitions>
