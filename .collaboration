@@ -4218,10 +4218,28 @@
   },
   {
     "ModuleName": "ServerCommands/ServerCommand/创建子问及那",
-    "ModuleType": 20
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:25:48.3922441+08:00",
+    "ModuleType": 20,
+    "ToRemoveFiles": [
+      "ServerCommands\\ServerCommand\\创建子问及那"
+    ]
   },
   {
     "ModuleName": "ServerCommand/修改变更数据1",
-    "ModuleType": 15
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:25:48.3923219+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\ServerCommand\\创建子问及那\\修改变更数据1.json"
+    ]
   }
 ]
