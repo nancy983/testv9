@@ -1432,44 +1432,15 @@
   },
   {
     "ModuleName": "PageReport/报表1",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828084+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\报表1.json",
-      "Reports\\nancyyang\\报表1.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "RdlReport/报表2",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8280879+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\报表2.json",
-      "Reports\\nancyyang\\报表2.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "Reports/nancyyang",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284644+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Notification/服务端通知1",
@@ -3404,17 +3375,7 @@
   },
   {
     "ModuleName": "RdlReport/【不固定列】月度店铺管理评分表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828092+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Excel表格类\\【不固定列】月度店铺管理评分表.json",
-      "Reports\\nancyyang\\功能示例\\Excel表格类\\【不固定列】月度店铺管理评分表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "Reports/导入文件夹1",
@@ -3422,1039 +3383,299 @@
   },
   {
     "ModuleName": "RdlReport/【单元格内数据预警】生产进度报告",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8280949+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Excel表格类\\【单元格内数据预警】生产进度报告.json",
-      "Reports\\nancyyang\\功能示例\\Excel表格类\\【单元格内数据预警】生产进度报告.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【表角斜线】小学课程表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8280975+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Excel表格类\\【表角斜线】小学课程表.json",
-      "Reports\\nancyyang\\功能示例\\Excel表格类\\【表角斜线】小学课程表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【不规则合并】加工样品单-BOM明细单",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281051+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【不规则合并】加工样品单-BOM明细单.json",
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【不规则合并】加工样品单-BOM明细单.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【不规则表格】商品质检报告书",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828108+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【不规则表格】商品质检报告书.json",
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【不规则表格】商品质检报告书.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "PageReport/【多表格与文字条款】xx商贸报价单",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281103+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【多表格与文字条款】xx商贸报价单.json",
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【多表格与文字条款】xx商贸报价单.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "RdlReport/【表单印章】干部任免审批表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281126+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【表单印章】干部任免审批表.json",
-      "Reports\\nancyyang\\功能示例\\Word文档类\\【表单印章】干部任免审批表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【复杂交叉表】财政教育经费投入情况表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281177+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\交叉分析表\\【复杂交叉表】财政教育经费投入情况表.json",
-      "Reports\\nancyyang\\功能示例\\交叉分析表\\【复杂交叉表】财政教育经费投入情况表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【多维度交叉分析】全国销售运营统计报表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281205+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\交叉分析表\\【多维度交叉分析】全国销售运营统计报表.json",
-      "Reports\\nancyyang\\功能示例\\交叉分析表\\【多维度交叉分析】全国销售运营统计报表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/分栏报表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281257+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\分组与重复表头\\分栏报表.json",
-      "Reports\\nancyyang\\功能示例\\分组与重复表头\\分栏报表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/分组头每页重复",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281283+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\分组与重复表头\\分组头每页重复.json",
-      "Reports\\nancyyang\\功能示例\\分组与重复表头\\分组头每页重复.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/单级分组",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281308+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\分组与重复表头\\单级分组.json",
-      "Reports\\nancyyang\\功能示例\\分组与重复表头\\单级分组.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/动态生成报表列",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281365+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\动态自定义表格\\动态生成报表列.json",
-      "Reports\\nancyyang\\功能示例\\动态自定义表格\\动态生成报表列.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/用户自定报表列",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281392+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\动态自定义表格\\用户自定报表列.json",
-      "Reports\\nancyyang\\功能示例\\动态自定义表格\\用户自定报表列.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "PageReport/参数为空显示全部",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281444+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\可选参数\\参数为空显示全部.json",
-      "Reports\\nancyyang\\功能示例\\可选参数\\参数为空显示全部.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "RdlReport/同比环比",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281503+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\同比环比\\同比环比.json",
-      "Reports\\nancyyang\\功能示例\\同比环比\\同比环比.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/双Y轴组合图表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828156+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\图表\\双Y轴组合图表.json",
-      "Reports\\nancyyang\\功能示例\\图表\\双Y轴组合图表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/图表排序",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828159+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\图表\\图表排序.json",
-      "Reports\\nancyyang\\功能示例\\图表\\图表排序.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/图表混排",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281623+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\图表\\图表混排.json",
-      "Reports\\nancyyang\\功能示例\\图表\\图表混排.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/多种图表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281655+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\图表\\多种图表.json",
-      "Reports\\nancyyang\\功能示例\\图表\\多种图表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/统计分析散点图",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281686+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\图表\\统计分析散点图.json",
-      "Reports\\nancyyang\\功能示例\\图表\\统计分析散点图.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【多层分组统计】电力设备生产数据表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281753+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\展开与折叠\\【多层分组统计】电力设备生产数据表.json",
-      "Reports\\nancyyang\\功能示例\\展开与折叠\\【多层分组统计】电力设备生产数据表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【多维透视表】商品销售及搭赠比例表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281784+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\展开与折叠\\【多维透视表】商品销售及搭赠比例表.json",
-      "Reports\\nancyyang\\功能示例\\展开与折叠\\【多维透视表】商品销售及搭赠比例表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【树形结构】项目施工进度报告",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281815+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\展开与折叠\\【树形结构】项目施工进度报告.json",
-      "Reports\\nancyyang\\功能示例\\展开与折叠\\【树形结构】项目施工进度报告.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "PageReport/客户订单套打",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281879+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\报表套打\\客户订单套打.json",
-      "Reports\\nancyyang\\功能示例\\报表套打\\客户订单套打.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/快递单套打",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281912+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\报表套打\\快递单套打.json",
-      "Reports\\nancyyang\\功能示例\\报表套打\\快递单套打.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "RdlReport/【正负值预警】财年预算决算表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281975+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\数据可视化\\【正负值预警】财年预算决算表.json",
-      "Reports\\nancyyang\\功能示例\\数据可视化\\【正负值预警】财年预算决算表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【迷你图】销售数据统计表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282012+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\数据可视化\\【迷你图】销售数据统计表.json",
-      "Reports\\nancyyang\\功能示例\\数据可视化\\【迷你图】销售数据统计表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/36种条形码",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282075+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\条形码\\36种条形码.json",
-      "Reports\\nancyyang\\功能示例\\条形码\\36种条形码.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/商品发货条码",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282111+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\条形码\\商品发货条码.json",
-      "Reports\\nancyyang\\功能示例\\条形码\\商品发货条码.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "PageReport/国航机票",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282148+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\条形码\\国航机票.json",
-      "Reports\\nancyyang\\功能示例\\条形码\\国航机票.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "RdlReport/M1.客户分析",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282217+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M1.客户分析.json",
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M1.客户分析.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "PageReport/M2.员工",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282254+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M2.员工.json",
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M2.员工.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "RdlReport/M3.历史账单",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282291+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M3.历史账单.json",
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M3.历史账单.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "PageReport/M4.市场营销",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282332+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M4.市场营销.json",
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M4.市场营销.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/M5.销售",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828237+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M5.销售.json",
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M5.销售.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/M6.利润分析",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282408+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M6.利润分析.json",
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M6.利润分析.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/M7.发票信息",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282446+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M7.发票信息.json",
-      "Reports\\nancyyang\\功能示例\\移动端报表\\M7.发票信息.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "RdlReport/【中间列合并】销售明细表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828252+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\自动合并\\【中间列合并】销售明细表.json",
-      "Reports\\nancyyang\\功能示例\\自动合并\\【中间列合并】销售明细表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/表达式1-作用域",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282592+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式1-作用域.json",
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式1-作用域.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/表达式2-条件格式化",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282632+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式2-条件格式化.json",
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式2-条件格式化.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/表达式3-判断",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282677+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式3-判断.json",
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式3-判断.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/表达式4-Lookup",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282717+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式4-Lookup.json",
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式4-Lookup.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/表达式5-行号",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282759+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式5-行号.json",
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式5-行号.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/表达式6-SplitJoin",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.82828+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式6-SplitJoin.json",
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式6-SplitJoin.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/表达式7-ReportItems",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282845+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式7-ReportItems.json",
-      "Reports\\nancyyang\\功能示例\\表达式\\表达式7-ReportItems.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【报表联动】大区省份销售分析",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282919+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\钻取联动\\【报表联动】大区省份销售分析.json",
-      "Reports\\nancyyang\\功能示例\\钻取联动\\【报表联动】大区省份销售分析.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【钻取主报表】全国销售分析",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282963+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\钻取联动\\【钻取主报表】全国销售分析.json",
-      "Reports\\nancyyang\\功能示例\\钻取联动\\【钻取主报表】全国销售分析.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/【钻取子报表】大区销售分析",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828301+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\钻取联动\\【钻取子报表】大区销售分析.json",
-      "Reports\\nancyyang\\功能示例\\钻取联动\\【钻取子报表】大区销售分析.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/交通事故大数据分析-受害人",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283106+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\交通运输\\交通事故大数据分析-受害人.json",
-      "Reports\\nancyyang\\行业案例\\交通运输\\交通事故大数据分析-受害人.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/交通事故大数据分析-车辆",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283154+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\交通运输\\交通事故大数据分析-车辆.json",
-      "Reports\\nancyyang\\行业案例\\交通运输\\交通事故大数据分析-车辆.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/仓库-库存准确率",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.82832+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\交通运输\\仓库-库存准确率.json",
-      "Reports\\nancyyang\\行业案例\\交通运输\\仓库-库存准确率.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/入库能力监控",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283246+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\交通运输\\入库能力监控.json",
-      "Reports\\nancyyang\\行业案例\\交通运输\\入库能力监控.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/监控中心—TMS",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828329+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\交通运输\\监控中心—TMS.json",
-      "Reports\\nancyyang\\行业案例\\交通运输\\监控中心—TMS.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/运输车队分析-车队本身",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283345+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\交通运输\\运输车队分析-车队本身.json",
-      "Reports\\nancyyang\\行业案例\\交通运输\\运输车队分析-车队本身.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/学校收入分摊汇总表（NC分析）",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283422+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\学校教育\\学校收入分摊汇总表（NC分析）.json",
-      "Reports\\nancyyang\\行业案例\\学校教育\\学校收入分摊汇总表（NC分析）.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/学校综合业绩表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283471+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\学校教育\\学校综合业绩表.json",
-      "Reports\\nancyyang\\行业案例\\学校教育\\学校综合业绩表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/财政教育经费统计",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283587+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\学校教育\\财政教育经费统计.json",
-      "Reports\\nancyyang\\行业案例\\学校教育\\财政教育经费统计.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/媒体效果统计图",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283672+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\媒体效果统计图.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\媒体效果统计图.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/客户特征分析",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283725+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\客户特征分析.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\客户特征分析.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/房地产-管理驾驶舱",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283774+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\房地产-管理驾驶舱.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\房地产-管理驾驶舱.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/来访客户分析表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283827+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\来访客户分析表.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\来访客户分析表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/每周(月)来访客户分析表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283881+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\每周(月)来访客户分析表.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\每周(月)来访客户分析表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/销售日报表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283931+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\销售日报表.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\销售日报表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/项目存量统计表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283981+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\项目存量统计表.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\项目存量统计表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/项目现金流量表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284036+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产\\项目现金流量表.json",
-      "Reports\\nancyyang\\行业案例\\房地产\\项目现金流量表.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/SMT生产看板",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284115+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\SMT生产看板.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\SMT生产看板.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/SMT车间看板",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284167+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\SMT车间看板.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\SMT车间看板.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/产能 DashBoard",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284224+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\产能 DashBoard.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\产能 DashBoard.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/加工样品单-BOM明细单",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284307+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\加工样品单-BOM明细单.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\加工样品单-BOM明细单.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/服装制造_生产工艺单",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284361+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\服装制造_生产工艺单.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\服装制造_生产工艺单.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - OEE 分解",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284418+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - OEE 分解.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - OEE 分解.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - 周宕机及打卡对照",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284473+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - 周宕机及打卡对照.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - 周宕机及打卡对照.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - 宕机及生产率",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284526+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - 宕机及生产率.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - 宕机及生产率.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - 班次",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828458+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - 班次.json",
-      "Reports\\nancyyang\\行业案例\\生产制造\\钣金制造设备效率 OEE - 班次.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "Process/库存管理",
@@ -4566,289 +3787,91 @@
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/Excel表格类",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281008+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Excel表格类"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/Word文档类",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281141+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\Word文档类"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/交叉分析表",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828122+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\交叉分析表"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/分组与重复表头",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281327+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\分组与重复表头"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/动态自定义表格",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281406+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\动态自定义表格"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/可选参数",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281463+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\可选参数"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/同比环比",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281519+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\同比环比"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/图表",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281702+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\图表"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/展开与折叠",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281831+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\展开与折叠"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/报表套打",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281927+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\报表套打"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/数据可视化",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282028+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\数据可视化"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/条形码",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282168+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\条形码"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/移动端报表",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282463+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\移动端报表"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/自动合并",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282537+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\自动合并"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/表达式",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282863+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\表达式"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例/钻取联动",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283027+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例\\钻取联动"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/功能示例",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828305+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\功能示例"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/行业案例/交通运输",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828336+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\交通运输"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/行业案例/学校教育",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283604+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\学校教育"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/行业案例/房地产",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284052+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\房地产"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/行业案例/生产制造",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284599+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例\\生产制造"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "Reports/nancyyang/行业案例",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284622+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": [
-      "Reports\\nancyyang\\行业案例"
-    ]
+    "ModuleType": 19
   },
   {
     "ModuleName": "ProcessItem/啊实打实打算",
@@ -4938,236 +3961,6 @@
   {
     "ModuleName": "ServerCommands/test1",
     "ModuleType": 20
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/Excel表格类",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281025+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/Word文档类",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281153+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/交叉分析表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281231+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/分组与重复表头",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281338+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/动态自定义表格",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281416+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/可选参数",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281475+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/同比环比",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281529+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/图表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281721+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/展开与折叠",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281841+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/报表套打",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8281941+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/数据可视化",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282039+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/条形码",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282179+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/移动端报表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282478+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/自动合并",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282551+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/表达式",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8282875+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例/钻取联动",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283038+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/功能示例",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283061+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/行业案例/交通运输",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283375+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/行业案例/学校教育",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8283621+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/行业案例/房地产",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284063+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/行业案例/生产制造",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.828461+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang/行业案例",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284633+08:00",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "Reports/导入文件夹1/nancyyang",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T15:56:50.8284655+08:00",
-    "ModuleType": 19
   },
   {
     "ModuleName": "MasterPCPage/顶部菜单布局1",
