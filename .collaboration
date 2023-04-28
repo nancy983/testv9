@@ -6078,11 +6078,29 @@
   },
   {
     "ModuleName": "Image/download (1).jpg",
-    "ModuleType": 38
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:38:00.8988721+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\download (1).jpg"
+    ]
   },
   {
     "ModuleName": "Image/download.jpg",
-    "ModuleType": 38
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:38:00.8988757+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\download.jpg"
+    ]
   },
   {
     "ModuleName": "Table/请假详情",
@@ -6462,7 +6480,16 @@
   },
   {
     "ModuleName": "Image/download (1)1.jpg",
-    "ModuleType": 38
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:38:00.8988783+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\download (1)1.jpg"
+    ]
   },
   {
     "ModuleName": "image/图片 上传",
