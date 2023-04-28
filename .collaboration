@@ -2875,7 +2875,18 @@
   },
   {
     "ModuleName": "UserService",
-    "ModuleType": 11
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:15:12.2364626+08:00",
+    "ModuleType": 11,
+    "ToRemoveFiles": [
+      "UserServiceDB.sqlite3",
+      "CloudStorageProvider\\data.json",
+      "SecurityProviderV2\\data.json"
+    ]
   },
   {
     "ModuleName": "CustomLibrary",
