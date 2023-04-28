@@ -1421,7 +1421,16 @@
   },
   {
     "ModuleName": "PCPage/测试流程客户端命令",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0701206+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\导入文件夹1\\测试流程页面\\测试流程客户端命令.json"
+    ]
   },
   {
     "ModuleName": "Pages/导入文件夹1",
@@ -1433,11 +1442,29 @@
   },
   {
     "ModuleName": "PCPage/请假表_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0703778+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\导入文件夹1\\测试流程页面\\请假表_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/测试流程_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0703085+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\导入文件夹1\\测试流程页面\\测试流程_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/流程和任务信息页面",
@@ -1469,7 +1496,16 @@
   },
   {
     "ModuleName": "PCPage/FGC_任务详情",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0708305+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\导入文件夹1\\流程页面文件夹\\FGC_任务详情.json"
+    ]
   },
   {
     "ModuleName": "Table/流程和任务信息",
@@ -1525,12 +1561,12 @@
   },
   {
     "ModuleName": "Table/请假表",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:33:19.9350658+08:00",
+    "LockDateTime": "2023-04-28T16:36:36.069213+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\导入文件夹2\\业务数据表\\请假表.json"
@@ -1668,7 +1704,16 @@
   },
   {
     "ModuleName": "ServerCommand/更新数据表",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0708931+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\test1\\nancyyang\\流程事件命令\\更新数据表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/报表功能演示",
@@ -6332,7 +6377,18 @@
   },
   {
     "ModuleName": "ProcessItem/请假流程",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0709667+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\请假流程.json",
+      "Process\\branty\\请假流程.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -6341,27 +6397,82 @@
   },
   {
     "ModuleName": "ProcessItem/简易请假流程",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0709702+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\简易请假流程.json",
+      "Process\\branty\\简易请假流程.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/逐级审批11111",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0709734+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\逐级审批11111.json",
+      "Process\\branty\\逐级审批11111.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/复活到单节点",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0709767+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\复活到单节点.json",
+      "Process\\branty\\复活到单节点.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/复活到多节点_排他",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0709797+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\复活到多节点_排他.json",
+      "Process\\branty\\复活到多节点_排他.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/复活到多节点_包容",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0709851+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\复活到多节点_包容.json",
+      "Process\\branty\\复活到多节点_包容.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -6406,7 +6517,16 @@
   },
   {
     "ModuleName": "ServerCommand/更新数据库",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0709468+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\branty\\更新数据库.json"
+    ]
   },
   {
     "ModuleName": "UserControlPage/组件1",
@@ -6647,5 +6767,15 @@
     },
     "LockDateTime": "2023-04-28T16:35:06.9591264+08:00",
     "ModuleType": 34
+  },
+  {
+    "ModuleName": "Table/请假表111",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:36:36.0693007+08:00",
+    "ModuleType": 7
   }
 ]
