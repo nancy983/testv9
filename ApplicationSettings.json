@@ -16,6 +16,7 @@
   "NotAllowModifyDatabaseByJsApi": false,
   "NotAllowQueryDatabaseByJsApi": false,
   "NotAllowSendMailByJsApi": false,
+  "SkipCheckErrorWhenGeneratePage": true,
   "StartDateFiscalYear": 1,
   "FocusMoveMode": 0,
   "MaxRowCount": 5000,
