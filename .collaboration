@@ -6361,7 +6361,16 @@
   },
   {
     "ModuleName": "SchedulerTasks/文件夹1",
-    "ModuleType": 21
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:31:07.3700386+08:00",
+    "ModuleType": 21,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\文件夹1"
+    ]
   },
   {
     "ModuleName": "ShareCommandContainer/模板命令3",
@@ -6414,7 +6423,17 @@
       "UserName": "GRAPECITY\\EmmaZhao",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2023-04-28T17:30:52.0617245+08:00",
+    "LockDateTime": "2023-04-28T17:31:07.3700879+08:00",
     "ModuleType": 16
+  },
+  {
+    "ModuleName": "SchedulerTasks/renamfolder",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:31:07.3700408+08:00",
+    "ModuleType": 21
   }
 ]
