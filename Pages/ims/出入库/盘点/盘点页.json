@@ -542,7 +542,7 @@
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
             "TargetTableName": "盘点表",
-            "ID": "4d17a8f7a86e4a17af1da015b34cc550"
+            "ID": "8d20634f6651461b9f8dfbad68f16182"
           }
         ],
         "Text": "重置",
@@ -629,7 +629,7 @@
                 }
               ]
             },
-            "ID": "45cb1656168c488ebc54d5022fc84150"
+            "ID": "feb1a438e9ec454ea313ee7d443f631d"
           }
         ],
         "Text": "查询",
@@ -716,7 +716,7 @@
                     ]
                   }
                 ],
-                "ID": "595b010a-e36d-4c23-b238-dfd4ce0e416c"
+                "ID": "ccc0007b-89a8-4beb-804d-46728bd87315"
               },
               {
                 "CommandList": [
@@ -759,7 +759,7 @@
                   }
                 ],
                 "Comments": "盘点单创建成功后，则打开对话框，进行修改",
-                "ID": "cee3c908-247a-4c4e-852b-aa0aa8d98cd2"
+                "ID": "c9472aa2-6304-481c-bf0d-7f8fe4f2f03b"
               }
             ]
           }
@@ -825,7 +825,7 @@
                     ]
                   }
                 ],
-                "ID": "2384795c-3af2-48f6-affe-7bd18c424846"
+                "ID": "e078d139-9eb5-4172-acdb-17615f69deaa"
               },
               {
                 "CommandList": [
@@ -838,7 +838,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "3c242aae-e8c8-4610-a083-9c15e99e54c9"
+                "ID": "db7f9fe3-25d8-42fd-ad57-1c7ca952e06c"
               }
             ]
           }
@@ -902,7 +902,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=盘点页!C12"
                     },
-                    "ID": "bfa0fde421ea4417b42a39abced7bd15"
+                    "ID": "a65b69f71a154dde82795c12695331de"
                   },
                   {
                     "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
@@ -983,7 +983,7 @@
                             ]
                           }
                         ],
-                        "ID": "c20eb987-48a7-44e0-87b7-3c29b17e2043"
+                        "ID": "9103611c-c544-40db-a118-c5697cb2f5a1"
                       },
                       {
                         "CommandList": [
@@ -1027,12 +1027,12 @@
                             ]
                           }
                         ],
-                        "ID": "f34bcae4-8674-451f-a306-74bb3341ed51"
+                        "ID": "00ccf92a-2d76-4edd-8f7a-c1f3c788c677"
                       }
                     ]
                   }
                 ],
-                "ID": "10f1baa9-a167-401e-bd3a-eb4ebaf89c38"
+                "ID": "65ca31c2-6d18-48f3-85d7-f8eb55aee333"
               }
             ]
           }
@@ -1841,4 +1841,4 @@
       "Size": "1012,624"
     }
   ]
-}//yzJVqsAPSy6hvcnQclm46Ep6u7a4dQ2muqajO7mMMqH/mdeCk2z8ihGUCSfaIIGhCrOY/yGJk0zkswKsWY0Tj7iwZa2SD0p2ZRzWkDOX2tOOnvIG0TXNvHTJcMjnkut0UtKdr+TVsgM7AFXHogzg4Ir9l4/GwF6uMy/a5YnVUixQwapoBQb8sdg312R7PEM23XG6mA4WqA8QK04mqTzPu2bkdqABOjASelA3eHF6+asWLySbeTsygw7udTRzr9cIIFihX7KMN8bgU5O7hX8a7r+hqL0ajFbIhtu8BdWjFSwawXFzIbrWYOvebIFKt9Y/7mq0iLTI4LLTKfiQj40lRLzvhnswZZwr5qjBF/XlwpoL0wrLvu+UgCTrRRPiH23v2mf1r6SB+wa2q3UTHEsPpmaPDmPjt5y54l3eYAPYJKLcThCEHGCXIxlSso7LkFyv0OQt5UJYhexriobVNE5UHOR9yHf7j63Q0zMMcILYYg65KkOJMMHRuMuxf+2rmJlVcnbXKU3hMXMJFzmGlU4jqw8zZWnxLX9hRG98c36rfTetfdZ991Kne63aDlHtF4OxGqhyTgJbVNmtzZJlwkhVzXpY94ZU8FtmT0tj5MCYwQqsVOkLeHBAIXFExVbH4kpe0nw0s780u48ghEi0q6lRhlPONUyI3PTYa5hiYTIxvTfbsEqJ9liB40or36s/J4GEmzh92rWAD+aMCzNAxuqQiPUSmTxict3onZ7JbZNCmjNS9kTuNkGXXW1I3vI+s7bZjacCC2SiRvO6tCXzXrkmIwmRWZE81tSSM4UttEW2QT8wiokjXTex8pbUPDmB7bd5+fASqRadvSX0di+gk1cOIFo7nn/37GJ4lTFmXDPckrDOPQtAO6sEtDbj7W+AgexLTbUlQFeYDr+xDFf8JCrf2g==|920
+}//62GtK6O8k854UmZz/nnxhPCsNjIepi0W1i88BlKgLBgNeZ1F+mC/h7vSkZnVnYeTZlaxI771T96lvwr7vvJV2hCqoOBDb8hvd26bxXIhTyZ8jLq+7ipyJu7S3Qzk1qTVpck2U1Q314LtpnzU2jjx0Ouom6lBYGYGKT+MnMit/u1MZdzYxQHMHoADt8EIFhFKfrwVqj5cGGyO9Y63RULMhskeu31KoKCyMugFwfHFSySBFxGQqPeFRXcnOH8hNnesbLw2DPQolG/uZTOmlL9gY6Wi51McTlcjK+Hbs+LxdCl8oJs6SKKAvLfnnwF/MdVEIFijlohhn4/wuzJK2i5c8GwvnA/Ox7DhpiliUgpxVvptQTWKRTrG0yMIVB9Wh9gYiyfJK6aL6kTdeO1OVY1u/OwXbfUpInXzVX6iHrLGvaxvU97bkQiVD+9cOraHbAPAcq2lhwZ60msVsSHESjSe/dP/nu1EViqaB+Ipk0yM5XLqQYvy5T3meibHWV4Xr+sIOHN62j62Li71RQGzOGbqlzL3+G3RcLDHa1BKBysr7RS7bF9O3VZXdqnNKh9IyzAIIUfStEbd3w4S8zsmKrHujmD+YIVIOF3n3k2AuRcGIXtjoRJfRavxLEgnezHWSKEIxSZeSPzIKZLayfhdPr+322xswlecC6ni48WrMk5ECvKzzpsnPpF2B7cD9pbIEGSy+Nr45FcR76fp3A3P/+5mXdHOdJReU7TBliU6/0isP9fxefzDKtO+EncSAA7Wp7JIeVuOcm60hJGe9GRiMpQVRCd7Ls+OnAy8/hemB/8NkWzgcZbsOo4oKRRCjD9bVzq+8mvKKmt3W45vCn/3QZkeG+h6ryGmbsLh34qRnKnyzO4kk9okUfzq06As5cIctZ0gMvAkhlnnhibxAbukjGrqKw==|920

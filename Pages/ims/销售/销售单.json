@@ -644,7 +644,7 @@
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
             "TargetTableName": "销售订单表",
-            "ID": "30124b5843b64ce887cc1fa1d95e15b2"
+            "ID": "5bcc39a4a6374fa0a6ebbb2c41ff02cd"
           }
         ],
         "Text": "重置",
@@ -785,7 +785,7 @@
                 }
               ]
             },
-            "ID": "000a08e7586c4c1baace92cfd24024b2"
+            "ID": "d9da1a3f281a4dfca26e6218ae3ec36b"
           }
         ],
         "Text": "查询",
@@ -905,7 +905,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=销售单!C12"
                     },
-                    "ID": "2e71d640b82f42588a784f46e4b3e97a"
+                    "ID": "3456c29cb33640b2867bd545e8ba3fa1"
                   },
                   {
                     "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
@@ -986,7 +986,7 @@
                             ]
                           }
                         ],
-                        "ID": "0295ae69-61b7-46e8-9b3e-fe3d21a9012b"
+                        "ID": "ffe240b7-01d9-4ab8-a322-245d8e7d2dae"
                       },
                       {
                         "CommandList": [
@@ -1030,12 +1030,12 @@
                             ]
                           }
                         ],
-                        "ID": "97456fe1-5876-45da-9684-9bb35f748d29"
+                        "ID": "f72dd8ee-566a-4d05-afc4-3d40ccffa841"
                       }
                     ]
                   }
                 ],
-                "ID": "b26100ab-52f6-45bd-88fa-9577d3b85eb7"
+                "ID": "65a2ade3-f3cf-448e-b4a0-e66ef80eaeca"
               }
             ]
           }
@@ -2448,4 +2448,4 @@
       "Size": "1472,434"
     }
   ]
-}///iFfU4BFOVlPmZJkR7IMnMdkWdgrlXc+iufqbfPxcc+9/chEWLgC0LMnjDYpzY6K1J4nhqX0CqYe7k79hPOUAyKRgMpi0zy7NjrT65J8cES8eTgwV8KhVHgTdJqkoJGYwsDrV/1w/Jd8BBe+4arKu1UsgCgofc5ff1WGHXwlK8XgRJGcJuDhqLLgAszbcGbwvZW8B3agTK8awnfFni0kDBNhDHGH1aiCYmUBLcblGMYhOuLWbSCA4thKGEy0hPsCZal+sDBuKgdB6Wru7taCeR4q5lAoH8e8I5qxhx+5Q1ROZF+TyUppfwfovpxzYefy3ZyUbEUZhyzsSktqOYkUDD2D0GxcM5d0UdqJhOtEH/0Tica+/EEWJg82OSVpMUMlE2+a5Ooft1m4tark1ZsAM7WaGh83S3A1VNdq7GfKZ48fwjchG+2NacJGCoNoBazA/rWTzXF3q00qyWnE9i3ezgWoHO/kXnd9vCyK0H0XLTx9x9OkB2UaZ36thCK5L6doLB+TstIC+CfVRbJw7kbNErbiEJVe4uPQ823LC0uwwz/xk72Qh2uuPwv+dV6gcMdht/6bbrXvJUIbWnqzKLYRFkZ+d5+iyYFP6JzjH+6oceOslG/Kui7ZWSKKtwm+ohJ4wNBIASOZ23wrqgGGGYwuMfH33K/XVrTVmy/IRkhVynGuQgOC8KXMbSByKcgSc+X7ocDmhHPktlCYg4tDiS9o3nEe3D8AW6ekuy3rzAoiKZdKV2tWb4PjSaLhlbCC7c/9OjEsX9iUZ0edd5iD5RHjzz+HQJB5MTxN+85t5miUsj4LUgwPdNAMAHaSCFPLKkendo+ODsXJWckX2nZ6o5XWFRxX5RgTeOlpCT0IYVEqnlnXhPG6nHdPTRnnexs3EpTKiN8WzqkhKEk+KTp1eVz7dw==|920
+}//iWSoaZKOq5bbPNJy/NSlSwlVMkAnqE0z4NEMsALPAMSCal8P3YR9iuoMrLYO0ThihlehLF7KtkRQ1Fh/3GhC6AJct0twbGct0FiMpIt+hYgc1onprN7BrxD5A5oIwLayCPNyUiwaGw3cGpZlbv/kyETZpw1oEFap1bxbLc583oJQjHaf9RitvTpMC1UK6aNqLluOK8RXRdSVz6XiPq3tAI5Akw+Asr0sxF3e5pnLEzyVk9lEVwNZDIATo0Q/OViClQU2GcgUXMynSvjOesOayw6meHxsgnJcxdmKNh1qZw1M6jed1RRdSgGE8u8YnlDUjcOLdolH89G4h+SH0W7xOLGtHCktUqIK87TkTkeu1lVLzxDxaBmbD4kn25OXCItsSGSRzvVycTq3NQ0i0bVclssGasskwGpJqiV0oHfqDek9EW/LfcWUPw6g/8Ie820zcuixPpbaB1cI9vun8E7W0UCIy26jesx0e9DUcOrWVjty5hfqZTgZRDXZM9mfgQtERl1udr/wDuAgrihC+A1MgClY8oqbcN5PutJBNBGo0lmJe33UvH09AQ2tzQ9y1Jf8IC+i3xvTbJXuALu1qQkKma+FMl8oLCpGAY4PPlmGI3tTQe7DlltrNJJjB69Zn/o65W3r9Vie1mEqvW/NVKU/O7I/MFT3dFRoZBCmFW111s8ujvLz8rSXBWZRzzhhgXq4AMfp8y8ep66bMTTmuHjMkcVjkf7genyS/Ij2ucPNz5K+kPRC6hzcanypblSPehBCUIuAGYcX/rz6tYWOS32lPc4x1TZwAr1yjsm4wKnzvS3BY/q0kdkzvGaRk2vbryxOMvakGXXDAEsO03L3R8lb4c00BCeCoZWpe+Rk3s5yZPJO6c3yhLAdnYrgL7yvy56GzdNnpxhBGC4gm8KIz0zQMg==|920

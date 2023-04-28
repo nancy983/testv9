@@ -577,7 +577,7 @@
                   }
                 ],
                 "Comments": "校验入库数量是否超额",
-                "ID": "73693414-e877-46b9-9ec2-3c6121aa6cd6"
+                "ID": "1ef42fe3-d919-487d-9beb-56199c1e9bb3"
               }
             ]
           },
@@ -757,7 +757,7 @@
                     ]
                   }
                 ],
-                "ID": "a3f60bb5-2e7c-4554-a885-eb3a47e2b672"
+                "ID": "0aa86e3d-44c6-43eb-b1a1-d547911745cf"
               },
               {
                 "CommandList": [
@@ -802,7 +802,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "ed491c8b-5242-4401-b3a6-e92f8882e413"
+                "ID": "82ceed4f-6378-4c6b-bc1d-e28d1992d65b"
               }
             ]
           }
@@ -873,7 +873,7 @@
                   }
                 ],
                 "Comments": "校验入库数量是否超额",
-                "ID": "30e76d66-d12e-4c48-850e-be7bf9874cdb"
+                "ID": "2ecff058-1e52-41c5-82c9-5777e732e497"
               }
             ]
           },
@@ -1053,7 +1053,7 @@
                     ]
                   }
                 ],
-                "ID": "d6bada19-1100-402f-8696-2522ad8097db"
+                "ID": "5f509029-7b95-4ab1-90e8-00c6ba3ba2bb"
               },
               {
                 "CommandList": [
@@ -1098,7 +1098,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "1d579198-2933-4724-962c-ed9697e80f76"
+                "ID": "29b37617-02a3-40bc-80ba-0d1bd85a8afd"
               }
             ]
           }
@@ -2132,7 +2132,7 @@
             }
           }
         },
-        "ID": "5ed82db92da34381aab8f1bd1e6d23f6"
+        "ID": "43c863ab4a06412f94854fc38770355d"
       },
       {
         "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -2197,7 +2197,7 @@
                 ]
               }
             },
-            "ID": "0ee5ceb29d7044fa9f92bafb800e9ff8",
+            "ID": "c1b7c604c063450dbbd7d19dba5d672a",
             "Comments": "查询当前采购单所对应的物品的已入库数量"
           },
           {
@@ -2207,7 +2207,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=MAX(0,采购单流转入库!采购单物品.采购数量-采购单流转入库!已入库数量)"
             },
-            "ID": "9fd511d072454d17a93c9cbcbe926a80"
+            "ID": "9a03dc66f7ba4bc6b2f12f1e703c867b"
           },
           {
             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -2321,4 +2321,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//OgfiQUS9mF/fEAfPW1Upwx6wvG4IP9JXaqNcEdjrYPgeor1f71/o4D0PYkM0AK0KHFLLSWFdviy4QM5QagP8oo3Ka3k2i/HrDU3DC3cLw2HmC0sfCtJsvM8moEbL+l8LbfzDiNNITvPH77Q1829unKe+FB6mUaBtY/8i5QuybL0PVHsvvsY+OJFCb7IlyFIdxDJvE9mAJqdyDsWYzzgJKJiuf/LmTxwJ2Y1hywfYoop91pQaDREP/pcbTE2bJAwwZbxHQPuxDehIWlbc3gvTYwvyHqzMxQd3KHpgnaz2B+OdnMalIYZZwC4nPZj+qPw0zZgSYKFCJqIdYwWo7j7sRifL2q4uubLA6w1c+zlg9JOoYSfVBM9V6GZ3H3N5JpBf5EWcqpkEsBLZXoBSPErc9vz3z6idncD2BGY3uPeZkl3817n5IjTHduPhcOiomWUpt3HCXqCh+GoyFSeKXxND510hKMmxM9rANlglmQ+ZnYRJyIXbhiq/8KeJ9BTIuG7egaERXKvxtixI/F3+KTCkJzmM2hNNk7oiTIi3Y7gyE/yPDif0yC2XBsqtc4f2qEStMyGl2TqVguRO/z5dDjGGT6/JS5IozMlWPx1YZiMPcyqRQiWSQGq3xt/xFagfntzusWUdliyzUpR/ch7ydQ6K58ZI5ryLIVpWbpLg583jyJrXxiXvkZ8aP7XFSjQb0gHPq/3QQMX2Q+8k5m0UvwVklMOkee+r7g8yF/4OscsWQTBnZKbLxcdnRA8jCsqCuGTsHlY1oaGem0XuFxbrKjUwUv1032pgGNDyHjfDTMELJY/eCnpg8Q36yPs8o6/pE7Fn67PcO3KGLLCpzrOqDzuDgVyw9Q5fOy7wXXbefduAK1+Uexx3ylx8AC9A4vOu+DtjMt8j8MQrrjy/ZAtXHZXRKg==|920
+}//oVKtnehHdl1/eJHr0CSIxJciBQSh2h39XnaIXvUXs4kbmTxxl6tVF7kpxRvrcQ6cqIy7kqZzbODrvCLncFwCJYy3xIRFeDxp5luKpTsoJcoxY+ygetJiDPhMGzr0rK/jvJGG7Ovj4rtXRDbL6mL5N9e7Xt61AI/gyn7OkdzRW07Jytr+a3Xr9MxRqL+pRDizILjUUlrHlR57cAM0kWiEwLLwCnKmECDyH0I4/U7l1cHXD3KsvCWAkvguDC+WQDJ7UcGV6aeUQdSvtkDBRVYhurSJ7ZpzlWG5qF4feBGdFMxzVA9CLyHJ3W03PZ8AoWQ6+hCDtAx60sjEX4iCB33H7pdFiR2Niii+F0sxPZxfdJk1wJuviAEgKsPppa5tZ0jXvQZm18/bzH7h14I9XRMVxgTsvZQIZQfv+ltnkm8NXqJG+iKA4Qqrg3rZjFT/pKqnxUy7J3gBqOvO2p+LaQODudg3pRbZB7wjg9Sj4EnZS/yrRbBHWv9iyq+q3VeBp8Q+6QTjnpqrbgde24Eb6S9YLZdaALqgpCtYkB/IAmhFaZLXiUrFW5f0TF4s0Y4WBWGhgmwcwB9X0F3R88xQ54pRRUAVbt9zkbJj4L2oSo2gP5V4Y1m8prd5GtGc0l31BG6bNKODJaHnzak1q5DO3KpoCQyRl0Q3altKFSaa1XreY0DGasjyVFGYH5Nd1uK5pIXo8RduzgwVLKKcqMdtQtIPGxJVM3aA+8M0GlHh0WhfKfwzS1ENhXqH6Q3hIRbaD48ICdr28VM47hkpGgQaS7IOIbIXtjK6sK5NzwZbubb6cc/JKbSUnRySJs7NBm+rG+Le92k+e/e0v0S5+MmpVcsdqfAgKN++C1YemAR3rysR85wW07xLsr6s18iWVhTq1eYHVyf2+XGHVnoRNVpgprTEXw==|920

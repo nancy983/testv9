@@ -917,7 +917,7 @@
                         }
                       }
                     },
-                    "ID": "3fcaf20a5b204d57ae1971df69327a7c"
+                    "ID": "1724066b90334bfa83aea525d19e25cd"
                   },
                   {
                     "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -954,7 +954,7 @@
                     ]
                   }
                 ],
-                "ID": "4ba94bc7-ec21-4ca0-8d56-594aac79bf36"
+                "ID": "1ebaaa14-d995-402f-bbc5-e5fb307c9203"
               }
             ]
           }
@@ -1229,7 +1229,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=LEN(采购单填写!C9)"
             },
-            "ID": "e15a8c2b0eca4fe182058fcdf93805bc"
+            "ID": "07f285b4fe034f8ea7b585085f2265a7"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -1287,7 +1287,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "364c4583-d5cd-4a93-94a0-b85b61c00738"
+                "ID": "8e73cabe-489d-483c-a6e7-8983f79fea76"
               }
             ]
           },
@@ -1438,7 +1438,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "4db3196d-5ed4-4361-a565-8903d09b5686"
+                "ID": "46be1a54-07d3-448f-a63f-b8b8f1873c65"
               },
               {
                 "CommandList": [
@@ -1580,7 +1580,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "a49b751e-cc0a-4f55-9c8b-3d93dcc80ca9"
+                "ID": "a9386094-774e-4e21-b840-a05c947a5149"
               }
             ]
           },
@@ -1644,7 +1644,7 @@
                     }
                   }
                 ],
-                "ID": "63663b9e-62ea-46ea-a688-67dc75703c35"
+                "ID": "9e8389ea-3108-4010-9495-f3a26df9c278"
               },
               {
                 "CommandList": [
@@ -1689,7 +1689,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "c32de778-cef5-425f-9eca-f829be6a8dae"
+                "ID": "c1291c48-b509-4a9b-9007-e29a45120e96"
               }
             ]
           }
@@ -1709,7 +1709,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=LEN(采购单填写!C9)"
             },
-            "ID": "b43f3eabf21945ac8134a5eb37294ade"
+            "ID": "f9aa33371b49413482c40e976af72144"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -1767,7 +1767,7 @@
                     "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                   }
                 ],
-                "ID": "43edd83b-96ce-4ed7-b517-711e68650571"
+                "ID": "12adada7-0900-4d96-a323-df54dfe9e14a"
               }
             ]
           },
@@ -1919,7 +1919,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "46c74f6b-0529-4733-9345-4f0c6eb67f5b"
+                "ID": "3acdfcbe-5b35-4fdd-aa33-1c70e20e609d"
               },
               {
                 "CommandList": [
@@ -2062,7 +2062,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "cb172ce5-2b81-4b20-bbdc-a5f81b071153"
+                "ID": "ce3dff20-bb10-4741-babd-8a0d7b67b418"
               }
             ]
           },
@@ -2126,7 +2126,7 @@
                     }
                   }
                 ],
-                "ID": "acaff5a5-5f71-4608-b1aa-b513dd53360d"
+                "ID": "35a60ba6-1302-493f-a49f-e67e7b72b3fa"
               },
               {
                 "CommandList": [
@@ -2171,7 +2171,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "f828386d-ab85-4c4c-994e-9d4fbdb5c859"
+                "ID": "68e5002e-a25d-4d9f-ad17-489134325742"
               }
             ]
           }
@@ -3404,7 +3404,7 @@
                             }
                           }
                         },
-                        "ID": "e32694f8b2d548a9a1c19e82682b728e"
+                        "ID": "1a80e3feb2984606a8fe78fa5ffc6c2b"
                       },
                       {
                         "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -3469,12 +3469,12 @@
                         ]
                       }
                     ],
-                    "ID": "7163c0ee-490c-422a-9b1e-8fffc3b9f118"
+                    "ID": "83c7503c-eeb7-44d0-a1a8-ed725a3bb36e"
                   }
                 ]
               }
             ],
-            "ID": "cda5742a-31c4-4cfb-9f0e-d9eb4d17f084"
+            "ID": "666b5b3b-9b90-4e31-9ab0-d4e357af3765"
           }
         ]
       }
@@ -3500,4 +3500,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//seI07ve1fPc+gpAtxLQhMor7WAqtAo338b/EhcfArPPVS7wF1WDwlaATEFglk2hXLtaJqLxosqsIAJahhADUp2p9lkP0BKv4Z/tC/RugE8fjzM/gOi8Q3IAHAixt4nCbm9Sfo3Mr8fMmucdxPYRgD9Wc8XjmlhF9ua1kD1NuvErf219AQcYCNymfO3UIwu/ibv2cg4W68Frd6ZTr8h05J+dv7PqRuodkOi4UnFK86QBM+Zs4XBdCfrwv9d8RcAx1g0gLRo9gHT/AwQhLoDb7qpF0M/gIcTx0aceDXerF+4j1gwNdJBBh1nDo4xUCh1n4yP6N8vUwVMLYKlzvl73aOD3M6RyMqb3AuxvKNkHJbWTUH8vy5l6qv5ZWsPTAUb2QdslZqffDQiq4z3KN4KyyrBoGI/FjGfN+Fpqq9ksxyVJV8K//35harkG0AoRxwCXqp2r3tNMAV8reYT6WRSY1SFTePMAGNrJspjWH+CO8T2scE9BLAYd815G+pHglCylMW+ioHKCHI6pP3zJepAvY1pkuGE5Qc3dRLrt2sa0wjNShlG51Ny4CPXksT3jnY+EGgsdTTqbggUyx/XEJGXLR9a6BuaKeKtK/54AsHv+/UptS+7ewndHMAt053tkeMh0+B40jzpv/2Fc/R6ojQ/Q2pH7Br4V9n8eq545vffSacPHgJlPI37uQVrRMIzHvOAwdgR7DiWIoMCw29Zji11T9ScPFtOuMjvtG2lAbg5W9+kNtZCMvZckmM2hbaYdicG3qToTVT4hi5Ax6eFlXNFLRJF/UAO4bC/xAHK6QZxv9/9Qy0jiSery8UDHjM5YIoGhstDWamKaTpNI/GiHy7zi9tH31fTWu6ZI/XQHls2DwYTtmGm8gHmeQjm9QggPO2BlqakoMfefYYWAX9BcTCaLxEg==|920
+}//NUKU0FmUwNJnmcGeJMc22HXcantDi6NaujpMvdswxaBn43NTjr8T9V/8QwTD32zND0y0qTKEJykKJqrxEgEmrl0tifl64wG1YEwrq0w+O5KcICg2kPYPWNiHH7yJnggcAz+x61mlbpmTWjNj/ybutz4YBbeHMj6wtWUqqWZQJKCu6OdEb/WuUFas8+wGMaZ0yd6hdeTGCnfXgYeBBl9if8GQdpz59W7LkSgTM01TAe5YW38CJAZaRf1EBBQv0uLsa20/SauXqA0KXdlEqyD90wHrWrXNogRTRak2JhEEMT60iU4mgtKDgWwKpM5Lvwk7I7nZUpMkwQ6I50svfD18/rb3AKiT3My43L7StDFxexHkSJjnIgLG7jmBAE94Iav1ekR/YlleISgnTthLt6fafYkHG4F9uJGzH+04hKlkjhhJ6KhBGdcqFMGREeRe8NXiRXF4ZW+SY3Lh+EPGx+r2iN1a8exDqfCP9OWVgoJq6aLZ8L46tmri5ZNU7L5oYOL4Sk6maRyZmS8i+uAK1MvrnlHyVeOtI+SCtWhXbbyYbHfDEPLvnM4Z4Pb2Do5HhHgMwM3fr578jV022PeVBdyLMyH4dgx1MhwVxVcpIB6iOBcR7VuVFhnyPWjb4N5zNKo4cmqd+vyEuJmKkMTP6k5ajmE9Qm3yDb+tWD6X5Wqzh4A9g3hvhdR4rGoeHvXu4dmCUCbc2EvtKJv04LcKzeoY9aKj1mim3EbFUTruNaI9d4C0gGH1mAySkgECKWD1eU4yu2mu7CZIYXbZOhtJlccIuxYtZoNwoU1SwuJ6PXRjSpxaG8FVhfBJouc2m1/lj2p5b3/jMxrg7PEF1nDUIehB++6z0NbqfdIV0d7Eeoi4Kni+t0XvP46w17LLzoRhfvKBfUKiY6GnhYqidkueNXJFeQ==|920
