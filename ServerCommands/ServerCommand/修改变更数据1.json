@@ -1,0 +1,152 @@
+{
+  "Name": "修改变更数据1",
+  "Description": "aaaaa",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "采购员",
+                "销售员",
+                "库存管理员"
+              ]
+            }
+          ]
+        }
+      },
+      "HttpMethod": 3,
+      "Parameters": [
+        {
+          "Type": 1,
+          "ArrayParamItems": [
+            {
+              "Name": "请假理由"
+            },
+            {
+              "Name": "请假类型"
+            },
+            {
+              "Name": "开始日期"
+            },
+            {
+              "Name": "结束日期"
+            }
+          ],
+          "OnlySendChangedData": true,
+          "PrimaryKeys": [
+            "ID"
+          ],
+          "Name": "参数1"
+        },
+        {
+          "Name": "参数2"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.ServerImportExportCSVCommand, ServerDesignerCommon",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=filepath"
+      },
+      "TableName": "请假详情",
+      "Columns": [
+        {
+          "BindingColumn": {
+            "TableName": "请假详情",
+            "ColumnName": "ID",
+            "GUID": "393dda9c-b012-4ab7-bcc6-dceac5b04351"
+          },
+          "CSVColumnNameOrIndex": "ID",
+          "IsPrimaryKey": true
+        },
+        {
+          "BindingColumn": {
+            "TableName": "请假详情",
+            "ColumnName": "用户",
+            "GUID": "540d0cf6-69fe-45ad-ae92-55b22b85e7f8"
+          },
+          "CSVColumnNameOrIndex": "用户"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "请假详情",
+            "ColumnName": "剩余天数",
+            "GUID": "348c6699-fac1-4ba3-9974-09497401b796"
+          },
+          "CSVColumnNameOrIndex": "剩余天数"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "请假详情",
+            "ColumnName": "请假记录ID",
+            "GUID": "8ac6b77d-b6ba-4e0a-aac4-772af0de38c6"
+          },
+          "CSVColumnNameOrIndex": "请假记录ID"
+        }
+      ],
+      "ImportCSVEncoding": "UTF-8",
+      "RowDelimiter": "\\r\\n",
+      "ColumnDelimiter": ",",
+      "TextQualifier": "\""
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "返回值1",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1.AddRows"
+          }
+        },
+        {
+          "ReturnPropertyName": "返回值2",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1.EditRows"
+          }
+        },
+        {
+          "ReturnPropertyName": "返回值3",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1.DeleteRows"
+          }
+        },
+        {
+          "ReturnPropertyName": "返回值4",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数2"
+          }
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "返回值1"
+    },
+    {
+      "Name": "返回值2"
+    },
+    {
+      "Name": "返回值3"
+    },
+    {
+      "Name": "返回值4"
+    }
+  ]
+}
