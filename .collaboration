@@ -6039,16 +6039,7 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T16:55:54.9470602+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\服务端命令2.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "Pages/EmmaZhao",
@@ -6080,62 +6071,26 @@
   },
   {
     "ModuleName": "TableView/视图1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T16:57:28.0645776+08:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "Table/表55",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T16:57:58.2644963+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "PCPage/newpage",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T16:58:29.7342361+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/侧边菜单布局1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T16:59:07.7486693+08:00",
     "ModuleType": 3
   },
   {
     "ModuleName": "MasterMobilePage/底部菜单布局1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T16:59:26.4420003+08:00",
     "ModuleType": 4
   },
   {
     "ModuleName": "TaskScheduler/计划任务1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T16:59:50.4311398+08:00",
     "ModuleType": 16
   },
   {
@@ -6236,32 +6191,14 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令4",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:00:08.5287836+08:00",
     "ModuleType": 15
   },
   {
     "ModuleName": "PCPage/店面满意度_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:01:14.0562581+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/店面满意度_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:01:14.0562797+08:00",
     "ModuleType": 1
   }
 ]

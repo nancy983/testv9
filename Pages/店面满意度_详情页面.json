@@ -1,0 +1,309 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "id:",
+    "5,6": "code:",
+    "7,6": "eb_owner:",
+    "9,6": "col_num:",
+    "11,6": "en_desc:",
+    "13,6": "z_c:",
+    "15,6": "trial225:",
+    "17,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "id",
+        "GUID": "23774c3d-db54-46cb-bb7a-6222d9320eb5"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "5,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "code",
+        "GUID": "8b840937-c46a-46f5-b8c9-93aa5bca66a1"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "7,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "eb_owner",
+        "GUID": "288c4189-09b5-45f7-a943-47c0cdebbf0b"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "9,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "col_num",
+        "GUID": "14d108d6-2b75-4773-8ade-61aa7526191c"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "11,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "en_desc",
+        "GUID": "eea91ca0-3054-478f-bd5f-1ecff38daac4"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "13,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "z_c",
+        "GUID": "f8ed67f5-8f1a-4805-b72d-c76be4d11ac7"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "15,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "trial225",
+        "GUID": "9a5d99bd-9bef-401c-82f4-3b51a14f7c2a"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "17,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=店面满意度_详情页面!K18"
+                      }
+                    ]
+                  },
+                  "value": "添加"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "店面满意度",
+                    "UpdateType": "add"
+                  }
+                ],
+                "ID": "9a8cda23-dd7d-480f-acf2-ea16850b7165"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=店面满意度_详情页面!K18"
+                      }
+                    ]
+                  },
+                  "value": "更改"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "店面满意度"
+                  }
+                ],
+                "ID": "b0f25f5b-03e9-424e-9872-599f5e9ac1a5"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "17,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "5,14": 1,
+      "7,6": 0,
+      "7,14": 1,
+      "9,6": 0,
+      "9,14": 1,
+      "11,6": 0,
+      "11,14": 1,
+      "13,6": 0,
+      "15,6": 0,
+      "15,14": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,14,1,6",
+    "15,14,1,6",
+    "17,10,1,4",
+    "17,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//IWdk8IdRU8ueUUXAaEDQeqtDL5A8HOZQ8y/zuUl78nZqUIpZHX4b9xWJS89iXDR8nATFP/m0ppvG16/CHHrHSdOdf+Rsr863lMARTDwgN2LqLcC7832gfnmB0+mUaRTPaho0UBXH6AsNaeep6/NeTpvjmRnBVvQn+4LWpcmavUnH7oWKtwPrX6xZbIqgObFIQGNX35Vf2MwtTYE1wrbRvokNIC1cWt5zxUuFnMuF4rmgsg5mbthEPXA8IqThcqdyn5L6vhwkb1gvx7mwZS3WzoInrPeCQ/uTnKQy5ZSEvA8MeQNLv8Ja4WWLjucCUk28O23rDYpFN6D9Wy9ajN67AUqCPqwre5q0+H5Z/kblM/1NsoOYQ60K82cH5l6TJ6K5Nk+Dh6ZhpXYm6vWde0XzthEt6UpNvnEEKmaP52265uBSiKm5SpKCghiGvLMZWrH7xyI+DX2AXaCXwXxkOZ6wSCciaMAqne7K5aBLBtBg1j0ATmrQM+UqJwbS/tsKF6TwIImDHCnmD2aHkZjCBDkjhuiew8joZ0zofztUFgjAsnBwxzXyuK6uc3dMnNqJNq60VOsA2SPxIkHQTF18IQafiVuBk2xwa8WH5HgYtf1OzRo9rW9m7lNegbyR/MMP+W6YSRMbx0SHEyE62QZKj0Wz5nJYQe/On8g0jKAOBRYqBgNnrcl2IBvLGIH1AS/4HdL7EL2hCkYdb7Vlen67lUdHO2hKJHFhSxTsUxEaolQajTXVgSkYo5gHV0s/uQBqAI2WPjh0JwgXWLGsz4W2lBjRNOp33qt2ZJe03u1MY9GOI0J9DzGQZ8DRwtcrzn1YTWGENDhswRTdCvNRKTctTW6XDchQotz6eWoRCz2UnNveazVROwR5I8zJS5qs08XH200d5RNHQa1PEz1g9qGGh7azlg==|920
