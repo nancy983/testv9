@@ -6348,7 +6348,16 @@
   },
   {
     "ModuleName": "TaskScheduler/计划任务2",
-    "ModuleType": 16
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:30:52.0617218+08:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\文件夹1\\计划任务2.json"
+    ]
   },
   {
     "ModuleName": "SchedulerTasks/文件夹1",
@@ -6417,5 +6426,15 @@
     },
     "LockDateTime": "2023-04-28T17:30:48.3313388+08:00",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "TaskScheduler/外联表副本同步",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:30:52.0617245+08:00",
+    "ModuleType": 16
   }
 ]
