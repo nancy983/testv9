@@ -1327,7 +1327,18 @@
   },
   {
     "ModuleName": "ProcessItem/出入库审核",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:46:35.0307574+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\文件夹1\\出入库审核.json",
+      "Process\\文件夹1\\出入库审核.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
