@@ -979,16 +979,7 @@
   },
   {
     "ModuleName": "MasterPCPage/报表菜单导航",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:17:56.6961583+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\PC母版\\报表菜单导航.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/横向菜单导航",
@@ -1721,16 +1712,7 @@
   },
   {
     "ModuleName": "PCPage/报表功能演示",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:14:56.4677795+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\导入文件夹2\\报表功能演示.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/导入文件夹2",
@@ -4057,33 +4039,11 @@
   },
   {
     "ModuleName": "MasterPCPage/顶部菜单布局1",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:26:17.83539+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\wendy\\导入文件夹1\\顶部菜单布局1.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPages/wendy",
     "ModuleType": 24
-  },
-  {
-    "ModuleName": "MasterPages/wendy/导入文件夹1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:26:17.8352292+08:00",
-    "ModuleType": 24,
-    "ToRemoveFiles": [
-      "MasterPages\\wendy\\导入文件夹1"
-    ]
   },
   {
     "ModuleName": "PCPage/MainPage",
@@ -4485,16 +4445,7 @@
   },
   {
     "ModuleName": "MasterPCPage/默认菜单导航-PC-1360_768",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:20:29.3874367+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\组件\\默认菜单导航-PC-1360_768.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MobilePage/分析页-Mobile",
@@ -4550,16 +4501,7 @@
   },
   {
     "ModuleName": "PCPage/分析页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:19:50.2316972+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\组件\\Dashboard\\分析页.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/组件/手机模板页面",
@@ -6248,12 +6190,6 @@
   },
   {
     "ModuleName": "Notification/服务端通知3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:13:47.42592+08:00",
     "ModuleType": 34
   },
   {
@@ -6266,12 +6202,6 @@
   },
   {
     "ModuleName": "ServerCommand/发送服务端通知",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:17:48.8480513+08:00",
     "ModuleType": 15
   },
   {
@@ -6328,32 +6258,14 @@
   },
   {
     "ModuleName": "MasterPages/wendy/pc母版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:26:17.8352357+08:00",
     "ModuleType": 24
   },
   {
     "ModuleName": "ShareCommandContainer/模板命令2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:27:41.326486+08:00",
     "ModuleType": 36
   },
   {
     "ModuleName": "ShareCommandContainer/模板命令3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:28:12.5452574+08:00",
     "ModuleType": 36
   },
   {
@@ -6362,32 +6274,14 @@
   },
   {
     "ModuleName": "ShareCommandContainers/文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:28:50.3881158+08:00",
     "ModuleType": 35
   },
   {
     "ModuleName": "Notification/服务端通知5",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:30:00.1168524+08:00",
     "ModuleType": 34
   },
   {
     "ModuleName": "ServerCommand/服务端命令6",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:30:48.3313388+08:00",
     "ModuleType": 15
   },
   {
@@ -6400,22 +6294,10 @@
   },
   {
     "ModuleName": "ShareCommandContainer/模板命令4",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:31:13.3095012+08:00",
     "ModuleType": 36
   },
   {
     "ModuleName": "TaskScheduler/计划任务3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:31:35.5136131+08:00",
     "ModuleType": 16
   },
   {
@@ -6424,12 +6306,6 @@
   },
   {
     "ModuleName": "PCPage/页面21",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\WendyWang",
-      "Email": "wendy.wang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:33:00.9209257+08:00",
     "ModuleType": 1
   },
   {

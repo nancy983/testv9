@@ -1,0 +1,11 @@
+{
+  "Name": "计划任务3",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.OneTimeScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 45044.0,
+      "ScheduleRunInDebugServer": false
+    }
+  ]
+}

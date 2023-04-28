@@ -479,6 +479,7 @@
     "Count": 69
   },
   "Values": {
+    "1,14": "发送服务端通知",
     "3,0": "%PageName%",
     "3,68": false
   },
@@ -535,7 +536,7 @@
                     ]
                   }
                 ],
-                "ID": "feed6b5f-5c4f-4348-96ec-ba0e16072f82"
+                "ID": "4abc249e-095f-405c-9b47-fd012d6a443d"
               },
               {
                 "CommandList": [
@@ -564,7 +565,7 @@
                     ]
                   }
                 ],
-                "ID": "a4a977ea-6dbd-4a25-a094-dd051cf9ba30"
+                "ID": "f34d7e51-22eb-481c-912b-0803caf8449f"
               }
             ]
           }
@@ -572,6 +573,21 @@
         "ImagePath": "Navigation/131_list_3.svg",
         "BuiltIn": true,
         "UseCellForeColor": true
+      }
+    },
+    "1,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "发送服务端通知",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "发送服务端通知",
+        "TemplateKey": "_RS_Success1"
       }
     },
     "1,57": {
@@ -834,6 +850,10 @@
         "BorderRight": null
       },
       {
+        "HorizontalAlignment": 1,
+        "Underline": true
+      },
+      {
         "Background": null,
         "FontFamily": 5,
         "Foreground": 6,
@@ -985,11 +1005,7 @@
       "1,11": 3,
       "1,12": 1,
       "1,13": 1,
-      "1,14": 1,
-      "1,17": 2,
-      "1,18": 2,
-      "1,19": 2,
-      "1,20": 2,
+      "1,14": 4,
       "1,21": 2,
       "1,22": 2,
       "1,23": 2,
@@ -1020,8 +1036,8 @@
       "1,48": 2,
       "1,49": 2,
       "1,50": 2,
-      "1,57": 4,
-      "1,59": 5,
+      "1,57": 5,
+      "1,59": 6,
       "2,2": 1,
       "2,3": 1,
       "2,4": 1,
@@ -1087,27 +1103,27 @@
       "2,66": 2,
       "2,67": 2,
       "2,68": 2,
-      "3,0": 6,
-      "3,11": 7,
-      "3,68": 8,
-      "5,68": 9
+      "3,0": 7,
+      "3,11": 8,
+      "3,68": 9,
+      "5,68": 10
     },
     "RowStyles": {
-      "0": 10,
-      "1": 10,
-      "2": 10,
-      "3": 10,
-      "4": 10
+      "0": 11,
+      "1": 11,
+      "2": 11,
+      "3": 11,
+      "4": 11
     },
     "ColStyles": {
-      "0": 10,
-      "1": 10,
-      "2": 10,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10
+      "0": 11,
+      "1": 11,
+      "2": 11,
+      "3": 11,
+      "4": 11,
+      "5": 11,
+      "6": 11,
+      "7": 11
     },
     "SheetStyle": {
       "FontFamily": 5,
@@ -1122,11 +1138,23 @@
     "1,59,1,8",
     "3,0,23,10",
     "3,11,1,57",
-    "4,10,22,58"
+    "4,10,22,58",
+    "1,14,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
     "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SubscribeNotificationCommand, ServerDesignerCommon",
+        "Name": "服务端通知3",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": "哈哈"
+          }
+        ],
+        "ID": "6ec429be7ad643328e4553083a30fab6"
+      },
       {
         "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
         "ConditionAndCommandPairList": [
@@ -1157,7 +1185,7 @@
                 ]
               }
             ],
-            "ID": "def3abae-00fc-4f1f-b142-85f076192b66"
+            "ID": "6ce212eb-f899-48e9-bacf-a27120226cc2"
           },
           {
             "CommandList": [
@@ -1224,12 +1252,12 @@
                         ]
                       }
                     ],
-                    "ID": "53ec43b5-aa2a-478f-ac5f-43dbef9f17c7"
+                    "ID": "a4b0dff9-97fc-49a3-96c3-f6e58a9a7eb3"
                   }
                 ]
               }
             ],
-            "ID": "abdbaf30-2714-4f64-9c1a-7559b894c00b"
+            "ID": "8c1d1aab-f1e7-442d-a1c8-da1407d34b8c"
           }
         ]
       }
@@ -1279,4 +1307,4 @@
       "Formula": "'默认菜单导航-PC-1360_768'!$A$4"
     }
   ]
-}//85aZX0B56LfcyHM7rBdRljOV5m3NwOs53okLCQ+sH32MX0JzHLf/th/i7baOoaJi5PAusRpSjpFST3biT53ISRiE+dQ187cmAJ5uwHSmkU9apn7CPH2yxDMbBUhvf9hYguyOGXHwPVF2L3FFqLxst42iUuqpCN9n0ie2joxOxiPH0pvvressBw2AZ/pFmYvMPSSQsekQ6fy8/D0zXgyvRwrfczixjpfBMDjIZaLwgoTbd/wJseoE4/qNbPxY7zysBcO354TNzDEKHfNfkO45sma3PZnwHHhUphV1SkwWn4FAS6O/Cc1QYxI9HcV9GgqtLQaoyJU7ysCF/fnfvY1VMWbw8BVEZs8xQB8206Y5MopPfY3pof3fqGXgN4esV6RYhTS21erxMSdQVddQWk9nqAIxcKW+nAESI+bsMdwlKaMURKC5SUdRD1K11y7+tDY/nFhLDyvF2EgG++mF+V06cPwoUL6ZNI6j0KPzPGJWPDYpidg9dsjO0yTFVv2e47EQ5sd0kHy1H6BmdBY0z2CkqKgYVG6IS/mgzQF2nIRr9r/iPdsvObPcf9MMGRvHY4e2R4k8wNt2as4qIZ4cCCGqPhNAxBn210D95kBeD4PCmD1Wv171dKvWAWQm/eGdnCL2ygdjPUAMF6G8yWUkqcKzK0mxDh4y8sOmJB+3NDCFjejij2aJVYRsXr8msZJ+9/XwoCBvuU6rZy+7sq/PjftIW3MDtlye2B+710sIhaEb09MAz1UvkHTYiBQlaDDmchVsKddTIGLHomeqVBMCgVkEgmfX5y6359FA6igqjz/G92DXRXD6JXfwrMGTP2d7rdlMKcWfKpW9XMwyrc+popdOAz5DwmMpG2s2ynA+50u1Y6tGYVPAdcrOYnumVfS0UO0ktrcPEp0LcNULAeKux5032A==|920
+}//WZ7ChUATQme2izrnDmoWbAvFFT5K5in6/wmQz7OtiWltP72540RnDOLtvyaPsio4NkECydfSDBO/c92YTLwQoMhvKlwNoltv7gaT3a2Xrf6mAMSN4uOeVq124VLfWzywm5CujiPNZ+dcspweLfXh8BsBLyE4XALi1NjomDSVYIX2un15oQTAGHrShrToYVux0wB80RdcP5CbQ0dEhwQOD/O7MmoNYs6F5Puxv1dRx25EgRPCZanogiiahIxTkFcaYUiXjbtAS3bBObJm3VmKGJuvQagoTEaEPivZ7G22Gh6L6r8tvZDW33nGyZRNCtdh1qR+6rGgHUYzn5NbxQaMSJQKHys1fSoSeaBB8vM5890LmQVm3tDi/j3W1WEGQmCc1Rbp+tVliQbyHK2TtFAULNGGnyOyhKUFAHc8Uf4L8EjRqI6tJoLMuyxePIFXpAItNbYj400o7uVUTxM6nMCgk5CYMZVt+16OjSNKbgaB18873o+oEnUaGRZyzYvRwI/LUKysVnsARFQ66EH8Jur10Yl65kEUh+MKhTwLMA5ANuXGyKBbAbUn32hkLLaAfXoIK9mG+hrk/VjzKNzWbWoBja9+w2WFP0RbT2Kw1VBKjCrbitdqiq5J0+EQ9NrLYNUkaHszU2cH8AwYndFTCICTMcrOFnYmup0zZeFkN1sJP0rEAoEsmar3m3quuRyblMICjQt0TyEAdBeFHT/QpP7G5EwNARDCVnC9+suIKJwbv+1PWaoAXQfacHsuL9VTiFB0LBtfaux4x77RQDF/LMGvk+uadk5g+KJOy/w7EtSUUG32gv32SJw5h01aBWBzUGYrpJHrxJBJwT1F1CEJn/tUVMVP8EvOatNyoXzgYJ/6Lpk800fi8Ap8WMuPjnpdwZPzS3fyJ+CXfTiUlnze862Wgw==|920

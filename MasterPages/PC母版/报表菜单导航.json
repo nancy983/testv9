@@ -478,6 +478,7 @@
     "Count": 69
   },
   "Values": {
+    "1,51": "发送服务端通知",
     "1,68": "%PageName%"
   },
   "Formulas": {
@@ -530,7 +531,7 @@
                       "DeleteCachedQuery": true
                     }
                   ],
-                  "ID": "6b7a12fa-5756-4235-a6c7-4eef8e4a7d9b"
+                  "ID": "4d68b4f0-c770-4910-a0db-9d9f79fc8125"
                 },
                 {
                   "Condition": {
@@ -564,7 +565,7 @@
                       "DeleteCachedQuery": true
                     }
                   ],
-                  "ID": "03884705-78c7-4892-bb35-0c878854aa9d"
+                  "ID": "bf083520-e890-48b6-8cd1-9bcb6e2557c1"
                 },
                 {
                   "CommandList": [
@@ -576,7 +577,7 @@
                       }
                     }
                   ],
-                  "ID": "98d6edd1-579b-4a8f-adb2-f9274fb17784"
+                  "ID": "34e0e2ef-2ae4-4522-a1cf-d00bc03ce585"
                 }
               ]
             }
@@ -831,6 +832,21 @@
       "CellType": {
         "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImagePath": "grapecity_b_32.png"
+      }
+    },
+    "1,51": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "发送服务端通知",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "发送服务端通知",
+        "TemplateKey": "_RS_Success1"
       }
     },
     "1,57": {
@@ -1263,7 +1279,8 @@
     "1,1,1,8",
     "1,59,1,8",
     "3,0,23,11",
-    "4,11,22,57"
+    "4,11,22,57",
+    "1,51,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
@@ -1302,4 +1319,4 @@
       "BoxShadowString": "0 2 0 5 rgba(0,0,0,0.5)"
     }
   ]
-}//14LWKMtMDjjMI7Sf/fwpYiEz3/bpyVoBJ/NbVh+3A+D3Nlk9UUrz7Gx+NrOAJjhZWh2ONvPLOUqENlnoPePRjbubO+A9DPKUh+2nIpRd2imEmbDkfd8flBF2G/N9cfvrSnCpvL0zD51DuwCDO5l7bnepMoNnSiRnsHCyDgPfw8uNNvFVvkqixaSbR4NpKT2wHH8aflmaI1GvJucB8ylrIIxYEBu3TVPxsFzk3JloItGDDbR6m9jzXVXy3WjUhh/jEgfF2lGEwD6GhG0fTG+E/OS9bZO0GWPhbaOVCpVxAivQ3+lfecSS8ixTEtedSp15xV8amuCftNDRtNWmZ/tBc7rrqxK4CneZLKz69UilyaJD1hwc9QnAnDBCx1yRDtCgf6ALIPgtbiwaxbuMpXg3k5T3gG8rSxrJxIsGwVlb/XOPcvGb4Dun26cjdQIuRlcOyk9wgL/o+m3yAm1o5m24sq/6JMgVyCn5KnAHXYZzK8oc1YxdkQKN30dgMrcGm2GsRlGPfPSOWuawTbePH2lZqcGZEWfduNcsfimrq+26S5HVdIAUyYM0rzi+MP4H/ck5Kl4nJXdl1Ah0UfNSA4eWVj92QITkXjbzTA5XjLyfjjOCSQGLQvZg3zgT800VOM7pPo3y6Dk89j5FFrgkiP6tfJJE+y4u6QgRAyFXgTHd+m9nqJ4vwwVuTIyo52sUtCePkyB24SDx49te8hN1pl76s8I2i3VPC7730IeZLfNl//cBB8t/3aDYCjd1rEciprX5q0uMWWhteoIQ0/kp/+2njsxqSHd+jfQyqPdoY3swhhZDT5FPLpPSAX7FHaRno3HiwZ71hawnhkFKNoSfcc6HktZM4+PlPZqnctPB9/QlocexdqhSWgu5lp7q7alWh36tMMfZ44wNmhJzLxw47LmXBg==|920
+}//AIdEqIObV9+s24T8xYlPWi3QGUVRtov45azyYw+3pBHmAuYYGhqwzPJ0ArVtndrcTnyVA5Biw8r2SYfUFtmgS8kAkRwyhEM+5QMj8oKj+DSH11FByI3gPN1VegJ7p3nA0TQcHhrG7+gSlprK2sfNT3qugO1e48EqZc4BgGLsErbbC8Yrx9FIa3otIFfd3fzmzxcNiBZBx7ztr6UR+YRbXdGSDH888WEhYUDgqRc3Q9DR2XDAx7XzmzJk8vyb58gaik6WF5keCDSTOU9QUn/Jsu333LkwT74pqGIwm4pXuEFQInQShTyMgidh4thBfR6c3VWgWZOBPldesDlkmNEDTMBiJFYmgX8lNCTSTGeT6yvKZvRRoyxS8BkfyEPrSRtCbgDc9ynltDOQb3bNZULiHCAToiH+St3bAsV/HQNbGsgOCc5zTNGh3k0X1J3SDCzVojH3EISX4qAzgmvk/ujAdtxU2fAAzqRYfAoMBDS483i0JYf6TlcxkDGzaBUJD1qbJiTwEGlAngfyRd5A0Kq0Te+YcZOgjHp5mWQXdJytKs0pKpJDsuUY/NXm5duYCS+X4eeGAlq1jxGkKIuTAlOpnk4KX61wH5TkTgOHT5o8eeuSHf+QxNpCqYgWLXsFZGw4Gy+oAoa5ooK1OYzcWbfYieuBeiJMCOfmxWtMu4OsSs29NGRsuIpY6SQfLSP9I6xS9KrJ2FPa94LS1z4iPu44OXcQzl/ur3tguP706ag0dV41Qt9gvfx1wcKVWd0SmHz1CUoAMWpurL5grvgGtbKY84ue3+JGCVTwKfxJj0yFMWC8lzqfWk7BiGnfA4sJ3GJikcLxJFczyu/0uZxKUwlq9DW/XP5QqUE+56SLhgLFyDU5DtN68mpSxh5LLx0RsUb0Y7w3Ay022zzCs5Obr0phjw==|920
