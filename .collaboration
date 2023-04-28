@@ -2483,12 +2483,12 @@
   },
   {
     "ModuleName": "MasterPCPage/顶部菜单布局1",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\WendyWang",
       "Email": "wendy.wang@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T17:24:45.035978+08:00",
+    "LockDateTime": "2023-04-28T17:26:17.83539+08:00",
     "ModuleType": 3,
     "ToRemoveFiles": [
       "MasterPages\\wendy\\导入文件夹1\\顶部菜单布局1.json"
@@ -2500,7 +2500,16 @@
   },
   {
     "ModuleName": "MasterPages/wendy/导入文件夹1",
-    "ModuleType": 24
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:26:17.8352292+08:00",
+    "ModuleType": 24,
+    "ToRemoveFiles": [
+      "MasterPages\\wendy\\导入文件夹1"
+    ]
   },
   {
     "ModuleName": "PCPage/MainPage",
@@ -4215,5 +4224,15 @@
   {
     "ModuleName": "PCPage/店面满意度_列表页面 (2)",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPages/wendy/pc母版",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:26:17.8352357+08:00",
+    "ModuleType": 24
   }
 ]
