@@ -6740,15 +6740,44 @@
   },
   {
     "ModuleName": "Reports/Branty",
-    "ModuleType": 19
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:11:07.6397876+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": [
+      "Reports\\Branty"
+    ]
   },
   {
     "ModuleName": "PageReport/大数据量报表",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:11:07.6397313+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\Branty\\大数据量报表.json",
+      "Reports\\Branty\\大数据量报表.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/报表4",
-    "ModuleType": 18
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:11:07.639776+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\Branty\\报表4.json",
+      "Reports\\Branty\\报表4.rdlx"
+    ]
   },
   {
     "ModuleName": "ServerCommands/test1",
