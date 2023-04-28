@@ -1,0 +1,258 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 5
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 17,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "1,6": "在"
+  },
+  "DateValues": {
+    "3,4": "2022-12-21T00:00:00"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Navigation/238_user_8.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1 40"
+      }
+    },
+    "1,4": {
+      "TemplateCellSource": "操作人"
+    },
+    "1,7": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      },
+      "TemplateCellSource": "项目名称"
+    },
+    "1,10": {
+      "TemplateCellSource": "前置文案"
+    },
+    "1,12": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      },
+      "TemplateCellSource": "行为"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Text 1 50",
+        "[AUTO]yyyy/M/d",
+        "Left",
+        "Background 1 -5"
+      ],
+      "Borders": [
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,6": 0,
+      "1,7": 1,
+      "1,10": 2,
+      "1,11": 2,
+      "1,12": 1,
+      "2,6": 2,
+      "2,10": 2,
+      "2,11": 2,
+      "3,4": 3,
+      "4,0": 4,
+      "4,1": 4,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,5": 4,
+      "4,6": 4,
+      "4,7": 4,
+      "4,8": 4,
+      "4,9": 4,
+      "4,10": 4,
+      "4,11": 4,
+      "4,12": 4,
+      "4,13": 4,
+      "4,14": 4,
+      "4,15": 4,
+      "4,16": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,3,2",
+    "1,4,2,2",
+    "1,6,2,1",
+    "1,7,2,3",
+    "1,10,2,2",
+    "1,12,2,4",
+    "3,4,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "FGC_工作台"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//TGZOOcDosVgXhEqt2Zx0KyOBIcGl6GS3BCKtQuHs05RAN39932ITlMwDJK9r6F5KjkyDxArE4RHWHHd/FNOExlyEhtp1WhwblJF/VzPvMVXD8SSjTrXCB9Vd6xREKddLsTKP5ZEt8nGHG8/wq3zsrVIrvbwOw0Gkzb7JQgnDLHtDZ+ac+GYVM+Nv17xkpeVpqVdDC73PPO9ORh5AJwzZM2VYW9yiTmCz5fX46bP3ckVhofqxPeZVzfV7ThKV890ixQhpWYw1ZSzQe72s4OVo1GfjGHJ2Xbtfg9wDXkI6JGZclsrJGO6WaY/vK2rW+fuxwO+qjkDK81OrdKIF0ZZhEWsblQc/5jE18TtGKI4IwVzip/Z8vpy7mFXr1AuWo1/f/hEk2LYgsPDBrhBiaLSbyjA8T/wh4qcTaZRZNyXmgs7idrsG65ILtNiu2xiR91o0S90KW8nQeKaVMPhaJsaTzvwlPdZSAVbqU2VRNlNfd6AaJVIj6CCxrvOMHiIEa4K8bHOhq9A6Ho4Fneyjoqlsrb81HeOScXUpwGsQ35DXq4kJ7gNu58woOZDtbgHDrU2wNYm9RZX+mgNnpcp8Zf4DaDGbBXaO0BcKCwwD611rGMuVzhH7ZO9TuFEDYSQi3ejyECQcUUVtGfP2RBGtkPNreXu+9QwJFb0g3Q6Na9E5Wm+10il1oKuUXMpzE8PSyvF1b0tu6uce6rHg+UeMX6Zv88fBUMDk+Xc1kRBExSov8nyd7vleSPBjizv6ZoHJjw+Sh3BjDFkj3nDgtRlzxo7+YnoUnFy6yx1CF0Rzk0kvIVxutURgMiXHl3ztPBqStC1byck+NJxeczrpUcXeqSj+olJZ6h+cJy/djtbk7vRQB6x3gnYVLA4tIzXtlNo2Q4NcnkWBVkuUXsgwvuTz1M2OUQ==|920
