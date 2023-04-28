@@ -1,0 +1,52 @@
+{
+  "Rows": {
+    "Count": 10
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "1,1": "请假类型",
+    "3,1": "开始日期",
+    "5,1": "结束日期",
+    "7,1": "请假理由"
+  },
+  "AttachInfos": {
+    "1,5": {
+      "TemplateCellSource": "请假类型"
+    },
+    "3,5": {
+      "TemplateCellSource": "开始日期"
+    },
+    "5,5": {
+      "TemplateCellSource": "结束日期"
+    },
+    "7,5": {
+      "TemplateCellSource": "请假理由"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,5,1,11",
+    "3,5,1,11",
+    "5,5,1,11",
+    "7,5,1,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "测试页面"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//8b+E5RRi7aFUTUKyWxuA7xuqaIzN+DiHX33U5gSxhtByRW7ntErddjNL85VdJWGPikpA6cA+9SyK91+E3TvQOX0v/WMIdeb0J9ZlSlFOeUFWv/zm7XT1kVwUqCzHT0SHb3Pn8kXNqEAuHyrKVXJesLIXxsOGad0B6o8RLqJsqxEO4dIJHh5uvTf+6JaIvLW5GG6pWzevT5/hl60H3XdTGzgHTZftSPIsKb0Vgi4ifLeY2dV0wW6DXtRv9FKWcZLGUkT7Z6um7C/7Ij89QG3EGsmWxlsCJjujaXFX5QPxrAxmHrzKXQTzr9/kyx01rDNvRzFBY5G0bdMOBvldNiOEDkvRmYxiEJDw6nQTN3BbEXFXw9tmtiMIF+pWGLifFog5Ilv0Ic8X2eyD2Wd8JZakjcK4glQ11B3MaIAXDkdsGPpzEUpBOPdYujey5qEM46cV0EdzY0sD1cKAP9D8yxAHWNq4CgsJEIL6/Z5CMInNuuAGLZqOPRkYlQdh5nz/KIp5KTFKz1paR5BzXA0hxSYEd11pSjQyZviwHFaaBNtYaoWF1v0B+zDK4fXAohirwL6Y1skv9xdfh0MwxElfltv/4lbTqmHjyRj+VuQIoR5d4IIOy1CZ5tvJbv7Fz3MYgqVYUAelok4NpzzpbNQ8UhFKJv6TRTtk+k6a1NeGb1JeiWV6aOZaWs8dPq+OTq2IjJe8T8BHmzSic2lym15ehPMh39BR28qXhBYAkCXRo+AqEY5dOSU8tGMwXs12v6n6uEb1HqS5gEZbFU7Xvw1sZCP2ZHKHAeUjjNfZZ54m4S17FL2N11/JftIm5VoRkxPpH8rylNTPzx8Zel2wnPAYUvMPCwDdwSlyoni3owWVtyNjABNAUHQwSwli4q3lvSpuZpkGdBARYLLAE0HO4c3YRiSfNQ==|920
