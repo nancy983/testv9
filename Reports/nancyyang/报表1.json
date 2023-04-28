@@ -1,0 +1,22 @@
+{
+  "Name": "报表1",
+  "DataSources": [],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "报表1",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 1
+}
