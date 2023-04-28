@@ -1,0 +1,148 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "4,5": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "DataSourceType": 1,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "请假数据表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "ID",
+                "GUID": "cfa68e00-a2f1-404b-86e4-7071a9c90fa5"
+              },
+              "ColumnName": "ID"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "请假类型",
+                "GUID": "5f790001-8ece-45a7-ab01-28d8c3c3b253"
+              },
+              "ColumnName": "请假类型"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "开始日期",
+                "GUID": "150e98eb-9f0c-44f8-881a-6574eb0965f7"
+              },
+              "ColumnName": "开始日期"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "结束日期",
+                "GUID": "375eb312-3565-4d6c-8160-87228f786f08"
+              },
+              "ColumnName": "结束日期"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "请假理由",
+                "GUID": "29562a7a-672a-4c3b-b545-373c49c8c282"
+              },
+              "ColumnName": "请假理由"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "FGC_Creator",
+                "GUID": "e93a7860-816d-4247-b95b-5afdc7215edb"
+              },
+              "ColumnName": "创建者"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "FGC_CreateDate",
+                "GUID": "3f669166-1eba-4a18-8de7-a8c28f615da5"
+              },
+              "ColumnName": "创建日期"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "FGC_LastModifier",
+                "GUID": "d8f9c02b-7b79-4eb6-8cc8-c355108d94cc"
+              },
+              "ColumnName": "最后更新者"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "FGC_LastModifyDate",
+                "GUID": "c245e511-4251-417d-a2b6-9cf1da118b79"
+              },
+              "ColumnName": "最后更新日期"
+            }
+          ],
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "图文列表表格1",
+        "NoItemSetting": {
+          "ImageForNoItem": {
+            "Name": "download.jpg"
+          },
+          "NoItemImageSize": 25.0
+        },
+        "TemplateKey": "_RS_Selectable"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "4,5": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "4,5,31,50"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//didSbAzvRxpW6U4T3j9XplwwOV2I14sWTEAvHeVYjmoVJLzGkP+iJ7BP2Qh4v8ZGKBNuV711wMLz77QQiZYrlRLP8KhMdFQFUipsWYmpzu7Um5YpusR9jbH3y4w69WA3M0HwxnDtp+O4ADT+hnl53N7XbxWWn0mkewYHxiIQXLwN8herEVZL6MyBNOrcrtcnVlUXdFfCyifvf87DV8peSv7xefbxLg4pDcIeCVFDxpsmaxtE5sqCewza5FgNrXcMsJhBcV0CpfbK4/hOuhGnqkWkBkYpNUIDECiugoQfYBnn6gq19XdPMx/SGal6kzK52ORdj8SLlkKdruFWHJtUpuoxKb7zE3TZly8iQurt9xj0nEqepRHjSVUYgK4Z/rLyF9EK///phUxSfS9e1La/WtK+ZPM9+/WmmOtCPXJnv8lD4glskUCTHVRwLutrwSxgb3V8Hmqi3DwGAFaDC2tJ6g11JZuzf0/ZdKSXsXIrjwy0p54ENYjXcN8JimxKLaur8YGKl8YLFGvlvRVoCkINhdM5R8VTxVF66SM2byOOXW8eO+S+tttDON4w5lxBtGiTx0boy+TNlEnesWE5OVSv4xDSaljYmEqr2jlz+eneewdqRf2fKEN5OeonNzeLMvZcmoKet+VjaJH1yHO2oteasIdYgNIkEygmkm8CLzA4YTZN+a4Vyicq5IHWBQSsSbtyNcPeJKzbunuUFHm7eUa8rA+bOwK4yjXM+2lUPm6VwGwr7epCf5kvE2B+7mJlVUNrRFuUovKViwZ/rJquB5IWexMIOcP2aSSTuJFGgF3CY5WI1FxeXX28fz2asWGN9gWObT1aU+myj/1leMC91FLZJ1/KWdebzSHfpoHk1HaJhcJ+MxEVF2eUPRjkD/7V8Wqo4vuIMe/Noy33VHUNMhZ3nA==|920
