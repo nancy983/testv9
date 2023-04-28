@@ -6617,7 +6617,16 @@
   },
   {
     "ModuleName": "UserControlPage/验证组件信息",
-    "ModuleType": 31
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T16:37:20.8651986+08:00",
+    "ModuleType": 31,
+    "ToRemoveFiles": [
+      "UserControlPages\\验证组件信息.json"
+    ]
   },
   {
     "ModuleName": "Tables/使用数据库",
