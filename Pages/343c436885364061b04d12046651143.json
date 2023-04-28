@@ -1,0 +1,124 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 48.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 12.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 14.0
+        }
+      }
+    },
+    "Count": 11
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon"
+      },
+      "TemplateCellSource": "菜单图标"
+    },
+    "0,3": {
+      "TemplateCellSource": "菜单名称"
+    },
+    "0,9": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "特效按钮",
+        "ImagePath": "Arrow/292_move_next_3.svg",
+        "BuiltIn": true,
+        "Color": "Text 1 50"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,3": 0
+    },
+    "ColStyles": {
+      "9": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,3,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "出入库手机首页",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//IKDzfnu38KpzBG/WCGnFQBNK+aHuQC9YHLUJRojH7POpSypAytJWlDozxtOtgXAvGK7VdnuvPyj1EwQW/jqawv/Rycnd7KjpMDgCIELqr+Wpz0Rg6N3cfQX11PB0hikgy4l+iob9977jCRWzLmYB7HkoMKDwwC9v0I+VuOYHe5L+ZH3kQH9ASXa5qiL4Cm057aJ0krn4MveeZQ3OJSqYWEQxi4Ovay1AzXpXD7JgZ8HYDbaPLVPWKIxIP/2JySr4plDJHQZbC8ZLLcULSADrCdOdSpUt9Yy3n5HMBP1EQGbSGCN1BZVE3R0ULZba2bpuOE2pduiGMZi0Flt78CLU7Ze/Junvl1wjq1e4s8yZcsnsGoOc0l3XGjsZtZMK9qOSodpIcVAHhiTioQKkBOSr4pBtAWV0ErBvzcFwSAaX20gGK59cpUNGWqGqYQqI6baYdaZ6s4srflbILPtXfLYhaHO7cGEDr1tSvDg4uaoR3z+GaoPC8f6/H1dvgMTCTGMK0EtKF0grD9iB1gHn3DqvRv71cS36VzGcajUKVj5cXWTlgOftBWhJiBViomsX3GrtmrXzKzN5G5Pae0t+FJPmKBa9/ZNoEQBipLY3VDLISbhSXzytZtooJFj3FBBVopPXsGaaGOjIEvmxCdiD0HeLVr3VOAiLqWfp/by9DqYjTxEiYZhxdDQdA/dPhLFgQ5xnrPtvVLiG5hIX+zssFac1go4xFqCx8ll38iCx8nY4Bofsxyoy4qEPEJPmXqAtHWLgahU/8aga9rc2N7BOs14Nr9iWcoe/Wb8yTiPpdt8Thg5yNoR2hek7kS8cofyqTjdIzPXsUolCXxF00wsvqA7fhFGk52QNWcmZWnyhuunAReWikHfdvUazoNgGm9tavCL2nAZwOTKh6nFM3Wloo6yKTw==|920

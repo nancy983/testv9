@@ -1,0 +1,338 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0,
+          "Mode": 1
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0,
+          "Mode": 1
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 21,
+    "DefaultSize": 24.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 13
+  },
+  "Values": {
+    "1,1": "单号",
+    "1,7": "类型",
+    "4,1": "日期",
+    "4,7": "总金额",
+    "7,7": "联系人",
+    "10,7": "联系电话",
+    "13,1": "项目",
+    "17,1": "备注"
+  },
+  "AttachInfos": {
+    "2,1": {
+      "TemplateCellSource": "单号文本"
+    },
+    "2,7": {
+      "TemplateCellSource": "类型文本"
+    },
+    "5,1": {
+      "TemplateCellSource": "日期"
+    },
+    "5,7": {
+      "TemplateCellSource": "总金额"
+    },
+    "7,1": {
+      "TemplateCellSource": "对象标题"
+    },
+    "8,1": {
+      "TemplateCellSource": "对象文本"
+    },
+    "8,7": {
+      "TemplateCellSource": "联系人"
+    },
+    "11,7": {
+      "TemplateCellSource": "联系电话"
+    },
+    "14,1": {
+      "TemplateCellSource": "项目"
+    },
+    "18,1": {
+      "TemplateCellSource": "备注"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontWeight": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontWeight": 1,
+        "Foreground": 5,
+        "Formatter": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Bold",
+        "Body",
+        "[AUTO]General",
+        "yyyy\"年\"m\"月\"d\"日\"",
+        "Accent 1 0",
+        " ¥#,##0.00"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,7": 0,
+      "2,1": 1,
+      "2,7": 2,
+      "2,12": 2,
+      "4,1": 0,
+      "4,7": 3,
+      "5,1": 4,
+      "5,7": 5,
+      "5,12": 5,
+      "7,1": 6,
+      "7,7": 0,
+      "8,1": 7,
+      "10,7": 0,
+      "13,1": 0,
+      "14,1": 8,
+      "14,12": 8,
+      "15,12": 8,
+      "17,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,1,1,5",
+    "2,7,1,5",
+    "5,1,1,5",
+    "5,7,1,5",
+    "7,1,1,5",
+    "8,1,4,5",
+    "8,7,1,5",
+    "11,7,1,5",
+    "14,1,2,11",
+    "18,1,2,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "出入库列表_手机页",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//DT0DDI/4w0j0QEg1SbLRbLUtJnkjnLljUbPl7r/r/lkADGjJG+lzj6ZqcLWHa3Dx2RNnJk532UKzAkMPuD0UtfEgmMINEF4FX5RHJoDN3Gy3uJRCmbNwADWo7XwDOwAvd5/T54BjhKUPF5BU7eNouahb553jhJuDhM6TFdUYMSxlN4FNWIPU34BTnD+M4xbgUqu16vwoLgO/NqlUce7TgJu5CkP7PzyGk2v9hPZkGCHGQ4HZn6bJ9IpolSEtMEmUFdPWTeC8LF3Mzz/Y1X4YeC4EkRJePA9yk7F80Lda0ILs2ltCS6me0qECWkRcC20vbm7CEtytI4y07Vry/6+PHg3ywNcQl3OxFqcERkIY7kpHqo6WjiqAV0wFqlU3kS6Bg0hJnVzFcG54RuyCPOcX4CjCDKB9UNeG6nTBntCAUWKbomQwwZr3WCeR1o1JZnIkof2VO49L2y3MY/rb63bZoxIDCqkxb7+1rVr3keamVRAs4PwJWNIv6Y+9b+twcwK4DKMsbumLvHhEU5jOrx8J7ubHXz0ojcxDBD+S+rDaY4meI1yTQz4iwojyLXAZ0olXbQKGcElqGCJj5O5erdCinC8uHxIvvDm2qaaFbHiGh5FybsuKRL3XVYsiweb20TxpWLnbLc2Hwa70XCZtxPe0pNG4q9ftZ68aFYNXmrhZeLP1lWHeEy4OVjfuagR0wQPihawZAZ5e23ZDL617d7lW2N7hm35+21y/A48tw28+Hi11zaQMun3lWmnGRVCXoBjeU7yKzHctwJzlrJBfP9C9bOlcsecdDgD/Rp8rWnqcy8bfLzYhUQXv1/WOfTdzRNhJsCnp0jb5j0zDGtgre3Hy22o2VF9RRvE5OfJRpKzfgwtPYxtqDl8sAtDUn5ELRvI3BBvfuBbKp7ETm1DMqOVjqA==|920

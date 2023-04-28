@@ -1,0 +1,127 @@
+{
+  "Name": "站内消息",
+  "ID": "c6826632-3693-4ace-9428-9b55f54d5dfd",
+  "Params": [
+    {
+      "ID": "eea110f4-3b60-43b6-af4e-c1511ab08aa0",
+      "Name": "消息内容"
+    },
+    {
+      "ID": "3badc0e1-9000-4a1c-8f39-26cb9e897b5c",
+      "Name": "消息类型"
+    }
+  ],
+  "Returns": [
+    {
+      "ID": "67060bbc-e869-4e69-adae-87c9e87f672d",
+      "Name": "确认结果"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=消息类型"
+                }
+              ]
+            },
+            "value": "成功"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=消息内容"
+              },
+              "Type": "success",
+              "Duration": 3000,
+              "Offset": "20",
+              "ShowClose": true
+            }
+          ],
+          "ID": "ed706f5a-1b60-47d5-b9cb-3bdcc152838d"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=消息类型"
+                }
+              ]
+            },
+            "value": "失败"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=消息内容"
+              },
+              "Type": "error",
+              "Duration": 3000,
+              "Offset": "20",
+              "ShowClose": true
+            }
+          ],
+          "ID": "d4fad05d-f7ea-4a15-b780-d8a4b7595cee"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=消息类型"
+                }
+              ]
+            },
+            "value": "警告"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=消息内容"
+              },
+              "Type": "warning",
+              "Duration": 3000,
+              "Offset": "20",
+              "ShowClose": true
+            }
+          ],
+          "ID": "5ac2841b-0324-465f-a27f-8d743d2c1962"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=消息内容"
+              },
+              "Type": "info",
+              "Duration": 3000,
+              "Offset": "20",
+              "ShowClose": true
+            }
+          ],
+          "ID": "d2b00bdd-138e-4aa6-8580-0cc41fe4dfa6"
+        }
+      ]
+    }
+  ]
+}

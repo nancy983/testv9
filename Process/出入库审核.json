@@ -1,0 +1,32 @@
+{
+  "Name": "出入库审核",
+  "AllowStartRoleList": [],
+  "AllowEditRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 7
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
+        "bpmProcessPermissionType": 1,
+        "resourceName": "出入库审核",
+        "roleNames": [
+          "库存管理员",
+          "仓库主管"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
+        "bpmProcessPermissionType": 2,
+        "resourceName": "出入库审核",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 1
+}

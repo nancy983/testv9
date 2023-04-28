@@ -1,0 +1,1114 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 96.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 96.0
+        }
+      }
+    },
+    "Count": 17,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      13,
+      14
+    ],
+    "Count": 15
+  },
+  "Values": {
+    "0,0": "搜索",
+    "1,1": "关键字",
+    "5,0": "快捷菜单",
+    "10,0": "报表"
+  },
+  "AttachInfos": {
+    "2,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Input, Vant",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "出入库列表_手机页",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=出入库手机首页!A3"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=出入库列表_手机页!A3"
+                }
+              }
+            ]
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "keyboardType": "text",
+        "enterkeyhint": "search",
+        "placeholder": "项目/单号",
+        "rightIcon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "clearable": true
+      }
+    },
+    "6,0": {
+      "CssName": "",
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "343c436885364061b04d12046651143",
+        "Command": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+              "PopupDisplayMode": 4,
+              "DrawerDirection": 3,
+              "ValueFormula": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=出入库手机首页!菜单路径"
+              },
+              "PassValues": [
+                {
+                  "Source": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=INT(出入库手机首页!参数)"
+                  },
+                  "CellName": "typeFlag"
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "菜单名称": "菜单名称",
+            "菜单图标": "菜单图标",
+            "菜单路径": "菜单路径",
+            "参数": "参数"
+          }
+        },
+        "DataSourceType": 1,
+        "ListviewName": "表格3",
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "移动端ListView表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "菜单名称",
+                "GUID": "f3913992-fe5a-4dc8-8e05-0bd2d3713899"
+              },
+              "ColumnName": "菜单名称"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "菜单路径",
+                "GUID": "c005e94d-a2ad-49b3-b933-5366279e0308"
+              },
+              "ColumnName": "菜单路径"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "菜单图标",
+                "GUID": "42a10272-d25e-4f87-a5e4-34203b5b703c"
+              },
+              "ColumnName": "菜单图标"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "参数",
+                "GUID": "4e6ef0b5-c7ba-434f-9734-1079179869c1"
+              },
+              "ColumnName": "参数"
+            },
+            {
+              "Formula": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=出入库手机首页!O6"
+              },
+              "ColumnName": "_111"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "移动端ListView表",
+              "ColumnName": "类型",
+              "GUID": "c7468977-13a7-4bc9-b530-df81d1be2036"
+            },
+            "Value": "出入库"
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "图文列表表格1",
+        "OverflowMode": 0,
+        "TemplateKey": "可点击图文"
+      }
+    },
+    "10,14": {
+      "CellComment": {
+        "Comments": "出库查询时间\r\n"
+      }
+    },
+    "11,14": {
+      "CellComment": {
+        "Comments": "入库查询时间\r\n"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "TextIndent": 12,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "TextIndent": 0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "TextIndent": 12,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 6,
+        "HorizontalAlignment": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Left",
+        "Body",
+        "Text 1 50",
+        "General",
+        "Bottom",
+        "[AUTO]General",
+        "Center",
+        "Background 1 -5"
+      ],
+      "Borders": [
+        {
+          "Color": 8
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "1,1": 1,
+      "2,0": 2,
+      "3,0": 2,
+      "3,1": 2,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "4,0": 2,
+      "4,1": 2,
+      "4,2": 2,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "4,9": 2,
+      "4,10": 2,
+      "4,11": 2,
+      "4,12": 2,
+      "5,0": 3,
+      "5,1": 2,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "5,9": 2,
+      "5,10": 2,
+      "5,11": 2,
+      "5,12": 2,
+      "6,0": 4,
+      "9,0": 4,
+      "9,1": 4,
+      "9,2": 4,
+      "9,3": 4,
+      "9,4": 4,
+      "9,5": 4,
+      "9,6": 4,
+      "9,7": 4,
+      "9,8": 4,
+      "9,9": 4,
+      "9,10": 4,
+      "9,11": 4,
+      "9,12": 4,
+      "10,0": 0,
+      "10,1": 5,
+      "10,8": 6,
+      "10,14": 2,
+      "11,14": 2,
+      "13,0": 7,
+      "13,1": 7,
+      "13,2": 7,
+      "13,3": 7,
+      "13,4": 7,
+      "13,5": 7,
+      "13,6": 7,
+      "13,7": 7,
+      "13,8": 7,
+      "13,9": 7,
+      "13,10": 7,
+      "13,11": 7,
+      "13,12": 7,
+      "13,13": 7,
+      "16,0": 7,
+      "16,1": 7,
+      "16,2": 7,
+      "16,3": 7,
+      "16,4": 7,
+      "16,5": 7,
+      "16,6": 7,
+      "16,7": 7,
+      "16,8": 7,
+      "16,9": 7,
+      "16,10": 7,
+      "16,11": 7,
+      "16,12": 7,
+      "16,13": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,0,1,13",
+    "6,0,3,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "手机母版",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "出库最新时间",
+        "TableValue": {
+          "TableName": "出入库表",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "出入库表",
+                "ColumnName": "日期",
+                "GUID": "eb8cc605-3ad5-4ee2-8e0e-3e3c24d1e582"
+              },
+              "ColumnName": "日期"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "出入库",
+              "GUID": "1b5b15fe-a583-40ec-8e39-84602ac8b54d"
+            },
+            "Value": "5"
+          },
+          "TopCount": "1",
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "日期",
+                  "GUID": "00b983b4-fa9e-4b7b-b2cf-e410d76dc3e6"
+                },
+                "Order": 1
+              }
+            ]
+          }
+        },
+        "ID": "b42eeff8f51b412993e652d394b8ce0e"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "入库最新时间",
+        "TableValue": {
+          "TableName": "出入库表",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "出入库表",
+                "ColumnName": "日期",
+                "GUID": "77b5d784-8fd5-4783-b96b-01668503a8b2"
+              },
+              "ColumnName": "日期"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "出入库表",
+              "ColumnName": "出入库",
+              "GUID": "1b1108c1-17dc-44d7-b1b0-786da230d124"
+            },
+            "Value": "6"
+          },
+          "TopCount": "1",
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "日期",
+                  "GUID": "be9f3af6-fa12-4b61-a237-61d3023fe33c"
+                },
+                "Order": 1
+              }
+            ]
+          }
+        },
+        "ID": "403fc5688d164bb9a69ed3a97bdca3aa"
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=出入库手机首页!O11"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=出入库手机首页!出库最新时间"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=出入库手机首页!O12"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=出入库手机首页!入库最新时间"
+            }
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "a7b35344-261f-4fd3-844a-ad8c5ab93006",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "374,696"
+    },
+    {
+      "Name": "4d20c981-d3ee-4a9a-aeea-7ca79c08fd43",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 0.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,40",
+      "Size": "252,80"
+    },
+    {
+      "Name": "19b57e89-3df8-431d-b62a-04401cf2296f",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "CornerRadius": 0.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,168",
+      "Size": "252,96"
+    },
+    {
+      "Name": "389aadc4-dc03-4a65-86cf-eedeba5623c4",
+      "DisplayName": "背景图4",
+      "StyleInfo": {
+        "CornerRadius": 0.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,312",
+      "Size": "252,192"
+    },
+    {
+      "Name": "183d8433-d151-491a-9007-3c3e4f22c926",
+      "DisplayName": "背景图5",
+      "StyleInfo": {
+        "CornerRadius": 0.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,504",
+      "Size": "252,192"
+    }
+  ],
+  "Charts": [
+    {
+      "ChartType": 7,
+      "DataOrientation": 1,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "DataSeriesMapping": [
+          {
+            "ListViewColumnFormula": "记录数"
+          }
+        ],
+        "ItemsMapping": {
+          "ListViewColumnFormula": "出入库年月"
+        },
+        "IsDataSourceEnabled": true,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "出入库表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "出入库表",
+                "ColumnName": "出入库年月",
+                "GUID": "a0e05a75-682f-4ea7-bc8a-0ae0d6bdebcc"
+              },
+              "ColumnName": "出入库年月"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "出入库表",
+                "ColumnName": "记录数",
+                "GUID": "ac3d8385-a061-4f3c-8388-d7e02e351800"
+              },
+              "ColumnName": "记录数"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 3,
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "日期",
+                  "GUID": "2478bea3-0843-4f1e-b3c7-7e532b74b8d5"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(出入库手机首页!O11,-6)+1"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 5,
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "日期",
+                  "GUID": "c0751ec7-caba-48a3-8793-608ebc1d2ed1"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(出入库手机首页!O11,0)"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "出入库",
+                  "GUID": "0aa3b32e-5b8f-4390-b3d6-1c432a4691cb"
+                },
+                "Value": "5"
+              }
+            ]
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "cbaf3e52-4ef9-48fd-9199-4193492e0773"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 2",
+          "Accent 4",
+          "Accent 6"
+        ]
+      },
+      "ChartTitle": {
+        "Text": "最近六个月的出库量",
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false,
+        "StyleInfo": {
+          "Fill": "Background 1",
+          "FontFamily": "Body",
+          "FontSize": 14.666666984558105,
+          "FontStretch": "Normal",
+          "FontStyle": "Normal",
+          "FontWeight": "Bold",
+          "Foreground": "Text 1 50",
+          "Stroke": "transparent",
+          "StrokeThickness": 1.0
+        }
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "2017年11月",
+            "2017年1月",
+            "2017年3月",
+            "2017年4月",
+            "2018年2月",
+            "2018年3月",
+            "2018年4月",
+            "2020年3月",
+            "2022年12月",
+            "2022年8月",
+            "2022年9月",
+            "2023年1月",
+            "2023年3月"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "Background 1 -5"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "Values": [
+            3.0,
+            1.0,
+            1.0,
+            50.0,
+            2.0,
+            2.0,
+            10.0,
+            1.0,
+            4.0,
+            4.0,
+            17.0,
+            5.0,
+            1.0
+          ],
+          "Name": "记录数",
+          "MarkerSize": "7,7"
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart1",
+      "Location": "1,312",
+      "Size": "247,190"
+    },
+    {
+      "ChartType": 7,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "DataSeriesMapping": [
+          {
+            "ListViewColumnFormula": "记录数"
+          }
+        ],
+        "ItemsMapping": {
+          "ListViewColumnFormula": "出入库年月"
+        },
+        "IsDataSourceEnabled": true,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "出入库表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "出入库表",
+                "ColumnName": "出入库年月",
+                "GUID": "2d4e822b-341d-4be2-a6af-9e27e2072270"
+              },
+              "ColumnName": "出入库年月"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "出入库表",
+                "ColumnName": "记录数",
+                "GUID": "6e972357-b849-4290-80ac-06fccb69ac06"
+              },
+              "ColumnName": "记录数"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 3,
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "日期",
+                  "GUID": "672cc362-75e7-451e-9602-e75717f84c61"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(出入库手机首页!O12,-6)+1"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 5,
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "日期",
+                  "GUID": "7ef093bb-3cac-4806-97cd-99850a7628a6"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(出入库手机首页!O12,0)"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "出入库表",
+                  "ColumnName": "出入库",
+                  "GUID": "9242ace8-7040-4882-9e9d-cf21678f6d4a"
+                },
+                "Value": "6"
+              }
+            ]
+          },
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "66a53f61-0e62-4fbf-85d7-1d16b1275e02"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "ChartColorGenerateAlgorithm": 0,
+        "ColorList": [
+          "Accent 2 -28",
+          "Accent 2 63"
+        ]
+      },
+      "ChartTitle": {
+        "Text": "最近六个月的入库量",
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false,
+        "StyleInfo": {
+          "Fill": "transparent",
+          "FontFamily": "Body",
+          "FontSize": 14.666666984558105,
+          "FontStretch": "Normal",
+          "FontStyle": "Normal",
+          "FontWeight": "Bold",
+          "Foreground": "Text 1 50",
+          "Stroke": "transparent",
+          "StrokeThickness": 1.0
+        }
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "2017年11月",
+            "2017年1月",
+            "2017年3月",
+            "2017年4月",
+            "2018年2月",
+            "2018年3月",
+            "2018年4月",
+            "2020年3月",
+            "2022年12月",
+            "2022年8月",
+            "2022年9月",
+            "2023年1月",
+            "2023年3月"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "Background 1 -5"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "Values": [
+            3.0,
+            1.0,
+            1.0,
+            50.0,
+            2.0,
+            2.0,
+            10.0,
+            1.0,
+            4.0,
+            4.0,
+            17.0,
+            5.0,
+            1.0
+          ],
+          "Name": "记录数",
+          "MarkerSize": "7,7",
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
+          "StyleInfo": {
+            "Fill": "Accent 2 -28",
+            "Stroke": "Accent 2 -28"
+          }
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart2",
+      "Location": "1,506",
+      "Size": "249,190"
+    }
+  ]
+}//1XP9yzrKi7Vy8VV+NNE26NjJF1rV//nTPDRhDWMcM5rjGmKLAUwE+z2+rhNfwoigBdagziOf2zpLOB/5YPCTLx6veUqJBIhMDyNlQJCIhhjXPpw8NpUKfC2r6RKDKKWrgoZYeSPfLMyCkI8BiZbXPleWhDkIakS1ZB5T6q2fZnUW16YZWZwtG8blEmghLDFPC7Ce79qHESHJk6q1gWTFdtPssqCnJFoOUARUr8k8l/FBmUZjQZMeQia3tAblR0DowA9HM/I/LvFazB+NvrL5V2ZXY+bOSbirZOoaLf9ZOWYAAwaavPq9qSC838xKRQ3a3tm/5tPHbGb1nn1OXegE73iZYf9fe1R90YK7WgUeSdeXaK+4HukAYzEA+/Ow2J3QSqHN5CfkZh2SkEs27++WMGZAYaHplxCzVcbMilzhEE1ZHjccdL06OlSoMqIpaKNmSdc8ojn+Wp3GAHvCuxvOqVR53+Mm2yptmK/IFghAjrRfRmveo7xHH5R9MoFg6HzZM4sLOJR/SQdIj9E4c2I+lYZs03a6HzQ5WUowSejYMGlSWtssZD64Cchgr5QBlJGVvKRIGicmSI0f9Ndoe2jm8uk2Fv9b658o468kZW9RU8FSwcWQRMh8r6C0eSXN/yUJ39t4IRNzrZhiwuoRt3UDmBw5h/38AQ72PhJ2giiDQPrAywzDZszEtYU/rrFvpfHLuC/Wjt/LKE+dRrlIxR4vfH7pd6e5GR93Fk0Eg4YrLG1nCWPS//DfT2jypzj7eWnTHxs0P0J0Y28XhUnv/R+AbVPTNpztXtO2QpUGOfLqB5G4o7FCOAdkAnD6iVHgawMoHLnfeK1DPqYK+u9QgiVXEeC9hoo7D5fUopROP3D0dzlDn8/Zu5ilSrjygk0j+f6tfvtoDZ4k4SVXUnZsFbbbiA==|920

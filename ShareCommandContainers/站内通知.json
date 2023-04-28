@@ -1,0 +1,141 @@
+{
+  "Name": "站内通知",
+  "ID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93",
+  "Params": [
+    {
+      "ID": "57273d9b-6ab7-458e-bc78-f505615bc4ff",
+      "Name": "标题内容"
+    },
+    {
+      "ID": "b3a3234f-e820-416d-9687-557d690e2176",
+      "Name": "通知内容"
+    },
+    {
+      "ID": "9c09770c-cad6-4450-a518-b030ed91123e",
+      "Name": "样式"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=样式"
+                }
+              ]
+            },
+            "value": "成功"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=标题内容"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=通知内容"
+              },
+              "Type": "success",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "8a19a647-dba6-47da-929f-71b57aca329d"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=样式"
+                }
+              ]
+            },
+            "value": "失败"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=标题内容"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=通知内容"
+              },
+              "Type": "error",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "c023c697-ae63-43dc-9315-a4a5e39616f8"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=样式"
+                }
+              ]
+            },
+            "value": "警告"
+          },
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=标题内容"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=通知内容"
+              },
+              "Type": "warning",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "b8246ca5-ecf3-4440-895e-c1cd5218848c"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "ElementUI.Commands.ShowNotification, ElementUI",
+              "Title": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=标题内容"
+              },
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=通知内容"
+              },
+              "Type": "info",
+              "Duration": "5000",
+              "Position": "top-right",
+              "Offset": "10"
+            }
+          ],
+          "ID": "a789d13b-ee1c-4554-92f3-5271c1910710"
+        }
+      ]
+    }
+  ]
+}

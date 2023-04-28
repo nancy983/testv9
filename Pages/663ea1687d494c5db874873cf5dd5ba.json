@@ -1,0 +1,374 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 24.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 10
+  },
+  "Values": {
+    "2,1": "可用库存",
+    "4,1": "单价",
+    "4,5": "数量",
+    "6,1": "金额",
+    "6,5": "备注"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "TemplateCellSource": "物品名称"
+    },
+    "2,5": {
+      "TemplateCellSource": "库存上下限标题"
+    },
+    "3,1": {
+      "TemplateCellSource": "可用库存"
+    },
+    "3,5": {
+      "TemplateCellSource": "库存上下限"
+    },
+    "5,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "clearable": true,
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      },
+      "TemplateCellSource": "单价"
+    },
+    "5,4": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "clearable": true,
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      },
+      "TemplateCellSource": "数量"
+    },
+    "7,1": {
+      "TemplateCellSource": "金额"
+    },
+    "7,4": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Input, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "keyboardType": "text",
+        "enterkeyhint": "enter",
+        "placeholder": "请输入",
+        "clearable": true
+      },
+      "TemplateCellSource": "备注"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 1,
+        "VerticalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 13.333333333333332,
+        "Foreground": 1,
+        "VerticalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "VerticalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "FontWeight": 0,
+        "Foreground": 6,
+        "Formatter": 7,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Text 1 50",
+        "Bottom",
+        "Body",
+        "Accent 1 40",
+        "Left",
+        "Accent 1 0",
+        " ¥#,##0.00"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "2,1": 1,
+      "2,5": 2,
+      "2,6": 3,
+      "2,7": 3,
+      "2,8": 3,
+      "2,9": 2,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 3,
+      "3,9": 3,
+      "4,1": 4,
+      "4,2": 3,
+      "4,3": 3,
+      "4,4": 3,
+      "4,5": 4,
+      "4,6": 3,
+      "4,7": 3,
+      "4,8": 3,
+      "4,9": 4,
+      "5,0": 5,
+      "5,1": 3,
+      "5,2": 3,
+      "5,3": 3,
+      "5,4": 5,
+      "5,9": 3,
+      "6,1": 1,
+      "6,5": 2,
+      "7,1": 6,
+      "7,4": 3,
+      "7,9": 6,
+      "8,1": 6,
+      "8,2": 6,
+      "8,3": 6,
+      "8,4": 3,
+      "8,5": 3,
+      "8,6": 3,
+      "8,7": 3,
+      "8,8": 3,
+      "8,9": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,8",
+    "2,1,1,4",
+    "2,5,1,4",
+    "3,1,1,4",
+    "3,5,1,4",
+    "4,1,1,4",
+    "4,5,1,4",
+    "5,0,1,4",
+    "5,4,1,5",
+    "6,1,1,4",
+    "6,5,1,4",
+    "7,1,1,3",
+    "7,4,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "出入库单填写_手机页",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//96AKNq1F07gTmHt3eBcx6BtdzQqPhL/Tk4c7+xOOVLUjf3cCptUPapbG1iYPruBZ/MMvXMk2hJOBuhOpZMskAQsaQhe3yg7Txzmyok15aRi3qVhJh3sVQI1jH715SvknBgLS2fyvMk52SdI7jGg2TgLJ8BgeMl/1ejXf8kg3K2OTaxf6AS7jxqhEZTm14tIhvp1jgK+Yio+4mHGTvuIDgvfizSWrsF0Lm0AcCb4vlFHQcZWfv5WawmNzyQ04/9ADWA6+NXJdGkK/LqHIe9Ps0OKAKCzeVrbyvgFjJuhqiblyqD13oaac7ANTiB6eGh/9QYRiAJ7PjnrcUMiJoh0IMVRbDVbYbOlTfYxqAMT+OznGdJHrHVCgKw3p8E6u39Q7CHO9nRDz4VaPW0j1MIQ/s7ZxGcYwb12BBdEDLJwkIdJ5Mr6SS8Nj7hmLyMd+YtAziDsj/miJo/mv0mJUcI+WC5gipsEja6ymd8hImEvWRRLSV88IPi0bAVZaIO23NIoNR//7wEXivyp8y0h92M6rZEFWiTC/4wPy8JImZAwSTo2p38tctcRNoukQNCAj+oABWuZRowS++AbnE6Y2aZVCQSlQeLPTqmpJ70RAXiNjrHwm4eiD/6HDU+K9Rz/aMHc+bytOO8uuzn6zZAClka3MC98xwgRFakh2xr04SuamcE0LB0yBLAyrq9nhNT9V50xZeZstJ19nYej7NF+rVVio4nJLrLGNME/WMkTwiq91aqd/QFhr+JjNwsIpMCOCJK/NSA165cROQSI99xGg8LOZ3l/+s1dFQK+/qUl9hHKRbtufv9QL5772vpzkOYzRcYtGnlqim83LWQTa8TSFZHXPrV9knq1Go/pC8qutIKa1l7YizDxhi8aK003MjeyjWogT07nLPuoBx68LvLWDZRQbjw==|920

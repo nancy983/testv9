@@ -1,0 +1,216 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      4
+    ],
+    "Count": 5,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "3,0": "新建"
+  },
+  "Formulas": {
+    "1,0": "IF(E2=5,\"从销售单流转\",\"从采购单流转\")"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=下拉按钮组!出入库标识"
+                      }
+                    ]
+                  },
+                  "value": "5"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=下拉按钮组!E4"
+                        },
+                        "Value": "1"
+                      }
+                    ]
+                  }
+                ],
+                "Comments": "从销售单流转",
+                "ID": "7e03b8b5-4d25-4aa6-bf98-c6b15a7ba07a"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=下拉按钮组!E4"
+                        },
+                        "Value": "3"
+                      }
+                    ]
+                  }
+                ],
+                "Comments": "从采购单流转",
+                "ID": "433a9b1b-2dd1-49d4-958f-5c9df3974765"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true
+          }
+        ],
+        "TemplateKey": "下拉按钮"
+      }
+    },
+    "1,4": {
+      "CellComment": {
+        "Comments": "出入库标识"
+      }
+    },
+    "3,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=下拉按钮组!E4"
+                },
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true
+          }
+        ],
+        "Text": "新建",
+        "TemplateKey": "下拉按钮"
+      }
+    },
+    "3,4": {
+      "CellComment": {
+        "Comments": "父页面触发器的传值区\r\n1 从销售单流转\r\n2 新建\r\n3 从采购单流转"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "3,0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,0,1,4",
+    "3,0,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//IHdvX/oOKBLzckov/NKeejjKIknaDbHshIS48dWQdziwndaWHai1kUWaafnIm0cx8bw9ndFxLskjNjCeKc09mnJVzQgzBW+pyDqi0hV3KItIbQKfwoiAAOFhX0tMtkSwYkKoipqUlCdxo1hu86LRsTQnUaxnsddbnkdtfVP/LFZcC60k8RpfGgbBd7U3soKN/tV+KzNpo1kcJxAQLVnhMAi264YEeZNU6V+ozpXBX9S5U6c/YthQz3DQyskmKbfuh685Xx5EThuRGdqs2ZUiYI+0SACpn5cprDf5mek5rajlRmJOdJqbkradJOvWqUzHiIAwG2iiyDI3LDvms6+TPF5lIquxdSiFz5/QuYpHGaPXPJvx3R7axNJ1KyHRfCdCr1T/D5twBHc9Abkug2CEi+zxGM22gzumTDge823JqA657hWpmPO7n0AlhW6loC6fvo9a9YmypCXnTuqXuYZ+D9EcuPJDlVTWOt74joMjYXp2624xorVCWOvf/JNikJJKS67hVfJ8D0WR8oxYuG8UJWgBSpIB8HynSU7X+ZhGqFZEaJYhtkI29uOPjybvf8BJn59E5JWd1MjlFRCxDqYp85O/PXs6dYMwDkypdBqllyUJwYJl6GL6TSOxpak6jZYSfeq36oHSHtKXssGa/Dboxo1g0I8TcFnL0gFxR9UXD+IROMihnZkRHA0A3NKcziUGnJKNhQpIP3yMki9LHtauz8hYYXysWb3zxGPWmUnJQe4WD6paf7p6WcYxf9T9KaKuskmLIWeI4oohAl1dpQ/ErsJrHnpExx0RI/k5Qn01s3ESxWnTIwlY5MzWAfCa431kiUl8R+Jjr6Qez4y2TxuIq3VLgpPDi2hL3Z8r+QQ9P4Ja4bkCdkMX02r6NbrAZ+uMrqgFVcsDdAXmMparnX9gTA==|920

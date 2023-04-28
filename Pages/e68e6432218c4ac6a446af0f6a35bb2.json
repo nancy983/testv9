@@ -1,0 +1,146 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 8
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 14
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.AvatarCellType, ElementUI",
+        "CommandList": [],
+        "icon": {
+          "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+          "Name": "Navigation/169_user_2.svg",
+          "BuiltIn": true,
+          "Color": "white"
+        },
+        "showSystemAvatar": true
+      },
+      "TemplateCellSource": "用户名"
+    },
+    "1,4": {
+      "TemplateCellSource": "全名"
+    },
+    "3,4": {
+      "TemplateCellSource": "邮件"
+    },
+    "5,4": {
+      "TemplateCellSource": "部门文本"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "ShrinkToFit": true
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null,
+        "ShrinkToFit": true
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,4": 0,
+      "3,4": 1,
+      "5,4": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,3,2",
+    "3,4,1,9",
+    "1,4,1,9",
+    "5,4,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "认领人"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//OQO/Rng0YYom+FvYyhdcvetdJW48FJrrjjDz07mkpQaX5X7Lf6E0PYiFuxUqv6coB09kzaswXUg8sKXzEPVqxirtziqYoLRcy3FE6b6CepcBM6uDg5BXj7HvUY2HR2xhvVpRP9yRR3nB+KsGBRk6rWKKYTbf4babam+qFg+dtzEv7uZ4zy6hwecoF052Q8XECP7zA1Od4ib+5mEo9lemPXrZh2NRAHMz/9KolsoXTNpr9RUm1YezaV668413EtnZSMzzKlyyNvcyt063fEDgmNKzEdrV8N9Bz/FkHVxLHT4m0u6ndJzlBa6wmsRc06kxOrdUY+hSGthVwakRt+6EtJWE4sWLAinbzGyKwRz4nZ+QpjL4hO9E9ZUKOpO4T+laUk/gzr0os+fPIMdBnlJ4vg6bHk/wsWThWXbxNy4MX/fRNWxvHbKt+2TWoDGSp1bGTqLdUGMaW7oQDbOJXdeP/x7OUd6H6PE5dVi4OQY9wmVonq9pQhT7GP6+kSq1QDznHdMKic1tVUUS8mxTDTSWZrcVTVruK2BcLKc+GwJ7y3Ce4+RNlyqCtHX7XlT/vxNhYDmrlkQ0D1SDY0HVaNQMO35YIIL9Pnnia04F3FQlJ/e9Ss6A6Mm4byZmb4WtXO8UcdH5ssPCcZungiLUSnROZiE9TULfZf0e5oj0lTsk6iTdDTIq9DXacLWN5UgCl3Q5/nZY8nroOBXo9DIbgzabXSi0+U4wB+Z2pg7vb2eK1aWzvAypNs9B0NY7w4RJwmCTHyKCnHB+OGYolEHeWQ943xQEicZGw3S8zSpez1G2JyqwfsYRo3LHsQT2Du/djMfrS3yLQRVtBau5jcfSAYasIL2cy8sJ5NXgg5jTfYXIw1eGVMzcFkrh5YGUuuI2pn3ZCr19m+eGZJoSDCOm8cA2Ug==|920

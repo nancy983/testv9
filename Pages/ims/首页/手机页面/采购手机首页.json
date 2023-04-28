@@ -1,0 +1,1041 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 96.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 96.0
+        }
+      }
+    },
+    "Count": 19,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      13
+    ],
+    "Count": 14
+  },
+  "Values": {
+    "0,0": "搜索",
+    "1,1": "关键字",
+    "5,0": "快捷菜单",
+    "10,0": "报表"
+  },
+  "AttachInfos": {
+    "2,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Input, Vant",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "采购列表_手机页",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=采购手机首页!A3"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=采购列表_手机页!A3"
+                }
+              }
+            ]
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "keyboardType": "text",
+        "enterkeyhint": "search",
+        "placeholder": "采购单号/供应商/项目",
+        "rightIcon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "clearable": true
+      }
+    },
+    "6,0": {
+      "CssName": "",
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "0ddc0dce746a4808bb9c6a6a2c6d4e9",
+        "Command": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+              "PopupDisplayMode": 4,
+              "DrawerDirection": 3,
+              "ValueFormula": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=采购手机首页!菜单路径"
+              },
+              "PassValues": [
+                {
+                  "Source": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=INT(采购手机首页!参数)"
+                  },
+                  "CellName": "typeFlag"
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "菜单名称": "菜单名称",
+            "菜单图标": "菜单图标",
+            "菜单路径": "菜单路径",
+            "参数": "参数"
+          }
+        },
+        "DataSourceType": 1,
+        "ListviewName": "表格3",
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "移动端ListView表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "菜单名称",
+                "GUID": "cc39979f-583f-455a-8a93-b5a0a299ff53"
+              },
+              "ColumnName": "菜单名称"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "菜单路径",
+                "GUID": "d1e1289d-86ab-4397-bb14-e29449e4e3ae"
+              },
+              "ColumnName": "菜单路径"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "菜单图标",
+                "GUID": "154ce893-d7c7-4e5b-885a-1c2aa71e0a61"
+              },
+              "ColumnName": "菜单图标"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "移动端ListView表",
+                "ColumnName": "参数",
+                "GUID": "7f55ad74-83bc-4acc-8b09-38d392c9c6e8"
+              },
+              "ColumnName": "参数"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "移动端ListView表",
+              "ColumnName": "类型",
+              "GUID": "c620ce82-07de-479a-8ad5-939e39c5a13e"
+            },
+            "Value": "采购"
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "图文列表表格1",
+        "OverflowMode": 0,
+        "TemplateKey": "可点击图文"
+      }
+    },
+    "10,13": {
+      "CellComment": {
+        "Comments": "最近的日期\r\n"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "TextIndent": 12,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "TextIndent": 0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "TextIndent": 12,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 6,
+        "HorizontalAlignment": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Left",
+        "Body",
+        "Text 1 50",
+        "General",
+        "Bottom",
+        "[AUTO]General",
+        "Center",
+        "Background 1 -5"
+      ],
+      "Borders": [
+        {
+          "Color": 8
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "1,1": 1,
+      "2,0": 2,
+      "3,0": 2,
+      "3,1": 2,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "4,0": 2,
+      "4,1": 2,
+      "4,2": 2,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "4,9": 2,
+      "4,10": 2,
+      "4,11": 2,
+      "4,12": 2,
+      "5,0": 3,
+      "5,1": 2,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "5,9": 2,
+      "5,10": 2,
+      "5,11": 2,
+      "5,12": 2,
+      "6,0": 4,
+      "9,0": 4,
+      "9,1": 4,
+      "9,2": 4,
+      "9,3": 4,
+      "9,4": 4,
+      "9,5": 4,
+      "9,6": 4,
+      "9,7": 4,
+      "9,8": 4,
+      "9,9": 4,
+      "9,10": 4,
+      "9,11": 4,
+      "9,12": 4,
+      "10,0": 0,
+      "10,1": 5,
+      "10,8": 6,
+      "10,13": 2,
+      "11,0": 0,
+      "11,1": 5,
+      "11,8": 6,
+      "11,13": 2,
+      "14,0": 7,
+      "14,1": 7,
+      "14,2": 7,
+      "14,3": 7,
+      "14,4": 7,
+      "14,5": 7,
+      "14,6": 7,
+      "14,7": 7,
+      "14,8": 7,
+      "14,9": 7,
+      "14,10": 7,
+      "14,11": 7,
+      "14,12": 7,
+      "18,0": 7,
+      "18,1": 7,
+      "18,2": 7,
+      "18,3": 7,
+      "18,4": 7,
+      "18,5": 7,
+      "18,6": 7,
+      "18,7": 7,
+      "18,8": 7,
+      "18,9": 7,
+      "18,10": 7,
+      "18,11": 7,
+      "18,12": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,0,1,13",
+    "6,0,3,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "手机母版",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "最近的日期",
+        "TableValue": {
+          "TableName": "采购订单表",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "采购日期",
+                "GUID": "00f20d57-e06f-4b9b-8301-a29f1e96856f"
+              },
+              "ColumnName": "采购日期"
+            }
+          ],
+          "TopCount": "1",
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "采购订单表",
+                  "ColumnName": "采购日期",
+                  "GUID": "d8af747d-0f9f-4557-bcb4-eb76f3842c48"
+                },
+                "Order": 1
+              }
+            ]
+          }
+        },
+        "ID": "ccd3e3a397da48308bc5970816cc54d8"
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=采购手机首页!N11"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=采购手机首页!最近的日期"
+            }
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "97f18bff-8c71-42a6-9613-ee5818d62ebd",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "342,712"
+    },
+    {
+      "Name": "f7680ea9-2dae-4396-a4ae-a2d4e282b5e5",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 0.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,40",
+      "Size": "252,80"
+    },
+    {
+      "Name": "44718639-2ef8-4f7d-800e-e9f7007ec558",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "CornerRadius": 0.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,168",
+      "Size": "252,96"
+    },
+    {
+      "Name": "f80379be-5ec3-4225-a4fd-c7a8446a5918",
+      "DisplayName": "背景图4",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,312",
+      "Size": "342,400"
+    }
+  ],
+  "Charts": [
+    {
+      "ChartType": 7,
+      "DataOrientation": 1,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "DataSeriesMapping": [
+          {
+            "ListViewColumnFormula": "总总金额"
+          }
+        ],
+        "ItemsMapping": {
+          "ListViewColumnFormula": "采购月份"
+        },
+        "IsDataSourceEnabled": true,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "采购订单表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "采购月份",
+                "GUID": "093901ec-f5ac-463b-9a1c-f7c6cdc93804"
+              },
+              "ColumnName": "采购月份"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "总总金额",
+                "GUID": "abb6a212-1ca5-478a-b096-359ba319d87f"
+              },
+              "ColumnName": "总总金额"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 3,
+                "ColumnBindingInfo": {
+                  "TableName": "采购订单表",
+                  "ColumnName": "采购日期",
+                  "GUID": "5a16a15a-6d28-449b-92d1-c0503f2d8817"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(采购手机首页!N11,-6)+1"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 5,
+                "ColumnBindingInfo": {
+                  "TableName": "采购订单表",
+                  "ColumnName": "采购日期",
+                  "GUID": "d0a7818f-4c9c-4827-ab23-41fdfcf209df"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(采购手机首页!N11,0)"
+                }
+              }
+            ]
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "c4383288-5034-47f3-af95-fb8a9acc8a73"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 2",
+          "Accent 4",
+          "Accent 6"
+        ]
+      },
+      "ChartTitle": {
+        "Text": "最近六个月的采购金额",
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false,
+        "StyleInfo": {
+          "Fill": "Background 1",
+          "FontFamily": "Body",
+          "FontSize": 14.666666984558105,
+          "FontStretch": "Normal",
+          "FontStyle": "Normal",
+          "FontWeight": "Bold",
+          "Foreground": "Text 1 50",
+          "Stroke": "transparent",
+          "StrokeThickness": 1.0
+        }
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "2017年11月",
+            "2017年1月",
+            "2017年2月",
+            "2017年4月",
+            "2018年2月",
+            "2018年3月",
+            "2018年4月",
+            "2022年12月",
+            "2022年9月",
+            "2023年1月"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "Background 1 -5"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "Values": [
+            15.0,
+            140.0,
+            8330.0,
+            131741.0,
+            1450.0,
+            5500.0,
+            11947.0,
+            1026.0,
+            1174.0,
+            413.0
+          ],
+          "Name": "总总金额",
+          "MarkerSize": "7,7"
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart1",
+      "Location": "3,320",
+      "Size": "247,190"
+    },
+    {
+      "ChartType": 22,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "DataSeriesMapping": [
+          {
+            "ListViewColumnFormula": "总总金额"
+          }
+        ],
+        "ItemsMapping": {
+          "ListViewColumnFormula": "采购月份"
+        },
+        "IsDataSourceEnabled": true,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "采购订单表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "采购月份",
+                "GUID": "acb5cacd-b189-44f7-bb42-2627d5977c61"
+              },
+              "ColumnName": "采购月份"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "采购订单表",
+                "ColumnName": "总总金额",
+                "GUID": "53f90a3b-fbda-4731-b325-1e632fb257bb"
+              },
+              "ColumnName": "总总金额"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 3,
+                "ColumnBindingInfo": {
+                  "TableName": "采购订单表",
+                  "ColumnName": "采购日期",
+                  "GUID": "f898930e-2612-4c80-b7d9-b2934cdb74f7"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(采购手机首页!N11,-6)+1"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 5,
+                "ColumnBindingInfo": {
+                  "TableName": "采购订单表",
+                  "ColumnName": "采购日期",
+                  "GUID": "f57fbe00-16ca-4481-b4a1-b2c4c1e81eb6"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=EOMONTH(采购手机首页!N11,0)"
+                }
+              }
+            ]
+          },
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "78008203-59cd-4681-a396-a9be28f4092f"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "ChartTitle": {
+        "Text": "最近六个月的采购金额比",
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false,
+        "StyleInfo": {
+          "Fill": "transparent",
+          "FontFamily": "Body",
+          "FontSize": 14.666666984558105,
+          "FontStretch": "Normal",
+          "FontStyle": "Normal",
+          "FontWeight": "Bold",
+          "Foreground": "Text 1 50",
+          "Stroke": "transparent",
+          "StrokeThickness": 1.0
+        }
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "2017年11月",
+            "2017年1月",
+            "2017年2月",
+            "2017年4月",
+            "2018年2月",
+            "2018年3月",
+            "2018年4月",
+            "2022年12月",
+            "2022年9月",
+            "2023年1月"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "Background 1 -5"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "DataSeries": [
+        {
+          "ChartType": 22,
+          "Values": [
+            15.0,
+            140.0,
+            8330.0,
+            131741.0,
+            1450.0,
+            5500.0,
+            11947.0,
+            1026.0,
+            1174.0,
+            413.0
+          ],
+          "Name": "总总金额",
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {},
+            {
+              "PointIndex": 1
+            },
+            {
+              "PointIndex": 2
+            },
+            {
+              "PointIndex": 3
+            },
+            {
+              "PointIndex": 4
+            },
+            {
+              "PointIndex": 5
+            },
+            {
+              "PointIndex": 6
+            },
+            {
+              "PointIndex": 7
+            },
+            {
+              "PointIndex": 8
+            },
+            {
+              "PointIndex": 9
+            }
+          ]
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart2",
+      "Location": "0,522",
+      "Size": "249,190"
+    }
+  ]
+}//bbXpza4GK2STcsPvgvLKu9HFuDVdftQ1YbIGqxXh+hKLR0i2IH/7gVNjg8Rn8+wytGlz+7cqCIDS/JguhtnBQdJ2aZ+pm6f074DRXxNFmZ/iW2r6J7pHwuthrxVsO7wwo2xL/N/2w395kOTrtG8T/nkRmEIEUlhmmwCpIyaT7gULpL5DH2SZVN+jfwwcJYMdqVs3hTH/rDOYuYpBsq2f6bzc8sfqgfPlO7A1CCkQxE4EFA8oMSyD+ZvwtYIlSyMp4iI6eI9FlcDcdAiPji43r3PqNeZ+MElni3kTE8HdjSnu5lykIxDnNGBxo04D/fs6gjmA4VhU3c4dEjXYPB8NS0F2JQHoV8trXmkYZ0M53REjRBcLYE0s5djcV6Jg8Oc+Cilw7OBsYj3pLoRPV0v9P0IMCC2yqdHChRgoaVUP3LJJUNVaFodKvIHZ133SmqubnozBW6hsy9qj2FciIia/kbEvow/Gm5ZHtB/rjUIoc9dItiy65ftWZNrV5htTi2yRLONpkWD+FCXOBCNWoKxHJGHKH+eVBneIo8u96vWQeQMjY/b7y/fJz5P/MF3qUlCVZxgeOl+/Iv9UHwH9s9RvSgcVcruDHLtvEsaWw7RjToO+oG3FKhm3GMH23ai0mO+it1dihxo2ksBxMIUmwEjvoI/mvhG09HPTORfAp4s3LoueLZi73TCNmpSHlQXNnvycgeuIXi+tyJKXnlAaMhzrYHjH5JBh0FUwhZt/WlYm5rE1jZ5Fh93U9FKIlHHq03l8iAkcBXBzkeYsshrqMjFAzygiEaxwuCemh0gXZBtxkzWk4LEHDx5FmCWXSO0AhXTpzNpdIkqrse8++7Hbd6UUR083nsDcVGQnrHmO9xlMBa6QWw2wJD2Ri3f/yvTEVuuruqQMzl9xXI2rkFtTCrFR8g==|920

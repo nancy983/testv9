@@ -1,0 +1,26 @@
+{
+  "Name": "拉取部门信息到表",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.OneTimeScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 44743.0,
+      "ScheduleRunInDebugServer": false
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "UserManagementCommands.Commands.SaveOrganizationsToTableCommand, UserManagementCommands",
+      "OrganizationTableName": "组织结构表",
+      "OrganizationNameColumn": "组织结构名",
+      "OrganizationPathColumn": "组合结构路径",
+      "ParentOrganizationPathColumn": "上级组织结构路径",
+      "OrganizationLevelNameColumn": "组合结构级别",
+      "OrganizationMemberTableName": "组织结构成员表",
+      "MemberUserNameColumn": "组织结构成员用户名",
+      "MemberOrganizationPathColumn": "组织结构成员路径",
+      "MemberIsLeaderColumn": "成员是否是领导",
+      "MemberOrganizationRoleColumn": "组织结构成员角色"
+    }
+  ]
+}

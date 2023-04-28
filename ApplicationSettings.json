@@ -1,0 +1,25 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "dS0t8wG&!XN&"
+  },
+  "LoadingIndicatorSettings": {
+    "CSSLoading": 19
+  },
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 15907,
+  "UserServicePort": 38336,
+  "BpmServerSchemaId": "4b81fb4c-36b2-4732-9ad1-f3bc20a8d783",
+  "ProcessDataConnectionSet": {
+    "ExternalDatabaseId": ""
+  },
+  "NotAllowModifyDatabaseByJsApi": false,
+  "NotAllowQueryDatabaseByJsApi": false,
+  "NotAllowSendMailByJsApi": false,
+  "StartDateFiscalYear": 1,
+  "FocusMoveMode": 0,
+  "MaxRowCount": 5000,
+  "AuditingList": {
+    "用户信息视图": 0
+  }
+}
