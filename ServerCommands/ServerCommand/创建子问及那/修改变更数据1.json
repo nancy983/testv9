@@ -50,7 +50,10 @@
         {
           "Name": "参数2"
         }
-      ]
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
     }
   ],
   "Commands": [
@@ -66,7 +69,7 @@
           "BindingColumn": {
             "TableName": "请假详情",
             "ColumnName": "ID",
-            "GUID": "393dda9c-b012-4ab7-bcc6-dceac5b04351"
+            "GUID": "4c3169bc-f3b2-4764-9ae1-7e3ca71650f9"
           },
           "CSVColumnNameOrIndex": "ID",
           "IsPrimaryKey": true
@@ -75,7 +78,7 @@
           "BindingColumn": {
             "TableName": "请假详情",
             "ColumnName": "用户",
-            "GUID": "540d0cf6-69fe-45ad-ae92-55b22b85e7f8"
+            "GUID": "93ac6312-a824-4952-a13e-fe7720f2f072"
           },
           "CSVColumnNameOrIndex": "用户"
         },
@@ -83,7 +86,7 @@
           "BindingColumn": {
             "TableName": "请假详情",
             "ColumnName": "剩余天数",
-            "GUID": "348c6699-fac1-4ba3-9974-09497401b796"
+            "GUID": "40b0eb1a-8cd1-416e-a612-391a6d5ca6cf"
           },
           "CSVColumnNameOrIndex": "剩余天数"
         },
@@ -91,7 +94,7 @@
           "BindingColumn": {
             "TableName": "请假详情",
             "ColumnName": "请假记录ID",
-            "GUID": "8ac6b77d-b6ba-4e0a-aac4-772af0de38c6"
+            "GUID": "09c3a121-b5db-4cd0-abf7-56efe7f332bb"
           },
           "CSVColumnNameOrIndex": "请假记录ID"
         }
@@ -133,6 +136,14 @@
           }
         }
       ]
+    },
+    {
+      "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+      "TargetPageName": "页面1",
+      "ServerExportFileName": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=filepath"
+      }
     }
   ],
   "ReturnProperties": [

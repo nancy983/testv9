@@ -4222,15 +4222,6 @@
   },
   {
     "ModuleName": "ServerCommand/修改变更数据1",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:25:12.3030294+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\ServerCommand\\修改变更数据1.json"
-    ]
+    "ModuleType": 15
   }
 ]
