@@ -824,17 +824,50 @@
   },
   {
     "ModuleName": "ProcessItem/出入库审核",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339486+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\库存管理\\出入库审核.json",
+      "Process\\库存管理\\出入库审核.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/采购单审核",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339724+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\库存管理\\采购单审核.json",
+      "Process\\库存管理\\采购单审核.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/销售单审核",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339765+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\库存管理\\销售单审核.json",
+      "Process\\库存管理\\销售单审核.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -1023,7 +1056,18 @@
   },
   {
     "ModuleName": "ProcessItem/流程1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339803+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\流程1.json",
+      "Process\\流程1.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -2394,7 +2438,18 @@
   },
   {
     "ModuleName": "ProcessItem/啊实打实打算",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339819+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\啊实打实打算.json",
+      "Process\\啊实打实打算.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -3799,7 +3854,18 @@
   },
   {
     "ModuleName": "ProcessItem/请假流程",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339843+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\请假流程.json",
+      "Process\\branty\\请假流程.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -3808,27 +3874,82 @@
   },
   {
     "ModuleName": "ProcessItem/简易请假流程",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339862+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\简易请假流程.json",
+      "Process\\branty\\简易请假流程.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/逐级审批11111",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339885+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\逐级审批11111.json",
+      "Process\\branty\\逐级审批11111.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/复活到单节点",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339902+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\复活到单节点.json",
+      "Process\\branty\\复活到单节点.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/复活到多节点_排他",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339927+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\复活到多节点_排他.json",
+      "Process\\branty\\复活到多节点_排他.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
     "ModuleName": "ProcessItem/复活到多节点_包容",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8339945+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\branty\\复活到多节点_包容.json",
+      "Process\\branty\\复活到多节点_包容.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
@@ -4197,5 +4318,16 @@
     },
     "LockDateTime": "2023-04-28T17:22:12.481742+08:00",
     "ModuleType": 18
+  },
+  {
+    "ModuleName": "ProcessItem/流程2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:22:21.8336984+08:00",
+    "ModuleType": 28,
+    "ExclusiveType": 1
   }
 ]
