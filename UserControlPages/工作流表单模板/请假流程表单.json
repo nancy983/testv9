@@ -345,7 +345,9 @@
     "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
     "PropertyDefinitions": [
       {
-        "Name": "请假类型"
+        "Name": "请假类型",
+        "DefaultValue": "有薪假",
+        "Description": "默认选择有薪假"
       },
       {
         "Name": "开始日期"
@@ -364,4 +366,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//ogSJkTFCc9DVk8+lsqMELGqZ0ev0lc3eokehtGVbm/w6B99dhH8TaVpqJXpjnbV/2g7SlujOIiMQP/Bla0rtN4nobMuwPP4pX21hezE7rXrZbafiZ4+AZaNgiarXDIIuAZgMiuVzPwQjMT056MZrmgBQ7n32sDUFB2N6G6NBm4qxT0LPBx+YfGUoz3pWFJ3W4ap5Scdt6t6qvFTDCFWX1ebsJSSDgDvFq3zlmRCSY0Q8qZbeUmmJkcSZ5y7pKfCsRa6eJV7AlIrrtnWIi/WwgPWLRadavWE38wno8YS55wTIhKjbmFjXCNv8yhqRx0FZOHlMKNTzDJDuRb4hlk1QaxZ+Nkrm22AHjOjwG9HNCUkVV8McE/Bw6WLnQ/MSak7PRotlZW0jdHY+32IW8fX2PAMz3kEUKIaQDRczWm5tg1tlxdpDbWOmUsa2/5qofYdkJjGlIoPreHrEBaj2mejE7YEG6DD9iSPDwpM+3Ab6S5v2uICpzhfgKOKzTAwgtfx6m8r5micx+gM/LzUqcdX9wQVNpOS+3/bMFWVW5DYmz1fNInaWZx0mmheoTySBn31r1qLHEVJJDuIhIJrQ+U9rHQlkDMlgwrlVA9T2NfFImTW7E7MMcWH+h48Oq48knKQljETWmDsl2Bdv/HKKbKH02Sg0pUrH6l0/WS9R9jTS9Cogt7PlSRfjCy/HpYNtEAdWzXB8SvPn8hB/ya9r2pYDEuVxi2NPSZhhJ1TiNANDwYjExxCgUU4Y1Q02iQ7xQeRuSU67WxwhPu+EPI0OASO/3u79WFz93PXsIMENd1bdV6NRErozSrFNE+3gAEWlx/sFvKZWyZmaMQZmffMfkB6snfrVom718X6DKsljRp1a+26iLmryi5G6OzLtteXo6EIrHTL4pFVFDf9w66kC1GhRnQ==|920
+}//YNV4A8m5SOmXxWafAcjQeEiNKoeLAnU+XnScAWehIzF1NhvGuW5LvIbcBUxEWTStx2m3wOtk4Zj67TpUdPPBJTXIJ88jSCASDC9jqFtC5dy1ECwUP3QzAKNsA5VIHWwNa8BaNGoDQbfeRIS5Zyh9h0G4Ie8bV/OGF+PTECWeEYqpkcI5q/7F/RWwM/YHGfbOpmSs9cuDK/EOUI0bLu6wWxIxpsukE1n4c0VNxsEbtrWwH9Q6EGHpeGEzIwT/I0D4PqxFwpmh1D8pO33ka+1wDtoEsQsF79PDaPWNKroIUSOnuQYZtwca4M7bHg4IEgCGW0jdnClktCVUlBgxL+oFOXfzzuwjG0tUXs3a8kW2ZLxut4ymuGujL8tJq0Hg8ZNYLbHdHwnEXQGdJ+pp00YRLIO+0PQuYYfg+DaV3grM8qBcoZyjEH1Smuy/5v/ZpO9o5GWSPWy0KIbymMHepOkZLf84/rmSzU5k6Q/kYpHNpjw9oNrHY3Sxf6JV2LgEEPf80VkJCuuvuTJhYx97EpG/E6MrUbBmoa3NmW5gri0Feu2OuaiJ7RFlYFzVD+hVjvep0CHNpjv75SyQEmfmRzFh/X8WQoehEbM3LEfU+c+Zbmz4HN8iaEiKqHe+tVpMab4/A8wUwQ+SuPXQzovLeolTnlYuaRedQdYhXJzFeejIFMe56IFX4W4OS18yOB8oSLlceI3sk56CtLPcKhtPpOCCjFs93QfgdzAvXrtIxZ1c0U7SDUD2SBRR/vDhroSjRvn0QGF7rDJ3QEpc/3wp9fcgPvd+1TzxT1M54ds+t0IszyhjMxJVnxbEOOP603FYa0eQ1mipsjo2+rYWihysFZCo+WaQBPuyKOjbAh4LNFP56qLHjWqO/xBwbxP7GoQyq1335EnExQO3f02PJoWXcVjUtQ==|920
