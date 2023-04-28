@@ -4097,5 +4097,15 @@
     },
     "LockDateTime": "2023-04-28T16:59:26.4420003+08:00",
     "ModuleType": 4
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:59:50.4311398+08:00",
+    "ModuleType": 16
   }
 ]
