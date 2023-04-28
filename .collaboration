@@ -6347,32 +6347,6 @@
     "ModuleType": 36
   },
   {
-    "ModuleName": "TaskScheduler/计划任务2",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:30:52.0617218+08:00",
-    "ModuleType": 16,
-    "ToRemoveFiles": [
-      "SchedulerTasks\\文件夹1\\计划任务2.json"
-    ]
-  },
-  {
-    "ModuleName": "SchedulerTasks/文件夹1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:31:07.3700386+08:00",
-    "ModuleType": 21,
-    "ToRemoveFiles": [
-      "SchedulerTasks\\文件夹1"
-    ]
-  },
-  {
     "ModuleName": "ShareCommandContainer/模板命令3",
     "State": 3,
     "LockedBy": {
@@ -6418,22 +6392,10 @@
   },
   {
     "ModuleName": "TaskScheduler/外联表副本同步",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:31:07.3700879+08:00",
     "ModuleType": 16
   },
   {
     "ModuleName": "SchedulerTasks/renamfolder",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:31:07.3700408+08:00",
     "ModuleType": 21
   },
   {

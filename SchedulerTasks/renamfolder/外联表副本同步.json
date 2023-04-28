@@ -1,5 +1,6 @@
 {
-  "Name": "计划任务2",
+  "Name": "外联表副本同步",
+  "Description": "\r\n啊飒飒飒飒飒飒",
   "Enabled": true,
   "Triggers": [
     {
@@ -25,7 +26,7 @@
         "ColumnBindingInfo": {
           "TableName": "请假详情",
           "ColumnName": "ID",
-          "GUID": "1f6cd273-fb8c-48f7-b7fa-1f539b1bf4ef"
+          "GUID": "c2ac61eb-6afe-4e97-8133-9df63b1813ce"
         },
         "Value": "%Null%"
       },
@@ -35,7 +36,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "用户",
-            "GUID": "9e98a88e-16a3-49d7-8787-fe41379b57e7"
+            "GUID": "196aed97-753a-4088-8031-7eeb8304ab5d"
           },
           "Value": "Administrator"
         },
@@ -43,7 +44,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "剩余天数",
-            "GUID": "1fc0ec7e-744b-48ca-90c4-c538d405c388"
+            "GUID": "d790754f-8d4f-4295-93bd-3138df87e4f8"
           },
           "Value": "12"
         },
@@ -51,7 +52,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "请假记录ID",
-            "GUID": "32dbcbc6-f34d-47d3-884d-dfc273dc2d16"
+            "GUID": "39d95bd3-9c26-407d-a3de-9a2a80086e19"
           },
           "Value": "12"
         }
@@ -69,7 +70,7 @@
         "ColumnBindingInfo": {
           "TableName": "请假详情",
           "ColumnName": "ID",
-          "GUID": "cadaeb07-49bf-44d1-8423-2d914269cc5c"
+          "GUID": "ea574c76-cc40-4c82-8783-f247c92b6e29"
         },
         "Value": "%Null%"
       },
@@ -79,7 +80,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "用户",
-            "GUID": "f0a0c987-849a-4f46-9b38-366a77723772"
+            "GUID": "9f6abcba-9918-49d0-b8a6-1c5f5e280260"
           },
           "Value": "Administrator"
         },
@@ -87,7 +88,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "剩余天数",
-            "GUID": "98c1e011-f097-410d-b907-a6fa3a71bd55"
+            "GUID": "8e1bf7c4-f942-4fab-8e43-eae06752fb1d"
           },
           "Value": "12"
         },
@@ -95,7 +96,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "请假记录ID",
-            "GUID": "1fa6f073-c33e-4915-b645-29eb94be21ec"
+            "GUID": "f3567752-6d91-497f-850e-c6c3d592250a"
           },
           "Value": "12"
         }
@@ -113,7 +114,7 @@
         "ColumnBindingInfo": {
           "TableName": "请假详情",
           "ColumnName": "ID",
-          "GUID": "d88d0b79-e132-450f-bb6d-436fac9055cf"
+          "GUID": "ab5b7517-8727-4e55-a94d-0039413f9317"
         },
         "Value": "%Null%"
       },
@@ -123,7 +124,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "用户",
-            "GUID": "9b7f384b-96e3-4ca5-b417-255002b0b0f7"
+            "GUID": "d93ce306-90d1-41a2-bb54-b9ce6c797ad3"
           },
           "Value": "Administrator"
         },
@@ -131,7 +132,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "剩余天数",
-            "GUID": "864a70a5-7b95-411b-a647-a98c03ad805b"
+            "GUID": "b12cba8e-2078-48ba-8fd4-78add50056c9"
           },
           "Value": "12"
         },
@@ -139,7 +140,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "请假记录ID",
-            "GUID": "adbba7ce-9a1d-418a-a4f8-8420ccdec3ca"
+            "GUID": "4b08d9a0-9ac1-4499-ad7f-33ce5db28ba8"
           },
           "Value": "12"
         }
@@ -157,7 +158,7 @@
         "ColumnBindingInfo": {
           "TableName": "请假详情",
           "ColumnName": "ID",
-          "GUID": "54847d51-f579-44ae-90fa-f4d1d1a805cf"
+          "GUID": "48227acd-1a3f-49e7-bf11-a4cce5170454"
         },
         "Value": "%Null%"
       },
@@ -167,7 +168,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "用户",
-            "GUID": "ca990057-71e5-4fef-97a8-d22b739f5482"
+            "GUID": "542d569b-bf5f-48dc-8c6c-436607df0cae"
           },
           "Value": "Administrator"
         },
@@ -175,7 +176,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "剩余天数",
-            "GUID": "e44386dd-443c-4159-8e15-1abe32719c63"
+            "GUID": "96e3b2df-4783-40af-98df-9d13f5b2dd8c"
           },
           "Value": "12"
         },
@@ -183,7 +184,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "请假记录ID",
-            "GUID": "6dc81b10-8b62-45a3-aa31-e5d683ecfa15"
+            "GUID": "ef48bb01-029c-43e5-8f74-5b5589fbd602"
           },
           "Value": "12"
         }
@@ -201,7 +202,7 @@
         "ColumnBindingInfo": {
           "TableName": "请假详情",
           "ColumnName": "ID",
-          "GUID": "a0731cd2-d122-4868-8630-029441b30c74"
+          "GUID": "88bc3fdc-b610-4571-abc3-5557f31432df"
         },
         "Value": "%Null%"
       },
@@ -211,7 +212,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "用户",
-            "GUID": "88d2cfc6-188d-430f-a622-4cc910444b7e"
+            "GUID": "fff7adfb-c7c3-419b-ad32-a0465cc4a624"
           },
           "Value": "Administrator"
         },
@@ -219,7 +220,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "剩余天数",
-            "GUID": "e557d3ef-97bb-4d28-8148-ec8270bcd484"
+            "GUID": "d8f57039-0013-46b8-a6a1-d7f6befc9303"
           },
           "Value": "12"
         },
@@ -227,7 +228,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "请假记录ID",
-            "GUID": "a6b3fb77-3902-40f6-a51e-8b3eb747a034"
+            "GUID": "506bcf76-0916-4aa6-ada6-027d75a65a38"
           },
           "Value": "12"
         }
@@ -245,7 +246,7 @@
         "ColumnBindingInfo": {
           "TableName": "请假详情",
           "ColumnName": "ID",
-          "GUID": "c37d999e-d322-4779-80c5-f9eb474b9649"
+          "GUID": "05d4dc07-9cb1-404d-9dde-c8600c9628b0"
         },
         "Value": "%Null%"
       },
@@ -255,7 +256,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "用户",
-            "GUID": "bfecdf2b-afef-4576-91f7-26b6b34fc6d9"
+            "GUID": "d7c9ce47-cdbd-488e-a741-ff14aa1d07f9"
           },
           "Value": "Administrator"
         },
@@ -263,7 +264,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "剩余天数",
-            "GUID": "bbc36188-89fc-4551-84b6-f77f3ac00da4"
+            "GUID": "1620d52c-3cf2-4b17-a69f-74b47049a0d5"
           },
           "Value": "12"
         },
@@ -271,7 +272,7 @@
           "BindingInfo": {
             "TableName": "请假详情",
             "ColumnName": "请假记录ID",
-            "GUID": "315449bb-eb1f-4b8c-8746-dce3aa160d6c"
+            "GUID": "a84bc4bb-ea08-4290-8ed0-43303625020e"
           },
           "Value": "12"
         }
