@@ -2652,12 +2652,12 @@
   },
   {
     "ModuleName": "ProcessItem/出入库审核",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T15:16:02.1382418+08:00",
+    "LockDateTime": "2023-04-28T15:42:26.9501223+08:00",
     "ModuleType": 28,
     "ToRemoveFiles": [
       "Process\\出入库审核.json",
@@ -2668,12 +2668,12 @@
   },
   {
     "ModuleName": "ProcessItem/采购单审核",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T15:16:02.1382438+08:00",
+    "LockDateTime": "2023-04-28T15:42:26.9501399+08:00",
     "ModuleType": 28,
     "ToRemoveFiles": [
       "Process\\采购单审核.json",
@@ -2684,12 +2684,12 @@
   },
   {
     "ModuleName": "ProcessItem/销售单审核",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T15:16:02.1382455+08:00",
+    "LockDateTime": "2023-04-28T15:42:26.9501444+08:00",
     "ModuleType": 28,
     "ToRemoveFiles": [
       "Process\\销售单审核.json",
