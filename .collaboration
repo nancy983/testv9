@@ -4068,127 +4068,432 @@
   },
   {
     "ModuleName": "RdlReport/交通事故大数据分析-受害人",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974502+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\交通事故大数据分析-受害人.json",
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\交通事故大数据分析-受害人.rdlx"
+    ]
   },
   {
     "ModuleName": "Reports/导入文件夹1/行业案例",
-    "ModuleType": 19
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6976043+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例"
+    ]
   },
   {
     "ModuleName": "Reports/导入文件夹1/行业案例/交通运输",
-    "ModuleType": 19
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974797+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\交通运输"
+    ]
   },
   {
     "ModuleName": "RdlReport/交通事故大数据分析-车辆",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974569+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\交通事故大数据分析-车辆.json",
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\交通事故大数据分析-车辆.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/仓库-库存准确率",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974619+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\仓库-库存准确率.json",
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\仓库-库存准确率.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/入库能力监控",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974664+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\入库能力监控.json",
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\入库能力监控.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/监控中心—TMS",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974713+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\监控中心—TMS.json",
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\监控中心—TMS.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/运输车队分析-车队本身",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974768+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\运输车队分析-车队本身.json",
+      "Reports\\导入文件夹1\\行业案例\\交通运输\\运输车队分析-车队本身.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/学校收入分摊汇总表（NC分析）",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974941+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\学校教育\\学校收入分摊汇总表（NC分析）.json",
+      "Reports\\导入文件夹1\\行业案例\\学校教育\\学校收入分摊汇总表（NC分析）.rdlx"
+    ]
   },
   {
     "ModuleName": "Reports/导入文件夹1/行业案例/学校教育",
-    "ModuleType": 19
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975065+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\学校教育"
+    ]
   },
   {
     "ModuleName": "RdlReport/学校综合业绩表",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974994+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\学校教育\\学校综合业绩表.json",
+      "Reports\\导入文件夹1\\行业案例\\学校教育\\学校综合业绩表.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/财政教育经费统计",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975049+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\学校教育\\财政教育经费统计.json",
+      "Reports\\导入文件夹1\\行业案例\\学校教育\\财政教育经费统计.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/媒体效果统计图",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975129+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\媒体效果统计图.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\媒体效果统计图.rdlx"
+    ]
   },
   {
     "ModuleName": "Reports/导入文件夹1/行业案例/房地产",
-    "ModuleType": 19
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.69755+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产"
+    ]
   },
   {
     "ModuleName": "RdlReport/客户特征分析",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975178+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\客户特征分析.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\客户特征分析.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/房地产-管理驾驶舱",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.697523+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\房地产-管理驾驶舱.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\房地产-管理驾驶舱.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/来访客户分析表",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.697528+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\来访客户分析表.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\来访客户分析表.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/每周(月)来访客户分析表",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.697533+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\每周(月)来访客户分析表.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\每周(月)来访客户分析表.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/销售日报表",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975385+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\销售日报表.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\销售日报表.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/项目存量统计表",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975435+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\项目存量统计表.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\项目存量统计表.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/项目现金流量表",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975485+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\房地产\\项目现金流量表.json",
+      "Reports\\导入文件夹1\\行业案例\\房地产\\项目现金流量表.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/SMT生产看板",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975573+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\SMT生产看板.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\SMT生产看板.rdlx"
+    ]
   },
   {
     "ModuleName": "Reports/导入文件夹1/行业案例/生产制造",
-    "ModuleType": 19
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.697602+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造"
+    ]
   },
   {
     "ModuleName": "RdlReport/SMT车间看板",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975625+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\SMT车间看板.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\SMT车间看板.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/产能 DashBoard",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975678+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\产能 DashBoard.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\产能 DashBoard.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/加工样品单-BOM明细单",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975733+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\加工样品单-BOM明细单.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\加工样品单-BOM明细单.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/服装制造_生产工艺单",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975786+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\服装制造_生产工艺单.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\服装制造_生产工艺单.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - OEE 分解",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975838+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - OEE 分解.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - OEE 分解.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - 周宕机及打卡对照",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975892+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - 周宕机及打卡对照.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - 周宕机及打卡对照.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - 宕机及生产率",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975951+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - 宕机及生产率.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - 宕机及生产率.rdlx"
+    ]
   },
   {
     "ModuleName": "RdlReport/钣金制造设备效率 OEE - 班次",
-    "ModuleType": 18
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6976005+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - 班次.json",
+      "Reports\\导入文件夹1\\行业案例\\生产制造\\钣金制造设备效率 OEE - 班次.rdlx"
+    ]
   },
   {
     "ModuleName": "Process/库存管理",
@@ -4628,6 +4933,56 @@
       "Email": "nancy.yang@grapecity.com"
     },
     "LockDateTime": "2023-04-28T15:49:08.1561891+08:00",
+    "ModuleType": 19
+  },
+  {
+    "ModuleName": "Reports/nancyyang/行业案例/交通运输",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6974813+08:00",
+    "ModuleType": 19
+  },
+  {
+    "ModuleName": "Reports/nancyyang/行业案例/学校教育",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975078+08:00",
+    "ModuleType": 19
+  },
+  {
+    "ModuleName": "Reports/nancyyang/行业案例/房地产",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6975513+08:00",
+    "ModuleType": 19
+  },
+  {
+    "ModuleName": "Reports/nancyyang/行业案例/生产制造",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6976032+08:00",
+    "ModuleType": 19
+  },
+  {
+    "ModuleName": "Reports/nancyyang/行业案例",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:49:16.6976054+08:00",
     "ModuleType": 19
   }
 ]
