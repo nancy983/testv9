@@ -1,0 +1,384 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 231.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 231.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 465.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 3.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "Count": 8,
+    "DefaultSize": 50.0
+  },
+  "AttachInfos": {
+    "0,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "销售信息",
+        "ColumnIndex": 1,
+        "RowCount": 1,
+        "ColumnCount": 4,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "销售信息",
+            "ColumnName": "销售日期",
+            "GUID": "effc14a8-22fc-4d5f-95c4-01b1ac36c35e",
+            "AttachType": {
+              "$type": "ForguncyDataAccess.DateColumnAttachObj, ForguncyDataAccess",
+              "ColumnAttachType": 1
+            }
+          },
+          "Value": "2012"
+        },
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "销售信息",
+                "ColumnName": "销售年月",
+                "GUID": "110eedd1-c7bc-4c3c-9ab3-3b4525f30612"
+              },
+              "Order": 0
+            }
+          ]
+        },
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 12
+        },
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      },
+      "BindingInfo": {
+        "TableName": "销售信息",
+        "ColumnName": "销售年月",
+        "GUID": "802fb258-496a-4da7-b5e5-5a2ce56ecada"
+      }
+    },
+    "0,3": {
+      "BindingInfo": {
+        "TableName": "销售信息",
+        "ColumnName": "销量合计",
+        "GUID": "f98e757a-cb91-4943-b9aa-b9e8c75f15bd"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "General",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,3": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,1,1,2",
+    "0,3,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "='图表卡片页签-销售量柱形图'!图表类型"
+                    }
+                  ]
+                },
+                "value": "销售额"
+              },
+              "CommandList": [],
+              "ID": "701fc1fc-75a5-4c74-8608-465d59606926"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "='图表卡片页签-销售量柱形图'!图表类型"
+                    }
+                  ]
+                },
+                "value": "销售量"
+              },
+              "CommandList": [],
+              "ID": "d455beb5-e34e-41ca-b072-fec5681cc135"
+            }
+          ]
+        }
+      ],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Charts": [
+    {
+      "ChartType": 7,
+      "DataOrientation": 1,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "图表卡片页签-销售量柱形图",
+            "ListViewName": "表格1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='图表卡片页签-销售量柱形图'!D1"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "销售量柱形图",
+          "ListViewName": "表格1",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='图表卡片页签-销售量柱形图'!B1"
+          }
+        },
+        "DataSourceListviewName": "8ba16a20-33ac-453e-9fff-7fca456e51f8"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "XAxises": [
+        {
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
+          "StyleInfo": {
+            "Fill": "transparent",
+            "FontFamily": "Body",
+            "FontSize": 14.670000076293945,
+            "FontStretch": "Normal",
+            "FontStyle": "Normal",
+            "FontWeight": "Normal",
+            "Foreground": "Text 1 50",
+            "Stroke": "#FFF0F2F5",
+            "StrokeThickness": 2.0
+          }
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "DisplayUnit": 1.0,
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "#FFF0F2F5",
+          "MajorGridlinesStrokeThickness": 1.0,
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
+          "StyleInfo": {
+            "Fill": "transparent",
+            "FontFamily": "Body",
+            "FontSize": 14.670000076293945,
+            "FontStretch": "Normal",
+            "FontStyle": "Normal",
+            "FontWeight": "Normal",
+            "Foreground": "Text 1 50",
+            "Stroke": "Text 1",
+            "StrokeThickness": 0.0
+          }
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "Values": [
+            5034.0,
+            5807.0,
+            5364.0,
+            5924.0,
+            5413.0,
+            5426.0,
+            8907.0,
+            8605.0,
+            8298.0,
+            8737.0,
+            8858.0,
+            8775.0,
+            8415.0,
+            8638.0,
+            8339.0,
+            9714.0,
+            8547.0,
+            8726.0,
+            14158.0,
+            13979.0
+          ],
+          "Name": "销售额",
+          "MarkerType": 1,
+          "MarkerSize": "7,7",
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
+          "StyleInfo": {
+            "Fill": "#FFC8AAF1",
+            "StrokeDashType": 8,
+            "Stroke": "Accent 1",
+            "StrokeThickness": 0.0
+          }
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": null,
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart1",
+      "Size": "466,231"
+    }
+  ]
+}//G9e9j8okBnfr6zomRRpL1lYzElUK1LVdxfQbyXe7dEt7sc/btDoOg/kSK1AIfgCeThQW2vtovhTUpnHbuO4zAUYZG57pVAFiIQBKTXx984jtnBNz92TkhZxrwYGXxMkRBU8jqwKDSqHGNTrvT0B9+owlA3vWKo+jKyspejv3P0lm3i1l94hc/71V8zQXJKR4TpaexpX4ZWcQ6b2RWrHiTDlQOYJsmG1JtuRcY1Vs9cJsLbDj6vTRFehq8jaTiZLu4XX0AaPeTvA3umagjrh/WmPKfJ4meCbf0SbTdMjdlMaJY5C0HqREuU5IWRi3ggIdNVOnlNC9Niy+fSvpAfBEV8r2JoxfeX4i3cAYMXD27ukvcvKfeJSRJAWCyO1045ci0VqZW7QjI+ITEW5Jn38AudYDIL6m8NDKHGrBBUo0AtckzPPjxbSyJjmAOIIAQdeuNjPJCKmQoGMSBBjn9z8EsfYWHnBDc6HcdbBNyoS8FcCwbseKEI/Qf57INS7NPMZgRuEUZaFnj4FnIH+l5/M/svXqIsIEBYP4GXTkNbd8zyi5/I7H5ZH6BdaCwfiL2kqKUVM3Ezr4TXEEwYf12211yInbSeaJoHt7gpx28Vq0SbkB7TidBL5Z5JyZf0/6sYOZjUhSquSQJxE/mpTtB5cUX/AaBlo23AeX+4STj2peHx7k7YHTXHNuUYDNGi9jqbh9yTiqqAiy8tyk1TjXbGLx2Tnj7WXxA7fIFO53ZavcjB1bY5rPEs43rv+sIIlEDofKYPdqFvScYqJUZ4ynmD1HkaiYq3q2GDXijBz2sTe8Z8DUEpA211GaxoeQ9GpjLB3Dq2CxAa3zcPUBF3yx7sR2qagI54sS3kUJaqzU816gUxs30zxe1dR+MxxTsn/xgkN1d1Lg4D9T/kQOHTQjgD99cg==|920

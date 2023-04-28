@@ -1,0 +1,110 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 16.0
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon"
+      },
+      "TemplateCellSource": "logo"
+    },
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1"
+      },
+      "TemplateCellSource": "名称"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,3": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "团队卡片-Mobile"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//KXhYDLqjVpzPqJDJ65cikhCRiZsCPYyDognE6AwUUshyaol6wAA26sqxf3NwJ051mTyr0B3QQEIqIPHkAJn1Z9x8M9yI4wBdZwcrlY20bJU3+u7cqoDmSTXwvrdRrMmAmnEjzpD6gKtmsKBZXwXd8EVTZtrpWcKjU/ILEoRHlItoHltr2d3NpDD6D6Pb6eaXewcdKCD7WFBaZyw+d/l2GDNfBjU2ZYukoyJS1Lf/gDz+sL0LnUyGh6Obm0zT9tzjRAyCIPn06r1jB8Gd+l8LcabeIBoQ5hL1Xyc/+VTlrHTr38HoaxyyRaUbbFup9kpRHFX/BItLsigvHUOMdjv+cdGiXtDshEZLNVVZ2n9B6I8ZcW6532kKIXb2Ln7O9PgTWLiNeONS8ApFsmaUNc0PHzjXrY7Pb8Te4jpU6VWO8RTR8YvN8N1bQmDxtQfF66IZCRIOykyMLlPQdHUtP1UHK52o9+DXI/C6S1biO2o6LpB86Xa7V8GXAf1R5R9JpX0D9X61xFGscOazzmx7PHcZ6KtiGAIwPvLXQgabs3jrE0UMxBvT/OqiOWW/NXsS4x36tTOFvfCHvFEPyEk3X/6h06N8Qcm4K/K6hH6YM+W1cZdP3FQFkuKwKszCIKuWnD4DQ0bDKN5kbhmACbKQEDellA2MrZXfam1w2jYk9B1wUKshI3U1110uqlulwf0/yafV+/xsHMgLVOP8K5zVM07JQx+9N1Y31fYUSoImy+rn+EZYami56rxgpKT/NP0dqF9tOE969TQiMxNzFVoDCKaBIvUTGzW86tWnr/cCVfvrBRR1IKy2KYdGYFyK9w211TN9PT8d3L69zg7TUfiNP6+PVN+PNAU6xOxveGlFwdOcDalkXlehCW0Xt1N+lMstreelr8bxsTbSFw4Sh3NUvKyW5g==|920

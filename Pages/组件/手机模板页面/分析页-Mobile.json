@@ -1,0 +1,422 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "Mode": 1
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "Mode": 1
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "81": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 61.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 83
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 18
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "总销售额"
+          },
+          {
+            "Name": "其他",
+            "Value": "日销售额 ￥12,423"
+          },
+          {
+            "Name": "数据",
+            "Value": "￥126,560"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-文本"
+          }
+        ]
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "访问量"
+          },
+          {
+            "Name": "其他",
+            "Value": "日访问量 1,234"
+          },
+          {
+            "Name": "数据",
+            "Value": "8,846"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-面积图"
+          }
+        ]
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "销量合计"
+          },
+          {
+            "Name": "其他",
+            "Value": "转化率 60%"
+          },
+          {
+            "Name": "数据",
+            "Value": "6,560"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-柱形图"
+          }
+        ]
+      }
+    },
+    "7,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "运营活动效果"
+          },
+          {
+            "Name": "其他",
+            "Value": "周同比 12%  日同比 11%"
+          },
+          {
+            "Name": "数据",
+            "Value": "78"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-进度条"
+          }
+        ]
+      }
+    },
+    "9,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_图表卡片页签"
+      }
+    },
+    "27,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_列表卡片页签"
+      }
+    },
+    "42,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_列表卡片-Mobile",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "产品信息"
+          }
+        ]
+      }
+    },
+    "61,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_饼图卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "销售额"
+          }
+        ]
+      }
+    },
+    "81,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "页脚"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "3,1": 0,
+      "5,1": 0,
+      "7,1": 0,
+      "9,1": 0,
+      "9,17": 0,
+      "10,17": 0,
+      "11,17": 0,
+      "12,17": 0,
+      "13,17": 0,
+      "14,17": 0,
+      "15,17": 0,
+      "16,17": 0,
+      "17,17": 0,
+      "27,1": 0,
+      "27,17": 0,
+      "28,17": 0,
+      "29,17": 0,
+      "30,17": 0,
+      "31,17": 0,
+      "32,17": 0,
+      "33,17": 0,
+      "34,17": 0,
+      "35,17": 0,
+      "36,17": 0,
+      "42,1": 0,
+      "42,17": 0,
+      "43,17": 0,
+      "44,17": 0,
+      "45,17": 0,
+      "46,17": 0,
+      "47,17": 0,
+      "48,17": 0,
+      "49,17": 0,
+      "50,17": 0,
+      "51,17": 0,
+      "61,1": 0,
+      "61,17": 0,
+      "62,17": 0,
+      "63,17": 0,
+      "64,17": 0,
+      "65,17": 0,
+      "66,17": 0,
+      "67,17": 0,
+      "68,17": 0,
+      "69,17": 0,
+      "70,17": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,16",
+    "3,1,1,16",
+    "5,1,1,16",
+    "7,1,1,16",
+    "9,1,17,16",
+    "27,1,14,16",
+    "42,1,18,16",
+    "61,1,19,16",
+    "81,0,1,18"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "默认菜单导航-Mobile",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "aa517b62-4e69-4ef6-a893-d9a917a81e05",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "360,860"
+    },
+    {
+      "Name": "b75a0387-cbbb-4500-8fc4-ec9171926570",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,20",
+      "Size": "320,120"
+    },
+    {
+      "Name": "f992d009-bcad-4437-a0c7-2d5629788980",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,160",
+      "Size": "320,120"
+    },
+    {
+      "Name": "68e6fc54-d186-4c14-9661-207cda60a4c5",
+      "DisplayName": "背景图4",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,300",
+      "Size": "320,120"
+    },
+    {
+      "Name": "b1c8b8d8-553e-4c9f-9174-60038e378257",
+      "DisplayName": "背景图5",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,440",
+      "Size": "320,120"
+    },
+    {
+      "Name": "f91c7e52-132d-4c81-9fdc-dc320d3086a0",
+      "DisplayName": "背景图7",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,580",
+      "Size": "320,340"
+    },
+    {
+      "Name": "6f31b995-d691-470e-8210-2d77002e4511",
+      "DisplayName": "背景图8",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,940",
+      "Size": "320,280"
+    },
+    {
+      "Name": "178b8ee2-8734-477d-ab17-3c38ee3698f2",
+      "DisplayName": "背景图9",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,1240",
+      "Size": "320,360"
+    },
+    {
+      "Name": "54bcdbfc-8890-4352-88cd-f59582d1e057",
+      "DisplayName": "背景图6",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,1620",
+      "Size": "320,380"
+    }
+  ]
+}//HxgF7kMEIGPp0BBlYmbkNdPk84ADVEkc0Rv++Htnt9l48awQn6XhOqShJWSGpumNpoAMbu97JwJxTf8tNy0Cv4vduE42uU8OFz6merS17kMSd7JcsEdBUjjS2sjSyV5ZrxfuuMtGTuWhdVl8sgkTKt5gDwCW7Wmx5bnTF69dzz8oaC8Qjd5wCnI8/mJHfGjJCYG65/WLkmfyk5T+tzXv9fNuRPg2/JKy4qLpsz8d6bq5EFNT4wWXBRzBcNvqTWsfOWhJ8yYLoIGkMIpxMxIvPME+esVsRDUln9mjyilDsCcVgUkqYqMz9qzCr48XTgmo8+qbDKfjfcLoUgiIuuAnensE9WIQveZzfT2GENvOvuyvt+YcAIiNM+xs1NkiCk5XtZnZth2knv58SFnMm20SJh9yCSAE+IFPo4E82OyH6H+lPY6xnC/4+LwXF0aTcHnVKvpOJvivv6qwljzyLKHVW1KpWbN3M8Y41ze9RhcffpU6sxkUXjB+awFmx8sfZKXCSqVF6bUsKW8nxuTqy1BlVf3V4LhATLxChwRF7Az+oYXCYj8PfiFZcY7nDjlpAMPN1mRthhwvNZCn2whhTPSuC4/VagFgGJWgtQJGZm9nA9B83cHax3+ue4m5vgYY1GeKcGFT4fBSEwWLej/jbDwBBUELsGQFFPIfaccdDeyMAXt4al4aDJgDLScQCLI6C3TQKsgtiTwIrNdqQ6shAV/+MUe9zT3inSIfe9w0pAV2QHY5tdTtaQCHD7OOsxKT15+8dPIN6oPQGR2J7z33ngNRnfKsN0/uK3XDdzgol+92VUEOKrsDB7Hry9b+tWXPjHdpr2oeTSQYG0umDDZ0ci4urN2GQ+rAbg1a3GuXkvadP/vbTRxoFyUh0WrBeVfXKI8cmGp8QXic0f3PlZaL7bWDSQ==|920

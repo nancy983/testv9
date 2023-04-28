@@ -1,0 +1,251 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 161.0,
+          "Mode": 1
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 66.0,
+          "Mode": 1
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "InVisibleIndexes": [
+      11
+    ],
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 18
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "头部-Mobile",
+        "OverflowMode": 1
+      }
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "卡片图文列表-Mobile"
+      }
+    },
+    "29,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "页脚"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "1,0": 0,
+      "28,0": 0,
+      "28,1": 0,
+      "28,2": 0,
+      "28,3": 0,
+      "28,4": 0,
+      "28,5": 0,
+      "28,6": 0,
+      "28,7": 0,
+      "28,8": 0,
+      "28,9": 0,
+      "28,10": 0,
+      "28,11": 0,
+      "28,12": 0,
+      "28,13": 0,
+      "28,14": 0,
+      "28,15": 0,
+      "28,16": 0,
+      "28,17": 0,
+      "29,0": 0,
+      "30,0": 0,
+      "30,1": 0,
+      "30,2": 0,
+      "30,3": 0,
+      "30,4": 0,
+      "30,5": 0,
+      "30,6": 0,
+      "30,7": 0,
+      "30,8": 0,
+      "30,9": 0,
+      "30,10": 0,
+      "30,11": 0,
+      "30,12": 0,
+      "30,13": 0,
+      "30,14": 0,
+      "30,15": 0,
+      "30,16": 0,
+      "30,17": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,18",
+    "1,0,27,18",
+    "29,0,1,18"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "默认菜单导航-Mobile",
+    "PageOverflowMode": 1,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "e71c629e-fc53-41d2-81f2-f272fb4bf544",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,0",
+      "Size": "340,681"
+    },
+    {
+      "Name": "1e552be5-af4c-40ee-b9c2-3c669f2ef1ba",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "360,161"
+    },
+    {
+      "Name": "4146bb41-151b-450a-890d-6cca6637a5a4",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "360,161"
+    },
+    {
+      "Name": "7610a325-80f6-45d2-b69b-7bab32ce1f6d",
+      "DisplayName": "背景图4",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,161",
+      "Size": "140,0"
+    },
+    {
+      "Name": "55c8fd58-691f-40bd-aabe-fa0f1cab7c0d",
+      "DisplayName": "背景图5",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "180,161",
+      "Size": "160,0"
+    }
+  ]
+}//2MMOy63D/TliphBE437eA6C6iKht1c+DsQra/mavH8eGpufFKM4Ih5sb6ZyxLv/CcW05q6kl8UY71KjCBxtGyMRSTbxm69/gqCdG+wXNHNOaD9WD/vtUshQyRxGUZCaUr6uE4s2L2gdnev43hj570Z1vMVz1wJUI9DW5yfye/K47jzMya8i/4qCqSQz7GrF8me/m4TZ0HQ4+IIBJDfUxE4k2A5x4NAbA5NA5D8yUi1e1VchZqWFiPVV0XswjcNtJjFAGQuR74DBGRZJmB9l7GHaAYAXPzflKWbUjN0IznKCfLstZKbUmLWjm3ctnguRvZLGUzLfSO9Nu5D24Fmj5aSUiKZMT0gRW3LvW4PcWJ6MlNJv0zlkqGl2C7YEXdGr3T+aD3TbTvyALiDdCBhy9jTy12OUij28BWr6hR5cQrEJl6dcdP+wYAMSHkDcrsPadRL4GammzxhWjnb7vFn7ZTOEZ1q3lEeTMKWdsJnpZzMVyxSXHlt8wlXXJi3gmxHKDfeF6/+vKrFEzCXdnCEPAw9iXS7/n9VD2YUPu+1OqcYksa+EhvPqgLlD+mrjMMXGn0Vusd5qacn96v1YLfAelb3O6fAkzUyVuk7vv4czidMeARHQBiQKjJ9COoO2TmGojpsPKLdWOqIE8KlttFZl4RX+1TRu4v1xBh4x8gS3XojgjCABwPVIeDZiwfwoLPr4hBd4ZQRyhknpCnSlBcQ8YboAfVG8YgR1bU989S/wA7jLdCGRayz9QZqbwcBzRMM/zOEOYMJS5d5edFQ7ntpSxMEawc3NgXmsnkTTH8VgS6b5Ep6vysKw27OIYU+zWAZ4bkmONxwKrrxMbwXAIQlORQkBrMLiGoXLmO/eslaIrSRloc/6BIkRXorINNbBF6D9H7ruxh95MuOFyYStpH+557Q==|920

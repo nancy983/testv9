@@ -1,0 +1,195 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 196.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "选择"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "黄金糕",
+            "label": "黄金糕"
+          },
+          {
+            "value": "双皮奶",
+            "label": "双皮奶"
+          },
+          {
+            "value": "蚵仔煎",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "龙须面",
+            "label": "龙须面"
+          },
+          {
+            "value": "北京烤鸭",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "clearable": true,
+        "SelectorConfig": {}
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      },
+      {
+        "Name": "数据源"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "选择"
+      }
+    ],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "='选择器(字符串数组)-垂直-Mobile'!属性名"
+                    }
+                  ]
+                },
+                "value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=\"数据源\""
+                }
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='选择器(字符串数组)-垂直-Mobile'!A2"
+                  },
+                  "TargetType": "Vant.CellTypes.Selector, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+                  "MethodName": "SetDataSourceByStringArray",
+                  "ParameterValues": {
+                    "dataSource": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='选择器(字符串数组)-垂直-Mobile'!数据源"
+                    }
+                  }
+                }
+              ],
+              "ID": "e87148f0-0c96-4cff-bfef-ffb352e4357a"
+            }
+          ]
+        }
+      ],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//QsSWGAQG2M/GStHi3/zZm2wKc8yNojYYj8m73cjqpps3c5L53eYa7ZQ9Tdv+RchB74YQVhmjj/9gY77BfMSn9TWtK9nNmOfvuAm9JgqIq7F8lFfTvu4DelLM6rAqRYkED3wtdqsht14IdLqMtViPpOtYb73UB0yIfyO7nlLvmzOQgCsayZ09n1ie+OfgtRC9auuNGBjr7eSiJEEwjQS6VLYjtguXW3+o8rUZ85m3JmsdbVrqJZpAXAtCHZK8Ej5u3yoP8viR6hHRM4Ni6uLe+4T5D5W7qI+8K8THXjntfdF3IKsbxSNlVmY6JpDhZmDvasGuzk+XqaNEXDCD7IQc0HpRHjWjieo2ueV4M+DSchrgHPVLp9WBRHljhaEVgE75gUQaWTvt5xrOJCt+a1F4IY4sEzlRC81O3mEQc/dMsX4CO6s1JnMlN07y3Xy9QACXDgrCA/QTLT8fiJvUDB8tna3msuwIesryXZOaJ8rOythjO15R/CbIsFGsXWdxxKc6EFSnnuH4Z+2uh8nbbqN0q4JTx/kpMqblgSahinKB/Cuko5wQpwZqzAsYdlDxpu3E0ES8LLp3zYQ1GHEUeV2xcX2aclGtY/mIo8YJyQFOT8x0swgU5b3Bod2YwzPapcYuceEr/wBy6jitMioH8XLIpE+nxwgu6llBe/mhfXWiFBhwKdxYipikLDE04RudgIoTA+vDp1Dk+64hDvqMD1viiY1HDPrsZocJhjgf1IbFsuGvxNJT5Gz0gbacImAWCaz5u+xxuTWJuyqti0ldz3AgiwJUKD1gNVU3buiAQJ2M6jbo0JgXE2NeQvNS8DKddn/hUd5aI7kGfYJzsxwI18KFauOF/V7vMd5ZvlftzXlotltpUZZzQQxi0vV3s+iCV7rF8asetqkiPyAYW/pwHV1pmg==|920

@@ -1,0 +1,413 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 118.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 118.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 118.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 8,
+    "DefaultSize": 118.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 603.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 72.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 135.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Count": 10,
+    "DefaultSize": 91.0
+  },
+  "Values": {
+    "1,3": "全部项目"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "一级标题"
+      },
+      "TemplateCellSource": "标题"
+    },
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "详情点击"
+          }
+        ],
+        "Text": "全部项目",
+        "ClickMode": 1
+      }
+    },
+    "4,1": {
+      "CssName": "tight-card-list",
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "526c3ba67df349879a4c52c7457d841",
+        "ListviewName": "表格1",
+        "DisplayMode": 2,
+        "NoItemSetting": {
+          "ImageForNoItem": {
+            "Name": "暂无搜索结果.svg"
+          },
+          "NoItemImageSize": 100.0,
+          "TextForNoItem": "暂无数据",
+          "Orientation": 1
+        },
+        "TemplateKey": "样式2"
+      }
+    },
+    "4,5": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "项目信息",
+        "RowIndex": 4,
+        "ColumnIndex": 5,
+        "RowCount": 3,
+        "ColumnCount": 5,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "5,5": {
+      "NameUsedInJavaScript": "项目名称",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "项目名称",
+        "GUID": "d19ef20e-a3b3-4f99-8414-1beef8f9ab23"
+      }
+    },
+    "5,6": {
+      "NameUsedInJavaScript": "icon",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "icon",
+        "GUID": "9b99fbcf-d9c7-4f87-bb9d-a7ea67d08c8c"
+      }
+    },
+    "5,7": {
+      "NameUsedInJavaScript": "负责人",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "负责人",
+        "GUID": "99487325-084e-4f82-bebd-fef2c5639bcc"
+      }
+    },
+    "5,8": {
+      "NameUsedInJavaScript": "项目详情",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "项目详情",
+        "GUID": "26dd4f3d-9a87-40b6-8ed5-c8e2be51cefb"
+      }
+    },
+    "5,9": {
+      "NameUsedInJavaScript": "更新日期",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "FGC_LastModifyDate",
+        "GUID": "28320662-6eb1-46ad-80de-0a943e766ef3"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "TextIndent": 3,
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 3,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "Foreground": 6,
+        "TextIndent": 10,
+        "HorizontalAlignment": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 3,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 6,
+        "TextIndent": 10,
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 7,
+        "FontSize": 16.0,
+        "Foreground": 8,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 8,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "Accent 1 0",
+        "Right",
+        "Blue",
+        "Center",
+        "Background 1 -5",
+        "Text 1 0",
+        "Body",
+        "Text 1 50"
+      ],
+      "Borders": [
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,3": 1,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 2,
+      "2,0": 3,
+      "2,1": 3,
+      "2,2": 4,
+      "2,3": 5,
+      "2,4": 5,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 2,
+      "2,8": 2,
+      "2,9": 2,
+      "3,2": 6,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "4,1": 7,
+      "4,4": 8,
+      "5,4": 8,
+      "6,4": 8,
+      "7,1": 7,
+      "7,2": 7,
+      "7,3": 7,
+      "7,4": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 7,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,2",
+    "4,1,3,3",
+    "6,5,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "标题"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "详情点击"
+      }
+    ],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//hFINhhe7IKJ/e4BzZFubV8yD1ZiopNvnkb8DcthZ1acLkGDUftM23WwzpRwd57gJGQGdlbmUo6im/cPbzIWvv1988ZEXMCAY5PRU03IcvwOjmatpYe6YArp/bwdge4DrpCLnQ6pgRbJKyBjpGm1yOUnd8wmimpTLkB/ZOy1xB5WlvRv4uki1tQyr9jCWUURdxeZQG3Xfupw8MMRk0d+mZAVTsAcEhBXavVr3ByrXlddIFijlESNKCzekec+4qVJrtPVz8IdcSab8wLVrGI2KNkMfN2SYb3Sbc5NdmwkefnpNIxcjVfJCqa+OMVStpbo/Gc1S1S7gv0JtdpBK+0fZEyXZC2GSynIdby4ccHbJVi+Lfr47W8bx6VlsVXaVF6jziV9UIwJChUfFYZQdBCKNe50ITcdwSBg+4fXeYwLuvnmxEk6pKQrV9w/j0fKU3jhLuc4HpaVt/HcTRxUAAA8qDeTS/dkvZp1cVYKdWNSJr9TfAl1hQsu8FaGyAvk+s/97+g7VXkiv74FRn4LYVGrJQy7icKhepxfPbf5sQe7oyt67E/k+gLR216Agj0vOSKYywq3nTL0uZU4Ly0U4jkwJhumrRQS1Qk1UAP3pzCfLWkuBb2rui4swzTxyjk8pmyc4Edh7pJ8gXCIeaGNstVEl0xf3RivxhinY/lAcRt9hdJNTUTwvxkR5B7eOqSMNuFSWKLgVyz+LwO0+R7S/f8S4OTexaGkM6b7gSpwS6qcFv1ll3LM7TV9qJ6t5eU+pwI8Rd7fvyuVpNtGh7pflWqvh0YJFbL1BYfoYAZlA/jQT0d69+DBhfL5PvoJTrPpCQ5RolorWfFiglnN5flwheC/VEdn8y12ES7CMGxGHhrZO3GvqD/KW9XARyZUIuepckGy38cVRw/kexJqUVpqRVLh1+g==|920

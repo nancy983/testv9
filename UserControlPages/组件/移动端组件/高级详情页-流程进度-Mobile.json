@@ -1,0 +1,206 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 83.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 353.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "1,1": "流程进度"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "二级标题"
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "ElementUI.StepsCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='高级详情页-流程进度-Mobile'!B5"
+            },
+            "TargetType": "ElementUI.StepsCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+            "MethodName": "UpdateProcessState",
+            "ParameterValues": {
+              "state": 2
+            }
+          }
+        ],
+        "options": [
+          {
+            "value": "创建项目",
+            "title": "创建项目",
+            "description": "张三",
+            "icon": {
+              "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+              "Name": "spjs_b_64.png"
+            }
+          },
+          {
+            "value": "部门初审",
+            "title": "部门初审",
+            "description": "李四",
+            "icon": {
+              "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+              "Name": "ar_64.png"
+            }
+          },
+          {
+            "value": "财务复核",
+            "title": "财务复核",
+            "description": "王五",
+            "icon": {
+              "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+              "Name": "圆形logo_64_.png"
+            }
+          },
+          {
+            "value": "完成",
+            "title": "完成",
+            "description": "赵六",
+            "icon": {
+              "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+              "Name": "活字格_64.png"
+            }
+          }
+        ],
+        "layout": "vertical",
+        "alignCenter": true
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFF0F2F5",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "2,2": 0
+    },
+    "RowStyles": {
+      "1": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,2",
+    "4,1,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//LQTf3hhHfftRbwgRewF8dIGZJ3WIBoeyVltUEg3PvoxjtHAODIkY+sv2ysPGbV1NN5FMd+Tvo88T0W9qAdiMX3BW9AtQ2cCa29+M9r1xGKIRDJ/00cUdmCXzuI8fqzf6Z+IFSqoMtm7wW+k14J73ji5ZGPYUZo6vEKOg4R5N72HNSyl3XrZ64jfxh7xtJZlk+8Il6UhNMmhTaJixyghKeVivtpBQvjgmNzUqlF1BRcLyODtagjBrHeuRbnyZVYIWNfjU6GjK2LNnQayzqqSfcjBdgj/K9AxmEDP8R4qLp+FnPVltS28qGzdIbw24jEkc7CKVoOCA2XQKez6GERLr2Lasa/gIPZ3UerAE/d+ySjBg8KqCvCOIVSSElibiFTVd+DWUtVrQg3+4ZwT3a/amIsW6a3bAruSjAIS+f5OH6XnzCoqnb9T8w0iezHOFUOMGH30XXiBMfHOqhwQkEZDwoviDQUuiYvdUfgLdhxSb1aOPtM8xHprp+M23pIsTPeSLM/5NQRPyJWibYj7h+gCnAguIBwNxncvzYon3rQeatPKKHIjgs1MZTlPY4i/H3MLx95d0b2igy/A0VZnDHnLLzrENIETnM00grS74W2+66seIXEO9zdMAHymMGybaNmA9wI1D+SdBuVQ6XxMyvJa0uC4YMdc3epeRIaEGRQU+K0iubhoXAWCTfzxfxBNvNt+iiQRaJ4qReBE08lBBStrXQCJmoO/Pflm1byIz49PoJ8UW6I03J46e/gwS3Ztu+U3+WmI4FIbRqG3QrcxW8hXDDzYERIDsHr/bTHmiJYUuONLmmFPkn+t5l+p+/V4rKI3dRq99Fjeio0J7ZnUDpBbjE+AKu++plGnpcl/y+qMZapbDmKaRGdUnBZowavFaPtdbs0wQLvpMj73upT2WDSSJJA==|920

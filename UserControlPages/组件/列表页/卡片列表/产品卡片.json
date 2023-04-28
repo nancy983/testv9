@@ -1,0 +1,246 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 8,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 229.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 16.0
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon"
+      },
+      "TemplateCellSource": "icon"
+    },
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "超链接自适应"
+      },
+      "TemplateCellSource": "名称"
+    },
+    "2,3": {
+      "TemplateCellSource": "描述"
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "按钮操作组",
+        "CommandHandlers": [
+          {
+            "CommandName": "操作一",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                  "Message": "操作一",
+                  "Type": "success",
+                  "Duration": 3000,
+                  "Offset": null
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "操作二",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                  "Message": "操作二",
+                  "Type": "error",
+                  "Duration": 3000,
+                  "Offset": null
+                }
+              ],
+              "ParamProperties": {}
+            }
+          }
+        ],
+        "PropertyValues": [
+          {
+            "Name": "操作1名称",
+            "Value": "操作一"
+          },
+          {
+            "Name": "操作2名称",
+            "Value": "操作二"
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 2,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Left",
+        "Top",
+        "Background 1 -15",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,3": 0,
+      "2,3": 1,
+      "7,0": 2,
+      "7,1": 2,
+      "7,2": 2,
+      "7,3": 2,
+      "7,4": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 4,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,3,1",
+    "2,3,4,1",
+    "7,0,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "icon"
+      },
+      {
+        "Name": "名称"
+      },
+      {
+        "Name": "描述"
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "a4c8e7ed-0c58-46db-b1b3-bc8546ab0741",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "325,196"
+    }
+  ]
+}//oB69abIt7RjvWXz7sQrUzDuE9VrAfy7MpOBZdsTP+tdo4B0uMx5Kkrn3vYTkTw9t2Ascr2e3Vl6+LabTf7N6f04+UcIgzONKf3Kraehh669uTpsaVJMK2DCMcAyQOlCFELzHme/TI9kGhYy2ofO8et71nNh7+q+Ea7V5wMdLWPHMhr0W3o9CHCodwY+0meryI+XPZ3l7VY7yDkZMS5Vg+LGlNskXPSuMNymoMu5xdcLWljPJn5LHMbFxCw+DGlpdh5a9T6Wj/JWV6bWaFtC5OX2azApjdutiXXGR6v4xmSnLhVg86q3MferSK7cnWFfjLpmJl31P+z+dDsEzVQ3OyAka4+zrKasqPOioF6IoRz5ARLgSlDbqK47tXOr9gyvdP2HaQVY3DS7vYss9uKCJcAFrz/zIjIvenlsyodgZdDoK748V8rg8XsSn5OK30WNh4M8MuHZIJX+MZqrxpyE8hk7Xri1qOPhKHmhJh2mlf6skLo4WP2a6vCNvhDVp7GcdXsZo1VOXBxx0xvbCWrugc5cu800gcA+elXb0SBqcTxinEyk79ApXzYjCA/McKqiQ3JYkBLOLApU44lRtaIIG3D9+325YRH2WXOoy2HsrtQWXePuyg3bDWlcE2Gds+y4ZP5nLiXjIb/Pe0RtK4TH2nmLiQjfuo2KHBAAPEvJV7xSMpojV7yuwTUtQhMW96NoeccuzJPqkRiCV6XDwhdXjvzuKS0abt+GVjnheRGnyZEt2nIXf3+C5+COXeHdcs3MFXwCgJfzKSwKisD+K+lDK/z2FZ0dROvUbzKR02CmRSC0CEWFoESLOxHO0KyOt0RIu9UOzCe4s9p6RpJrV9zOCaioNLvsywbeb+e2Ro3DND1yzfUwCfk/jMQrgIRfEkbT1XOHCxEKR74jcyFi2+mN6aA==|920

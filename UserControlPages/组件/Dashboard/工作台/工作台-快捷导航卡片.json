@@ -1,0 +1,472 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 8,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 294.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 72.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 162.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      5,
+      6,
+      7
+    ],
+    "Count": 8,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "1,3": "添加"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "一级标题"
+      },
+      "TemplateCellSource": "标题"
+    },
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "添加",
+        "ClickMode": 1
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "053c5cb341e349d8b3b21164b792ed6",
+        "Command": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [],
+          "ParamProperties": {
+            "显示文本": "显示文本",
+            "菜单路由": "菜单路由"
+          }
+        },
+        "ListviewName": "表格1",
+        "DisplayMode": 2,
+        "TemplateKey": "样式1"
+      }
+    },
+    "4,5": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "快捷导航表",
+        "RowIndex": 4,
+        "ColumnIndex": 5,
+        "RowCount": 3,
+        "ColumnCount": 3,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "快捷导航表",
+            "ColumnName": "用户",
+            "GUID": "ecca44af-f5fe-4010-a4a3-0fba19da6eb8"
+          },
+          "Value": "%CurrentUser.UserName%"
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "基础-无操作",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "5,5": {
+      "NameUsedInJavaScript": "显示文本",
+      "BindingInfo": {
+        "TableName": "快捷导航表",
+        "ColumnName": "菜单ID",
+        "GUID": "c9654ab3-3089-4ebc-8edd-498b1c9acf83",
+        "RelationBinding": {
+          "RelatedTable": "导航菜单表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "显示文本"
+        }
+      }
+    },
+    "5,6": {
+      "NameUsedInJavaScript": "菜单路由",
+      "BindingInfo": {
+        "TableName": "快捷导航表",
+        "ColumnName": "菜单ID",
+        "GUID": "2e6435d8-f4cc-49d6-9624-693e73f13a1b",
+        "RelationBinding": {
+          "RelatedTable": "导航菜单表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "菜单路由"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "TextIndent": 3,
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "Foreground": 6,
+        "TextIndent": 10,
+        "HorizontalAlignment": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 6,
+        "TextIndent": 10,
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 7,
+        "HorizontalAlignment": 3,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 7,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 8,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "Accent 1 0",
+        "Right",
+        "Center",
+        "Blue",
+        "Background 1 -5",
+        "Text 1 0",
+        "Body",
+        "Text 1 50"
+      ],
+      "Borders": [
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,3": 1,
+      "1,4": 2,
+      "1,5": 3,
+      "1,6": 3,
+      "1,7": 3,
+      "2,0": 4,
+      "2,1": 4,
+      "2,2": 5,
+      "2,3": 6,
+      "2,4": 6,
+      "2,5": 6,
+      "2,6": 4,
+      "2,7": 6,
+      "3,2": 7,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "4,1": 8,
+      "4,4": 9,
+      "4,5": 10,
+      "5,4": 9,
+      "5,5": 10,
+      "6,4": 9,
+      "7,1": 8,
+      "7,2": 8,
+      "7,3": 8,
+      "7,4": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 7,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,2",
+    "2,5,1,3",
+    "4,1,3,3",
+    "6,5,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "标题"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "详情点击"
+      }
+    ],
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "快捷导航列表",
+        "TableValue": {
+          "TableName": "快捷导航表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "快捷导航表",
+                "ColumnName": "菜单ID",
+                "GUID": "50fff75b-044c-4f40-ba5d-08ee04741825",
+                "RelationBinding": {
+                  "RelatedTable": "导航菜单表",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "显示文本"
+                }
+              },
+              "ColumnName": "显示文本"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "快捷导航表",
+              "ColumnName": "用户",
+              "GUID": "a32a2351-a800-471a-b5d9-e6b250c48668"
+            },
+            "Value": "%CurrentUser.UserName%"
+          }
+        },
+        "ID": "2633bddf8f4a4108928b2d1f10157f94"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "导航数组",
+        "ID": "260af566644043219e0dae940401f2b0"
+      },
+      {
+        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+        "LoopInfo": {
+          "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+          "LoopCount": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='工作台-快捷导航卡片'!快捷导航列表"
+          },
+          "LoopItemParamName": "Item"
+        },
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "导航数组",
+            "ParameterValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-快捷导航卡片'!导航数组&\",\"&'工作台-快捷导航卡片'!Item.显示文本"
+            },
+            "ID": "97b0487fe89249c8996c7dd319ef2d34"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-快捷导航卡片'!B5"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-快捷导航卡片'!导航数组"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//wLLYwZ4kM/S3NmfdljDFu88LqiGdjJees3T7UjPADs2/DxoD7LEWGreyFra3eIkPJ5h6CTNIlJN3LieLbxbNE28yMktAGEzZNlyU7msToxo108S88ffmjESo324XUvybzXaX1vmOJW2oMhLXIeoWYMgcDo9EEH9jgxmjsjmJAJDseIHaFa1bn+sGskljoSVFrHLoPj/VLkHxpwrMAv4HULuAMzdmgYmQpkvdUd8gZYFKvPBXMwHQIBvQyF/kV4APGnPlOKNQCKJroCihZ72dhahA2yVnNr3bxbOH6ZhXxKzsVpvum2+D+i+hDTFSb7+oEgTcYa+3IegbvfRa0UI3BYJFb0VYxKlsXlQwplpAok3V2uBX/WEdNXRCSCYH5SgmgcK2irvGZjn23TlTIadu1KoGkNwY/EYj8nF9LXUuSaC3dUeq7GsiArwXhC8AEKaMtfOuI9qvwwIEikl/Raie4S5UJHLmKk63u5Q+XxP0dU1Fd6+BwWNdZI1oAcxdP6G6M/fGZmyckSOr1cImD83kcqnCQ0jxWjNlpCmLxrNBv0/rx+xzUCE+wKj+DZiAUc/ad7uTQ5j+71Xub6IyR+n0gsC+Gg0OWwFRDhBadRDILXHtX1DeScSuAhKPMXQIpNZtPhLC6Uj9hdtiT+SlbCbsnCYdrmLGXbmknKwAIGcasZPtnJHnn43hYBHOjDZZ4dQ4URyBepjyXtY6Nk55YAtN4ZQ77vDwqdgyyWjjZRWFEZVEdnIsgqc9e3UXV0y0n4iaTam2ghmvkOCzXJ4LUIDt5OJ3mc42FLUe/va1x5huWdPkRq/R6zn1CXN3XOm028EgYdKkxe3Ylf1noIwvdpIYshk6ndyogzQtLX5LGbrqr9mBWS0Ev4WD9z2vwILtrJm2yGAhzyU5CAAYD3F90tO5fA==|920

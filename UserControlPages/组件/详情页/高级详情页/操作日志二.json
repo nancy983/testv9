@@ -1,0 +1,206 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 150.0
+  },
+  "Values": {
+    "0,1": "操作人"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "操作日志表",
+        "RowCount": 2,
+        "ColumnCount": 5,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "订单表ID",
+          "MasterTable": "订单表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "样式3",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "1,0": {
+      "NameUsedInJavaScript": "操作类型",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "操作类型",
+        "GUID": "66b8a81c-3c7b-45e5-b7cd-e11093ffdd43"
+      }
+    },
+    "1,1": {
+      "NameUsedInJavaScript": "操作人",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "操作人",
+        "GUID": "34f8960f-6805-471f-87da-331d41cd6f6f",
+        "AttachType": {
+          "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+          "UserColumnAttachType": 1
+        }
+      }
+    },
+    "1,2": {
+      "NameUsedInJavaScript": "执行结果",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "执行结果",
+        "GUID": "567c1d1e-9708-4d1c-8c48-7cb3537e0c77"
+      }
+    },
+    "1,3": {
+      "NameUsedInJavaScript": "操作时间",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "操作时间",
+        "GUID": "5ebeff5b-602b-4ba1-a301-86c80aba3690"
+      }
+    },
+    "1,4": {
+      "NameUsedInJavaScript": "备注",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "备注",
+        "GUID": "0adb99b8-f23e-4765-91f5-f6b9dd16355a"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Bbu3oErGduV4jKfsAaoNV2QDy/JL1IwuhN3s/IGXEgv66KXLrPy4nfl0sb8oOLmxON4I7+GqPvid8h5NcWUlbk4yTK5s1yxy7u0tAsywq92FG8OLNXZbYpe3KqdDNarzfT/HfnnjAwqlU9mAwEqnNfM6kZiuL8wev0+iMGHTnRk6MlplS4WQYSCB403tSTUikzGq2ij2qryeGkVbNJT70K/1B4g3+6/FCzexEbtdJsE6H33NSb0cjC/msZTlYFR6N0XBVHjsljr/zerC6ALkvLUVPPh3L7Lru43zdw2dlvwSpF2VsHYxIAWmeJS8rCRESHqlSmKdMMH/MuiGYh8TEyR+8IOH8E6UpcB1B+6L/KcDyK138xgIAOPQEZQlacr6Oyru5rK8eIU/e5xnKTaDsKZd/Be2gDsq68vB2uUodMr8DiW0fwsVCKQt7jW3zg79WQCxe5bjyB2F4U1CBP+WQaOQCfTtsLQvWZzfD8LOgp9I1y/7vMgGPBuD4cZXuATfXTA1t+FMSEOOfrXURd02sOjC72el31R84FDvZk2mXYpsRBpYBvZa7otJoAFUzkU8YRpEbG28umkvE9Xgy6hie12eZBg26MdJISIZl4D0XUZ3fWZ8r1FQkgq3WGBHcokmG10ETVNu+2W7OMywdQpvkczctnaAnfjEtCGPF2TXps+KsaZKCeTHDTBvrjdsyvtj+Iy1oKVFE2iyam1uEDrIwK3SxeDHQJiECI1FGEKoghGoljgHESKs64Ghqo+iWREz/547aPKLE+hBr+m3MbQoxL6UJlUxOSr+yLJ81YbNSDCkhsR9SWtadlU9UidCbK8qna2dgVXwQzUxnIYSXpJeIruNJ4qpvzSUVj8lCxPvQtbKvGON4095oScLng4Rnazkg2qMsEbK3LGQHFWgIuxLBA==|920

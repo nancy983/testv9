@@ -1,0 +1,817 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0,
+          "IsHidden": true
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3,
+      4,
+      5
+    ],
+    "Count": 7,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 189.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 2.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 2.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 182.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 2.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 182.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 2.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 76.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 16,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "2,10": "重置",
+    "2,14": "展开"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-垂直",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "名称"
+          }
+        ]
+      }
+    },
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "选择器(对象数组)-垂直",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "订购负责人下拉框"
+          }
+        ]
+      }
+    },
+    "1,5": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "选择器(对象数组)-垂直",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "入库负责人"
+          }
+        ]
+      }
+    },
+    "1,7": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "复选框-垂直",
+        "PropertyValues": [
+          {
+            "Name": "默认值",
+            "Value": true
+          },
+          {
+            "Name": "字段",
+            "Value": "是否申请"
+          }
+        ]
+      }
+    },
+    "2,10": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "居中按钮组",
+        "CommandHandlers": [
+          {
+            "CommandName": "按钮1点击",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!B5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "GetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "开始日期"
+                  },
+                  "RetrunParamNames": {
+                    "Result": {
+                      "SerializeProperty": "入库开始日期"
+                    }
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!B5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "GetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "结束日期"
+                  },
+                  "RetrunParamNames": {
+                    "Result": {
+                      "SerializeProperty": "入库结束日期"
+                    }
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!F5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "GetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "开始日期"
+                  },
+                  "RetrunParamNames": {
+                    "Result": {
+                      "SerializeProperty": "订购开始日期"
+                    }
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!F5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "GetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "结束日期"
+                  },
+                  "RetrunParamNames": {
+                    "Result": {
+                      "SerializeProperty": "订购结束日期"
+                    }
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                  "TargetTableName": "徽标物品信息表",
+                  "SqlCondition": {
+                    "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                    "SubConditions": [
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "名称",
+                          "GUID": "9c08b95f-874b-4495-8f1c-19c1b4782974"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!B2"
+                        }
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "订购负责人",
+                          "GUID": "fae0bb1f-c2ee-4b59-829d-cfbe3d4547f8"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!D2"
+                        }
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "入库负责人",
+                          "GUID": "fbf0e27c-314c-4fe2-b7d9-ad47fcf7fd8e"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!F2"
+                        }
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "购买时是否需要提出申请",
+                          "GUID": "5cea2410-6e70-4924-949c-ba993767355c"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!H2"
+                        }
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 3,
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "入库日期",
+                          "GUID": "7def1872-2bd5-4600-84bb-937a3953d369"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!入库开始日期"
+                        }
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 5,
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "入库日期",
+                          "GUID": "82f2add8-8b3e-49d9-affa-443927d0e11b"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!入库结束日期"
+                        }
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 3,
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "订购日期",
+                          "GUID": "d31c4392-3e86-4be7-9bdf-f8637b9dcf2f"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!订购开始日期"
+                        }
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 5,
+                        "ColumnBindingInfo": {
+                          "TableName": "徽标物品信息表",
+                          "ColumnName": "订购日期",
+                          "GUID": "7df02685-5129-4d92-b7bb-8d1af8633fc0"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!订购结束日期"
+                        }
+                      }
+                    ]
+                  },
+                  "ID": "94d86f6f1dff44988d488faea1be29b6"
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "按钮2点击",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                  "PropertyItemsList": [
+                    {
+                      "TargetCells": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=列表高级检索!B2,列表高级检索!D2,列表高级检索!F2"
+                      }
+                    },
+                    {
+                      "TargetCells": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=列表高级检索!H2"
+                      },
+                      "Value": "1"
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!B5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "SetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "开始日期",
+                    "value": null
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!B5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "SetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "结束日期",
+                    "value": null
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!F5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "SetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "开始日期",
+                    "value": null
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=列表高级检索!F5"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "SetPropertyValue",
+                  "ParameterValues": {
+                    "propertyName": "结束日期",
+                    "value": null
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                  "TargetTableName": "徽标物品信息表",
+                  "ID": "496b72d6812a4c7cb8aa0ccfed769276"
+                }
+              ],
+              "ParamProperties": {}
+            }
+          }
+        ],
+        "PropertyValues": [
+          {
+            "Name": "按钮1文本",
+            "Value": "查询"
+          },
+          {
+            "Name": "按钮2文本",
+            "Value": "重置"
+          }
+        ]
+      }
+    },
+    "2,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=列表高级检索!O3"
+                      }
+                    ]
+                  },
+                  "value": "展开"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!4:6"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!O3"
+                        },
+                        "Value": "收起"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=列表高级检索!O3"
+                    },
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "set_RightIcon",
+                    "ParameterValues": {
+                      "value": {
+                        "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+                        "Name": "Arrow/289_up_arrow_2.svg",
+                        "BuiltIn": true,
+                        "Color": "Background 1",
+                        "UseCellTypeForeColor": true
+                      }
+                    }
+                  }
+                ],
+                "ID": "3aa92b98-12b4-4411-b7b7-0422ea5022ef"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!4:6"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=列表高级检索!O3"
+                        },
+                        "Value": "展开"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=列表高级检索!O3"
+                    },
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "set_RightIcon",
+                    "ParameterValues": {
+                      "value": {
+                        "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+                        "Name": "Arrow/290_down_arrow_2.svg",
+                        "BuiltIn": true,
+                        "Color": "Background 1",
+                        "UseCellTypeForeColor": true
+                      }
+                    }
+                  }
+                ],
+                "ID": "63bf9c25-7172-4568-8744-34e7efcfe65e"
+              }
+            ]
+          }
+        ],
+        "Text": "展开",
+        "TemplateKey": "无边框",
+        "RightIcon": {
+          "Name": "Arrow/290_down_arrow_2.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期范围-双框-垂直",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "入库日期"
+          }
+        ]
+      }
+    },
+    "4,5": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期范围-双框-垂直",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "订购日期"
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "4,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,2,1",
+    "1,3,2,1",
+    "1,5,2,1",
+    "1,7,2,1",
+    "2,10,1,3",
+    "4,1,2,3",
+    "4,5,2,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [
+      {
+        "Name": "查询"
+      }
+    ],
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "订购负责人数据源",
+        "TableValue": {
+          "TableName": "徽标物品信息表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "订购负责人",
+                "GUID": "ca08abe1-e38d-4fc3-8c52-52cecdcf17bb"
+              },
+              "ColumnName": "值"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "订购负责人",
+                "GUID": "5ef75f60-2a9d-427c-8b64-6449dc34f3b3"
+              },
+              "ColumnName": "显示文本"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "个数",
+                "GUID": "bbcb92ae-b3d4-495f-9112-4e1bafba7ebb"
+              },
+              "ColumnName": "个数"
+            }
+          ]
+        },
+        "ID": "feb4ca90fc05449298ab73ab8d39ee09"
+      },
+      {
+        "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+        "TargetPageElement": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=列表高级检索!D2"
+        },
+        "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+        "MethodName": "SetPropertyValue",
+        "ParameterValues": {
+          "propertyName": "数据源",
+          "value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=列表高级检索!订购负责人数据源"
+          }
+        }
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "入库负责人数据源",
+        "TableValue": {
+          "TableName": "徽标物品信息表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "入库负责人",
+                "GUID": "3cb1ed38-f3df-4681-aef7-08fee92bfabc"
+              },
+              "ColumnName": "值"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "入库负责人",
+                "GUID": "8d4709a8-b4db-47b8-9939-50a5e8ebff45"
+              },
+              "ColumnName": "显示文本"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "个数",
+                "GUID": "8e50b0e5-87ce-48ef-9958-9c3ee57d0084"
+              },
+              "ColumnName": "个数"
+            }
+          ]
+        },
+        "ID": "e5eb45cc0eda4ae2b8370d5fa2a9318f"
+      },
+      {
+        "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+        "TargetPageElement": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=列表高级检索!F2"
+        },
+        "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+        "MethodName": "SetPropertyValue",
+        "ParameterValues": {
+          "propertyName": "数据源",
+          "value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=列表高级检索!入库负责人数据源"
+          }
+        }
+      }
+    ]
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//uDdW4hfJ/xzawujJPr8r4nA7viTFC3aT90LC46oBZiLC2pkW+GHsvZXFPDyOCtUwges3WwuDes2zUbQx762TVN7sGh1bx0/MYSLnhqsmHJp61SKNZVd1otkDwfRiubpOcT1wx6hPDdZAfLsUUUCSMHswjDbOqMm0VyWNPmWLtoVv1LRfSPrBV8gVe9CB8D7/oma9U0685axQcdfgNC/9XF3vmuFVcgd8fz4FGi/YxrwGb2Da5yMBHOZoum72dUo+sEUVTx/nByTCmDLMcX4xtzWYO8d4wN8b/caMKN8q5BgQxydWYd6odCl4t2Cdai6bXXJybfLL8c1xwYrOvsWmTK++hBbLvY9u86wY4rqnSbVypsJ8kbgcFgoBi+FycEpHHGKiPZIHR0cTYSs9e11kRXY1LKvaVZnLkbxyqBJNR0cCAWMLkw0xZSwTBczsf9i6+WXpd2igecsuqRk5mEWZSeUeW7uCHZl8hWvni9vl2Rf/21QJjscEvjMJP0apV/UdX1EXn8nnai9tgEVYxhoXzpiDUNCuAWbplAoLUBsqM1kH9DI02wu+HMkxaz1fKV8q3n+aRkvnXJkrdnKFdSEPPgodG7cxIBT0rcH0F2iVgjHoV5b7/OIxeLbwcEe+jWmmFKMcp1luYQzELwCDaqyLll73T6q0QYvDMVwQYBASCa1FQgewpwuV2sHLCQzqvDAI8tW+MOceCpgpHw48GHbdlB0zbI7Yk9jYq4G7r3XokDNz+DcQK2UHUsfUhicjBRNpJA1YB060gKQ2bORZXGvarggOY/zg9GrQlE+nKzW4pEUPaNmjiRNb+CaAPUSDP9c7gR3TurXPC+9oSD2B1jRr4FWY7Et5qAMAmCLzQ1Kq4oOOspC4KgaSURPpIviLev5ye1ZlDBEaV+gYDEuoYnX+oQ==|920

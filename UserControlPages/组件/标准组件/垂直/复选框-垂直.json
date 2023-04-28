@@ -1,0 +1,111 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 144.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 144.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "",
+        "Style": 2
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      },
+      {
+        "Name": "默认值",
+        "PropertyType": 4,
+        "DefaultValue": true
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='复选框-垂直'!A2"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='复选框-垂直'!默认值"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Dg4ohWu6q8BtiSHquSF7/gE0r6UK6mSTjSKL4k+WERpsDRun9Phb3Rg4M4jJC0yFAorugrJjGOUaCP+BxMO1veG8BTfHK5zjjRuoHruyShQgRbomP0JR8j4hnfzmrbrOzP2YrVfVP1bLkjAr95d9wVdPmbHKaxcO1KH/+dgknZtoe19OCY5uGASyhuCHDLmUr5ejKJ2lDBy/N1O/faFnISRSYRYnutCiR5V8gZE2/ITbyZvTNx2aS8aZuYVumq3EYMzEWk22lTpTdifK4AnC/X4j30Ich5gBrZC2iZ7n/x7TLeyZlDjE97YlVjaDMDCzST8OXF+yVYtL/jAf6bs2feFWeIy4bYFQxtMZ/Kgef1BDUCjgXDYXfHiLb1GFOyRbI28PuvpdnVmTLV8PkoHqobA8yKRnbNwdXqC8oS1hIr6lz5NT8DJTnz3oWv9q4Opr39kRfwltu9Zz03CSuZkShoOFlHw8l2HUF9RsRxyS5wf35WzkyYvty/YVUeLcW3OkmJbpc9EXYnRJCZXXALUp06NhXu5LhMNDLYtsFNbpbDxVK14A6h2/saIv5+PTQnJ4qbWGdLB+AkAsUa24v7JBYD4uorewxff2+VFdSmaSQMdFKCA6a9s0KUbO1jIDpktkprPwYp4QuOcFQrFKPtUjgVL9+IZKf1TNpTx4IB8NrYC1nYsuLBhWp/todPvq5shXs0gy67GV8Dd55K6BbDC6IGfgiWM+EtKIq5MdpaPt18Y717gI/QqQWW/H5Qx+MZRJHzVn0K4FZC5p5F/mmhxeLuZN7+qY4Gf4VfjgzB1S+RxPkSxxVeTA4oKTp1VJuxgu8u1+//IOdpH6tsPOBY4xW5ocPkVPHnpJZVwpk5oL5WsyO2jKF+eP1FkAT2pN1jEM51ENWXr+lQVBaefV5WxnDw==|920

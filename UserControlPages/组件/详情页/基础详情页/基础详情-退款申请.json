@@ -1,0 +1,332 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      8,
+      9,
+      10
+    ],
+    "Count": 11,
+    "DefaultSize": 100.0
+  },
+  "Values": {
+    "0,0": "退款申请"
+  },
+  "Formulas": {
+    "3,3": "VLOOKUP(A4,I5:K5,2,1)"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "二级标题"
+      }
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "下分割线"
+      }
+    },
+    "3,0": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "取货单号",
+        "GUID": "07915750-a3b8-4aa8-922b-6399ad7fdc43"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "取货单号："
+          }
+        ]
+      }
+    },
+    "3,3": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "状态："
+          }
+        ]
+      }
+    },
+    "3,6": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "销售单号",
+        "GUID": "cb2c8ae2-187e-4fbd-8583-34d49629b260"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "销售单号："
+          }
+        ]
+      }
+    },
+    "3,8": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "取货单表",
+        "RowIndex": 3,
+        "ColumnIndex": 8,
+        "RowCount": 3,
+        "ColumnCount": 3,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "4,8": {
+      "BindingInfo": {
+        "TableName": "取货单表",
+        "ColumnName": "单号",
+        "GUID": "af649903-1ba1-4096-aa02-0624ac648202"
+      }
+    },
+    "4,9": {
+      "BindingInfo": {
+        "TableName": "取货单表",
+        "ColumnName": "状态",
+        "GUID": "59da84e6-96b5-4c84-bbef-66aacb9408ae"
+      }
+    },
+    "5,0": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "子订单",
+        "GUID": "0fa3b669-0108-40d8-8d66-091798ca7714"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "子订单："
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "1,0": 0,
+      "2,0": 0,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "4,8": 1,
+      "4,9": 1,
+      "4,10": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,8",
+    "1,0,1,8",
+    "3,0,1,2",
+    "3,3,1,2",
+    "3,6,1,2",
+    "4,9,1,2",
+    "5,0,1,2",
+    "5,8,1,3",
+    "3,9,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "RelatedDataTableName": "退款申请表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//wMAsuh4GM6S9QM/qi4mcXanaGVcLja7aSyAR/qnCfYkXR0BFTe/pKJiiRCCSXGxWLQpY93bIZWK+s0GNuDxsbb7mn2WQ6lkwvJgHpuPY55WuXM2bl5NUcwhnzcwdT+EpicWC4HxB5fhUU9kK7/u3Z3bErMLZAPKvB64cC8Gpl+O21A9/GXsdcuFqPFAiX3BBouur+VXQilsz5NT0VByNNlIk88fl8MYfCqTtoxTylIM8D0HWeTvmjwsbeHDLdDgkjaHsZIyHpn6FO3mrz/9h93LaGMMZRd+ASlIE0bv4ZRk8A37lD3o/nTysAoECetxB5hcvsGSTajIo25glpywVN2uvKAmmwduBlEGXR2ruS7FK/AYQhCXsXsVLfkNn0lIpt5RPHUlB4M+Bx59M/aYi+CQFmPY7hKP7ChNMt7yUUShkFE6JQTzziVYt01mgLQ2YL8iMEmNQgEaeYWHG2HDCtFYjMHqAMkJH8CNsMZs3MEHRybUQqKKuQcn1L68Nrqsg2tt7h3NdbMlK0UmgGBwGCruwSnd/4C7Q63J5g7q968nWA9ZuBGcTjkM1KU6g4WNu+IFoGkh6RFUynUZjOa2jFxYYU22YA3mKbkOqxG7lYs1MCp4mrIurG7GNI6ZBjHG+HvEXbT+/8iZRj2Sll1WSxzOI/VxJnrFb+MB+q6RAD5O3OCvSkcJgo+F5+nZ97z32eaXNyylmnAZM8uXtwoBXtOUZBUvb5qCz12RasiSkpWRvHeH0WA3qY6fkkqjviV77OxxGqt8VbHpTQ4uV9+m3XyTc33fm/Tt7nFEHqj9uH2TmEit5Vrz2J3r4b9IlJKdfe3LDCqyXhSkHCh6mXO1mDUh2aswCL2rsbl1aOFGn8O7FHgTyWHgJEBO7ii1MFhFarnqkzXopcuvoyTsbzQEPaA==|920

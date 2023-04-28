@@ -1,0 +1,155 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "18": {
+        "GridRowColumnDefinition": {
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "InVisibleIndexes": [
+      18
+    ],
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 61
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "头部"
+      }
+    },
+    "8,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "卡片图文列表"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "8,0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,8,61",
+    "8,0,27,61"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "默认菜单导航-PC-1360_768",
+    "PageOverflowMode": 2,
+    "PageLoadedCommandList": [
+      {
+        "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "46b8738b-1c7b-4cd5-9748-1b562b91d34b",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,0",
+      "Size": "1136,680"
+    },
+    {
+      "Name": "a3291bfe-9a0b-463e-8620-d8c9d3f3fb08",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1208,161"
+    },
+    {
+      "Name": "5c70dbc0-95e0-4b90-b7a5-05dd1048aec2",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1189,160"
+    }
+  ]
+}//P38kFEgWoGj5+IqEW3K3KzipMlYyvQYhktqZWzP3Y9Ds84R7h1DUjjK8in8NYMJNl8NTNWBkHICWd5PZCMo/iXIeuwT0fDSssGlLu7vPbJrr7QLqXogPx2xGnMZHulWPRCXQqa0uTlyj9woUDlN8TKr6kpN6WBQlZXhNz4StPezpIHJmzMsgAWlG433o1TDWdnwBJBFQqTyGXu5aNCYPntOeSNPbxaTMws8int1opyHWimV1Icorg9QX07z2SsGlDwLHLy/rhEvGBBkjBdOZOloEP5bK4DBHjs7SoiW+aYKmHsym0z74YbXHVUDnb+DFE3DfmVqlrh2y530j7+wMSRb0l39wmD8BciBiz+jL4+U+YcfHYlAxI+nlKHLJ++n+u9gu0H8mdGrF/Nac/GHZVEi5d6vjOgl8kq9hniMizDYcNRTdfi/0Va1Npl3CTHefYhhuH9p65sqAr4DGB3aYrBorUL3uqfNZbpleKV1js5avz+8lQ1obBZITrWigb/VZnewMxFY+fYxCgYfds6fkLkM5mUxTA0GOjOg1t7b8jqlsph26Kq8OxA5U+33oY3xEnokk4T8SWVPk/DDX0EUkCV+lmWIoDVSz0y9gHqU1obbVe267cXa/xQ+bWNkgC6xaZ2t8wsyTn2eblCV2uiEKZtYT05vgxkb9+NwJIgF+9sYST5LBcUc9D3E+E2avkKgwxJO5BgnVCjNXU5M7cmJnKkW1Gij3W8rpiQjlVPgVHR7josdlBRgfEh2yd8PSzihDiifSl/GkPh3A+/lDGDEqcc/FWJJK3qxeAQJtrswnwNTglSEfPl3+38G7+VBWj+nnuHLhhWiHBnrFOLNWxSMz0ZYScxtP1TzRsmTyNcmLnETlfUKHjNESuzEZZSjMHon+AITONOj/kJYH0vrCKWh18Q==|920

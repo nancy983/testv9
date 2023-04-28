@@ -1,0 +1,103 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 100.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "0,1": {
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "VerticalAlignment": 0,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Top",
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,1,2,1"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//k2Mk4250HAZOjnM979iCyuYU6PLIZI+e+Sftz2BIZ5YuJgmKESV5z951TqAanfrak4VfQCj+/phQb4wo3HdB5IjKO0NRPd/eeZffjgMKzqw3nq0s4MdyZ0f7z8s4okZYc0IA3bkzAASqi5bWo93Th9XvX34RyhnLNFnxqc5vEM3uytB1KNQzT8FTG5qD67snfflFM5nsWPlz6viUh9717YGQK7zxqLfilhFnXzzVZrIw/8erT5qg4mew51ZaGdL14h3Y0qQG/qOTrEaG9J9ANE1lXWrzvjSOJ607MndBBOpTH3PAsvONr6TxZUw4AnydsFJKdW0+W24QhNFd/OHkGksRit1jKKs1Ydg6L8hI5mmxQ1XWK9br9zzmvzKpFSCdEh+vMrfUzajrbWI9zU7YDcd3PYI7Wt3U8+B7uW8cBcPdnwj0m+F3Z1wUuu3WGzSE11W1CRgN0WNfJL+NuyckSh5GAb56gBGCxCl7UY/0L4Lb0cUtmGvYTlTl45TQt06bYnUwzkpHfPUCN9l2hxXTko5Zn5lENstah3/IMOAUndJfZIOk1uwlSRd954xj/dQOoiFRVZyXbJFb+lxtEnL5j9FUDq+2olIrsozEf6qPfYjXxNB4lGAPLOfV1l7nQ94AglKiMKRlWvXF+6JN3yWWYOctwXVfhCngPaGIFQYTWemxdP15lYaZQ2V34oIhouaGRT92mkMHfhtAYCziAHIWgrVZbGnxggA6/qKwJKEd63oNgPpm6cYcEf5cbTr7WgmnXthD5MROpCs0DB66GrYjf2fecRbJ04A2kb3FTtiEWWueF6uWN7aCJFWqFKirHSvirI7DITYWmJ5ziE0mG9mhXmS/MmcIYQEeZ903mW6YxYJjjlCc8hkM2G+SHqYYQdYkbETzit77cRykW81wTQwSjw==|920

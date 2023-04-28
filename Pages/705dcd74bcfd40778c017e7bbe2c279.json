@@ -1,0 +1,245 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 100.0
+  },
+  "AttachInfos": {
+    "1,0": {
+      "TemplateCellSource": "组名称"
+    },
+    "3,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "负责人："
+          }
+        ]
+      },
+      "TemplateCellSource": "负责人"
+    },
+    "3,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "角色码："
+          }
+        ]
+      },
+      "TemplateCellSource": "角色码"
+    },
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "所属部门："
+          }
+        ]
+      },
+      "TemplateCellSource": "所属部门"
+    },
+    "5,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期-水平-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "过期时间："
+          }
+        ]
+      },
+      "TemplateCellSource": "过期时间"
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "描述："
+          }
+        ]
+      },
+      "TemplateCellSource": "描述"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body",
+        "#FFF0F2F5"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "3,2": 1,
+      "3,4": 1,
+      "5,0": 1,
+      "5,2": 1,
+      "6,0": 2,
+      "6,1": 2,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,0,1,6",
+    "3,0,1,2",
+    "3,2,1,2",
+    "3,4,1,2",
+    "5,0,1,2",
+    "5,2,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "多层级用户信息"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//hcopWV0Rzi9cUxeqUBcmRbHa2vXniUdqNg7x66q7h9gxtqKlqKfMkJOQRqBYTqr1iJyGLasZBsXdKz04Q9Z16y+JXN4OwCCp/wk3cTbvGAb9NjLz8Wg2wwkvrOwqQVsGSyQD6Mv9fdEBt4XwEEddthihLUd17MgWbuzLmuE8JH5ECgRtUv3rIBtbzv7S26emWWmoIEqB0SUDdkiPeu3FvdPf4K/M5a/+oRenZQgVZhzT+MBqfDGLP6uMNjv8S7ci6pCy6acdtFyjZsv8Qb/hZIUr4OZFadTJRr6suvYrMAld81g5T58uyIit86GD9yLWbFUo2GuMmsehlReJwoTK2BR69CHRIYNx9DGTyWZmdWM1Fbj2pPq3wDeQT/zU5cnc0OU9VGawQcj0ksriWlb9jM/jkBV5iulzP0o/QuFvIQbxYNAk/4wKQHzZMUDrfZ+VmUi53phBoH0FENTKu6lOuUU269af9vG6RPCIQCej44Rl3ahY2NWYCfjc2cR4xhtbpGn8zOD+/KgRa2Z+CK2Fqf3VqJJb4/gz6iXr0Ge578DERs4fCqwZ4EfskQAbB5g+d46wn1AKGrSNfGULBhv1+ZwcM37FUX1Twu2DssumoUm4yT1bATM8Mudg0TtVz/+SzBMSkTh1Vn5SOf0C7Texbc5GfK8Cd2MJ3RC+T4UU0wa0OdK77/EUygBmNoXCwrdEUcDxAOonIctRnarwD25jk9s/PJReLnvyfXO+KeBalTnrNRG6Dm2DC3FOo2I4Gzxh+P/BP7YjQ7xus10U8bEO1XzgdmrCvPSxEAbLvuXT26cvINT+UTqwwfnVE4zqvoqO6DmHjX0FRWZnoOm4bFrk2eYRe3ZHNd5c2H7lrygD978XyhnKTA9yz84qJmL81yONomdpINSBISGFsQfXPGPY6Q==|920

@@ -1,0 +1,124 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 50.0
+  },
+  "Values": {
+    "0,1": "Forguncy Pro",
+    "1,0": "© 2022 葡萄城软件有限公司出品"
+  },
+  "AttachInfos": {
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "无边框",
+        "Icon": {
+          "Name": "活字格_64.png"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,2": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "HorizontalAlignment": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,0,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//fVvNThNrYsw5kvbKA7juCsPQDT0HJtED9uIepVOkpAKhsrMZ1h+0DPF/TDl069qjQY1hsd12Kx2hXEZey9+jH7rgGH9o9xxA0Hh4OXnTunQ9AbhcudZ7KeTnAh2+2P9R+rgjO5M6u9Q1b+gknkaOI8TkuFyFxjJrlXdGCU+iuC9+ywd46KLU78W9UgqgWbsSe7kxU4pjThyuia6KFkUpBBW3l34eDAUvtXrMNaOLGowbWOrlUeu6j21FnqvhfdA5odqNLg62rodGAVnuL3VFSyELPP0YcJvKR3Y/PPLYL56LxhF7iiynPJAGcvqzeT4ja9s8Y1/JupDZnAxw4tGVf2vIn9C3VcOx3g79pug9oj+uYEHclOt60izihyZEdurYm3X/523GI0/eLdtbrOZkuXKk7H6RIsi41NNErHivd6hmcMgbR2H/TKCwMxtX6qWO/+h7aof6IM/dRUrN4bzlq24TV16Gs0gNJ6u7eDjSzx2Yrmxpga4huNP3Fqi/JjXnpzCTcLhimvPjZ1k9YshUe1DvM+J4Z1ZoliqDXY+w6g7Ep6PuA4NayeTp2wSX2+21yUx1z9HetRL5WvklNr8+p0a/ikC5IoX+VM5NvoOUDGvlG2DoaZxsWWuCmmgfIjRTrNlB6srsDon9dnU+MlEZnOBVK1JLsdZK2xeKX+R7aMoRDybnBd1MTHCqzAq7uel8WSsOAf245Ua7b35RgIlWNjN+uL78JRP9ldrRyC4IUFjd7T9/Ye+6hKr7S8DT+hL7g8kpLmEKRfe/KPHSXfAJT60eSnh5IJT04KAVv9QeuFUpcmFQ0O0QANjqB9M7IRBUG3TTqyIaWZrqQRjn+JC1+fWeqfdNLRPISvUGlad1bPEHhKJtyLlWJ0wbE5y3GiFSd6PPNAz8x7JPvDRqKrsTRQ==|920

@@ -1,0 +1,349 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      5,
+      6,
+      7
+    ],
+    "Count": 8,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 80.0
+  },
+  "Values": {
+    "0,0": "退货进度",
+    "3,0": "时间",
+    "3,1": "当前进度",
+    "3,2": "状态",
+    "3,3": "操作员ID",
+    "3,4": "耗时"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "二级标题"
+      }
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "下分割线"
+      }
+    },
+    "4,0": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "e28e90a0c47642a4aa86703fc0ae804",
+        "ListviewName": "表格1",
+        "TemplateKey": "hover变灰"
+      }
+    },
+    "5,0": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "退货进度表",
+        "RowIndex": 5,
+        "RowCount": 2,
+        "ColumnCount": 5,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "退货进度表",
+            "ColumnName": "退货申请表ID",
+            "GUID": "69ac38b1-8670-4081-bff0-c92331ad7f91"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='基础详情-退货进度'!A8"
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "样式2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,0": {
+      "NameUsedInJavaScript": "时间",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "时间",
+        "GUID": "e6ff43a4-4e10-4f61-ab74-6c9eb81cdfaa"
+      }
+    },
+    "6,1": {
+      "NameUsedInJavaScript": "当前进度",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "当前进度",
+        "GUID": "902cb672-ce8f-497a-a976-9e84483a836e"
+      }
+    },
+    "6,2": {
+      "NameUsedInJavaScript": "状态",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "状态",
+        "GUID": "4759545f-1b63-4c7f-bcd7-8843b04c5c8e"
+      }
+    },
+    "6,3": {
+      "NameUsedInJavaScript": "操作员ID",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "操作员ID",
+        "GUID": "e5301e62-2190-4523-bb2e-5f1d88a832c0"
+      }
+    },
+    "6,4": {
+      "NameUsedInJavaScript": "耗时",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "耗时",
+        "GUID": "c0ffe632-35a3-4055-9488-47424d8dd1b9"
+      }
+    },
+    "7,0": {
+      "TemplateCellSource": "退货申请表ID"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 0,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFFAFAFA",
+        "Text 1 50",
+        "Center",
+        "Left",
+        "Background 1 0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "4,0": 1,
+      "5,0": 2,
+      "5,1": 2,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2
+    },
+    "RowStyles": {
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 5,
+      "7": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 5,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,5",
+    "1,0,1,5",
+    "4,0,1,5",
+    "7,0,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "退货申请表ID"
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//SyKo2MlA2b3TN05tOiauO2Cm+s9jzfHxMdDx4SmHbQLVhSAk0TkMJIKn2fTjQpbGV7Q5ZiX2MC/Qt+tBuZZc6nRODhoHDtNyd92MbJYuzYGW9pnxoyuQCuJHPaiTrti7fw4Qbat1QEcA7cLTtq5K2nB7cCrYGPp6lOEpinY/Nanj16HgwrcP7EF0PpIRGDdiluv585MY+6mBR0Lf5X0ZbL/ar3QYjV1zjuNEx1C3rNLfLfX5sxMmxxytBViA/GKc5z4hMb0z6uR9xB/lFoZK+9Q5aWZ7Py4NqWbWgefeq7Vcv2kEB5lzLqI4wqxHeSkg4dOfMs/lWlS9jzPz1Ui+0sq8Z2pFSRU/a6DyEPnGxOC+2ZTg4LXIjCVeXRLZ3RDZq0i1wzJlQfuCkLw8qQ0wqSkr5AH+lbhAg6VQdRm9oHFZuoK0xUSuqEhssXI/jNSoXpI85asN8bWQpmi9SX04tZw60PpZVNJR8JilpmwdyfyV9kKUCyAW7qP1+LI6uuJ31aIDmrb4aeLRPgX3Y2jG30RTiKb2aC+mdqSU3b6T/3LrOy66EoxxFx8Cowe3gKoaae9wWUsSfPVGAsiQSeGkG+fCDqTGVIuT5xATeHcQl2Pp0OQQpAr/XI39rou+drfnabdeDGc8rC/Rc/DeSsCOXfYr0sA2nJue9iZp/EtW4n59i3kC0bAaemFZuO2F4O0sikniaofNrtF88D6GC3RkHhLjq94Uog+2L1uWkQkbaRJkQZRDcS/Gr94ZGJ1XsRGEK0wRXuhDL3rtwPeqYcZWIpA011Y31nCXtA1DX551scGbLSQRHnVD7Em9S7f8ZNDKae3c9fO9Jubro59PXkAr3uwjtEgP+ZnsZ2Yy4Io046tZXtgunAMkJzWZqCAAvFl+ryaoBvVssTIxPFb13AMrUw==|920

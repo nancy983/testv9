@@ -1,0 +1,382 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 118.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 117.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 126.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 126.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 126.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 126.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 56.0,
+          "IsHidden": true
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 56.0,
+          "IsHidden": true
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 56.0,
+          "IsHidden": true
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 56.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "Count": 11,
+    "DefaultSize": 126.0
+  },
+  "Values": {
+    "1,5": "···"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "一级标题"
+      },
+      "TemplateCellSource": "标题"
+    },
+    "1,5": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+            "Title": "标题",
+            "Message": "正文内容",
+            "Type": "none",
+            "ConfirmButtonText": "确定",
+            "CancelButtonText": "取消",
+            "AdvancedSettings": {}
+          }
+        ],
+        "Text": "···",
+        "ClickMode": 1
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_列表卡片标题-Mobile"
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "91f2616ed9904150935fffbf971b958",
+        "ListviewName": "表格1",
+        "TemplateKey": "双列默认"
+      }
+    },
+    "5,7": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "产品信息",
+        "RowIndex": 5,
+        "ColumnIndex": 7,
+        "RowCount": 4,
+        "ColumnCount": 4,
+        "TopCondition": null,
+        "ListViewStyleName": "基础-无操作",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,7": {
+      "NameUsedInJavaScript": "产品大类",
+      "BindingInfo": {
+        "TableName": "产品信息",
+        "ColumnName": "产品类别ID",
+        "GUID": "dfcf20ac-60ac-43f7-8d69-d9794f021797",
+        "RelationBinding": {
+          "RelatedTable": "产品类别",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "产品大类ID",
+          "NextRelationBinding": {
+            "RelatedTable": "产品大类",
+            "RelatedColumn": "ID",
+            "DisplayColumn": "产品大类"
+          }
+        }
+      }
+    },
+    "6,8": {
+      "NameUsedInJavaScript": "产品类别",
+      "BindingInfo": {
+        "TableName": "产品信息",
+        "ColumnName": "产品类别ID",
+        "GUID": "6c3dca86-e373-4543-872e-32fbbeb00486",
+        "RelationBinding": {
+          "RelatedTable": "产品类别",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "产品类别"
+        }
+      }
+    },
+    "6,9": {
+      "NameUsedInJavaScript": "产品名称",
+      "BindingInfo": {
+        "TableName": "产品信息",
+        "ColumnName": "产品名称",
+        "GUID": "97237fcf-f201-4fb0-bc46-cb9614d6b0e2"
+      }
+    },
+    "6,10": {
+      "NameUsedInJavaScript": "产品零售单价",
+      "BindingInfo": {
+        "TableName": "产品信息",
+        "ColumnName": "产品零售单价",
+        "GUID": "2758b553-f19f-4017-bc85-bb9b36e52524"
+      }
+    },
+    "7,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Pagination, Vant",
+        "ListviewName": "表格1",
+        "mode": "multi",
+        "itemsPerPage": 5,
+        "prevText": "上一页",
+        "nextText": "下一页"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF000000",
+        "Center",
+        "#FFF0F2F5",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "5,1": 2,
+      "5,7": 3,
+      "5,8": 3,
+      "5,9": 3,
+      "5,10": 3,
+      "6,7": 4,
+      "6,8": 4,
+      "6,9": 4,
+      "6,10": 4,
+      "7,1": 2,
+      "8,7": 3,
+      "8,8": 3,
+      "8,9": 3,
+      "8,10": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,4",
+    "2,1,1,4",
+    "4,1,1,5",
+    "5,1,2,5",
+    "7,1,1,5",
+    "7,7,2,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "标题"
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//juGGp5wI3hGWYvna2/LjO328feBmkqk8olL9aIm/TQTRTWSGICxUL5Vx5LbAfl1WDswNEl0DBh1lPMTWR4FPUMF4rT6dAX3p0B3uX8FvM3a/pfPgtBuXFrKRfRXoWgJ9THbGM1sf6mb8ogjDQ7pf7mMGMJa/7GsUu4LMqke1pthSkog4xrnsINu4NWlavMdEkvDfYtNjBJQj3xQCqg3pyMBBCA+d1SrNbJvTjbs+VAaEjH4zhanVuTGNvep6WGfFZt4hCXqiPJRe7voLkgJGD9qHK3I6xczlgtr9Xhgw7r9auEZQIgWQXhNKqdHRIiAgiARrJnB5BgVl7KMEFIevnMOfG1kYL1kE54tGjURLKO6aof1Jc174A8mzOpLVO2LKG5iuLVv4/fBo/q3bZzROWyLDHoHtQltXA7/nE4lE1lKKKZppq3cEL7KhleX3ww/TDddyqnSNdbxc9L9eNSQ8+2JcoA2UP51D3z2g4IB1iGwC09ix8PbDLXK75RiYkW5kSEM03taX1/fsVolKMnTguLk0rWAlFeWd0cAf6rJoF2qPqFckvEd4zMSPGwsKf4YYRvZWZer3Y/+Rro+swCIiIEhZXpaOCpbXPEINzjfT3hOHPn7C5vEu+9Kz+GWl7d41RTHxF3q5qCZ5V0kop7qEND7/2w3yZJ9l9FP8ZXcclNFtNjxHNlwdpibEk+nj/DEtn0CuYbjggZtboQ8tRb8xpY7QLjEhxtGorLWDyyn2NnZRcJ+AmhlGOf/EcQd98mHcsFxD9yepPn1h3kh6qmYVTuKwKFNpX6e04vYDB/HIwhatHg3pWqvcl2FgdwAv5iZj/3SbV+CDBVmvWNJ7QzS81GJyd+ItPG7c90vlvV3Z9RrgU6oF3YYqHG1swfMUNQgeQY/ziloNlRgIsagI2mxGwA==|920

@@ -1,0 +1,293 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 14,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "1,1": "用户信息"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "二级标题"
+      }
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "下分割线"
+      }
+    },
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "基础详情用户信息ID",
+        "GUID": "9951d680-9158-4983-9521-a9fe25fb45c3",
+        "RelationBinding": {
+          "RelatedTable": "基础详情用户信息表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "用户姓名"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "用户姓名："
+          }
+        ]
+      }
+    },
+    "6,1": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "基础详情用户信息ID",
+        "GUID": "5c7c799d-63fd-4622-8f79-2403688520db",
+        "RelationBinding": {
+          "RelatedTable": "基础详情用户信息表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "联系电话"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "联系电话："
+          }
+        ]
+      }
+    },
+    "8,1": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "基础详情用户信息ID",
+        "GUID": "9f3633bd-8987-4880-83a1-1044a813a7ff",
+        "RelationBinding": {
+          "RelatedTable": "基础详情用户信息表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "常用快递"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "常用快递："
+          }
+        ]
+      }
+    },
+    "10,1": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "基础详情用户信息ID",
+        "GUID": "cf47e0ab-2350-45b8-ae81-f5fad4d2a100",
+        "RelationBinding": {
+          "RelatedTable": "基础详情用户信息表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "取货地址"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "取货地址："
+          }
+        ]
+      }
+    },
+    "12,1": {
+      "BindingInfo": {
+        "TableName": "退款申请表",
+        "ColumnName": "基础详情用户信息ID",
+        "GUID": "54bb839a-7252-49e9-9f41-eef59fd79541",
+        "RelationBinding": {
+          "RelatedTable": "基础详情用户信息表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "备注"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "备注："
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,3": 0,
+      "3,3": 0,
+      "6,1": 0,
+      "8,1": 0,
+      "10,1": 0,
+      "12,1": 0,
+      "13,1": 0,
+      "13,2": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,2",
+    "2,1,1,2",
+    "2,3,2,1",
+    "4,1,1,2",
+    "6,1,1,2",
+    "8,1,1,2",
+    "10,1,1,2",
+    "12,1,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "RelatedDataTableName": "退款申请表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//NsmLO2FSV9PUKWU1NHotCtmlrCWlGdUCYFITS9UczwxQnhw50IPm/uQ/vV3kx6H3udp/YwCPNFRtcpCds6RlJjXg3XJiebHtRp6oCGMcANt5g4xBRbXrVuE54pruB0GROCpF+VlrNHu8L0alH9ffJz+PCSDb4Yucdu6bd02aBNaQv5B9vK59nOJTMicKHWM7cicMpp3JdLm3ikd0RshU7rJASILYYfcN22mAByanZvKdR7VHsy/NBfdYKu50nd64D7bsUU2trVkrJ80a13NIaCZA/1tVlAQIp+Jo3obhnDeDYfzbtHJtgP35PBT1YQKq0e6+1KaKD/J3p4Fwbr2UAXjh9WjlYSFe1dnQNNWWKxH0+4IUdYloK18vpJ7BPaIMIvGUCSHunl8QNaWfQJO2IwBRAzhDIMOOy1dJMSYAntBgKIXua8DzkaPvCEq72CfMgiE+e741PtAnAGaXPVDWHwQjJrH4YlcJsIGV9i5Q5TVC+YPGr7prbCVrXk/p5UMkOYscJWSV2e37XEjc1O1wTalvaTHZIoK+wPCUZuqczsNyu3Bayz2ZzktJ6Fg+PYoz2PJvX7YahjLk9hnEvRkAumB36q+LUpWgg2LtTAt702qHRxvYyAZhu6uz9gx/IOS+QCO6pd2CcRBzfaPXRgculvEkz7aK1LO+0FfK2rHPdYBD9VDt52yAdTcQiJDFw8X+VVInXG/ZKnOSL1E+HcgTzrhm1LE57K93TT3vQLHDk1odIXI/IBi6l/53cNpvrMoGuBwdSTiatcH61bGa21GS14pv+spnwxd+j2oR+B3pxDtlCFx/SZzh9YFAGu6WYVC64LzRiURZRg48aMHrza83cBU3hFTDf9Od6yjeRPYcuJxaMutFi02bWlg5WZwg6r7YyIkCS7XTrePoI+q/9IGXaw==|920

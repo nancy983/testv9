@@ -1,0 +1,159 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 196.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "ItemSpace": 15,
+        "Items": [
+          {
+            "Value": "选项一",
+            "DisplayValue": "选项一"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "选择"
+          }
+        ]
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0,
+      "1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      },
+      {
+        "Name": "数据源"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "选择"
+      }
+    ],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "='单选按钮-垂直'!属性名"
+                    }
+                  ]
+                },
+                "value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=\"数据源\""
+                }
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='单选按钮-垂直'!A2"
+                  },
+                  "TargetType": "Forguncy.RadioGroupCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "SetItemsByStringArray",
+                  "ParameterValues": {
+                    "dataSource": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='单选按钮-垂直'!数据源"
+                    }
+                  }
+                }
+              ],
+              "ID": "9424b580-10b7-4e7c-9fb0-7b83dac69427"
+            }
+          ]
+        }
+      ],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//bM3xJgpv5J9jApQ8LLvsA5L9RFakybLHRW2gwNAUEy/OFeW7BYZtHac8Gaz/5stFaXYD47jGTuoNoyvbfzwGzpArXURFRfx2ppgGaLsIMKCapJLQlWnlFTpPEY4CAehuC4zfh5Tpg6kOcwx/+732XGZlaxOPvAgcbiV5MH1cLgjOLn+dCByOnOflQAUysrJe6CdqYbx8TS3CGmQzEqWtbNf6QFEg83J/KdfvU3+vl/ymTHdv4O53jh9a3urRzErItBGxJHFPJNjKeGyenyo3WAB+WiIVv127+g9l+p8kyGAEKUL5w1kXbPEZtDY9LGJTqgmfY2iwOlpigbY0UpY0UDljH9k7eCAjmSXCEYToeEXzmGGERKBZdlxPTatLJWigyTd9WPVdogFVRLlFGWmWuROIjpe/uUkNiMLLkGpfr/rPRkOUpIXVzpraz18u4SzKnCgp00tQY/ILEtFI3rE6IbouHumffHBCOIeMGHBhGDxdWUv3qP3rGtqEM39hY7pRDT9YD0q+9ILYaR3ix9lUaBdEKPMroW+IgXJ1jMnGbgCJd7zSH8GMp6EdHjqI0YqCmaPG16/AOKmh3OPpehLbh6IC9V6GQDME8vI0BDLl3iDYqOOLKXcA6LyIoH2Uq2YmGdcGGxDFimYYBWPiUk8GaKKlRmlI6XW/ulkVkfdv8oQ6JilE6cJn7LKcgxUEWAhTVxyJc4ciWGT1YpPr3uAS1LSZOSiqgegZK8j/zL2w4iMZSC1CxCbYJLmLbCPlpY7VR8e84w4vShNED6NIhm6I0MIylbtf/DnUJ8+1ndZuHErwyJDokeIWfWkTiGWpO+NWYgeQ5F/d/d526ouSqshl4ssbNwo7nFyVUFGwd7Gjf5wPivOsG7Gpijtjp5dQI1lv1Ppgy9zgeiK0yWnk5fb1jA==|920

@@ -1,0 +1,177 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 196.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "选择"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "选项一",
+            "label": "选项一"
+          }
+        ],
+        "placeholder": "请选择",
+        "noDataText": "无数据",
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "加载中"
+        },
+        "noMatchText": "无匹配数据"
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      },
+      {
+        "Name": "数据源"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "选择"
+      }
+    ],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "='选择器(字符串数组)-垂直'!属性名"
+                    }
+                  ]
+                },
+                "value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=\"数据源\""
+                }
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='选择器(字符串数组)-垂直'!A2"
+                  },
+                  "TargetType": "ElementUI.SelectCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+                  "MethodName": "SetDataSourceByStringArray",
+                  "ParameterValues": {
+                    "dataSource": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='选择器(字符串数组)-垂直'!数据源"
+                    }
+                  }
+                }
+              ],
+              "ID": "02863904-b51b-4163-9e90-7bcf3d666e6a"
+            }
+          ]
+        }
+      ],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//8KuH0hqJPqhVptlgGltFCDwkzJQo/sMEMtvO8jrGnjJZWyRIe03V9ayf3GGrmmOv4CHqi4d3K3VvN9mtYAEs3/ssR6rbDP2/xGKup085qRrNBwO//cRxsPGIw5g0R32auIluR+ctHN6dNuPUnk7IcqXk/qcdzvcNMPF4NyugvSTSggqpEZThJz6LlBgpDg0iRlgxvmWQDuD75BECf2jmokmOK2AAJCbnpT/0pmcpVUCrKc+314cooFuIuabfSosV4DwTf0c+KeLQMNTNztjOdkGXgy1yYqugy1glmeYgVXShmm1jgkgPVZqId38O2hEbDBGpUxGIClu+zlmFb5E1p5ciumBJ5+F810F/Ll4KoB4OjuNPO2wcTbTE93thnhenw7h0Tkgd92A+f244mv+TperyBwkMBxCImHYPTFqs+xYd88V3sjlV4BRWLmtEdDAYbjQ++UNaJaqhmSRyg4e9us8PNtClhNh6ZmKJWBQXjYWuyVIMsSCGVGFRXYq/hd+mUf+a4unUIRUY4J+I227oZm5qdpoyagsfHlwRo4jm3GEitNnDOKyGY5p/3GaAM1BIohDwG280hlqxIo0tLRtGqVp5alTz4yU1WK7mAAfTTWAkw4MVDXm6sZWSqybmz1ueSjVQIqNi6R/seuqNLTn9CT00FGG9QsHKKkc46VuMm7V74J7PvxXh4GXtVnYd1DfaFvUP9bFnPqpBAhU7K+JZ6aqNpYR9ogykL9YUoydFlXaEZ/cb01P5DnoVayNK+xbAmLSMOZnx6vjIRpiEc+pCsiLguFrO7ZiZiCyKTUpaWHQfT8njh98ftxVsdNOf99Hh07aZDNYx94ZmoPEElJD7wdb0kTIvGWWmdfyPc2dJgU53loWDne1pL6rimQdtD+L/HhTqU0HBegQWihbWNICahg==|920

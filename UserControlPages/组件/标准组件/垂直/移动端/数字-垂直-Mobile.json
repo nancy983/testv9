@@ -1,0 +1,131 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 196.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "焦点"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Left",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0,
+      "1": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "焦点"
+      }
+    ],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//msAhi7ix0Imz7OD/IgUquIONU64BXQINVz3QxR/GKDfmEUqh3vll+T/pdiu7gsyQ5Wu9JyEOelhSLF08sN9c2cExBFcM1VDy0Ay7+aO8Ziljr+OZGPXUWB2n0OYABA7p7N9gIeHVRaKZlRp17pSrJhFUTYv2iF0gjDsTcde5srJeZ3HFW/LglVNlJ7a/mTcMsKH2GqY/ud/ur6d7xDIytY534TezKgiFl/F9NKwgDOux0d58YcwJM04RIjukGhRyoTyx24Y1CTpl0oTHoyyFrB4g/4aXUecVSlioPd0yRkncYw3YzGiTO+LJ6KBVzL0UmmBoIqEGLBcfM0hVCJc8c77Y0/4GXJxbFXhirfU9OZZYVO4i+BZ7etF1eqtJhwa0hOej6L7Z89Tmo1CgzURXVatuvy5LILHSIBkzgAGgq+lqzkO8gW2KxUfbHrZAjeSuzTiBt70CvT8Eys4KvHhoaDhda5x1XmShL9/CSodWfsv1IJLqI94ju1NYI/vpyKJYXTmiYkYR3BI7qDzO8730w1F6qFSUurBSf4nOuuuh6XvRKPbFeL9884qnWA0GS/k330D7mjoRPKZ3GRmuuzIdzOjczHLeRpnwFch+PTzfwIZ72iy5utgNIIGO6orqZMOocM3q2LaqfsKH2LZwKR3D40Sl76QiYLfWN7ZKA/gpuLJWGKNkFAX/54E7nCECbez6aua8n7OTE6uu8ftUAb5VbS3KcoBK+iXmx5kwTus/Wtz6lYBkPsIQJFtQ5LmVsYhextDJjxW9Y6RJaTtuAvnABfFvxr+NQBGj2bB7QHCTCpurFU53MCpVnLq7YHNYt9NkvgvgyBj+idC4RDhjrXeFHfzjIBSsMljm9WCoBwlHsN00VUtQl3pnOjmklzmbK1kkwEns6kHoglgy49y3967atg==|920

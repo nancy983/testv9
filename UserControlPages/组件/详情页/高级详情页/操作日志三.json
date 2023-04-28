@@ -1,0 +1,229 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 208.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1
+    ],
+    "Count": 2,
+    "DefaultSize": 208.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 700.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 700.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "ElementUI.TableCellType, ElementUI",
+        "ElTableName": "EL表格1",
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "操作日志表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "操作日志表",
+                "ColumnName": "操作类型",
+                "GUID": "1d3cd522-52c2-47f3-be85-5b3aeaa70c01"
+              },
+              "ColumnName": "操作类型"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "操作日志表",
+                "ColumnName": "操作人",
+                "GUID": "f5b162aa-e18c-4069-a52c-e2fd4eeefc11"
+              },
+              "ColumnName": "操作人"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "操作日志表",
+                "ColumnName": "执行结果",
+                "GUID": "e3184a42-d35d-477b-91ba-8021c0d40273"
+              },
+              "ColumnName": "执行结果"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "操作日志表",
+                "ColumnName": "操作时间",
+                "GUID": "46321db2-8108-4696-987f-b8b86acd6240"
+              },
+              "ColumnName": "操作时间"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "操作日志表",
+                "ColumnName": "备注",
+                "GUID": "4cba0802-39fa-438c-98e7-ff7da3b265d4"
+              },
+              "ColumnName": "备注"
+            }
+          ]
+        },
+        "autoGenerateColumnsByDataSource": false,
+        "columns": [
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "操作类型",
+            "label": "操作类型",
+            "align": "left",
+            "headerAlign": "left",
+            "key": "fab4b0d6-140b-45da-bb9f-1922f1dee6ce"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "操作人",
+            "label": "操作人",
+            "align": "left",
+            "headerAlign": "left",
+            "key": "5c872ea0-154c-40a6-a219-169b5c43f664"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "执行结果",
+            "label": "执行结果",
+            "align": "left",
+            "headerAlign": "left",
+            "key": "3528e118-d70a-4e34-b736-207090ed6a21"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "操作时间",
+            "label": "操作时间",
+            "formatStr": "yyyy/MM/dd",
+            "align": "left",
+            "headerAlign": "left",
+            "key": "bde748d2-fcbc-425f-819e-3fc4743a5af0"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "备注",
+            "label": "备注",
+            "align": "left",
+            "headerAlign": "left",
+            "key": "1b44a0b2-fae7-48d8-b55b-140e7c27d40f"
+          }
+        ],
+        "actionButtons": [
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "编辑",
+            "shape": "default"
+          },
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "删除",
+            "styleType": "Accent 5",
+            "shape": "default"
+          }
+        ],
+        "sumText": "合计",
+        "size": "default",
+        "emptyText": "暂无数据"
+      }
+    },
+    "1,0": {
+      "TemplateCellSource": "订单表ID"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 0,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFF0F2F5",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "1,0": 0
+    },
+    "RowStyles": {
+      "0": 1,
+      "1": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "订单表ID"
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//j+cOKqXtWWtKWs8+Oj35VQ2wcoLK7zXfC6Fmwus1iNSv689t119YLP5wkWwIjAlwzw+weAugyEWCcPPooKU9HzI1NVVsEeysPOIoZ0Dm1RX+VxdqmOKE4rhJZwzYudL1YniSprn3Q5QP96SYa32VPDyJ427eqF2+QInB15KB7t6K1/Qp5GKoHYtqmIIyeMPm0EtFU0UJ1u/z6B/oLaDaUplYccRURe8EFqMNSt9knvmIm3rCjVcNPzkJx8Sy+MxFnkepqOa9Ev85ev7HKSTlHZo9Ws/F6B0cFqV6UjkvhWkN+5EI7ZDjA/AqDR//aZVO61QGPotyqApWRer30O4SFwv2bE1GsiRjmdfRtRqk66F6D5QJCtXICGM7YD2egRBehTl3G3yQ+Y/DtqaYxT1n85a5SL6QiTgAkjoCRSJA+gxTsGqIiVzynSFP1tiWVnmyC7TYtg0y+FdLZFsMaMsHx01Q6sR+/GEdz4wtjREzviWOps4NmClSD/2u0fmY0b7q5YX0Z3AiZihKJ8IdyuoIB56lQmeq9kF1QlR1MPmm6PpKDLATfOIuaXm4GlnmLNtc8cDn18F1RMCxXt9n+bR7UITJKYFbyN4Ne23U4VxE6GzSQUgDhKoTlpafqRx2u+JV42wmO2Pm+VAuxKLebW6V/0td0IZwHw1/gw6J9baw3n1ii9A40b6usj0xJBPXVjretsCckAOivnq33Q+FNWjNSIMiKEELH+ljSRGRrORpiob2Qvm/pW6BOCK88Wy7oyBk0FKeNkVXIK/O2gEPViwmc31tpUhfP+jXbwBeG35vDBvF7fCBmqwVUpm+ZrqnOmwZ57sWaBKRQtAiLY4Srh1EWAhcP5IIeuVOzhjq/jnB5dBrD8VTJzVWfRo4j4zPkkP8PpQdI4NsKYsPHk4QS84w2A==|920

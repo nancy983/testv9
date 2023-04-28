@@ -1,0 +1,232 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 61.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 58.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 68.0,
+          "Mode": 1
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 44.0,
+          "Mode": 1
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 76.0,
+          "Mode": 1
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 58.0,
+          "Mode": 1
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0,
+          "Mode": 1
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 14,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "2,5": " 在 ",
+    "2,7": " ",
+    "2,9": "中，",
+    "2,13": "。"
+  },
+  "DateValues": {
+    "4,4": "2022-12-21T00:00:00"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.AvatarCellType, ElementUI",
+        "CommandList": [],
+        "showSystemAvatar": true
+      },
+      "TemplateCellSource": "用户"
+    },
+    "2,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "ClickMode": 1,
+        "TemplateKey": "样式1"
+      },
+      "TemplateCellSource": "用户.全名"
+    },
+    "2,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "ClickMode": 1,
+        "TemplateKey": "样式1"
+      },
+      "TemplateCellSource": "项目名称"
+    },
+    "2,8": {
+      "TemplateCellSource": "关联内容"
+    },
+    "2,10": {
+      "TemplateCellSource": "前缀文案"
+    },
+    "2,11": {
+      "TemplateCellSource": "行为名称"
+    },
+    "2,12": {
+      "TemplateCellSource": "后缀文案"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "[AUTO]yyyy/M/d h:mm:ss",
+        "Left"
+      ]
+    },
+    "CellStyles": {
+      "0,11": 0,
+      "1,1": 0,
+      "2,4": 1,
+      "2,6": 1,
+      "4,4": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,4,2",
+    "4,4,1,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "工作台-动态日志卡片"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//UWkoCR8qUwnkoalPW9RLqfk1EZIH0DkBvBdy18d2T+XZMa8AdRzZT/xAjJjSZBNhBXyhAGKP6k1KR3cfL2FDKKwp2R/wsaVHFY+UbgupXSkMr11OWjnq+F+WTbS8r82R90my9pEXFlhbqVD9cm/Oz5N2x5wOMXLaQTd4bO4PTr3ZrFhQbTGUM1vE+pwyL70/l4eNynJxbJMPalfmpvte5jSS/R0EUwaeNrpJzoy0aOK5cjbg6Qeb2iwjbWg7gru04zoD3Wqe8Ob25spBS7Ot+8PJU8S3VdjPVxP65vi9Zc8QVFZ/jkqvqrkeeI6wRGgWTliGsfxTmLg0iw48gvuNRNWDHzvtjJfzP6ivs6mHcS96/xRPgv7q7Vx6yUvFHzxa6IOeEJouG+y/fxeva/TyedennxjB0jhymGx5I2Au40xUKhKY2gD0kE79/Xo8ERNG4SuArUHnYyleJQGKZaFBUrYeHKaP5RE0xJep3YBaPHYnjb05YlIi6RX0A3WI19eMiIJodHJU5MCyHn0vjyHFYwt1y/mJoGfGx7MI9gsiVRRH5pyJPt2IHnTX49Bd6M/VXFzfIWVDmV+9RLmSE+YqQgeEvFRbJzlRlD75gui7rmh8GvYF4ev57ZGyf6dHQzLfsTDrCxvW2cqMT1SEAHznCTaV3g15GHqJZQUWM/Ae2tsnhaLlb1SmjJ+OuKW9Hamk6XinBIHrv0Y1epM9kTZtmSiXEDIPlp2ZJg+oaGM4qGdHKLrH7CJ98VMFovzKmpXyMLOWa/e6GJF9SGD/HMOI0ca8geXAUFrApUC5W/QoajjxYk8O/ZLcsatHHqDlnKgPogi+DrpZzG4UxL4ni5zG+T46xCia8rXI8n5HLQIimoCtnO/Fvld1KKiuJTTme9roP0AgBuTmMxy5HqgnrJjTyA==|920

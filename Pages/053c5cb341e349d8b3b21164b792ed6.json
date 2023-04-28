@@ -1,0 +1,114 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 104.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3
+    ],
+    "Count": 4,
+    "DefaultSize": 8.0
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingTextColor": "Background 1 0"
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "ValueFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='053c5cb341e349d8b3b21164b792ed6'!D1"
+            }
+          }
+        ],
+        "ClickMode": 1
+      },
+      "TemplateCellSource": "显示文本"
+    },
+    "0,3": {
+      "TemplateCellSource": "菜单路由"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 0",
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "1": 0,
+      "2": 1,
+      "3": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "工作台-快捷导航卡片"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//UIFctIzkPlvJQqJ3PVcUThL/ZRUOUqgH3Yn8jbfeUTt0gJi5w5Yc+1nyNMiXyEZTONwg2pxaijll4HlclD9WFQ0KH5cuAblFSZBgMnrLWnHEUBJd4x5Cb8pnJhBsBrtpQOFbF0qqJ8yka2TXlIaVtM/Y3/oGJCqjRsHa9afjusb9RoKnEpeJGJOV978nz8LwH/IJmeW1/Z8OQmrm/ZGRow/G81MONBUJIMaZhjqG3YVOdoxByXGA0Mue650ojv7lw2CBj+HnLLpITHzwGi7fXJGDcZ/fMle/vS23IFAH7DBXlOZw/L0+FyjPyBFrhKX4hHmFLH19HI4V7vlog4qOZHJLW9Pm0S/ac655Dl1vkMq2VsH65pfqPhF+yQvbWLSSnyUqFJrGikLPVsjD4wDWtXtjR47J7HJ/6c0wnd8UdNcxH4+7QiwGvmK5jT5rf0XPuNjK+4R0Ez2881tTLR9dVgxAvmeidiQgF7ZLemYJsNWgJWTmF4Fp+mXkr5ALLGgGRLYArxhoXU3gYQ/+08CkBbxTmrkaAflVwIDfm/pLqq9PD8Mg8ye65cl4MGWEV35KI0WqpUU3eeYCRKO6OmHIerl1zybHrO2i/9gnk8RwOf/uVG58xh6WgyPQ7mvGjRfc9W0k6uvVG5vKe2EuA1DB7moJhQ/y//hw98VbEhBqZ4kXKSXczcmXt/edrMZX9fks99W9XAFJDMRAWIAUmyOqlR3jTRZfItK4zshsBa2jcZBerfJU10vjILf8nB8wcONMRji3ne9Y/kv89xS+gQr+YZeemHlB7OvLAMIy7jsohzpENR00mnFpp0qwWaMayUBQifzxtGRSGEPcKMs02UF+t8UsAYByG5jvx5pEe924ZKnx4nWM9V4A3gLkycBWp7gForzz+ZoLNzgUBLv1UNQQeA==|920

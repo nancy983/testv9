@@ -1,0 +1,246 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 118.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 118.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 118.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 118.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 403.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 135.0,
+          "IsHidden": true
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 91.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "Count": 8,
+    "DefaultSize": 91.0
+  },
+  "Values": {
+    "1,7": "行号"
+  },
+  "Formulas": {
+    "2,7": "ROW()"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "42130e4c98f843378c7a1d389861520",
+        "ListviewName": "表格1",
+        "NoItemSetting": {
+          "ImageForNoItem": {
+            "Name": "暂无搜索结果.svg"
+          },
+          "NoItemImageSize": 25.0,
+          "TextForNoItem": "暂无数据"
+        },
+        "TemplateKey": "样可选择_取消默认选中"
+      }
+    },
+    "1,3": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "项目信息",
+        "RowIndex": 1,
+        "ColumnIndex": 3,
+        "RowCount": 3,
+        "ColumnCount": 5,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "2,3": {
+      "NameUsedInJavaScript": "名称",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "项目名称",
+        "GUID": "331e4337-1550-4175-aabd-3ed73567ac0a"
+      }
+    },
+    "2,4": {
+      "NameUsedInJavaScript": "icon",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "icon",
+        "GUID": "655213ed-23ad-41d6-9cf5-efed2b5ad060"
+      }
+    },
+    "2,6": {
+      "NameUsedInJavaScript": "描述",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "项目详情",
+        "GUID": "f46fe672-fedb-4700-9ceb-5f6c9513ce1f"
+      }
+    },
+    "2,7": {
+      "NameUsedInJavaScript": "行号"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "2,2": 1,
+      "3,2": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,3,1",
+    "2,4,1,2",
+    "3,3,1,5",
+    "1,4,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [
+      {
+        "Name": "详情点击"
+      },
+      {
+        "Name": "新增产品"
+      }
+    ],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//XLxofFN/8DdeeqxCVkjtfCgQVbfcJOPTncSHyjDDh3XqZ+WuhlO8+TZp5S9oThUaMiluuSemG0/cEUqGz+ODg1bSkpeMnVTd4SWBdAqqx+IIvAYxQL8f+U+FCn2VDMJgtrde4w9pd9us7gUfJPERlq68/ssv0Pg5dr2qDZdC1RspjC6l7a8T3/wpSZqUPpdEHwM5/TXC3zm3FpLLb5oyyg+hSwCNuzEkNO8NlOqekqKgPZws4FY5umfa5s8VvmpFkc+qRrZpZbppcUvmY2CLC/ZLr4aCzf4ZUA5fMGMklQzTqPmd0c1q1ISFA+MGCgoHH8Z8sdxbtaHnYtHXRKDZJnJpfaURCxe/DNzrlU2oYM9Ly8mGgFAyxxGsuHUGGAi/MFY530cd1ibHKNdGN6CO69Y86N9gIpCw1x5A5MPcDXd0eYQtIOwnTDl5qIPV22DipHU2B8/EjmkmnVkAxbX9g5G2LPO8mc29/67MA/RTjQQUb2EoRGxmLVZCvDAeg14r0mCob+eNVvC8i/rgqqUIXrzdsky6dcAJjp3v7kawA1dSxI+2/5bo0M6WluBejXMDtyXmOdazE3htgdcABaBpdh1bVL2D7vB2ZeKwFFy7ooMZ93Fjy5uY31UYnbGFqLji9eEN5wRN6Z/9PqWDyuQauGrFRJFQ2Q1Em8+N4JtP82hJ4e7DFS8GumtxU9PIJq9wJFKKws+P6wCZlMlmvehpLxIsSocCK0YCd6hfdL+hzMUcEA3+l5IMCIrVADgfxVCIrIKWZlpkcQ2ZwLQNkX3aU6rZmUoN9RBoc47ZNvMiIf0np+gbtOT4j+GW8ciEVesxuvq8QjDGaXr4VHOsgLD+01A5mWVjt+eMdVJdxMQMGZ943s0AibjpC8YxqtZLQ5NASUJC/z+jw1JLPMCqfUXlmg==|920

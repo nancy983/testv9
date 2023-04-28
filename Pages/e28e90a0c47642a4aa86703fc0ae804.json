@@ -1,0 +1,160 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 80.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "时间"
+    },
+    "0,1": {
+      "TemplateCellSource": "当前进度"
+    },
+    "0,2": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=IF(e28e90a0c47642a4aa86703fc0ae804!$C$1=\"驳回\",1,0)"
+            },
+            "StyleInfo": {
+              "FontWeight": "Bold",
+              "Foreground": "#FFFF0000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      },
+      "TemplateCellSource": "状态"
+    },
+    "0,3": {
+      "TemplateCellSource": "操作员ID"
+    },
+    "0,4": {
+      "TemplateCellSource": "耗时"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "VerticalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "yyyy/MM/dd",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0
+    },
+    "ColStyles": {
+      "2": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "HorizontalAlignment": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "基础详情-退货进度"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//XK+JNsJG6M8/ZSw04qyHt95q+hFLbuK3FsVJ8cYrJQJxk70aa2IUyJLSpDTzf3b9edODd5KsbZWJ7gg9WcCkuUDQ3dhnHSU21pi+1QUXlnR1/A3V5sM3xfYUp3GaEAZCMhcEAwzF8hA73pviDr3AfLDyfR3S8K7ZYqb1Y3rWOMUAk43uDQHRrG2PijFRh2HH5nSuQ17APwbgyRjbmNdp52lBrMUnWbPNlAuA8V/ht+YtnfdUX3wTdyq/Y39mlOk+h/WGWHnKJbz30jg8xtuE4QCJYyCzirUt2qTqyBpq8hZ4gwBauO0h/OXnnK6LuVdKM/sN40U1AOqg9yhw+jHZMZtyFuvG3H+TbNmnrvRGR8D1sAc6TpNCQqDw6hGthPBSEn8LdNczMaBed9PBiT0tiU/hkG7y2KxYITsa+ZbpqOYPhDEV4VbPRWK5cb1sB/u1ZcsLV8HGa3UPjFyT4k0T2xMr1NDtXDYXeqoSFgGa5llmfhP5MS3DjaCF0E1CVDkLKKrHoABXgtdsDDDKVCV00bK2kv+bqOECA4DSMbMJt25G0NVQR+f8T9OhuJCRFLrcKeV8LNU1OiyaHt7FzIdEhxNHpv8VtEgC+oB4xtExCuaEIJiUGYg3pIHsXxtfbcIDJ/EJXRloLms+DqFxAPFPT3apszxqw+LcpIJiPEIaeosVarjqO+E0HOig33FxQdv+4WG9h6mbOCxrR3zCnVwteMFk+KdnWIKAe6xtZKDjl/SItnlNZiHJ+rIv7qCmeVeS5ZoH7BaGFO8iaDYvifD2cU7ObKGof36o11xdTnKNzAx1sTlBvlMLs+Y+mtxacv9GXkGYjWAIreg9wtZSxSYtvV3gkpmSJoh8Ry+cAFWZYRdUSJ3046j0++dn+CelBjAIllAhgPMCSbNUUGS8Zt7ciA==|920

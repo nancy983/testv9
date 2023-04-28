@@ -1,0 +1,190 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0
+        }
+      }
+    },
+    "Count": 8,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "0,1": "段落示意：活字格设计器用于应用程序网站的开发和调试，并把网站发布到活字格服务端。活字格服务端作为网站服务器来运行应用网站。"
+  },
+  "AttachInfos": {
+    "0,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "PC.png"
+      }
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "按钮导航组"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,4,4,3",
+    "2,1,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "666f975e-57e1-4be2-b1ca-e6c0a4a1433d",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,0",
+      "Size": "360,90"
+    },
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "fc9173a9-c3d3-439c-b134-f76481868272",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,0",
+      "Size": "360,90"
+    },
+    {
+      "Name": "01aaff0d-5fd6-4765-b097-b05a770e3adc",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "456,114"
+    }
+  ]
+}//OgEcaalqpA/8pslSJA8IDALjYMQH+frfXRWkBaG0E8PujbkcVeXhddYr3qr1jCZz8SJuTl3+ZVp3KQ0W3ceBVATeuN2X/DT85CCobhb0E/8OfMfW+5jy6e9X+AQPKiswH1O2D+DxXCnqmbf/wdiy/DCRT8y+2WaxtD76v0odRP0Cg3TqcpeEp5Y4KqfUUX4IaKvXKYpV95FU/MyAvFZaAQDF9xUtRbG2+zOasmzn0uL9EI0iBKLt2omJ57VN2ZE0n+UH/hp/uDnvX1qs+jYrKEHUCTec7952JaK+Zm+jtoGSLynuvIACRmmh6EuAvATR/6FrVcBvNL6UM4TMCt0Au1Qxgmhp7I4jfVD1GJ+O/NpljewZiHsTEo3pqT3p/yUrjV6atKcUMp7E9JxPKaKZYAKLGvda5gbG3k3dYMa4u9Rr36vJekszbAtpr4zPqZdY0YFcm4oh1XhVsqTPHi/wyJakt7rr1wkO9e+NW5Hhei+OgyN5gePhbM0b8j6qjT4ZdpBOmljr3NlAXA1gPluENtc32fLYapvu9grPjEZI4pQHUZwjvb/8DIF7KRyrefQX/E7QvIwA8O0D8lnidKDeibBSzy/L6VM00mNammdjsrwrb8Cl2Csk9Cw8ALlC8y+LJZJCGS4OBncBFWoQ4vPlkz87du1DcuKMALgobqsFJpQQaGR7tHrfJ+zoChnQ/NhqQRz00WuekZrH1bvoEMo0IlRzeBNL/ZKcCBykWQug6VG1owWWqIr0K1HaDPKIQlIjQdPuHLaQU1RpTU8A98QxB5US+qE6Br2kF6MNpO40NrQ71Koha0cxTLWYEEAUIEykDvjsm8qcRss4OLDZ47TtdN/ZpOzmedztOkxGLl6AsOPb5yPWeSxyEhIMhHHAtTU5LzZKToZcm8453wC6lueHfA==|920

@@ -1,0 +1,288 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 631.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 631.0
+  },
+  "Cols": {
+    "Count": 10
+  },
+  "Values": {
+    "0,0": "%PageName%"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "ElementUI.NavMenuCellType, ElementUI",
+        "SelectCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+              "LoadingTextColor": "Background 1 0"
+            },
+            {
+              "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+              "ValueFormula": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='菜单页面-Mobile'!值"
+              }
+            }
+          ],
+          "ParamProperties": {
+            "value": "值",
+            "label": "显示文本",
+            "parentId": "父节点值"
+          }
+        },
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [],
+          "ParamProperties": {
+            "value": "值",
+            "label": "显示文本",
+            "parentId": "父节点值"
+          }
+        },
+        "options": [
+          {
+            "$type": "ElementUI.MenuNode, ElementUI",
+            "value": "Dashboard",
+            "label": "Dashboard",
+            "icon": {
+              "Name": "Navigation/197_dashboard_1.svg",
+              "BuiltIn": true,
+              "Color": "Accent 1 0",
+              "UseCellTypeForeColor": true
+            },
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "expend": true,
+            "children": [
+              {
+                "value": "分析页-Mobile",
+                "label": "分析页",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "value": "工作台-Mobile",
+                "label": "工作台",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.MenuNode, ElementUI",
+            "value": "表单页",
+            "label": "表单页",
+            "icon": {
+              "Name": "Application/028_edit_8.svg",
+              "BuiltIn": true,
+              "Color": "Accent 1 0",
+              "UseCellTypeForeColor": true
+            },
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "expend": true,
+            "children": [
+              {
+                "value": "基础表单-Mobile",
+                "label": "基础表单",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "value": "高级表单-Mobile",
+                "label": "高级表单",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.MenuNode, ElementUI",
+            "value": "列表页",
+            "label": "列表页",
+            "icon": {
+              "Name": "Navigation/183_table_2.svg",
+              "BuiltIn": true,
+              "Color": "Accent 1 0",
+              "UseCellTypeForeColor": true
+            },
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "expend": true,
+            "children": [
+              {
+                "value": "查询表格-Mobile",
+                "label": "查询表格",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "value": "标准列表-Mobile",
+                "label": "标准列表",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "value": "卡片列表-Mobile",
+                "label": "卡片列表",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.MenuNode, ElementUI",
+            "value": "详情页",
+            "label": "详情页",
+            "icon": {
+              "Name": "Navigation/167_file_3.svg",
+              "BuiltIn": true,
+              "Color": "Accent 1 0",
+              "UseCellTypeForeColor": true
+            },
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "expend": true,
+            "children": [
+              {
+                "value": "基础详情页-Mobile",
+                "label": "基础详情页",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "value": "高级详情页-Mobile",
+                "label": "高级详情页",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "菜单字典表"
+        },
+        "mode": "vertical",
+        "collapseTransition": true,
+        "DefaultExpansion": "expand",
+        "menuTrigger": "hover",
+        "theme": "custom",
+        "textColor": "#303133",
+        "activeTextColor": "Accent 1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "HorizontalAlignment": 1,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "微软雅黑",
+        "Left",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "菜单页面",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "Menu",
+      "Formula": "'菜单页面-Mobile'!$A$1"
+    }
+  ]
+}//Fo1aSb7VGDXZ9uySfzhPea+BE7H7/OrRjS/p1cgjtXUQtyKHbYw/GWVir19KsLzFRLZpRMj7A4IkeyBu7XiDyzCcvyqsPZbKgsda9DC7FXl7reqZlM011lRHE7wPRQyXMXBvQpzd56dE4fQOCxS8bFHO9Vbu/PUEoX9j9/R0eOAedX0EXS7AWPbuu6eLIrOS95CH9AoOQAdWmjry1pjLONGoQTkq4NtzEEQIbk8qXbmocieg6Xwx1fHP4VdPv86utclBP0nHIelK3STdxsnWFYvXpRnCe9GOcEHymA+9zjY9z5ceeG53xyEUyyHSMQHOXw72voNxGeDLK+i2vA1StuEfVj7eo7e7SOr+rlMsYlIcq4FMUY9fY1BXOEmuHbLvONxi2idaksFEqt9fT0zIv4ps08cJYXs9X9Uy5p3RjdiT4hJ1oWdZ+hc1PkwHTO2VbTggZRu/LqUqOORkpKkdtzrGWkrSbEAMWHo6CNiVVqnznHW3OG4SL/PGrWa63YRztNzu6gF5hx5Pfc+ZtQLFf6a8UFlyMpQKiKG7F7fr6r5dopYnLTDPra4QEDNt8ya3V5VaTS5BrbglAH/NatZOK70P/qCEvwNSECkZ4b88g7J7frK17iudVKlSTwH+l6VAgn5V4KaD7mxN4gyLEUpL+mRfiphi3gFYqM9cxHkOWrWR3sHTIpaylLjqLxrYqYsn01LbU+95Gs7/dWHjqL08KKN3xY+jWlcDnmZEfmbvg0Cz+OPUqrMoUirvpep3t4kPWDo6u2wAEgL3FvStLg30gf9Ocmasp65n2b2C3mZtYPOU6/gexFav/Eid5LIoyt92NhH5eMZ5HyvWzMwMZPTBHL1OSllQlGm7mDlUoc9iQVoMELiJj2gZqi/vPRiFmQSU6sU//VQW2SWAO/UN+xtqag==|920

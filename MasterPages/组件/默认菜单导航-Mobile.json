@@ -1,0 +1,321 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      29
+    ],
+    "Count": 30
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 18
+  },
+  "Values": {
+    "29,0": "%PageName%"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "LOGO_2b_32.png"
+      }
+    },
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 3,
+            "DrawerDirection": 2,
+            "PageName": "菜单页面-Mobile",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='默认菜单导航-Mobile'!A30"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "='菜单页面-Mobile'!Menu"
+                }
+              }
+            ]
+          }
+        ],
+        "ImagePath": "Navigation/131_list_3.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "1,9": {
+      "CssName": "pd-3",
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "ValueFormula": "https://www.grapecity.com.cn/solutions/huozige/applyonline",
+            "IsOpenInNewTab": true
+          }
+        ],
+        "ImagePath": "Application/125_help_2.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "1,11": {
+      "CssName": "userView",
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "3,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontSize": 21.33333396911621,
+        "FontWeight": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "Formatter": 7,
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "微软雅黑",
+        "Accent 1",
+        "Left",
+        "Normal",
+        "[AUTO]General",
+        "Center",
+        "Background 1 0",
+        "General",
+        "Right",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 2,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 3,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 4,
+      "1,10": 0,
+      "1,11": 5,
+      "1,17": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 9,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,11,1,6",
+    "3,0,26,18",
+    "29,0,1,18"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "fa1690ab-1c99-4532-abfc-5181019ea6ba",
+      "DisplayName": "顶部banner背景",
+      "StyleInfo": {
+        "Fill": "linear-gradient(90deg, Accent_1 0.00%, #FF2C73D2 28.00%, #FF0081CF 48.00%, #FF0089BA 65.00%, #FF008E9B 78.00%, #FF008F7A 100.00%)",
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "370,48",
+      "BoxShadowString": "0 2 0 10 #28000000"
+    }
+  ]
+}//Ngbz/tqkg/Zn0mOaDrpAKOEw4W6yo56jR+dxpNa96BRdG6YHEB0xo5+w1eGY39fdSX+pXnI1KV+N2w5ipGLeyg+/7ubPSGdqCyLcH9fVRX7hrOirpGlicJV+zJT1sWGIzLntPWZeOqZpiJizs/9MW4ckVeFMS1WteJEykLfNjHiHNrsyfV50LrshivdSyWBNfXQdce0O363DorDdlC5BRSa+sw+oiNcj5bDqYDQUkyUoq9eSOKC61vvt7YFGS4GfRHHZF7h2gwizOmg/P4IDqNks92aPUrl5ddxH+oA+oVjbydJC2NxDmw3GdXRpoSzB80AyJB/JU8C37fsZ4KQgIlfKhgCjFIVgsmjyFgJFMNTvtoRTzclWkWRyKrfB8R20VzCZvL55C8BlXC70wDycT9Lo2z4Up2HEmovdwh96tK/Ng/Agc9Tyf5NhZlM1yOIW1nUFxe32pNNsYM0mIn1pB6rodpvHUI7et/kxDyur6Pp9tqEFVS5JfqpIpAaYbUjNmevogEhuA2VyezjvsavJ1EEtvLTyz6JXN1Upq3HUdCA7ySAt1YrQppzizux1BWuMDgxzRemd6fVEiTpPDJSvGDni3eeUG/wwSiqkc88DMhMI/mubKWz3WGwYfmna/IDFhkjChcM3XenljUfNtcK9Vaid/aJk/F5auIFz4sXQvEBz/FBGqeUX5Uh4a7LEdTqpKWzMHa3jUogCD5Qtfj7P9xKeWgsgbL2AlAq1zFOCIkd0Jupn+mirMoWP1zN1Fd8+xFThJJKeB4Ph2jnd3gs5qChWV6iHiSdSIIIPjhgoS0d1WrbZjuqH7zWzj+Na7dFuLPz1oEdJn34mnBbhlAwotmhooh7ZXmOLFZRjuXZPgYwUG4Lxrp68Nd49kn9edaUynSciasKD8r8Ne7VTSPex0g==|920

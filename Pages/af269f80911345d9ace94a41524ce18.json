@@ -1,0 +1,301 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 1
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 135.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 8.0
+  },
+  "Values": {
+    "1,0": "|"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"成功\"",
+            "StyleInfo": {
+              "Foreground": "#FF00B050",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"驳回\"",
+            "StyleInfo": {
+              "Foreground": "#FFC00000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      },
+      "TemplateCellSource": "状态"
+    },
+    "0,2": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"成功\"",
+            "StyleInfo": {
+              "Foreground": "#FF92D050",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"驳回\"",
+            "StyleInfo": {
+              "Foreground": "#FFC00000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "1,2": {
+      "TemplateCellSource": "操作员ID"
+    },
+    "1,4": {
+      "TemplateCellSource": "当前进度"
+    },
+    "1,6": {
+      "TemplateCellSource": "耗时"
+    },
+    "2,2": {
+      "TemplateCellSource": "时间"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 16.0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 3,
+        "WordWrap": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "WordWrap": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 14.666666666666666,
+        "Foreground": 4,
+        "Formatter": 8,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 5,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "Foreground": 4,
+        "Formatter": 9,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "Foreground": 7,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 5,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "VerticalAlignment": 10,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Accent 4 -50",
+        "yyyy/MM/dd",
+        "Left",
+        "#FFADADAD",
+        "Center",
+        "Body",
+        "#FFA7A6A6",
+        "[AUTO]General",
+        "yyyy/m/d h:mm",
+        "Bottom"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,3": 1,
+      "1,0": 2,
+      "1,2": 3,
+      "1,3": 3,
+      "1,4": 4,
+      "1,6": 5,
+      "2,0": 6,
+      "2,2": 7
+    },
+    "RowStyles": {
+      "1": 8,
+      "2": 9
+    },
+    "ColStyles": {
+      "0": 10,
+      "1": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 6,
+      "HorizontalAlignment": 5,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,3",
+    "1,0,1,2",
+    "2,0,1,2",
+    "2,2,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "基础详情-退货进度-Mobile"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//pW9Plwwk4cqMRPB7eoHc+VA4Qn4x/vl38mW63gnyrKnQnnWfrekCIUO03LcY7pFoJqNXObdU59s6H2GTjoHITlCuGoChiFKWiyM/cwT9jki2HEWU0Rq5kQNV8s4+oAI1M0reEMQwjHMiI+k17BtqyEznXzj2CIyvzj50tv77aUsE2NGqKR2i3ILELrybUkU2+iUPb4Gp+azYUYtXbDn3thBcrdohcwE8GRIkmWd1izlLWhbFZeCbVTu7gyI3hSiUaSvJO6nZdSl3UMc62i3I073OHnzQchRzjnVYbGPKu8ssMf76gk4kIpQDFll3UVJgA9VCwRhEQJSv1BiF/9x525ndHxXpFX9IeHAVkB9iIoaG1j8G6+vqtwi5ymhoalswdmU4NMUc5UHEk0BQba1fFDvECvY+quSy5IIiV+J84mymENYQZs7RvqeHC1C6o9D87XRIqvJAh3Iq8OTBz2Ful8yScgK970WHM+WkXP5/2QWGlzyJJhmTF8PIQ6IJKz72V4L9s1f+cJQrXMoJgz6XOMo/HBVQTYGRUso86xCwLWtMJhjhDxvjvWUnbILrxTID5W62mfgQ93w8bLIN9bETHAATeggQK8DmGifM7tc+c0Afz+x/+vYp/tgUugkUJG/cI+sX4m+gCbGAPhd855yuExJ9ei6jFx8JuuC2ImyHsQbE7deyvHyhHB5zJJObGEZaTb9Jfe9blnm+3U9Pa9LP6uYQZKP8PX9+v7ATP22BFHMiuD2l6jx7uwjhPidMPYfaAYuTPn/ezkzD2PvWsQOhtMBHDy9CRWVhobJMbB+SbBUCUtnJshzMl8GgLyPvpOq40Pl2Fo8CM3PBpVX3xl4T/RzL6QitmEs3QwnAp+g5K/En+/K6PyQ9ao79tzJQhMnAUHgnsTThhlHoXj20//6+Zg==|920

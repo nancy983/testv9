@@ -1,0 +1,323 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 246.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "Count": 9,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 8,
+    "DefaultSize": 80.0
+  },
+  "Values": {
+    "1,1": "退货商品"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "二级标题"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "e61e5a0338064b809960bb0420dc976",
+        "ListviewName": "表格1",
+        "TemplateKey": "hover变灰"
+      }
+    },
+    "5,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "退货商品表",
+        "RowIndex": 5,
+        "ColumnIndex": 1,
+        "RowCount": 4,
+        "ColumnCount": 6,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "退货申请表ID",
+          "MasterTable": "退款申请表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "基础无分割-adjusted",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "SelectionMode": 1,
+        "DisableAutoSelectRow": true,
+        "CommitType": 1
+      }
+    },
+    "6,1": {
+      "NameUsedInJavaScript": "商品编号",
+      "TotalRowSetting": {
+        "StaticText": "总计"
+      },
+      "BindingInfo": {
+        "TableName": "退货商品表",
+        "ColumnName": "商品编号",
+        "GUID": "92ee64dd-5973-4a87-925f-20b581f43175"
+      }
+    },
+    "6,2": {
+      "NameUsedInJavaScript": "商品名称",
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "退货商品表",
+        "ColumnName": "商品名称",
+        "GUID": "7133bb8b-f3b6-43b3-a7e2-1fe138c6a690"
+      }
+    },
+    "6,3": {
+      "NameUsedInJavaScript": "商品条码",
+      "BindingInfo": {
+        "TableName": "退货商品表",
+        "ColumnName": "商品条码",
+        "GUID": "57e1f7e9-d044-4d18-8fd7-4479ce7f382b"
+      }
+    },
+    "6,4": {
+      "NameUsedInJavaScript": "单价",
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "退货商品表",
+        "ColumnName": "单价",
+        "GUID": "40f15ca0-2ad2-446d-808d-16e73ff1749b"
+      }
+    },
+    "6,5": {
+      "NameUsedInJavaScript": "数量",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "HorizontalAlignment": 0
+        }
+      },
+      "BindingInfo": {
+        "TableName": "退货商品表",
+        "ColumnName": "数量",
+        "GUID": "9afcc153-e64f-4f2c-b819-92a3fe4876df"
+      }
+    },
+    "6,6": {
+      "NameUsedInJavaScript": "金额",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "HorizontalAlignment": 0
+        }
+      },
+      "BindingInfo": {
+        "TableName": "退货商品表",
+        "ColumnName": "金额",
+        "GUID": "d109201a-faab-4e63-90ac-7527d3553d09"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,1": 0,
+      "3,7": 0,
+      "4,1": 0,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0
+    },
+    "RowStyles": {
+      "5": 0,
+      "6": 0,
+      "7": 1,
+      "8": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,6",
+    "2,1,1,6",
+    "3,1,1,6",
+    "7,1,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//TU2XmszZjxjnH3Dll6VPhfNoakroOJAmK/79HyVuKPU5Ae2Ecp1QNADn7GiGG6sQU9v27uSMUSoJl3HHnC1D/TAvnlmRKMeG+IVxoyfr0tLLEIS7bDMjYCL818t2YRsa4KDjYUrqSNZsTVUjiOKPFyuEVaBnfqCYvkLd1oEyvki6I9gQ38hMKof3uzAKLOniTraN7PUeQxq9Bje2KEoe0dMunECHZ1YuCy6EXOFRAQ0kuHcHp2Dzee/xUQ9Z9tSnMQzuccoMG0uIsTT0hxV1RKvJTNqc3waFtqq1qsqqAp9A92duFlURvyFae73wEtLMW65oSn6JrM12vSVxgBTLTTHst8KXUpUDIK0YNiWXKQGb270ypsNm+tq0XbvRHlRYaC5VfMXKvx5h9zkxiHdn5S7uKZMwo/ueuKttsLCA9PEqFH2ZWUgY7CFRCf9e9TgnGsU1Wo980XgVrLa6Xtcfan4AAmYYs+3/1Q9UriblF7do6v7/MWQAmzx29IwzAODLFcxCrHhhtDBJZXLqfBzvJPKKWfYFARFIBAXWlB+cJoCH0UHfZKRXN6nwyuqVcGP6DSnvejyaqjPtEtRM2/fULRhQ3R0SP6vizOmmbzhANgUvNnG/fL3b16MBZArEAYBUyGnMzcQSuBJsM0MrXF/LCt4iE+Wkq9rlvecM5YhVRHtogHYUbAC5mQ/q9MviqGR5WYsi/KHWQqhmYnRNv/i6X3C+DAUE1R6EIdSE+Ka6Skm5MQVY32pvOEAG1gXj60okfzn7R9ZXY8q9vJbXFwvueOG1I64wpwLYKnic/HzjEKpcpGgpStS3FW0RsLF4CR6LdEHE8G/9JddlE5TVUGyxLjVbA7eQWBi7gD0+6+o/Qkyw4N9sdxfHk9GtwZh9f9J/U+4bBoIZ4QZfippcQOQUiw==|920

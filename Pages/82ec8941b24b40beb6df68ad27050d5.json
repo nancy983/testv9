@@ -1,0 +1,220 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 2.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 150.0
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "操作类型："
+          }
+        ]
+      },
+      "TemplateCellSource": "操作类型"
+    },
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "执行结果显示"
+      },
+      "TemplateCellSource": "执行结果"
+    },
+    "3,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期-水平-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "操作时间："
+          }
+        ]
+      },
+      "TemplateCellSource": "操作时间"
+    },
+    "5,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "操作人："
+          }
+        ]
+      },
+      "TemplateCellSource": "操作人"
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "备注："
+          }
+        ]
+      },
+      "TemplateCellSource": "备注"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "1,2": 1,
+      "3,0": 1,
+      "4,0": 1,
+      "5,0": 1,
+      "5,2": 2
+    },
+    "ColStyles": {
+      "2": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "HorizontalAlignment": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,0,1,3",
+    "7,0,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "操作日志一-Mobile"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//LUC0K3zKuysXJetExQ5SKovGEL87svDxGdHHVC7x9j0CXrKZatuexVQeFjiuFIIGiMNJMq9tC1GxPRdCqjEM0rykW39LIGPARqypOfNAAKaNqZ1TotdbF7W3sCUXgrc+uU4ADtQVlWRaMerjr7a9h3k7uZ32GgUz5BTfuDgQeXK9y4lqWhLztids8qLBPYQ0IZdvoI8k70u3AfdqDiwpsIQlluZ+gluK5U7dX3ANg+mR3F9c4JPO3DkiHN6njSMRnvbtW/IbPAs6gPUJDCrbwjl+5V2Eo94lcUmkbfQe6G1P8nqpqsJc2tov9Qz181vdL9kgn1Cw7511dOtK3YSrTXLjo2GWmWNrfZjTQqstg+XUt34sAyNW8ICZQ7O+ck+X+SzTS+jcFe222aofCXgUeUEYjw7wTcS69/4Hle/gaDWwtaMQy9KK4UtoCubluIGf9SatjSdOZXFoBYfUR7oldQovNmxDDDEK+rM0h7/IB6pYpwG2zKcaDUgunMFOC4vtPsb94nys6B8vaIvduQ5mtuh/vetkH6muQF/aOLu9UtvbwL6eV89TlGASsn4MBBZw5MygEL0PrJRmwuMXAH3k1wN6djlMQmAO0GO17etERWP4GYISeg7dWJ+KlscAlV/3MmAg2r0tAz98zUYiEchtqC7g9PnnA2HS6ljkLVHZOkHN3lqiZ0LOWwVBu9WFgTq5wJe4Pi2JXylvCDpqb8ruJPFn+Xi1FddABVBuhtYq9OqORQT3Zy3Z3ov3nRd5ZRFlcIkHCyVRkZhYvPwHTAz0LNwBKFPvajviRt0ikkA8dxbKVeD94h9mBtZM4txdfhcWmAWrhW7p7J7LDdmHzFeiJu/vV+pZ9PO0RfLz9JvJyRkPtJi0au3wcUKYLJfaTG/bC6Eio/pq7dbzhdxVe9paHw==|920

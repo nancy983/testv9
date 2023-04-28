@@ -1,0 +1,667 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 1
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 1
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 14,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 382.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "IsHidden": true
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "IsHidden": true
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 81.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Count": 9,
+    "DefaultSize": 81.0
+  },
+  "Values": {
+    "6,1": "添加",
+    "8,7": "进度"
+  },
+  "Formulas": {
+    "9,7": "RANDBETWEEN(0,100)"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "一级标题"
+      },
+      "TemplateCellSource": "标题"
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "下分割线"
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Input, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "keyboardType": "text",
+        "enterkeyhint": "enter",
+        "placeholder": "请输入",
+        "leftIcon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "clearable": true
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "弹出表单-Mobile"
+          }
+        ],
+        "Text": "添加",
+        "TemplateKey": "虚线按钮"
+      }
+    },
+    "8,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "ed7b3fe788a44a95b38948f23ecb141",
+        "ListviewName": "表格1",
+        "NoItemSetting": {
+          "ImageForNoItem": {
+            "Name": "暂无搜索结果.svg"
+          },
+          "NoItemImageSize": 100.0,
+          "TextForNoItem": "暂无数据",
+          "Orientation": 1
+        },
+        "TemplateKey": "表格默认"
+      }
+    },
+    "8,3": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "项目信息",
+        "RowIndex": 8,
+        "ColumnIndex": 3,
+        "RowCount": 3,
+        "ColumnCount": 6,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+          "CompareType": 6,
+          "ColumnBindingInfo": {
+            "TableName": "项目信息",
+            "ColumnName": "项目名称",
+            "GUID": "5af00675-e316-4cee-acfc-239199d9561e"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='高级表格-Mobile'!B5"
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "9,3": {
+      "NameUsedInJavaScript": "项目名称",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "项目名称",
+        "GUID": "c9271acf-712c-471f-bd9f-1e05b0c7c989"
+      }
+    },
+    "9,4": {
+      "NameUsedInJavaScript": "icon",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "icon",
+        "GUID": "3f223fd8-80fb-44fd-858f-7526b66a7268"
+      }
+    },
+    "9,5": {
+      "NameUsedInJavaScript": "负责人.全名",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "负责人",
+        "GUID": "ac033901-f604-4d52-b484-a9d53f74b2ce",
+        "AttachType": {
+          "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+          "UserColumnAttachType": 1
+        }
+      }
+    },
+    "9,6": {
+      "NameUsedInJavaScript": "项目详情",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "项目详情",
+        "GUID": "bd366650-173c-4240-9a58-0d298e2459df"
+      }
+    },
+    "9,7": {
+      "NameUsedInJavaScript": "进度"
+    },
+    "9,8": {
+      "NameUsedInJavaScript": "最后更新日期",
+      "BindingInfo": {
+        "TableName": "项目信息",
+        "ColumnName": "FGC_LastModifyDate",
+        "GUID": "7b427d08-07b7-405d-8d7b-749093d9f2be"
+      }
+    },
+    "12,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Pagination, Vant",
+        "ListviewName": "表格1",
+        "mode": "multi",
+        "itemsPerPage": 7,
+        "prevText": "上一页",
+        "nextText": "下一页"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 1,
+        "HorizontalAlignment": 0,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 1,
+        "HorizontalAlignment": 0,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "HorizontalAlignment": 0,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Blue",
+        "Background 1 -5",
+        "Body",
+        "Left"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "2,3": 3,
+      "2,4": 4,
+      "2,5": 4,
+      "2,6": 4,
+      "2,7": 4,
+      "2,8": 4,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "4,1": 5,
+      "4,2": 2,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "5,1": 6,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "6,1": 7,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 2,
+      "7,1": 6,
+      "7,2": 2,
+      "7,3": 2,
+      "7,4": 2,
+      "7,5": 2,
+      "7,6": 2,
+      "7,7": 2,
+      "7,8": 2,
+      "8,1": 7,
+      "8,2": 7,
+      "9,2": 7,
+      "10,2": 7,
+      "11,1": 7,
+      "11,2": 7,
+      "12,1": 7,
+      "12,2": 7,
+      "13,1": 7,
+      "13,2": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,0,1,3",
+    "2,3,1,6",
+    "8,1,3,1",
+    "10,3,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "标题"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "详情点击"
+      }
+    ],
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "快捷导航列表",
+        "TableValue": {
+          "TableName": "快捷导航表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "快捷导航表",
+                "ColumnName": "菜单ID",
+                "GUID": "23b29cb6-f36a-420c-ad86-35a16a0a705b",
+                "RelationBinding": {
+                  "RelatedTable": "导航菜单表",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "显示文本"
+                }
+              },
+              "ColumnName": "显示文本"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "快捷导航表",
+              "ColumnName": "用户",
+              "GUID": "960ee61b-0843-4f20-ad0d-d2da431d7a01"
+            },
+            "Value": "%CurrentUser.UserName%"
+          }
+        },
+        "ID": "fa313485c147438e8b682ce7c074c60b"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "导航数组",
+        "ID": "8be2346e13c24f8cb02b72bed503df48"
+      },
+      {
+        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+        "LoopInfo": {
+          "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+          "LoopCount": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='高级表格-Mobile'!快捷导航列表"
+          },
+          "LoopItemParamName": "Item"
+        },
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "导航数组",
+            "ParameterValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='高级表格-Mobile'!导航数组&\",\"&'高级表格-Mobile'!Item.显示文本"
+            },
+            "ID": "32911c9f6d7e42368452dccd9f377fb3"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='高级表格-Mobile'!B9"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='高级表格-Mobile'!导航数组"
+            }
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "快捷导航列表",
+        "TableValue": {
+          "TableName": "快捷导航表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "快捷导航表",
+                "ColumnName": "菜单ID",
+                "GUID": "d11e7e10-7760-4e59-9432-f2cca2ff1b6c",
+                "RelationBinding": {
+                  "RelatedTable": "导航菜单表",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "显示文本"
+                }
+              },
+              "ColumnName": "显示文本"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "快捷导航表",
+              "ColumnName": "用户",
+              "GUID": "ca37c435-a93d-4a54-aa4a-8cd6987eba1c"
+            },
+            "Value": "%CurrentUser.UserName%"
+          }
+        },
+        "ID": "4c226f869f35453885f387c5b739d125"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "导航数组",
+        "ID": "2a2e042d34c544db8717d31f67ebaa9e"
+      },
+      {
+        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+        "LoopInfo": {
+          "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+          "LoopCount": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='高级表格-Mobile'!快捷导航列表"
+          },
+          "LoopItemParamName": "Item"
+        },
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "导航数组",
+            "ParameterValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='高级表格-Mobile'!导航数组&\",\"&'高级表格-Mobile'!Item.显示文本"
+            },
+            "ID": "7e93fa05a703453881dcb54ee91ecbd6"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='高级表格-Mobile'!B9"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='高级表格-Mobile'!导航数组"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//BNZUoqOm1rG03tCZJEh4CgmvJtElELOAB18ooofYC7r37fFLavdsJo1QSSYrZ76m5hmgvMOfSc/tmUxQDWvsk/nUSM9W4IyQOqA6umZCnT1WJtj6SIe7MqfMsUtGw+dZmQMcu6VQIFGL3eT4ATZSjVh0QmdHU2W1MSbrtfGcyUDnlLdsvBh8GUFIhlmaYVDkNyVArx6lWdt+4WZ3P9pmcgYuL0tu0YNTlQ1GKdqX0+t5u5zqAnOfAb+/AGl/yq2/4Q2D2dJBNwTaZjt2Iv1c6s6q3vRaB8mV+lv32Qo8Zlrfq82Kbnf+AfpiiKYYrUbrqMTN8dd6gst+cM74e303aVIwMD78/+CM8PAQoO4M39iDmKruGOboSATfyUeWZcJ+yj23W3u86pEOeFZutYQ19T8raidygVcNZCqZKDIoKEY0x5MOHSt3YA3U4/8oT1VhHEpOiNhIw7ugRK2Y7dCf3/0jOVOFnNnGkvNAqEoPszdLk1pcOZ7hJuzwkemTW5EDJXZFqaLZv8gPmES7Xf/Cxo3J1kWAlKGB2fiwyw5pL9RF5+Xw0IAJ/tAMzW0EzOStzey9FhYRsi+PPMcO7NFAbbMV6es5XQ3v4PJPJW6ZoWSanCbO8vVczq7UBcDIzRDW57DaVIf4/66TICSfhokMVILh4SuY+5Zu7/Gq7UaLdkRPzSh8UadNep1QRt7KR0zFeBumyKmoODPXri+ayYswGyTQBjoDcZs1quBWnErQlb7CO1ewMEvD3qehA5nnnZ4HKYyNlzpb/CBxHp8DzfVFT2rsj1YAZq3It39uA3ZAah5q28Qk6tzwdN3cwuhLchBFENDV3uvKVKsHPXS2Grno2yUXn38oLL90+7SUkJFmeN/ON/VILxV0MTueDh6bZwOtcQB3cegZ24Vk/QIQ2IMZaw==|920

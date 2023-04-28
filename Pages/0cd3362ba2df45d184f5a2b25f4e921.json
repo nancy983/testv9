@@ -1,0 +1,300 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 204.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 204.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 328.0,
+          "IsHidden": true
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0,
+          "IsHidden": true
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 328.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "IsHidden": true
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "IsHidden": true
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Count": 7,
+    "DefaultSize": 120.0
+  },
+  "Values": {
+    "0,0": "新增产品"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 3,
+            "DrawerDirection": 3,
+            "ShowDrawerHeader": true,
+            "PageName": "弹出表单"
+          }
+        ],
+        "Text": "新增产品",
+        "TemplateKey": "虚线按钮",
+        "Icon": {
+          "Name": "Application/001_add_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "0,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "产品卡片",
+        "PropertyValues": [
+          {
+            "Name": "icon",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='0cd3362ba2df45d184f5a2b25f4e921'!D1"
+            }
+          },
+          {
+            "Name": "名称",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='0cd3362ba2df45d184f5a2b25f4e921'!E1"
+            }
+          },
+          {
+            "Name": "描述",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='0cd3362ba2df45d184f5a2b25f4e921'!G1"
+            }
+          }
+        ]
+      }
+    },
+    "0,3": {
+      "TemplateCellSource": "icon"
+    },
+    "0,4": {
+      "TemplateCellSource": "名称"
+    },
+    "0,5": {
+      "CellComment": {
+        "Comments": "用来判断是否第一行"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式2",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='0cd3362ba2df45d184f5a2b25f4e921'!F1"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=1"
+                  }
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='0cd3362ba2df45d184f5a2b25f4e921'!A:B"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  }
+                ],
+                "ID": "33208930-b329-4f2a-8ae7-dda61d0c7d6c"
+              }
+            ]
+          }
+        ]
+      },
+      "TemplateCellSource": "行号"
+    },
+    "0,6": {
+      "TemplateCellSource": "描述"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": null,
+        "Foreground": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Background 1 0",
+        "Text 1 50",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,5": 2
+    },
+    "ColStyles": {
+      "0": 3,
+      "1": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 4,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "卡片图文列表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "2b4fc9b4-249b-49cc-9de8-eb0112d030db",
+      "DisplayName": "背景颜色",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1008,204"
+    },
+    {
+      "Name": "c9e67d11-1594-48b5-a4da-5711d2a79ce8",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "328,204"
+    },
+    {
+      "Name": "f115729f-75fe-4c27-a692-41edd6989645",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "344,0",
+      "Size": "328,204",
+      "BoxShadowString": "0 0 0 5 Background_1_-35"
+    }
+  ]
+}//OntWr5P+VKr+bmgiZL1w9xdrvmCEnRoOczSOqWz1c63Xpd8oeEirVN39y5auR6EOCuuzvC9D08LQpMjmS9C+larN5G3IHrV8FprhKvkVmOzwayChHBfl6J2AzJuJ0ZILWDf5JNhg/+h9NNpb+Wf1LFpDxv8G8ckBMbl9e07YaMNNTd7ZAVPqLVLyvajt6TpMkaywvjc0BlZwz/1asgCW/++ZUpxvNEC734inj5U7rFf6cHOnZwMEOsXi6m6uQGkExZokHO8VgjPqUNPqnSlefjhZf30/oJxGpzQmERKNRwnfj+tNarsDwBpcNFTDOInnK3MlPmXoU5lPPwzwttVi+c9VHAYWXTuKVPUyqRJUADT5kdWy4Bc4vhAAylctHjkHtlfsw8jwmZzyz8LL6j7osK+W3xh0Xdq1su7mKpVqJ1uEfNRIo3Vu4T76NBszmjo8HZbNuioe5pif8D6BkuC8rJFkqXqXAchN8Htx+LaJ0UCxaw0Kx9BV3pMzpbPVxTN+ty27xIHjr0iR+nYUgNuhpO1YarHNdkqFW4fLxilSpYLLzrJ8dslYaqXBzm24tfJimTiiuElc9tfRVvoy03pOzR/egyK852sZPib8zvcvPj5Z8nq35uWMENLPsIMMrp9AUr7ZeP1An1GxhtQrRaQwR1fM4YuHK+mpoHlAY5JJYXi3jXwEAO3s0a7NcIBNG83A1ZBDfXWV0RHI6co/SPQF17LjBWCkfU6kzGpktMyykChM/wJPtYmDYWeoqrOqI/7RW/FiGiRpQzeD1p7nOVVbIFkThRw8benKIiPvNxoiRy/lfKiIEp8jR5Cg7HxhyYdnpceh4r9a0RDb7JdNBcDsHdGsqieoT7ux/iLbc0WEP1dgXH2s7LZY9ymO+qjVuSItPtpZIt0aIEfWWJm1bnbsPg==|920

@@ -1,0 +1,126 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 196.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "ElementUI.DatePickerCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "选择"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "date",
+        "placeholder": "请输入",
+        "startPlaceholder": "开始日期",
+        "rangeSeparator": "至",
+        "endPlaceholder": "结束日期",
+        "format": "yyyy年MM月DD日",
+        "firstDayOfWeek": 1,
+        "DefautWeekFormat": "yyyy 第 WW 周"
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "选择"
+      }
+    ],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//dwf/oG+RaXKhB1eb/wJOCyAyPR1YvbFdTC4vh+x+ct4lo+SVhBiuBShqkMgyDVtmg8hB8jMrzFkoMqnI0BdPQCwsCGxZD4IfSoWUlAYsGMiLVeXph02oMjPLLPyDrM9SUnHL77UL9VxE4jNeDqaFdJtp0aDlpzs6kFsTwZP0LFiD8kqAbkYUzL+FFhYKqmYQZlDGuR8Ozg9BFKGHlq/RzV4EEiCeyzxXZnoTvGDL5LD+ZGaMN8yEn14CPhvjawm1mXhJT/HTkAHd1nwO06/4pB944coejrvugz7zGQSlPa1R6BMqnQl+61Q8VFfQPyBSsM8IXGKRiAlP6EIwoj6YAFyRuw8Nf/+N8NQCMBcxIeUzSlB99D7MGCkXCfoBO6MTXPhK8400W3tFv1+LdHS/rpOYD1KGTt9KE7rcy27/QkAgl9rXX7cbR+GPJBGAuxzJrmj2IgTZxobSirM6U4L3808qugrA6COPURAIiMxksJIM/HSUJYG9pzm6HltHrdBIn1nRuQtbeG/aRrtWTc8OlXzhD+v8afFMrc011DxuncEsC0xE4C9PWDgTeOmH1S3Et8XugT4+FfKIpS0ogj4GKipNQaZbIUJ7EOTCFkWy1boQcHLA1k6BmjbxDGRJyS+4iMJMKAqZhdIhlmBOP98FwSB4kkNddg0gPRV8GOTayfMfcunyw+ck+I+7768EoRMuLfL7jdyZ35f7+AiErecJblbrx/00GWQyRM5ed1f1CME7WxZUxtFg4Ra8XIy0WAKtJm1q9mUdhc8kzfxY543gwDLLQEeNJNhtPXT55PpyINmxyOA+xbcc0ZZmlfxI78tRGTInoc5mMnT4xKy9oYJIfhZ3U1krtCGAtyXrDZf5VX5nprlpcf/wKsvcFnmYyrFBtFSPsBZrfL/97UqIHTQFOA==|920

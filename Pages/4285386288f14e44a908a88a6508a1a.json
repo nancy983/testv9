@@ -1,0 +1,275 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 133.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 133.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 133.0,
+          "Mode": 1
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 133.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 133.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 133.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 133.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "用户姓名："
+          }
+        ]
+      },
+      "TemplateCellSource": "用户姓名"
+    },
+    "0,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "会员卡号："
+          }
+        ]
+      },
+      "TemplateCellSource": "会员卡号"
+    },
+    "0,4": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "身份证："
+          }
+        ]
+      },
+      "TemplateCellSource": "身份证"
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "联系方式："
+          }
+        ]
+      },
+      "TemplateCellSource": "联系方式"
+    },
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "联系地址："
+          }
+        ]
+      },
+      "TemplateCellSource": "联系地址"
+    },
+    "4,0": {
+      "TemplateCellSource": "用户组类型"
+    },
+    "6,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "X数据："
+          }
+        ]
+      },
+      "TemplateCellSource": "X数据"
+    },
+    "6,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期-水平-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "数据更新时间："
+          }
+        ]
+      },
+      "TemplateCellSource": "数据更新时间"
+    },
+    "8,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "多层级用户信息"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold"
+      ]
+    },
+    "CellStyles": {
+      "0,2": 0,
+      "0,4": 0,
+      "2,0": 0,
+      "2,2": 0,
+      "4,0": 1,
+      "6,0": 0,
+      "6,2": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,2",
+    "0,2,1,2",
+    "0,4,1,2",
+    "2,0,1,2",
+    "2,2,1,4",
+    "6,0,1,2",
+    "6,2,1,2",
+    "8,0,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "高级详情页-用户信息"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//TMC9Le3bMAG1/gK8qW2e8D7ILmUhmB3lsSQl90x/4XzV+ZjXroNYwbiNEhM59eG5K+dXlO5jJRxmAbaARyWjxFce9UO/kBMF8l1eLEeYvfm9UY94ZZr22X5JIY8up01oRJZN37WdVya0CjbLhtgHWSOcLT9zQ6zdsq1EmEpquG9zVHDzWBNlZtNHNnmaDol8h8/ciEDvgQ/wCLCZMdEDQJIqURNgK098oAmCX5PlLnXKM09jTiSprBd7+49HUIji5kFQwByZGVnj+QJuNaKEIpuDPoie7uPF6G2nRbnzGsHp2cTky40YJF9mAlUgONw+3AG9bg0oF/vIoDK8xqG4+IoN5Ccdrn/0syW9xz9Bps6DLXpTxwx+pHsMSE48oOrL2DuysSSXufigZa8L09OPpmm40RttAFkdv/iT5vS/3zkSsw3Y9jyIqHAtMuzHvnWsBh1fnpBRnzjIANVPh0j1Teodr1ZhPoXvv0CAszH8niJzHE2uf5EkZF7odlc64Ht/7qGxQEBjxwKU2RLAd2Sl/yBnqS4KfCOg/mCLYgpxuPicHzx7GBjGdXbXnVV8wylkGNuRo6nRqRaaDumFyLCdsMELVP9UCrqlag8KHtZwwFxzGTOLaP4Qhh/PuH/WisF883DOzD7uMNroX6mSt2slPin0grYUymBfNB8BTLKD0Uuqy6EFQIigpdrw6PyVXY0DbXuPmRRa9hV2WyVgls58fDXN3pyknqWAQV7Q2UQqvENUEEVMUbJBbCRLWUI90eGeQHMNum2SlAY5ApTXWsxeQG8lXvE4rdD75Lz9L85DFOoouH7p+qqH06qkuVGhpUqMswVHdTf7E/UVhV7Hi58P2tP+gStBWyeWsEcf2e/WH2PR3idVosyfsa9MZxfmWBo3pxOlxYrHN1xWPvVid4OZNg==|920

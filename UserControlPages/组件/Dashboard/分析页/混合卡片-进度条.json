@@ -1,0 +1,102 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1
+    ],
+    "Count": 2,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 336.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 336.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "ElementUI.ProgressCellType, ElementUI",
+        "CommandList": [],
+        "strokeWidth": 10.0,
+        "color": "#FF1FC5C5"
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Pf/Kzkkl2Yx2s/P5rZ78b0ri/Q1nZvDmoJKNsREOY2vaIL/pMY5Bx+hCJPyikS+iNZ/zCMBR/N0zcnXLTfMG4qIyeD9UBIirf3BZ6SEKwN7ImthPAfTv/9Sjy6Ax1IH42Q2eXoO0Xg4NfgLxfBmYj2gHorgorNQOFIUlduaDZm+MYB/JXjom746van2qwij0mK4kj5Wq9UzUbEQt85GyBZlIwAn7/481R82hVXDxxahCvUkf8pBzWbeQM7IsdQLLbiyHsCe6cBiAdX9dLay4uP6X7RK9u9dpFOZn6++hDiRZOCNxAiDq+NPuLL5I6PqfbcpVcTlyv6k3wAcLD8H7QspIfdN81o0NeGTacNV5MsCILTETpSYS8E0A47jkIQe5Dj85NEEQ3o7mq/lUDs5u/iYCk2mbF57wuVc+NE2Nl8F9YIUr8g8/hIDeuM509j4o1wzYwK01Y4CdsP9K6b0XJAsW0p6ogSxb+y1vqzGh9YntI/cPAoMOoB7oWVaUaoHkwNSlLKyjrg9ipTa0DphN0o97zCBvC2ltDw3Ii0rRJrASQFN7oDWHG3ffqeGf0F8RH/CZQyf8SdgRQhAc6TgPjMgT1/rAahngPzfmuA/eNoq/5xe2esUyldCMSdj3rD2MufjP5oCFOQUSSHeunpNcuqZ6VIheLAoJwceQCXORWUK38t1poa8YE2ua4Hgs9+EvZafZQFuQz0zOYfhNfK9WwyjNsigZHyDvnBMXELL3ObrHxB2ESAlT0+1WZVIKxpi+jAK2LtisQqmW/oEBP9lFC3y65i6IbgxzniB+NNNeN3D1wQYNm9p51HcRArzNiHE4ucQCY0FHSBCD1HWLY4mWVVDUxcam+jaRc7X7eUMvmuP4qOOZifTd8vqRZ696/+B/UYEd8cKvRsVNDzZkNzpsQg==|920

@@ -1,0 +1,257 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 87.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 75.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 24.0
+  },
+  "Values": {
+    "0,1": "金额",
+    "1,1": "商品条码",
+    "3,1": "商品编号",
+    "5,1": "单价",
+    "7,1": "数量"
+  },
+  "AttachInfos": {
+    "0,3": {
+      "TemplateCellSource": "金额"
+    },
+    "1,3": {
+      "TemplateCellSource": "商品条码"
+    },
+    "3,3": {
+      "TemplateCellSource": "商品编号"
+    },
+    "5,3": {
+      "TemplateCellSource": "单价"
+    },
+    "7,3": {
+      "TemplateCellSource": "数量"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 10.666666666666666,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 10.666666666666666,
+        "Foreground": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 -25",
+        "Bold",
+        "#FFFB584A",
+        "Right",
+        "Text 1 50",
+        "#FF4D4D4D",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 2,
+      "0,3": 3,
+      "0,4": 4,
+      "1,1": 5,
+      "1,2": 6,
+      "1,3": 7,
+      "1,4": 8,
+      "2,1": 6,
+      "2,2": 6,
+      "2,3": 8,
+      "2,4": 8,
+      "3,1": 5,
+      "3,2": 6,
+      "3,3": 7,
+      "3,4": 8,
+      "4,1": 6,
+      "4,2": 6,
+      "4,3": 8,
+      "4,4": 8,
+      "5,1": 5,
+      "5,2": 6,
+      "5,3": 7,
+      "5,4": 8,
+      "6,1": 6,
+      "6,2": 6,
+      "6,3": 8,
+      "6,4": 8,
+      "7,1": 5,
+      "7,2": 6,
+      "7,3": 7,
+      "7,4": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 6,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "基础详情-退货商品-Mobile"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//fu1NomijBRcXPwXtIIWjeIIMOaPLQxaxkn+J+HjDfMgcHwdbfDO6WnWZwzQ79TxiRVzWW5l5boseHP7PZholYXIGbMTh65akkyPRG5LTf7Wny/yXH4U+rV9Ozq0+PPKMo5K6eFpnsFlb6KNnj7Mv6Iwr0IZMDp8ER40nx0HtiJm59sdVXLWtFDeJgMg3fTJsv+tplZ3XALAdJAQl1klQEfmwftzLTsiQ/2JWejk9nqdPLZuvpI1TI155G8NtAk2myvRRK0GrACNE36m0gaEOvDMKko6qVvsY4HGi6OMLPjA9HQgPP+SD7ZmKeGQMjdHyvIfpVVQnZbZh+b5yJHiTcIKv8SctBDMdRV4nEffUQHAtf4iBlV+doHvoDG/q1AbA2vi48WFpT3q8of/5WBo0BBnK4dSY7MUBCr5kNovXItXZhAN1vv51jzRGJyuUUtB7/VsuyYnUiAsRvkodoqFbkYf9wWBqk5ip7Rj/Z/QhXJ2droqjKBRS0BH7oPDGznyVoEDhhk7bvrnCv00KKne/ml0Rzibs5KTnHUiQnRnP3M3a/fsyp5S8YtNAX7MANQ4C5klQzD5l1SDEj1/7CozQsR68h99I/VECokXCpdUbDYJnTqAdJifFJBUx7BLJkWKbF1LZSTA4B26uMBTESZ3cjsPmG9tIipPwmWHI6YIN8BUp4jsPmO7neR6eu7cIIPyRCcEqY5QquZ6DcyceAAWYTL07Jh9Ji3pJVO0tnET2q9SHhbfmqRofE+XhSPOA+LiS99jXDP/zkjhK8znR3fPS9lRBp6eAtf1TtelAiZvkUfc1a9Rg/5Wnod+aJ7WP8EoqRYhThBKUigP8ONNmH0nxVJgbL/XP0Q573tUOvs5dSA5xLD+Jd4yT9v6ADOr1VQ1PlL4Y//CNTkChHq3QQ9JiGQ==|920

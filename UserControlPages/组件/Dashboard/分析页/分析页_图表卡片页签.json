@@ -1,0 +1,287 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 276.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 3.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "1,1": "销售额"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.TabHeader, ElementUI",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签标题"
+          }
+        },
+        "DefaultValue": "销售额",
+        "Tabs": [
+          {
+            "Value": "销售额",
+            "Name": "销售额"
+          },
+          {
+            "Value": "销售量",
+            "Name": "销售量"
+          }
+        ],
+        "type": "default",
+        "position": "top"
+      },
+      "TemplateCellSource": "图表类型"
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 14.67,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 14.67,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF6395F9",
+        "#FFF0F2F5",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "2,1": 2,
+      "2,2": 3,
+      "3,2": 3,
+      "4,2": 3,
+      "5,2": 3,
+      "6,1": 3,
+      "6,2": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,1,4,1"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "图表类型"
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=分析页_图表卡片页签!图表类型"
+                    }
+                  ]
+                },
+                "value": "销售额"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=分析页_图表卡片页签!B3"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "SetUserControlPage",
+                  "ParameterValues": {
+                    "userControlPageName": "图表卡片页签-销售额柱形图",
+                    "propertyValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": []
+                    },
+                    "commandHandlers": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": []
+                    }
+                  }
+                }
+              ],
+              "ID": "3bcbc811-b4bb-43a9-a4f2-e1d422b2582c"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=分析页_图表卡片页签!图表类型"
+                    }
+                  ]
+                },
+                "value": "销售量"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                  "TargetPageElement": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=分析页_图表卡片页签!B3"
+                  },
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=9.0.3.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "MethodName": "SetUserControlPage",
+                  "ParameterValues": {
+                    "userControlPageName": "图表卡片页签-销售量柱形图",
+                    "propertyValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": []
+                    },
+                    "commandHandlers": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": []
+                    }
+                  }
+                }
+              ],
+              "ID": "139961a5-c378-4160-baeb-daac339a6842"
+            }
+          ]
+        }
+      ],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    },
+    "RelatedDataTableName": "销售信息"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//ZsxdIZvPAPTo/xmwCIEDVNxP25zlLvIXNr8LymHu3C/USx1E92CXrMRRQnC793U0Dti3vSfX5NjWwOTDFCLSyzwu5xeGD7NhxQL33OBY3kqJJSL5Wr8YtNzpNZEbYsCtlAUnSk9frJsdyIRexCVQtHqD95+3W4Q76j5+r4MwiLWXF7kfEet4HjA+GbNpKaA3PDCr5pBN3Fh+CyIVL9ANOBvKP6COBd960Wjw9yXMPWRgvjYCdqS3Enn4ptpoBurlGqUtuxNtW+LFDFpuO3gxMyZWsA/vKerF8+N4iETpWF6EfGp6AmcJMEf40lcpa06kmPiopJ/1L7qxpCOxhNTGJjocvm2uK8sJlZeU95McCyiYxeqyMoPX5uApiSe6KzeHCAyE/BVOvI5SAetRO3A97QYxX0P20cmpJKHum1fACipIkmyBFAYmkJpMiNuB7ZqXwA9WksitkwhuUa/3I6HjTcxzcW7zsmflBRd5ljlBht/+h61gP2Wq0LPw3mMiqwchruy1/2Ffy3setPe5lLy+V2khxZJwuj6deQake6nq1336Z2IVl/MQz+ivFBBtCFU2Am6WjKTIKwzRdORT8LqW8x3fVPaZkfiArmhW24AZIGn+PU3XTK5b6UJqYWtFiUUJJoYhNPqUlqjim+CoSQtybFTnEwimspE1X5pNaB8eBWdiUTTO75q/E6NV5L8gvh6PvbDpAYMnZVLERYTuD61I08pHDNCVV2SVsDz25ZdpQAd2lQ6Sj9mmiS2dMqTLu5N3mkwBnSVGeKZmVnobKui6RcHGDoEQfpW9dwqfpbWjZphGrFnzPjv9N3QFG98qvW4/+Gaohyj5YYiPfEICOGJprBV5MuCTPopeCnJmRDz5j6ioeONElSqloslQYof74n15hmGhrZpKN0/x21OdxJ5Aqg==|920

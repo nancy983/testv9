@@ -1,0 +1,763 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 25,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "49": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "50": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "51": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "54": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "56": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "60": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 61
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "总销售额"
+          },
+          {
+            "Name": "其他",
+            "Value": "日销售额 ￥12,423"
+          },
+          {
+            "Name": "数据",
+            "Value": "￥126,560"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-文本"
+          }
+        ]
+      }
+    },
+    "1,16": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "访问量"
+          },
+          {
+            "Name": "其他",
+            "Value": "日访问量 1,234"
+          },
+          {
+            "Name": "数据",
+            "Value": "8,846"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-面积图"
+          }
+        ]
+      }
+    },
+    "1,31": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "销量合计"
+          },
+          {
+            "Name": "其他",
+            "Value": "转化率 60%"
+          },
+          {
+            "Name": "数据",
+            "Value": "6,560"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-柱形图"
+          }
+        ]
+      }
+    },
+    "1,46": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_混合卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "运营活动效果"
+          },
+          {
+            "Name": "其他",
+            "Value": "周同比 12%  日同比 11%"
+          },
+          {
+            "Name": "数据",
+            "Value": "78"
+          },
+          {
+            "Name": "图标提示信息",
+            "Value": "指标说明"
+          },
+          {
+            "Name": "子组件",
+            "Value": "混合卡片-进度条"
+          }
+        ]
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_图表卡片页签"
+      }
+    },
+    "3,43": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_列表卡片页签"
+      }
+    },
+    "14,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_列表卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "产品信息"
+          }
+        ]
+      }
+    },
+    "14,31": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "分析页_饼图卡片",
+        "PropertyValues": [
+          {
+            "Name": "标题",
+            "Value": "销售额类别占比"
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,16": 0,
+      "1,31": 0,
+      "1,46": 0,
+      "3,1": 0,
+      "3,43": 0,
+      "14,1": 0,
+      "14,31": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,14",
+    "1,16,1,14",
+    "1,31,1,14",
+    "1,46,1,14",
+    "3,1,10,42",
+    "3,43,10,17",
+    "14,1,10,29",
+    "14,31,10,29"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "默认菜单导航-PC-1360_768",
+    "PageLoadedCommandList": [
+      {
+        "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "82e028fc-2ca9-4e5b-a2ee-cd61b7cd88a2",
+      "DisplayName": "背景颜色",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1152,664"
+    },
+    {
+      "Name": "ba3dc680-bdfc-4bc0-bd68-3fd2713f5c97",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "CornerRadius": 2.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "272,120"
+    },
+    {
+      "Name": "5e2611bf-d285-41ce-b6ce-fc47dd815c4d",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 2.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "304,16",
+      "Size": "272,120"
+    },
+    {
+      "Name": "e25d0b12-8303-46b6-9e6c-0fd0fa589e26",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "CornerRadius": 2.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "592,16",
+      "Size": "272,120"
+    },
+    {
+      "Name": "48b2682c-ddbe-49ba-90eb-fbd59f5f8047",
+      "DisplayName": "背景图4",
+      "StyleInfo": {
+        "CornerRadius": 2.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "880,16",
+      "Size": "272,120"
+    },
+    {
+      "Name": "e000b62b-54c1-4c46-bd1e-b7550116c309",
+      "DisplayName": "背景图5",
+      "StyleInfo": {
+        "CornerRadius": 2.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,152",
+      "Size": "1136,256"
+    },
+    {
+      "Name": "f1fc8b37-b051-4cfe-bc79-b43300e9bfb8",
+      "DisplayName": "背景图6",
+      "StyleInfo": {
+        "CornerRadius": 2.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,424",
+      "Size": "560,256"
+    },
+    {
+      "Name": "530221d2-54bb-4396-9939-ac3ecf0142e3",
+      "DisplayName": "背景图7",
+      "StyleInfo": {
+        "CornerRadius": 2.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "592,424",
+      "Size": "560,256"
+    }
+  ]
+}//it3zwk0J+mSIULJtYCNHPAUD5GKxIFW+dbQxazsslEf1URK97IceRD1haYt3pjYimr9n+qlwhIQzb3M/bwPI/SKOEsQtIRV7LK8RshDCekFlaMgReM+B2V0Ss5iYKH622iSnjgP7EVUFSyBVK0HyMr/HHz9DEBe0NhV0u9EkF6pkSWsf+PtCcaQL90FE7kx4nFn61Cot/UwAZnTcAQAGBT9J57Lp0XcIbkwRDVBvyuy/Afp4TshcWCOXzRSpAFAOclAy+/ri1q8p9Q/x4HPkhjRyP/IbWTkYzKE8o8bsMaphDpRc4v/5WN4kNmZAVgZT9VcWAhn9pucTPdz9T4mjEgnUQZ5R8/YbJgyMu0777uK3TTPVNV/l9C/68PkqDpruYEBj0S8P0KVPddQDoDBZXugNWYMLfjbE4fQf9IfAvAi5P5QixW+Q+rqqraYNCBZmpWQ6SIUx6x5z00sqqpf2L1X32iLgnx/dA4gIg/dLBmPAIUeUDfXlolJdzjRQp19d4e6yYsysqNRCXAmKwAOOUAwZl81EZ/sicwlQ7NZMzfXpb47xRZ9SpX14t97D7I/L44HTK44lArK+7lmbha5zreJUKsBckv06Wfciaxk0Uo1axvf+M6XPVsAOx0Y7e6M/o1J9qLNzmudD4w/XTO9rcYlY9t4vJ+8mfPjxrLBAjxKPVDRdC0x2mGab7ldeqYqKVHcYQR6LXPfsbhyxzmXqzZzhEnbNflyin8ATpYfmNq6u11LWqGwH+ChvYR2aOYmiX1WVFRiMvSTsT/Zm9hOBBF0dh46qZssYAw0KFBW11Gf3LMAa3oaLdHE90I8AJJZ7/8a0jEOrGdO1GOpO15lEx+OWZbhFZ2WY5fmX+AXSvGxoh7mXXxVMKxMzShTvPPRB35ZiZeCEe+692dknuKx9aA==|920

@@ -1,0 +1,331 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      6,
+      7,
+      8
+    ],
+    "Count": 9,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 80.0
+  },
+  "Values": {
+    "1,1": "退货进度"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "二级标题"
+      }
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "下分割线"
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "af269f80911345d9ace94a41524ce18",
+        "ListviewName": "表格1",
+        "TemplateKey": "样可选择_取消默认选中"
+      }
+    },
+    "6,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "退货进度表",
+        "RowIndex": 6,
+        "ColumnIndex": 1,
+        "RowCount": 3,
+        "ColumnCount": 5,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "退货申请表ID",
+          "MasterTable": "退款申请表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "样式2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "7,1": {
+      "NameUsedInJavaScript": "时间",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "时间",
+        "GUID": "845a3520-2980-4432-873d-2a751069ce25"
+      }
+    },
+    "7,2": {
+      "NameUsedInJavaScript": "当前进度",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "当前进度",
+        "GUID": "b8938696-2d9f-44b1-9971-b5aa7b530106"
+      }
+    },
+    "7,3": {
+      "NameUsedInJavaScript": "状态",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "状态",
+        "GUID": "366620c0-8709-49cd-9ad9-eb27d2f8b5cc"
+      }
+    },
+    "7,4": {
+      "NameUsedInJavaScript": "操作员ID",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "操作员ID",
+        "GUID": "df995528-fe03-4b73-b6b1-638015567c4d"
+      }
+    },
+    "7,5": {
+      "NameUsedInJavaScript": "耗时",
+      "BindingInfo": {
+        "TableName": "退货进度表",
+        "ColumnName": "耗时",
+        "GUID": "a1c79d54-399f-4b05-8275-402f40e69ca7"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Left",
+        "Background 1 0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "4,1": 0,
+      "4,6": 0,
+      "5,1": 0,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "6,1": 1,
+      "6,2": 1,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1
+    },
+    "RowStyles": {
+      "4": 2,
+      "5": 2,
+      "6": 3,
+      "7": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,5",
+    "2,1,1,5",
+    "4,1,1,5",
+    "8,1,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//wCp6+14JFCtNEGxjuFxyD+qHxK4C8aI0w0anZfiqCkr/6exndoTnjj4j0L9gcoZeBwhHDBfglAkMbiAbTjCo60aj5Yswkmeed9hMlRryR8ofnPF+3M1bDohZEuQi24mbisOFpaxmkvVFMoKhGlGVdPWwo0OnHDEtJo4IVJQy+5oyJAhtAzTD35DCNEKhKD653P0pU23JJHAudNG56EYhZI1ltbftm+fDbtcGE5dETKwZzeSTuTUx6xWPYY2ItOCA/SE0TgTyU/Sqjju/V12jEvxcinAASbfmjdACoPn7/53I5614Xw54mXoqiXBx/kJ3F+Axg3fcEJs7eLmJ4OysK8Ey4v3YtJWMOGSlM/jXJb6alCC5LNSnOgpXoLSGfZzNy/rs1r48sLIFJR03I9Vk8A9tPogGph0YVT1a7O/0TnHCM8RbRNWIt2ZjjNdDywgMsL3owtxYhbHVWS7NERLejPAkEC/jEuUIdksoDG41ZCiWWPZb9q64Ns8xCQXDHPNzWCWntTbc3on8VnRxeOyeKCHVitZb93jv2O4JVnZCsHweKsIJq19XVkRHHkQ4IhDvrP2wAuGaxkiUCNaOE7FVtcY6mLpFTzpY1YbIaiVXmzXwl+smhhjjuM9411Zoq620OxIQse2eYbnEgQi2mtLuy3JMcfLbF1eWiFcadPlwwPFDFpUgzTcFC1mZ3v7zNywuKla/YUQ1OKSzRbbmEqRfH3myxgVoxXkq3b+/xTVb/dLlzY2SdBgS7L2GZsNNj1RJda4NINA1RnZQ7uaRg7O8UqPB7QkhGg9ucI4al5bo9K0676vQC+bUhonH+dZRfzUDASgCfTJlxnqsJre/whKWmaAwINtkaSG7EQANCQ38qs6inG+r0vA8oJYws5ezhi3fBrmsoyn74ZOTOATeUuNjwA==|920

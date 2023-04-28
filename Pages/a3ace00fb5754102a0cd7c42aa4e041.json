@@ -1,0 +1,133 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 70.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 70.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 70.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 70.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 70.0
+  },
+  "Values": {
+    "0,3": "编辑"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "姓名"
+    },
+    "0,1": {
+      "TemplateCellSource": "员工编号"
+    },
+    "0,2": {
+      "TemplateCellSource": "工作类型"
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "弹出表单-Mobile"
+          }
+        ],
+        "Text": "编辑",
+        "ClickMode": 1
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 0",
+        "Body",
+        "Center"
+      ]
+    },
+    "ColStyles": {
+      "3": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "HorizontalAlignment": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "高级表单-Mobile",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}////ZORnCnHh9ynj6eAdP1KnoecU2X/HMvJUangMDu7EaFXreaWCBqXIIbdmVnKWPoxTwdjIGsAXuB4kpA0ux7TDqpJUbV5HAVARo0vEbRsnoGj8SOiW18Hwo6pNP5mvtDRb0uo/ET+iaZP5bd8u69FzpOHhZPVc/62V1J4eR7yjWhrBKGYPap8mec2l3h7OPxdaBNEOqkvaVprRoLsgxrzRoAFhwpbR+awc03HLp0hD/j3mg/6volWVrNYTuKjwu7uP0ykjKdeA4dAo68TTAKyb3EvH7VW7VhEfU+0pQSVL8vpW5b1VFn6ROgTQimjCUU/zUpY9AfNEXviL+/d8zxF/L/28VnmbEyoaVLeKeM05e61Qi9zOiRtPO1FORj/ns2pp3TA8tqixyDo2NWaRa8HlmCoYyL1LFfHn+oa3nWJHRmwxLcTpcCOYd9d3Zzmc03Wb8qAKoQXJekj+CoKTheiLaUucnmaCXMnLj7mI+Hglt8spRsSE7nNSqYNBIZFuSdNBY5YSTLz+h4+nv3B7HZJpzAgApgj8m5Iu00qW7IHNPmfGYGiD838D6pqcjO7U833h7yvVhGqFjSqbWxTGeAMVhhIhscV2k+q6jRfJ0QwbAsxOKi6zi5HblFoqxkAPhSbluBUKl/VYqDF8h4T0NN4MZuIZdMrP+HdmY4EWRxcQ3UJ1FmMp/OE0WDBtcgK2l7sCDFzsWJ/of/tcaabs2OqZ6A+9Ixf9zQyj+mz2CWyXUX7XCXhS4tf+2Vc9x6CIOei8Q8qn74/k04oEuHcC8pImbEiYDEbdcfVa4YisrLz3ekj0zrDNMVKjC27yE1zy+po/xhjXfOpFRuVKZ9OL+HBtIsCR2K0xIHvRHhwMtNbPjI+LdIamWY993pwdfwKKxSZUGYmzrlFl4e0fy3UETPew==|920

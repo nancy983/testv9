@@ -1,0 +1,70 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 100.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body",
+        "Left"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 18.666666666666664,
+      "HorizontalAlignment": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//XR1mJDXQmTM6eFBjcyaLdtpzJtoL8xD3KIzkW63NiBiTKpWVAQugkAyixYFXFlxPV0DuBG2stOZlRlm/6Vgl6ddfC/DXTdbqLkKEKGYPK2aohlmFG5jIEA+1u/yID+O5qKlH6qgQNQNl4RZS8upmI59Kr0PSIPrDmVVKpmp/fuJOyI5WUVpDKLlXzUWW0qZmXKPr/BzSRxSgY/UtwmVeTvXjQfUWaxOKezP1d8t2/wP/uYx7WLQPI6neuBfqTJWyJGCFebW2/mwqx7AmWqmXec8ziyZIz+PEWzNP8dOfO++O6YhiZ38wdvKB2ehBK1mPF++Kb5TWqId/WbQTchCzXlewcViVs5lR/KN3jwfqvvufR7FGPfKjywSWtj8BtyWyT5zz2uyj4E0ju3zG7UlCHzX4iUUdJaFiuBN4PRoKerOZBawkEi1iMhiofSmR9pQu3CQUMv4rEaicDWEoMFnYfzr5qpfpmfMnU+ECgSFSnpkeg8tSdvS/kdiws+9e8bHDm+QMFoPUj4mXKmem8i1+eSw5Ss8osq6yhYHLjMCY3SsXVw1YLikfOa0Z7Tk2+/kJfJgdO4nJl70h3EAvwhqgPX6hLvCAiluDs+o336Yo7KY1PwyQi1ws6JLX8Bk/7f/ngcj/Tkr0i2m1KNF5Yn/jQocBYtLBneERKRvycbVhdqMTAZkRK9xyQ4YVZPqeq9zuGnAZZCghof2wUMLoUD46G/WNrvZ1kCbLkKrIJbDBZ2ZUNyl8uBv9IJ9ZGTf0XlxoJ4wB9h/qBg0tKM9NJ+U68RxIDHElB1Hv1G1Bh2HfVkiqHWPsMSgLv1+COe6rjwPyZAdj5wWETQ+YVKDlswbDjLhQ18wsks4+w9qmwbHRi/yzUNePEbuh1oKN4YUoe/+Oi2yoxDmtBfy7lBHqqGfm0Q==|920

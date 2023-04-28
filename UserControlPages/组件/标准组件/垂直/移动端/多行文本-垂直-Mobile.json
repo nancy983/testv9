@@ -1,0 +1,122 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 196.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Input, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "textarea",
+        "keyboardType": "text",
+        "enterkeyhint": "enter",
+        "placeholder": "请输入"
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0,
+      "1": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      }
+    ],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//VqeLFqa6l2H8y5If9WDPO6EfbHTwT3wCaCXllrwqQ890P9mu08U+BCYx3LtfG9XMLqsJJ5yV1HHOeI1CDwnpZKRMahxYcOfnoSlUesTbFH7cYQzwrZEEzEC4kTqAbks4OLC/1pt4IzQLkH2ON34AdZHEK5fHPuB28BB2hYlwXiIl4OBWMdSEiqh6ghDymjJWb9HTRQg/Fxpog9MMEjA6YvkEDMgB9wZ+7oh/nm6Ye3DZJYFUwqvUH+qWw+XT1L65IMxmiM8ORi0nPm40nEMMAWNuNgaWCUhwJrroV7rEvN0M6BgUI3Z3ciHlIbEA4Ou2GCovFdTQUFCg40dWQ3zaNuY4EFTmczStyDuZPA3DRGmC/1NTI2c6QtY5Q4n7S7U5SyJ6MbDxivnvlWUl4zrinUDGdtkGdQZJvj1H93bKFbgtwb86nD2/OHzES2Hs0IE8tcedm0wo367/QyE7Mny7oRcpvTgCF4yM5KU0R6Lw424ixSon4w5v6MsSkxZtRX87Xp4BHMpj8Ov1e6a+KNh9NjXfPCErqG4U2NtUAoUgE1f/R5oEojXWvy9ekMkEAYwbaiflhkYJxl8QtVK5hlEwhJUJ4Aq4W2sQ58ViV3khR8C7mkSxhZ3hd/exthYDlTcCfqd73HQduM25jMjoxwyPn2yqZNBhreJ9XajhUS/cCqeDqFMxrto87zMy4kP2mhbr1T+Hr6AfOhJkMcvRsJulOmniBwtzN/DHKqTL++8m5FzH8Ph4Mg/BOvuf+ulLsJ5PiDGVVoWRmZ6RWqDjI+3ZUF2PpXw3aTHHCb8f6Itz/IqAY9craWF6vNsGGMT8x7pSd2Q0QK7ani5H3HhuvgzToOK0SJG5CZBp4ceXk/4GsIvbbS/RLaxbXXSWL1Ve8F1j/k0+X9oHIxitpi9MW1TgFA==|920

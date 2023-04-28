@@ -1,0 +1,198 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 23,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 58
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "默认菜单导航-PC-1360_768",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "93e8259a-a11c-433f-bcb2-9724e62c935e",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1160,736"
+    }
+  ]
+}//Bazd2iZJmDMbL1IIr3b5ZbHAwZ8+DhikD1oAb1iAcGposgU/0ZYywi1mlNgVpheIbY1KF7DV8RGQSjQpJvi1IEVpnzB2xKcN5tEUMx8y/3m8EZxFCjR9Sql/fUlbfBpmqxT3r7Oso3jn67CVdb+iAa+3V+ESZ0g2bNJZ24DeuBvtDITOMeUaFnKe9Mddc2j1FDfTLsf+lJFsLCJtB7o9hTrHnMHVrvGz59QV9azCnvsXDFaTQbNOd33+/KJMphnh4W4qUMlHsGrpgRFoX1Q9JU/xedjtq9Ba08YlYpKaFKZa9EN1unBeE/nSJzHvnjGkNzT10cQ5xrN7qbPgDN2a+ZanjLb0Km3D50N8CPMM70WhjzNnQ3T0tm1bMIcF6rLFTpUjhb8sAMdG/ztl4O2zeFxbqhj34wTPENYPdbEDHKlm7AzBitsPDvS2DJMuU3wr2LxkWBGma4S/BIzOC50NcTi+3O/0B81CQ4h7fUOKw1kJGT/inosQJDpjqSdxR2XpMM4sGHvr3FLy/9TShV0NnfosEl86QPhy6ZcS3zJd2WwZoC/FLVm5U7oL3QZ+DxFGKKKsGG5i8ziNra/tFc28aQ/ZNwB74luIwx8sg2AWffxg4sdDE+C/bclt/Fc5vP4HfGSh+m823o15VnGPVp5j20LXWs2s1VqjyBHRkoxNBNnCGCYmLAJ4urkA8p/wxLg6iiScsQ6QqR1Oky2iOjAjXCHuEoU43cuWS/mZMzJHxmDa7aPIGP2YF2r7MsHlaloTgk4kX7nJ1x6Kb6rC2jbSoKu/kTMpqs30vzOtv2kgVSWQ4nD2+2M3rf9Zad67QaNoyKsgt1v/SI192PoFQS7q2UF17gAHJqDvrQWlZmc5MANvlofjd8nbS4qKQmX/faSUDIMs2iapINARbEN+2hKotw==|920

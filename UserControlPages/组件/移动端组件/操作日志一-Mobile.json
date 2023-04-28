@@ -1,0 +1,255 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1,
+      2
+    ],
+    "Count": 3,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 150.0
+  },
+  "Values": {
+    "1,1": "操作人"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "82ec8941b24b40beb6df68ad27050d5",
+        "ListviewName": "表格1",
+        "NoItemSetting": {
+          "ImageForNoItem": {
+            "Name": "暂无搜索结果.svg"
+          },
+          "NoItemImageSize": 100.0,
+          "TextForNoItem": "暂无数据",
+          "Orientation": 1
+        },
+        "TemplateKey": "表格默认"
+      }
+    },
+    "1,0": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "操作日志表",
+        "RowIndex": 1,
+        "RowCount": 2,
+        "ColumnCount": 5,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "订单表ID",
+          "MasterTable": "订单表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "基础-无分割",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "2,0": {
+      "NameUsedInJavaScript": "操作类型",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "操作类型",
+        "GUID": "4d7c2fa1-aa3d-4d48-8f6b-ab4321e20c31"
+      }
+    },
+    "2,1": {
+      "NameUsedInJavaScript": "操作人",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "操作人",
+        "GUID": "c2695b2e-98c3-4d9e-97fa-4ac003d99245",
+        "AttachType": {
+          "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+          "UserColumnAttachType": 1
+        }
+      }
+    },
+    "2,2": {
+      "NameUsedInJavaScript": "执行结果",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "执行结果",
+        "GUID": "9ec5649c-fb6d-4855-93e9-e8a8e2b8f4f4"
+      }
+    },
+    "2,3": {
+      "NameUsedInJavaScript": "操作时间",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "操作时间",
+        "GUID": "d7c2fc80-99cc-42df-a19f-0004fa5db8f3"
+      }
+    },
+    "2,4": {
+      "NameUsedInJavaScript": "备注",
+      "BindingInfo": {
+        "TableName": "操作日志表",
+        "ColumnName": "备注",
+        "GUID": "91acd76a-72b6-4416-986a-25baf89b21fc"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0
+    },
+    "RowStyles": {
+      "2": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//hTVBEXFNnZdFIzhjdj4yZnnab4Rp/1EXn8N4ua+HOR0CMVXv12hoVbZsEUUb6HExK6OVvJoa7zQLItowRfo6S63OBSy12ksgHWZnOPR1biy67ASBm4SuN/q9Hc49Zs3nWuplBemBExxYREw9vvdkxTIm6yZcDsDwoUvLSfPS8AoP9td0DQ1yo4zzPkVsDuALvKiLLRKWjZpZTCuJjiVvdYqK6cxXWAGS6D5zJs1Ixlrve4UcyqQeEWACgu3KXMJgCvqFUllctUXg9xEwcgicUurnUQi5HtvIQX44uEEOsC167DLimw17HAn8L9Hzegy/TbEjYPfk/AR+/3KfXySYo22mhRfFvU7oe4q8bYpUeeGCUhkqQ2C7gxomWzwzxqQXhM2RDCWtSWLY8LOSRWpIKlhnyqZ7HcKhHk9sQEBztJBY+ecsI7wlGQpukLMffsI8xD/AM1gsvE/ArBQuHERdRmlTmBUNAQYmSo+oWGIavtkrzP3d/CmaKw3QXFSPV+lb/46z4T/6F9/DdA7MiZq4EybOzVNsfAW92pOIcDB+WNro6jokuqH/PqAVQEk+Y6cUwHGGNbc5yLE9uZR+r1Sty5LCjzXW3g6/ikBo+6bamSgpj9/QtUnMXt+xne9pvecAaeh27AWNq/3H0m94QGEetB7b0dLEB9pD6PMG81ZBaL4yUChwz+1jx2JYXDF0hFrSFCoO1OeYXnETYteD1BxQ/lpmOMqVCzBBvPPNFLMQw4xMr8C8HVv+OW62JhBGIrKrx8rzidYuu6Rrjj5JjIerQ/KnxiHt7fh4ronZ5AJv7+uwkgZuO5rJHz7YhZr5l+Vc7PKGjnmVg8IANKj5yYiG9NJw8+2FIY5JbbTVFwpCqMF4As/AxfPYWOmneMufzOXgd3RGCAy/obIGalS+xoWZQA==|920

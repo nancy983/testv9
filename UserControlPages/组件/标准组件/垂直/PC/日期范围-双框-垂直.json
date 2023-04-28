@@ -1,0 +1,198 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 23.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 196.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 196.0
+  },
+  "Values": {
+    "1,1": " - "
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "ElementUI.DatePickerCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "开始日期选择"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "date",
+        "placeholder": "开始日期",
+        "startPlaceholder": "开始日期",
+        "rangeSeparator": "至",
+        "endPlaceholder": "结束日期",
+        "format": "",
+        "firstDayOfWeek": 1,
+        "DefautWeekFormat": "yyyy 第 WW 周"
+      },
+      "TemplateCellSource": "开始日期"
+    },
+    "1,2": {
+      "CellType": {
+        "$type": "ElementUI.DatePickerCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "结束日期选择"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "date",
+        "placeholder": "结束日期",
+        "startPlaceholder": "开始日期",
+        "rangeSeparator": "至",
+        "endPlaceholder": "结束日期",
+        "firstDayOfWeek": 1,
+        "DefautWeekFormat": "yyyy 第 WW 周"
+      },
+      "TemplateCellSource": "结束日期"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      },
+      {
+        "Name": "开始日期"
+      },
+      {
+        "Name": "结束日期"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "开始日期选择"
+      },
+      {
+        "Name": "结束日期选择"
+      }
+    ],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//qjN+yEeGYGosDwIdrEgUHWtr6flwClWlhsSOpGumnOfGCTugUucZmfDHkPDw3hd8DT9xL+ueeTTtv+N91k93iGnrTnt4Q20AduuaRPlL2TOIlDwxsiHFwZPdKq9ybNo/XOEchobWLlsu3HtfqwuF6hQWp7UXYT6Z17hoXLvy+6P08KcEq3BVg5n6M5K8Dvg9tTYlbuJRWZ189m6+d+kR2QVqKt72V9cx/VcfzsN20BQytP2tCwAeFdzw5fOI7ryiF+eM29n8MV+5AlSmKvkOqNYqcAXCrAzgj0OMbBomzbtMUDhhJi9N6Vcj/jEmop8JkJzl3+QhyUqtRoWbjmGpa/O4dJ4SCBeJUXyfD7a8pzqTWcGb5IvoWJysdn7iMG+NVuym9m0PIPDEf19J93FtG/bk9n/XCWGJZMQ655hNFlNWLToB/cWGYFtWNal3ZPd4WGr8YGllPNYM4NZiN/79kYB6xDPKrW2cmZSmKe605qfPEbsrC1OWB5e3jyKclNjmMylXxS9YDlCPtGP7MBXpiFEOD7Zkvzb1TKZgX7z/RUitRpRQKVsn5S7eU743Tdkeqk5ilcakYHWVl4Dxl+/7h/EeWNC8ohzUrtVAgzq1YzcYjuv/Isor3TFOl4yVtHaQvwKsYBvQSrv1CYmldglfJJgIf4c0LcvuhDFuQ2yF5n/RkJ/KkbXs2XaBZvW/petet2V51HniX1bN2zGA5eGzSKSJPZr4RB1iDj2jS8hogXi586mAOBA2sV4u6h/Ot9DpFBPPLe+ALtSdUdzUy/6MM2Omx7IyZJMdrilDWewXRV9OjxRHVOpd6F3bSJNY6E8vSbCxD71CjhyiI1EIJg/SNnrOG0V0Ch81AAnUBQL3CnvOuVQoYdBxlleZ6yStui5WNaU+ZQQu/eu7I/KzGpc72w==|920

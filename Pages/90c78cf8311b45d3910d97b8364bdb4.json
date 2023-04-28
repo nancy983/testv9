@@ -1,0 +1,69 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 150.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "来电号码"
+    },
+    "0,1": {
+      "TemplateCellSource": "电话内容"
+    },
+    "0,2": {
+      "TemplateCellSource": "附件"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "HorizontalAlignment": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "高级详情页-来电记录"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//srN6JQub5l7GGv9qeeno0FSmTu5JCtTwmynLkJynthhMhRg1/XAGZQfaAekENXCNiZwa8i0Gp7yDVTtGSQNxCrZP31hasJ90k8UC7iQ+12yRlNpJOxRaeYk1FfIYUXVbs0AHJ2cAMiY5MLF7PrqcRxM8TnFnS9twYnUht+3ttnnKgxMv/XqEMBUschgfnO3NYTTbiG3wfPk025dM9K++UYlHTPJo1BzIaeLUgJ3PLYgVxki4KSR69JoC0++Cies3On0U1tkwysBTm8sH99tmts18mAAELx76dRkXJyO1vn8XF1dYQPz3fMCHruESMp5JgtgHM++A6MG25XUZUX6OIvYqKbn8O3x1dnzdbyu7Pea4vZdrsUNuA1W8zKWh/6dotqxqMGVjb3hT793rjNUuhv9AYc6RVNdEwAoD18Um5pC6u03Cwh97vHqxDYnlnpjewi887aOl7/SO9zTu4lCnttk8IXd6jvEzTmplDZ0x3hYuAyynosKEXFZ2TFBgl0JU+VyPMjZ4jGn4pXzAipYXRT7EqlQh5qKp4dh15GYE9NILGWP+X08tLt+4PP4ZAoO+l/5MoVsdfhbLOCeNWyCEUVi/fMzaEo18OgCtimbZMWiVD+kt6Kv9QM5HfedTeScB3HR3Y7WGGCtI6aTEAOTMbz3jk3D+eB7dfChZg2NhULrVKMYMPxNqNhePqf7I4RkeeCLTGoJ4KznPWPmRmUI4cz3hxKjXuOh/zRYCgbFiWDbmh7vX+j6kBxTCq9WMxiOahzmX5AJeZ1TG4KwlDZ7OvvR+yNZlPdrrKaJ6k+rhT6Xfrd05HUrREwSzhTtxyjOuL3C97d6A0MNtc5fTBAfE0tJ0WKibg6X6VwijFBH5NJxa+OOMweAn25cOT1DV3oEoeJT2cLINu1qu5qQZ1SH5oA==|920

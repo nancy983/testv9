@@ -1,0 +1,108 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 100.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "超链接事件"
+          }
+        ],
+        "ClickMode": 1
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 0",
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "超链接事件"
+      }
+    ],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//gWuOtbrJ1oZL9cBvvB235IRSzY6cXBwTgn9UE5iV7mwxv5RjXnJZ1hBgUOmCyCLx8y/Bwyf86COgQoWk1YING28NyYjzjGkyBIzoVcHOb20mqbX8NKlA+XJGcILotaFt1OJvWO8HWSyhsjYFY+N3ze+W0mAvahKYfBCW4Wvo48YeeTmiPCWVeuSt/cDmlmG45D4Ph1vRkJyRjmu9rnvFvHN2AaEp+8xjAur6GNOyeprDgvpaRnUaDBbQTyx1tVn3XvQeV6itaf9fEDaz6hepJqby39ZesX1lXTy7TsZd4T5ZEdKHaIorn1dPHcoeVYGlQAbnlizMTzODUhlHiJ3BD+kdK9BZFklGlnSLwTofhQkv1HK7BxNc0CNDHyp5wCexZGjfEWHComAtvG+eqYQDoGAW7V+uLhxS/laDgkWX9coAVfs4g/yuKo/TKI6+IKvskQ5jXVMLkyX6cfa1w2gfuToSMS+8gn748Zi1diRcMMxZueeTByFsHCKREpyiPRwdg80DAm6S1dh1Ux/surHUz2MU8hkPy+Q4VG0bI/F4+lEF6Z8Zjo9FMeef0kcTAv2LGkIObmS6XyygOxPh6z2ngQD50LtjHE08QE1WPclbI7fGKJ3XFBp1U9yjgK8XQRJJ7kLPwG2JRIo3EqdBPPxSC2IwcuwCFE0g6qHBB6QPdgRBCvMsD6Ux2rT6nfh7w3PgXzG8dd4sGT4Sv8oFuRi68xV4OEdqK7VT7G6RbHd6DKttkoiBFF6JsXRjl14QmxRMM4V/lCThyacF6u2mSeYXjJTIdn6XCD3kVqeajiRk6NUAHRBiWazX2MC5hcG3wz6rXZ6IC5LDSxKVs9uk7hc8wmCghN32ab9Ju2ldciNhsY5ZhjFuPRRysAqfIdRSPr4VkbrXevWwH8sPPuR/8/RS+g==|920

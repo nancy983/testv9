@@ -1,0 +1,153 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 112.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 112.0,
+          "Mode": 1
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 112.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 112.0
+  },
+  "Values": {
+    "0,0": "快速开始",
+    "0,2": "产品简介",
+    "0,4": "产品文档"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://www.grapecity.com.cn/solutions/huozige",
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "快速开始",
+        "TemplateKey": "无边框",
+        "Icon": {
+          "Name": "Mobile/451_send_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "0,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://www.grapecity.com.cn/solutions/huozige/resources",
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "产品简介",
+        "TemplateKey": "无边框",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "0,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://gcdn.grapecity.com.cn/forum.php?mod=forumdisplay&fid=194",
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "产品文档",
+        "TemplateKey": "无边框",
+        "Icon": {
+          "Name": "Application/067_save_4.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "RelatedDataTableName": "快捷导航配置表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//caNn70q9t+9Itu1S8vVyIsYeitRSUrfojzRcyvlWZQgPE4yxceEaUJGkGP3ZWd2d4YduxHrgwCI2TSzqXQG2tPYi5fvPNjry4PZrlc9dliQTrkgt6Z1iQ1sZ4z7qX5oQTnT0iJmKpSFJMJNUlP3oh1wM2pERISZ70XUXf4BhpDOZCSb/DZJxxiGCHY/2L5rk1pI4jpHaS+4MKO6fVvZFMmDQAbo6IGJ1c+XJIiAY10r4Ob3AMQ9U5m90XJobu/HRVBX3FUuW42V2Aqh0ny1rAcQNbx9UuB6fMArL5/DLmTQOsQqcom4Q7lC9LWfzuJQZL5Nbxz1bqghFv7KUVNx9cVs+BJyPMapThprB8LUfuc9wKNUw4W7OJJucESOJoBTWMm1d1cYvj7IOUZiiOXUMv7PpvS62rkM6VSfFdWfH7VVjSK/RoA6J8VuVGivmifePh1HLUYWPDmB9hcScZfOzfA2fs6UpYQJ7ttyUGBMZUNsO4pUmZcBAFv7ZxKXtW/0WKzLexT80GNXcqGoIXUzIqvpAQcF2InRnf1lt95r33WN0iGud3qpB0RsvsWMmyeCa3lAvQ1txBdNYBjPa1PkzqkG4t8Lfh2OdBOnGalfd3ZjvybRTd4OhQe/U9cs41nzWV3MSP1K7nfeP31oz8wAffJrUqXU8LUPjL8yNyYzorSy7WlZrCO7vRBXIfH8tzh8J4PXsayuqDn7wnYCQVF12BLlLWrXbIjMJq3bc7DrhtEPSMcirGUdZ0MVWPmQw1fxhwX/KSKsboOzpsNJ3Wcrxbhy7lorCo0qJzm5x2bOM212tFtqhD/B1FMm4cQqWN4kRr89PUHw+ZNzYWb1oSj7j/HlT+uiY382LCv6TI8cRn+4XfOVxz9Q2F4q08IQcMs4y6bbX9B6A1DFIPE7rVCeKeQ==|920

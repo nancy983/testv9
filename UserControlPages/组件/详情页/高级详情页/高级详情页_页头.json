@@ -1,0 +1,376 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 102.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 150.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 150.0
+  },
+  "Values": {
+    "0,0": "%CurrentUser.UserName%",
+    "2,0": "%CurrentUser.UserName%",
+    "4,0": "%CurrentUser.UserName%",
+    "6,0": "%CurrentUser.UserName%",
+    "6,3": "%CurrentUser.UserName%"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订单编号",
+        "GUID": "3da01ed4-ee33-4d58-977d-5afe9c949251"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左-一级标题",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "单号："
+          }
+        ]
+      }
+    },
+    "0,6": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "居右按钮组",
+        "PropertyValues": [
+          {
+            "Name": "按钮1文本",
+            "Value": "保存"
+          },
+          {
+            "Name": "按钮2文本",
+            "Value": "取消"
+          }
+        ]
+      }
+    },
+    "2,0": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "FGC_Creator",
+        "GUID": "6a72ccc4-4209-450f-9362-29bbd648a1ce"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "创建人："
+          }
+        ]
+      }
+    },
+    "2,3": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订购产品",
+        "GUID": "71e80d97-1cc5-4862-a6b4-af0f79036862"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "订购产品："
+          }
+        ]
+      }
+    },
+    "2,6": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "状态-金额组件",
+        "PropertyValues": [
+          {
+            "Name": "状态",
+            "Value": "待审批"
+          },
+          {
+            "Name": "订单金额",
+            "Value": "568.08"
+          }
+        ]
+      }
+    },
+    "4,0": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "FGC_CreateDate",
+        "GUID": "455a2e0f-9681-4525-9c31-6a91b775c34a"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期-水平-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "创建日期："
+          }
+        ]
+      }
+    },
+    "4,3": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "关联单据",
+        "GUID": "ce618b55-7a40-42f7-afad-7862d7b6cc2c"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "超链接-水平",
+        "CommandHandlers": [
+          {
+            "CommandName": "超链接事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+                  "Title": "标题",
+                  "Message": "正文内容",
+                  "Type": "none",
+                  "ConfirmButtonText": "确定",
+                  "CancelButtonText": "取消",
+                  "AdvancedSettings": {}
+                }
+              ],
+              "ParamProperties": {}
+            }
+          }
+        ],
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "关联单据："
+          }
+        ]
+      }
+    },
+    "6,0": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "生效日期",
+        "GUID": "10afdcc8-025f-4990-88f4-5d5c1bf9d2ab"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "日期-水平-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "生效日期："
+          }
+        ]
+      }
+    },
+    "6,3": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "备注",
+        "GUID": "9fd5c162-51ba-4d55-976c-59a89f1cdb38"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-水平-只读-居左",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "备注："
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Right",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,2": 1,
+      "0,6": 2,
+      "2,0": 1,
+      "2,3": 1,
+      "4,0": 1,
+      "4,2": 1,
+      "4,3": 1,
+      "4,5": 1,
+      "5,0": 1,
+      "5,1": 1,
+      "5,2": 1,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "6,0": 1,
+      "6,2": 3,
+      "6,3": 1,
+      "6,5": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,2",
+    "2,0,1,2",
+    "2,3,1,2",
+    "2,6,5,1",
+    "4,0,1,2",
+    "4,3,1,2",
+    "6,0,1,2",
+    "6,3,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": [],
+    "RelatedDataTableName": "订单表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//HMEK2MxLcBj1NJtPJ1Z9PAzwcCrA1sQm20oQAAd13kOUGOfgrN1ZCatT5R2tbL/0uaN9V412Bxa65D4TXMTkTtYk1caGmZM4jAT3AbDA4j/BuvHf+oPo2WrsFOjVx3kXIDU/kUzcvxdxAE+T77hSD4SO9z7+T2MT89QXc30wYRerHBIFmPDeocLKp8CtVo6Evds2QFQVU30gtCwwyuIV45AGMJmbOW1LcoKMXLBTB47hw5w0QMm0lOvSaCqDCMQrlJcvEN7b6EG1N+S5D4nGai2iftGdbnjTO50TS+Kg6qzG8LpTbJS31VRxjPNMx/7JhmGWoPhelhkhyvrlE3MVsZS0RF/rawlQn4fmgtR9DrOW2v7eLU3hAzQS2FgL7aA5uUAUjkGBcVLj6bLekUagfkxT6m3BXNsUQHV4kRb+lLKPwvEu/WKI138HilRDpXu5oVHstmyXvVXxQN4Jjpcf00nC7fREXfgCQ5X2NY7nC7jyepnoxgOAGIzfsjkpgPWecnkIeVqUuzQKUnTFOmkXJO2EvKb4tDZj6R7lazMy6mDbtu/OV/iD92qi+g8keqjv0rwRFTlwYTTaxPLsASDDU5SoVbMb/r59ulbLeAeHFL4EzpjxeNTzTWijwyy5+aPbM6Nc9E2fjpzO9x6QGN3Zfn7R5xI/P/Z+Z+MwueBNhckpse0OqoQY1EpGNfbsmqPhht0j1UtX8oyxioyebHoeo7VCuYlefm95+n4+kXRv7RGQg4bkCjloPPoMedJUqvkXnItqR1lGeYXnuQZWr025Q6yicpy/+QqOeHpS2GVR25TlhQH6OVUMZ82OOp2/o4PjbmTUdCbjxXspPR/++/SN2ZDewfON6iMEVoxBIVQ+s1tHB6/bKKhxE3OLLDXIaotOOcvPvXpE8/LEI8+GRUav9Q==|920

@@ -1,0 +1,222 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 168.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 131.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 2.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 158.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 2.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 158.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 4.0
+  },
+  "AttachInfos": {
+    "0,1": {
+      "TemplateCellSource": "产品大类"
+    },
+    "0,2": {
+      "TemplateCellSource": "产品类别"
+    },
+    "0,3": {
+      "TemplateCellSource": "产品名称"
+    },
+    "0,4": {
+      "TemplateCellSource": "产品零售单价"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 2,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 3,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 2,
+        "WordWrap": true,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "HorizontalAlignment": 2,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 -5",
+        "Body",
+        "Center",
+        "General"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 2,
+      "0,3": 2,
+      "0,4": 3,
+      "1,0": 0,
+      "1,1": 4,
+      "1,2": 4,
+      "1,3": 5,
+      "1,4": 6
+    },
+    "ColStyles": {
+      "1": 7,
+      "2": 7,
+      "3": 8,
+      "4": 8,
+      "5": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,1,2,1",
+    "0,2,2,1",
+    "0,3,2,1",
+    "0,4,2,1"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "分析页_列表卡片-Mobile"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//RTXtRp+gceUwBlo0zBdBfVXKKO7UcUiVMFkv0XbnBffcZCdDMSFX/ARTbJzUGqZlkzczCDmHqVnI2qk4H2GChh48qhmlgCbG/pvg15N98YXCM3X0IqyBaF3qhzsw7EY7Mx9VYF9FSmQeQrzNvywlqnevPPLAvnX6V3WiTP8sE1qspI+VRCSkmqZW7OjSNz/1NdDd6BAcFrRbM5yF5eXgzKvQub80lhjCyBuFxbJXe2uBXRoWQ4tUN3BSu5hHcJCa1rH88Xg4muQt5/F15G7MUIR3tAWdMxEG0B62C6xljQlkLBbdHC94aRrId46Z3hnsX5+HvG2HeDn5At/x97FTokfHTjKjjARJjfVaa6srIk60KHtPsBCEYF6XUmnpiGNLm4MJSlA41vf4c+5NHNEJfAKCz/jqL2K5pp5uC4YTenI3ALFlknsfiZFhgkKdErQsCTg+T99gxnKyT4tSsTkErlZM5HQfhurn7//lR5c+BIMj5YwG3BsDiN7BzcxPPsgcycX9fF2LWInXYw1wfNMiDDVJevNFcNg+h2ZrzKsmOD/1AgoubKMgqN2tvyEhRs3Nza41wly56mYL5yRQVx5SdaBmcuUMIUyEh/D7KY4aarE6Rg17LuEP7Rfxvu6hDZqvo00lwzrHa4YBQ6A+m8F9KfW6MIbnJnPqq+EPsJ0P2UpUxgJCDxanTYbi9YU4L+YlPQvuVdQQv5FIGx4NzLLCdJAe5RG7OQdZdANVcn+Ii3WCTx2DWtaTJEuXnXszzBP/zYTngWYDqyiglEJ5tcoTHKTvKo/FhpiaxeijBYPMklnafNwNheBz3U87CU9+YBI7TkRzidFW9adGRRHd9ip+dj4eKz1Pjia8Y6uFJKHDl91O3RTYMy7hdLqI0+9yaeiB5QIF3B+rMlHqHLUyxkTAug==|920
