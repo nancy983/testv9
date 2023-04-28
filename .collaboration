@@ -6434,6 +6434,15 @@
   },
   {
     "ModuleName": "Notification/服务端通知7",
-    "ModuleType": 34
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:34:30.1753648+08:00",
+    "ModuleType": 34,
+    "ToRemoveFiles": [
+      "Notifications\\服务端通知7.json"
+    ]
   }
 ]
