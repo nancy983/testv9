@@ -1,0 +1,532 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,20": "店面满意度 列表",
+    "7,6": "添加记录",
+    "9,29": "更改",
+    "9,32": "删除"
+  },
+  "AttachInfos": {
+    "5,28": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "店面满意度_详情页面 (2)",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "='店面满意度_详情页面 (2)'!K18"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "8,6": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "店面满意度",
+        "RowIndex": 8,
+        "ColumnIndex": 6,
+        "RowCount": 12,
+        "ColumnCount": 29,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "9,8": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "id",
+        "GUID": "3c661b13-8b60-4749-bbfc-c1781e4d3f66"
+      }
+    },
+    "9,11": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "code",
+        "GUID": "5b1b3b2d-80d6-4256-b873-8c1fd1b6a5b3"
+      }
+    },
+    "9,14": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "eb_owner",
+        "GUID": "7daf9967-4b58-4b51-82e3-b487372a5392"
+      }
+    },
+    "9,17": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "col_num",
+        "GUID": "bcd045c5-0630-446d-8868-a5cc570e5a05"
+      }
+    },
+    "9,20": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "en_desc",
+        "GUID": "d4f4b32d-5d7d-4391-be83-8e30b74ec8a4"
+      }
+    },
+    "9,23": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "z_c",
+        "GUID": "9aa00288-7af9-4778-ad19-b1a54eecae8d"
+      }
+    },
+    "9,26": {
+      "BindingInfo": {
+        "TableName": "店面满意度",
+        "ColumnName": "trial225",
+        "GUID": "d7451b9a-c2e7-4f2a-8fc8-16fb9827c551"
+      }
+    },
+    "9,29": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "店面满意度_详情页面 (2)",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "='店面满意度_详情页面 (2)'!K18"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "9,32": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,20": 0,
+      "5,28": 1,
+      "7,6": 2,
+      "9,29": 2,
+      "9,32": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "5,28,1,7",
+    "10,6,10,29",
+    "9,6,1,2",
+    "8,6,1,2",
+    "9,8,1,3",
+    "8,8,1,3",
+    "9,11,1,3",
+    "8,11,1,3",
+    "9,14,1,3",
+    "8,14,1,3",
+    "9,17,1,3",
+    "8,17,1,3",
+    "9,20,1,3",
+    "8,20,1,3",
+    "9,23,1,3",
+    "8,23,1,3",
+    "9,26,1,3",
+    "8,26,1,3",
+    "9,29,1,3",
+    "8,29,1,3",
+    "9,32,1,3",
+    "8,32,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Pictures": [
+    {
+      "Name": "0e987cb2-1107-4755-9b8f-d9fe84169ebe.jpg",
+      "ForguncyPictureName": "download.jpg",
+      "ForguncyPictureSourceType": 0,
+      "Stretch": 2,
+      "Size": "230,180"
+    }
+  ],
+  "Charts": [
+    {
+      "ChartType": 7,
+      "DataOrientation": 1,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "XAxises": [
+        {
+          "Items": [
+            1.0
+          ],
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {},
+      "PlotArea": {},
+      "Name": "Chart1",
+      "Location": "703,74",
+      "Size": "480,290"
+    },
+    {
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "ChartName": "Chart2",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "店面满意度_列表页面 (2)",
+            "ListViewName": "表格1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='店面满意度_列表页面 (2)'!I10"
+            }
+          },
+          {
+            "SheetName": "店面满意度_列表页面 (2)",
+            "ListViewName": "表格1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='店面满意度_列表页面 (2)'!X10"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "店面满意度_列表页面 (2)",
+          "ListViewName": "表格1",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='店面满意度_列表页面 (2)'!I10"
+          }
+        },
+        "DataSourceListviewName": "f39e73f2-bd6f-44ed-96e9-8702896eb7d8"
+      },
+      "DisplayEmptyCellsAs": 1,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "ChartTitle": {
+        "Text": "图表标题",
+        "StyleInfo": {
+          "FontSize": 24.0,
+          "FontWeight": "Bold",
+          "Foreground": "Text 1"
+        }
+      },
+      "XAxises": [
+        {
+          "Items": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorGridlinesStroke": "#868686",
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "Foreground": "Text 1",
+            "Stroke": "Text 1"
+          }
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "#868686",
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "Foreground": "Text 1",
+            "Stroke": "Text 1"
+          }
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorGridlinesStroke": "#868686",
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "Foreground": "Text 1",
+            "Stroke": "Text 1"
+          }
+        }
+      ],
+      "Legend": {
+        "StyleInfo": {
+          "Foreground": "Text 1"
+        }
+      },
+      "DataSeries": [
+        {
+          "Values": [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            9.0,
+            10.0,
+            11.0,
+            12.0,
+            13.0,
+            14.0,
+            15.0,
+            16.0,
+            17.0
+          ],
+          "Name": "id",
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowCategoryName": false,
+            "ShowPercent": false,
+            "ShowSeriesName": false,
+            "ShowValue": false
+          },
+          "DataLabelStyle": {
+            "StyleInfo": {
+              "Foreground": "Text 1"
+            }
+          },
+          "MarkerSize": "7,7"
+        },
+        {
+          "Values": [
+            100.0,
+            95.0,
+            100.0,
+            100.0,
+            92.0,
+            99.0,
+            100.0,
+            100.0,
+            100.0,
+            90.0,
+            98.0,
+            93.0,
+            100.0,
+            93.0,
+            95.0,
+            100.0,
+            90.0
+          ],
+          "Name": "z_c",
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowCategoryName": false,
+            "ShowPercent": false,
+            "ShowSeriesName": false,
+            "ShowValue": false
+          },
+          "DataLabelStyle": {
+            "StyleInfo": {
+              "Foreground": "Text 1"
+            }
+          },
+          "MarkerSize": "7,7"
+        }
+      ],
+      "PlotArea": {},
+      "Name": "Chart2",
+      "Location": "445,256",
+      "Size": "480,290"
+    }
+  ]
+}//nQsn03s4Y7XV0VUlyskkKbD/y9rWfJxr1Fh4W4ERhHf1JLQlVlpIlywEN5s/m4E4/Qfuuo0Jceq60+NZVte73mgLaP60gZ6n3y0VN49naRYCNI/ZAa46PvxjEenUexh36jMGLl0ttqi8BC0VXhH0f6YXyuHpvWw4VfraWqXoJi9Qzl2aGiY4Z06OG2lLYR8uBSxt/9uNtylGTJ0GWfKAXhEbXYdegM1Uix96EtHzC8bmPIKvWughrc168wAfkW8MS6Y7BDFXPcQDLDm8cQOr2aSkTqfqDfVFVeuZTKx5IpOrgrFukBzbae9EXvshfvKvQwk2Wviy0ecWdj6kuKvgIkOa2uNgD8q71GQUPYvp/Ms4mjrApSj0/+mz95XoEybUnzCEJ6AkJyMbYKEV09aaLeDghklip3J1RO0biYLNma24x5+BqGqpjPrcvT6/JHUqqL2px3zVDXGmYbgOtWkQxf5X1cUetOknZUVjmSfgR93YCjbPOAusz1+7vCTWQ4outyPr+55hmnmPOOtW6H3PhkVWPPUysEDfcnTEKesKfpsBfG7pAyWAthqhPYIS5qup31qi3qakPhoCHKfH4E2LO6fT3iw0KhwQv+c3g5xkHj/pUIQBmg/SpScMLf1ZQsPIDoNF1gzmXc2nyJD1fPFE0FS9f/5Tc/WjymbVNLK+EfOmkZ5KOZzRZL91N0o1kdph81YJ2ZAb8kafbBfAYqiLPR7BWhGhLzcZxsRx7ir6uIquqpdkVw++aMvxxsThCeiBcz8VGf3yRW1QWt7PKB2nfblMgjvKWfNSsm3EqB925Lc9VGGgGoZJwcPPpQVtugdD/o4mqBVkOjPOq0/r5tin60YzRUmrqrfPu1v6X+nuXRvNGUPKoGqUWkFb8Zjkli25VC0+ylCgOuvFUZmaPYGFbg==|920
