@@ -1389,7 +1389,7 @@
       "UserName": "GRAPECITY\\brantyyan",
       "Email": "branty.yan@grapecity.com"
     },
-    "LockDateTime": "2023-04-28T16:21:23.0293291+08:00",
+    "LockDateTime": "2023-04-28T16:21:52.2562734+08:00",
     "ModuleType": 26,
     "ToRemoveFiles": [
       "Upload\\10e5fa35-4d9f-4b3f-b523-dfb0d2eed72b_sale_order.png",
@@ -7000,5 +7000,35 @@
     "LockDateTime": "2023-04-28T16:21:23.0335131+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/FGC_表单填写",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:21:52.2564484+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/FGC_页面模板文件夹/基础表单页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:21:52.2564599+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_完成申请",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:21:52.2564851+08:00",
+    "ModuleType": 1
   }
 ]
