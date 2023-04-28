@@ -12,7 +12,7 @@
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
         "bpmProcessPermissionType": 1,
-        "resourceName": "逐级审批",
+        "resourceName": "逐级审批11111",
         "roleNames": [
           "FGC_LoginUser"
         ]
@@ -20,7 +20,7 @@
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
         "bpmProcessPermissionType": 2,
-        "resourceName": "逐级审批",
+        "resourceName": "逐级审批11111",
         "roleNames": [
           "FGC_LoginUser"
         ]

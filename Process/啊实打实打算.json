@@ -12,6 +12,7 @@
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
         "bpmProcessPermissionType": 1,
+        "resourceName": "啊实打实打算",
         "roleNames": [
           "FGC_LoginUser"
         ]
@@ -19,6 +20,7 @@
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
         "bpmProcessPermissionType": 2,
+        "resourceName": "啊实打实打算",
         "roleNames": [
           "FGC_LoginUser"
         ]
