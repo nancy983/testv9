@@ -1,0 +1,281 @@
+{
+  "Name": "计划任务2",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.EndCopyExternalTableTrigger, ServerDesignerCommon",
+      "TableNameParam": "表名",
+      "FolderNameParamName": "文件夹名",
+      "ExceptionParam": "错误信息",
+      "StartTimeParamName": "执行开始时间",
+      "EndTimeParamName": "执行结束时间",
+      "ResultParamName": "执行结果"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假详情",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "请假详情",
+          "ColumnName": "ID",
+          "GUID": "1f6cd273-fb8c-48f7-b7fa-1f539b1bf4ef"
+        },
+        "Value": "%Null%"
+      },
+      "NullFormulaValueQueryPolicy": 1,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "用户",
+            "GUID": "9e98a88e-16a3-49d7-8787-fe41379b57e7"
+          },
+          "Value": "Administrator"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "剩余天数",
+            "GUID": "1fc0ec7e-744b-48ca-90c4-c538d405c388"
+          },
+          "Value": "12"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "请假记录ID",
+            "GUID": "32dbcbc6-f34d-47d3-884d-dfc273dc2d16"
+          },
+          "Value": "12"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假详情",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "请假详情",
+          "ColumnName": "ID",
+          "GUID": "cadaeb07-49bf-44d1-8423-2d914269cc5c"
+        },
+        "Value": "%Null%"
+      },
+      "NullFormulaValueQueryPolicy": 1,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "用户",
+            "GUID": "f0a0c987-849a-4f46-9b38-366a77723772"
+          },
+          "Value": "Administrator"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "剩余天数",
+            "GUID": "98c1e011-f097-410d-b907-a6fa3a71bd55"
+          },
+          "Value": "12"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "请假记录ID",
+            "GUID": "1fa6f073-c33e-4915-b645-29eb94be21ec"
+          },
+          "Value": "12"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假详情",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "请假详情",
+          "ColumnName": "ID",
+          "GUID": "d88d0b79-e132-450f-bb6d-436fac9055cf"
+        },
+        "Value": "%Null%"
+      },
+      "NullFormulaValueQueryPolicy": 1,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "用户",
+            "GUID": "9b7f384b-96e3-4ca5-b417-255002b0b0f7"
+          },
+          "Value": "Administrator"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "剩余天数",
+            "GUID": "864a70a5-7b95-411b-a647-a98c03ad805b"
+          },
+          "Value": "12"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "请假记录ID",
+            "GUID": "adbba7ce-9a1d-418a-a4f8-8420ccdec3ca"
+          },
+          "Value": "12"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假详情",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "请假详情",
+          "ColumnName": "ID",
+          "GUID": "54847d51-f579-44ae-90fa-f4d1d1a805cf"
+        },
+        "Value": "%Null%"
+      },
+      "NullFormulaValueQueryPolicy": 1,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "用户",
+            "GUID": "ca990057-71e5-4fef-97a8-d22b739f5482"
+          },
+          "Value": "Administrator"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "剩余天数",
+            "GUID": "e44386dd-443c-4159-8e15-1abe32719c63"
+          },
+          "Value": "12"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "请假记录ID",
+            "GUID": "6dc81b10-8b62-45a3-aa31-e5d683ecfa15"
+          },
+          "Value": "12"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假详情",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "请假详情",
+          "ColumnName": "ID",
+          "GUID": "a0731cd2-d122-4868-8630-029441b30c74"
+        },
+        "Value": "%Null%"
+      },
+      "NullFormulaValueQueryPolicy": 1,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "用户",
+            "GUID": "88d2cfc6-188d-430f-a622-4cc910444b7e"
+          },
+          "Value": "Administrator"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "剩余天数",
+            "GUID": "e557d3ef-97bb-4d28-8148-ec8270bcd484"
+          },
+          "Value": "12"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "请假记录ID",
+            "GUID": "a6b3fb77-3902-40f6-a51e-8b3eb747a034"
+          },
+          "Value": "12"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假详情",
+      "UpdateType": "addOrEdit",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "请假详情",
+          "ColumnName": "ID",
+          "GUID": "c37d999e-d322-4779-80c5-f9eb474b9649"
+        },
+        "Value": "%Null%"
+      },
+      "NullFormulaValueQueryPolicy": 1,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "用户",
+            "GUID": "bfecdf2b-afef-4576-91f7-26b6b34fc6d9"
+          },
+          "Value": "Administrator"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "剩余天数",
+            "GUID": "bbc36188-89fc-4551-84b6-f77f3ac00da4"
+          },
+          "Value": "12"
+        },
+        {
+          "BindingInfo": {
+            "TableName": "请假详情",
+            "ColumnName": "请假记录ID",
+            "GUID": "315449bb-eb1f-4b8c-8746-dce3aa160d6c"
+          },
+          "Value": "12"
+        }
+      ]
+    }
+  ]
+}
