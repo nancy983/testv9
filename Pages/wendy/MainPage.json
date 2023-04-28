@@ -1,0 +1,164 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,3": "存储过程调用命令"
+  },
+  "AttachInfos": {
+    "3,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallStoredProcedureCommand, ServerDesignerCommon",
+            "ConnectionStringID": "SqlServer1",
+            "Name": "pro_OperateTableStoreProcedureTest",
+            "DisplayNameInDesigner": "[dbo].[pro_OperateTableStoreProcedureTest]",
+            "Parmeters": [
+              {
+                "Name": "parameter",
+                "DataType": "int"
+              }
+            ],
+            "AllowAcessRoleList": [
+              "FGC_LoginUser"
+            ],
+            "ID": "c94dd89ffd5f44ef946459353c028e6a"
+          }
+        ],
+        "Text": "存储过程调用命令",
+        "TemplateKey": "样式3"
+      }
+    },
+    "3,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "样式3"
+      }
+    },
+    "3,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "样式3"
+      }
+    },
+    "3,36": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "样式3"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,25": 0,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "3,29": 0,
+      "3,30": 0,
+      "3,31": 0,
+      "3,32": 0,
+      "3,33": 0,
+      "3,36": 0,
+      "3,37": 0,
+      "3,38": 0,
+      "3,39": 0,
+      "3,40": 0,
+      "3,41": 0,
+      "3,42": 0,
+      "3,43": 0,
+      "3,44": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "4,17": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "4,20": 0,
+      "4,21": 0,
+      "4,22": 0,
+      "4,25": 0,
+      "4,26": 0,
+      "4,27": 0,
+      "4,28": 0,
+      "4,29": 0,
+      "4,30": 0,
+      "4,31": 0,
+      "4,32": 0,
+      "4,33": 0,
+      "4,36": 0,
+      "4,37": 0,
+      "4,38": 0,
+      "4,39": 0,
+      "4,40": 0,
+      "4,41": 0,
+      "4,42": 0,
+      "4,43": 0,
+      "4,44": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,3,2,9",
+    "3,14,2,9",
+    "3,25,2,9",
+    "3,36,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//UUWRzwIIZA1k2ncItR30zCcnEjNyv15GCMLXZa3bpqYLd+5ugZaMYu8M11ARffJEWrbCsHXv/hQPwkMpBlHLgosVpSHfrmUICUD8HAbrbtmEVUDbSH9dzV6oY9v4deDYzta8ZnwhcI5BU+0VZe4ReWTEAt8TCAEDfkkfkanZatWbnwqfS5HufXJITWvdceTiu8lU4UBB2RAD4JLOdbuWNmmd9WnvEWd8lxL7FRG+nIPb2Ze7KyXdotaIn0Md8NiciHSJmWct5mFcrR/7Ro4+4//TrxjG0ibIvYNtdAN9SlrjZFT5h3rZLCoZ0cyNHyWuv+sp6eExbNz/wqCcDX7QjKwL6Z3e3R9hpqMhvB7RkX5kLHgfyimKKHgiYIKnZoDqXbcRH25aXfa+/l19RF3KO2eplRYhrQFBcpRfV2FKvYe/UniC4tWZtoThvPQdPTCgjebLr4kEN6L9gHdqHGwJZDDMmKHMaVcS0Vk9rrhMYNNZ7labUxo/u8q6fVKl52LVlzk1LEpYeA6DvXifbiXpOeU7/o4G3KX8wibOdqS8/fCkVtKjf3AhQYZxGsqx8q1ueooxLNwtOpZfYeboEx/UbeZMUnqqrODAtaf8jhz5lQkDLzgZy0iaTzrDDX+BeRUQHP2ZjJj8XR9AJmHL/qwYL/WqAwhgAaYiDoOeP5eSQQ8KrBoSPblO2fRpMjd8VCUlW3DVvCNQO80nIKSdSTteWLM8lX9XYHG9mq+EDJz4MXTGbsa63TBg7Y+JGp2Rg2Fq+74P9okbZ0Gbn14jsJ67fi/3bpett2A265JSJPbK+ATrjPzrCHFaT/3e3xA1X/T7Krm1+DRQIVBASWEL5ra+vx9ZaWv7o/5E4BDdP5cHgtQav49B0FU5QKbbnTjwQ6bYCowc4oCTkmjS468muruPGg==|920

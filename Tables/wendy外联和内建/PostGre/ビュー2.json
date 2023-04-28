@@ -1,0 +1,64 @@
+{
+  "Name": "ビュー2",
+  "Columns": [
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "character varying",
+      "MaxLength": -1,
+      "Name": "企业",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "character varying",
+      "MaxLength": -1,
+      "Name": "联系人",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "character varying",
+      "MaxLength": -1,
+      "Name": "电话",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "character varying",
+      "MaxLength": -1,
+      "Name": "地址",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "character varying",
+      "MaxLength": -1,
+      "Name": "备注",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "ConnectionId": "PostgreSQL1",
+    "SourceTableName": "ビュー1",
+    "SourceTableSchema": "public",
+    "CreateViewSql": " SELECT \"汽车企业信息\".\"ID\",\n    \"汽车企业信息\".\"企业\",\n    \"汽车企业信息\".\"联系人\",\n    \"汽车企业信息\".\"电话\",\n    \"汽车企业信息\".\"地址\",\n    \"汽车企业信息\".\"备注\",\n    \"汽车企业信息\".\"FGC_UpdateHelp\"\n   FROM \"汽车企业信息\";",
+    "UserSetQueryColumns": [
+      "ID"
+    ],
+    "ViewInfo": {
+      "ViewName": "ビュー1",
+      "IsUpdatable": true,
+      "QueryColumns": [
+        "ID"
+      ]
+    }
+  },
+  "Relations": []
+}

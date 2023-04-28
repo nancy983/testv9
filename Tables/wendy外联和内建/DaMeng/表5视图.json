@@ -1,0 +1,65 @@
+{
+  "Name": "表5视图",
+  "Columns": [
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "BIGINT",
+      "MaxLength": -1,
+      "Name": "ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "VARCHAR2",
+      "MaxLength": -1,
+      "Name": "FGC_Creator",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "DATETIME",
+      "MaxLength": -1,
+      "Name": "FGC_CreateDate",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "VARCHAR2",
+      "MaxLength": -1,
+      "Name": "FGC_LastModifier",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "DATETIME",
+      "MaxLength": -1,
+      "Name": "FGC_LastModifyDate",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "VARCHAR2",
+      "MaxLength": -1,
+      "Name": "文本",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "AllowModifySchema": true,
+    "ConnectionId": "DaMeng1",
+    "SourceTableName": "表5视图",
+    "SourceTableSchema": "",
+    "CreateViewSql": " SELECT \"TestDBSchema\".\"表5\".ID,\"TestDBSchema\".\"表5\".\"FGC_Creator\",\"TestDBSchema\".\"表5\".\"FGC_CreateDate\",\"TestDBSchema\".\"表5\".\"FGC_LastModifier\",\"TestDBSchema\".\"表5\".\"FGC_LastModifyDate\",\"TestDBSchema\".\"表5\".\"FGC_UpdateHelp\",\"TestDBSchema\".\"表5\".\"文本\" FROM \"表5\"",
+    "UserSetQueryColumns": [
+      "ID"
+    ],
+    "ViewInfo": {
+      "ViewName": "表5视图",
+      "QueryColumns": [
+        "ID"
+      ]
+    }
+  },
+  "Relations": []
+}

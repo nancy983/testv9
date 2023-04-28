@@ -1,0 +1,304 @@
+{
+  "Name": "add",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "参数1",
+          "TestData": "31"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假表na",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "请假表na",
+            "ColumnName": "请假人",
+            "GUID": "9a585dff-d9c8-4945-9b1b-6273c3225f1f"
+          },
+          "Value": "new"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表27",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表27",
+            "ColumnName": "文本",
+            "GUID": "da84db3d-f55a-4fe4-ac8e-60c024854301"
+          },
+          "Value": "sqlserver"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表27视图",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表27视图",
+            "ColumnName": "文本",
+            "GUID": "36254c9c-d574-486f-a0f3-0e9666f95934"
+          },
+          "Value": "sqlserverview"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表36",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表36",
+            "ColumnName": "文本",
+            "GUID": "55eb80b0-949c-4255-b5f0-1dd6473eac13"
+          },
+          "Value": "mysql"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表36视图",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表36视图",
+            "ColumnName": "文本",
+            "GUID": "c37b86cd-c59b-4a27-9133-52548b15cdc4"
+          },
+          "Value": "mysqlview"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表23",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表23",
+            "ColumnName": "ID",
+            "GUID": "bec03f67-ca0a-4634-9d10-159e213d2e38"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "表23",
+            "ColumnName": "文本",
+            "GUID": "b0346b89-7693-461d-b6d3-c39c34b329ac"
+          },
+          "Value": "oracle"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表23视图",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表23视图",
+            "ColumnName": "ID",
+            "GUID": "ed7d2f99-9db4-4ab9-9cfb-57deb80ad0fd"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1+1"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "表23视图",
+            "ColumnName": "文本",
+            "GUID": "dbb8c1b2-c958-41df-a247-b30859496a8c"
+          },
+          "Value": "oracleview"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表6",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表6",
+            "ColumnName": "文本",
+            "GUID": "efa58b6b-fe2e-4f27-8d84-623d8aea21b4"
+          },
+          "Value": "post"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表6视图",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表6视图",
+            "ColumnName": "文本",
+            "GUID": "23ec8ac7-30ea-4cc5-90b3-750d8a11d2cf"
+          },
+          "Value": "postgresqlview"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表5",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表5",
+            "ColumnName": "文本",
+            "GUID": "6cfa0bf6-3e65-4088-86cf-8c2e6fd7d014"
+          },
+          "Value": "dameng"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表5视图",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表5视图",
+            "ColumnName": "文本",
+            "GUID": "08b1ab52-0879-4849-84c2-57a86f78db0b"
+          },
+          "Value": "damengview"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表15",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表15",
+            "ColumnName": "ID",
+            "GUID": "5bf91fcf-87d1-40cc-9ad0-df804761274e"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "表15",
+            "ColumnName": "文本",
+            "GUID": "28223220-4f81-4d09-8744-0ff9efc015d5"
+          },
+          "Value": "tibero"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表15视图",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "表15视图",
+            "ColumnName": "ID",
+            "GUID": "aa257b67-de0d-4608-9b6a-e5b677dba956"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1+1"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "表15视图",
+            "ColumnName": "文本",
+            "GUID": "fc9e1c02-89dc-45e2-81ce-edadc7473328"
+          },
+          "Value": "tiberoview"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "汽车销售信息",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "汽车销售信息",
+            "ColumnName": "车型",
+            "GUID": "ae233818-b787-44bd-91d9-fb084cc56b83"
+          },
+          "Value": "odbc"
+        }
+      ]
+    }
+  ]
+}

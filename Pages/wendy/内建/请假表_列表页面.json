@@ -1,0 +1,265 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,12": "请假表 列表",
+    "8,15": "删除"
+  },
+  "AttachInfos": {
+    "5,11": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "请假表na",
+        "RowIndex": 7,
+        "ColumnIndex": 6,
+        "RowCount": 12,
+        "ColumnCount": 12,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ColumnOperation": 2
+      }
+    },
+    "7,21": {
+      "ListViewInfo": {
+        "Name": "表格2",
+        "TableName": "用户信息视图",
+        "RowIndex": 7,
+        "ColumnIndex": 21,
+        "RowCount": 12,
+        "ColumnCount": 21,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "8,9": {
+      "BindingInfo": {
+        "TableName": "请假表na",
+        "ColumnName": "请假人",
+        "GUID": "4400b2e1-c9fc-4919-b96d-64fe72c53173"
+      }
+    },
+    "8,12": {
+      "BindingInfo": {
+        "TableName": "请假表na",
+        "ColumnName": "请假天数",
+        "GUID": "7baabf56-b33b-47ab-aead-e3b268ec0e21"
+      }
+    },
+    "8,15": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "8,21": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "用户名",
+        "GUID": "dfb48215-7cd2-431b-a665-cd04726cef90"
+      }
+    },
+    "8,28": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "全名",
+        "GUID": "31317610-5ef8-4212-b726-927a3464eeba"
+      }
+    },
+    "8,35": {
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "邮件",
+        "GUID": "2fd37142-45b5-4194-8859-b0b5e2915cf2"
+      }
+    },
+    "21,6": {
+      "ListViewInfo": {
+        "Name": "表格3",
+        "TableName": "请假表视图1",
+        "RowIndex": 21,
+        "ColumnIndex": 6,
+        "RowCount": 10,
+        "ColumnCount": 12,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "22,6": {
+      "BindingInfo": {
+        "TableName": "请假表视图1",
+        "ColumnName": "ID",
+        "GUID": "36e63cc8-5a77-4a96-b077-4303a3496530"
+      }
+    },
+    "22,10": {
+      "BindingInfo": {
+        "TableName": "请假表视图1",
+        "ColumnName": "请假人",
+        "GUID": "863b7d36-f85c-4d55-904f-0fe551021ede"
+      }
+    },
+    "22,15": {
+      "BindingInfo": {
+        "TableName": "请假表视图1",
+        "ColumnName": "请假天数",
+        "GUID": "a0815e85-4112-4f4f-9c42-f8b1fef4891a"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 2,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,12": 0,
+      "5,11": 1,
+      "8,15": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,11,1,7",
+    "8,6,1,3",
+    "8,9,1,3",
+    "8,12,1,3",
+    "8,15,1,3",
+    "8,21,1,7",
+    "8,28,1,7",
+    "8,35,1,7",
+    "9,6,10,12",
+    "9,21,10,21",
+    "22,6,1,4",
+    "22,10,1,5",
+    "22,15,1,3",
+    "23,6,8,12",
+    "7,6,1,3",
+    "7,9,1,3",
+    "7,12,1,3",
+    "7,15,1,3",
+    "7,21,1,7",
+    "7,28,1,7",
+    "7,35,1,7",
+    "21,6,1,4",
+    "21,10,1,5",
+    "21,15,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "顶部菜单布局1",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//KJXMe6lJy1zElbozy7ytOpqPgKOBfZqK3x3UYmg20h99HP8Uwukb4eUbZht/DIY1cLW5HtbVG1ezpMj0W8DSe30ens2CFU1G/Zb2xbGoFqM41ia1pZlaPriyunJpnUIQUCf1K2397UBaMiqtXIGUG4NsvWAzzGUp2d0lXhGEnqcq5Znr2XZV5dFsC/G8yo0lQ/sM9ii7g0pZxn56/t5dzvUcTSs4CCUA0GLYYOUvZtdAZo8WcVnng/hay4G7eSVlfZHNrudX3s7ohKgf5ABgjXxoMkdlsvcd928X8WZNhV6fHSavQ4Sw0sWSWGepCjIWpGkPkcaoduoeOQ2M3bV1o8bvMGiEh9v2wOEdGUWKgJRGB4VKayUP//Drh/zIhbx67zjYhJ7u9LQa8p8mI7FbYHfYG8BKkuyL8EFkpPmtwiCGo1bulZoSI9YOcXm7OAelNHineeEEePBXNrhPCwPtxjSBENUxhxXzu3TWp799Outmt92GAyhU7PNQrFYqQD2wnwVio/R+9IY5qB8JZNAK4e2YU9skK9l8u3JgG/goxHfWmjWF1C3vML8XWXRXIp+PEE1tO1eDC5s6ZkT7PY2XfbcoDAoFIYl8XP+xStIaE+abDcbC31N3y1aivbNcC8yS+wIU7eI9BufJiH/c24pQMKyvi1OrYwbBPd95Y4XIa0yfRBvE14tY7KolsVgR+cGEJO+3sVOXkC121jgo8wsWSYosoRPFCTNqpColZIBuOXGdtlL5P8dHNZaL14HzKOCA1n7RN8I2igEh4LoUJJCFikZGeHdKthE7tFbzAlQQrh33CRbjSaqP9S6E3uZnGnfP1bTIuvwEBF6jRMh7zGxiXNipUEbkRmx4YeMDEWULqcn5dGvb2FBweaAz3e7RPZxosj+nCNuA2GJsKZm+SuGmOQ==|920

@@ -3,5 +3,45 @@
     "ConnectionString": "Data Source=xa-dd3-S08r2O10,1435;Initial Catalog=nancytestnnn;Persist Security Info=True;User ID=forguncytest;Password=xA123456",
     "DataBaseType": 1,
     "ID": "SqlServer1"
+  },
+  {
+    "ConnectionString": "Data Source=xa-dd3-fSs19O19;Initial Catalog=TestDB;Persist Security Info=True;User ID=forguncytest;Password=xA123456",
+    "DataBaseType": 1,
+    "ID": "SqlServer3"
+  },
+  {
+    "ConnectionString": "Server=xa-dd3-fS17Ms57;User ID=MySqlTest;Password=xA123456;Database=testdatabase;Port=3306",
+    "DataBaseType": 6,
+    "ID": "MySql1"
+  },
+  {
+    "ConnectionString": "Data Source=xa-dd3-fSs19O19;Persist Security Info=True;User ID=C##OracleTest;Password=xA123456;Unicode=True",
+    "DataBaseType": 3,
+    "ID": "Oracle1"
+  },
+  {
+    "ConnectionString": "Host=xa-dd3-fS14O12;Username=postgres;Password=xA20200326;Port=5468;Database=TestDB(ForTesting)",
+    "DataBaseType": 7,
+    "ID": "PostgreSQL1"
+  },
+  {
+    "ConnectionString": "server=xa-dd3-fgcp13d8;user=SYSDBA;password=xA20200326;schema=TestDBSchema;port=5236",
+    "DataBaseType": 8,
+    "ID": "DaMeng1"
+  },
+  {
+    "ConnectionString": "Provider=tbprov.Tbprov.6;Password=tibero;User ID=sys;datasource=xa-dd3-fgcdb1,8629,tibero;schema=TIBERO",
+    "DataBaseType": 9,
+    "ID": "TiberoOledb1"
+  },
+  {
+    "ConnectionString": "Driver={MySQL ODBC 8.0 Unicode Driver};server={xa-dd3-fs16ms8};uid=AutoTest;pwd=xA20200326;database=testdb;port=3306",
+    "DataBaseType": 4,
+    "ID": "Odbc1"
+  },
+  {
+    "ConnectionString": "Data Source=xa-dd3-fs16ms8;Initial Catalog=TestDB;Persist Security Info=True;User ID=forguncytest;Password=xA123456",
+    "DataBaseType": 1,
+    "ID": "SqlServer2"
   }
 ]

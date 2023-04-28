@@ -1,0 +1,315 @@
+{
+  "Name": "delete",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "请假表na",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "请假表na",
+          "ColumnName": "ID",
+          "GUID": "d1e91973-d915-476e-a720-a0d022e595ba"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表27",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表27",
+          "ColumnName": "ID",
+          "GUID": "56d2d4e1-8c60-4a07-94e0-53ddf72d5f87"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表27视图",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表27视图",
+          "ColumnName": "ID",
+          "GUID": "6efa887e-dfe8-4612-b0e0-d88bc8f93786"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1+1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表36",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表36",
+          "ColumnName": "ID",
+          "GUID": "5eda9472-0307-4e63-b366-0e6aea942d46"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表36视图",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表36视图",
+          "ColumnName": "ID",
+          "GUID": "db2c20e5-58ec-4a29-9b09-d7f102845db2"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1+1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表23",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表23",
+          "ColumnName": "ID",
+          "GUID": "5cd3a20e-3739-4f6b-b9bf-0744d47af7a6"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表23视图",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表23视图",
+          "ColumnName": "ID",
+          "GUID": "7274f80c-eadb-4f9c-ac5c-1563d6917bcf"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1+1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表6",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表6",
+          "ColumnName": "ID",
+          "GUID": "d35c67eb-ed5f-4bdc-8aec-896f0f34abd3"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表6视图",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表6视图",
+          "ColumnName": "ID",
+          "GUID": "ad7f4dea-6a96-433c-9bd5-4f3efa574ba2"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1+1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表5",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表5",
+          "ColumnName": "ID",
+          "GUID": "a0fbcddf-4f4e-4882-b0e6-f62d42a7d471"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表5视图",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表5视图",
+          "ColumnName": "ID",
+          "GUID": "02c5412a-091e-43cd-9946-d5455c9106c4"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1+1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表15",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表15",
+          "ColumnName": "ID",
+          "GUID": "6ddaec04-db00-4c10-9080-c5adfd50c481"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "表15视图",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "表15视图",
+          "ColumnName": "ID",
+          "GUID": "4a33e932-9cc2-4039-bb3e-1022c35d03a9"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1+1"
+        }
+      }
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "汽车销售信息",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "您确定要删除吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "ID",
+          "GUID": "d87716cf-3b78-4581-b341-102ff6d5ce7a"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        }
+      }
+    }
+  ]
+}

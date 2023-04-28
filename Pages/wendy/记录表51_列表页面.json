@@ -1,0 +1,344 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 68
+  },
+  "Values": {
+    "3,16": "记录表51 列表",
+    "5,32": "reload",
+    "5,44": "delete",
+    "8,57": "删除"
+  },
+  "AttachInfos": {
+    "5,20": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "5,32": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "表格1",
+            "UpdateType": 6,
+            "UpdateListviewCommandRunTimeMethodSetting": {
+              "MethodName": "Reload",
+              "ParameterValues": {
+                "clearFilter": false,
+                "clearSort": false
+              }
+            }
+          }
+        ],
+        "Text": "reload",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "5,44": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "记录表51",
+            "UpdateType": "delete",
+            "ShowConfirm": false,
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 1,
+              "ColumnBindingInfo": {
+                "TableName": "记录表51",
+                "ColumnName": "ID",
+                "GUID": "da46c3a7-976b-4da4-bb80-a12f943b439a"
+              },
+              "Value": "-1"
+            }
+          }
+        ],
+        "Text": "delete",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "7,6": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "记录表51",
+        "RowIndex": 7,
+        "ColumnIndex": 6,
+        "RowCount": 25,
+        "ColumnCount": 54,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ColumnOperation": 2
+      }
+    },
+    "8,9": {
+      "BindingInfo": {
+        "TableName": "记录表51",
+        "ColumnName": "表名",
+        "GUID": "41491329-6457-423d-bbb1-7a1b1037cf47"
+      }
+    },
+    "8,17": {
+      "BindingInfo": {
+        "TableName": "记录表51",
+        "ColumnName": "主键",
+        "GUID": "813f8d85-96b9-4f23-9a1a-45ac3b56c928"
+      }
+    },
+    "8,25": {
+      "BindingInfo": {
+        "TableName": "记录表51",
+        "ColumnName": "操作人",
+        "GUID": "731ced4d-d8f1-4857-87a6-20ac9108bec5"
+      }
+    },
+    "8,32": {
+      "BindingInfo": {
+        "TableName": "记录表51",
+        "ColumnName": "操作时间",
+        "GUID": "1da4c22e-5866-492e-9c17-3e0fd525e807"
+      }
+    },
+    "8,39": {
+      "BindingInfo": {
+        "TableName": "记录表51",
+        "ColumnName": "列名",
+        "GUID": "1bc27a4b-d293-4025-a430-11816bca5e23"
+      }
+    },
+    "8,43": {
+      "BindingInfo": {
+        "TableName": "记录表51",
+        "ColumnName": "旧值",
+        "GUID": "75cec34e-5943-45ad-901a-d34b74bbd9a3"
+      }
+    },
+    "8,50": {
+      "BindingInfo": {
+        "TableName": "记录表51",
+        "ColumnName": "新值",
+        "GUID": "1be31c89-fdbd-4696-b0b1-797f84699385"
+      }
+    },
+    "8,57": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 3,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Body",
+        "Blue"
+      ]
+    },
+    "CellStyles": {
+      "3,16": 0,
+      "5,20": 1,
+      "5,44": 2,
+      "5,45": 2,
+      "5,46": 2,
+      "5,47": 2,
+      "5,48": 2,
+      "5,49": 2,
+      "5,50": 2,
+      "5,51": 2,
+      "7,9": 3,
+      "7,10": 3,
+      "7,11": 3,
+      "7,12": 3,
+      "7,13": 3,
+      "7,14": 3,
+      "7,15": 3,
+      "7,16": 3,
+      "7,17": 2,
+      "7,18": 3,
+      "7,19": 3,
+      "7,20": 3,
+      "7,21": 3,
+      "7,22": 3,
+      "7,23": 3,
+      "7,24": 3,
+      "7,25": 2,
+      "7,26": 3,
+      "7,27": 3,
+      "7,28": 3,
+      "7,29": 3,
+      "7,30": 3,
+      "7,31": 3,
+      "7,32": 2,
+      "7,33": 3,
+      "7,34": 3,
+      "7,35": 3,
+      "7,36": 3,
+      "7,37": 3,
+      "7,38": 3,
+      "7,39": 2,
+      "7,40": 3,
+      "7,41": 3,
+      "7,42": 3,
+      "7,43": 2,
+      "7,44": 3,
+      "7,45": 3,
+      "7,46": 3,
+      "7,47": 3,
+      "7,48": 3,
+      "7,49": 3,
+      "7,50": 2,
+      "7,57": 2,
+      "8,17": 2,
+      "8,25": 2,
+      "8,32": 2,
+      "8,39": 2,
+      "8,43": 2,
+      "8,50": 2,
+      "8,57": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,20,1,7",
+    "5,32,1,11",
+    "5,44,1,8",
+    "8,6,1,3",
+    "8,9,1,8",
+    "8,17,1,8",
+    "8,25,1,7",
+    "8,32,1,7",
+    "8,39,1,4",
+    "8,43,1,7",
+    "8,50,1,7",
+    "8,57,1,3",
+    "9,6,23,54",
+    "7,6,1,3",
+    "7,9,1,8",
+    "7,17,1,8",
+    "7,25,1,7",
+    "7,32,1,7",
+    "7,39,1,4",
+    "7,43,1,7",
+    "7,50,1,7",
+    "7,57,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "顶部菜单布局1",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//cTUhxFd+tFCkzmPbQCP8aHUAQUzVCQwI4gJxeLiqsHHPA14Bbs/PATmyVwX3CgZsCXPVdYa/QoldF+KYaKmwzENeKYd7JT8QdL2xEqS00v2GOZGNFiQAj3Y872FTdCOEQ1xrdY2IXpzN9OGsb5RrCeYusCmwMoMz0BWuQlwumLuaDAdWgthTXEnyAWE5w4ELRwD+EwMjG4v1ovOWtbYGwDltr1r0UEL55cCU4USFU0HCLKFS+rDrZMYr1XU8KV+vXvDu0CLR65f50WP7Os25kkS8P0KmWVcpGTeZtkSCneJc/xQG7B+kqDE3hOrCaQ+VOv+Yn++99llCX+9wlSlPqUlseLG1cY0Uc8RQ7VPmrCHgjzQVuxw/hsg+Yz5iRU3BLRln721h/Yfx8uIaoY9DIoFwONxZx+3DSJJQHkj5SrTHLmYeEpRU+hpqqUEDZhiQW7j/RpycBv7IyMeXXd+edVo9p57MmUqV5YBAe7GI99iPOf7Bzh+8RkK2HN7jdecGX/+o49e8tXBeLxOw5KTxmO+1imF6EhTxoxQjowm98iEZqH5WHLC+L+Syd4x7hzsESCFA03qKqldQBkpmBvUTCMlu1GFBmL3i33GG/vm5xQ/l1gw9uAVJnP6qt7DaBCHtedYl+rMZkWAiJ4cZZbPTnybVnrSNGcOVOYQ9sT6lyHXf7pGCLDrL0ThrS5OGtZZv3kCJHddSzJFMuPLv4L0XhkrNjqVhn+P40c8LQz+zRqSpY//Gk+ajz98mHtv1a9A3sGeEGEaS2S+pUtDYcCxvyBy/2cWEHQe9e/NN7qIxz9wyzOrTkvhRXkhpZlfFt4udJu45phYzEfP/lTjdIeiP7VdFerlzr+Lppe41Df4EGLh7tww9pu+XHOds8g3K4agEfMXRQeLHacmScQGV24w/uQ==|920

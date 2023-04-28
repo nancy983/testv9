@@ -1,0 +1,546 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,10": "表36 列表",
+    "3,29": "表36视图 列表",
+    "8,12": "删除",
+    "8,32": "删除"
+  },
+  "AttachInfos": {
+    "5,8": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "5,28": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "表36",
+        "RowIndex": 7,
+        "ColumnIndex": 6,
+        "RowCount": 12,
+        "ColumnCount": 9,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ColumnOperation": 2
+      }
+    },
+    "7,23": {
+      "ListViewInfo": {
+        "Name": "表格2",
+        "TableName": "表36视图",
+        "RowIndex": 7,
+        "ColumnIndex": 23,
+        "RowCount": 12,
+        "ColumnCount": 12,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ColumnOperation": 2
+      }
+    },
+    "8,9": {
+      "BindingInfo": {
+        "TableName": "表36",
+        "ColumnName": "文本",
+        "GUID": "5d2eb880-9a93-484e-a921-a5f7a7cfdde8"
+      }
+    },
+    "8,12": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "8,26": {
+      "BindingInfo": {
+        "TableName": "表36视图",
+        "ColumnName": "ID",
+        "GUID": "9a591e30-8b08-419b-a697-75d3540c15d8"
+      }
+    },
+    "8,29": {
+      "BindingInfo": {
+        "TableName": "表36视图",
+        "ColumnName": "文本",
+        "GUID": "f172c753-7fc0-4b0a-80c7-8d4a1c59c58e"
+      }
+    },
+    "8,32": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "21,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "表36",
+            "UpdateType": "addOrEdit",
+            "ShowConfirm": false,
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "表36",
+                "ColumnName": "ID",
+                "GUID": "b4bc38f2-fc6c-4a82-b14a-28141756715d"
+              },
+              "Value": "1"
+            },
+            "UpdateBindingValues": [
+              {
+                "BindingInfo": {
+                  "TableName": "表36",
+                  "ColumnName": "文本",
+                  "GUID": "bbfde671-1609-48ab-80fb-74885326c8ad"
+                },
+                "Value": "aaa"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "表36视图",
+            "UpdateType": "addOrEdit",
+            "ShowConfirm": false,
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "表36视图",
+                "ColumnName": "ID",
+                "GUID": "82de422a-dc45-4b03-b222-bc0297992671"
+              },
+              "Value": "999"
+            },
+            "UpdateBindingValues": [
+              {
+                "BindingInfo": {
+                  "TableName": "表36视图",
+                  "ColumnName": "文本",
+                  "GUID": "58aa70f1-4ab1-4219-9d43-311d7de8c676"
+                },
+                "Value": "2"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "表36视图",
+                  "ColumnName": "ID",
+                  "GUID": "80fbba2c-e68f-4117-aa7b-682f480daabe"
+                },
+                "Value": "999"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 15.0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 3,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 3,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body",
+        "Right",
+        "Blue"
+      ]
+    },
+    "CellStyles": {
+      "3,10": 0,
+      "3,23": 1,
+      "3,24": 1,
+      "3,25": 1,
+      "3,26": 1,
+      "3,27": 1,
+      "3,28": 1,
+      "3,29": 2,
+      "3,30": 1,
+      "3,31": 1,
+      "3,32": 1,
+      "3,33": 1,
+      "3,34": 1,
+      "4,23": 1,
+      "4,24": 1,
+      "4,25": 1,
+      "4,26": 1,
+      "4,27": 1,
+      "4,28": 1,
+      "4,29": 1,
+      "4,30": 1,
+      "4,31": 1,
+      "4,32": 1,
+      "4,33": 1,
+      "4,34": 1,
+      "5,8": 3,
+      "5,23": 1,
+      "5,24": 1,
+      "5,25": 1,
+      "5,26": 1,
+      "5,27": 1,
+      "5,28": 4,
+      "5,29": 1,
+      "5,30": 1,
+      "5,31": 1,
+      "5,32": 1,
+      "5,33": 1,
+      "5,34": 1,
+      "6,23": 1,
+      "6,24": 1,
+      "6,25": 1,
+      "6,26": 1,
+      "6,27": 1,
+      "6,28": 1,
+      "6,29": 1,
+      "6,30": 1,
+      "6,31": 1,
+      "6,32": 1,
+      "6,33": 1,
+      "6,34": 1,
+      "7,23": 1,
+      "7,24": 1,
+      "7,25": 1,
+      "7,26": 1,
+      "7,27": 1,
+      "7,28": 1,
+      "7,29": 1,
+      "7,30": 1,
+      "7,31": 1,
+      "7,32": 1,
+      "7,33": 1,
+      "7,34": 1,
+      "8,12": 5,
+      "8,23": 1,
+      "8,24": 1,
+      "8,25": 1,
+      "8,26": 1,
+      "8,27": 1,
+      "8,28": 1,
+      "8,29": 1,
+      "8,30": 1,
+      "8,31": 1,
+      "8,32": 6,
+      "8,33": 1,
+      "8,34": 1,
+      "9,23": 1,
+      "9,24": 1,
+      "9,25": 1,
+      "9,26": 1,
+      "9,27": 1,
+      "9,28": 1,
+      "9,29": 1,
+      "9,30": 1,
+      "9,31": 1,
+      "9,32": 1,
+      "9,33": 1,
+      "9,34": 1,
+      "10,23": 1,
+      "10,24": 1,
+      "10,25": 1,
+      "10,26": 1,
+      "10,27": 1,
+      "10,28": 1,
+      "10,29": 1,
+      "10,30": 1,
+      "10,31": 1,
+      "10,32": 1,
+      "10,33": 1,
+      "10,34": 1,
+      "11,23": 1,
+      "11,24": 1,
+      "11,25": 1,
+      "11,26": 1,
+      "11,27": 1,
+      "11,28": 1,
+      "11,29": 1,
+      "11,30": 1,
+      "11,31": 1,
+      "11,32": 1,
+      "11,33": 1,
+      "11,34": 1,
+      "12,23": 1,
+      "12,24": 1,
+      "12,25": 1,
+      "12,26": 1,
+      "12,27": 1,
+      "12,28": 1,
+      "12,29": 1,
+      "12,30": 1,
+      "12,31": 1,
+      "12,32": 1,
+      "12,33": 1,
+      "12,34": 1,
+      "13,23": 1,
+      "13,24": 1,
+      "13,25": 1,
+      "13,26": 1,
+      "13,27": 1,
+      "13,28": 1,
+      "13,29": 1,
+      "13,30": 1,
+      "13,31": 1,
+      "13,32": 1,
+      "13,33": 1,
+      "13,34": 1,
+      "14,23": 1,
+      "14,24": 1,
+      "14,25": 1,
+      "14,26": 1,
+      "14,27": 1,
+      "14,28": 1,
+      "14,29": 1,
+      "14,30": 1,
+      "14,31": 1,
+      "14,32": 1,
+      "14,33": 1,
+      "14,34": 1,
+      "15,23": 1,
+      "15,24": 1,
+      "15,25": 1,
+      "15,26": 1,
+      "15,27": 1,
+      "15,28": 1,
+      "15,29": 1,
+      "15,30": 1,
+      "15,31": 1,
+      "15,32": 1,
+      "15,33": 1,
+      "15,34": 1,
+      "16,23": 1,
+      "16,24": 1,
+      "16,25": 1,
+      "16,26": 1,
+      "16,27": 1,
+      "16,28": 1,
+      "16,29": 1,
+      "16,30": 1,
+      "16,31": 1,
+      "16,32": 1,
+      "16,33": 1,
+      "16,34": 1,
+      "17,23": 1,
+      "17,24": 1,
+      "17,25": 1,
+      "17,26": 1,
+      "17,27": 1,
+      "17,28": 1,
+      "17,29": 1,
+      "17,30": 1,
+      "17,31": 1,
+      "17,32": 1,
+      "17,33": 1,
+      "17,34": 1,
+      "18,23": 1,
+      "18,24": 1,
+      "18,25": 1,
+      "18,26": 1,
+      "18,27": 1,
+      "18,28": 1,
+      "18,29": 1,
+      "18,30": 1,
+      "18,31": 1,
+      "18,32": 1,
+      "18,33": 1,
+      "18,34": 1,
+      "21,6": 1,
+      "21,7": 1,
+      "21,8": 1,
+      "21,9": 1,
+      "21,10": 1,
+      "21,11": 1,
+      "21,12": 1,
+      "22,6": 1,
+      "22,7": 1,
+      "22,8": 1,
+      "22,9": 1,
+      "22,10": 1,
+      "22,11": 1,
+      "22,12": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,8,1,7",
+    "5,28,1,7",
+    "8,6,1,3",
+    "8,9,1,3",
+    "8,12,1,3",
+    "8,23,1,3",
+    "8,26,1,3",
+    "8,29,1,3",
+    "8,32,1,3",
+    "9,6,10,9",
+    "9,23,10,12",
+    "21,6,2,7",
+    "7,6,1,3",
+    "7,9,1,3",
+    "7,12,1,3",
+    "7,23,1,3",
+    "7,26,1,3",
+    "7,29,1,3",
+    "7,32,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "顶部菜单布局1",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//v3VisF/ytaPo7tkRm7SC4PNDOkn4g3hdBOmYM19vNTT3KSQqsOPiPfwN8JPNypQDOfrJt7nAxZ8s3QX3J+SEwuaUTfaCPOAtgOwj2r0jldsVm3DtARhaFHoVLoBH4VZS9P+Vixxb1YR98ko5ESi9KFMoXwaEjZvJ5al3soLOYgMkF25sT+k9V4Vu35EEKPQHzai7G8yAfTeGmmeyrModZmbcPBJlfHUIzir1kfBIZJtHDql1DPOn9TPrdODYDcw4wuOlFVDpnQ20OzFePrlj5CypsMcFp1z7yRBRlXFlSyqQ2rp9m1jZbfIIlOro1vjFJeSYUqynPF6smOvcKwoC+qn9c8RHy49J3YyLGD5IEjCEb2jzFnOFGhFOK8tUc89SY/3lWe7XMSjfEYWdXjcfhbXf6BtG+gQz4GoXjCbhmtwFSqYy9jK5dIZ2ZvKYjjfNlfc/FiiKbLf1V9vUHdMNxckDX2X2U99X0BLZ8tUfmHqlXFsquhDlP5/5BMnm8bpe4khP0hNUmhWYPNqUvDECnHRR1u+GVJKDT6EMama8uZG/RqTVS6zGbGmT8I793or+0TwOFjrpOiSiEm5hjFw+zDP4bGZkX7K/HRSgVNrKZTsI4xYHgkLWyqHWJUGp972WsRwuiqq/5KF78v/9Nxts4j3fxGTkqCLuaQGPvNHQiaN4XPZeLgL/rqTlNXjy54aRQaNZQTbFN6HWywAxrFoJlOyinr3UTcugitqgSyhbbRS5s1UGhX0cRNBgaR7+tfYpO+/TK5gmcOWgqJsXAd6EL6Ow77qeao8IhvVJnmcDf68TCWTLRROx5gfkQqmlgLGde+qzmKq5tn5VGINyFMJmRQ2GrX3wLtYmNttT2ThLvyELSs1xXlifnnIpRPO7nqelXQ4G9Q3GJd+CcreWhK/SsQ==|920
