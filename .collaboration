@@ -6725,7 +6725,16 @@
   },
   {
     "ModuleName": "Table/请假数据表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T16:47:55.6346608+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\使用数据库\\请假数据表.json"
+    ]
   },
   {
     "ModuleName": "Notification/服务端通知3",
