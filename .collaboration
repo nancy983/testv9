@@ -628,547 +628,1791 @@
   },
   {
     "ModuleName": "Pages/ims",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7079613+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims"
+    ]
   },
   {
     "ModuleName": "Pages/ims/供应商",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6507605+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\供应商"
+    ]
   },
   {
     "ModuleName": "PCPage/供应商_客户",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.649969+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\供应商\\供应商_客户.json"
+    ]
   },
   {
     "ModuleName": "PCPage/供应商_客户填写",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.650305+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\供应商\\供应商_客户填写.json"
+    ]
   },
   {
     "ModuleName": "PCPage/供应商_客户导入",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6505441+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\供应商\\供应商_客户导入.json",
+      "UserTemplateFile\\供应商客户导入模板 e6d721dd238f4985a3d913063d52e722.xlsx"
+    ]
   },
   {
     "ModuleName": "PCPage/供应商_客户查看",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6506004+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\供应商\\供应商_客户查看.json"
+    ]
   },
   {
     "ModuleName": "PCPage/关联物品",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6507463+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\供应商\\关联物品.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/出入库",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6941198+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库"
+    ]
   },
   {
     "ModuleName": "Pages/ims/出入库/手机界面",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6528134+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\手机界面"
+    ]
   },
   {
     "ModuleName": "MobilePage/供应商_客户选择_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.651315+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\手机界面\\供应商_客户选择_手机页.json",
+      "Pages\\ebcd1574af104af9aaff5b5ad174de6.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/出入库列表_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6517106+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\手机界面\\出入库列表_手机页.json",
+      "Pages\\4ef4d5c19a324e7b860fa97fdb5ffc1.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/出入库单填写_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6524334+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\手机界面\\出入库单填写_手机页.json",
+      "Pages\\53b9ec612d274a5b8cfd86dda343ccb.json",
+      "Pages\\663ea1687d494c5db874873cf5dd5ba.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/出入库对象设置_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6525095+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\手机界面\\出入库对象设置_手机页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/认领人_手机页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6527997+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\手机界面\\认领人_手机页.json",
+      "Pages\\0d3d88563c30450eaa9e34884ef2120.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/出入库/盘点",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6539674+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\盘点"
+    ]
   },
   {
     "ModuleName": "PCPage/盘点页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6534159+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\盘点\\盘点页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/盘点页填写",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6538276+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\盘点\\盘点页填写.json"
+    ]
   },
   {
     "ModuleName": "PCPage/盘点页查看",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6539551+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\盘点\\盘点页查看.json"
+    ]
   },
   {
     "ModuleName": "PCPage/从采购单流转_弹窗",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6541641+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\从采购单流转_弹窗.json"
+    ]
   },
   {
     "ModuleName": "PCPage/从销售单流转_弹窗",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6543389+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\从销售单流转_弹窗.json"
+    ]
   },
   {
     "ModuleName": "PCPage/供应商_客户选择页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6545415+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\供应商_客户选择页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6551585+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\出入库列表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库单填写",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.655594+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\出入库单填写.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库单查看",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6559044+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\出入库单查看.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库对象设置页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6559579+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\出入库对象设置页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/物品选择页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6930178+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\物品选择页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/认领人",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6933979+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\认领人.json",
+      "Pages\\e68e6432218c4ac6a446af0f6a35bb2.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购单流转入库",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6938408+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\采购单流转入库.json"
+    ]
   },
   {
     "ModuleName": "PCPage/销售单流转出库",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.694029+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\销售单流转出库.json"
+    ]
   },
   {
     "ModuleName": "PCPage/项目新建页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.694111+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\出入库\\项目新建页.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/审批流程",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.695366+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\审批流程"
+    ]
   },
   {
     "ModuleName": "PCPage/审批记录",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6942379+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\审批流程\\审批记录.json",
+      "Pages\\7bf94aade2f247fe9df47727270e71e.json"
+    ]
   },
   {
     "ModuleName": "PCPage/我的已办",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.694657+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\审批流程\\我的已办.json"
+    ]
   },
   {
     "ModuleName": "PCPage/我的待办",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6949377+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\审批流程\\我的待办.json"
+    ]
   },
   {
     "ModuleName": "PCPage/我的提交",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6951971+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\审批流程\\我的提交.json"
+    ]
   },
   {
     "ModuleName": "PCPage/流程中心",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.695359+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\审批流程\\流程中心.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/报表",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.699992+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表"
+    ]
   },
   {
     "ModuleName": "Pages/ims/报表/出入库",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6980121+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库_收支情况表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6954961+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库_收支情况表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库_物品毛利率统计表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6958832+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库_物品毛利率统计表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库_销售出库明细表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.696372+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库_销售出库明细表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库_领用出库明细表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6968337+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库_领用出库明细表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库_领用出库汇总表(按部门)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6970362+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库_领用出库汇总表(按部门).json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库明细表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6974793+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库明细表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库汇总表(按物品)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6977997+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库汇总表(按物品).json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库流水表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6980053+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\出入库\\出入库流水表.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/报表/采购报表",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.699527+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表"
+    ]
   },
   {
     "ModuleName": "PCPage/采购价格走势图",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6981294+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表\\采购价格走势图.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购入库流水表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6983571+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表\\采购入库流水表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购明细表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6988195+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表\\采购明细表.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购汇总图(按供应商)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6989371+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表\\采购汇总图(按供应商).json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购汇总图(按物品)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6990547+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表\\采购汇总图(按物品).json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购汇总表(按供应商)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6992175+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表\\采购汇总表(按供应商).json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购汇总表(按物品)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6995179+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\采购报表\\采购汇总表(按物品).json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/报表/销售报表",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.69999+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\销售报表"
+    ]
   },
   {
     "ModuleName": "PCPage/销售汇总表(按客户)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6996895+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\销售报表\\销售汇总表(按客户).json"
+    ]
   },
   {
     "ModuleName": "PCPage/销售汇总表(按物品)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.6999841+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\报表\\销售报表\\销售汇总表(按物品).json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/物品_库存",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7027638+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存"
+    ]
   },
   {
     "ModuleName": "Pages/ims/物品_库存/手机页面",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7008357+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\手机页面"
+    ]
   },
   {
     "ModuleName": "MobilePage/物品列表_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7004442+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\手机页面\\物品列表_手机页.json",
+      "Pages\\5f5225954e7a4f308f3d58a09a9becb.json"
+    ]
   },
   {
     "ModuleName": "PCPage/物品详情_手机页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7005354+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\手机页面\\物品详情_手机页.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/物品选择_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7008296+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\手机页面\\物品选择_手机页.json",
+      "Pages\\e70019b9b05943a29bb5643a82011f4.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/物品_库存/物品供应商",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7009899+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品供应商"
+    ]
   },
   {
     "ModuleName": "PCPage/可供供应商",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7009853+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品供应商\\可供供应商.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/物品_库存/物品单位",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7013389+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品单位"
+    ]
   },
   {
     "ModuleName": "PCPage/单位维护",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7011603+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品单位\\单位维护.json"
+    ]
   },
   {
     "ModuleName": "PCPage/单位编辑",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7013327+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品单位\\单位编辑.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/物品_库存/物品管理",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7018349+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品管理"
+    ]
   },
   {
     "ModuleName": "PCPage/导入物品信息",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7015229+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品管理\\导入物品信息.json",
+      "UserTemplateFile\\物品导入模板98e7559f518442d98e2e93319e6ca88c.xlsx"
+    ]
   },
   {
     "ModuleName": "PCPage/查看物品",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7015751+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品管理\\查看物品.json"
+    ]
   },
   {
     "ModuleName": "PCPage/物品维护",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7018289+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品管理\\物品维护.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/物品_库存/物品类目",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7020224+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品类目"
+    ]
   },
   {
     "ModuleName": "PCPage/修改物品类目",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7020162+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品类目\\修改物品类目.json"
+    ]
   },
   {
     "ModuleName": "PCPage/物品_库存",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.702755+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\物品_库存\\物品_库存.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/辅助模板",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7029544+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\辅助模板"
+    ]
   },
   {
     "ModuleName": "PCPage/下拉按钮组",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7028335+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\辅助模板\\下拉按钮组.json"
+    ]
   },
   {
     "ModuleName": "PCPage/出入库下拉按钮组",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7028919+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\辅助模板\\出入库下拉按钮组.json"
+    ]
   },
   {
     "ModuleName": "PCPage/登录页_用户信息",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7029508+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\辅助模板\\登录页_用户信息.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/采购",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.705286+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购"
+    ]
   },
   {
     "ModuleName": "Pages/ims/采购/付款",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7031819+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\付款"
+    ]
   },
   {
     "ModuleName": "PCPage/付款",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7030302+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\付款\\付款.json"
+    ]
   },
   {
     "ModuleName": "PCPage/付款记录",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7031768+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\付款\\付款记录.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/采购/到票",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7034067+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\到票"
+    ]
   },
   {
     "ModuleName": "PCPage/到票",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7032586+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\到票\\到票.json"
+    ]
   },
   {
     "ModuleName": "PCPage/发票记录",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7034024+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\到票\\发票记录.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/采购/手机页面",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7040163+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\手机页面"
+    ]
   },
   {
     "ModuleName": "MobilePage/采购列表_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7036413+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\手机页面\\采购列表_手机页.json",
+      "Pages\\a0a39c68d2fb4b1586c2a3588fe25eb.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/采购单填写_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.704009+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\手机页面\\采购单填写_手机页.json",
+      "Pages\\91fac4df8e764c87993f06df61c0151.json",
+      "Pages\\4d45c75d6e8e4d03a19c8c3129748b9.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购单",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7045753+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\采购单.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购单填写",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7049662+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\采购单填写.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购单查看",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7052628+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\采购\\采购单查看.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/销售",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7068705+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\销售"
+    ]
   },
   {
     "ModuleName": "Pages/ims/销售/手机页面",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7058877+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\销售\\手机页面"
+    ]
   },
   {
     "ModuleName": "MobilePage/销售列表_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7055228+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\销售\\手机页面\\销售列表_手机页.json",
+      "Pages\\7c2078e1ae4f4cf9bcf89c43c091b19.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/销售单填写_手机页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7058808+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\销售\\手机页面\\销售单填写_手机页.json",
+      "Pages\\09cfdd88ac404f899255c6b8147fc62.json",
+      "Pages\\8f993ac651ca4b9eadca7fcb678464d.json"
+    ]
   },
   {
     "ModuleName": "PCPage/销售单",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7063242+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\销售\\销售单.json"
+    ]
   },
   {
     "ModuleName": "PCPage/销售单填写",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7066691+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\销售\\销售单填写.json"
+    ]
   },
   {
     "ModuleName": "PCPage/销售单查看",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7068647+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\销售\\销售单查看.json"
+    ]
   },
   {
     "ModuleName": "Pages/ims/首页",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7079171+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页"
+    ]
   },
   {
     "ModuleName": "Pages/ims/首页/手机页面",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7073438+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\手机页面"
+    ]
   },
   {
     "ModuleName": "MobilePage/出入库手机首页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7070348+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\手机页面\\出入库手机首页.json",
+      "Pages\\343c436885364061b04d12046651143.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/手机首页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7070761+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\手机页面\\手机首页.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/采购手机首页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7072126+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\手机页面\\采购手机首页.json",
+      "Pages\\0ddc0dce746a4808bb9c6a6a2c6d4e9.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/销售手机首页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7073388+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\手机页面\\销售手机首页.json",
+      "Pages\\4b18749f6ecf44c6bd89de04b16510f.json"
+    ]
   },
   {
     "ModuleName": "PCPage/库存管理提醒",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.707495+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\库存管理提醒.json"
+    ]
   },
   {
     "ModuleName": "PCPage/库存管理首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7075813+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\库存管理首页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购提醒",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7076826+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\采购提醒.json"
+    ]
   },
   {
     "ModuleName": "PCPage/采购首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.707771+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\采购首页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/销售提醒",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7078307+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\销售提醒.json"
+    ]
   },
   {
     "ModuleName": "PCPage/销售首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7079125+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页\\销售首页.json"
+    ]
   },
   {
     "ModuleName": "PCPage/首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7079584+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ims\\首页.json"
+    ]
   },
   {
     "ModuleName": "Pages/内建手机页面",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7094495+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_401页面_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.708007+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_401页面_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_两步验证_扫码页面_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7080591+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_两步验证_扫码页面_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_两步验证_验证页面_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7081685+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_两步验证_验证页面_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_修改密码_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.708241+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_修改密码_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7090127+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_修改用户信息_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_忘记密码_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7090925+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_忘记密码_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_登录_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7092388+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_登录_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_维护中_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7092827+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_维护中_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7093427+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_邮件订阅_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_重置密码_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7093954+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_重置密码_手机版.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7094444+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\内建手机页面\\FGC_重置密码发送邮件成功_手机版.json"
+    ]
   },
   {
     "ModuleName": "Pages/内建页面",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7101045+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\内建页面"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_401页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7094909+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_401页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_两步验证_扫码页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7095346+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_两步验证_扫码页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_两步验证_验证页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.709602+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_两步验证_验证页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_修改密码",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7096554+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_修改密码.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_修改用户信息",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7097335+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_修改用户信息.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_忘记密码",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7097866+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_忘记密码.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_登录",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7098695+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_登录.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_维护中",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7099298+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_维护中.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_邮件订阅",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7099891+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_邮件订阅.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_重置密码",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7100572+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_重置密码.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7101003+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_重置密码发送邮件成功.json"
+    ]
   },
   {
     "ModuleName": "PCPage/帮助手册",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:15:47.7101819+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\帮助手册.json"
+    ]
   },
   {
     "ModuleName": "Pages/nancyyang",
