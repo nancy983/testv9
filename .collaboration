@@ -1143,29 +1143,11 @@
   },
   {
     "ModuleName": "ShareCommandContainer/站内消息",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:05:06.8372575+08:00",
-    "ModuleType": 36,
-    "ToRemoveFiles": [
-      "ShareCommandContainers\\站内消息.json"
-    ]
+    "ModuleType": 36
   },
   {
     "ModuleName": "ShareCommandContainer/站内通知",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:04:58.3766311+08:00",
-    "ModuleType": 36,
-    "ToRemoveFiles": [
-      "ShareCommandContainers\\站内通知.json"
-    ]
+    "ModuleType": 36
   },
   {
     "ModuleName": "TaskScheduler/拉取部门信息到表",
@@ -6100,12 +6082,6 @@
   },
   {
     "ModuleName": "ShareCommandContainer/模板命令1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:04:04.7585112+08:00",
     "ModuleType": 36
   },
   {
@@ -6120,12 +6096,6 @@
   },
   {
     "ModuleName": "ShareCommandContainers/aaa",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2023-04-28T17:04:17.5642844+08:00",
     "ModuleType": 35
   }
 ]
