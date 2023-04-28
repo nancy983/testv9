@@ -4489,7 +4489,16 @@
   },
   {
     "ModuleName": "PCPage/分析页",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:06:19.292545+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\组件\\模板页面\\Dashboard\\分析页.json"
+    ]
   },
   {
     "ModuleName": "Pages/组件/手机模板页面",
@@ -4501,7 +4510,16 @@
   },
   {
     "ModuleName": "PCPage/工作台",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:06:19.2927389+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\组件\\模板页面\\Dashboard\\工作台.json"
+    ]
   },
   {
     "ModuleName": "PCPage/卡片列表",
@@ -4561,7 +4579,16 @@
   },
   {
     "ModuleName": "Pages/组件/模板页面/Dashboard",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:06:19.2937756+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\组件\\模板页面\\Dashboard"
+    ]
   },
   {
     "ModuleName": "PCPage/PC模板页面",
@@ -6133,5 +6160,15 @@
     "ToRemoveFiles": [
       "ShareCommandContainers\\aaa"
     ]
+  },
+  {
+    "ModuleName": "Pages/组件/Dashboard",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:06:19.293782+08:00",
+    "ModuleType": 6
   }
 ]
