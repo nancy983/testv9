@@ -1,5 +1,162 @@
 {
   "Name": "请假数据表",
+  "ShowBuiltInFields": true,
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core",
+      "enabledTypes": 3,
+      "isExternal": true,
+      "detailTables": []
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 13,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "Administrator"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "filterType": 1
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "filterType": 2
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "",
+            "filterType": 1,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "请假数据表",
+                "ColumnName": "请假类型",
+                "GUID": "bb77e891-516b-4eb8-829a-54268dde3ff7"
+              },
+              "Value": "事假"
+            }
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [
+          "库存管理员"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordBindingConfig, Forguncy.RbacPermission.Core",
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 1,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "开始日期": 5,
+            "结束日期": 5,
+            "请假理由": 5,
+            "请假类型": 5
+          },
+          "subTableOperations": {},
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "Administrator"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "开始日期": 5,
+            "结束日期": 5,
+            "请假理由": 5,
+            "请假类型": 5
+          },
+          "subTableOperations": {},
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
+          "fieldOperations": {
+            "ID": 1,
+            "开始日期": 5,
+            "结束日期": 5,
+            "请假理由": 5,
+            "请假类型": 5
+          },
+          "subTableOperations": {},
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 4,
+        "roleNames": [
+          "FGC_Anonymous"
+        ]
+      }
+    ]
+  },
   "Columns": [
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -69,5 +226,6 @@
   "PrimaryKey": [
     "ID"
   ],
+  "Comment": "验证数据表权限\r\n显示数据\r\n",
   "Relations": []
 }
