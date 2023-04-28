@@ -1,0 +1,130 @@
+{
+  "Name": "销售订单详情表",
+  "Columns": [
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "Unique": true,
+      "AutoIncrement": true,
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "销售订单ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "物品ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "double",
+      "MaxLength": -1,
+      "Name": "销售数量",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "double",
+      "MaxLength": -1,
+      "Name": "单价",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "备注",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.FormulaColumn, ServerDesignerCommon",
+      "Formula": "[销售数量]*[单价]",
+      "Name": "金额",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_Creator"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.DateExtraBingingColumn, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_CreateDate"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifier"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.DateExtraBingingColumn, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifyDate"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.StatisticColumn, ServerDesignerCommon",
+      "AggregateFunction": 1,
+      "DataColumnName": "2E642EE9-F6EF-4275-8952-5C6BF1AD41DC",
+      "Name": "记录数",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.StatisticColumn, ServerDesignerCommon",
+      "AggregateFunction": 4,
+      "DataColumnName": "销售数量",
+      "Name": "总数量",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.StatisticColumn, ServerDesignerCommon",
+      "DataColumnName": "单价",
+      "Name": "销售均价",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.StatisticColumn, ServerDesignerCommon",
+      "AggregateFunction": 4,
+      "DataColumnName": "金额",
+      "Name": "总金额",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "PrimaryKey": [
+    "ID"
+  ],
+  "Relations": [
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "销售订单表",
+      "PrimaryColumn": "ID",
+      "ForeignSchema": null,
+      "ForeignTable": "销售订单详情表",
+      "ForeignColumn": "销售订单ID",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": true
+    },
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "物品表",
+      "PrimaryColumn": "ID",
+      "ForeignSchema": null,
+      "ForeignTable": "销售订单详情表",
+      "ForeignColumn": "物品ID",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    }
+  ]
+}

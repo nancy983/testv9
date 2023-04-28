@@ -1,0 +1,151 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 291.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 291.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 185.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 185.0
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "采购员",
+              "compareType": 10
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "采购手机首页"
+              }
+            ],
+            "ID": "786cea49-e1e4-4bac-b7aa-2de6016a04ed"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "销售员",
+              "compareType": 10
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "销售手机首页"
+              }
+            ],
+            "ID": "66721cbd-5ea4-4495-91d4-3b04c0bb9e46"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "库存管理员",
+              "compareType": 10
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "出入库手机首页"
+              }
+            ],
+            "ID": "e44e75d5-2e54-45d4-874b-5cb5af67742a"
+          },
+          {
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "帮助手册"
+              }
+            ],
+            "ID": "248ae725-3781-4822-be2a-fb6a080cfe6c"
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//FVDF32efqdGuzzYY4IraxpSVJC5qrB7G/UPYUuL2OjHvPWiUBoxPMLHznNTLJm6Qe9YdDiqkbO2NevegMG1PJvmItBKds+7rZkroKDmNR9h8wwFGyNKMM9ZnCpsO2YmCLBRsXu5+90Aj23QvWYlxr3Gi1Gsm9et31TBeIvF9uSokkPx+7l9rsICDHPrdjR7T85pwMtyoCnWGYm3k51y+77aO4CJ1T/67cqolDa6lE+C1bwku0uXh1sncOsra4SHoc5ZNvqNmOJveA1b9hxS/bomss/VeGhmYtHkoscVePIHZL23djDqBnn/G1yR6//Ag5qlT/tTzsdCqh2K/IjDQL2WCNdCq5I96wi6Y8exT+M+Ncd0M3Q0GZltsukck7nDUbeGNRe+esPzOoKhkWHIAD3DIop2B/9HqMDJKrgDoVjPLc47BJUObxV9sscS+JS651ZzzMaznw/3wbZYdYf2vQ2ilsN/eSQJbzT1I5LJ6YFGjUE7Hki66+N7KPWdU2CAK+w0aFIvCTMCCMMukVsUgpMEH8SD4bx1hdE01KUm2NhRsA/X9gKs9d/XRhGf9MmUA7w0L+9W+nZfrUjwenoahuIeZyBOK+aRbg6gvP+aHNdR6QFJDmT2+M+oSo9wO7HhUayQ48GVAefuS/uzyUA8AQh1xu+Dmq8MiKrhz3XTDIOxxOcPFCSi6nN7GFGTNIhCpQzAR+pG8E3dQWHvlkH/jfRbjj+sN1L9XrToYJMrpen91Lz4Cg5oqS4XQto0YAZR8jwVF5+qWO7NVJjVdzLxoe8DJKp+oI6xOCqXzPyoghJH9CeUERfIVuV+tV1eyYH683RMVSL03CKuYk7z2nBe0SK8QzUhOwW6AVlXPLAGCK4En4IDMS2Q+INLYG9dS0x7juRZXM+S4cTBjxTdicS6Vxw==|920

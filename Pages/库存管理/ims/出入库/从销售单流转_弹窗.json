@@ -1,0 +1,1088 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 19,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 164.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      48
+    ],
+    "Count": 49
+  },
+  "Values": {
+    "1,1": "从销售单流转",
+    "4,2": "关键字",
+    "4,21": "销售日期",
+    "5,43": "查询",
+    "7,2": "双击数据行进行销售单流转",
+    "8,2": "销售单号",
+    "8,11": "出库状态",
+    "8,16": "客户"
+  },
+  "AttachInfos": {
+    "5,2": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "placeholder": "销售单号/客户/项目",
+        "prefixIcon": {
+          "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "resize": "none"
+      }
+    },
+    "5,21": {
+      "CellType": {
+        "$type": "ElementUI.DatePickerCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "daterange",
+        "startPlaceholder": "开始日期",
+        "rangeSeparator": "至",
+        "endPlaceholder": "结束日期",
+        "format": "yyyy年MM月DD日",
+        "firstDayOfWeek": 1,
+        "clearable": true,
+        "DefautWeekFormat": "yyyy 第 WW 周"
+      }
+    },
+    "5,43": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=从销售单流转_弹窗!V6"
+            },
+            "TargetType": "ElementUI.DatePickerCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+            "MethodName": "GetSelectedRange",
+            "RetrunParamNames": {
+              "StartValue": {
+                "SerializeProperty": "开始日期"
+              },
+              "EndValue": {
+                "SerializeProperty": "结束日期"
+              }
+            }
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=从销售单流转_弹窗!AW9"
+                      }
+                    ]
+                  },
+                  "value": "出库"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "销售订单表",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                          "SubConditions": [
+                            {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "销售订单表",
+                                "ColumnName": "单号",
+                                "GUID": "469a0279-f27b-4721-883c-0677e66401ee"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=从销售单流转_弹窗!C6"
+                              },
+                              "LeftBracket": 1
+                            },
+                            {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "销售订单表",
+                                "ColumnName": "客户ID",
+                                "GUID": "dfc230ed-46f2-4a6d-8bb8-bfe95032c41e",
+                                "RelationBinding": {
+                                  "RelatedTable": "供应商_客户表",
+                                  "RelatedColumn": "ID",
+                                  "DisplayColumn": "名称"
+                                }
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=从销售单流转_弹窗!C6"
+                              }
+                            },
+                            {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "销售订单表",
+                                "ColumnName": "项目ID",
+                                "GUID": "6d510b96-4541-4724-9ab9-31da86745bb1",
+                                "RelationBinding": {
+                                  "RelatedTable": "项目表",
+                                  "RelatedColumn": "ID",
+                                  "DisplayColumn": "名称"
+                                }
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=从销售单流转_弹窗!C6"
+                              },
+                              "RightBracket": 1
+                            }
+                          ],
+                          "RelationType": 1
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 3,
+                          "ColumnBindingInfo": {
+                            "TableName": "销售订单表",
+                            "ColumnName": "销售日期",
+                            "GUID": "bbfe70ed-503b-4609-b9fc-84fa1b7fc6c2"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=从销售单流转_弹窗!开始日期"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 5,
+                          "ColumnBindingInfo": {
+                            "TableName": "销售订单表",
+                            "ColumnName": "销售日期",
+                            "GUID": "cc5329b7-a929-40be-8ed3-8a2ebde73849"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=从销售单流转_弹窗!结束日期"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 1,
+                          "ColumnBindingInfo": {
+                            "TableName": "销售订单表",
+                            "ColumnName": "出库状态",
+                            "GUID": "3ed7ab0d-c0d4-4e18-8398-8dacf373ca40"
+                          },
+                          "Value": "10"
+                        }
+                      ]
+                    },
+                    "ID": "696707a1f72744dc8038586619ac0bdd"
+                  }
+                ],
+                "ID": "d55f6548-ffb1-4ca5-ba7a-c22abfdcbee7"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "销售订单表",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                          "SubConditions": [
+                            {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "销售订单表",
+                                "ColumnName": "单号",
+                                "GUID": "ec7ccb1a-94d1-4928-ae08-14b16acf7bae"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=从销售单流转_弹窗!C6"
+                              },
+                              "LeftBracket": 1
+                            },
+                            {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "销售订单表",
+                                "ColumnName": "客户ID",
+                                "GUID": "7ba8415d-5db5-4096-b608-d8934897b6cc",
+                                "RelationBinding": {
+                                  "RelatedTable": "供应商_客户表",
+                                  "RelatedColumn": "ID",
+                                  "DisplayColumn": "名称"
+                                }
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=从销售单流转_弹窗!C6"
+                              }
+                            },
+                            {
+                              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                              "CompareType": 6,
+                              "ColumnBindingInfo": {
+                                "TableName": "销售订单表",
+                                "ColumnName": "项目ID",
+                                "GUID": "d7c1c763-ab8b-4c4c-b2f1-dbef36b8a980",
+                                "RelationBinding": {
+                                  "RelatedTable": "项目表",
+                                  "RelatedColumn": "ID",
+                                  "DisplayColumn": "名称"
+                                }
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=从销售单流转_弹窗!C6"
+                              },
+                              "RightBracket": 1
+                            }
+                          ],
+                          "RelationType": 1
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 3,
+                          "ColumnBindingInfo": {
+                            "TableName": "销售订单表",
+                            "ColumnName": "销售日期",
+                            "GUID": "d7b8129a-fbbe-40cb-bc04-806378eb0863"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=从销售单流转_弹窗!开始日期"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 5,
+                          "ColumnBindingInfo": {
+                            "TableName": "销售订单表",
+                            "ColumnName": "销售日期",
+                            "GUID": "6c2840db-07f5-4ca7-b6a5-5e11d4897a1e"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=从销售单流转_弹窗!结束日期"
+                          }
+                        }
+                      ]
+                    },
+                    "ID": "8d2e77e059fc4484afc1b4ab02d6da01"
+                  }
+                ],
+                "ID": "8c2deb69-da27-4a02-9047-a7bf94670df6"
+              }
+            ]
+          }
+        ],
+        "Text": "查询",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "8,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "销售订单表",
+        "RowIndex": 8,
+        "ColumnIndex": 2,
+        "RowCount": 8,
+        "ColumnCount": 45,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "销售订单表",
+            "ColumnName": "审核状态",
+            "GUID": "e7e2c4f9-593b-42a6-95e4-e24b83989a9d"
+          },
+          "Value": "3"
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "基础表格",
+        "DoubleClickCommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true
+          }
+        ],
+        "ShowColumnHeaderInDesigner": true,
+        "UseSimpleBar": true,
+        "IsSingleSelection": true,
+        "ColumnOperation": 1
+      }
+    },
+    "8,48": {
+      "CellComment": {
+        "Comments": "页面来源，用于区分采购流转和出入库流转"
+      }
+    },
+    "9,2": {
+      "BindingInfo": {
+        "TableName": "销售订单表",
+        "ColumnName": "单号",
+        "GUID": "b924688b-8b2e-49d0-8dd7-c9f0ba107f65"
+      },
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 3,
+            "DrawerDirection": 3,
+            "PageName": "销售单查看"
+          }
+        ],
+        "ClickMode": 1
+      }
+    },
+    "9,11": {
+      "BindingInfo": {
+        "TableName": "销售订单表",
+        "ColumnName": "出库状态",
+        "GUID": "135adcf7-6692-41c9-aa46-ffaffe7f83d0",
+        "RelationBinding": {
+          "RelatedTable": "状态字典表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "状态"
+        }
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"已出库\"",
+            "StyleInfo": {
+              "Foreground": "Accent 2 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"出库中\"",
+            "StyleInfo": {
+              "Foreground": "Accent 1 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"未出库\"",
+            "StyleInfo": {
+              "Foreground": "#FFC00000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "9,16": {
+      "BindingInfo": {
+        "TableName": "销售订单表",
+        "ColumnName": "客户ID",
+        "GUID": "7cbc1092-f57d-4900-94d2-49e4358d2be5",
+        "RelationBinding": {
+          "RelatedTable": "供应商_客户表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "名称"
+        }
+      }
+    },
+    "9,26": {
+      "BindingInfo": {
+        "TableName": "销售订单表",
+        "ColumnName": "销售日期",
+        "GUID": "e7078af0-8c18-4a39-a8c1-4a9a8a2ccd44"
+      }
+    },
+    "9,33": {
+      "BindingInfo": {
+        "TableName": "销售订单表",
+        "ColumnName": "交货日期",
+        "GUID": "0e95a323-22ab-4bbd-b0ce-807fe7f8ba99"
+      }
+    },
+    "9,40": {
+      "BindingInfo": {
+        "TableName": "销售订单表",
+        "ColumnName": "总金额",
+        "GUID": "00f3c442-1f76-4f73-a4d3-7077ea5ffd83"
+      }
+    },
+    "17,2": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pageSize": 5,
+        "pagerCount": 5,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "Foreground": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "Foreground": 2,
+        "Formatter": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "FontStyle": 1,
+        "Foreground": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "TextIndent": 5,
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "Formatter": 6,
+        "TextIndent": 5,
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "TextIndent": 5,
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "Foreground": 9,
+        "TextIndent": 5,
+        "HorizontalAlignment": 8,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "Formatter": 10,
+        "TextIndent": 5,
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "Formatter": 10,
+        "HorizontalAlignment": 11,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 5,
+        "FontWeight": 0,
+        "Formatter": 12,
+        "TextIndent": 5,
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Italic",
+        "Text 1 50",
+        "Right",
+        "Background 1 -5",
+        "Body",
+        "[AUTO]General",
+        "Background 1 -35",
+        "Left",
+        "Accent 1 0",
+        "yyyy\"年\"m\"月\"d\"日\"",
+        "Center",
+        " ¥#,##0.00"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,46": 1,
+      "2,0": 2,
+      "2,1": 2,
+      "2,2": 2,
+      "2,3": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 2,
+      "2,8": 2,
+      "2,9": 2,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 2,
+      "2,13": 2,
+      "2,14": 2,
+      "2,15": 2,
+      "2,16": 2,
+      "2,17": 2,
+      "2,18": 2,
+      "2,19": 2,
+      "2,20": 2,
+      "2,21": 2,
+      "2,22": 2,
+      "2,23": 2,
+      "2,24": 2,
+      "2,25": 2,
+      "2,26": 2,
+      "2,27": 2,
+      "2,28": 2,
+      "2,29": 2,
+      "2,30": 2,
+      "2,31": 2,
+      "2,32": 2,
+      "2,33": 2,
+      "2,34": 2,
+      "2,35": 2,
+      "2,36": 2,
+      "2,37": 2,
+      "2,38": 2,
+      "2,39": 2,
+      "2,40": 2,
+      "2,41": 2,
+      "2,42": 2,
+      "2,43": 2,
+      "2,44": 2,
+      "2,45": 2,
+      "2,46": 2,
+      "2,47": 2,
+      "4,2": 3,
+      "4,3": 4,
+      "4,21": 5,
+      "4,22": 4,
+      "4,23": 4,
+      "4,24": 4,
+      "4,25": 4,
+      "4,26": 4,
+      "4,27": 4,
+      "4,28": 4,
+      "4,29": 4,
+      "4,30": 4,
+      "4,31": 4,
+      "4,32": 4,
+      "4,33": 4,
+      "4,34": 4,
+      "4,35": 4,
+      "4,36": 4,
+      "4,37": 4,
+      "4,38": 4,
+      "4,39": 4,
+      "4,40": 4,
+      "4,41": 4,
+      "4,42": 4,
+      "4,43": 4,
+      "4,44": 4,
+      "5,2": 4,
+      "5,21": 4,
+      "5,39": 4,
+      "5,43": 4,
+      "5,44": 4,
+      "5,45": 4,
+      "5,46": 4,
+      "7,2": 6,
+      "8,2": 7,
+      "8,11": 8,
+      "8,16": 9,
+      "8,26": 7,
+      "8,33": 7,
+      "8,40": 7,
+      "9,2": 10,
+      "9,11": 8,
+      "9,16": 9,
+      "9,26": 11,
+      "9,27": 12,
+      "9,33": 11,
+      "9,34": 11,
+      "9,40": 13,
+      "9,41": 13
+    },
+    "SheetStyle": {
+      "FontFamily": 5,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,2,1,18",
+    "5,21,1,18",
+    "5,43,1,4",
+    "9,2,1,9",
+    "9,11,1,5",
+    "9,16,1,10",
+    "9,26,1,7",
+    "9,33,1,7",
+    "9,40,1,7",
+    "10,2,6,45",
+    "17,2,1,45",
+    "8,2,1,9",
+    "8,11,1,5",
+    "8,16,1,10",
+    "8,26,1,7",
+    "8,33,1,7",
+    "8,40,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "从销售单流转",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=从销售单流转_弹窗!AW9"
+                  }
+                ]
+              },
+              "value": "出库"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                "TargetTableName": "销售订单表",
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 1,
+                  "ColumnBindingInfo": {
+                    "TableName": "销售订单表",
+                    "ColumnName": "出库状态",
+                    "GUID": "a1675f16-270c-46e3-aa7e-3dd448f22c0a"
+                  },
+                  "Value": "10"
+                },
+                "ID": "68db8f20dcc54a75ad721d7b5eee88c1",
+                "Comments": "查询未出库完成的销售单"
+              }
+            ],
+            "ID": "fdebad07-aa75-47c5-9b5f-6aeea2b69154"
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//+iwRZ+8BEqTDzn2rxHM9rUd0SDcaF+h+ZaLUUMrfkxJh0cbGV+REay4eftux3HRkgarmE4tTP2bWGx9Ga3KzqveOILw9YeOAZiJjRJzPV4FVIMiftdsCx9N6AHxd1GI9o9M2eFnkj8CYRBbmpjxDxM0HQj9KSaDmPjVs2/ESCRqpcuE3lGhAq6uTkkn18L9GA9wMD88wkGrb2hr69S9EN7BMSJTNcy6dADg+DuWtsAqOYnD6KobplwH7kLJN/tHhsW8LGA3VSgTjC79JR31QvFzLTQHdJTbgHSN/JtBf/Ky47pwgBLen7/gM5yjXx0LkxG1F1bfHN0QdMk5yZd5IgVQ2TQqz3dAnw5UxQxKqWOpE1LZU2xyvbCR87qy1smceCj/PRsfKaE7yn6yjwt/c4XkHNjS/c9ek1EwQU4tXw1SVyDzA/OOrZ5xi6Hk5Ua+7rxb2yl1G1GKyefI14hLTqSIvxdLOeFUHNywekWmSypKeDuY8mi6PXzpEbcA4ourg33m6nrUdovGRuj0tA5yDf2zUo5htmBvs9APedp0xz8SWFFpNixvbYEQKv9cKWtV0VJMsxzB+vRMbEwOplBoYbeXhcAuFy7n3carAiucW0k4TNaDxivxffrejYFKlMJCFB2LHQVjHkBmqnXvkUgSHaQlVtLQjpWfGed/rQbTPtscEuCk7a8JBeyx3kB6gVnSWNREwIdoit909VX1RqxLVOURpKqhI5/0pra1Hn70rhf2ULkwEqv5GiWHr7w1X3x5rJzASD5rRaFy/9vY62GfAWyCoI7xHxmale/Y0rPvgHi/CNX0KlnFjUAqAUQtkQFA5euP3pkFqOHpQF0RRRcAU+GA2Y6oQOTR1WbAIdVZDjVPsmOoW5+Z4uKs/dwDRo1Tjlpc8FUNsuhJMG48MiscwIA==|920

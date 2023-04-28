@@ -1,0 +1,31 @@
+{
+  "Name": "流程1",
+  "AllowStartRoleList": [],
+  "AllowEditRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 7
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
+        "bpmProcessPermissionType": 1,
+        "resourceName": "流程1",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.BpmProcess.BpmProcessPermissionBinding, Forguncy.RbacPermission.Core",
+        "bpmProcessPermissionType": 2,
+        "resourceName": "流程1",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 1
+}

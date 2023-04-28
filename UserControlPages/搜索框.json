@@ -1,0 +1,129 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 9.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "0,3": "查询"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "查询",
+        "TemplateKey": "_RS_Minor1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "0,0,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Aug01HRptjNGVv5lFo6y5Q7Q9LfnSZEQylJcbPpqvWBr7jdF3CsIAAP3N36u6EUKmR7lumoXdDx2rApxM7kkI3nhCUdWHCxKjBFnLS+0Msbh77u+4rrD43HglVavRsyh8FrDJP0Bv5bs3X3dntV15ZcHt+s++Y/q9xx3ifevPbdUvcQjtAr7Lomfc/BwFKpf1hux1eagIbgD+f0zLUbB1rHEpW5+AdayhQwqdtcZeF5CcozTJn+onN/GxFoQIkk/45eG0mFf0FxfgIR8lVQT7EFlllXzzDKtTmqrm5Xi+ATtRgB17pm2nWcQGjNK/KmiHeqP6TX+jMkzraBO1qOcLYtE5aygS/hB10n4Nz3xBc5Gj45ST9zRGnEUILU6XGcp2S0cQkXTpLOD1Xv+nKkjnCLbamjKNGRxQbWC2F0Whc8E8BF0ZklQ1/LTvKDPh/GYq0hqd3H8SHqX1ikM3Kw17SBUg3R8SxVQE5Af0pz+RtrxWu9b60APmjye5EFSy0dR3kmSOkYCHkQnKjUZQvGYLbsLeRSGx3zShY9o9c5hDrApU+7Yj74vkhTOnhaSD0XaPetE56d5iueMxq7L19bU+NXu4tqkBUGb5EFKkFoL2sO9uNCkR2J6FLLSS+qAXZSGzvcTFk8Ozvx6XQWDwMXL93NtmX5rfIlU87iOEZpaIAvjaBU6Qv6ERyh0j1PBZVQ7txCpZlMxraIQY+Oq8FdBUVd6en9VtQCUILnY6IpbnZq+ZiBlhGQhaxvBiJ/CSd/diT23RFSsot80dBBH1CywzRTyNc4cp9WX93yLrJX9LrCrbSFoBAg8SqHgyLSaZiE6v8BXRXIOpkSwjqqagxNLa5WGmOjMwYNNORcbWIreVEmroGLiTvhTSjSXhAOHY+NAGx48asHBB1FN1xLiuOnWjw==|920

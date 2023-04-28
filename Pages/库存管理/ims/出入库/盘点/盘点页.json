@@ -1,0 +1,1844 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 28,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "49": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "50": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "51": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "53": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 162.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      53
+    ],
+    "Count": 54
+  },
+  "Values": {
+    "2,2": "单号",
+    "2,14": "盘点日期",
+    "2,32": "状态",
+    "3,43": "重置",
+    "3,47": "查询",
+    "7,2": "盘点单列表",
+    "7,37": "盘点",
+    "7,42": "修改",
+    "7,47": "删除"
+  },
+  "AttachInfos": {
+    "3,2": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "placeholder": "单号",
+        "prefixIcon": {
+          "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "resize": "none",
+        "clearable": true
+      }
+    },
+    "3,14": {
+      "CellType": {
+        "$type": "ElementUI.DatePickerCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "daterange",
+        "startPlaceholder": "开始日期",
+        "rangeSeparator": "至",
+        "endPlaceholder": "结束日期",
+        "format": "yyyy年MM月DD日",
+        "firstDayOfWeek": 1,
+        "clearable": true,
+        "DefautWeekFormat": "yyyy 第 WW 周"
+      }
+    },
+    "3,32": {
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "0",
+            "label": "盘点中"
+          },
+          {
+            "value": "1",
+            "label": "盘点结束"
+          }
+        ],
+        "placeholder": "请选择",
+        "noDataText": "全部",
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "加载中"
+        },
+        "noMatchText": "无匹配数据",
+        "clearable": true
+      }
+    },
+    "3,43": {
+      "CssName": "img-button-pd8",
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点页!C4"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点页!O4"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点页!AG4"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "表格1",
+            "UpdateType": 6,
+            "UpdateListviewCommandRunTimeMethodSetting": {
+              "MethodName": "Reload",
+              "ParameterValues": {
+                "clearFilter": true,
+                "clearSort": true
+              }
+            }
+          },
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "盘点表",
+            "ID": "73efb97e0e224b0f824b51b332e1aa9f"
+          }
+        ],
+        "Text": "重置",
+        "TemplateKey": "无边框"
+      }
+    },
+    "3,47": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=盘点页!O4"
+            },
+            "TargetType": "ElementUI.DatePickerCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+            "MethodName": "GetSelectedRange",
+            "RetrunParamNames": {
+              "StartValue": {
+                "SerializeProperty": "开始日期"
+              },
+              "EndValue": {
+                "SerializeProperty": "结束日期"
+              }
+            }
+          },
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "盘点表",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "盘点表",
+                    "ColumnName": "单号",
+                    "GUID": "2f48c7f9-6963-4c9a-b70f-8652b5e05df8"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘点页!C4"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 3,
+                  "ColumnBindingInfo": {
+                    "TableName": "盘点表",
+                    "ColumnName": "日期",
+                    "GUID": "bdee391f-0ddd-42e1-bb64-2bb61e14901f"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘点页!开始日期"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 5,
+                  "ColumnBindingInfo": {
+                    "TableName": "盘点表",
+                    "ColumnName": "日期",
+                    "GUID": "2bd21bf7-bc36-49b1-8fa1-f35f90bcbffb"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘点页!结束日期"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "盘点表",
+                    "ColumnName": "是否结束",
+                    "GUID": "469e96c6-e72b-4586-965e-8eeb7a162e55"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘点页!AG4"
+                  }
+                }
+              ]
+            },
+            "ID": "f0ee859678d7486390a8932a4d52ce4e"
+          }
+        ],
+        "Text": "查询",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "7,37": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "开始盘点",
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "盘点返回码"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "盘点信息"
+            },
+            "ReturnPropertiesTo": [
+              {
+                "ResultPropertyName": "盘点单ID",
+                "ResultTo": {
+                  "SerializeProperty": "盘点单ID"
+                }
+              }
+            ],
+            "CheckDataValidation": false
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=盘点页!盘点返回码"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "57273d9b-6ab7-458e-bc78-f505615bc4ff",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                          }
+                        },
+                        "Value": "操作异常"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "b3a3234f-e820-416d-9687-557d690e2176",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                          }
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页!盘点信息"
+                        }
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "9c09770c-cad6-4450-a518-b030ed91123e",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                          }
+                        },
+                        "Value": "失败"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "74c76eed-b604-401c-9d19-99da3b451a5b"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+                    "CurrentRowInfo": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "盘点表",
+                        "ColumnName": "是否结束",
+                        "GUID": "4a6c675c-42e8-4b01-a1e8-bb671b8a94d4"
+                      },
+                      "Value": "0"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PopupDisplayMode": 3,
+                    "DrawerDirection": 3,
+                    "CloseWhenClickGrayArea": false,
+                    "PageName": "盘点页填写",
+                    "PassValues": [
+                      {
+                        "Source": "新建",
+                        "TargetCell": {
+                          "SerializeProperty": "=盘点页填写!AW2"
+                        }
+                      },
+                      {
+                        "Source": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页!盘点单ID"
+                        },
+                        "TargetCell": {
+                          "SerializeProperty": "=盘点页填写!AW6"
+                        }
+                      }
+                    ],
+                    "LoadBindingDataOption": 2
+                  }
+                ],
+                "Comments": "盘点单创建成功后，则打开对话框，进行修改",
+                "ID": "72386f8b-33e5-479d-99dc-0b4cb35eeee8"
+              }
+            ]
+          }
+        ],
+        "Text": "盘点",
+        "TemplateKey": "_RS_Minor1"
+      }
+    },
+    "7,42": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=盘点页!L12"
+                      }
+                    ]
+                  },
+                  "value": "1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "57273d9b-6ab7-458e-bc78-f505615bc4ff",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                          }
+                        },
+                        "Value": "操作异常"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "b3a3234f-e820-416d-9687-557d690e2176",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                          }
+                        },
+                        "Value": "该盘点单已经盘点结束，无法修改！"
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "9c09770c-cad6-4450-a518-b030ed91123e",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                          }
+                        },
+                        "Value": "失败"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "47d6b78e-4579-4190-b71b-e516a8634818"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PopupDisplayMode": 3,
+                    "DrawerDirection": 3,
+                    "CloseWhenClickGrayArea": false,
+                    "PageName": "盘点页填写",
+                    "LoadBindingDataOption": 1
+                  }
+                ],
+                "ID": "ac34d2ca-d9e5-4a60-a87b-71f7d30c58f9"
+              }
+            ]
+          }
+        ],
+        "Text": "修改",
+        "TemplateKey": "_RS_Minor1"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=盘点页!$BB$13=1"
+            },
+            "StyleInfo": {
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsDisabled": true
+          }
+        ]
+      }
+    },
+    "7,47": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+            "Title": "删除盘点单？",
+            "Message": "删除该盘点单后，盘点单对应的出入库单据也会被同步删除。",
+            "Type": "warning",
+            "ConfirmButtonText": "确定",
+            "ShowCancelButton": true,
+            "CancelButtonText": "取消",
+            "DialogResult": "确认删除",
+            "AdvancedSettings": {}
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=盘点页!确认删除"
+                      }
+                    ]
+                  },
+                  "value": "confirm"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "盘点单号",
+                    "ParameterValue": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=盘点页!C12"
+                    },
+                    "ID": "493175ba4c0d4372a93c668b846d858d"
+                  },
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "删除盘点单",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "盘点单ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=盘点页!BB12"
+                        }
+                      }
+                    ],
+                    "ResultErrorCodeTo": {
+                      "SerializeProperty": "删除返回码"
+                    },
+                    "ResultMessageTo": {
+                      "SerializeProperty": "删除失败信息"
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=盘点页!删除返回码"
+                              }
+                            ]
+                          },
+                          "value": "0",
+                          "compareType": 1
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "57273d9b-6ab7-458e-bc78-f505615bc4ff",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                                  }
+                                },
+                                "Value": "操作异常"
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "b3a3234f-e820-416d-9687-557d690e2176",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=盘点页!删除失败信息"
+                                }
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "9c09770c-cad6-4450-a518-b030ed91123e",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "189a1afa-d0e9-40b5-93f0-d0b7ba3e8b93"
+                                  }
+                                },
+                                "Value": "失败"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "c03a4fbe-9ec8-4161-955b-d620360f0454"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+                            "ShareCommandContainerRefer": {
+                              "ShareCommandContainerID": "c6826632-3693-4ace-9428-9b55f54d5dfd"
+                            },
+                            "Params": [
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "eea110f4-3b60-43b6-af4e-c1511ab08aa0",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "c6826632-3693-4ace-9428-9b55f54d5dfd"
+                                  }
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=\"盘点单 \"&盘点页!盘点单号&\" 删除成功\""
+                                }
+                              },
+                              {
+                                "ParamReferObject": {
+                                  "ParamID": "3badc0e1-9000-4a1c-8f39-26cb9e897b5c",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "c6826632-3693-4ace-9428-9b55f54d5dfd"
+                                  }
+                                },
+                                "Value": "成功"
+                              }
+                            ],
+                            "ReturnPropertiesTo": [
+                              {
+                                "ReturnPropertyReferObject": {
+                                  "ParamID": "67060bbc-e869-4e69-adae-87c9e87f672d",
+                                  "ShareCommandContainerReferObject": {
+                                    "ShareCommandContainerID": "c6826632-3693-4ace-9428-9b55f54d5dfd"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "f74a2d1e-9e78-4abf-9d94-c720584d1c6c"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "2bf65213-33e7-415c-8580-1306cd1de0ae"
+              }
+            ]
+          }
+        ],
+        "Text": "删除",
+        "TemplateKey": "_RS_Error1"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=盘点页!$BB$13=1"
+            },
+            "StyleInfo": {
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsDisabled": true
+          }
+        ]
+      }
+    },
+    "10,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "盘点表",
+        "RowIndex": 10,
+        "ColumnIndex": 2,
+        "RowCount": 14,
+        "ColumnCount": 49,
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "盘点表",
+                "ColumnName": "单号",
+                "GUID": "931bdc5e-99ce-41a6-bfdf-de962859b941"
+              },
+              "Order": 1
+            }
+          ]
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "基础表格",
+        "ShowColumnHeaderInDesigner": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "11,2": {
+      "BindingInfo": {
+        "TableName": "盘点表",
+        "ColumnName": "单号",
+        "GUID": "639b517d-3ba3-4019-9308-17853780b5a1"
+      },
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 3,
+            "DrawerDirection": 3,
+            "PageName": "盘点页查看"
+          }
+        ],
+        "ClickMode": 1
+      }
+    },
+    "11,11": {
+      "BindingInfo": {
+        "TableName": "盘点表",
+        "ColumnName": "是否结束",
+        "GUID": "9daf678c-d63b-4bc3-8019-6f01f7ef08eb"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 4,
+            "Value1": "=1",
+            "StyleInfo": {
+              "Foreground": "#FFFF0000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "11,19": {
+      "BindingInfo": {
+        "TableName": "盘点表",
+        "ColumnName": "日期",
+        "GUID": "e52f0832-f79e-4b1b-b7d0-9db966b23e63"
+      }
+    },
+    "11,28": {
+      "BindingInfo": {
+        "TableName": "盘点表",
+        "ColumnName": "备注",
+        "GUID": "a22570f1-f2ce-44a2-905a-0c79badf288a"
+      }
+    },
+    "11,53": {
+      "BindingInfo": {
+        "TableName": "盘点表",
+        "ColumnName": "ID",
+        "GUID": "14f4245f-e323-48ad-89e9-be6936d6d2a9"
+      }
+    },
+    "12,53": {
+      "BindingInfo": {
+        "TableName": "盘点表",
+        "ColumnName": "是否结束",
+        "GUID": "9743a219-6c36-4bd6-aeb9-a943c1fadfde"
+      }
+    },
+    "25,2": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pagerCount": 5,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          },
+          {
+            "layoutItem": "sizes"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "TextIndent": 5,
+        "HorizontalAlignment": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "TextIndent": 5,
+        "HorizontalAlignment": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 4,
+        "TextIndent": 5,
+        "HorizontalAlignment": 6,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 7,
+        "TextIndent": 5,
+        "HorizontalAlignment": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 8,
+        "TextIndent": 5,
+        "HorizontalAlignment": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "[AUTO]General",
+        "Right",
+        "Accent 1 0",
+        "Background 1 -5",
+        "Left",
+        "[=1]\"盘点结束\";[=0]\"盘点中\"",
+        "yyyy\"年\"m\"月\"d\"日\""
+      ],
+      "Borders": [
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "0,36": 0,
+      "0,37": 0,
+      "0,38": 0,
+      "0,39": 0,
+      "0,40": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "1,22": 0,
+      "1,23": 0,
+      "1,24": 0,
+      "1,25": 0,
+      "1,26": 0,
+      "1,27": 0,
+      "1,28": 0,
+      "1,29": 0,
+      "1,30": 0,
+      "1,31": 0,
+      "1,32": 0,
+      "1,33": 0,
+      "1,34": 0,
+      "1,35": 0,
+      "1,36": 0,
+      "1,37": 0,
+      "1,38": 0,
+      "1,39": 0,
+      "1,40": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 1,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 1,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "2,24": 0,
+      "2,25": 0,
+      "2,26": 0,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 0,
+      "2,30": 0,
+      "2,31": 0,
+      "2,32": 2,
+      "2,33": 0,
+      "2,34": 0,
+      "2,35": 0,
+      "2,36": 0,
+      "2,37": 0,
+      "2,38": 0,
+      "2,40": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,31": 0,
+      "3,32": 0,
+      "3,33": 0,
+      "3,34": 0,
+      "3,35": 0,
+      "3,36": 0,
+      "3,37": 0,
+      "3,38": 0,
+      "3,43": 3,
+      "3,44": 0,
+      "3,45": 0,
+      "3,47": 0,
+      "3,48": 0,
+      "3,49": 0,
+      "3,50": 0,
+      "4,0": 0,
+      "4,1": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "4,9": 0,
+      "4,10": 0,
+      "4,11": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "4,38": 0,
+      "4,39": 0,
+      "4,40": 0,
+      "4,41": 4,
+      "4,42": 0,
+      "4,49": 0,
+      "5,0": 0,
+      "5,1": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0,
+      "5,9": 0,
+      "5,10": 0,
+      "5,11": 0,
+      "5,12": 0,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,38": 0,
+      "5,39": 0,
+      "5,40": 0,
+      "5,41": 4,
+      "5,42": 0,
+      "5,49": 0,
+      "6,0": 0,
+      "6,1": 0,
+      "6,2": 0,
+      "6,3": 0,
+      "6,4": 0,
+      "6,5": 0,
+      "6,6": 0,
+      "6,7": 0,
+      "6,8": 0,
+      "6,9": 0,
+      "6,10": 0,
+      "6,11": 0,
+      "6,12": 0,
+      "6,13": 0,
+      "6,17": 0,
+      "6,18": 0,
+      "6,19": 0,
+      "6,20": 0,
+      "6,21": 0,
+      "6,22": 0,
+      "6,23": 0,
+      "6,24": 0,
+      "6,25": 0,
+      "6,26": 0,
+      "6,27": 0,
+      "6,28": 0,
+      "6,29": 0,
+      "6,30": 0,
+      "6,31": 0,
+      "6,32": 0,
+      "6,33": 0,
+      "6,40": 0,
+      "6,44": 0,
+      "6,45": 0,
+      "6,46": 0,
+      "6,47": 0,
+      "6,48": 0,
+      "6,49": 0,
+      "7,2": 5,
+      "7,19": 0,
+      "7,20": 0,
+      "7,21": 0,
+      "7,22": 0,
+      "7,23": 0,
+      "7,24": 0,
+      "7,25": 0,
+      "7,26": 0,
+      "7,27": 0,
+      "7,28": 0,
+      "7,29": 0,
+      "7,30": 0,
+      "7,31": 0,
+      "7,32": 0,
+      "7,33": 0,
+      "7,34": 0,
+      "7,37": 0,
+      "7,38": 0,
+      "7,39": 0,
+      "7,40": 0,
+      "7,41": 0,
+      "7,42": 0,
+      "7,43": 0,
+      "7,44": 0,
+      "7,45": 0,
+      "7,47": 0,
+      "7,48": 0,
+      "7,49": 0,
+      "7,50": 0,
+      "7,51": 0,
+      "7,52": 0,
+      "7,53": 0,
+      "8,1": 6,
+      "8,2": 7,
+      "8,3": 7,
+      "8,4": 7,
+      "8,5": 7,
+      "8,6": 7,
+      "8,7": 7,
+      "8,8": 7,
+      "8,9": 7,
+      "8,10": 7,
+      "8,11": 7,
+      "8,12": 7,
+      "8,13": 7,
+      "8,14": 7,
+      "8,15": 7,
+      "8,16": 7,
+      "8,17": 7,
+      "8,18": 7,
+      "8,19": 7,
+      "8,20": 7,
+      "8,21": 7,
+      "8,22": 7,
+      "8,23": 7,
+      "8,24": 7,
+      "8,25": 7,
+      "8,26": 7,
+      "8,27": 7,
+      "8,28": 7,
+      "8,29": 7,
+      "8,30": 7,
+      "8,31": 7,
+      "8,32": 7,
+      "8,33": 7,
+      "8,34": 7,
+      "8,35": 7,
+      "8,36": 7,
+      "8,37": 7,
+      "8,38": 7,
+      "8,39": 7,
+      "8,40": 7,
+      "8,41": 7,
+      "8,42": 7,
+      "8,43": 7,
+      "8,44": 7,
+      "8,45": 7,
+      "8,46": 7,
+      "8,47": 7,
+      "8,48": 7,
+      "8,49": 7,
+      "8,50": 7,
+      "8,51": 7,
+      "8,52": 0,
+      "8,53": 0,
+      "9,2": 0,
+      "9,3": 0,
+      "9,4": 0,
+      "9,5": 0,
+      "9,6": 0,
+      "9,7": 0,
+      "9,8": 0,
+      "9,9": 0,
+      "9,10": 0,
+      "9,11": 0,
+      "9,12": 0,
+      "9,13": 0,
+      "9,14": 0,
+      "9,15": 0,
+      "9,16": 0,
+      "9,17": 0,
+      "9,18": 0,
+      "9,19": 0,
+      "9,20": 0,
+      "9,21": 0,
+      "9,22": 0,
+      "9,23": 0,
+      "9,24": 0,
+      "9,25": 0,
+      "9,26": 0,
+      "9,27": 0,
+      "9,28": 0,
+      "9,29": 0,
+      "9,30": 0,
+      "9,31": 0,
+      "9,32": 0,
+      "9,33": 0,
+      "9,34": 0,
+      "9,35": 0,
+      "9,36": 0,
+      "9,37": 0,
+      "9,38": 0,
+      "9,39": 0,
+      "9,40": 0,
+      "9,41": 0,
+      "9,42": 0,
+      "9,43": 0,
+      "9,44": 0,
+      "9,45": 0,
+      "9,46": 0,
+      "9,47": 0,
+      "9,48": 0,
+      "9,49": 0,
+      "9,50": 0,
+      "9,51": 0,
+      "9,52": 0,
+      "9,53": 0,
+      "10,2": 8,
+      "10,11": 8,
+      "10,19": 9,
+      "10,28": 8,
+      "11,2": 10,
+      "11,11": 11,
+      "11,19": 12,
+      "11,28": 9,
+      "24,51": 0,
+      "24,52": 0,
+      "24,53": 0,
+      "25,2": 0,
+      "25,51": 0,
+      "25,52": 0,
+      "25,53": 0,
+      "26,2": 0,
+      "26,3": 0,
+      "26,4": 0,
+      "26,5": 0,
+      "26,6": 0,
+      "26,7": 0,
+      "26,8": 0,
+      "26,9": 0,
+      "26,10": 0,
+      "26,11": 0,
+      "26,12": 0,
+      "26,13": 0,
+      "26,14": 0,
+      "26,15": 0,
+      "26,16": 0,
+      "26,17": 0,
+      "26,18": 0,
+      "26,19": 0,
+      "26,20": 0,
+      "26,21": 0,
+      "26,22": 0,
+      "26,23": 0,
+      "26,24": 0,
+      "26,25": 0,
+      "26,26": 0,
+      "26,27": 0,
+      "26,28": 0,
+      "26,29": 0,
+      "26,30": 0,
+      "26,31": 0,
+      "26,32": 0,
+      "26,33": 0,
+      "26,34": 0,
+      "26,35": 0,
+      "26,36": 0,
+      "26,37": 0,
+      "26,38": 0,
+      "26,39": 0,
+      "26,40": 0,
+      "26,41": 0,
+      "26,42": 0,
+      "26,43": 0,
+      "26,44": 0,
+      "26,45": 0,
+      "26,46": 0,
+      "26,47": 0,
+      "26,48": 0,
+      "26,49": 0,
+      "26,50": 0,
+      "26,51": 0,
+      "26,52": 0,
+      "26,53": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,2,1,11",
+    "3,14,1,17",
+    "3,32,1,7",
+    "3,43,1,3",
+    "3,47,1,4",
+    "7,37,1,4",
+    "7,42,1,4",
+    "7,47,1,4",
+    "11,2,1,9",
+    "11,11,1,8",
+    "11,19,1,9",
+    "11,28,1,23",
+    "12,2,12,49",
+    "25,2,1,49",
+    "10,2,1,9",
+    "10,11,1,8",
+    "10,19,1,9",
+    "10,28,1,23"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "横向菜单导航",
+    "Title": "库存盘点",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "b8261302-326d-40fa-a930-12edb14c05e8",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1206,776"
+    },
+    {
+      "Name": "fb618403-77e9-485e-a1cf-0f51d16afd78",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "1012,104"
+    },
+    {
+      "Name": "1213eef1-bb4e-46a7-af4e-cd722371be25",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,136",
+      "Size": "1012,624"
+    }
+  ]
+}//IHONafS5CuXfPAswUMZG194oVPCBj5+JpuB//H89YLb7zKXmsZTAE1OBzGEFc2MR1v2fVvfYyrVy66MveY7+8pKvDPv04q3O/yzFjRSVHi6PACNLAQZZ+5GEYz2vtM8DD95KzV9dgoD37Lw9fFVmDyia8LlPZfDafpHzdEbD6Cgjp7Hmjssj2qbtXtJCqrWgyn03fneJ3xCytFAuTTYdQpLNDe9TaQrqtiTguzhmhLgWmo/gxTUrVlPiWqEQB/knOEGzRJL6lP5CR39phfN4kUt9LNtaWuS/ZAZbGJUDMZe9ziSoLEnnS9YV7mytPxSzTxw8R5VC+7hdU1bNTEU4mNNDPjCutaVINDsM512i2rrzaJNOoKPGgCOol8144KjCQwcrEUusPzMD8qEz6KyVgwOfrOUHb13McXl2xOL0MB+8wxaY4+JmoAWauK5N4XGPlJK+haxAC1P/jKsoX+v0div0Tzf6Mh7tH8dHeH+jnJGYGosqDuIhNuNjfLvxwtNKXtcI1HhvqOz4GQ8soFszyjWI7FyYuuws5nqzZ8FHggwJItNOCwdSLMUGRRM/6a0p8EeKS9MV279Ih4ePl2Spr+ZS/vrm5m62H1SLNKiZYaTYuOBYlHTFUAqam1lxLNIzWg3cn1OVFODrkiUwIEWCVESDphzOi20NXb5Te2SIUpzRayMbBNDCexxXMPEG2qPRU5foTG5t1OTLgR4scTJjr5RFj7Run3UOhjTRVVZpGFwdCfuDCww8n5s6rLw110OM0POjFJhwLPYQNbYI6pDML9imtRJF0PnVgn7j4Ml2DRyTSVvH3jdrt39w5YfO4CkTxoYwmnoOnfR6ZMPOQ4XRnb2QRdBBnQY0cr0q5Dtbcppx1/b7a/IIt+pYgb8RJbnzBFo4+itLWiE8MfD84oAIrw==|920
