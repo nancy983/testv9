@@ -6034,14 +6034,7 @@
   },
   {
     "ModuleName": "Process/文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:35:35.9222019+08:00",
-    "ModuleType": 29,
-    "ToRemoveFiles": []
+    "ModuleType": 29
   },
   {
     "ModuleName": "UserControlPages/工作流表单模板/文件夹1",
@@ -6441,85 +6434,34 @@
   },
   {
     "ModuleName": "Notification/服务端通知7",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:34:30.1753648+08:00",
-    "ModuleType": 34,
-    "ToRemoveFiles": [
-      "Notifications\\服务端通知7.json"
-    ]
+    "ModuleType": 34
   },
   {
     "ModuleName": "Notifications/设置组件",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:34:45.5398834+08:00",
     "ModuleType": 33
   },
   {
     "ModuleName": "SchedulerTasks/文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:35:15.1145705+08:00",
     "ModuleType": 21
   },
   {
     "ModuleName": "Reports/文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:35:27.9499992+08:00",
     "ModuleType": 19
   },
   {
     "ModuleName": "UserControlPages/文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:35:45.3379936+08:00",
     "ModuleType": 32
   },
   {
     "ModuleName": "Notification/服务端通知8",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:35:53.4699422+08:00",
     "ModuleType": 34
   },
   {
     "ModuleName": "ShareCommandContainer/模板命令5",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:36:00.2056002+08:00",
     "ModuleType": 36
   },
   {
     "ModuleName": "Image/download (1)1.jpg",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:36:10.4433663+08:00",
     "ModuleType": 38
   }
 ]
