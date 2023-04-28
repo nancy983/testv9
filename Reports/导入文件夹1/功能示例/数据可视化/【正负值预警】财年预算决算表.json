@@ -1,0 +1,106 @@
+{
+  "Name": "【正负值预警】财年预算决算表",
+  "DataSources": [
+    {
+      "Name": "支出预算",
+      "GUID": "7e30bbf7-1135-4790-af4c-291aaf248c92",
+      "DataSourceSetting": {
+        "TableName": "支出预算",
+        "BindingInfos": [
+          {
+            "GUID": "0ef68a58-aa30-4fd2-849b-4a68ae833e93",
+            "BindingInfo": {
+              "TableName": "支出预算",
+              "ColumnName": "ID",
+              "GUID": "8579239e-62d4-488a-9dc1-faa30b5efab5"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "3727f885-dca1-4931-9b47-b8c23959614c",
+            "BindingInfo": {
+              "TableName": "支出预算",
+              "ColumnName": "年度",
+              "GUID": "e7225305-b35f-433d-a031-a80fd253f70b"
+            },
+            "ColumnName": "年度"
+          },
+          {
+            "GUID": "b4216f4e-e013-450d-b87f-2addd9d5f6d5",
+            "BindingInfo": {
+              "TableName": "支出预算",
+              "ColumnName": "科目编号",
+              "GUID": "4362f437-b13c-4231-a75f-a6bbd208a96c"
+            },
+            "ColumnName": "科目编号"
+          },
+          {
+            "GUID": "5ea7484f-2ad7-47d8-aa43-40946b31db92",
+            "BindingInfo": {
+              "TableName": "支出预算",
+              "ColumnName": "科目名称",
+              "GUID": "f6601bb9-406a-4cee-8fc7-f50ee340bab6"
+            },
+            "ColumnName": "科目名称"
+          },
+          {
+            "GUID": "26f446e9-3a2e-49f4-86be-b0a3d0587468",
+            "BindingInfo": {
+              "TableName": "支出预算",
+              "ColumnName": "预算",
+              "GUID": "128045aa-7eda-445c-9ffd-8c3e085e6760"
+            },
+            "ColumnName": "预算"
+          },
+          {
+            "GUID": "d3ae0a33-c4d9-4fa8-84e5-f55a275b4043",
+            "BindingInfo": {
+              "TableName": "支出预算",
+              "ColumnName": "决算",
+              "GUID": "eec5250d-8009-40ef-8889-2989fef78d34"
+            },
+            "ColumnName": "决算"
+          },
+          {
+            "GUID": "e9f77d80-def3-43c8-844e-56e7525ab12e",
+            "BindingInfo": {
+              "TableName": "支出预算",
+              "ColumnName": "说明",
+              "GUID": "eb0032a8-e1ee-41ac-b6ab-67522e01901f"
+            },
+            "ColumnName": "说明"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【正负值预警】财年预算决算表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【正负值预警】财年预算决算表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

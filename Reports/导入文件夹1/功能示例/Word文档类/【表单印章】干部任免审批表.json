@@ -1,0 +1,336 @@
+{
+  "Name": "【表单印章】干部任免审批表",
+  "DataSources": [
+    {
+      "Name": "干部履历",
+      "GUID": "ef83c508-eb11-46aa-875e-7ec90556db6f",
+      "DataSourceSetting": {
+        "TableName": "干部履历",
+        "BindingInfos": [
+          {
+            "GUID": "6ec4bc52-9dbc-49d0-a25d-c9527cfae37b",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "ID",
+              "GUID": "8c33ade6-be21-44b6-bb28-3e5378722c4a"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "d76df138-b128-4ef1-827b-25cbe912be0b",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "姓名",
+              "GUID": "f3a5e607-0465-4f52-af9d-047140cca908"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "c82233d1-4abb-41d1-bb36-a59f83106268",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "性别",
+              "GUID": "d0af6559-aed2-444d-aefa-3e6d97433ee5"
+            },
+            "ColumnName": "性别"
+          },
+          {
+            "GUID": "de68e055-8d53-40f5-a531-09b8814d1e04",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "出生日期",
+              "GUID": "5ff336d9-8485-4787-b53a-9a9a045cf6d4"
+            },
+            "ColumnName": "出生日期"
+          },
+          {
+            "GUID": "74473a60-93dc-4707-8d28-94f8f61ca347",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "名族",
+              "GUID": "5b598031-0cf8-4b65-b54f-9583575bfd89"
+            },
+            "ColumnName": "名族"
+          },
+          {
+            "GUID": "30dbf3d2-14ba-4b8c-b2d2-a3871a58ca06",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "籍贯",
+              "GUID": "6fe4b906-d2f8-4960-95de-5642dfe10355"
+            },
+            "ColumnName": "籍贯"
+          },
+          {
+            "GUID": "c8bf21c8-863b-4ebb-a7bb-0a0bcab0b655",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "出生地",
+              "GUID": "6f95fed3-bdf9-4983-b0cc-502a6d667cf0"
+            },
+            "ColumnName": "出生地"
+          },
+          {
+            "GUID": "49f9bc5d-3e87-419f-9a18-2c01463b3a8e",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "入党时间",
+              "GUID": "73a88407-06f4-4db3-a35c-c6053a67c486"
+            },
+            "ColumnName": "入党时间"
+          },
+          {
+            "GUID": "fdd6fa97-4252-4d8b-b49a-97ce8bd6344c",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "参加工作时间",
+              "GUID": "95bca9ab-adbc-449e-af45-e380950552c5"
+            },
+            "ColumnName": "参加工作时间"
+          },
+          {
+            "GUID": "525168b7-ea5d-41b0-b435-7ec3da374e80",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "健康状况",
+              "GUID": "3630e831-db84-4b7a-a63c-03f1edbadf89"
+            },
+            "ColumnName": "健康状况"
+          },
+          {
+            "GUID": "f17a09e3-8800-4e9c-8c67-677b7e616c4e",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "职务",
+              "GUID": "d8321ab2-b572-4d06-9924-49b64fb08ba9"
+            },
+            "ColumnName": "职务"
+          },
+          {
+            "GUID": "6c5c7eb7-d318-41df-b027-c833258e249c",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "专长",
+              "GUID": "e3ca0114-4d44-42a6-8cc1-da3cadebc979"
+            },
+            "ColumnName": "专长"
+          },
+          {
+            "GUID": "7fecb040-26a1-40b6-9de3-1dcf3c3e6945",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "全日制教育",
+              "GUID": "00287b29-3f8b-4b6d-9b88-ecff940f96c0"
+            },
+            "ColumnName": "全日制教育"
+          },
+          {
+            "GUID": "5ebc0f0a-27ea-4d24-b5ad-366e103a664b",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "全日制学校",
+              "GUID": "5817a345-2b50-4670-93af-f161f11eb52b"
+            },
+            "ColumnName": "全日制学校"
+          },
+          {
+            "GUID": "d70094d3-a856-41f9-8cfd-76e6d51f64b3",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "在职教育",
+              "GUID": "254acad6-84f1-4a34-8469-3b5a4e441418"
+            },
+            "ColumnName": "在职教育"
+          },
+          {
+            "GUID": "ae126733-6cc9-4b46-9d9f-b05b19abf91e",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "在职教育学习",
+              "GUID": "6f3bb33c-6718-4492-9aa5-ffd2f9434339"
+            },
+            "ColumnName": "在职教育学习"
+          },
+          {
+            "GUID": "7e905e53-5e93-473d-adcd-df985e07c578",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "现任职务",
+              "GUID": "1c5a0bed-6bdb-42e6-b64d-7287f615b1a3"
+            },
+            "ColumnName": "现任职务"
+          },
+          {
+            "GUID": "cc48df8f-78dd-456c-84aa-8080e9cc1dc9",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "拟任职务",
+              "GUID": "2cb6f8d2-8c68-460f-8ca9-6790be30c7b6"
+            },
+            "ColumnName": "拟任职务"
+          },
+          {
+            "GUID": "7f7ee8b0-277b-4777-ada2-0c57e2bf2b24",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "拟免职务",
+              "GUID": "28ccaf1e-a022-4ad0-8aef-4d5796fd19db"
+            },
+            "ColumnName": "拟免职务"
+          },
+          {
+            "GUID": "4c8ad8be-4ebc-41cb-a801-c035036d8091",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "简历",
+              "GUID": "1c7e7232-e193-4732-bd0f-e2141e97295d"
+            },
+            "ColumnName": "简历"
+          },
+          {
+            "GUID": "20bd7e82-6735-4421-b004-540c60e539b6",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "奖惩情况",
+              "GUID": "b577f177-fe30-481c-8a4a-363f5c83c56d"
+            },
+            "ColumnName": "奖惩情况"
+          },
+          {
+            "GUID": "5d9e73ec-140a-4d86-ac74-1d62e47f761c",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "年度考核结果",
+              "GUID": "925c0fe1-8366-403d-a720-8ea4d7a9ed5b"
+            },
+            "ColumnName": "年度考核结果"
+          },
+          {
+            "GUID": "3e636f04-9b25-438d-8401-07cf25bd23fc",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "任免理由",
+              "GUID": "2a64eceb-d857-4d20-9f97-53e7c94eda87"
+            },
+            "ColumnName": "任免理由"
+          },
+          {
+            "GUID": "b6df8044-d15e-4d8c-96e3-2c3f1564b18c",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "呈报单位",
+              "GUID": "e3acd844-f29e-4a01-a87d-2045c6dfb5e9"
+            },
+            "ColumnName": "呈报单位"
+          },
+          {
+            "GUID": "aa376c71-4dd5-46a5-b44e-8b3729a5d5a7",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "审判机关意见",
+              "GUID": "2a409f4b-d686-4882-aae7-71da8406aeda"
+            },
+            "ColumnName": "审判机关意见"
+          },
+          {
+            "GUID": "6eb50e4e-d442-4d4a-9459-990e0118791b",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "行政机关任免意见",
+              "GUID": "bfa96edf-35c0-44c5-9e55-a23aed59f5e8"
+            },
+            "ColumnName": "行政机关任免意见"
+          },
+          {
+            "GUID": "edea9ff1-9613-4bcf-abd9-8bcdec067cb4",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "FGC_Creator",
+              "GUID": "37b41be3-8a34-4ab6-bd10-2f9561e67e9d"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "823f248e-005a-4d1b-b3de-a734055b85e9",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "ce6265cf-1e65-482c-bdb2-d16be3969159"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "5249f627-7bef-4798-8e50-4911d5a2bb71",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "dece453f-9d65-491a-be7a-16a020670d8e"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "d39914c0-a220-4340-b9f9-3c35e5857711",
+            "BindingInfo": {
+              "TableName": "干部履历",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "3f9453e3-40a2-4224-8edf-0db5df693a0d"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【表单印章】干部任免审批表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【表单印章】干部任免审批表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 4
+}

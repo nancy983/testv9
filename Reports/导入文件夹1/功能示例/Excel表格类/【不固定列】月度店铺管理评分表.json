@@ -1,0 +1,106 @@
+{
+  "Name": "【不固定列】月度店铺管理评分表",
+  "DataSources": [
+    {
+      "Name": "店面满意度",
+      "GUID": "9d7c242b-d2eb-46dd-ad50-e63f45c2b095",
+      "DataSourceSetting": {
+        "TableName": "店面满意度",
+        "BindingInfos": [
+          {
+            "GUID": "da20f7d0-69a7-4f4e-928d-b8dedb40f551",
+            "BindingInfo": {
+              "TableName": "店面满意度",
+              "ColumnName": "id",
+              "GUID": "bdd55cb4-0ac9-449d-83e5-99e16f726bba"
+            },
+            "ColumnName": "id"
+          },
+          {
+            "GUID": "d3a9aa40-7cad-42fc-83b7-ea14d6e6261b",
+            "BindingInfo": {
+              "TableName": "店面满意度",
+              "ColumnName": "code",
+              "GUID": "32ee1f05-3455-4e64-8b44-c8bf246c2558"
+            },
+            "ColumnName": "code"
+          },
+          {
+            "GUID": "53e91218-4f02-4798-8599-a2083ee6f16c",
+            "BindingInfo": {
+              "TableName": "店面满意度",
+              "ColumnName": "eb_owner",
+              "GUID": "3e009da0-d0dc-4c01-8c01-9bcfb81b1f48"
+            },
+            "ColumnName": "eb_owner"
+          },
+          {
+            "GUID": "9fc91692-da31-4bfc-a800-2494e680701c",
+            "BindingInfo": {
+              "TableName": "店面满意度",
+              "ColumnName": "col_num",
+              "GUID": "f6489f43-c0c7-4bbd-ab01-0b1f3bf2ff1c"
+            },
+            "ColumnName": "col_num"
+          },
+          {
+            "GUID": "498a5156-b5e1-477f-ac6e-29c57cbf28ff",
+            "BindingInfo": {
+              "TableName": "店面满意度",
+              "ColumnName": "en_desc",
+              "GUID": "ea6022e0-40c3-4689-89a8-f4847bc3c601"
+            },
+            "ColumnName": "en_desc"
+          },
+          {
+            "GUID": "93aa3fdf-f056-4ffb-af80-fb6c6f2be470",
+            "BindingInfo": {
+              "TableName": "店面满意度",
+              "ColumnName": "z_c",
+              "GUID": "2167b28a-73b7-4ec6-b7ea-3abbc9a2e607"
+            },
+            "ColumnName": "z_c"
+          },
+          {
+            "GUID": "b2090a12-8325-4bb2-9ec0-3f739eaf0d62",
+            "BindingInfo": {
+              "TableName": "店面满意度",
+              "ColumnName": "trial225",
+              "GUID": "164c52cd-47ac-4324-a6c3-2e1ef180df9b"
+            },
+            "ColumnName": "trial225"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【不固定列】月度店铺管理评分表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【不固定列】月度店铺管理评分表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

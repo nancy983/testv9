@@ -1,0 +1,66 @@
+{
+  "Name": "M3.历史账单",
+  "DataSources": [
+    {
+      "Name": "mobile_账单",
+      "GUID": "9fcabd28-a5ab-455c-9df5-b50f666ed2a5",
+      "DataSourceSetting": {
+        "TableName": "mobile_账单",
+        "BindingInfos": [
+          {
+            "GUID": "969dbd80-65d4-49e5-9aef-28e9b8252109",
+            "BindingInfo": {
+              "TableName": "mobile_账单",
+              "ColumnName": "公司名称",
+              "GUID": "00398fb4-79d8-49b7-95ad-3f2c135236d2"
+            },
+            "ColumnName": "公司名称"
+          },
+          {
+            "GUID": "793cc20c-3b68-42a5-84f2-08987cd67bc3",
+            "BindingInfo": {
+              "TableName": "mobile_账单",
+              "ColumnName": "消费金额",
+              "GUID": "086af689-5c25-42f5-be0b-7ef976625205"
+            },
+            "ColumnName": "消费金额"
+          },
+          {
+            "GUID": "45bbf739-9204-49a1-b727-87a774ec7a00",
+            "BindingInfo": {
+              "TableName": "mobile_账单",
+              "ColumnName": "时间",
+              "GUID": "c2e29ee0-2572-4742-827b-9ee1cd4ccbbe"
+            },
+            "ColumnName": "时间"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "M3.历史账单"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "M3.历史账单",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}

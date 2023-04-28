@@ -1,0 +1,149 @@
+{
+  "Name": "M1.客户分析",
+  "DataSources": [
+    {
+      "Name": "mobile_客户",
+      "GUID": "277067ee-5758-4222-8bdc-57b25006b75d",
+      "DataSourceSetting": {
+        "TableName": "mobile_客户",
+        "BindingInfos": [
+          {
+            "GUID": "807b6e2f-58ff-458c-9574-637d8ac05be8",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "客户姓名",
+              "GUID": "27177a74-ab8b-4517-9594-ced4f76e0f2d"
+            },
+            "ColumnName": "客户姓名"
+          },
+          {
+            "GUID": "0bfc748c-d37d-4caf-8e17-bb59b735ebb3",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "认知途经",
+              "GUID": "073921a4-3c8e-4341-9e69-1b9d515d8cc1"
+            },
+            "ColumnName": "认知途经"
+          },
+          {
+            "GUID": "9a7d9838-4f83-4a17-a0e1-11858ced0373",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "数量1",
+              "GUID": "29a29f15-46a2-496c-930a-35cc199bc95e"
+            },
+            "ColumnName": "数量1"
+          },
+          {
+            "GUID": "c409c2ae-b07e-4118-ad1d-e2f13717fc70",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "比例1",
+              "GUID": "8df67e9f-2215-4c06-a633-de913885f53b"
+            },
+            "ColumnName": "比例1"
+          },
+          {
+            "GUID": "c507f3d9-2bb4-4cb8-babc-4faf4be5df6b",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "居住区域",
+              "GUID": "33a30893-23c5-43d0-8c87-9142ce1de40a"
+            },
+            "ColumnName": "居住区域"
+          },
+          {
+            "GUID": "a1bc730b-f032-49b6-bae3-289ff26ef981",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "数量2",
+              "GUID": "8b5bcb37-a768-47e4-90af-da69b3e8ef6c"
+            },
+            "ColumnName": "数量2"
+          },
+          {
+            "GUID": "0a2da8a8-4f1c-4d1a-b9aa-004ba9ae30b3",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "比例2",
+              "GUID": "200e0856-3b53-479e-b728-267cfcf67c53"
+            },
+            "ColumnName": "比例2"
+          },
+          {
+            "GUID": "9632c95a-458b-4b9d-a51a-f5a4a0d37382",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "工作区域",
+              "GUID": "0fa8041d-e930-4600-b149-12afc21cda46"
+            },
+            "ColumnName": "工作区域"
+          },
+          {
+            "GUID": "6e0eb9a6-0921-46a9-837a-481333d2d4ba",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "数量3",
+              "GUID": "154c4e21-59bb-4e0d-9ac0-aff0736eefc3"
+            },
+            "ColumnName": "数量3"
+          },
+          {
+            "GUID": "9a103c27-652a-495e-bd94-4999de27eee0",
+            "BindingInfo": {
+              "TableName": "mobile_客户",
+              "ColumnName": "比例3",
+              "GUID": "50db41f5-d74c-43e1-a3cc-5ccf2136c5bb"
+            },
+            "ColumnName": "比例3"
+          }
+        ],
+        "TopCount": "6",
+        "OrderBySqlCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "mobile_客户",
+                "ColumnName": "比例1",
+                "GUID": "0463a9ec-a036-45ad-8c82-0101056e838d"
+              },
+              "Order": 1
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "number",
+        "number",
+        "string",
+        "number",
+        "number",
+        "string",
+        "number",
+        "number"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "M1.客户分析"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "M1.客户分析",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

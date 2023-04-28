@@ -1,0 +1,197 @@
+{
+  "Name": "SMT生产看板",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "ebbc1e50-845a-4978-9c8d-150f291f213d",
+      "DataSourceSetting": {
+        "TableName": "smt生产看板人员名单02柱状图",
+        "BindingInfos": [
+          {
+            "GUID": "0e8488ce-193f-4216-b6e6-c5f0debeb057",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "生产线",
+              "GUID": "377b1c69-5208-4619-a540-5d9199e3826c"
+            },
+            "ColumnName": "生产线"
+          },
+          {
+            "GUID": "e72e34ad-1609-4669-b5b5-a74c83e3bbc4",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "完成数量",
+              "GUID": "c67f834f-c20b-4e06-a0b1-38c67a2ec6c4"
+            },
+            "ColumnName": "完成数量"
+          },
+          {
+            "GUID": "f44474a7-ff69-4cba-8544-b0e841040563",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "未完成数量",
+              "GUID": "6d6e6d2d-b625-4fb5-9b8b-fa7b5a033be4"
+            },
+            "ColumnName": "未完成数量"
+          },
+          {
+            "GUID": "f798fcea-869b-4349-9315-f5a530184184",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "完成比率",
+              "GUID": "de2abc61-a763-4959-856e-0dfe037d6d8a"
+            },
+            "ColumnName": "完成比率"
+          },
+          {
+            "GUID": "e14de2e6-cd62-4d30-8501-59928a3420b4",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "FGC_Creator",
+              "GUID": "3ae2e113-a512-493b-8317-44a0ceeb5bea"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "1845ced2-fd71-4677-843d-f278b002564d",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "f9aa70a2-85a9-4b13-a44b-b23e36086989"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "f49cb40c-26b4-4ac5-8ea2-d9134a19c901",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "86da1821-b351-47c9-bf45-91d997513041"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "bc52ee0e-8d47-45cf-9f1f-fa937fc055d5",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单02柱状图",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "dd41e652-6047-4c67-8eef-dc86fd56fb60"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源2",
+      "GUID": "b4e7eb0e-4f52-470f-9c1b-94c42beffce0",
+      "DataSourceSetting": {
+        "TableName": "smt生产看板人员名单01",
+        "BindingInfos": [
+          {
+            "GUID": "79f49f6b-b18e-4478-8ca4-064aee89eeed",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单01",
+              "ColumnName": "工程师职称",
+              "GUID": "87d50f10-ce56-4a25-9e8a-2e370839d652"
+            },
+            "ColumnName": "工程师职称"
+          },
+          {
+            "GUID": "85278cd8-f47f-4803-91d8-8fae3b953d45",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单01",
+              "ColumnName": "名字",
+              "GUID": "72651247-c0ed-460e-9a1c-efdeb45c69a7"
+            },
+            "ColumnName": "名字"
+          },
+          {
+            "GUID": "fabcdfd6-ae7d-471d-9e7d-c50842cf27f9",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单01",
+              "ColumnName": "成绩",
+              "GUID": "ff219f5d-0bcb-455b-a995-ce35a8c70669"
+            },
+            "ColumnName": "成绩"
+          },
+          {
+            "GUID": "9249c103-017f-43ea-99bd-c3449b0b3d81",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单01",
+              "ColumnName": "FGC_Creator",
+              "GUID": "1cfbb3cd-d9ed-43c1-b1bf-32043beb3655"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "69f0a57e-0a24-4523-b342-0c8ce0963470",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单01",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "238c3b25-b5d9-48a8-b8ae-fd21573dff09"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "27de4a6d-0f89-460f-b7c8-cfb8116fa13f",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单01",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "4bf718fa-3fa1-412a-a14b-eae1b94e09df"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "1f441aa8-8fb7-4ce3-b4dd-44b3b7c55049",
+            "BindingInfo": {
+              "TableName": "smt生产看板人员名单01",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "c69f72af-b334-41e2-bd51-1666b1430214"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "SMT生产看板"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "SMT生产看板",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

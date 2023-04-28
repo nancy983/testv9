@@ -1,0 +1,166 @@
+{
+  "Name": "钣金制造设备效率 OEE - 周宕机及打卡对照",
+  "DataSources": [
+    {
+      "Name": "Manufacture_01",
+      "GUID": "50a5ac7d-c38d-416a-b996-043a3bf16bf9",
+      "DataSourceSetting": {
+        "TableName": "manufacture_01",
+        "BindingInfos": [
+          {
+            "GUID": "97679cd5-bb35-40a7-bcfd-a683f70e57b0",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "月份",
+              "GUID": "937570f0-91bb-41ff-be55-e5206beae876"
+            },
+            "ColumnName": "月份"
+          },
+          {
+            "GUID": "4a157629-19bf-4507-af84-e81f6720d64b",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "时间点",
+              "GUID": "f507d587-6a87-4304-b77c-321fb9b971f0"
+            },
+            "ColumnName": "时间点"
+          },
+          {
+            "GUID": "2e5355bc-6b88-4173-814b-14081ddf99cc",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "时间",
+              "GUID": "4276d47e-6f85-44d2-b9ec-0934d8cf5a58"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "376b8ae8-1473-4222-90b6-53b4bbeaabe1",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "正常率",
+              "GUID": "684643dc-0cb9-4287-bf47-53fc4c965fd1"
+            },
+            "ColumnName": "正常率"
+          },
+          {
+            "GUID": "14795a00-6275-4737-b8a8-bb159e569077",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "操作",
+              "GUID": "4a43c6f2-1856-4086-8fdf-7b592e9e7bda"
+            },
+            "ColumnName": "操作"
+          },
+          {
+            "GUID": "88765a53-2cc6-411c-9d2f-6d311fcf9fa9",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "操作正常率",
+              "GUID": "413dc1a7-243c-46a3-b2ff-cf605a74819b"
+            },
+            "ColumnName": "操作正常率"
+          },
+          {
+            "GUID": "49eb16f0-1e09-4c66-ad8d-0f572965f8e0",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "白班",
+              "GUID": "e0929cb3-62f5-4749-95e8-d5bdbc623d7b"
+            },
+            "ColumnName": "白班"
+          },
+          {
+            "GUID": "22f2c5be-c446-49ca-ad22-5e233e8c24b1",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "晚班",
+              "GUID": "28422f55-5082-4703-ad3e-de1eeecaee45"
+            },
+            "ColumnName": "晚班"
+          },
+          {
+            "GUID": "2195565c-457b-4c81-a64c-24f2860a59c8",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "状态",
+              "GUID": "76a103b5-dc72-4565-a59b-dfcdad48a0fb"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "a7727921-c300-4ce6-96dc-539b51980a80",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_Creator",
+              "GUID": "da474bf1-2d45-41ed-83df-d83b19b97836"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "b00efc27-d08a-450c-b91a-af284b99d261",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "2e3fe3fd-cb97-412f-b020-afb50b4d5202"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "4d075aea-896d-4793-ac21-cf83d914c213",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "448a6298-ee9d-4e6a-816d-e03c7fc20ab1"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "86a961b2-acae-4cbe-976b-fedd14f5950d",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "9bc6eaad-6f6c-4ead-be57-f4c1afd0b069"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "钣金制造设备效率 OEE - 周宕机及打卡对照"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "钣金制造设备效率 OEE - 周宕机及打卡对照",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 7
+}

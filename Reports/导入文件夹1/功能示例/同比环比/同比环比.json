@@ -1,0 +1,354 @@
+{
+  "Name": "同比环比",
+  "DataSources": [
+    {
+      "Name": "y2y_销售",
+      "GUID": "d6ea6585-6b75-4478-8b9c-e6a37c37e904",
+      "DataSourceSetting": {
+        "TableName": "y2y_销售",
+        "BindingInfos": [
+          {
+            "GUID": "3fb159b0-684a-4f06-9906-bcf870991005",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "产品",
+              "GUID": "c4d701f6-1dda-4c88-9dbd-221130d9dde2"
+            },
+            "ColumnName": "产品"
+          },
+          {
+            "GUID": "66de1688-a15e-4da3-9e45-e09105f3936b",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "年",
+              "GUID": "52483ac5-bae9-4709-914f-1ff2098ab924"
+            },
+            "ColumnName": "年"
+          },
+          {
+            "GUID": "c1077274-6a13-42dd-93c0-3408cb7a8220",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "月",
+              "GUID": "5f445697-8a73-4991-8b67-570da5fc0c2f"
+            },
+            "ColumnName": "月"
+          },
+          {
+            "GUID": "ecc023e4-afaa-4604-a9be-6ed69ac873f3",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "销售额",
+              "GUID": "fec49cfc-5873-4825-bce7-1c969386f9ec"
+            },
+            "ColumnName": "销售额"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "integer",
+        "integer",
+        "number"
+      ]
+    },
+    {
+      "Name": "同比基数数据集",
+      "GUID": "51faecc1-a4ee-4c2a-983d-787cc00d9fd4",
+      "DataSourceSetting": {
+        "TableName": "y2y_销售",
+        "BindingInfos": [
+          {
+            "GUID": "09018c27-ec2e-4141-889f-e09ba6408254",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "产品",
+              "GUID": "68182a3f-cc5f-4ec1-9aaa-98ec1cbcefc7"
+            },
+            "ColumnName": "产品"
+          },
+          {
+            "GUID": "ffdac519-93e4-4408-ab27-7eca3a5349be",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "年",
+              "GUID": "b07b93ef-8347-4ee7-9c16-51c9b24e8640"
+            },
+            "ColumnName": "年"
+          },
+          {
+            "GUID": "68837176-e575-4deb-86df-a5e631f99437",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "月",
+              "GUID": "503d6933-1cba-426e-b7e1-4ef902e3c9cb"
+            },
+            "ColumnName": "月"
+          },
+          {
+            "GUID": "ed776a45-2696-4484-af57-cf6155506e67",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "销售额",
+              "GUID": "5a2c08a4-15a1-4204-942a-d0090b0f9387"
+            },
+            "ColumnName": "销售额"
+          },
+          {
+            "GUID": "a1f9b7e7-1403-4d44-aac0-535228a5906e",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "FGC_Creator",
+              "GUID": "2e32fb87-775e-4f0d-9708-39240f956d89"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "ed9d7473-0b06-49dc-8c31-6d10be3bb85f",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "973b391a-ac6e-4c14-8d7e-3f6f5b169293"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "5e8b42ba-f4a6-4cee-8197-a8271b98d7e8",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "7da47afb-1be3-4407-aa3f-4697e830bac3"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "e55f7921-0c76-42f2-aa57-439d42e58f63",
+            "BindingInfo": {
+              "TableName": "y2y_销售",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "1634f262-db9e-48f1-b4e8-f37b7591b0c0"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "integer",
+        "integer",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "环比基数数据集",
+      "GUID": "67886dba-e7e0-48b6-8f5f-e4a325462992",
+      "DataSourceSetting": {
+        "TableName": "环比基数数据集",
+        "BindingInfos": [
+          {
+            "GUID": "b65ca24f-aa2d-41b8-915f-3684925ce9c6",
+            "BindingInfo": {
+              "TableName": "环比基数数据集",
+              "ColumnName": "产品",
+              "GUID": "a7f2b73c-aa34-4fd0-a047-6fb5c77d0dac"
+            },
+            "ColumnName": "产品"
+          },
+          {
+            "GUID": "07d58fdd-336a-4ab3-9722-0f899a786736",
+            "BindingInfo": {
+              "TableName": "环比基数数据集",
+              "ColumnName": "年",
+              "GUID": "9995d4fd-b824-4f82-90b7-c5fd75fa609b"
+            },
+            "ColumnName": "年"
+          },
+          {
+            "GUID": "1dd5d795-4793-4f5c-97e2-ecd147e2acda",
+            "BindingInfo": {
+              "TableName": "环比基数数据集",
+              "ColumnName": "月",
+              "GUID": "316767a1-d448-44e9-b9ec-7ad14d46f42e"
+            },
+            "ColumnName": "月"
+          },
+          {
+            "GUID": "71b2ef65-5dab-455d-8eb3-9c6d00535b1f",
+            "BindingInfo": {
+              "TableName": "环比基数数据集",
+              "ColumnName": "环比月",
+              "GUID": "10a05e5d-b1c0-42ba-aa30-6dc26c26598d"
+            },
+            "ColumnName": "环比月"
+          },
+          {
+            "GUID": "62685148-9d4c-4ee3-8c26-d1e44d9231a8",
+            "BindingInfo": {
+              "TableName": "环比基数数据集",
+              "ColumnName": "销售额",
+              "GUID": "ffd85eb0-91f3-48c8-ab06-5ae004c9a3ae"
+            },
+            "ColumnName": "销售额"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "环比基数数据集",
+                    "ColumnName": "年",
+                    "GUID": "f806f31f-c1b1-47fe-ba1c-9f03b9d908d1"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=VALUE(指定年)-1"
+                  },
+                  "LeftBracket": 1
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "环比基数数据集",
+                    "ColumnName": "月",
+                    "GUID": "95d32ffc-78cd-4635-89e4-a16d6add582c"
+                  },
+                  "Value": "12",
+                  "RightBracket": 1
+                }
+              ]
+            },
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "环比基数数据集",
+                    "ColumnName": "年",
+                    "GUID": "a1a253fe-79b6-4fef-85c7-dd4c9fd01477"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=VALUE(指定年)"
+                  },
+                  "LeftBracket": 1
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 4,
+                  "ColumnBindingInfo": {
+                    "TableName": "环比基数数据集",
+                    "ColumnName": "月",
+                    "GUID": "042b5225-aee1-41bd-a522-d4ece93363ac"
+                  },
+                  "Value": "12",
+                  "RightBracket": 1
+                }
+              ]
+            }
+          ],
+          "RelationType": 1
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "指定年"
+        }
+      ],
+      "ColumnsType": [
+        "string",
+        "integer",
+        "integer",
+        "string",
+        "number"
+      ]
+    },
+    {
+      "Name": "月合计数据",
+      "GUID": "dc5ff8ec-8bcf-4284-96ce-3f8ad6181e97",
+      "DataSourceSetting": {
+        "TableName": "月合计数据",
+        "BindingInfos": [
+          {
+            "GUID": "ba539bba-37c0-468a-9177-b7c32d9fec1e",
+            "BindingInfo": {
+              "TableName": "月合计数据",
+              "ColumnName": "年",
+              "GUID": "b0a23e8e-d79d-456f-9bc0-d856aee416d2"
+            },
+            "ColumnName": "年"
+          },
+          {
+            "GUID": "a8d21742-7c48-4c68-91d8-e4cf30f7d82a",
+            "BindingInfo": {
+              "TableName": "月合计数据",
+              "ColumnName": "月",
+              "GUID": "430be03a-af04-4e36-a60b-b987b1a1bf9a"
+            },
+            "ColumnName": "月"
+          },
+          {
+            "GUID": "17397c12-5a41-4e3b-91f2-22ef294c8c89",
+            "BindingInfo": {
+              "TableName": "月合计数据",
+              "ColumnName": "销售额",
+              "GUID": "a4499f12-0138-410e-a9e5-da91a96ec793"
+            },
+            "ColumnName": "销售额"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "月合计数据",
+            "ColumnName": "年",
+            "GUID": "26ae928e-046a-4987-a4a3-964aea5dbbf1"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=当前年"
+          }
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "当前年"
+        }
+      ],
+      "ColumnsType": [
+        "integer",
+        "integer",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "同比环比"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "同比环比",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

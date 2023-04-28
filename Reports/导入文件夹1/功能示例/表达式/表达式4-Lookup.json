@@ -1,0 +1,287 @@
+{
+  "Name": "表达式4-Lookup",
+  "DataSources": [
+    {
+      "Name": "产品数据集",
+      "GUID": "67bb7190-055d-411d-8127-f209c0264f5a",
+      "DataSourceSetting": {
+        "TableName": "sales_产品",
+        "BindingInfos": [
+          {
+            "GUID": "15d8971c-eb4d-4db1-a9b2-728976daa829",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "产品ID",
+              "GUID": "2cce9680-e0b6-46a9-8cde-43d4cd0ab395"
+            },
+            "ColumnName": "产品ID"
+          },
+          {
+            "GUID": "933316a5-686c-4418-a1f9-213ba3107389",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "产品名称",
+              "GUID": "9a309e43-9c36-4b21-8287-3f5fc6e51049"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "339440ed-7ac2-4d3c-906f-b73f8dff2005",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "供应商ID",
+              "GUID": "03c62aad-2ecc-4c58-ab54-5146fd183d39"
+            },
+            "ColumnName": "供应商ID"
+          },
+          {
+            "GUID": "dd7056ef-906a-447b-b730-7f5261469328",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "类别ID",
+              "GUID": "0c7ea80e-2781-42af-826d-677ef035afb4"
+            },
+            "ColumnName": "类别ID"
+          },
+          {
+            "GUID": "1ba47e7a-1945-45fa-a271-ef41b5e045b5",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "单位数量",
+              "GUID": "05e3339d-4634-4c0a-8a24-e0b874643155"
+            },
+            "ColumnName": "单位数量"
+          },
+          {
+            "GUID": "2eec62e6-57af-43ae-90ca-91c371a95372",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "单价",
+              "GUID": "fe8bcea7-d546-45af-a0d2-599c3963cc58"
+            },
+            "ColumnName": "单价"
+          },
+          {
+            "GUID": "59ce6759-572d-458c-bba9-614b44b46540",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "库存量",
+              "GUID": "632e44a1-565b-438b-aeab-380a82ca956e"
+            },
+            "ColumnName": "库存量"
+          },
+          {
+            "GUID": "dbb586ad-c185-41dd-b96d-ac8ee8678dcf",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "订购量",
+              "GUID": "ac404ddb-7ce8-4ebe-93f2-fce22511700d"
+            },
+            "ColumnName": "订购量"
+          },
+          {
+            "GUID": "a7d1b107-0a29-490b-9b41-2b55db4428fa",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "再订购量",
+              "GUID": "c4f0b2ef-60f5-471a-8062-62d092fe6bd1"
+            },
+            "ColumnName": "再订购量"
+          },
+          {
+            "GUID": "0ca693b9-9a8b-4f34-86ac-bb191b82b9ff",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "中止",
+              "GUID": "df431e47-09db-430f-bbe2-512559cf71be"
+            },
+            "ColumnName": "中止"
+          },
+          {
+            "GUID": "df49afe6-187e-41cb-b981-1570711fd725",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "图片",
+              "GUID": "96dec24b-e8a6-4014-bf96-cd6889603015"
+            },
+            "ColumnName": "图片"
+          },
+          {
+            "GUID": "4062beb9-41e8-44c2-aca9-a1d78aa062bc",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "产品描述",
+              "GUID": "e20b17bd-c22e-46d1-ba18-b712af3597b9"
+            },
+            "ColumnName": "产品描述"
+          },
+          {
+            "GUID": "a93ea45d-e05b-4607-b1f9-a47cd73d6659",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "FGC_Creator",
+              "GUID": "fa135903-be9b-4ccb-998a-b4ac542ce499"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "105e2846-5e0b-4a12-a001-4e79691cd892",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "8453fc34-ec62-43ae-8f00-84af92613847"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "26f5ef01-c511-403b-9a6e-c245f6c70029",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "79d7c8d9-5b6f-441e-ab1b-750453c8a2be"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "36d436c8-b5ac-40c2-a262-6bfe08887fc1",
+            "BindingInfo": {
+              "TableName": "sales_产品",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "c6f37873-01ed-44f3-8a19-32f771fe5475"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "integer",
+        "integer",
+        "string",
+        "number",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "类别数据集",
+      "GUID": "e3238176-a72a-4654-8250-f492ae380e82",
+      "DataSourceSetting": {
+        "TableName": "sales_类别",
+        "BindingInfos": [
+          {
+            "GUID": "091c9a86-289a-4b47-b8a5-40e720ad98d0",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "类别ID",
+              "GUID": "1b653fe7-c16a-4dc2-8a99-8e12152a2a97"
+            },
+            "ColumnName": "类别ID"
+          },
+          {
+            "GUID": "07137134-ec50-4de3-bc0f-e3f82345263c",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "类别名称",
+              "GUID": "87438de5-c220-4ef5-b5a3-4008e81e4796"
+            },
+            "ColumnName": "类别名称"
+          },
+          {
+            "GUID": "b6cffa56-fc9f-4ac5-944f-7089fe62165f",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "说明",
+              "GUID": "22e4cf75-48ac-4ad3-83e8-4927dd1ca34f"
+            },
+            "ColumnName": "说明"
+          },
+          {
+            "GUID": "25010d1c-5448-4d7f-9109-ee83de11df72",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "图片",
+              "GUID": "63df0eeb-a821-4147-b846-5e3c3d32b665"
+            },
+            "ColumnName": "图片"
+          },
+          {
+            "GUID": "4c18321e-beaa-4b1d-979c-7c30158f430a",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "FGC_Creator",
+              "GUID": "21b37800-d9fe-417e-af3c-236efe816a24"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "b1cc6a1b-05a2-4ab2-b784-897cf291b9c6",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "7fcefae3-8d68-4fcb-ac9c-be4185862c01"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "8cbd65f0-fd4c-42a1-a372-85cbd4e73bef",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "514905da-8bb4-4049-8b82-dce0bed40d5a"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "a6e5446f-029f-40e6-a453-9dc8c743cc20",
+            "BindingInfo": {
+              "TableName": "sales_类别",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "b3528ac4-cb20-456a-b000-96c89a83d112"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "表达式4-Lookup"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "表达式4-Lookup",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 4
+}

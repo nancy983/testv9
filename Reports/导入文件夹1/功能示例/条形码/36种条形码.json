@@ -1,0 +1,96 @@
+{
+  "Name": "36种条形码",
+  "DataSources": [
+    {
+      "Name": "表2",
+      "GUID": "8454ec30-e301-4f54-8410-6bd64046d8b7",
+      "DataSourceSetting": {
+        "TableName": "表2",
+        "BindingInfos": [
+          {
+            "GUID": "ab434c22-370b-4fd5-8760-19d20c06d144",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "ID",
+              "GUID": "8dc28ca2-7798-416b-90e3-4197c10898af"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "21ad19a2-9b9a-454c-8418-0a38465a434e",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "字段1",
+              "GUID": "f5f09dd9-31bc-4048-9820-4e1fd6cdf7ee"
+            },
+            "ColumnName": "字段1"
+          },
+          {
+            "GUID": "6262cd4c-b59e-413b-95f4-dfe5296b71b2",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_Creator",
+              "GUID": "51e164bc-053a-4b6f-8c64-32758ebe5ab3"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "e877af1d-81d3-41df-9a8e-dddeb7d7ced2",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "7f71b635-54d1-4b28-bad2-e005746073f8"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "cec9e0c3-edca-43f2-95b2-d4db281ffec3",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "df264954-1541-421e-8ab9-ca512cd418db"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "4be2df32-551e-45e4-a5f1-30a9f2cd88da",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "3c1a4429-9501-470c-88af-a571edd10939"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "36种条形码"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "36种条形码",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

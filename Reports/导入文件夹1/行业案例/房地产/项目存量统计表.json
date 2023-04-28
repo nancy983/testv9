@@ -1,0 +1,176 @@
+{
+  "Name": "项目存量统计表",
+  "DataSources": [
+    {
+      "Name": "house_项目存量统计报表",
+      "GUID": "9bf3df7f-eced-4d7f-84ce-f4993011dff5",
+      "DataSourceSetting": {
+        "TableName": "house_项目存量统计报表",
+        "BindingInfos": [
+          {
+            "GUID": "6c8e58ac-fb69-40cb-8169-fba6ff247e95",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "ID",
+              "GUID": "4a2f7e2e-b2aa-4358-8051-2e5a517dc1d2"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "c228d7a3-cd6e-4194-be40-80eb08ad8109",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "证件",
+              "GUID": "824ae65d-14c2-44e6-9f10-cb67373f0b2c"
+            },
+            "ColumnName": "证件"
+          },
+          {
+            "GUID": "6bbaffea-38c5-4b61-8dc5-4ef0a87b2822",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "证件分类",
+              "GUID": "447d4514-2e6b-4feb-9439-20f057b8269a"
+            },
+            "ColumnName": "证件分类"
+          },
+          {
+            "GUID": "958ed90a-f109-401f-9710-72c25d47d461",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "产品类型",
+              "GUID": "071bb684-2c46-4096-b2dc-b67e94acac2d"
+            },
+            "ColumnName": "产品类型"
+          },
+          {
+            "GUID": "484bcafb-8b23-4d75-98f9-16cf7f8cf898",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "总套数",
+              "GUID": "371a337a-03a9-4176-bf26-7892ddaf998e"
+            },
+            "ColumnName": "总套数"
+          },
+          {
+            "GUID": "d0f72733-637e-424c-8e69-5842ec63afca",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "总面积",
+              "GUID": "7e6e224f-fda7-4fd0-b793-521fc4d3eb35"
+            },
+            "ColumnName": "总面积"
+          },
+          {
+            "GUID": "986bdd6d-16e3-49ad-8c9c-a40ff476e062",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "状态",
+              "GUID": "55edb9d0-4dc0-4fe8-a72a-65c686aa5017"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "b4822281-1191-4151-b4fa-7869d7ef9e54",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "数量",
+              "GUID": "c3543b2e-3d72-4902-b04b-2e580283d307"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "6e43170f-5cdb-46f2-9c6f-04abc99d8a49",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "面积",
+              "GUID": "2959476a-8d1e-4559-9257-546691f7c392"
+            },
+            "ColumnName": "面积"
+          },
+          {
+            "GUID": "7ae6ee7f-41b8-4de5-b6fb-71d4adebd3b5",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "底价核算（元）",
+              "GUID": "860c0e9e-597e-48a0-b8b2-53edd33f2642"
+            },
+            "ColumnName": "底价核算_元_"
+          },
+          {
+            "GUID": "7810db36-de3e-4b84-ae0d-7ea450952a16",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "2e230be9-26d6-4243-b4e1-605e6def35e9"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "fc17750c-c080-4702-84ac-c5e98e2b7ad8",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "69b9f2da-cb5a-4830-b634-1bb7c31b63b7"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "401d2be0-8897-4555-9b75-0773e267b0d3",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "ad21448b-6f4b-4765-b043-6b9d67e951ca"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "30d48fb1-1966-4d15-86d2-22eb650eefb3",
+            "BindingInfo": {
+              "TableName": "house_项目存量统计报表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "4dde5069-9921-4512-9fd1-b323cb80cc78"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "项目存量统计表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "项目存量统计表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 7
+}

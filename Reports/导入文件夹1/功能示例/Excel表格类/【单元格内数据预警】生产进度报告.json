@@ -1,0 +1,246 @@
+{
+  "Name": "【单元格内数据预警】生产进度报告",
+  "DataSources": [
+    {
+      "Name": "线体生产",
+      "GUID": "1f07f7ce-15ad-4f3f-92e3-6319643905ef",
+      "DataSourceSetting": {
+        "TableName": "线体生产",
+        "BindingInfos": [
+          {
+            "GUID": "e509b803-cfb8-4447-8532-a41ed3544673",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "线体",
+              "GUID": "ac251f95-682f-4bd1-ba7f-e752529ddacd"
+            },
+            "ColumnName": "线体"
+          },
+          {
+            "GUID": "6d59c64b-2295-40c8-a7c9-1cfbeb541f4b",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "项目",
+              "GUID": "2f61ee41-208b-4354-9633-3fbd8b6b2643"
+            },
+            "ColumnName": "项目"
+          },
+          {
+            "GUID": "9db705a6-1368-47e0-b200-25c35b87a1f8",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "项目编号",
+              "GUID": "e36c6b2d-905a-4958-8348-e007cbcecd8d"
+            },
+            "ColumnName": "项目编号"
+          },
+          {
+            "GUID": "76f4c0cb-625b-4273-8527-a4d1c3be0fb7",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "释放日期",
+              "GUID": "5ecd4aea-c897-41a9-94bb-a0dee8b9d98f"
+            },
+            "ColumnName": "释放日期"
+          },
+          {
+            "GUID": "0a17975e-1cd4-49c1-8ff2-5c267dc2b40a",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "成品名称",
+              "GUID": "1846c256-3a6c-44f9-ad7b-782cd4f0b829"
+            },
+            "ColumnName": "成品名称"
+          },
+          {
+            "GUID": "5fe193c0-e8eb-4b07-bcf3-388fcb1d23bd",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "半成品名称",
+              "GUID": "d7b60565-3a4c-4c5b-9346-507f8562c30e"
+            },
+            "ColumnName": "半成品名称"
+          },
+          {
+            "GUID": "a4369a0c-3069-4fa7-96b6-5ec56c157168",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "成品属性",
+              "GUID": "09990f4c-5137-44cd-8d5a-72529c8b8954"
+            },
+            "ColumnName": "成品属性"
+          },
+          {
+            "GUID": "fbde1086-cddf-40fd-9284-413d851328cf",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "工单号",
+              "GUID": "6e17e23f-66bf-4116-9e97-334ed5d694bc"
+            },
+            "ColumnName": "工单号"
+          },
+          {
+            "GUID": "7a8fd9cc-315a-4a50-82b8-a2cb41789bd7",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "工单数量",
+              "GUID": "be10676f-35cf-425b-b438-0183101697c9"
+            },
+            "ColumnName": "工单数量"
+          },
+          {
+            "GUID": "1ed412fc-e0fe-49dc-ad01-53610e3e23bf",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "计划数量",
+              "GUID": "ed31abb0-d437-4460-bcc8-78861855f6e4"
+            },
+            "ColumnName": "计划数量"
+          },
+          {
+            "GUID": "04d0837a-0fa9-41f2-9f24-d0889ca365c6",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "完成数量",
+              "GUID": "bb28b933-6eb9-4884-b62a-e0dae3dc42f1"
+            },
+            "ColumnName": "完成数量"
+          },
+          {
+            "GUID": "eb22ed4d-17f0-4f4d-a80a-3581b7a422aa",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "UPH",
+              "GUID": "b8dd9f8b-8300-47b4-bd33-e05b20f055dd"
+            },
+            "ColumnName": "UPH"
+          },
+          {
+            "GUID": "18733fe6-87a8-48fa-b715-f5303b40a601",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "HC",
+              "GUID": "8204d571-8501-4a11-845e-b11eb2a5b2ea"
+            },
+            "ColumnName": "HC"
+          },
+          {
+            "GUID": "66cf72a2-1b3d-4ad1-80fb-41c71f2cf42e",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "计划时间",
+              "GUID": "021437c8-b95b-49a9-b8fe-4e56399a15b4"
+            },
+            "ColumnName": "计划时间"
+          },
+          {
+            "GUID": "b9008f4b-f273-4a68-bc16-ee814a707165",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "计划状态",
+              "GUID": "592ba7cf-f6e9-46f4-b5ea-cb30413f9d94"
+            },
+            "ColumnName": "计划状态"
+          },
+          {
+            "GUID": "d3f320e7-2ed6-4d68-b7b9-1e5fa459d1ac",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "良率",
+              "GUID": "8348eced-10bd-41b6-bb6f-6adb90d1a28b"
+            },
+            "ColumnName": "良率"
+          },
+          {
+            "GUID": "52e77e6f-eb75-432f-bce2-5b87f98a944c",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "备注",
+              "GUID": "ddd7a872-262c-4277-b10c-2a8e89b41a9c"
+            },
+            "ColumnName": "备注"
+          },
+          {
+            "GUID": "bae638e9-9747-4474-b2d5-20c00bdbffb7",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "FGC_Creator",
+              "GUID": "8b3c6e68-b6d9-4f10-81da-654a335119d9"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "f7c60da7-a528-43ba-99a0-456450134064",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "377741a9-dfdc-4abb-bef7-d14edb9036f2"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "542b4960-1d4a-4a7b-b267-d4edcb946216",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "c07ba2f1-cf76-4c19-9671-a8d6225ca0a5"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "ce8816f3-4790-41d7-9591-ef6bb228736f",
+            "BindingInfo": {
+              "TableName": "线体生产",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "8932ec0d-b993-49bd-8382-6ada9b032a2b"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【单元格内数据预警】生产进度报告"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【单元格内数据预警】生产进度报告",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

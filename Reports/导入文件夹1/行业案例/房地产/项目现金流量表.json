@@ -1,0 +1,116 @@
+{
+  "Name": "项目现金流量表",
+  "DataSources": [
+    {
+      "Name": "house_项目现金流量表",
+      "GUID": "480cce54-2f2c-4c0e-8a6a-b274cc5576bd",
+      "DataSourceSetting": {
+        "TableName": "house_项目现金流量表",
+        "BindingInfos": [
+          {
+            "GUID": "5fe34616-9057-4627-ab0d-71523aded3da",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "项目名称",
+              "GUID": "02c22309-b706-4253-8914-9cfc2d2148ea"
+            },
+            "ColumnName": "项目名称"
+          },
+          {
+            "GUID": "702cf526-b4e6-4aa8-aa65-e58ab21eae4a",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "年份",
+              "GUID": "62cb2ee4-cf21-4527-ae77-c4048059e9fc"
+            },
+            "ColumnName": "年份"
+          },
+          {
+            "GUID": "67fe2ea6-ea54-4ba6-8f21-191afecc153f",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "月份",
+              "GUID": "739c59b4-6691-4dd5-93f2-d4feee2580be"
+            },
+            "ColumnName": "月份"
+          },
+          {
+            "GUID": "1a5a5c88-d5b7-4e2a-bce8-4049eea1deca",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "费用",
+              "GUID": "f4d3e8c8-604b-40d7-a6af-22faccdcf925"
+            },
+            "ColumnName": "费用"
+          },
+          {
+            "GUID": "f6352813-8605-44fd-adbc-efd2b8716b64",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "43af3722-8fc8-4aef-aecd-66d51f0d23f5"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "bb1b87be-88d2-4ff8-844c-faa3db852f98",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "47bed726-d3c9-4a0a-b9b7-9ff16e2c2e69"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "00513517-d8e4-44e1-94fa-a1ad0011ebf1",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "4e311527-e034-453f-8df4-a2ea360a7652"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "8dfb7f72-23bf-448e-9bc3-f0fe2398aa9d",
+            "BindingInfo": {
+              "TableName": "house_项目现金流量表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "a075b101-edc4-4c46-a7b0-439f1cec720d"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "项目现金流量表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "项目现金流量表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 8
+}

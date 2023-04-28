@@ -1,0 +1,270 @@
+{
+  "Name": "仓库-库存准确率",
+  "DataSources": [
+    {
+      "Name": "traffic_accuracybytime",
+      "GUID": "214767fa-ea75-44e8-95bf-3754cc72984e",
+      "DataSourceSetting": {
+        "TableName": "traffic_accuracybytime_view",
+        "BindingInfos": [
+          {
+            "GUID": "c6c6b9b6-c7d4-41d2-9061-3c8a48a9c167",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybytime_view",
+              "ColumnName": "time",
+              "GUID": "ccf95258-7e18-4b4d-a79b-0ef9a9c4bd47"
+            },
+            "ColumnName": "time"
+          },
+          {
+            "GUID": "4b408f3c-981e-43ea-9962-53283469f6d5",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybytime_view",
+              "ColumnName": "withoutdiscrepancy",
+              "GUID": "8b5fd00f-f980-4eec-b857-ddddcb0ac771"
+            },
+            "ColumnName": "withoutdiscrepancy"
+          },
+          {
+            "GUID": "ca1f4a46-335e-4cf7-a88c-e8e5003ba9ac",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybytime_view",
+              "ColumnName": "withdiscrepancy",
+              "GUID": "f99d675f-37f2-41b1-a70e-a87b4abd53fc"
+            },
+            "ColumnName": "withdiscrepancy"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_accuracybyquantity",
+      "GUID": "5dbbeab9-33ab-4d9a-9084-7b630c8cbc13",
+      "DataSourceSetting": {
+        "TableName": "traffic_accuracybyquantity",
+        "BindingInfos": [
+          {
+            "GUID": "36e7ac1a-70e5-4776-a46e-2ba3c75052c9",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "编码",
+              "GUID": "0461ffa2-883b-42d7-877a-8e102626eb70"
+            },
+            "ColumnName": "编码"
+          },
+          {
+            "GUID": "d101f23e-d73d-440f-a82c-572b8f44f53a",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "订单号",
+              "GUID": "233c7a8e-7d97-419c-b71e-4ee56811994a"
+            },
+            "ColumnName": "订单号"
+          },
+          {
+            "GUID": "26db5625-84da-4dd0-aebe-c0faaa5d1119",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "平均值",
+              "GUID": "3c75031d-a0e8-468c-8194-211192809e87"
+            },
+            "ColumnName": "平均值"
+          },
+          {
+            "GUID": "916f8611-2b74-4878-b538-89391b36c9d9",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "总数",
+              "GUID": "8e51089f-b647-4faa-aa59-55793ab74aca"
+            },
+            "ColumnName": "总数"
+          },
+          {
+            "GUID": "50aee0be-08e5-471c-a780-91226537a24f",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "差异数",
+              "GUID": "3c264c7c-d0ce-45a8-ae7d-545becf8f0af"
+            },
+            "ColumnName": "差异数"
+          },
+          {
+            "GUID": "8c497669-2039-4772-8668-ed1fc53331e4",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "平均数量",
+              "GUID": "0d39c12f-31f3-4ae4-923b-15be8937f85b"
+            },
+            "ColumnName": "平均数量"
+          },
+          {
+            "GUID": "7ea07b01-c608-4ae1-9f62-a8e2f10510f7",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "期待数量",
+              "GUID": "1d493a5e-7f7b-4225-8b7a-9edd13999309"
+            },
+            "ColumnName": "期待数量"
+          },
+          {
+            "GUID": "53315759-f3c3-4624-847c-601255c80c3f",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyquantity",
+              "ColumnName": "合计数量",
+              "GUID": "d7dca930-ce23-4229-838f-0d109183fc9e"
+            },
+            "ColumnName": "合计数量"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_accuracybyworker",
+      "GUID": "89d26db0-b16d-4654-bb80-97a6c7564996",
+      "DataSourceSetting": {
+        "TableName": "traffic_accuracybyworker_view",
+        "BindingInfos": [
+          {
+            "GUID": "0f72e554-2bde-4abc-af9d-62fa594583e7",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyworker_view",
+              "ColumnName": "Quantity",
+              "GUID": "d0022a70-5cd0-415e-aca0-da4cbd2e09ba"
+            },
+            "ColumnName": "Quantity"
+          },
+          {
+            "GUID": "8c15f101-ad09-4273-97a9-c54f17ba08c1",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyworker_view",
+              "ColumnName": "without_discrepancy",
+              "GUID": "1011a2cd-12c6-49c3-a51e-21a0e7b4d711"
+            },
+            "ColumnName": "without_discrepancy"
+          },
+          {
+            "GUID": "15a5ba6f-e8f6-41d6-b33a-001fe95e7094",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyworker_view",
+              "ColumnName": "with_discrepancy",
+              "GUID": "90165778-2cc3-4a83-a5d2-b6c332346ae8"
+            },
+            "ColumnName": "with_discrepancy"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_accuracybysite",
+      "GUID": "066ee3c4-da95-4c4a-ba28-6882ec054a6e",
+      "DataSourceSetting": {
+        "TableName": "traffic_accuracybysite_view",
+        "BindingInfos": [
+          {
+            "GUID": "dc57f965-d2d2-4079-8808-ee515231c819",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybysite_view",
+              "ColumnName": "site",
+              "GUID": "1d45f4d5-8530-42fb-9cce-f86bc9c40087"
+            },
+            "ColumnName": "site"
+          },
+          {
+            "GUID": "a631c7ca-580d-4934-b0e9-8b20ce3f7b9d",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybysite_view",
+              "ColumnName": "without_discrepancy",
+              "GUID": "523c4a56-2c4e-4a23-a8d9-771bb1084d24"
+            },
+            "ColumnName": "without_discrepancy"
+          },
+          {
+            "GUID": "1457cf60-f964-44c9-a270-3c84d1c34818",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybysite_view",
+              "ColumnName": "with_discrepancy",
+              "GUID": "c4077f72-91ec-4861-a294-653ce037d1f3"
+            },
+            "ColumnName": "with_discrepancy"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_accuracybyproduct",
+      "GUID": "bebe4233-5899-466d-83ba-a76cce386e62",
+      "DataSourceSetting": {
+        "TableName": "traffic_accuracybyproduct_view",
+        "BindingInfos": [
+          {
+            "GUID": "42c77ed5-933f-4d11-a824-63c0a19263a5",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyproduct_view",
+              "ColumnName": "product",
+              "GUID": "ded5f8a2-6c15-465c-b660-738296f98a46"
+            },
+            "ColumnName": "product"
+          },
+          {
+            "GUID": "53a296e5-c5b3-49b7-a3fc-18f96d04f184",
+            "BindingInfo": {
+              "TableName": "traffic_accuracybyproduct_view",
+              "ColumnName": "amount",
+              "GUID": "91196f45-8c61-4754-8b18-34c2f73b793c"
+            },
+            "ColumnName": "amount"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "仓库-库存准确率"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "仓库-库存准确率",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}

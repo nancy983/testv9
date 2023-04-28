@@ -1,0 +1,277 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 14
+  },
+  "Cols": {
+    "Count": 35
+  },
+  "Values": {
+    "0,0": "%PageName%",
+    "1,4": "ID:",
+    "3,4": "请假人:",
+    "3,12": "%CurrentUser.UserName%",
+    "5,4": "开始日期:",
+    "7,4": "结束日期:",
+    "9,4": "请假天数:",
+    "11,4": "请假理由:"
+  },
+  "Formulas": {
+    "9,12": "M8-M6"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1",
+        "CellDefaultValue": "%PageName%"
+      }
+    },
+    "1,12": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "ID",
+        "GUID": "4036b3eb-3fe6-45e5-b8e6-a5aacb4d736a"
+      }
+    },
+    "3,12": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "请假人",
+        "GUID": "ee125cd2-8a46-42e4-b5bb-55bfd0ba1845"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "样式1",
+        "CellDefaultValue": "%CurrentUser.UserName%"
+      }
+    },
+    "5,12": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "开始日期",
+        "GUID": "d50692d5-0258-4a7d-b0db-f7a5d75729cd"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1"
+      }
+    },
+    "7,12": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "结束日期",
+        "GUID": "b60231be-d91e-4648-9eea-f3793baf0808"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1"
+      }
+    },
+    "9,12": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "请假天数",
+        "GUID": "de5d769f-9872-4c46-b652-9d2e80376315"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "样式1"
+      }
+    },
+    "11,12": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "请假理由",
+        "GUID": "23e47418-a839-4bad-932a-84b5eb1bce94"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontWeight": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "@",
+        "Bold"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "1,4": 2,
+      "1,20": 3,
+      "1,21": 3,
+      "1,22": 3,
+      "1,23": 3,
+      "1,24": 3,
+      "1,25": 3,
+      "1,26": 3,
+      "3,4": 2,
+      "5,4": 2,
+      "7,4": 2,
+      "9,4": 2,
+      "11,4": 2,
+      "11,12": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 12.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,1,9",
+    "1,12,1,6",
+    "3,12,1,6",
+    "5,12,1,6",
+    "7,12,1,6",
+    "9,12,1,6",
+    "11,12,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "请假人",
+      "Formula": "请假表_详情页面!$M$4"
+    },
+    {
+      "Name": "开始日期",
+      "Formula": "请假表_详情页面!$M$6"
+    },
+    {
+      "Name": "结束日期",
+      "Formula": "请假表_详情页面!$M$8"
+    },
+    {
+      "Name": "请假天数",
+      "Formula": "请假表_详情页面!$M$10"
+    },
+    {
+      "Name": "请假理由",
+      "Formula": "请假表_详情页面!$M$12"
+    },
+    {
+      "Name": "pagename",
+      "Formula": "请假表_详情页面!$A$1"
+    }
+  ]
+}//gTgNyibibvth2zcWnhHxDKAirKjwpXiAm5a3GxF/ixNdurSktbSHSD4IUObS7kuPZ7ei3f92jkbpffhfOqxd1+cTj/F89HxdkBHNVu0OeUxReX2FdL2V1nTB5j1P/2LFTwjKUi56wNbxWCPHvFTzevACU5zxkzSAIj+bmr/RuRpdunoq/1WlO4W89ua7s6NgQrrB//jTPF0YzidCaJZmJg7T3zRs727TDhzSrz9LEbBQhG3eA366K5ssKaKqhOyBiZu1DR5lfLkQdg1+TNzxz+hQcQOxM4DBFzdKxKO1lokL3yiC4DpXACeL9UY7ola/ypL1EKgNvHFOWbw2qfrjRqjwrC+3wpSWu2ZS4aHHr0rNIBIVw4CnY42/8q3k8PFO9UCq9bKaxGjHj2TQaA7c707/QrM9kse7qQZ7N06M2OWJ2Lm/JoAIuVY2S5Ftb+djnyw88GXXTM0M+2hl21pQTfTcEtVGm8xcnsdAh7kXVwitFHaUzZ6fCpkaRRvReUEzX5hLHYMPggH1Ryi9Gkz1emNSEbastrGo4TZdjSr+9iHC8V85h61+C0WF77/PuHorc0eWQFV/booX/jgFrnIep+dG4TDs04KMYQGNEermqAnyphs1QOullF6rUdRwyKZj91lYQwIZrJ5DtLdqD+e51yPhrjP7D3z0m5/R8sNXf1a3oBaJ75DZyQP1Av/QBlUYo6C2FQyfkC2t1bX/AfI2nI8U3yMvz5EIaUs+drkfBOsY4RA0/d1/rolksVS5dcFpATjyA/jYEEQed0ZLQmoMB9o+YPXHwuxiqe/4C/Gzj9kV4CTnEWFX8KE9cfrbuGSelN02XaZNl+M3nzRzpA+DAFL7zxgurrtTN3XIET8IE1hWCDJBYY7R6/crU04gBP6kz2DSaVU+H64N4BDfIL9HJA==|920

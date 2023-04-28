@@ -1,0 +1,267 @@
+{
+  "Name": "钣金制造设备效率 OEE - 班次",
+  "DataSources": [
+    {
+      "Name": "manufacture_01",
+      "GUID": "0382f283-3cea-4999-aabd-2ea6410d5b1f",
+      "DataSourceSetting": {
+        "TableName": "manufacture_01",
+        "BindingInfos": [
+          {
+            "GUID": "72839683-1df5-49ff-8742-421d7d3d6184",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "月份",
+              "GUID": "37123240-9900-4075-b82c-251ed2c7548f"
+            },
+            "ColumnName": "月份"
+          },
+          {
+            "GUID": "23edb823-ef75-4ab1-8ada-33cbcb8672c3",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "时间点",
+              "GUID": "1eda5988-98d0-4177-b99e-e73c17294175"
+            },
+            "ColumnName": "时间点"
+          },
+          {
+            "GUID": "80474bc5-dfc7-47b9-9ed5-d0b52a62288b",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "时间",
+              "GUID": "94e3ba42-14c0-491e-aac7-00b337b3cca7"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "735c3e1b-45cb-4598-95ce-b23a278179a1",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "正常率",
+              "GUID": "7054dfc4-2340-4f74-9625-23ec23d3dae4"
+            },
+            "ColumnName": "正常率"
+          },
+          {
+            "GUID": "9583633b-a8a4-47ae-8c88-ad4dc59231cb",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "操作",
+              "GUID": "bda9eaa8-d9ac-4824-9a1e-852001631fd8"
+            },
+            "ColumnName": "操作"
+          },
+          {
+            "GUID": "37634088-f0e5-40df-8318-8dd2c3cbae68",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "操作正常率",
+              "GUID": "2630ca53-c4af-4200-b04e-88d01df9c960"
+            },
+            "ColumnName": "操作正常率"
+          },
+          {
+            "GUID": "da61ee72-a802-4eee-a857-3647098830da",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "白班",
+              "GUID": "4ee994c2-6a38-4025-b079-e53a842a02c1"
+            },
+            "ColumnName": "白班"
+          },
+          {
+            "GUID": "b11154eb-19cb-4c22-b5bb-3952a9264196",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "晚班",
+              "GUID": "2b495338-c5d3-4cae-af3e-1212a2fc0746"
+            },
+            "ColumnName": "晚班"
+          },
+          {
+            "GUID": "a84d57dd-82be-4ded-af3f-bb58b1bb9519",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "状态",
+              "GUID": "790c24b5-63ca-467c-9c41-13c370b0c6c1"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "9d00521e-f4a3-4869-a1e7-2ddb7833112e",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_Creator",
+              "GUID": "ea830ef7-0169-4353-a96b-bdbcc036cdef"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "110fd338-8620-4e0c-bc94-0635dce46c4c",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "2b4284eb-115a-4e11-9eee-58ce79fa5fae"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "f5984718-a546-4d56-bc9f-c424e2d61077",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "0a77f713-74d9-4a9a-80f1-8ce47bbe79e1"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "9deb72b7-82d5-4857-b77d-40b969afd235",
+            "BindingInfo": {
+              "TableName": "manufacture_01",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "56742d55-adbe-44d9-a46c-8920b9c2073a"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "manufacture_02",
+      "GUID": "6939460c-77f8-4bc5-bc4c-5e42acf3d67d",
+      "DataSourceSetting": {
+        "TableName": "manufacture_02",
+        "BindingInfos": [
+          {
+            "GUID": "6724e1d3-b152-4c52-ab42-3b812ee63d35",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "种类",
+              "GUID": "37fa99d1-7eb5-4e79-914a-29c1dc751101"
+            },
+            "ColumnName": "种类"
+          },
+          {
+            "GUID": "8c4cf69b-3cde-4e13-a5eb-e7ab84e8d07d",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "当前效率值",
+              "GUID": "4b773fc2-7486-46d9-a394-1ede3dfb005b"
+            },
+            "ColumnName": "当前效率值"
+          },
+          {
+            "GUID": "6663fbc5-b855-4f82-ab68-285c53390930",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "前期效率值",
+              "GUID": "4240a836-b38f-41e9-8761-cb976f5b4973"
+            },
+            "ColumnName": "前期效率值"
+          },
+          {
+            "GUID": "f26a8f0c-8f5c-432b-98d3-2f76172be0d1",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "白班",
+              "GUID": "0e11c1e4-ac65-4a64-b73b-a938416fb5eb"
+            },
+            "ColumnName": "白班"
+          },
+          {
+            "GUID": "ba4de90c-775d-40ec-8444-2ff7e40a2888",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "晚班",
+              "GUID": "d33394b4-7486-4638-86ac-c539c3357784"
+            },
+            "ColumnName": "晚班"
+          },
+          {
+            "GUID": "186e7ac3-594e-484c-bc82-ac6cea90f4d6",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "FGC_Creator",
+              "GUID": "81dac991-3942-4ae8-9465-ce5b01723df4"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "3642f951-1878-4227-aea1-1bc1cef16267",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "50c45ff9-dfc6-4ff6-b3de-86ffe83ee3f6"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "da54d997-08f2-4bbd-9257-11141267e497",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "89a4f59a-9761-4fc2-876c-5c6bfb59c23b"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "dcd61f8b-779f-4ee9-a1c4-044d440da8ea",
+            "BindingInfo": {
+              "TableName": "manufacture_02",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "d819f632-4c8b-4a06-806c-f46a234d2b0b"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "钣金制造设备效率 OEE - 班次"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "钣金制造设备效率 OEE - 班次",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 9
+}

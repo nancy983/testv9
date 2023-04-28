@@ -1,0 +1,175 @@
+{
+  "Name": "国航机票",
+  "DataSources": [
+    {
+      "Name": "航班信息",
+      "GUID": "c6842398-3df9-45f0-b20b-785abbee6b8d",
+      "DataSourceSetting": {
+        "TableName": "航班信息",
+        "BindingInfos": [
+          {
+            "GUID": "fdfc5261-9d39-4586-873b-e07cfffd62e6",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "ID",
+              "GUID": "990fb040-58a5-4bb6-9458-d701d93d4a0f"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "5f0247bb-c555-424a-8118-e3b7d5ba9dc0",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "PassenGerName",
+              "GUID": "baf95ca8-28fc-4322-b8a2-e4c009dfa949"
+            },
+            "ColumnName": "PassenGerName"
+          },
+          {
+            "GUID": "c5ad5b66-1df0-4552-a62b-a0157788f7b9",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "From",
+              "GUID": "8fdbbb84-a204-41ae-86d3-625cbd9a7137"
+            },
+            "ColumnName": "From"
+          },
+          {
+            "GUID": "05b8064a-2ce7-4803-851d-0841a9b8dfc8",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "To",
+              "GUID": "4b8bd181-98cb-4e61-963f-22c23ac53b97"
+            },
+            "ColumnName": "To"
+          },
+          {
+            "GUID": "886e59ae-5212-4d82-ab56-b6a6cc778eda",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "FlightNo",
+              "GUID": "fae85050-f67b-49d6-8400-f7ea65517cf9"
+            },
+            "ColumnName": "FlightNo"
+          },
+          {
+            "GUID": "11318d90-89d2-478e-bfbb-cdaadb60ad89",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "BoardingDate",
+              "GUID": "568f9e1e-e641-455f-9704-7597dbc21711"
+            },
+            "ColumnName": "BoardingDate"
+          },
+          {
+            "GUID": "87569f88-80ed-4da7-9bd1-2f1c69013f1e",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "BoadingTime",
+              "GUID": "8a03336a-ef89-4966-8cce-077133599b2d"
+            },
+            "ColumnName": "BoadingTime"
+          },
+          {
+            "GUID": "c98c77e6-37c3-4cad-bbfa-835492e60b87",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "NumberId",
+              "GUID": "4d2857aa-ac66-42eb-85fb-63b0d4390c0b"
+            },
+            "ColumnName": "NumberId"
+          },
+          {
+            "GUID": "a4a67b1a-7af9-4f37-a923-de56821012a8",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "Gate",
+              "GUID": "9cfb041d-821a-4b16-a31a-3da5af8cbd0f"
+            },
+            "ColumnName": "Gate"
+          },
+          {
+            "GUID": "cbaafc7a-1a2d-410b-a243-13a5c924671c",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "座位号",
+              "GUID": "ca35286f-8eda-4d9d-bf68-a7438ce36b16"
+            },
+            "ColumnName": "座位号"
+          },
+          {
+            "GUID": "51741b42-eb30-4fdd-8ccd-fc0804c2253a",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "FGC_Creator",
+              "GUID": "f812e583-ca80-4f9e-b400-845a8d51b6c4"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "8478e0df-bdb8-4335-82c6-18f65e2bce2f",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "5ba97d45-6da4-4e86-88a7-0fc3f564533e"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "1864b2e1-ce25-4053-8b0c-1aa82540c0ca",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "b71ff999-e52d-45e6-a4fd-213879f6e6ac"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "008488c9-0f01-469e-9c49-91223f64aa19",
+            "BindingInfo": {
+              "TableName": "航班信息",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "b38e7b3f-689b-48c2-b85d-a6b429bf36fc"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "国航机票"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "国航机票",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 3
+}

@@ -1,0 +1,177 @@
+{
+  "Name": "双Y轴组合图表",
+  "DataSources": [
+    {
+      "Name": "tourism_jysj",
+      "GUID": "4b9dc6d5-de62-4d22-b74b-e12a887264ec",
+      "DataSourceSetting": {
+        "TableName": "tourism_jysj_view",
+        "BindingInfos": [
+          {
+            "GUID": "e75db418-244a-4c11-96d2-674c097ecf42",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "单位名称",
+              "GUID": "38df104f-3657-4eb9-9dcd-cb26077c915f"
+            },
+            "ColumnName": "单位名称"
+          },
+          {
+            "GUID": "4a217e8c-36bf-4796-bd97-241a2ea00097",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "累计收入进度计划",
+              "GUID": "e675db62-08d0-4c85-a50f-04fe02c3a863"
+            },
+            "ColumnName": "累计收入进度计划"
+          },
+          {
+            "GUID": "ae489977-450f-4a32-bfa7-36fa6924eb1c",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "累计完成收入",
+              "GUID": "89900d79-3c70-4b72-8d1f-8b0f268ac422"
+            },
+            "ColumnName": "累计完成收入"
+          },
+          {
+            "GUID": "4e0ee5e2-efef-4976-8f37-3fa7f39ffdbb",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "收入完成率",
+              "GUID": "75d6aeb1-506f-47c1-b2e1-305d375afc50"
+            },
+            "ColumnName": "收入完成率"
+          },
+          {
+            "GUID": "98416f1a-8167-4b3d-862a-a8b3091cd6b9",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "收入同比比率",
+              "GUID": "a8627084-66a3-47d4-9e14-0458d294663d"
+            },
+            "ColumnName": "收入同比比率"
+          },
+          {
+            "GUID": "8b2d51da-6d62-4191-81e9-40f3bc7ff4cb",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "年计划收入",
+              "GUID": "1e8c9533-0c0b-4434-bf56-f4e1e4ac5fa3"
+            },
+            "ColumnName": "年计划收入"
+          },
+          {
+            "GUID": "9fd30d3e-1cb1-4201-9176-abf17ef67e14",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "当月完成收入",
+              "GUID": "a6fbe761-1c72-409e-bfbe-cbc57cd1da0e"
+            },
+            "ColumnName": "当月完成收入"
+          },
+          {
+            "GUID": "7751e176-5e3a-4d86-8c37-e57195b306ae",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "收入超欠",
+              "GUID": "89700223-1f68-4a43-b2d0-0a52320e2781"
+            },
+            "ColumnName": "收入超欠"
+          },
+          {
+            "GUID": "11598cea-c646-44fc-9870-bbb52a1ff061",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "收入上年同期",
+              "GUID": "7ae99f8e-9c67-4599-9c63-cfbd0c9dbfcb"
+            },
+            "ColumnName": "收入上年同期"
+          },
+          {
+            "GUID": "829d58c9-bf27-4454-a06e-2f4c9cd18588",
+            "BindingInfo": {
+              "TableName": "tourism_jysj_view",
+              "ColumnName": "累计收入完成率",
+              "GUID": "588bfa49-3b5a-4932-80ac-727966a7a1d3"
+            },
+            "ColumnName": "累计收入完成率"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "各月收入",
+      "GUID": "85e751d7-cc3d-4225-a5e6-58ef823bcc72",
+      "DataSourceSetting": {
+        "TableName": "各月收入",
+        "BindingInfos": [
+          {
+            "GUID": "91ccb59c-67a4-4c3a-ab40-10cfd11c02ac",
+            "BindingInfo": {
+              "TableName": "各月收入",
+              "ColumnName": "单位名称",
+              "GUID": "350aaf90-c102-4274-ab32-9a065e0dad7d"
+            },
+            "ColumnName": "单位名称"
+          },
+          {
+            "GUID": "715d4377-75b1-4b12-817e-0b9c8b0fc0df",
+            "BindingInfo": {
+              "TableName": "各月收入",
+              "ColumnName": "月份",
+              "GUID": "6c907089-f67f-4097-a9d8-d709ffaa7350"
+            },
+            "ColumnName": "月份"
+          },
+          {
+            "GUID": "b6370a24-daa1-4280-809e-74cc035521f3",
+            "BindingInfo": {
+              "TableName": "各月收入",
+              "ColumnName": "当月完成收入",
+              "GUID": "de454cdb-9828-4f14-85f2-bbd9396515fb"
+            },
+            "ColumnName": "当月完成收入"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "integer",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "双Y轴组合图表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "双Y轴组合图表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

@@ -1,0 +1,216 @@
+{
+  "Name": "【钻取主报表】全国销售分析",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "e14120b5-ef1a-4d40-9426-592f7a2f431b",
+      "DataSourceSetting": {
+        "TableName": "demo_销售明细",
+        "BindingInfos": [
+          {
+            "GUID": "7ac734ee-541e-4aca-b06f-877f9ee770da",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订单编号",
+              "GUID": "cc6821c5-e71a-49c4-9f9e-db17baf8303b"
+            },
+            "ColumnName": "订单编号"
+          },
+          {
+            "GUID": "eb25eab0-06ae-4391-8c8e-798332137ab8",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订购日期",
+              "GUID": "9cf412a5-d849-407c-b8db-94cea47f6ecd"
+            },
+            "ColumnName": "订购日期"
+          },
+          {
+            "GUID": "316e5936-5330-4ab0-bae5-09d75aa5ae40",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "类别名称",
+              "GUID": "0ab9aacf-28f1-4b6e-a17f-dd3e9cccb124"
+            },
+            "ColumnName": "类别名称"
+          },
+          {
+            "GUID": "3a5adab7-8c9f-4e5a-a42f-f0c35b664787",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "产品名称",
+              "GUID": "26f02b7b-e758-42a6-9e56-5a4999649283"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "5fe219b5-22eb-4835-87a1-8c7a9498aa90",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "购买数量",
+              "GUID": "363553c4-2338-4115-a417-e764d2bce7a7"
+            },
+            "ColumnName": "购买数量"
+          },
+          {
+            "GUID": "06ad07ad-8f78-4deb-97f0-8d4a93ee7a41",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "产品单价",
+              "GUID": "169433dc-631b-46cf-99fa-db7d1a6bff49"
+            },
+            "ColumnName": "产品单价"
+          },
+          {
+            "GUID": "f5f2ad8c-b358-4408-a1b9-3c9b7efb3115",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "产品成本",
+              "GUID": "bb95f146-be72-4971-9bc9-cb856b06c03f"
+            },
+            "ColumnName": "产品成本"
+          },
+          {
+            "GUID": "b1260ead-374c-4539-841d-43275edb1f27",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "折扣",
+              "GUID": "100413fd-4098-4edd-b98c-96941fc0d17a"
+            },
+            "ColumnName": "折扣"
+          },
+          {
+            "GUID": "b5906bb6-ce8f-4aa4-8927-f6459dcf90e5",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订单金额",
+              "GUID": "922efb52-0eb2-4e0c-89f7-ca3019e424e3"
+            },
+            "ColumnName": "订单金额"
+          },
+          {
+            "GUID": "41845edb-5a6f-4d3a-bea5-47dc822f4a57",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订单利润",
+              "GUID": "424c63d8-0585-41c6-a325-c153ba00b81b"
+            },
+            "ColumnName": "订单利润"
+          },
+          {
+            "GUID": "dcb2e503-a934-45bb-8f5a-d49e3b90e9a1",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售大区",
+              "GUID": "a918dddc-6a5f-477c-b3e2-a2c9632f9ac3"
+            },
+            "ColumnName": "销售大区"
+          },
+          {
+            "GUID": "c41214bf-05ef-446b-8f7d-465c85676a1c",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售省份",
+              "GUID": "3603bdb6-5f12-4dcd-bb8a-65a341969384"
+            },
+            "ColumnName": "销售省份"
+          },
+          {
+            "GUID": "9c84875c-d4dd-4080-9827-edcaea630204",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售城市",
+              "GUID": "020074b6-58e0-4c01-9843-17e464b73530"
+            },
+            "ColumnName": "销售城市"
+          },
+          {
+            "GUID": "c5eebd6f-6a9b-497d-9dcd-c4d30995ea33",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售门店",
+              "GUID": "7a25f940-d876-4c88-b3e9-7f693d42a71a"
+            },
+            "ColumnName": "销售门店"
+          },
+          {
+            "GUID": "42d7f28f-f21b-4c57-9bd9-6fd2bf2240df",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售顾问",
+              "GUID": "2b87a052-48d3-468f-9edb-b29be1239b40"
+            },
+            "ColumnName": "销售顾问"
+          },
+          {
+            "GUID": "a73364f0-1c2a-4976-ba9a-7312304eb8b9",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "支付方式",
+              "GUID": "10085c38-a14e-4353-b535-1a4cd3b377fc"
+            },
+            "ColumnName": "支付方式"
+          },
+          {
+            "GUID": "9ec42fa7-9101-4ab5-a33f-dd6d0ce9334c",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "客户姓名",
+              "GUID": "b8f11591-5369-4287-b7a9-6f2ade93fb5d"
+            },
+            "ColumnName": "客户姓名"
+          },
+          {
+            "GUID": "8a11e2c2-ab4f-4677-b72c-da98cd5be016",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "客户电话",
+              "GUID": "489f2ac0-082f-4a2a-b224-c158a3a945da"
+            },
+            "ColumnName": "客户电话"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【钻取主报表】全国销售分析"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【钻取主报表】全国销售分析",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

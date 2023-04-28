@@ -1,0 +1,255 @@
+{
+  "Name": "参数为空显示全部",
+  "DataSources": [
+    {
+      "Name": "demo_销售明细",
+      "GUID": "8c56e326-a059-4941-a5e7-5a68762957d0",
+      "DataSourceSetting": {
+        "TableName": "demo_销售明细",
+        "BindingInfos": [
+          {
+            "GUID": "7c3bed73-573e-4a33-9802-629012480cd5",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订单编号",
+              "GUID": "c3a6a4e1-fa8c-4706-afb5-1491774859e3"
+            },
+            "ColumnName": "订单编号"
+          },
+          {
+            "GUID": "1c117d96-49da-41ef-80e8-561317b923c9",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订购日期",
+              "GUID": "4871b691-0711-499d-99ea-9ae728ca36e3"
+            },
+            "ColumnName": "订购日期"
+          },
+          {
+            "GUID": "e6e0356f-c47b-4141-9853-988ea0efb406",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "类别名称",
+              "GUID": "19346498-72bf-4603-9c12-356b17b8325f"
+            },
+            "ColumnName": "类别名称"
+          },
+          {
+            "GUID": "644ea8c5-abab-4bfd-8621-982db144dc94",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "产品名称",
+              "GUID": "b32c3dd9-0018-436b-9d02-fcff1bb806d3"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "e9e6b4ae-51b8-467a-9118-73539bd9e16f",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "购买数量",
+              "GUID": "889a34f8-7665-4eaa-9e18-1ce6efb73c91"
+            },
+            "ColumnName": "购买数量"
+          },
+          {
+            "GUID": "7c20c434-63ee-4455-ba02-31383dbd1cf3",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "产品单价",
+              "GUID": "a86606e6-bac4-4edc-aa82-2f1463892188"
+            },
+            "ColumnName": "产品单价"
+          },
+          {
+            "GUID": "137b4de8-f5da-450d-be98-662cb4a6b6b6",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "产品成本",
+              "GUID": "0254ce68-8117-4697-b4d5-6aabf27f7771"
+            },
+            "ColumnName": "产品成本"
+          },
+          {
+            "GUID": "5d091599-a487-44be-90e8-b3c098169c4b",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "折扣",
+              "GUID": "829136df-9ab4-4006-8142-0da4761b560f"
+            },
+            "ColumnName": "折扣"
+          },
+          {
+            "GUID": "ddc7a2d9-29cb-41a5-ad61-09ec6aa61bd7",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订单金额",
+              "GUID": "d283ea2c-58b2-4927-80de-78e5b1cb215b"
+            },
+            "ColumnName": "订单金额"
+          },
+          {
+            "GUID": "aa056d3b-d265-4d1f-9fc5-c50df69f194b",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "订单利润",
+              "GUID": "6712ca90-79cc-44d3-83aa-6e8c6d43d54d"
+            },
+            "ColumnName": "订单利润"
+          },
+          {
+            "GUID": "3cdb93d9-864d-4a65-b93c-7942dcbf8a21",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售大区",
+              "GUID": "cea78d70-835e-4b37-a4ce-b32fb2edbbbb"
+            },
+            "ColumnName": "销售大区"
+          },
+          {
+            "GUID": "6d1553b4-8f87-4d7f-ab05-a5b612809403",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售省份",
+              "GUID": "1090ad77-cb74-43ec-9251-bbc1a0eabfae"
+            },
+            "ColumnName": "销售省份"
+          },
+          {
+            "GUID": "16c8f508-305b-43c9-b252-209329bddce0",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售城市",
+              "GUID": "cc992124-c7ae-4f2a-8767-276529cd5346"
+            },
+            "ColumnName": "销售城市"
+          },
+          {
+            "GUID": "f2b32525-9c95-4940-8287-eebb468901b0",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售门店",
+              "GUID": "8deff819-7a9c-4a03-9fe8-be22f3dbce6f"
+            },
+            "ColumnName": "销售门店"
+          },
+          {
+            "GUID": "97ddc60b-23f7-40d4-9818-f3124fc23ec3",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "销售顾问",
+              "GUID": "4805d11e-6a88-44e2-a3d4-d45da0868f48"
+            },
+            "ColumnName": "销售顾问"
+          },
+          {
+            "GUID": "e1212649-c7e3-416d-b1b2-3252ddbfa1bb",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "支付方式",
+              "GUID": "af577d23-5a71-4af1-8a52-9966018b86bc"
+            },
+            "ColumnName": "支付方式"
+          },
+          {
+            "GUID": "9750e6bd-5ca7-4354-8690-d3ef03dba42e",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "客户姓名",
+              "GUID": "e51b4358-45fd-4ad4-9ad5-8a3bbbc3cf81"
+            },
+            "ColumnName": "客户姓名"
+          },
+          {
+            "GUID": "fbaed379-10d0-4271-ad05-16be8e1593a5",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "客户电话",
+              "GUID": "25abad90-bf87-464e-96f3-dc8fc79414d4"
+            },
+            "ColumnName": "客户电话"
+          },
+          {
+            "GUID": "9713e3e3-7136-4288-b0bf-8ddd6c4833a1",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "FGC_Creator",
+              "GUID": "6b8342d6-5f3a-4469-b52d-5ebe893fccec"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "4ced6d43-bdc4-49b9-bb06-b7db742e8066",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "c91a59c6-89ab-4c33-badc-89a51ce6a67f"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "cb08c059-d1fc-45d6-8a58-a861303da83f",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "cf981c14-ed1a-4493-8ea4-444e7039db50"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "fcf1d984-de29-4f9a-b29b-938acd4eacb5",
+            "BindingInfo": {
+              "TableName": "demo_销售明细",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "df450752-1f80-418c-b272-086c2ca6873c"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "参数为空显示全部"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "参数为空显示全部",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 1
+}

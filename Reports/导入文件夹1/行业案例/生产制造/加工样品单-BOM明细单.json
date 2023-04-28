@@ -1,0 +1,611 @@
+{
+  "Name": "加工样品单-BOM明细单",
+  "DataSources": [
+    {
+      "Name": "dress_成衣加工",
+      "GUID": "b6246453-5279-4a01-986e-21632704c61b",
+      "DataSourceSetting": {
+        "TableName": "dress_成衣加工",
+        "BindingInfos": [
+          {
+            "GUID": "b355f26a-9263-4975-8c90-00bbedd9db9e",
+            "BindingInfo": {
+              "TableName": "dress_成衣加工",
+              "ColumnName": "样品单号",
+              "GUID": "1cac3ea0-73bc-4ae4-9468-d8f0f8030425"
+            },
+            "ColumnName": "样品单号"
+          },
+          {
+            "GUID": "cfe6cc60-a4a5-45d4-9c96-d116bb5500de",
+            "BindingInfo": {
+              "TableName": "dress_成衣加工",
+              "ColumnName": "款式说明",
+              "GUID": "3624bc4a-bc4d-4fa3-b135-7280aa9eba65"
+            },
+            "ColumnName": "款式说明"
+          },
+          {
+            "GUID": "08bf3b4c-68ef-4c0f-a299-855a3f5b459a",
+            "BindingInfo": {
+              "TableName": "dress_成衣加工",
+              "ColumnName": "款式图片名称",
+              "GUID": "c0a0188d-9a83-49ed-a6b6-50b21ed85ba3"
+            },
+            "ColumnName": "款式图片名称"
+          },
+          {
+            "GUID": "db3c677c-996f-4248-916f-19d2e29be70b",
+            "BindingInfo": {
+              "TableName": "dress_成衣加工",
+              "ColumnName": "款式图片",
+              "GUID": "f7ba357f-143d-484d-8839-6e0e235314a7"
+            },
+            "ColumnName": "款式图片"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "dress_样品信息",
+      "GUID": "a707c358-46c5-4b26-baab-d59427479c8b",
+      "DataSourceSetting": {
+        "TableName": "dress_样品信息",
+        "BindingInfos": [
+          {
+            "GUID": "c13831d9-0737-48db-bdbc-d5410424dbf4",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "样品单号",
+              "GUID": "0db02080-c963-4819-b951-1dc3cb0fbf4d"
+            },
+            "ColumnName": "样品单号"
+          },
+          {
+            "GUID": "e31ef5c9-a079-443f-9675-08366026c36e",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "样板类型",
+              "GUID": "dc8d5157-f536-45a2-9f6b-f8c93b562f6a"
+            },
+            "ColumnName": "样板类型"
+          },
+          {
+            "GUID": "c94fe54e-fabb-4fa8-9dab-be13b012ed24",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "客户",
+              "GUID": "1215c834-6389-4087-bd0d-e6f09cff18a4"
+            },
+            "ColumnName": "客户"
+          },
+          {
+            "GUID": "2327b494-d7ce-43e1-b7db-6be7b71468fd",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "季节",
+              "GUID": "68d41e7a-b5ba-4bc8-a775-7d4626f75d39"
+            },
+            "ColumnName": "季节"
+          },
+          {
+            "GUID": "2266fecf-f58e-4f93-83e7-3de659de7071",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "理单员",
+              "GUID": "10eaa5cd-0c13-4e30-9b23-d99bb1897fa4"
+            },
+            "ColumnName": "理单员"
+          },
+          {
+            "GUID": "c624eb26-898a-4ae5-8f4e-2c7e7e55b489",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "产品组别",
+              "GUID": "8bbd20f6-effd-46a0-87ab-88a69e923595"
+            },
+            "ColumnName": "产品组别"
+          },
+          {
+            "GUID": "1f85ce4e-9a03-47cd-a399-c3ba99bdf41a",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "款号",
+              "GUID": "d4ada7f0-167a-4027-9087-c23cc43a2796"
+            },
+            "ColumnName": "款号"
+          },
+          {
+            "GUID": "ddbf3a27-5a5f-4d1d-a372-6a1103b04396",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "打样工厂",
+              "GUID": "65ace928-87c7-4266-944d-765a62b03f92"
+            },
+            "ColumnName": "打样工厂"
+          },
+          {
+            "GUID": "c1b9aace-f1d8-4e0d-aa9f-0265f81e4c4a",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "打样日期",
+              "GUID": "76f07e87-1e67-4d3b-92f3-0997ce8c4a34"
+            },
+            "ColumnName": "打样日期"
+          },
+          {
+            "GUID": "a6900ac8-e695-4b59-8349-b12406c4c309",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "款式品名",
+              "GUID": "5a1dbd53-df4c-4b1b-ad8f-0b39d8ede413"
+            },
+            "ColumnName": "款式品名"
+          },
+          {
+            "GUID": "2f739902-c36e-495a-b1fe-47d5bffa8636",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "成本中心",
+              "GUID": "3ad34c43-ca8b-4f39-b2ee-1af7fd3b0529"
+            },
+            "ColumnName": "成本中心"
+          },
+          {
+            "GUID": "429dd6de-d3b6-4eb6-b22e-3e5fb2397d18",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "预计交期",
+              "GUID": "6e3bea14-bbbf-43e5-97b7-b37706679d1d"
+            },
+            "ColumnName": "预计交期"
+          },
+          {
+            "GUID": "44bae5bc-bbbb-436d-86c4-e2a26028fda3",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "主面料",
+              "GUID": "b0098d5a-6992-4255-a60b-86e9e7315a5a"
+            },
+            "ColumnName": "主面料"
+          },
+          {
+            "GUID": "6f1f2419-8303-4a1b-8e9b-71c8a99c8a19",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "工作要求",
+              "GUID": "de5c4ac8-9887-4210-8db3-eec7e61cab39"
+            },
+            "ColumnName": "工作要求"
+          },
+          {
+            "GUID": "530aa3a8-2cf2-44ca-b671-3a16585007ea",
+            "BindingInfo": {
+              "TableName": "dress_样品信息",
+              "ColumnName": "图片",
+              "GUID": "5efa8c1a-69a1-4852-9ee4-e9b96b729446"
+            },
+            "ColumnName": "图片"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "dress_数量明细",
+      "GUID": "6f259e01-c4d2-4fb6-8d34-792813ebd907",
+      "DataSourceSetting": {
+        "TableName": "dress_数量明细",
+        "BindingInfos": [
+          {
+            "GUID": "730b1f00-2af3-4881-9231-0c8cd659d994",
+            "BindingInfo": {
+              "TableName": "dress_数量明细",
+              "ColumnName": "样品单号",
+              "GUID": "f26f4669-c1fc-403d-8f11-5e372484511f"
+            },
+            "ColumnName": "样品单号"
+          },
+          {
+            "GUID": "d15f6446-36d4-47d4-b83b-39fb1cb1df4d",
+            "BindingInfo": {
+              "TableName": "dress_数量明细",
+              "ColumnName": "颜色代码",
+              "GUID": "936feb6c-c3bc-49e4-a45d-0881df286e01"
+            },
+            "ColumnName": "颜色代码"
+          },
+          {
+            "GUID": "701865f9-1fa8-4158-abe4-ac0f77b0b989",
+            "BindingInfo": {
+              "TableName": "dress_数量明细",
+              "ColumnName": "颜色名称",
+              "GUID": "1b2a8545-ae3a-414e-956f-9c173f5fc282"
+            },
+            "ColumnName": "颜色名称"
+          },
+          {
+            "GUID": "7fcdb322-4501-4ea8-be5a-34b27422894f",
+            "BindingInfo": {
+              "TableName": "dress_数量明细",
+              "ColumnName": "尺寸",
+              "GUID": "662fa87b-8654-4ec6-bd27-535bdd830a8b"
+            },
+            "ColumnName": "尺寸"
+          },
+          {
+            "GUID": "8dfcd8e4-ada7-40fa-8b96-b16c4d07a7a9",
+            "BindingInfo": {
+              "TableName": "dress_数量明细",
+              "ColumnName": "数量",
+              "GUID": "7235ce9f-8381-4b18-9084-47742e87e357"
+            },
+            "ColumnName": "数量"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "dress_配色表",
+      "GUID": "a705ab05-d0ff-4917-94cf-548bff3caa0d",
+      "DataSourceSetting": {
+        "TableName": "dress_配色表",
+        "BindingInfos": [
+          {
+            "GUID": "2f40e1da-2111-48fe-acce-e93563769024",
+            "BindingInfo": {
+              "TableName": "dress_配色表",
+              "ColumnName": "样品单号",
+              "GUID": "d902b2b3-ed70-4f8f-89ed-8670fa4f29bb"
+            },
+            "ColumnName": "样品单号"
+          },
+          {
+            "GUID": "c9ab33b8-2205-447b-ab9d-cb3c50cf35d3",
+            "BindingInfo": {
+              "TableName": "dress_配色表",
+              "ColumnName": "部位",
+              "GUID": "89913fae-d922-4211-b89a-004449ad1a13"
+            },
+            "ColumnName": "部位"
+          },
+          {
+            "GUID": "5dcce51d-b05b-4cb0-9f7b-06c53328b851",
+            "BindingInfo": {
+              "TableName": "dress_配色表",
+              "ColumnName": "色卡",
+              "GUID": "83365f0a-4707-45dc-a570-c5b0875c893a"
+            },
+            "ColumnName": "色卡"
+          },
+          {
+            "GUID": "7a4343b0-44db-439a-a56d-bfa191a46c4a",
+            "BindingInfo": {
+              "TableName": "dress_配色表",
+              "ColumnName": "成衣",
+              "GUID": "2bd199e7-4181-4d29-8583-99a6dfb75260"
+            },
+            "ColumnName": "成衣"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "dress_物料bom明细",
+      "GUID": "fa71f9bb-7fa9-4f9a-97d1-6a84c1d4a338",
+      "DataSourceSetting": {
+        "TableName": "dress_物料bom明细",
+        "BindingInfos": [
+          {
+            "GUID": "de6f0248-69bf-4550-88f7-62b2b71cf986",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "样品单号",
+              "GUID": "378f68a4-57f5-449e-81e2-97f89ddf4831"
+            },
+            "ColumnName": "样品单号"
+          },
+          {
+            "GUID": "74dbb23e-a582-41b2-952b-659a9e7cd297",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "序号",
+              "GUID": "d2ee0b31-8190-4de3-b75b-36dc91f1fc2c"
+            },
+            "ColumnName": "序号"
+          },
+          {
+            "GUID": "e4b871d5-88ca-4cf0-b983-1c2fa28da849",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "部位/料号/品名",
+              "GUID": "f5695915-9e60-41fd-afa0-f689fb8a12ce"
+            },
+            "ColumnName": "部位_料号_品名"
+          },
+          {
+            "GUID": "19338b13-d8cc-489d-9657-1569ba0ac966",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "规格/门幅/备注",
+              "GUID": "e201f006-af71-408f-9b0a-9039005b120e"
+            },
+            "ColumnName": "规格_门幅_备注"
+          },
+          {
+            "GUID": "42dd6cf3-5f04-4773-b90d-347cdef796c8",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "单位",
+              "GUID": "1b0c8525-6949-49df-a5f2-0149b72c9b49"
+            },
+            "ColumnName": "单位"
+          },
+          {
+            "GUID": "c8ad5b72-3f44-4b16-9a4b-e8c9258de015",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "含损耗用量",
+              "GUID": "0c2b23fa-edba-4be9-a224-1d7558fdc3d8"
+            },
+            "ColumnName": "含损耗用量"
+          },
+          {
+            "GUID": "394f48b9-1676-4301-b30a-22828f441dbb",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "区分颜色",
+              "GUID": "c63fbd9e-cff9-42f0-a3f6-8094cbea1d96"
+            },
+            "ColumnName": "区分颜色"
+          },
+          {
+            "GUID": "a57fc76c-675d-4cb9-b51f-4454eece4388",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "区分尺寸",
+              "GUID": "257b3cb9-d436-4d98-9c08-641aaec35815"
+            },
+            "ColumnName": "区分尺寸"
+          },
+          {
+            "GUID": "4a77ec04-9dd0-454a-9578-28ee2276e635",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "成衣颜色",
+              "GUID": "ccabb8bf-a004-4788-a015-b526b7dea722"
+            },
+            "ColumnName": "成衣颜色"
+          },
+          {
+            "GUID": "a2656f5d-1aee-4a7c-b756-49fadc63e45d",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "物料颜色",
+              "GUID": "d0393143-f670-4ee8-8952-4eaa47f70b09"
+            },
+            "ColumnName": "物料颜色"
+          },
+          {
+            "GUID": "43931950-8e48-4200-8294-6366c970bc3f",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "成衣尺寸",
+              "GUID": "a001e5c4-e9f7-444d-b236-d05dfd58e72a"
+            },
+            "ColumnName": "成衣尺寸"
+          },
+          {
+            "GUID": "7e8192b1-e834-480a-841b-8be0cd900e15",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "物料尺寸",
+              "GUID": "5669d634-ed09-4e85-989b-9424a37abd75"
+            },
+            "ColumnName": "物料尺寸"
+          },
+          {
+            "GUID": "f76430bc-d609-4f72-9c43-e451d329fe27",
+            "BindingInfo": {
+              "TableName": "dress_物料bom明细",
+              "ColumnName": "备注2",
+              "GUID": "9f786945-3d1a-4268-bc83-868b81af0c94"
+            },
+            "ColumnName": "备注2"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "dress_二次加工",
+      "GUID": "5187f045-1078-426e-8f82-e4e35d84d3b1",
+      "DataSourceSetting": {
+        "TableName": "dress_二次加工",
+        "BindingInfos": [
+          {
+            "GUID": "f1761922-2cd3-4cae-a4bb-e3442729e8e8",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "样品单号",
+              "GUID": "262513d5-8e39-48c3-ac70-e9ee3b17f343"
+            },
+            "ColumnName": "样品单号"
+          },
+          {
+            "GUID": "a4914a47-5a79-47b1-94e0-f96e5c3de2a5",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "项目",
+              "GUID": "926aebdb-3f13-4d8f-9819-0db2933ba0f4"
+            },
+            "ColumnName": "项目"
+          },
+          {
+            "GUID": "411211c1-a27c-434a-9a97-7066b540b098",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "项目名称",
+              "GUID": "5d7fe370-c0d7-46e4-af4a-e7e725959bfc"
+            },
+            "ColumnName": "项目名称"
+          },
+          {
+            "GUID": "a852be78-631e-49a3-b59f-ca4845abb5a9",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "项目说明",
+              "GUID": "0e665f67-4f71-4017-8adc-879a1aba55ca"
+            },
+            "ColumnName": "项目说明"
+          },
+          {
+            "GUID": "eb982c6e-55be-4f45-8295-eaa6496d935d",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "部位说明",
+              "GUID": "0f26807b-71fd-490d-8d34-da3e328ad650"
+            },
+            "ColumnName": "部位说明"
+          },
+          {
+            "GUID": "473e049a-c057-4dec-bc7a-d4dbac1b647d",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "区分颜色",
+              "GUID": "3441083a-54ee-4279-8d6e-e6ecb9ed07ca"
+            },
+            "ColumnName": "区分颜色"
+          },
+          {
+            "GUID": "1cf1bc4a-aaee-4249-b353-db3aa7da9405",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "区分尺寸",
+              "GUID": "e494c6a5-679a-4b00-8a71-4d2128506a6b"
+            },
+            "ColumnName": "区分尺寸"
+          },
+          {
+            "GUID": "26559eb2-b8e0-4168-83ec-d1c2d74983ec",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "备注",
+              "GUID": "0d22efeb-74ae-40fc-af64-09dc8ac084f2"
+            },
+            "ColumnName": "备注"
+          },
+          {
+            "GUID": "e81e3289-032d-411a-9bd6-b03edf94ad98",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "尺码",
+              "GUID": "c8782376-95e7-4e8d-a380-b458c025f1fc"
+            },
+            "ColumnName": "尺码"
+          },
+          {
+            "GUID": "4f070c95-3836-48a1-9472-8938cf68cb68",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "颜色",
+              "GUID": "443368d7-b409-4265-8538-0cdf7d15f4b8"
+            },
+            "ColumnName": "颜色"
+          },
+          {
+            "GUID": "6a6e996f-1ea4-4870-ad62-f3eb74704d90",
+            "BindingInfo": {
+              "TableName": "dress_二次加工",
+              "ColumnName": "说明",
+              "GUID": "e9746930-ed3f-4c58-815f-c32ec6ad16f3"
+            },
+            "ColumnName": "说明"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "加工样品单-BOM明细单"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "加工样品单-BOM明细单",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 4
+}

@@ -1,0 +1,157 @@
+{
+  "Name": "M4.市场营销",
+  "DataSources": [
+    {
+      "Name": "mobile_mkt1",
+      "GUID": "53daf08f-ca2c-4be1-8ea0-b11062dc114c",
+      "DataSourceSetting": {
+        "TableName": "mobile_mkt1",
+        "BindingInfos": [
+          {
+            "GUID": "8525e4ae-c26c-4187-a16f-ae3ff38d5b8e",
+            "BindingInfo": {
+              "TableName": "mobile_mkt1",
+              "ColumnName": "制造商",
+              "GUID": "83d0ab02-eeff-4c3a-b170-a7b567d2c728"
+            },
+            "ColumnName": "制造商"
+          },
+          {
+            "GUID": "54b3aa2f-54c3-4499-adf2-c461755f46e4",
+            "BindingInfo": {
+              "TableName": "mobile_mkt1",
+              "ColumnName": "营销额",
+              "GUID": "8ab9df89-db56-4540-8b39-65e3d0c19934"
+            },
+            "ColumnName": "营销额"
+          },
+          {
+            "GUID": "b80455bc-eadc-439c-85e9-f8075a7e85c8",
+            "BindingInfo": {
+              "TableName": "mobile_mkt1",
+              "ColumnName": "市场份额",
+              "GUID": "83f57a7b-cb47-4590-bfd3-7800d34fc7bb"
+            },
+            "ColumnName": "市场份额"
+          },
+          {
+            "GUID": "0e88a559-a9ef-4eef-9106-de4a98efbead",
+            "BindingInfo": {
+              "TableName": "mobile_mkt1",
+              "ColumnName": "预期份额",
+              "GUID": "17b7affd-5ca7-403a-ae20-673c730609ce"
+            },
+            "ColumnName": "预期份额"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "number",
+        "number"
+      ]
+    },
+    {
+      "Name": "mobile_mkt2",
+      "GUID": "2f4ba532-4ac6-4fda-9f9a-3b004f40c4b9",
+      "DataSourceSetting": {
+        "TableName": "mobile_mkt2",
+        "BindingInfos": [
+          {
+            "GUID": "0c9ce338-389d-4a63-95b0-3fb932c9cc6e",
+            "BindingInfo": {
+              "TableName": "mobile_mkt2",
+              "ColumnName": "地区",
+              "GUID": "645acbf8-610c-4242-b352-e7c47a8dbf8d"
+            },
+            "ColumnName": "地区"
+          },
+          {
+            "GUID": "671954d2-0a86-4959-a3e0-a99ca234f19a",
+            "BindingInfo": {
+              "TableName": "mobile_mkt2",
+              "ColumnName": "销售占比",
+              "GUID": "b732359d-af18-4c29-95f7-6bc88e60d5ad"
+            },
+            "ColumnName": "销售占比"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number"
+      ]
+    },
+    {
+      "Name": "mobile_mkt3",
+      "GUID": "af2cd8de-6d33-4c4d-853d-73c5965051e3",
+      "DataSourceSetting": {
+        "TableName": "mobile_mkt3",
+        "BindingInfos": [
+          {
+            "GUID": "c9ebf180-ba3b-4c61-9df3-2131d5186beb",
+            "BindingInfo": {
+              "TableName": "mobile_mkt3",
+              "ColumnName": "月份",
+              "GUID": "5fa9d5bf-5f69-4f7a-8a40-e4dfe0e96330"
+            },
+            "ColumnName": "月份"
+          },
+          {
+            "GUID": "077c0293-29be-469a-bd9f-36018ffe560c",
+            "BindingInfo": {
+              "TableName": "mobile_mkt3",
+              "ColumnName": "销售趋势",
+              "GUID": "b3177fdc-a0d7-492e-bfe5-598b655d550a"
+            },
+            "ColumnName": "销售趋势"
+          },
+          {
+            "GUID": "17d20d62-500f-4169-9dd7-802ba5eb1990",
+            "BindingInfo": {
+              "TableName": "mobile_mkt3",
+              "ColumnName": "整体销售总额",
+              "GUID": "0e12aca1-f4db-4e84-a1d9-fd3d6ed7b688"
+            },
+            "ColumnName": "整体销售总额"
+          },
+          {
+            "GUID": "730d2830-6f78-4d0b-8295-da782744c39c",
+            "BindingInfo": {
+              "TableName": "mobile_mkt3",
+              "ColumnName": "团队销售额",
+              "GUID": "e9a8d08e-b227-42e5-85f9-3d1a384e223b"
+            },
+            "ColumnName": "团队销售额"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "number",
+        "number"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "M4.市场营销"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "M4.市场营销",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 4
+}

@@ -1,0 +1,155 @@
+{
+  "Name": "客户订单套打",
+  "DataSources": [
+    {
+      "Name": "OrderDetail",
+      "GUID": "eadd595e-4750-4634-a8a6-e6b17b9d1631",
+      "DataSourceSetting": {
+        "TableName": "OrderDetail",
+        "BindingInfos": [
+          {
+            "GUID": "0d8ecd79-2573-4365-8c4b-6cb3da4f24e1",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "订单ID",
+              "GUID": "43e45c52-6e03-499f-9ac9-94cdfa0e4145"
+            },
+            "ColumnName": "订单ID"
+          },
+          {
+            "GUID": "deaf389f-1736-40ae-8185-c3c3792038ab",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "客户ID",
+              "GUID": "0640026f-ed7c-4a38-8b6a-5cae2ad7a469"
+            },
+            "ColumnName": "客户ID"
+          },
+          {
+            "GUID": "f82a95db-0f72-4d83-806e-837a316e40d6",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "订购日期",
+              "GUID": "6f5f2479-e8f5-4f38-940f-1e8983240304"
+            },
+            "ColumnName": "订购日期"
+          },
+          {
+            "GUID": "039d11c4-fe83-499b-b8f9-3f4beee5c3b0",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "产品名称",
+              "GUID": "ed0b3305-7f1b-4d82-886f-161645cda316"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "18d0354a-86af-4cf6-a953-665fbac83e9e",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "数量",
+              "GUID": "ec01bf85-1791-4df8-922a-221674355f1e"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "d5fb93bd-8c97-4fb9-bdf2-d8d10ef0f816",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "单价",
+              "GUID": "ccab8c08-0a97-4631-8bdb-ad08ab9d1311"
+            },
+            "ColumnName": "单价"
+          },
+          {
+            "GUID": "2b3c0a0e-8e2b-4726-8552-b3b5c39f3982",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "折扣",
+              "GUID": "cb2f54e6-6c07-4e70-b115-eb94026c854e"
+            },
+            "ColumnName": "折扣"
+          },
+          {
+            "GUID": "9108a21d-8702-46d6-b1a2-8f212ba48a50",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "货主城市",
+              "GUID": "f1a2f006-849b-4f6c-bedd-f02d73f918d4"
+            },
+            "ColumnName": "货主城市"
+          },
+          {
+            "GUID": "ef050f3c-9061-4277-b6c4-95996bc1011e",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "货主地址",
+              "GUID": "c83e0ea1-e2f2-4393-b780-478d2ee0cb78"
+            },
+            "ColumnName": "货主地址"
+          },
+          {
+            "GUID": "dcfaa820-e8b8-4702-b9d7-517b2a95575a",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "货主名称",
+              "GUID": "af0d1d1d-e6cb-4807-b152-ca97842da590"
+            },
+            "ColumnName": "货主名称"
+          },
+          {
+            "GUID": "3dff2d60-24ae-4870-8c11-d0cb33d9e475",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "货主邮政编码",
+              "GUID": "46943f23-f435-452a-b18d-0a2e358e0e20"
+            },
+            "ColumnName": "货主邮政编码"
+          },
+          {
+            "GUID": "513634fe-e38b-4818-8b0e-b0c3ea87611c",
+            "BindingInfo": {
+              "TableName": "OrderDetail",
+              "ColumnName": "电话",
+              "GUID": "c9a617d2-f384-44f1-b310-97cf21719dc4"
+            },
+            "ColumnName": "电话"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "客户订单套打"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "客户订单套打",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 1
+}

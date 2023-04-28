@@ -1,0 +1,176 @@
+{
+  "Name": "客户特征分析",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "cd62aec2-aefd-435a-9af0-951306106a22",
+      "DataSourceSetting": {
+        "TableName": "house_客户特征分析",
+        "BindingInfos": [
+          {
+            "GUID": "2a8bdbec-5592-45b2-9c59-119f357e0056",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "客户姓名",
+              "GUID": "a95c8203-7bef-49cb-b20f-0682f91ce4ab"
+            },
+            "ColumnName": "客户姓名"
+          },
+          {
+            "GUID": "bccc45e5-abf9-45de-acba-5b28fc0d572f",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "认知途经",
+              "GUID": "b39b6ab6-6dbe-4a8f-8035-15f2c7610130"
+            },
+            "ColumnName": "认知途经"
+          },
+          {
+            "GUID": "c376f902-25c1-48a6-8df8-2484991c04a0",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "数量1",
+              "GUID": "e90bb8c2-65dd-4599-9a26-014a4e15bdd5"
+            },
+            "ColumnName": "数量1"
+          },
+          {
+            "GUID": "db8f4e76-31f3-4879-a9f3-7507f8248c6f",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "比例1",
+              "GUID": "88db1192-ac52-49df-9bb9-fcac2f240a47"
+            },
+            "ColumnName": "比例1"
+          },
+          {
+            "GUID": "2bed61fb-5c57-4ce5-b2b5-e2e02a3e4972",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "居住区域",
+              "GUID": "3f56842e-7118-4ed2-9f54-9fc015b37954"
+            },
+            "ColumnName": "居住区域"
+          },
+          {
+            "GUID": "bf3f63c7-787f-48ad-8a19-54abc13eff6d",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "数量2",
+              "GUID": "c7018c4f-1932-4fcd-943c-2a6e9e4242c9"
+            },
+            "ColumnName": "数量2"
+          },
+          {
+            "GUID": "ad254371-48e2-4ff6-bc04-8db06b226c0f",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "比例2",
+              "GUID": "d3ae8755-641d-4411-8343-b44b06d11192"
+            },
+            "ColumnName": "比例2"
+          },
+          {
+            "GUID": "75cb84c3-8ad5-4801-8087-b2bd3491f161",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "工作区域",
+              "GUID": "74656653-ca2b-466a-a431-9fe3942e0655"
+            },
+            "ColumnName": "工作区域"
+          },
+          {
+            "GUID": "4313763d-cd0f-4cdc-b30d-62de3d206ab3",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "数量3",
+              "GUID": "9980bafd-dd76-43c4-9856-c6ff45b7f209"
+            },
+            "ColumnName": "数量3"
+          },
+          {
+            "GUID": "bac8ff80-fe1e-4634-a51f-7253dc6c5dd6",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "比例3",
+              "GUID": "8761f418-d3ed-4748-bd6e-2f13ff5133de"
+            },
+            "ColumnName": "比例3"
+          },
+          {
+            "GUID": "ffeb8f62-7047-4a8e-a6ed-8a3b5d01e56e",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "FGC_Creator",
+              "GUID": "ba6b57fc-7362-4368-9598-56d3cb8788fd"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "745760e0-223f-42ed-b9c8-797ff986164a",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "73bea899-7a90-4230-bddc-60626c25c985"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "cbd8a1a1-2f52-4d96-9d80-77215169d01c",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "43cadd99-6fe4-4103-a449-46697c6d7808"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "6cb29845-051a-4008-ac49-1ba2dd0539bc",
+            "BindingInfo": {
+              "TableName": "house_客户特征分析",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "7422b94a-0870-4528-b68c-b4271293fbe8"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "客户特征分析"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "客户特征分析",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

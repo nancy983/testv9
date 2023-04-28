@@ -1,0 +1,1284 @@
+{
+  "Name": "监控中心—TMS",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "5ed6bb58-0c64-4783-8618-168d5643c4e6",
+      "DataSourceSetting": {
+        "TableName": "货物实时跟踪报表",
+        "BindingInfos": [
+          {
+            "GUID": "e99574a5-8c04-4170-a2e8-65a9f828663f",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "订单号",
+              "GUID": "8998be51-8740-42c4-abbb-af08242f6a98"
+            },
+            "ColumnName": "订单号"
+          },
+          {
+            "GUID": "b452fff9-62ff-4bcd-9edb-755c9e395d0b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "车牌号",
+              "GUID": "75464898-1fed-4662-a048-6756f89a8326"
+            },
+            "ColumnName": "车牌号"
+          },
+          {
+            "GUID": "11c39b06-aa85-4fd6-b29c-61f00c370aef",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "联系人",
+              "GUID": "75fc230d-7f9e-41a3-bc6e-7c8b8654a239"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "e7d4d098-2f4d-49a7-915a-1225cd080942",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "电话",
+              "GUID": "871407b5-e117-4c7e-a1af-d7913db8e52e"
+            },
+            "ColumnName": "电话"
+          },
+          {
+            "GUID": "63797ef7-ed9a-40c5-9d87-8ef2dee0cdb8",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "起始地",
+              "GUID": "4d72875b-9be3-48fb-a4b9-212e819be1ad"
+            },
+            "ColumnName": "起始地"
+          },
+          {
+            "GUID": "8bba3e03-4c01-4e98-b634-aa1c4ebb5355",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "终点",
+              "GUID": "c4111662-f361-43a8-9b96-dbf67713b8e5"
+            },
+            "ColumnName": "终点"
+          },
+          {
+            "GUID": "f50c48fe-82c4-4989-961e-4d705320687d",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "创建时间",
+              "GUID": "213b35ce-a583-4df9-b973-98d76bd98bf4"
+            },
+            "ColumnName": "创建时间"
+          },
+          {
+            "GUID": "518633f5-1493-42c3-9303-aee2ca45282f",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "派车时间",
+              "GUID": "5d3a56b7-0b39-4178-a09b-f489cb039fd1"
+            },
+            "ColumnName": "派车时间"
+          },
+          {
+            "GUID": "c226eb10-74fe-446c-8f45-e1c0d666d9da",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "装货确认时间",
+              "GUID": "40196fe2-fa90-4b69-97f3-7892cd3cb07c"
+            },
+            "ColumnName": "装货确认时间"
+          },
+          {
+            "GUID": "8e2df4c3-c43b-4b6b-bb5e-1baa9237ca8b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "开始运输时间",
+              "GUID": "a558b69a-93a6-4f71-9050-bd1dd9164469"
+            },
+            "ColumnName": "开始运输时间"
+          },
+          {
+            "GUID": "d7f9f6ae-52ac-4386-8cf1-2a4d5c8ecfdb",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "交货确认时间",
+              "GUID": "56f551c9-08f2-4521-a191-e74a686f1d20"
+            },
+            "ColumnName": "交货确认时间"
+          },
+          {
+            "GUID": "9ccbd553-d759-4b21-b5bd-4f860d89287f",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "签收时间",
+              "GUID": "87d64b35-7a8d-4d52-b9b4-d952a4eeed00"
+            },
+            "ColumnName": "签收时间"
+          },
+          {
+            "GUID": "53738f5a-0f21-4e8d-a21c-82e315dcd003",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输状态",
+              "GUID": "7534ef47-bc40-434a-b76e-2026b348ed86"
+            },
+            "ColumnName": "运输状态"
+          },
+          {
+            "GUID": "57a36a6c-0553-4b1d-87bf-2af2068ca6af",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "状态",
+              "GUID": "03ec3818-0e59-469a-9ef6-1f8e5fde7a4c"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "37f87298-ab66-4dfd-8cf3-453d79e24f99",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输者",
+              "GUID": "ed08da27-3ac6-4759-ba6e-e8aea204874a"
+            },
+            "ColumnName": "运输者"
+          },
+          {
+            "GUID": "778ef0b4-c89a-4b41-9dbe-423754d95031",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "0e4b2e0d-9fe5-4b8b-ad98-f3e3ead41e27"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "4af8c6af-401b-4710-8c19-305c9ea527c2",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "7ea990fb-1764-4645-8c44-59c2748cda97"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "5219c1cd-ba58-4de5-98d6-0095c67174d2",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "ee0463cb-3a06-4005-b725-3e148cedb9b0"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "afa8b112-a146-48b6-b883-dfb6a7089cf1",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "f80160f0-ee0a-42cc-9f7a-5c9c3df1a1cb"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "货物实时跟踪报表",
+            "ColumnName": "运输状态",
+            "GUID": "61a024d8-4d28-4d0b-b7bc-1ee41d89ab16"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=运输状态"
+          }
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "运输状态"
+        }
+      ],
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源2",
+      "GUID": "3739094a-d65e-4230-9ab2-b3570c903fe4",
+      "DataSourceSetting": {
+        "TableName": "货物实时跟踪报表",
+        "BindingInfos": [
+          {
+            "GUID": "31a2c066-3908-4b8f-9b52-daa0694be354",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "订单号",
+              "GUID": "436013a4-779d-4013-a3c9-04e365ba5fce"
+            },
+            "ColumnName": "订单号"
+          },
+          {
+            "GUID": "0dc40747-74da-4080-8acd-beb2dc19daea",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "车牌号",
+              "GUID": "b6621b26-5c33-4025-b018-9d65a94e5a17"
+            },
+            "ColumnName": "车牌号"
+          },
+          {
+            "GUID": "74084e35-0844-4d46-8c84-c7f1a7f26e1c",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "联系人",
+              "GUID": "aaac72b1-b13f-4523-88d1-69c96f4ab350"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "4c1aa937-a453-4d2a-bf18-74c938df4f6d",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "电话",
+              "GUID": "75a222b6-dd12-4374-b89d-2d43902f2220"
+            },
+            "ColumnName": "电话"
+          },
+          {
+            "GUID": "25afc311-e58a-4651-8563-e9a088ece5a1",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "起始地",
+              "GUID": "b48eed58-259a-4545-96a1-42070f819c96"
+            },
+            "ColumnName": "起始地"
+          },
+          {
+            "GUID": "1ce30a72-a5c7-4b33-8207-33868e65176b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "终点",
+              "GUID": "bba0b1e9-c743-4bd3-9a79-7fa8604abada"
+            },
+            "ColumnName": "终点"
+          },
+          {
+            "GUID": "9a8ea987-bc2f-410f-88a3-6b889e15dca3",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "创建时间",
+              "GUID": "9f642b3e-2ec1-41a0-876b-9a46fb22a079"
+            },
+            "ColumnName": "创建时间"
+          },
+          {
+            "GUID": "9fd60fa9-123c-474b-ac86-6020d41a2712",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "派车时间",
+              "GUID": "9bb25da6-eb90-475b-abad-03b040fe85c3"
+            },
+            "ColumnName": "派车时间"
+          },
+          {
+            "GUID": "c6fdea3c-1393-4429-93d9-b209a3782577",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "装货确认时间",
+              "GUID": "d86a4025-3866-41ec-b1fa-5a7896face46"
+            },
+            "ColumnName": "装货确认时间"
+          },
+          {
+            "GUID": "a02766f9-ede9-489b-9345-ef9d01b8cac7",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "开始运输时间",
+              "GUID": "6fe9fa52-2a50-4898-81df-18a93b632e8b"
+            },
+            "ColumnName": "开始运输时间"
+          },
+          {
+            "GUID": "75531dd2-a356-47b9-ade9-1f17d91b3c9b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "交货确认时间",
+              "GUID": "e3d6bda7-cd9f-4f16-aeb1-b5b486cae849"
+            },
+            "ColumnName": "交货确认时间"
+          },
+          {
+            "GUID": "e19aa8f2-61a4-46fc-8f28-8a8ff6897867",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "签收时间",
+              "GUID": "f1d91b91-5804-4b97-a56a-8f12eec49ec6"
+            },
+            "ColumnName": "签收时间"
+          },
+          {
+            "GUID": "df9cfd0c-d40b-4594-bd9e-06cd0dba8a53",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输状态",
+              "GUID": "d90f2a36-20fc-4c3c-8189-25ddde4c2676"
+            },
+            "ColumnName": "运输状态"
+          },
+          {
+            "GUID": "25195cec-816a-4b46-904d-c0af7a5db44b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "状态",
+              "GUID": "87decc90-91f4-4874-9b2d-13c1a949fdca"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "7a4a6fb6-0231-4594-9b61-158891e03c03",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输者",
+              "GUID": "3de0c08e-73f6-48c5-9802-a7caf5eccb4a"
+            },
+            "ColumnName": "运输者"
+          },
+          {
+            "GUID": "023038b1-6463-46c4-9312-7b1a0cfc20bf",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "a09f2c64-2b13-44cf-bbb5-e967c8563d51"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "97df73b7-9119-4f6b-89e8-3997c302c171",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "e814a963-f715-444f-b43e-c0f2df5d69f0"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "8158c00c-1600-4b76-b431-522569af3c14",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "4ad6523e-96a2-4b07-b5b3-70f86810f2e8"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "e1131354-4e95-49be-8adf-2d5c4e4cc880",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "188bfb69-ee0e-4092-a843-dbf03fbd06d4"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "货物实时跟踪报表",
+            "ColumnName": "运输状态",
+            "GUID": "4e943459-97d5-49a1-a418-3c6f20b17d35"
+          },
+          "Value": "待调度"
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源3",
+      "GUID": "59302b8f-12ad-45d2-a3eb-9eab659d75aa",
+      "DataSourceSetting": {
+        "TableName": "货物实时跟踪报表",
+        "BindingInfos": [
+          {
+            "GUID": "924b4545-2043-4c95-a3d8-b7bcf353857b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "订单号",
+              "GUID": "65abab54-6c76-4d62-8b44-40b2afa8c0d3"
+            },
+            "ColumnName": "订单号"
+          },
+          {
+            "GUID": "1ffd6548-2258-4882-a006-c4ccada07cab",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "车牌号",
+              "GUID": "560975b8-4348-4cb8-a215-4b54ab4e56f7"
+            },
+            "ColumnName": "车牌号"
+          },
+          {
+            "GUID": "5f41e399-51d8-4f80-8e83-e9f7f53642a6",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "联系人",
+              "GUID": "70e9e476-6eb5-4fe5-b4a4-a5ad998fc597"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "bf02e781-e608-4790-9e70-5d5d01fe4ea0",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "电话",
+              "GUID": "7346d004-f120-4109-8b8f-9de5ebec4957"
+            },
+            "ColumnName": "电话"
+          },
+          {
+            "GUID": "c47a21f0-319d-43db-b0ae-403e721ff719",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "起始地",
+              "GUID": "373cd87c-2074-415a-a53e-5dd07f1c0f25"
+            },
+            "ColumnName": "起始地"
+          },
+          {
+            "GUID": "ef0e99bd-59bd-463d-be98-06a73bd39120",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "终点",
+              "GUID": "a8215d7a-d97e-4131-8971-55930b357a0b"
+            },
+            "ColumnName": "终点"
+          },
+          {
+            "GUID": "ea05d4bf-0354-4e85-8de9-ba470f12816e",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "创建时间",
+              "GUID": "d196b617-6be2-4358-ae44-bdd14b6c8b0a"
+            },
+            "ColumnName": "创建时间"
+          },
+          {
+            "GUID": "aabed818-1b4d-4417-b026-0a6b67c7fbc3",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "派车时间",
+              "GUID": "23a73178-6416-4723-b238-03c78ceb633a"
+            },
+            "ColumnName": "派车时间"
+          },
+          {
+            "GUID": "92955cf0-410a-48d8-8157-a82e877b256f",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "装货确认时间",
+              "GUID": "63ce5baa-a6bd-4ba7-a3d8-7429d9a7c26d"
+            },
+            "ColumnName": "装货确认时间"
+          },
+          {
+            "GUID": "9aaf573d-d960-4d2c-b0a2-548359182e05",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "开始运输时间",
+              "GUID": "500920a8-fd5d-4ad5-aaac-2670185bcdea"
+            },
+            "ColumnName": "开始运输时间"
+          },
+          {
+            "GUID": "5bc5cfa7-d751-4974-9e9d-c0eb989b2c31",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "交货确认时间",
+              "GUID": "2171cfc9-5671-4f7f-9e14-84dfdc747108"
+            },
+            "ColumnName": "交货确认时间"
+          },
+          {
+            "GUID": "f02b807a-6333-4ef3-b5d0-37fcd7655abd",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "签收时间",
+              "GUID": "d0fda0fb-b084-496a-b34e-fe85a877b422"
+            },
+            "ColumnName": "签收时间"
+          },
+          {
+            "GUID": "19423b6c-a263-4a15-af03-feb1c614c630",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输状态",
+              "GUID": "598c1d1b-b8a2-4316-9816-191aaf966a70"
+            },
+            "ColumnName": "运输状态"
+          },
+          {
+            "GUID": "78b45e84-8a82-46da-b938-4078958f2d2d",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "状态",
+              "GUID": "03ebfe84-cb28-4553-83f7-c23b1725d2e1"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "b54a5a76-d8d0-4a28-bc87-78268109401b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输者",
+              "GUID": "e60c5119-94fe-478c-bfbd-3495c1a60e01"
+            },
+            "ColumnName": "运输者"
+          },
+          {
+            "GUID": "c045e86d-ef1f-4777-9492-c00746ca8cb2",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "a4b535b4-8f7f-4eb6-809e-d7cc58390bd4"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "9f1786aa-e100-4599-b967-6cf4f4e28696",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "2d1ec166-b5d4-4454-9762-f86a4d1f2450"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "ff255584-8369-460d-a3e6-ed1803c541e5",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "a0f3469e-4720-44c3-aef5-eb3d0279be1a"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "525bacf9-1638-47f8-8177-a9fe684a9363",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "332f5cd0-d137-4e91-9d14-36a307dd74ce"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "货物实时跟踪报表",
+            "ColumnName": "运输状态",
+            "GUID": "79862be5-298b-4d88-9c62-25d22ae85cc2"
+          },
+          "Value": "待运输"
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源4",
+      "GUID": "2509665d-44d9-4f5f-bd9e-b543d4c6bee9",
+      "DataSourceSetting": {
+        "TableName": "货物实时跟踪报表",
+        "BindingInfos": [
+          {
+            "GUID": "22ca364a-cb2e-4118-a9b4-dbd4f011613f",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "订单号",
+              "GUID": "69f48db2-54ad-40b8-aedc-ed2ab25b0c84"
+            },
+            "ColumnName": "订单号"
+          },
+          {
+            "GUID": "96be15fa-98b7-431e-9b72-56e5c6ea6b09",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "车牌号",
+              "GUID": "514bcaef-47a1-464f-a464-0041d953dbab"
+            },
+            "ColumnName": "车牌号"
+          },
+          {
+            "GUID": "45d6aa16-00a1-4039-9a2f-cdc64d8a0a32",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "联系人",
+              "GUID": "05f85157-86a6-4250-8907-199bfaac3a7c"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "cdfae82c-281a-4fb3-ac08-9ef7cf38e1a3",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "电话",
+              "GUID": "f0aca7aa-7869-4741-9ccd-5d699d3752d7"
+            },
+            "ColumnName": "电话"
+          },
+          {
+            "GUID": "306a44df-10af-4f4b-9a52-d6e530700a4c",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "起始地",
+              "GUID": "3b05a86d-00b3-4845-b5c8-d2c8558f059d"
+            },
+            "ColumnName": "起始地"
+          },
+          {
+            "GUID": "63439c4e-6553-444e-ab3e-ff6a9eabb5f0",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "终点",
+              "GUID": "9d5d813c-21a2-4897-bd04-289f82dcaae3"
+            },
+            "ColumnName": "终点"
+          },
+          {
+            "GUID": "91ff7283-1d98-4954-8efc-9562811fb8f2",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "创建时间",
+              "GUID": "83e9fb04-0649-4771-945a-01f9600739c5"
+            },
+            "ColumnName": "创建时间"
+          },
+          {
+            "GUID": "3c12ce68-5c5f-41f9-a1d6-71d7ae05e1e6",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "派车时间",
+              "GUID": "2a5a5e82-e73c-47be-aba1-b0cb4be39e07"
+            },
+            "ColumnName": "派车时间"
+          },
+          {
+            "GUID": "1733dc5b-bd60-4f62-8791-fbe3deebe1ea",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "装货确认时间",
+              "GUID": "5617957f-f569-4a4c-bdbe-d7448cc0ceca"
+            },
+            "ColumnName": "装货确认时间"
+          },
+          {
+            "GUID": "12e8358e-8e5a-440a-9422-13d306ce4218",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "开始运输时间",
+              "GUID": "c6482502-42d1-470f-9924-56812876956c"
+            },
+            "ColumnName": "开始运输时间"
+          },
+          {
+            "GUID": "bba49e6a-7127-46af-a5f1-fbdb093348c7",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "交货确认时间",
+              "GUID": "3ede7b32-4315-43b7-9209-0b5a65d39465"
+            },
+            "ColumnName": "交货确认时间"
+          },
+          {
+            "GUID": "47cb8dfb-eef3-4e7b-ae43-d8bbf434a3bc",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "签收时间",
+              "GUID": "9bab432e-2098-476a-b1d5-f078225bef9d"
+            },
+            "ColumnName": "签收时间"
+          },
+          {
+            "GUID": "b65a2aec-5c53-45cc-a622-98cd5ec4dd18",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输状态",
+              "GUID": "85ba6538-a637-4985-97b5-40ec817d2939"
+            },
+            "ColumnName": "运输状态"
+          },
+          {
+            "GUID": "6b5e0052-80c4-4ae8-a7d9-7d9bcd61c1e0",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "状态",
+              "GUID": "e9330b4e-c478-4862-9e81-a24cdd02bbb4"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "ffa54ddf-8771-4d4c-a7da-802579a2f1c4",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输者",
+              "GUID": "b35e4eb7-3a52-4137-98df-d23afa54a44b"
+            },
+            "ColumnName": "运输者"
+          },
+          {
+            "GUID": "0efaa006-84a4-4933-9aa8-5cf93348f459",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "a1042f79-81b6-4433-b61d-783dfa3e1b28"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "6626d0a5-a7fc-458a-a1f7-576d24c5e576",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "7a218700-f760-465b-bec8-8ac425e1561e"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "9f067f5f-0827-4d53-bc8f-4eefdfcdab8e",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "bb6521fe-7752-4e2e-9630-627d7f5c90ad"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "f0c3f5cb-acee-4e20-beae-f30e7a021469",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "d9bfd363-2e06-47d9-b859-9b881a54c76c"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "货物实时跟踪报表",
+            "ColumnName": "运输状态",
+            "GUID": "9f6d9102-b595-42ac-b07f-f7199d809975"
+          },
+          "Value": "运输中"
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源5",
+      "GUID": "9da8c5f9-c071-447b-829a-12df6dffc512",
+      "DataSourceSetting": {
+        "TableName": "货物实时跟踪报表",
+        "BindingInfos": [
+          {
+            "GUID": "6e2585b9-d815-4104-b443-48de7f049e94",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "订单号",
+              "GUID": "1ebda04f-ec19-4dba-9fe9-f7f33a36e87a"
+            },
+            "ColumnName": "订单号"
+          },
+          {
+            "GUID": "b69a9007-6f2d-40d2-a0f2-94030884e36d",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "车牌号",
+              "GUID": "1411c747-5447-4a3c-bf01-c76e793619ef"
+            },
+            "ColumnName": "车牌号"
+          },
+          {
+            "GUID": "96fe247e-b92b-48f5-82a3-1167c4a21b09",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "联系人",
+              "GUID": "721d53cd-3aee-44b1-8441-ee03f63d7880"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "339519f2-d8d9-4ba7-9541-7965b99c4760",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "电话",
+              "GUID": "daec54b6-2c60-408b-815e-975e3639b69b"
+            },
+            "ColumnName": "电话"
+          },
+          {
+            "GUID": "ceb1cdc9-902a-4bd8-a863-982dbd06f714",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "起始地",
+              "GUID": "77c85b8a-74fa-42db-9d47-f3b1ed92c305"
+            },
+            "ColumnName": "起始地"
+          },
+          {
+            "GUID": "9c5e51ba-b6e5-4070-a0e1-f1415bfb3914",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "终点",
+              "GUID": "abad5f42-53a7-4ce9-b16d-cf54edb258d6"
+            },
+            "ColumnName": "终点"
+          },
+          {
+            "GUID": "533a649a-1a59-4f12-adf3-4f99339998aa",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "创建时间",
+              "GUID": "f994279d-5cd8-4129-a81f-de069fc1e9af"
+            },
+            "ColumnName": "创建时间"
+          },
+          {
+            "GUID": "88483fda-04b3-4acc-9536-5ed2390c9d8f",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "派车时间",
+              "GUID": "14b6cdce-a99b-4f11-ae0c-6598dcf298f3"
+            },
+            "ColumnName": "派车时间"
+          },
+          {
+            "GUID": "9e8bdec3-2b41-43b1-8bdd-bd9e0955d697",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "装货确认时间",
+              "GUID": "5c0060b1-6b4f-4fbc-8390-0e632d1549c8"
+            },
+            "ColumnName": "装货确认时间"
+          },
+          {
+            "GUID": "10f8f228-86c0-4dfd-9a2a-f415ee611e54",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "开始运输时间",
+              "GUID": "51c7849e-ca2a-49f5-8408-d4e74aeb4f68"
+            },
+            "ColumnName": "开始运输时间"
+          },
+          {
+            "GUID": "e7e12b4d-cb8c-4efc-88a7-4e29d41bb425",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "交货确认时间",
+              "GUID": "6a6ade82-898b-463e-a24b-c4945156eee1"
+            },
+            "ColumnName": "交货确认时间"
+          },
+          {
+            "GUID": "aff3d242-bad6-41bf-bc85-80f16de43a07",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "签收时间",
+              "GUID": "6b4f05f7-aee8-4c98-ad9e-e536f50644a7"
+            },
+            "ColumnName": "签收时间"
+          },
+          {
+            "GUID": "b6cf7520-178a-46d1-8e33-d9b2761ee710",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输状态",
+              "GUID": "eb5616bb-2588-40c0-a2c0-1803170ae64b"
+            },
+            "ColumnName": "运输状态"
+          },
+          {
+            "GUID": "74f68d6e-6b16-4c0f-bcd5-a48a4bbfc5ad",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "状态",
+              "GUID": "70c45be2-83db-4c47-9629-f7afeeee6df4"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "8b0e40f2-0db5-4faa-bff0-7378adebfe78",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输者",
+              "GUID": "feb2aa88-5f7b-4e22-bef9-0b32305bd3c0"
+            },
+            "ColumnName": "运输者"
+          },
+          {
+            "GUID": "455894d6-6add-4dcc-a6bb-b0fe3eeca510",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "a4ffe772-dad3-4e56-9fa4-e290890ab152"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "89a0b1c8-8f59-4495-8999-4ff3e90f4bd7",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "fe91f988-11c7-4e76-b1ef-f6e0765277d5"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "c9a0960e-25c3-4b2d-ae98-e7ed71a25e19",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "2cb9e25d-f2e5-403f-bffc-4ddfcc805eaf"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "b7a1d3f7-2be9-417f-9dfe-0c5539fd647d",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "e93471a3-dca4-42ad-8a6c-7a72a8904519"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "货物实时跟踪报表",
+            "ColumnName": "运输状态",
+            "GUID": "78db22d1-3189-48eb-83f8-29e89352b5fb"
+          },
+          "Value": "已结束"
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源6",
+      "GUID": "458285bd-d76e-4533-9282-cc4c5f117511",
+      "DataSourceSetting": {
+        "TableName": "货物实时跟踪报表",
+        "BindingInfos": [
+          {
+            "GUID": "207a887a-005c-49b9-af2b-17fd67636c9c",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "订单号",
+              "GUID": "f71d0ac9-b781-48a4-8c34-51b2d8f99361"
+            },
+            "ColumnName": "订单号"
+          },
+          {
+            "GUID": "08ebddae-c0f8-4aea-bce9-f3c1bc643641",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "车牌号",
+              "GUID": "5aac85f8-4b5d-4159-bae3-c682ebe543cf"
+            },
+            "ColumnName": "车牌号"
+          },
+          {
+            "GUID": "c3754398-2089-48ba-90f6-df660e410bc9",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "联系人",
+              "GUID": "96965666-b29b-4287-8167-085490d96871"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "583489fc-bb7a-45bb-a11e-c20e98a9c238",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "电话",
+              "GUID": "fe13603e-d270-4f4d-a417-078910672c90"
+            },
+            "ColumnName": "电话"
+          },
+          {
+            "GUID": "b660e221-2df8-4691-89a9-2d3d87cc3c8b",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "起始地",
+              "GUID": "db8d8e94-c932-4e89-8804-ea0933fffb00"
+            },
+            "ColumnName": "起始地"
+          },
+          {
+            "GUID": "3195f4e9-412f-44ca-baeb-75f0c7b8ce24",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "终点",
+              "GUID": "22eb34d4-1c76-4bf4-a697-a2524405d532"
+            },
+            "ColumnName": "终点"
+          },
+          {
+            "GUID": "4e3afc54-76c5-4c69-856f-5026046d4265",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "创建时间",
+              "GUID": "f638a132-08e5-4388-adf5-27fe892b059e"
+            },
+            "ColumnName": "创建时间"
+          },
+          {
+            "GUID": "c0e1d9a7-5e4e-468a-82fb-aaa8b0cc0184",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "派车时间",
+              "GUID": "38731b15-eae1-4119-8ea0-d331182b419e"
+            },
+            "ColumnName": "派车时间"
+          },
+          {
+            "GUID": "e9187a0b-0750-4a48-b483-51687e87eb53",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "装货确认时间",
+              "GUID": "41959944-355a-4770-888b-777d459bd1f8"
+            },
+            "ColumnName": "装货确认时间"
+          },
+          {
+            "GUID": "87e418d7-b97a-465a-8036-d094fba72b4d",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "开始运输时间",
+              "GUID": "c25631fb-fefa-4ad4-8fa5-5f8a0df72908"
+            },
+            "ColumnName": "开始运输时间"
+          },
+          {
+            "GUID": "2630bed7-586d-4c8b-841d-5d8876759c10",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "交货确认时间",
+              "GUID": "311dea11-830c-4ed9-9bbc-68b22268b6c7"
+            },
+            "ColumnName": "交货确认时间"
+          },
+          {
+            "GUID": "6bea8991-9f60-4788-94cf-da98c3d8cae9",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "签收时间",
+              "GUID": "57ae5f6a-39c3-4baf-afdd-4cfff65babe4"
+            },
+            "ColumnName": "签收时间"
+          },
+          {
+            "GUID": "48912245-078a-478c-a3a9-4586cacc10a0",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输状态",
+              "GUID": "36d8f0ec-6486-4efc-a61b-c265503ea016"
+            },
+            "ColumnName": "运输状态"
+          },
+          {
+            "GUID": "0e6f7d35-2ca9-4287-aca6-51bc06b820f3",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "状态",
+              "GUID": "147f3a4a-9932-4940-b07f-2e0e88c9c96e"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "73d9d7a8-b800-4a3a-bc3d-c495f81bfdc6",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "运输者",
+              "GUID": "1bff97c1-ae05-4f00-a185-ca201434e063"
+            },
+            "ColumnName": "运输者"
+          },
+          {
+            "GUID": "7a129e88-a3f7-418f-b6ea-3a9f6fe87fef",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "05308f18-15d0-453c-ae8f-79ed1ff35001"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "595382ca-0e57-438c-aa69-db395e4530a1",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "1e46a0e8-5d00-4aff-aa0e-23c526abdd46"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "32073b9f-1320-47f1-b04e-564438292c98",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "0fcafe16-af08-473a-b5b4-12c1ab86db5e"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "89ebb930-83f0-452f-a8e9-a54f5b422ec7",
+            "BindingInfo": {
+              "TableName": "货物实时跟踪报表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "7de7fad8-3967-43e2-86ca-ea39148f3e80"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "监控中心—TMS"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "监控中心—TMS",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 5
+}

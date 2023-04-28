@@ -1,0 +1,96 @@
+{
+  "Name": "来访客户分析表",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "d2e74348-4aae-43f1-a19a-7b67b74f1922",
+      "DataSourceSetting": {
+        "TableName": "表2",
+        "BindingInfos": [
+          {
+            "GUID": "9f1523c1-a741-4943-882e-b9b3b37bbbd3",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "ID",
+              "GUID": "ca8079c5-4f15-41dd-98e5-e0c3a0d59f40"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "0d0dc096-9d8e-4f84-af0c-5d7d515582ce",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "字段1",
+              "GUID": "42fe6fcb-c997-45a2-acbc-b39f59bdeb20"
+            },
+            "ColumnName": "字段1"
+          },
+          {
+            "GUID": "2a696a09-5b69-426e-9b35-866d97515728",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_Creator",
+              "GUID": "0242aa39-2a53-48a3-8dd8-4c94aac581d7"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "d00eef41-d105-49d2-a4e7-ca261e5729c1",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "c206e473-aefe-48fd-a205-80827dec1ade"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "36edf426-2985-485e-94fd-c95da02d54e2",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "e3178c15-0424-4b6e-bdb0-13383fcd1e70"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "c7a10991-79a3-4869-9835-f5197b2e518c",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "eb3e3bff-3c5d-41cf-a2a8-92b4a8692133"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "来访客户分析表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "来访客户分析表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 4
+}

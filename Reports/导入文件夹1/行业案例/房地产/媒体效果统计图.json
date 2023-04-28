@@ -1,0 +1,216 @@
+{
+  "Name": "媒体效果统计图",
+  "DataSources": [
+    {
+      "Name": "house_媒体效果统计图",
+      "GUID": "480993ff-c8c3-4996-958f-ead365b6818d",
+      "DataSourceSetting": {
+        "TableName": "house_媒体效果统计图",
+        "BindingInfos": [
+          {
+            "GUID": "5baed0e8-b21e-45ed-86fc-ec105d57a5d7",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "ID",
+              "GUID": "987efdd3-1173-4152-afda-8c7271bee652"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "c47ec1f8-f353-448f-ba7f-70927ea81858",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "媒体大类",
+              "GUID": "f42f485d-a7ed-4458-9761-28d129a5a3ae"
+            },
+            "ColumnName": "媒体大类"
+          },
+          {
+            "GUID": "61adc8e9-269c-44e7-aa35-031f722cf019",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "投放金额",
+              "GUID": "189c4667-b95a-494f-a1f8-356ba54d5d98"
+            },
+            "ColumnName": "投放金额"
+          },
+          {
+            "GUID": "6309312b-a9b5-4683-91df-c87d1e76c38d",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "新增来电",
+              "GUID": "f543c676-200e-4539-9f6e-4806a78a45ba"
+            },
+            "ColumnName": "新增来电"
+          },
+          {
+            "GUID": "c4b873fa-8a9a-4637-9b02-16f06174c18a",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "新增来访量",
+              "GUID": "a5a4e4d3-d1bd-4843-9f08-d73320a54d07"
+            },
+            "ColumnName": "新增来访量"
+          },
+          {
+            "GUID": "efbd5815-6b63-49d0-813f-1a352e23a4c0",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "新增电访量",
+              "GUID": "c3eae960-fb0a-4500-abad-e3e71df41bcc"
+            },
+            "ColumnName": "新增电访量"
+          },
+          {
+            "GUID": "cd49a847-dcf2-4011-a0a5-61c5bad50b51",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "意向程度_必买_",
+              "GUID": "bfa876e9-c426-431c-b0d6-8cc8058d168b"
+            },
+            "ColumnName": "意向程度_必买_"
+          },
+          {
+            "GUID": "33576f27-9005-464a-b158-21b49114c661",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "意向程度_高_",
+              "GUID": "a8f0fe98-c86e-4360-b20c-7fe20aa12466"
+            },
+            "ColumnName": "意向程度_高_"
+          },
+          {
+            "GUID": "3a5eff45-3b4e-4ad3-b6e6-6f66e20a8c4a",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "意向程度_一般_",
+              "GUID": "569b87be-5e6d-4d66-84d2-4fbb12d2fbbc"
+            },
+            "ColumnName": "意向程度_一般_"
+          },
+          {
+            "GUID": "c83b1599-aa9a-4ad1-b778-02cfe029e25a",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "意向程度_无_",
+              "GUID": "6b04f659-2e49-4a9c-9848-53598bb6fdd3"
+            },
+            "ColumnName": "意向程度_无_"
+          },
+          {
+            "GUID": "1b814a50-5344-4dc9-801f-f3d126b18e07",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "累计电访量_A_",
+              "GUID": "15cb5f6b-b532-4880-9429-1498d6f14a8c"
+            },
+            "ColumnName": "累计电访量_A_"
+          },
+          {
+            "GUID": "5e48e411-457e-4029-a528-a7f62baeb226",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "累计预约排号_B_",
+              "GUID": "aff31467-3e8e-48dd-8130-6bb899a746bd"
+            },
+            "ColumnName": "累计预约排号_B_"
+          },
+          {
+            "GUID": "a3d41937-ad07-4903-ac95-43211a5787cc",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "累计认购_D_",
+              "GUID": "1792ea7d-f0b8-4330-a478-0fee0ecf84c5"
+            },
+            "ColumnName": "累计认购_D_"
+          },
+          {
+            "GUID": "f2069254-ffd5-4d95-861c-8f26e36d0894",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "累计签约_E_",
+              "GUID": "ec8dfceb-8411-4681-b456-21e54ce10070"
+            },
+            "ColumnName": "累计签约_E_"
+          },
+          {
+            "GUID": "34a39caf-7524-4312-b60c-e0c76c103d88",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "FGC_Creator",
+              "GUID": "ceb09ee8-9b0d-4073-9daa-01978fbcf3dc"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "0a51053e-b82a-41bb-a8e1-c0cdaa718e27",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "a0fd9b13-5edc-4be5-a0b6-beb43377a3b2"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "527acd9a-81f5-4826-9a9b-7c876936b5e7",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "2f159b87-d44c-47eb-ba64-6b25239a12d6"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "27bd5591-f274-4fdd-b527-01dddd836d44",
+            "BindingInfo": {
+              "TableName": "house_媒体效果统计图",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "b0c9444f-e753-4b79-9180-1f1a90cfac70"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "媒体效果统计图"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "媒体效果统计图",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

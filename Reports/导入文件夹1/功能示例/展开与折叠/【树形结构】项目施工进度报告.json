@@ -1,0 +1,216 @@
+{
+  "Name": "【树形结构】项目施工进度报告",
+  "DataSources": [
+    {
+      "Name": "项目进度",
+      "GUID": "85701bd1-2c54-4d97-9885-f0a734c3504d",
+      "DataSourceSetting": {
+        "TableName": "项目进度",
+        "BindingInfos": [
+          {
+            "GUID": "a0f597cc-e34b-44bb-bc8c-8b1113cb58f3",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "项目编号",
+              "GUID": "2efdf2bc-782c-4076-b2ed-414b790eb7e6"
+            },
+            "ColumnName": "项目编号"
+          },
+          {
+            "GUID": "c021b15c-baed-4203-ae12-1e5f2c146db1",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "编号",
+              "GUID": "d3d85b2d-2774-446f-96a7-4d1ec25f3db7"
+            },
+            "ColumnName": "编号"
+          },
+          {
+            "GUID": "ee801b9a-2e5d-479c-9cd6-7195e8805985",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "上级编号",
+              "GUID": "74a03daf-d967-4520-9c17-36757eb01959"
+            },
+            "ColumnName": "上级编号"
+          },
+          {
+            "GUID": "b266f16b-47d1-46cf-9e03-535613edbe0e",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "项目名称",
+              "GUID": "07344df3-703b-42a9-ac36-a6aba1e8da00"
+            },
+            "ColumnName": "项目名称"
+          },
+          {
+            "GUID": "6b372d9f-99d5-40fd-8043-d9314558e4a4",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "项目代号",
+              "GUID": "ac252d62-4801-4c47-91fd-dc2f9c060414"
+            },
+            "ColumnName": "项目代号"
+          },
+          {
+            "GUID": "b675c047-f585-4c97-b619-bd4e29af7d7f",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "第一阶段开始日期",
+              "GUID": "8d2a3c05-8c0a-4122-96d3-4d960f4783ce"
+            },
+            "ColumnName": "第一阶段开始日期"
+          },
+          {
+            "GUID": "3cba9e3c-a302-48d3-bed0-f5f11d935320",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "第一阶段完成日期",
+              "GUID": "3edf6124-50e2-4d92-b6c0-bc3055b620b7"
+            },
+            "ColumnName": "第一阶段完成日期"
+          },
+          {
+            "GUID": "6157aedb-4bd9-4a69-8522-406907e15be4",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "第二阶段开始日期",
+              "GUID": "450ede14-5826-4515-9971-54ac79244162"
+            },
+            "ColumnName": "第二阶段开始日期"
+          },
+          {
+            "GUID": "96f12b08-9b1c-45e8-b883-3dd48b260ea1",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "第二阶段完成日期",
+              "GUID": "96140b53-4e7b-4099-ac41-d36708fefeea"
+            },
+            "ColumnName": "第二阶段完成日期"
+          },
+          {
+            "GUID": "cf879a18-6f89-403e-85b8-1360936bd59e",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "计划完成进度",
+              "GUID": "bf88046c-42eb-4d7b-8b65-8fb7ce137356"
+            },
+            "ColumnName": "计划完成进度"
+          },
+          {
+            "GUID": "5243bacf-bf0b-4a58-a479-a0c244c20203",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "第三阶段开始日期",
+              "GUID": "3af1fbe1-c399-44b7-8e5f-2fc690e0b00e"
+            },
+            "ColumnName": "第三阶段开始日期"
+          },
+          {
+            "GUID": "7a5c5798-9ea1-4adc-90d5-9dae6719c733",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "第三阶段完成日期",
+              "GUID": "e3f69fd5-9f8c-40bc-b20f-287eda28db6f"
+            },
+            "ColumnName": "第三阶段完成日期"
+          },
+          {
+            "GUID": "7b447315-e6ca-4b20-a471-8d4687c9fc98",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "上级项目完成情况",
+              "GUID": "61700df6-2f98-4ee2-9425-d017cc286137"
+            },
+            "ColumnName": "上级项目完成情况"
+          },
+          {
+            "GUID": "c5f188c7-fe1a-46b4-91f8-1df7af7c49e4",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "实际完成进度",
+              "GUID": "22d121d7-c076-4bec-b7c9-da5bfd17b42e"
+            },
+            "ColumnName": "实际完成进度"
+          },
+          {
+            "GUID": "639ef2c7-5bb9-4993-8eea-dbade2786841",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "FGC_Creator",
+              "GUID": "04917b44-f288-48e5-8aee-629f72e6afde"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "c85d2b87-ce5b-4088-a717-21496604de33",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "554890e0-2ce7-4aad-a905-95f97b7a872d"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "0162b64b-31c3-425c-8f21-9b679f9b86f1",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "edaf5146-6671-46ca-a724-659ce940bd2e"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "855065df-a965-42d6-86c9-dbca81735971",
+            "BindingInfo": {
+              "TableName": "项目进度",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "a6ccdde7-0aa7-4e51-a39b-59e4c23920af"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【树形结构】项目施工进度报告"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【树形结构】项目施工进度报告",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}

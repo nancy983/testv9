@@ -1,0 +1,96 @@
+{
+  "Name": "销售日报表",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "39cc1938-db6a-4ce0-a01f-5a245d6ef4ee",
+      "DataSourceSetting": {
+        "TableName": "表2",
+        "BindingInfos": [
+          {
+            "GUID": "03999e32-248f-4877-906c-8e92308bcfdc",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "ID",
+              "GUID": "d7cf90e5-39a2-4cd1-a5d4-e9b4e79a8e13"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "07a01449-120c-499f-bf86-9a7caf72c504",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "字段1",
+              "GUID": "70300708-0a51-4156-9d3b-a0f4c5cf21a6"
+            },
+            "ColumnName": "字段1"
+          },
+          {
+            "GUID": "6a097de9-2730-4a71-b787-3a13c0a07770",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_Creator",
+              "GUID": "d59e0639-7ef3-46f3-ae46-b6ec44e8a214"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "e27eb306-6f03-41a7-a991-a046c28972f5",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "da0bfc4d-e403-4cf8-bfd8-911faf84b0b5"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "4e691f20-c8eb-4c95-b251-ee818b5347ea",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "d80004f9-4abe-4c78-9cc5-5bf0c0649efc"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "00632737-6528-4c88-8b8e-ee986088883a",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "98748aa7-172c-42de-b2d2-726312252c37"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "销售日报表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "销售日报表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 6
+}

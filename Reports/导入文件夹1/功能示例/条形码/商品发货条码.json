@@ -1,0 +1,86 @@
+{
+  "Name": "商品发货条码",
+  "DataSources": [
+    {
+      "Name": "销售明细",
+      "GUID": "c31f9f82-1d58-4e02-85a1-9cc963126a30",
+      "DataSourceSetting": {
+        "TableName": "销售明细",
+        "BindingInfos": [
+          {
+            "GUID": "47e00799-a40a-44c5-aeea-17672912b12f",
+            "BindingInfo": {
+              "TableName": "销售明细",
+              "ColumnName": "订单编号",
+              "GUID": "4abe4901-8211-421e-86d9-66eb159ebded"
+            },
+            "ColumnName": "订单编号"
+          },
+          {
+            "GUID": "e02fa5bb-ddc0-448d-98a1-b0059208186f",
+            "BindingInfo": {
+              "TableName": "销售明细",
+              "ColumnName": "客户姓名",
+              "GUID": "47850324-fb5b-41cc-ab93-c162f32c19c9"
+            },
+            "ColumnName": "客户姓名"
+          },
+          {
+            "GUID": "5855a091-3e5d-4859-bb29-919a0f429eb0",
+            "BindingInfo": {
+              "TableName": "销售明细",
+              "ColumnName": "客户电话",
+              "GUID": "f1e6f7c9-278f-4183-af1c-713681cdcc5e"
+            },
+            "ColumnName": "客户电话"
+          },
+          {
+            "GUID": "1dc2ed91-f3f9-4b80-b9ad-2f6d30c3fbb1",
+            "BindingInfo": {
+              "TableName": "销售明细",
+              "ColumnName": "购买数量总和",
+              "GUID": "6f55a1ab-a3aa-49e6-a4c7-0bf85387a8bc"
+            },
+            "ColumnName": "购买数量总和"
+          },
+          {
+            "GUID": "54ae27c0-269a-4aa0-8df1-0c3daa26ed0c",
+            "BindingInfo": {
+              "TableName": "销售明细",
+              "ColumnName": "订购日期",
+              "GUID": "11f7f178-50b4-4519-a8f0-f125e34ff472"
+            },
+            "ColumnName": "订购日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "商品发货条码"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "商品发货条码",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

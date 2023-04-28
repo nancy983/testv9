@@ -1,0 +1,237 @@
+{
+  "Name": "钣金制造设备效率 OEE - OEE 分解",
+  "DataSources": [
+    {
+      "Name": "manufacture_04",
+      "GUID": "e156f3c6-3ed1-497e-8868-36c0ab7d7402",
+      "DataSourceSetting": {
+        "TableName": "manufacture_04",
+        "BindingInfos": [
+          {
+            "GUID": "5da8e2cd-ecbe-4a59-afbc-afdeb5799a2f",
+            "BindingInfo": {
+              "TableName": "manufacture_04",
+              "ColumnName": "故障零件",
+              "GUID": "0223ef51-b856-4e38-8973-2f0ba3b763dd"
+            },
+            "ColumnName": "故障零件"
+          },
+          {
+            "GUID": "fe24c566-8284-4656-a66b-43eef4941ff2",
+            "BindingInfo": {
+              "TableName": "manufacture_04",
+              "ColumnName": "故障率",
+              "GUID": "27f21d7a-bdbb-416f-bf6a-6aa3e8a14070"
+            },
+            "ColumnName": "故障率"
+          },
+          {
+            "GUID": "082c4cda-e8da-4524-a0c8-b208696ea87f",
+            "BindingInfo": {
+              "TableName": "manufacture_04",
+              "ColumnName": "时间",
+              "GUID": "2b1e46c6-0217-4426-a3b1-a88e4a7b3a97"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "fe7ca04d-5c8b-49c9-a867-3c51490b62bd",
+            "BindingInfo": {
+              "TableName": "manufacture_04",
+              "ColumnName": "FGC_Creator",
+              "GUID": "31aba2a7-5653-4ca5-a252-1a02d13ed29b"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "61377512-bad1-4eae-9e88-509ba3a05b57",
+            "BindingInfo": {
+              "TableName": "manufacture_04",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "b1df88e5-1a0c-4965-9d3c-9e51fcbf4f39"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "98a5d2e6-aef7-4716-8cb2-216bbb9137be",
+            "BindingInfo": {
+              "TableName": "manufacture_04",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "2d44dcb1-2422-4f76-b17f-4c4d2fd50b03"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "866fef5f-dc27-440c-8a76-a53755891905",
+            "BindingInfo": {
+              "TableName": "manufacture_04",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "75b605e1-266c-4a7a-8c29-724171f7423b"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "manufacture_03",
+      "GUID": "10950d2e-2697-46c2-a8aa-63b9a46ee836",
+      "DataSourceSetting": {
+        "TableName": "manufacture_03",
+        "BindingInfos": [
+          {
+            "GUID": "faea9bfa-6af2-4b49-8d6a-48d3e3abcbad",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "故障机器",
+              "GUID": "3a57375d-9c4c-4dfc-b00c-5920334b6714"
+            },
+            "ColumnName": "故障机器"
+          },
+          {
+            "GUID": "34dacd87-ba99-4ed1-84cc-f85d3299e765",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "故障率",
+              "GUID": "bfb4428e-c8ab-49d7-a4da-e0ffecadc8f4"
+            },
+            "ColumnName": "故障率"
+          },
+          {
+            "GUID": "6546ad47-c176-4ceb-a698-cfd6b35655ba",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "时间",
+              "GUID": "315f7bfd-1a52-4572-9e91-e0d235e43a47"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "1939e5cf-9bb2-4584-878a-bee9bd9e5dad",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "故障零件数",
+              "GUID": "07f8875f-7496-4d40-a199-5fdddebd6f6e"
+            },
+            "ColumnName": "故障零件数"
+          },
+          {
+            "GUID": "284e8e52-9c45-4915-a63a-965a86eac151",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "全局设备效率",
+              "GUID": "fe2cfd0b-ef4e-4b93-951d-8e5af187f2bb"
+            },
+            "ColumnName": "全局设备效率"
+          },
+          {
+            "GUID": "4f404b57-8bec-422e-8b0a-741f21b23683",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "机器类别",
+              "GUID": "82fd1e30-58e1-4721-9e38-21433fe0f493"
+            },
+            "ColumnName": "机器类别"
+          },
+          {
+            "GUID": "0f297365-8ee7-4fac-8796-b3708bd348d6",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "维修费用",
+              "GUID": "e741a6f2-36f4-4ce7-8646-f85146964628"
+            },
+            "ColumnName": "维修费用"
+          },
+          {
+            "GUID": "aa0c6f36-d1b4-4c82-918a-8c21663c5862",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "厂商",
+              "GUID": "1e2c1794-c51e-453b-9c13-cd8568c55b3f"
+            },
+            "ColumnName": "厂商"
+          },
+          {
+            "GUID": "eefbc962-9845-4e71-9b0a-68143975042a",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_Creator",
+              "GUID": "750e0d6d-1239-47c5-b9e3-9f8f7531ead3"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "54eaefb6-99e9-4300-84d9-41727e8e8388",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "fe9631ae-9537-4426-9e4e-c25da0fdccc6"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "f5b8ef10-99c5-4df0-a0b1-d21ef125fd33",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "e9098d90-9026-4b61-a726-136844faf5d7"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "4c2057fa-697c-47d5-949d-5cc6ed28e732",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "05dfcf12-36c8-44c2-85c7-aa2f94f40288"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "钣金制造设备效率 OEE - OEE 分解"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "钣金制造设备效率 OEE - OEE 分解",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 6
+}

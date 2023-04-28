@@ -1,0 +1,227 @@
+{
+  "Name": "用户自定报表列",
+  "DataSources": [
+    {
+      "Name": "订单",
+      "GUID": "3795158c-0c47-4bee-ab3f-260d746eff53",
+      "DataSourceSetting": {
+        "TableName": "订单",
+        "BindingInfos": [
+          {
+            "GUID": "75804738-2d6b-4eac-8fe4-a0b80cc4f7cc",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订单ID",
+              "GUID": "813e905a-2ee7-4045-ab93-9b0d83f4b40b"
+            },
+            "ColumnName": "订单ID"
+          },
+          {
+            "GUID": "e7198ea3-d830-4187-82f1-b56afe7001a8",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "客户ID",
+              "GUID": "fad7e4be-53ff-46f4-b6f4-a75e2f5bc4ce"
+            },
+            "ColumnName": "客户ID"
+          },
+          {
+            "GUID": "170e9033-684c-497a-8565-5e6ab9f9fc30",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "雇员ID",
+              "GUID": "870034a4-f681-4426-a9d5-77d1fae9ab02"
+            },
+            "ColumnName": "雇员ID"
+          },
+          {
+            "GUID": "55a5b9bc-7081-4bbf-a056-4397dc32bf2d",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订购日期",
+              "GUID": "54781e0d-9023-4b0b-9ca0-342d00a22cec"
+            },
+            "ColumnName": "订购日期"
+          },
+          {
+            "GUID": "7481db05-0a1e-470c-9982-c5976ce56780",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "到货日期",
+              "GUID": "6433688b-6d8f-4006-b0da-5bd9747cc12a"
+            },
+            "ColumnName": "到货日期"
+          },
+          {
+            "GUID": "101504ee-ccdd-4928-8ea0-4a9e6ed6cb21",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "发货日期",
+              "GUID": "c1ac84d8-6e24-4e99-98ce-7b1a4aed0bf8"
+            },
+            "ColumnName": "发货日期"
+          },
+          {
+            "GUID": "d659f02b-9ee7-4606-ac03-d612be9aa748",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "运货商",
+              "GUID": "5f9caabc-4d86-41aa-ba88-6b2aa09ccc37"
+            },
+            "ColumnName": "运货商"
+          },
+          {
+            "GUID": "631198a4-924a-4f1e-9a6f-003b2df6e807",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "运货费",
+              "GUID": "9351bd71-9282-475f-a401-60ad84f36c74"
+            },
+            "ColumnName": "运货费"
+          },
+          {
+            "GUID": "f7bdc014-3e89-4299-b8b4-9e8f67abf84d",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "货主名称",
+              "GUID": "aa70acd8-59b6-42d1-8a8b-d23f9ed75be8"
+            },
+            "ColumnName": "货主名称"
+          },
+          {
+            "GUID": "ad0896d2-c783-4fcc-a163-ef07d58ac8ee",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "货主地址",
+              "GUID": "93689b76-0d1b-46bd-9d67-9b758bf5f869"
+            },
+            "ColumnName": "货主地址"
+          },
+          {
+            "GUID": "e8d69a40-56be-426b-97fb-e7d10418ca61",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "货主城市",
+              "GUID": "ed36eab8-6616-4223-9b0e-aa6b7bc279ef"
+            },
+            "ColumnName": "货主城市"
+          },
+          {
+            "GUID": "a93e9fcd-6c73-4091-a5a9-ac71ab4f3089",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "货主地区",
+              "GUID": "b7fa5baa-05e6-465a-8cc3-3648d62ae3d9"
+            },
+            "ColumnName": "货主地区"
+          },
+          {
+            "GUID": "72957962-5a53-4887-873b-2ed9507bdb18",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "货主邮政编码",
+              "GUID": "45f665dc-9e37-4c68-b62c-95cf25d458bd"
+            },
+            "ColumnName": "货主邮政编码"
+          },
+          {
+            "GUID": "67ed5aa7-1e25-4bbb-b899-dff23166de98",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "货主国家",
+              "GUID": "ed0937c2-b7e5-433f-a2e2-c96a5c48c782"
+            },
+            "ColumnName": "货主国家"
+          },
+          {
+            "GUID": "665ef3d9-2467-4028-88a6-ce095b28baf3",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "FGC_Creator",
+              "GUID": "42c19e2d-db36-4212-9241-dfa359749730"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "fedf924b-7727-4832-97cb-1323b74f460f",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "5e758ed5-fc74-4632-8153-6803fcc6a4e3"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "d7551bf5-619e-4607-bf69-f8560c801ac8",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "e6b2a2a3-e677-423d-8c08-01b083e8dc32"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "c055bca8-d3bb-49fe-b6eb-7a4993d3bf2e",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "7d44c207-7f88-4b7b-9b4a-96069faf1a1f"
+            },
+            "ColumnName": "最后更新日期"
+          },
+          {
+            "GUID": "e6bab807-ad87-47f2-86ed-1d9845e1db3e",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "月份",
+              "GUID": "78a7da76-54bc-4093-924d-816667c787a1"
+            },
+            "ColumnName": "月份"
+          }
+        ],
+        "TopCount": "30"
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "用户自定报表列"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "用户自定报表列",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

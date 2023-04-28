@@ -1,0 +1,221 @@
+{
+  "Name": "图表混排",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "4911a5cb-1c53-4d70-a7c1-5957673892e2",
+      "DataSourceSetting": {
+        "TableName": "订单",
+        "BindingInfos": [
+          {
+            "GUID": "cd521418-a199-4b36-928e-a3fa68aabbe6",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订单ID",
+              "GUID": "32cfd6fd-5a4f-432c-9613-6a8de61056a6"
+            },
+            "ColumnName": "订单ID"
+          },
+          {
+            "GUID": "72761340-3bcd-4e42-8280-17f8f7ee0d43",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "客户ID",
+              "GUID": "02f5db40-8834-43cd-abbc-f7ed2a613ec0"
+            },
+            "ColumnName": "客户ID"
+          },
+          {
+            "GUID": "7982a316-eccb-4b9a-8fff-11a55ebf5da2",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订购日期",
+              "GUID": "7203ee34-ecb8-4da5-8184-07b8b8e5fa68"
+            },
+            "ColumnName": "订购日期"
+          },
+          {
+            "GUID": "aaca0200-f168-43c1-ad39-841e95f984c8",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "货主地区",
+              "GUID": "1fbb4613-c0e9-4b5b-b23e-037832f7d2c1"
+            },
+            "ColumnName": "货主地区"
+          },
+          {
+            "GUID": "e098c60f-756a-488a-9b38-f752408759c1",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订单ID",
+              "GUID": "913b602d-467c-4f8d-be04-34fc6b87b30c",
+              "RelationBinding": {
+                "RelatedTable": "订单明细",
+                "RelatedColumn": "订单ID",
+                "DisplayColumn": "产品ID",
+                "NextRelationBinding": {
+                  "RelatedTable": "产品",
+                  "RelatedColumn": "产品ID",
+                  "DisplayColumn": "产品名称"
+                }
+              }
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "32c41522-2d4c-4021-a5be-66e78e0e45ff",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订单ID",
+              "GUID": "3c4a8933-6fb3-461a-be0a-c06d282b2d0e",
+              "RelationBinding": {
+                "RelatedTable": "订单明细",
+                "RelatedColumn": "订单ID",
+                "DisplayColumn": "单价"
+              }
+            },
+            "ColumnName": "单价"
+          },
+          {
+            "GUID": "f82750b6-72e9-4e0c-887b-141e1d31275b",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订单ID",
+              "GUID": "f0453810-a261-4cbd-9619-2629cfeade96",
+              "RelationBinding": {
+                "RelatedTable": "订单明细",
+                "RelatedColumn": "订单ID",
+                "DisplayColumn": "数量"
+              }
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "cf297bf0-747f-4e84-9ed0-e316fcaeda48",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订单ID",
+              "GUID": "8e4e3967-50ce-471e-b364-c1045c3904fc",
+              "RelationBinding": {
+                "RelatedTable": "订单明细",
+                "RelatedColumn": "订单ID",
+                "DisplayColumn": "折扣"
+              }
+            },
+            "ColumnName": "折扣"
+          },
+          {
+            "GUID": "87027273-2acd-45b4-b779-c612bdfe4d9c",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "雇员ID",
+              "GUID": "5794c5cd-71d2-463e-a612-731d16b75f9a",
+              "RelationBinding": {
+                "RelatedTable": "雇员",
+                "RelatedColumn": "雇员ID",
+                "DisplayColumn": "姓氏"
+              }
+            },
+            "ColumnName": "姓氏"
+          },
+          {
+            "GUID": "ce56ceed-cb2b-4ffd-a361-6f4840de5a28",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "雇员ID",
+              "GUID": "617a810b-1036-4673-af03-45208ed7cd32",
+              "RelationBinding": {
+                "RelatedTable": "雇员",
+                "RelatedColumn": "雇员ID",
+                "DisplayColumn": "名字"
+              }
+            },
+            "ColumnName": "名字"
+          },
+          {
+            "GUID": "30d7531b-62e1-4c04-a2f2-a70527ce4159",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "雇员ID",
+              "GUID": "0c855b22-769b-442a-9cc5-61da639b43cf",
+              "RelationBinding": {
+                "RelatedTable": "雇员",
+                "RelatedColumn": "雇员ID",
+                "DisplayColumn": "职务"
+              }
+            },
+            "ColumnName": "职务"
+          },
+          {
+            "GUID": "4477493f-ad35-4565-83a1-853c8d98d0ce",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "雇员ID",
+              "GUID": "80679f07-e5e5-4029-a473-90296f6084bd"
+            },
+            "ColumnName": "雇员ID"
+          },
+          {
+            "GUID": "66f31fa0-c0e6-4731-8cce-879961567e28",
+            "BindingInfo": {
+              "TableName": "订单",
+              "ColumnName": "订单ID",
+              "GUID": "c8b39f04-d10f-42e8-bb72-4e44e413a963",
+              "RelationBinding": {
+                "RelatedTable": "订单明细",
+                "RelatedColumn": "订单ID",
+                "DisplayColumn": "产品ID",
+                "NextRelationBinding": {
+                  "RelatedTable": "产品",
+                  "RelatedColumn": "产品ID",
+                  "DisplayColumn": "类别ID",
+                  "NextRelationBinding": {
+                    "RelatedTable": "类别",
+                    "RelatedColumn": "类别ID",
+                    "DisplayColumn": "类别名称"
+                  }
+                }
+              }
+            },
+            "ColumnName": "类别名称"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "图表混排"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "图表混排",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}

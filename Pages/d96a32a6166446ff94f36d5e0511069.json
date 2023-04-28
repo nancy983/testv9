@@ -1,0 +1,204 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 5.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      }
+    },
+    "Count": 13
+  },
+  "Values": {
+    "5,1": "备注："
+  },
+  "AttachInfos": {
+    "1,1": {
+      "TemplateCellSource": "名称"
+    },
+    "1,6": {
+      "TemplateCellSource": "创建时间"
+    },
+    "3,1": {
+      "TemplateCellSource": "审批人"
+    },
+    "3,6": {
+      "TemplateCellSource": "操作"
+    },
+    "5,1": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=LEN(d96a32a6166446ff94f36d5e0511069!D6)=0"
+            },
+            "StyleInfo": {
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsInvisible": true
+          }
+        ]
+      }
+    },
+    "5,3": {
+      "TemplateCellSource": "备注"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 12.0,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 9,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Accent 1 0",
+        "Body",
+        "Background 1 -35",
+        "yyyy/MM/dd hh:mm:ss",
+        "Left",
+        "Text 1 25",
+        "Accent 2 0",
+        "Right",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,6": 1,
+      "3,1": 2,
+      "3,6": 3,
+      "4,1": 4,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,5": 4,
+      "4,6": 4,
+      "4,7": 4,
+      "4,8": 4,
+      "4,9": 4,
+      "4,10": 4,
+      "4,11": 4,
+      "5,1": 5,
+      "5,3": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,5",
+    "1,6,1,6",
+    "3,1,1,5",
+    "3,6,1,6",
+    "5,1,1,2",
+    "5,3,1,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "FGC_审批记录"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//cIp9jzzXdNhtyrCRV4ejPIIIO1Gued5IOTFJXO+Vwe6ET1oNUEu87lUp5vJ0cRN8zCwvyzap61OFCR6aThguAxPkwcie/OUPT7tJ4N+M7TAfvnc2Wt7sytlN1eiLe9DVGZd8pYrj8xxy6LZY4r8AuQEp3JHs3trdP9GR2xGNP5gG6BEUs9AnBWSt3AkeJE3T9RJ/ulW6xwr2nqFBsFYqugOVLWiyrIobssI8k/tyqQjRRT6M/84GBm0OgD0+x0QiM55hewmnlX0gPm5r5E7voQEXgZEAY2wpM33PfvfYc6ASsQdydj0WFniKhBfd+1hAiQB5aXvwaD/eMUkGMNLyXAda1X1o+pkxBr3h9npWCoWClqTSjYGUAVX0f/1nZcSx92WNYxGI7PnTsurLE0udYkbWzOO8bB5q3UQ64bRGfk/QHNgfyxtksZgwXb3aBdxQNc2lahMd1O0n2yYeBZgBYIQalY3JmzX6NnKapzivnC9IJzHS89MkadoFqlBYY+7EfZVv8dvM/ciI9m7FkEexnm0sgaGMXXW+VAGJ4VDZEa4Km1kB+1oJ9354cKcB89tsa0Pc4Hx3+FtkYaUatvT4diGqPFiwlhwZKvP2a4hoxmuc+gr3NOD6gQNTPxJF/VjtmYRyqiTET+gccz9j32aXhwyS606eyepvt9FUBqs6FjLpFQpwFZ+mddBorzMF5ZfYCIrwgwH+gSK7o65vUwgY6b1npND/NiAf1Td7xgehvslqRtvb72tTGYH535l2N3fVMgsCTOadyzhknQrQ3zXzTXciqliSJqF0//IAexOIALgvOdpVYCIoVX3Mvl4R7zmFOfwMp8E/0j8MC+yXD9r0DeoL5PM1zCZPAerEHZrH/NcOjUooFPM3lbB9tNvrCgNIC6RyKDU9C/fVmNYNBAUU1A==|920

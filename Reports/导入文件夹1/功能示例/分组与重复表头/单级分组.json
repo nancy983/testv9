@@ -1,0 +1,206 @@
+{
+  "Name": "单级分组",
+  "DataSources": [
+    {
+      "Name": "单级分组",
+      "GUID": "3fd2af8d-ca80-49c4-9d5d-da9792bb8d65",
+      "DataSourceSetting": {
+        "TableName": "单级分组",
+        "BindingInfos": [
+          {
+            "GUID": "52b450ec-ea3b-41ec-ae92-8cdf0e0276c7",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "产品ID",
+              "GUID": "d3f0b42f-6921-4432-afb4-a53e2fb2d46e"
+            },
+            "ColumnName": "产品ID"
+          },
+          {
+            "GUID": "0708ee07-a687-4be2-9374-22e9105ba36b",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "产品名称",
+              "GUID": "ff34f903-7eb0-4b34-b5c1-aa776a5e760e"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "d66d8298-f857-45e2-9591-ed283fab8c7e",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "供应商ID",
+              "GUID": "747bdd55-fc5b-4e67-9d51-91898f276441"
+            },
+            "ColumnName": "供应商ID"
+          },
+          {
+            "GUID": "1dc451e0-252f-4fd6-982f-98652ba0a4d0",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "类别ID",
+              "GUID": "b0de7f20-ca61-4992-a36e-070212850d40"
+            },
+            "ColumnName": "类别ID"
+          },
+          {
+            "GUID": "34aa7b25-ea8a-4a97-94b4-8be207563462",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "单位数量",
+              "GUID": "70c286c5-3aa6-404b-98e3-b7bbfe6c0da5"
+            },
+            "ColumnName": "单位数量"
+          },
+          {
+            "GUID": "110fd3aa-66ba-45de-b79c-600c64a0c5d4",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "单价",
+              "GUID": "16b6da8a-fac0-4eea-bd51-b5cd32cd799a"
+            },
+            "ColumnName": "单价"
+          },
+          {
+            "GUID": "afdbd94f-d0c1-45e4-9bd8-b33ea2020f28",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "库存量",
+              "GUID": "1b8ac982-4a4b-4eaf-9654-711a603ac278"
+            },
+            "ColumnName": "库存量"
+          },
+          {
+            "GUID": "54c705d5-e431-4346-9ae0-df6ca7a7f256",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "订购量",
+              "GUID": "162031c9-beda-4344-9346-fbc998831c07"
+            },
+            "ColumnName": "订购量"
+          },
+          {
+            "GUID": "4dcd3e10-bdd1-45d5-9ec6-acbcedcfe045",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "再订购量",
+              "GUID": "ae9a53c9-4ffc-4807-86b1-5f1518f7a2e6"
+            },
+            "ColumnName": "再订购量"
+          },
+          {
+            "GUID": "ffe763ee-2302-4c31-a90f-387835fb1ec0",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "中止",
+              "GUID": "c8987ae5-8774-4525-92e5-93cbaee26c39"
+            },
+            "ColumnName": "中止"
+          },
+          {
+            "GUID": "c9671127-1c1f-4a20-9df1-20dc02198447",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "产品描述",
+              "GUID": "9db9f3e0-9e2d-41f2-824d-7f979dec6c3c"
+            },
+            "ColumnName": "产品描述"
+          },
+          {
+            "GUID": "aba540e4-6b79-4031-bea1-678df51151bb",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "类别名称",
+              "GUID": "363e1499-4a49-453b-8280-22daf49ac9d6"
+            },
+            "ColumnName": "类别名称"
+          },
+          {
+            "GUID": "e64f30e4-ec29-4c7f-bd4c-b7373306c657",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "类别说明",
+              "GUID": "260a38c0-4be3-4e00-bf43-2c9803cf9eee"
+            },
+            "ColumnName": "类别说明"
+          },
+          {
+            "GUID": "604c9bc2-f1b3-4c07-aae2-24a65253c628",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "供应商",
+              "GUID": "557fb219-fd61-4528-b122-0abbc26edc3e"
+            },
+            "ColumnName": "供应商"
+          },
+          {
+            "GUID": "908d0230-3424-441e-8345-612c297977f7",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "联系人姓名",
+              "GUID": "60b56969-ebaa-4231-a884-bea88cb05f49"
+            },
+            "ColumnName": "联系人姓名"
+          },
+          {
+            "GUID": "877d251b-207e-4f0f-89d8-6f5feced741c",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "城市",
+              "GUID": "383bced6-1c0a-47a5-984a-992fe0ebda36"
+            },
+            "ColumnName": "城市"
+          },
+          {
+            "GUID": "7c361c10-8b95-419c-b593-57f569de0acc",
+            "BindingInfo": {
+              "TableName": "单级分组",
+              "ColumnName": "地址",
+              "GUID": "7c316695-4d4c-41de-beea-62280be32f62"
+            },
+            "ColumnName": "地址"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "单级分组"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "单级分组",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}

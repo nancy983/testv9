@@ -1,0 +1,176 @@
+{
+  "Name": "统计分析散点图",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "38a34486-5ba1-4ebe-86cd-9f99feb67554",
+      "DataSourceSetting": {
+        "TableName": "diamonds",
+        "BindingInfos": [
+          {
+            "GUID": "30c775b4-e29a-4f97-b987-16d0e9f285f7",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "ID",
+              "GUID": "dcf83223-e3a7-4f57-9474-b2bbcc99780d"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "408ee5f2-5d3e-496a-80dd-214e430c157b",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "carat",
+              "GUID": "a26d8a82-2bba-48a9-8848-bd6a166f3c62"
+            },
+            "ColumnName": "carat"
+          },
+          {
+            "GUID": "b5ce1c9f-bc47-4b47-a533-0ef8e5768a77",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "logcarat",
+              "GUID": "19d88742-8ad4-41c1-8c74-b0fbfceb201a"
+            },
+            "ColumnName": "logcarat"
+          },
+          {
+            "GUID": "29dbf14a-ce8f-4db0-a3df-84e257191520",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "cut",
+              "GUID": "d3e8ddac-41be-4ac8-9874-587dd9ff8869"
+            },
+            "ColumnName": "cut"
+          },
+          {
+            "GUID": "308a76d9-067f-42f8-9cb9-6ea9d91131cf",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "color",
+              "GUID": "ca3f4a5c-182f-4897-ba55-b58ae19095a2"
+            },
+            "ColumnName": "color"
+          },
+          {
+            "GUID": "08e8457e-8eb4-4de0-986b-486413135942",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "clarity",
+              "GUID": "f3fc6e8e-9bea-4b86-b838-27a2e71832c4"
+            },
+            "ColumnName": "clarity"
+          },
+          {
+            "GUID": "ec66f395-b4c3-454d-81d1-4c2656cde19f",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "depth",
+              "GUID": "b56e1c3e-32b8-4541-ab6f-3959bf9fa6ec"
+            },
+            "ColumnName": "depth"
+          },
+          {
+            "GUID": "313f924e-6227-450c-b5a0-ef828214dfb1",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "table",
+              "GUID": "24f19b01-0800-4e56-bba3-c204f224cc3d"
+            },
+            "ColumnName": "table"
+          },
+          {
+            "GUID": "4e576bc2-6f55-437a-85d3-99da4b88449c",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "price",
+              "GUID": "8354e732-fff9-4bf0-9b71-3ec657540bab"
+            },
+            "ColumnName": "price"
+          },
+          {
+            "GUID": "af5e1589-7355-4227-81cf-40ce4bc41502",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "logprice",
+              "GUID": "5ab6b1f8-a659-4407-bf4e-9185d74f589f"
+            },
+            "ColumnName": "logprice"
+          },
+          {
+            "GUID": "ab562e4c-fd12-4f37-a7be-cc85518b6f45",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "x",
+              "GUID": "1a58f5a5-f438-4b4f-96af-f8055e3755d6"
+            },
+            "ColumnName": "x"
+          },
+          {
+            "GUID": "d4e298c0-c329-4a8e-b5fe-f05537355772",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "y",
+              "GUID": "377e8cc7-0407-46e8-b300-67d9d013dce0"
+            },
+            "ColumnName": "y"
+          },
+          {
+            "GUID": "81967acc-2f14-411b-b283-65e37d237d97",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "z",
+              "GUID": "1cefdf16-b21e-4970-b7ac-bf2d69936413"
+            },
+            "ColumnName": "z"
+          },
+          {
+            "GUID": "b9d514d6-093f-4985-9dd2-42cf821a05bc",
+            "BindingInfo": {
+              "TableName": "diamonds",
+              "ColumnName": "volume",
+              "GUID": "8e2e64df-db0f-4421-8991-38c0ff9698af"
+            },
+            "ColumnName": "volume"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "number"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "统计分析散点图"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "统计分析散点图",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 5
+}

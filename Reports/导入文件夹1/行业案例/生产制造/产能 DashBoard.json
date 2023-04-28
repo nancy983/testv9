@@ -1,0 +1,309 @@
+{
+  "Name": "产能 DashBoard",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "627bbeb1-42fd-44c4-a492-022a3a04e60f",
+      "DataSourceSetting": {
+        "TableName": "hm_产能dashboard",
+        "BindingInfos": [
+          {
+            "GUID": "37b320d2-c7c8-4dc0-ad02-9fd20b10369c",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "日期",
+              "GUID": "fb4cdf76-f422-41d2-b339-f1b789adaba5"
+            },
+            "ColumnName": "日期"
+          },
+          {
+            "GUID": "ab18b2a5-ab82-4559-80e0-3fcc90da408d",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "月份",
+              "GUID": "ce670811-d186-4a45-bd47-b3d85168ec01"
+            },
+            "ColumnName": "月份"
+          },
+          {
+            "GUID": "a2f00fa1-5bee-4f73-a130-5fe70ab9618d",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "区域",
+              "GUID": "5e5a4d67-3623-4627-8638-8ee02260a149"
+            },
+            "ColumnName": "区域"
+          },
+          {
+            "GUID": "9d85b411-cb8a-45f3-b635-19ae1f16fa35",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "计划生产量",
+              "GUID": "b6ef0a4f-19be-47c0-a142-e87c812ff767"
+            },
+            "ColumnName": "计划生产量"
+          },
+          {
+            "GUID": "2a4d3946-690c-4d1b-84bd-eb9e6b3c4dd0",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "实际完成量",
+              "GUID": "99cc0e60-8c0d-4058-90e3-02a7f8ca912c"
+            },
+            "ColumnName": "实际完成量"
+          },
+          {
+            "GUID": "5f16784a-e43d-4dc4-9347-c284afbfd870",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "FGC_Creator",
+              "GUID": "fe482d74-db72-4f1b-b51e-63e720e0d53e"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "f872f3d4-9013-406f-b645-69a1cae65def",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "93cd086e-be5f-47aa-a069-9c96617de41a"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "a069df5a-1787-4da0-bcb5-f246f43f2456",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "50a81ff6-1fe1-4333-a529-ccc246c66cb4"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "bec4b4f9-150b-4a9f-bb08-10b76fc1ec2e",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "628e22ba-a7f9-4231-a88c-b1b211fdac9e"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源2",
+      "GUID": "5b8b834d-afaa-44b7-966d-c7f100c4a0ed",
+      "DataSourceSetting": {
+        "TableName": "hm_产能dashboard1",
+        "BindingInfos": [
+          {
+            "GUID": "9a9c3824-892e-4001-9fba-6ce3d753c763",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard1",
+              "ColumnName": "日期",
+              "GUID": "0d897f7b-3222-4111-a5aa-d171da6b4ad5"
+            },
+            "ColumnName": "日期"
+          },
+          {
+            "GUID": "7f366b7c-5073-4728-9196-59d8fd046545",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard1",
+              "ColumnName": "日完成率",
+              "GUID": "44d3e4c0-876b-45a6-9927-526285319715"
+            },
+            "ColumnName": "日完成率"
+          },
+          {
+            "GUID": "024d3311-c124-4ed9-8e35-899dbad89710",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard1",
+              "ColumnName": "FGC_Creator",
+              "GUID": "2a38ed1e-14af-4218-bfbc-5fd242edfd0c"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "6dc266dd-6e3c-46ff-8a59-3be9d616ab5c",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard1",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "06f28dfa-488d-44c5-848d-c5f644160e97"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "d1f73190-ff17-48a4-8865-ecd73df42dd7",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard1",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "7548f531-9bf9-4ada-b41d-91fd8f61af8a"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "204c8def-7811-4e4f-ab11-167d4a5040fc",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard1",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "65f5be47-d914-4353-8cba-299c0b288b73"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源3",
+      "GUID": "f8e82236-97fb-436f-a423-f660f97c85d9",
+      "DataSourceSetting": {
+        "TableName": "hm_产能dashboard2",
+        "BindingInfos": [
+          {
+            "GUID": "90b2a41d-d588-4c5a-8bb1-630bf1a759fe",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard2",
+              "ColumnName": "指标类型",
+              "GUID": "48ded0cf-1461-49b4-a01b-1ffc5b4d3c6a"
+            },
+            "ColumnName": "指标类型"
+          },
+          {
+            "GUID": "ca154254-cdb3-48c5-bcaa-cd17fd4ec9ae",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard2",
+              "ColumnName": "计划值",
+              "GUID": "ab48ceac-e57d-459e-8c76-3953a6d80790"
+            },
+            "ColumnName": "计划值"
+          },
+          {
+            "GUID": "9ede97c5-434b-4081-8324-83d6a2d896c4",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard2",
+              "ColumnName": "完成值",
+              "GUID": "e82885fa-de1e-4c8c-8f52-2e5dde4987bc"
+            },
+            "ColumnName": "完成值"
+          },
+          {
+            "GUID": "6f5eb11e-cf57-4f3c-bd40-e0a78a1293f0",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard2",
+              "ColumnName": "FGC_Creator",
+              "GUID": "f25b7faf-ee53-4909-a9af-e44fdfeb2b25"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "f4f99c70-28a6-41cf-8c0b-3e0e73f8abbf",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard2",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "72c2a31c-f9a2-414f-9ae6-6a0c85000e6c"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "2d96b7c3-04bb-4f9e-803a-685905b56bb0",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard2",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "8705f70e-5396-4467-a155-b20324157ddb"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "2a206827-38f0-4da1-960f-818b9593f0cb",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard2",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "6c9c7970-067e-45d7-9307-bc2265ff7aa8"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源4",
+      "GUID": "ccdc1407-5343-4a4b-9ebe-7b36c452bb89",
+      "DataSourceSetting": {
+        "TableName": "hm_产能dashboard",
+        "BindingInfos": [
+          {
+            "GUID": "f8e66d67-b660-439d-817b-aa773e9d46af",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "统计字段1",
+              "GUID": "5f87c28b-ef73-4fdc-8f57-97fcf8036aec"
+            },
+            "ColumnName": "统计字段1"
+          },
+          {
+            "GUID": "b622820c-ff67-4196-ac54-7c0b9b234a4d",
+            "BindingInfo": {
+              "TableName": "hm_产能dashboard",
+              "ColumnName": "区域",
+              "GUID": "0edcf31a-2fa5-4a65-999c-d0cb05673abd"
+            },
+            "ColumnName": "区域"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "产能 DashBoard"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "产能 DashBoard",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}

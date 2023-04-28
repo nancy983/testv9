@@ -1,0 +1,196 @@
+{
+  "Name": "快递单套打",
+  "DataSources": [
+    {
+      "Name": "OrderDetail",
+      "GUID": "c3cdbc56-801d-4bcb-81a3-38ed6e635d98",
+      "DataSourceSetting": {
+        "TableName": "CourierOrderDetail",
+        "BindingInfos": [
+          {
+            "GUID": "77a662a4-44a5-430c-8a54-65e858801da7",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "订单ID",
+              "GUID": "8ed49a31-dcfa-450c-ae00-6d78e0982488"
+            },
+            "ColumnName": "订单ID"
+          },
+          {
+            "GUID": "59f1339d-f933-4ce6-a325-1cba2d9d8a9b",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "货主名称",
+              "GUID": "f6a0d4b1-3fd3-44a3-9b71-f759334fcc6e"
+            },
+            "ColumnName": "货主名称"
+          },
+          {
+            "GUID": "79992a82-7c04-434f-854d-0c5d5dbf565f",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "货主城市",
+              "GUID": "0c2ac950-d39a-4bcb-b3e0-8746f63d9814"
+            },
+            "ColumnName": "货主城市"
+          },
+          {
+            "GUID": "ab7e5cec-8ac0-4373-900a-3c5cf78c4755",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "货主地址",
+              "GUID": "16540436-a3fa-4daa-b6ed-9fd493617f3c"
+            },
+            "ColumnName": "货主地址"
+          },
+          {
+            "GUID": "f8d3476f-31a1-46ac-9df2-b2221ff59ced",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "货主邮政编码",
+              "GUID": "d46bd04f-414b-4fb0-9880-656b70aefb07"
+            },
+            "ColumnName": "货主邮政编码"
+          },
+          {
+            "GUID": "f44b322f-6d21-4d03-9138-cac5cc698107",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "公司名称",
+              "GUID": "bfee3ef4-42ee-49ae-b342-be1b7870388d"
+            },
+            "ColumnName": "公司名称"
+          },
+          {
+            "GUID": "24bdf06f-0c77-4cbf-9985-69d2e0440a99",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "运货商公司名称",
+              "GUID": "471ee405-f759-4f46-bc4c-b1c44909297c"
+            },
+            "ColumnName": "运货商公司名称"
+          },
+          {
+            "GUID": "b41b728b-5bfa-42c3-8c75-ace597dc6b28",
+            "BindingInfo": {
+              "TableName": "CourierOrderDetail",
+              "ColumnName": "电话",
+              "GUID": "d3227827-7a53-4b74-a69d-40d87fd64809"
+            },
+            "ColumnName": "电话"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "运货商",
+      "GUID": "737879e3-6d89-453a-bba7-dfbd22bb5b9c",
+      "DataSourceSetting": {
+        "TableName": "运货商",
+        "BindingInfos": [
+          {
+            "GUID": "a71c0422-15f2-472b-bc85-f1f77bcdba9e",
+            "BindingInfo": {
+              "TableName": "运货商",
+              "ColumnName": "运货商ID",
+              "GUID": "2a223853-f509-4da1-87d1-27880bca279d"
+            },
+            "ColumnName": "运货商ID"
+          },
+          {
+            "GUID": "c18f8562-2359-458c-9e11-dee68882b2a1",
+            "BindingInfo": {
+              "TableName": "运货商",
+              "ColumnName": "公司名称",
+              "GUID": "9f4a6c6c-fc06-413a-8ba2-9eec7ebafd3e"
+            },
+            "ColumnName": "公司名称"
+          },
+          {
+            "GUID": "807a8284-8d5e-4245-a7f9-3b09a18deb2a",
+            "BindingInfo": {
+              "TableName": "运货商",
+              "ColumnName": "电话",
+              "GUID": "241442c4-d18b-4af6-b7af-5f0112e5bcef"
+            },
+            "ColumnName": "电话"
+          },
+          {
+            "GUID": "ff3fa67d-eaaa-44a4-8a2e-7b7c3cf56700",
+            "BindingInfo": {
+              "TableName": "运货商",
+              "ColumnName": "FGC_Creator",
+              "GUID": "5fe1ee38-8544-41d4-b388-506ab8e6871d"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "1f0d518e-0a2a-44c3-95f8-4feaf1c33229",
+            "BindingInfo": {
+              "TableName": "运货商",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "1c8b0a32-4ac9-4159-bca6-5e6f3ae8ccb9"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "09787487-af6d-473d-9cd6-774a0cc9eea3",
+            "BindingInfo": {
+              "TableName": "运货商",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "48b0b75b-6e94-43b5-ae69-dc7bd2436f2e"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "6df276a6-8334-4c34-baa0-f74a33761a4b",
+            "BindingInfo": {
+              "TableName": "运货商",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "4170146d-763d-4f97-8191-b2b3bca2bb9c"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "快递单套打"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "快递单套打",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 2
+}

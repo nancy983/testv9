@@ -1,0 +1,289 @@
+{
+  "Rows": {
+    "Count": 17
+  },
+  "Cols": {
+    "Count": 66
+  },
+  "AttachInfos": {
+    "2,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "流程和任务信息",
+        "RowIndex": 2,
+        "ColumnIndex": 1,
+        "RowCount": 13,
+        "ColumnCount": 64,
+        "TopCondition": null,
+        "ListViewStyleName": "样式3",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "3,1": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "ID",
+        "GUID": "495cd435-a40b-4c89-96bb-461cdd2284b6"
+      }
+    },
+    "3,3": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "事件类型",
+        "GUID": "c7bdec56-e018-4bb8-a2a1-9fc3aa18197d"
+      }
+    },
+    "3,8": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "发件人",
+        "GUID": "c9dad40b-a35d-4c38-8e15-59ea801d094e"
+      }
+    },
+    "3,13": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "流程",
+        "GUID": "2f38c8ce-f3c5-4e28-9aa2-964c2f23c9eb"
+      }
+    },
+    "3,18": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "流程ID",
+        "GUID": "d69a0a4f-1305-4397-a374-e9eece3e2f28"
+      }
+    },
+    "3,23": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "流程定义ID",
+        "GUID": "076bf3fb-be65-41a7-9d98-70f18c60d023"
+      }
+    },
+    "3,28": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "流程开始时间",
+        "GUID": "ef39606e-d088-4225-87c5-9db211c2d6d1"
+      }
+    },
+    "3,33": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "任务ID",
+        "GUID": "4600ac04-d9fd-4e9b-a48d-2e26b0816c68"
+      }
+    },
+    "3,38": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "任务名称",
+        "GUID": "285d066a-e23c-4808-8191-14f38b51149c"
+      }
+    },
+    "3,42": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "任务描述",
+        "GUID": "5d825b12-fe49-4c1d-b800-55254b57c7e1"
+      }
+    },
+    "3,47": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "负责人",
+        "GUID": "4621e6da-6866-4383-84e4-20462c66c7ae"
+      }
+    },
+    "3,52": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "任务开始时间",
+        "GUID": "eea9120e-a275-41fe-ae74-d04084a6fcbb"
+      }
+    },
+    "3,57": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "空",
+        "GUID": "7a9c39b0-aa8a-40fe-b282-e69bfbb47b3f"
+      }
+    },
+    "3,60": {
+      "BindingInfo": {
+        "TableName": "流程和任务信息",
+        "ColumnName": "现在",
+        "GUID": "cc973e30-d855-4f2e-8c15-1c1304036c85"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,60": 0,
+      "3,61": 0,
+      "3,62": 0,
+      "3,63": 0,
+      "3,64": 0,
+      "4,62": 1,
+      "4,63": 1,
+      "4,64": 1,
+      "5,62": 1,
+      "5,63": 1,
+      "5,64": 1,
+      "6,62": 1,
+      "6,63": 1,
+      "6,64": 1,
+      "7,62": 1,
+      "7,63": 1,
+      "7,64": 1,
+      "8,62": 1,
+      "8,63": 1,
+      "8,64": 1,
+      "9,62": 1,
+      "9,63": 1,
+      "9,64": 1,
+      "10,62": 1,
+      "10,63": 1,
+      "10,64": 1,
+      "11,62": 1,
+      "11,63": 1,
+      "11,64": 1,
+      "12,62": 1,
+      "12,63": 1,
+      "12,64": 1,
+      "13,62": 1,
+      "13,63": 1,
+      "13,64": 1,
+      "14,62": 1,
+      "14,63": 1,
+      "14,64": 1,
+      "16,1": 1,
+      "16,2": 1,
+      "16,3": 1,
+      "16,4": 1,
+      "16,5": 1,
+      "16,6": 1,
+      "16,7": 1,
+      "16,8": 1,
+      "16,9": 1,
+      "16,10": 1,
+      "16,11": 1,
+      "16,12": 1,
+      "16,13": 1,
+      "16,14": 1,
+      "16,15": 1,
+      "16,16": 1,
+      "16,17": 1,
+      "16,18": 1,
+      "16,19": 1,
+      "16,20": 1,
+      "16,21": 1,
+      "16,22": 1,
+      "16,23": 1,
+      "16,24": 1,
+      "16,25": 1,
+      "16,26": 1,
+      "16,27": 1,
+      "16,28": 1,
+      "16,29": 1,
+      "16,30": 1,
+      "16,31": 1,
+      "16,32": 1,
+      "16,33": 1,
+      "16,34": 1,
+      "16,35": 1,
+      "16,36": 1,
+      "16,37": 1,
+      "16,38": 1,
+      "16,39": 1,
+      "16,40": 1,
+      "16,41": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 12.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,1,1,2",
+    "3,3,1,5",
+    "3,8,1,5",
+    "3,13,1,5",
+    "3,18,1,5",
+    "3,23,1,5",
+    "3,28,1,5",
+    "3,33,1,5",
+    "3,38,1,4",
+    "3,42,1,5",
+    "3,47,1,5",
+    "3,52,1,5",
+    "3,57,1,3",
+    "3,60,1,5",
+    "4,1,11,64",
+    "2,1,1,2",
+    "2,3,1,5",
+    "2,8,1,5",
+    "2,13,1,5",
+    "2,18,1,5",
+    "2,23,1,5",
+    "2,28,1,5",
+    "2,33,1,5",
+    "2,38,1,4",
+    "2,42,1,5",
+    "2,47,1,5",
+    "2,52,1,5",
+    "2,57,1,3",
+    "2,60,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//BNEePGfWofBYx/jiVVmS4epC1UmSl8Ph0Eff+omOIkDAa1/TrGlUm+8u7PfmIxnFsXL4SVQm2XdzwScYHoyKiepWiuHQGTxhIRwGySpwLPN4NhzC98/qMiZS1D06vjgeg3nCdCamOBdeosv4iI40Hm70ACiqT8FhEtm06OryqrqQCqPixbT3W+y1vfAnu/UncayDuFwOStVpwHh3BFycPz0IGncmUZ3Ai92upVnQ50E9KxxzleF8qLP6vGvP4gaexBy+2nwKMGBK/6k1ZOJa9vXKQT2iLBQAvPeRicvEujjUpuqKGXpo1oHW7pqAq1UfuJcVA4wQZYClBOlgb4Hryjm0sJd/YlqEYCH5IgDCg5YVQXnqEsQKfDNvGW4NpqM87ITEnfEnSBl4Hoah0J5JnyrNwt5UnWXtYQxiUC/SLX+JfZqF9NgNJcg0lzgwuWHAxbE48JzV4R8EIWDUs0Q/4o5CKLbkpPY0BZCr6ZpQkLqTesHi9AFsEre7gTSGRZKLoH/8J62wWkG4Jg6DXGCWntCI6bTxEVVQbJK64Cp6MMWOwC7TnHZx2vKPapVUUuKt72ofKvXVlfVbXgGptTUD8g9s47iJ4PkRYyOWBs6E8dDcLHmUOQjJvOnRspjV60OH+8o9F5OV2ngtwj01bexYlkxcD/9R6GNV9hGthrwwgjDlaDGpVa6bSJhOndr+qipWvrOkW5pFLHOijs3HHv66B4v0kf3ohkC4kw6Q/nFNFyjTyUXDqF2icR8/8UGbBZCJYpdSANxiyHMPnmyynUE/Kg4aGm0Juz9CWRKHMhN5LqGsbFfb4muvTUAbzr9+6qaCiNy4o4QkkTQv8i15V9jxaL34r/ioRL359c0qG78BPenkWDB6uU/B0C91i3DfkPy2SANrxNEFFykWh8o1j+801A==|920

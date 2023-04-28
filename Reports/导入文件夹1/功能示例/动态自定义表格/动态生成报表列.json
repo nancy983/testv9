@@ -1,0 +1,156 @@
+{
+  "Name": "动态生成报表列",
+  "DataSources": [
+    {
+      "Name": "奖金明细",
+      "GUID": "d7bc1cb1-d6af-409f-b9e7-b65b1db94b9e",
+      "DataSourceSetting": {
+        "TableName": "奖金明细",
+        "BindingInfos": [
+          {
+            "GUID": "8d9a1201-233d-48cd-8eaf-94838c67ebdd",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "ID",
+              "GUID": "beb4ff2f-3dbb-4cee-9674-e3eedee28b12"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "5ca6ca8e-1d46-4e0f-997d-e93a3714477f",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "单位名称",
+              "GUID": "52d0864b-ad70-4034-93c6-15f002b97ed8"
+            },
+            "ColumnName": "单位名称"
+          },
+          {
+            "GUID": "7962b060-9b2b-414f-927f-3e76c2cadbc3",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "综合系数",
+              "GUID": "3e3cd42b-68f2-4441-a155-e1a09fc5ad4e"
+            },
+            "ColumnName": "综合系数"
+          },
+          {
+            "GUID": "03386163-4ea1-45ab-81e2-06798e0c4472",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "得奖人数",
+              "GUID": "caae1745-881e-44cb-9295-25d24d5b2e6e"
+            },
+            "ColumnName": "得奖人数"
+          },
+          {
+            "GUID": "2498e579-029e-42f0-9805-f3732dd0dbef",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "奖金基数",
+              "GUID": "6bbd252d-7106-43f7-a95c-6f1d07a0e373"
+            },
+            "ColumnName": "奖金基数"
+          },
+          {
+            "GUID": "336cb67b-9364-4f5f-ae3e-4f8a14d39805",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "组织绩效指示完成率",
+              "GUID": "bc21a574-a672-43a4-a88f-58822f4d4e1f"
+            },
+            "ColumnName": "组织绩效指示完成率"
+          },
+          {
+            "GUID": "352c6ce9-175d-4f33-b788-add21c963cba",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "综合奖计划数",
+              "GUID": "4e2a84ec-e80b-4340-81d4-a33ac7488195"
+            },
+            "ColumnName": "综合奖计划数"
+          },
+          {
+            "GUID": "bc2f005d-2212-4dfd-a6b1-25cf998b670b",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "处干奖金",
+              "GUID": "62533094-ca2a-4b11-9f8f-8468fe52fba4"
+            },
+            "ColumnName": "处干奖金"
+          },
+          {
+            "GUID": "6ed6f300-0a27-488a-8d4c-6be6c698bc0f",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "计划数",
+              "GUID": "77ac5283-b5e5-4172-be6f-8189f958535d"
+            },
+            "ColumnName": "计划数"
+          },
+          {
+            "GUID": "4f88ec3f-9b09-4820-8450-d17d51608a64",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "奖金名称",
+              "GUID": "faccb2e4-5b32-435c-95bb-c8ccd8ab44d8"
+            },
+            "ColumnName": "奖金名称"
+          },
+          {
+            "GUID": "fbfc49e1-c9ce-4e43-87b9-5da238f3d493",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "奖金金额",
+              "GUID": "7f8669f1-678d-4ac6-9ef4-fd7291a463d1"
+            },
+            "ColumnName": "奖金金额"
+          },
+          {
+            "GUID": "32fc201b-bfea-47c2-86f4-b45bd85a25fd",
+            "BindingInfo": {
+              "TableName": "奖金明细",
+              "ColumnName": "年份",
+              "GUID": "3077a517-1544-4116-803d-cbee8f24e57c"
+            },
+            "ColumnName": "年份"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "动态生成报表列"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "动态生成报表列",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

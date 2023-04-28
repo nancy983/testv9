@@ -1,0 +1,76 @@
+{
+  "Name": "表达式5-行号",
+  "DataSources": [
+    {
+      "Name": "行号",
+      "GUID": "9ea14398-8515-4708-a627-70ab248038ef",
+      "DataSourceSetting": {
+        "TableName": "行号",
+        "BindingInfos": [
+          {
+            "GUID": "437a3a92-849f-44fd-989a-ebb195e604a1",
+            "BindingInfo": {
+              "TableName": "行号",
+              "ColumnName": "销售大区",
+              "GUID": "8c95589b-3cb5-485b-89b3-6bd84a4ef710"
+            },
+            "ColumnName": "销售大区"
+          },
+          {
+            "GUID": "53b3d908-5aa1-49b4-9bec-b14252a98e74",
+            "BindingInfo": {
+              "TableName": "行号",
+              "ColumnName": "销售省份",
+              "GUID": "3ac61530-b3e2-4329-b828-685d7130186a"
+            },
+            "ColumnName": "销售省份"
+          },
+          {
+            "GUID": "7344f8e2-7dc8-4814-945a-0d6f0658348d",
+            "BindingInfo": {
+              "TableName": "行号",
+              "ColumnName": "月份",
+              "GUID": "b7bf7c8e-bf83-444f-952e-828c8b72af84"
+            },
+            "ColumnName": "月份"
+          },
+          {
+            "GUID": "52bf2ce9-7b52-411d-b39f-ec5973133c6f",
+            "BindingInfo": {
+              "TableName": "行号",
+              "ColumnName": "销售额",
+              "GUID": "516dcdf3-0d7c-41f7-b6cc-a2ab0ab93085"
+            },
+            "ColumnName": "销售额"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "表达式5-行号"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "表达式5-行号",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 5
+}

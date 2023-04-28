@@ -1,0 +1,125 @@
+{
+  "Name": "M2.员工",
+  "DataSources": [
+    {
+      "Name": "mobile_员工",
+      "GUID": "ec4311e2-8eb5-4055-9723-0f03859e734b",
+      "DataSourceSetting": {
+        "TableName": "mobile_员工",
+        "BindingInfos": [
+          {
+            "GUID": "e8d22acb-1131-4bb3-bf22-a3c8d955f6d6",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "姓名",
+              "GUID": "2894e6dc-6dbd-4dd0-b31a-1378bcc1f4bf"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "a5a99ab8-a046-4aa3-b80c-c9254b05c27a",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "性别",
+              "GUID": "8073a91f-7b7e-48f9-b120-3abb9de061ed"
+            },
+            "ColumnName": "性别"
+          },
+          {
+            "GUID": "d5341cdc-6a93-44cf-97b9-fdf975c45750",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "部门",
+              "GUID": "341278c2-595b-4902-8269-31c15be5e16d"
+            },
+            "ColumnName": "部门"
+          },
+          {
+            "GUID": "910f64bd-a313-4c1b-8c24-4082423a0028",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "职位",
+              "GUID": "e01c191c-4d29-4a7b-8137-defb2a935c5d"
+            },
+            "ColumnName": "职位"
+          },
+          {
+            "GUID": "6196905a-90c8-4184-b7a8-70d3d24ba5bc",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "在职状态",
+              "GUID": "147e1acd-825b-47f3-9837-9b6e17388382"
+            },
+            "ColumnName": "在职状态"
+          },
+          {
+            "GUID": "ec5ca666-f86e-4064-add7-80c9a15969f7",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "在职时长",
+              "GUID": "267fed8b-907b-4b54-a553-630a79c85c95"
+            },
+            "ColumnName": "在职时长"
+          },
+          {
+            "GUID": "4c89c709-78e8-4200-afa2-08addde95ce7",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "销售代号",
+              "GUID": "f78eccb3-d157-4151-acfa-cc1d169db5a7"
+            },
+            "ColumnName": "销售代号"
+          },
+          {
+            "GUID": "f07cdc6b-b8a7-4fd9-a5d6-989e4d4e20c2",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "销售业绩",
+              "GUID": "a00cc5e3-b0dc-474d-b47a-39abbd8f080c"
+            },
+            "ColumnName": "销售业绩"
+          },
+          {
+            "GUID": "d1d94a3b-72a9-4b3a-9d56-22df830792f7",
+            "BindingInfo": {
+              "TableName": "mobile_员工",
+              "ColumnName": "年龄",
+              "GUID": "1bff6d4f-43bc-4007-b595-9e5ffd9bf79f"
+            },
+            "ColumnName": "年龄"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "number",
+        "string",
+        "number",
+        "number"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "M2.员工"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "M2.员工",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 2
+}

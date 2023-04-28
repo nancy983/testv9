@@ -1,0 +1,139 @@
+{
+  "Name": "【迷你图】销售数据统计表",
+  "DataSources": [
+    {
+      "Name": "SalesByCategory",
+      "GUID": "595c14ae-d920-49db-95bb-5b1d5df302b9",
+      "DataSourceSetting": {
+        "TableName": "SalesByCategory",
+        "BindingInfos": [
+          {
+            "GUID": "c6f7c15b-1f4f-4c53-816c-a849fcda2c85",
+            "BindingInfo": {
+              "TableName": "SalesByCategory",
+              "ColumnName": "类别名称",
+              "GUID": "f5010fc4-3bca-490d-8d41-c19f014d3b2e"
+            },
+            "ColumnName": "类别名称"
+          },
+          {
+            "GUID": "06683dbb-94c2-460e-bc8e-1017bc281ce0",
+            "BindingInfo": {
+              "TableName": "SalesByCategory",
+              "ColumnName": "订购月",
+              "GUID": "afdb53f1-ceb0-4223-9000-b63ce9bbe8f5"
+            },
+            "ColumnName": "订购月"
+          },
+          {
+            "GUID": "9c8a13ec-9c7f-4e02-8d8e-fb7825c8652d",
+            "BindingInfo": {
+              "TableName": "SalesByCategory",
+              "ColumnName": "类别ID",
+              "GUID": "57d946c6-04a7-49b7-b2fe-e0264fab6508"
+            },
+            "ColumnName": "类别ID"
+          },
+          {
+            "GUID": "8047a0e6-e369-4fff-a1d9-0712d0c20d4b",
+            "BindingInfo": {
+              "TableName": "SalesByCategory",
+              "ColumnName": "销售量",
+              "GUID": "af2d7f19-7e58-4007-a05f-16a9045df8f6"
+            },
+            "ColumnName": "销售量"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "SalesBySupplier",
+      "GUID": "552322df-b262-4984-84d4-fa44d1bf8ec7",
+      "DataSourceSetting": {
+        "TableName": "SalesBySupplier",
+        "BindingInfos": [
+          {
+            "GUID": "a587387b-11e3-41e6-95ea-4ae2270a5348",
+            "BindingInfo": {
+              "TableName": "SalesBySupplier",
+              "ColumnName": "公司名称",
+              "GUID": "4301e8f3-3833-440f-9b9b-6c8a73168703"
+            },
+            "ColumnName": "公司名称"
+          },
+          {
+            "GUID": "927db08a-25e9-462c-9b7d-e4bc7c7e6f6f",
+            "BindingInfo": {
+              "TableName": "SalesBySupplier",
+              "ColumnName": "产品名称",
+              "GUID": "e8a92bb4-30e1-4c57-9e5d-91579cdad558"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "a1bcec6d-43ed-434c-a183-e6700e9c2b3e",
+            "BindingInfo": {
+              "TableName": "SalesBySupplier",
+              "ColumnName": "销售量",
+              "GUID": "98b6e15a-041d-414c-9748-4a4f1089703b"
+            },
+            "ColumnName": "销售量"
+          },
+          {
+            "GUID": "7e3429cf-29e0-438a-9cf0-cdb372891334",
+            "BindingInfo": {
+              "TableName": "SalesBySupplier",
+              "ColumnName": "销售金额",
+              "GUID": "f10d5ec1-4b3c-4ff3-b38b-8742ce364619"
+            },
+            "ColumnName": "销售金额"
+          }
+        ],
+        "OrderBySqlCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "SalesBySupplier",
+                "ColumnName": "销售量",
+                "GUID": "5be38776-f27f-4e8a-865d-b074995696ce"
+              },
+              "Order": 1
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【迷你图】销售数据统计表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【迷你图】销售数据统计表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

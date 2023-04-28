@@ -1,0 +1,226 @@
+{
+  "Name": "运输车队分析-车队本身",
+  "DataSources": [
+    {
+      "Name": "traffic_transport2",
+      "GUID": "7adcea5b-3a91-44ad-8273-a1a4bd776d49",
+      "DataSourceSetting": {
+        "TableName": "traffic_transport2",
+        "BindingInfos": [
+          {
+            "GUID": "a7b60638-ca7a-4a5a-99b5-072c3b342f4c",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "车队编号",
+              "GUID": "4211e060-ea7d-4cba-b889-9e34f9624805"
+            },
+            "ColumnName": "车队编号"
+          },
+          {
+            "GUID": "6aeb924a-29df-4e23-8da5-778d07c8a33e",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "高速行程",
+              "GUID": "f0885c71-40af-4484-b573-dd73a4e740b7"
+            },
+            "ColumnName": "高速行程"
+          },
+          {
+            "GUID": "6d42d518-4bf0-42c4-ac7e-06bad61898c6",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "城市交通",
+              "GUID": "225d4d8c-54fc-41ed-bbcc-a146fdc3ac14"
+            },
+            "ColumnName": "城市交通"
+          },
+          {
+            "GUID": "4b32ac96-4e56-4302-b46e-059ebe876366",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "平均速度",
+              "GUID": "69cb3f16-d118-4525-83f6-532342c6ff0a"
+            },
+            "ColumnName": "平均速度"
+          },
+          {
+            "GUID": "2f7c8f5e-17d4-4abb-9282-d5c138b49973",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "平均里程",
+              "GUID": "9927a5d8-435b-4660-bd74-ed1fdc622250"
+            },
+            "ColumnName": "平均里程"
+          },
+          {
+            "GUID": "35f75673-a739-4f11-a54d-b745bf8d6e6d",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "平均加速",
+              "GUID": "641f70a0-883a-4517-94f2-94ca743bbd21"
+            },
+            "ColumnName": "平均加速"
+          },
+          {
+            "GUID": "50687489-a60e-44a0-9a80-74fe8be16131",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "MPG",
+              "GUID": "315a8584-5933-485a-9f1f-2dd7d2715b2b"
+            },
+            "ColumnName": "MPG"
+          },
+          {
+            "GUID": "95852781-5e2a-4b71-8230-d543e204bd0e",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "排放量",
+              "GUID": "46f28795-dc4a-483d-ae0b-8a8be3725baa"
+            },
+            "ColumnName": "排放量"
+          },
+          {
+            "GUID": "761ca02c-64ea-4626-85ac-0751e50b3deb",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "平均耗油（加仑）",
+              "GUID": "c9021cf3-82b9-4e14-926b-a43e48a6b192"
+            },
+            "ColumnName": "平均耗油_加仑_"
+          },
+          {
+            "GUID": "affe29e4-9a7c-48a0-965e-4708a6f0e06f",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "无冷却溶剂",
+              "GUID": "8314a5e3-4ac5-4903-a1dc-8490a4ffaf9e"
+            },
+            "ColumnName": "无冷却溶剂"
+          },
+          {
+            "GUID": "d255355e-72a5-4b4c-8816-932ee9ccfdd0",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "路途中没有时间开门",
+              "GUID": "91675e71-0101-4e63-b3d8-51a196668f12"
+            },
+            "ColumnName": "路途中没有时间开门"
+          },
+          {
+            "GUID": "c68a1de2-91fc-42cf-aec5-5fa6ff70af22",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "期间停止次数",
+              "GUID": "c5fecedc-fb51-46da-b237-a8b0d375d4a0"
+            },
+            "ColumnName": "期间停止次数"
+          },
+          {
+            "GUID": "cff555f9-58b4-4ed5-8cc4-ba43ec6a41c9",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "警报过界",
+              "GUID": "678ae072-3081-4f84-bfb4-284bf7d8f4ee"
+            },
+            "ColumnName": "警报过界"
+          },
+          {
+            "GUID": "5098a4b6-a2be-4f2e-9949-5f4c885b5f8a",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "总消耗油量（加仑）",
+              "GUID": "25f3a611-6177-4fd6-abcc-284493f92b06"
+            },
+            "ColumnName": "总消耗油量_加仑_"
+          },
+          {
+            "GUID": "e42696f3-282a-4839-b1ad-0f632878bb06",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "年份",
+              "GUID": "d615cb56-4e1d-4592-a1de-d62210677fd7"
+            },
+            "ColumnName": "年份"
+          },
+          {
+            "GUID": "66056382-3960-40cd-91f6-deb9db0509a3",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "FGC_Creator",
+              "GUID": "8902ccef-5778-4230-b147-4d7646cad572"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "f345042e-51ef-4da9-bc98-efbb2a552061",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "89bb1ad9-b584-44ac-a73d-0ccfebe86d39"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "806c03f8-eedc-475c-aa5a-2015d9cd8601",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "773d8442-5baf-404b-84ff-8896831e22c0"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "1e74b574-e186-4b12-9cae-d484207492f6",
+            "BindingInfo": {
+              "TableName": "traffic_transport2",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "d4adadf5-8021-4c48-917a-6ae485d601f2"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "运输车队分析-车队本身"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "运输车队分析-车队本身",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 6
+}

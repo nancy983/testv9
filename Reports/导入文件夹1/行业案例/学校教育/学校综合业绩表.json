@@ -1,0 +1,236 @@
+{
+  "Name": "学校综合业绩表",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "89436585-8bfc-48df-9e21-2073f91b6482",
+      "DataSourceSetting": {
+        "TableName": "学校综合业绩",
+        "BindingInfos": [
+          {
+            "GUID": "a072ad6f-6da8-433a-a4d0-4bb258f23d37",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "ID",
+              "GUID": "4ec44f5d-b4de-4489-9ab6-f9653f261816"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "2c5fe6b8-e1ac-441b-b04e-0c3a31c098ab",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "城际",
+              "GUID": "412c35d9-7ffc-43f5-9819-b83427ba9bb0"
+            },
+            "ColumnName": "城际"
+          },
+          {
+            "GUID": "37dce288-aad8-4e17-b9cc-4fc20bfbeec7",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "校园",
+              "GUID": "93ba96e1-6da9-44b7-bbbd-b028c5b5b09f"
+            },
+            "ColumnName": "校园"
+          },
+          {
+            "GUID": "a726ecbf-b086-40d5-8465-db60cd6bb03f",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "年度收入目标",
+              "GUID": "6bb4b0ca-8a01-4ce1-9972-e33f1a097836"
+            },
+            "ColumnName": "年度收入目标"
+          },
+          {
+            "GUID": "a0a60066-8a30-4348-928f-9508b72f5ac8",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "年度利润目标",
+              "GUID": "f9bd9257-5b02-451b-9229-7deae1fbca58"
+            },
+            "ColumnName": "年度利润目标"
+          },
+          {
+            "GUID": "7de5aea2-ed86-4715-8bb8-f71c485743da",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "年度退费目标",
+              "GUID": "3c51b795-cb57-41cc-9795-9912f10a6605"
+            },
+            "ColumnName": "年度退费目标"
+          },
+          {
+            "GUID": "e252935d-f920-4417-a22e-96372cd5eb6c",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "时间",
+              "GUID": "ea925ce4-b72e-4671-9e87-557b05ce5159"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "a0d286c9-6719-46c8-a1ed-01324db3868b",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "当月利润完成率",
+              "GUID": "ddf83fb7-5675-400d-837a-b23a55d15e1e"
+            },
+            "ColumnName": "当月利润完成率"
+          },
+          {
+            "GUID": "159f27ed-d931-4658-b735-2b9642f34f67",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "当期利润完成率",
+              "GUID": "bcb80218-62c5-4b59-a19c-ed236e06b0ec"
+            },
+            "ColumnName": "当期利润完成率"
+          },
+          {
+            "GUID": "dcff5a56-9a06-4438-a4a1-139179c9e054",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "年至今利润完成率",
+              "GUID": "7996b7d8-10b5-430c-89fc-1c5de0abf538"
+            },
+            "ColumnName": "年至今利润完成率"
+          },
+          {
+            "GUID": "7c62d2bd-f9ed-4f85-9676-1d6d16d1e6f8",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "当月收入完成率",
+              "GUID": "088b472a-ca8c-46f4-859e-16ef2b42d419"
+            },
+            "ColumnName": "当月收入完成率"
+          },
+          {
+            "GUID": "0a9a3370-2280-442f-944f-3f8a9707f16f",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "当期收入完成率",
+              "GUID": "63db8488-ea4b-44ec-8951-19bf4b12853b"
+            },
+            "ColumnName": "当期收入完成率"
+          },
+          {
+            "GUID": "11ab1324-5a83-45ad-93c8-83b02648582a",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "年至今收入完成率",
+              "GUID": "fed55ee8-c738-4696-9d08-1f14b2f990ba"
+            },
+            "ColumnName": "年至今收入完成率"
+          },
+          {
+            "GUID": "2fe321ef-81cf-4cf4-a3b9-da397c37b372",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "退费率",
+              "GUID": "0c1500ac-6227-427a-884f-cfc143e3fb14"
+            },
+            "ColumnName": "退费率"
+          },
+          {
+            "GUID": "3de8c25a-1d59-4389-a77e-b40c76d5ede3",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "年至今备用金结转金额",
+              "GUID": "8034d6c4-1709-492f-a1b7-73a15e9f7f97"
+            },
+            "ColumnName": "年至今备用金结转金额"
+          },
+          {
+            "GUID": "e50d2666-bf79-4578-a0c9-110795798a2a",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "在校生目标达成率",
+              "GUID": "7086d307-d783-4a51-b441-9311a04681fc"
+            },
+            "ColumnName": "在校生目标达成率"
+          },
+          {
+            "GUID": "e10ff164-c458-4fe9-a0a0-cb67e9d1b87f",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "FGC_Creator",
+              "GUID": "0b22b539-44a4-474c-9eaf-83dadc716573"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "d8d0c000-9073-4e1e-9793-c40cded85d92",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "84035c4d-1212-49a5-88cf-2b50e2795b0e"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "44a0fbc2-3237-4b72-92ba-6ba15c1b85df",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "6442ba06-4938-4add-9901-b5f457c58d8a"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "38a136c7-6c54-4444-80fa-e9df7adcdb01",
+            "BindingInfo": {
+              "TableName": "学校综合业绩",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "2c644f58-6229-465e-a7c9-7193ad83346c"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "学校综合业绩表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "学校综合业绩表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

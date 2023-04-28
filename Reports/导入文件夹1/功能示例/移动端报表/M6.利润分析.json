@@ -1,0 +1,85 @@
+{
+  "Name": "M6.利润分析",
+  "DataSources": [
+    {
+      "Name": "mobile_利润",
+      "GUID": "1e76be09-b3bc-4360-8009-618c2b95ef92",
+      "DataSourceSetting": {
+        "TableName": "mobile_利润",
+        "BindingInfos": [
+          {
+            "GUID": "a3b33eb6-7d94-4c3c-8467-d1a535911767",
+            "BindingInfo": {
+              "TableName": "mobile_利润",
+              "ColumnName": "城市",
+              "GUID": "ec248468-3593-4f7a-8b57-4226354497cd"
+            },
+            "ColumnName": "城市"
+          },
+          {
+            "GUID": "1d7fa034-6336-4f76-892c-216a8f58daa6",
+            "BindingInfo": {
+              "TableName": "mobile_利润",
+              "ColumnName": "目标金额",
+              "GUID": "dd995587-994f-4bd1-8b5b-dcf93bc5b59a"
+            },
+            "ColumnName": "目标金额"
+          },
+          {
+            "GUID": "2126cc6b-7617-4975-80ee-fd2d62d20c0a",
+            "BindingInfo": {
+              "TableName": "mobile_利润",
+              "ColumnName": "目标利润",
+              "GUID": "ae680b78-e77f-4b0d-aa94-4844c2c03c23"
+            },
+            "ColumnName": "目标利润"
+          },
+          {
+            "GUID": "26694192-fdf4-4283-80f3-ca73cd853c22",
+            "BindingInfo": {
+              "TableName": "mobile_利润",
+              "ColumnName": "实际金额",
+              "GUID": "e321dad9-54fc-4649-bd8e-22ea441d52ff"
+            },
+            "ColumnName": "实际金额"
+          },
+          {
+            "GUID": "35b5ee2e-9aa1-4777-a812-b247ca5d84e9",
+            "BindingInfo": {
+              "TableName": "mobile_利润",
+              "ColumnName": "实际利润",
+              "GUID": "3f7cdc18-d55e-4156-b7ed-dee5b3f220dd"
+            },
+            "ColumnName": "实际利润"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "M6.利润分析"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "M6.利润分析",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 6
+}

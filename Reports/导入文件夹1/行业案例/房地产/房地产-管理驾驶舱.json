@@ -1,0 +1,780 @@
+{
+  "Name": "房地产-管理驾驶舱",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "f4e81f2c-97af-4cfb-a33d-266409bb3d45",
+      "DataSourceSetting": {
+        "TableName": "house_管理驾驶舱",
+        "BindingInfos": [
+          {
+            "GUID": "3745323c-a6eb-4d94-bc22-875ea2453ea6",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱",
+              "ColumnName": "类型",
+              "GUID": "fdeb2a00-06ca-4806-b3c2-8962388826bf"
+            },
+            "ColumnName": "类型"
+          },
+          {
+            "GUID": "1b863e70-3638-4221-a022-90722e6498cf",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱",
+              "ColumnName": "次数",
+              "GUID": "1a1de210-8297-449b-b3d7-83239a8548e3"
+            },
+            "ColumnName": "次数"
+          },
+          {
+            "GUID": "0df5bcd5-6c3d-476a-9367-a2d59d0d8680",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱",
+              "ColumnName": "FGC_Creator",
+              "GUID": "28e04b2c-fb44-4199-8707-4bcc83e9bc04"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "13cb22d9-f974-4771-92c9-71d19566f037",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "004caa26-bb43-4c90-a250-a376d68cba4b"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "48894aa6-b5f4-46e2-8a8c-00d72d6685cc",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "207a6082-7c42-4be2-9148-d19b6a07963b"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "be414d1f-dd6d-42be-99f2-869bf93c2fec",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "c9cfccc9-9206-4bcf-badc-d0627da66cc9"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "OrderBySqlCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "house_管理驾驶舱",
+                "ColumnName": "次数",
+                "GUID": "2ce5b2dc-1060-4f49-9f5c-fa90d28e5635"
+              },
+              "Order": 0
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源2",
+      "GUID": "9a3fb841-02f0-4e93-ba06-01c8b7f4e916",
+      "DataSourceSetting": {
+        "TableName": "house_管理驾驶舱1",
+        "BindingInfos": [
+          {
+            "GUID": "0eccf50f-d791-4b4a-9b02-2694731b7695",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "姓名",
+              "GUID": "435f3676-1783-4631-8c12-d38a3854f574"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "68cc5591-2845-4db8-96a8-55950747e275",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月签约金额",
+              "GUID": "26e2ea13-ff1e-495f-9d02-ba218be660a0"
+            },
+            "ColumnName": "本月签约金额"
+          },
+          {
+            "GUID": "d19e8807-4bc3-4c37-9df3-797b1ee9f3b8",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月套数",
+              "GUID": "a20101fa-a69d-48c1-8517-deead329e5bd"
+            },
+            "ColumnName": "本月套数"
+          },
+          {
+            "GUID": "1cfd906e-82bc-4b78-8c50-92310871b06f",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月签约金额",
+              "GUID": "23d02009-6e44-47e4-8467-a601add8d42c"
+            },
+            "ColumnName": "上月签约金额"
+          },
+          {
+            "GUID": "bc0cd828-937d-4290-8158-043c45a7b6b5",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月套数",
+              "GUID": "f2607853-bbe2-455e-82ff-803ba8b6e66b"
+            },
+            "ColumnName": "上月套数"
+          },
+          {
+            "GUID": "ea4703f1-12e5-4333-8e2a-59a6e8acef3b",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月排名",
+              "GUID": "effc528e-eec8-4735-85db-03803e255960"
+            },
+            "ColumnName": "上月排名"
+          },
+          {
+            "GUID": "9f84a0e4-7bd2-41ce-8549-6dd5d7f71058",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月排名",
+              "GUID": "44c13fad-ebf9-4688-b311-c1d4d0d03e90"
+            },
+            "ColumnName": "本月排名"
+          },
+          {
+            "GUID": "82084ade-63c2-427c-8b0c-66a5e0cf8f7a",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_Creator",
+              "GUID": "b3c8cf74-4ab8-4442-aa24-f2902b91b703"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "f1b4e70f-6e4c-43d9-aa16-1d7e4dd708ab",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "f1ec2ee8-0a56-4611-9d11-d21031c16ed1"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "c54eea53-9fa6-4c2e-9b62-78e775e8d029",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "f4ea7166-61d7-4e77-98d2-a9f11021c76e"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "65e45716-7716-4482-9ae9-6e3fe81cbe80",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "98a2d53d-46f6-4092-8100-70a06987415d"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 1,
+                  "ColumnBindingInfo": {
+                    "TableName": "house_管理驾驶舱1",
+                    "ColumnName": "本月排名",
+                    "GUID": "ccc39a65-b0ec-4abc-b450-a6ed6b070b94"
+                  },
+                  "Value": "1"
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 1,
+                  "ColumnBindingInfo": {
+                    "TableName": "house_管理驾驶舱1",
+                    "ColumnName": "本月排名",
+                    "GUID": "53d2ce9f-c5ac-4584-af25-f612473f8839"
+                  },
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 1,
+              "ColumnBindingInfo": {
+                "TableName": "house_管理驾驶舱1",
+                "ColumnName": "本月排名",
+                "GUID": "ed84d641-1600-4274-b001-44ed1a090c13"
+              },
+              "Value": "3"
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源3",
+      "GUID": "137ff8cc-ad1c-491f-a015-ef674bd91b35",
+      "DataSourceSetting": {
+        "TableName": "house_管理驾驶舱1",
+        "BindingInfos": [
+          {
+            "GUID": "b4fcf5d7-5f75-4772-9779-e2d79a4a3277",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "姓名",
+              "GUID": "bec4b955-5d6f-4886-b549-14eef30e4f5f"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "21b51070-7312-473f-afbd-ace165a91a54",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月签约金额",
+              "GUID": "79da3b65-52d7-44b8-ab08-3b0ac85883d6"
+            },
+            "ColumnName": "本月签约金额"
+          },
+          {
+            "GUID": "72ff8fd9-8f7f-4e9f-825c-1fe13e77139b",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月套数",
+              "GUID": "5e67f6e8-39d8-4410-9a73-fd6a68811117"
+            },
+            "ColumnName": "本月套数"
+          },
+          {
+            "GUID": "fe628cd2-3368-4f84-8cff-adbec4e760f9",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月签约金额",
+              "GUID": "9a8f12fe-893b-47bf-8a8b-d4a393991ec4"
+            },
+            "ColumnName": "上月签约金额"
+          },
+          {
+            "GUID": "2590ef8d-34c3-447d-8099-bf1a7b43cc49",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月套数",
+              "GUID": "3d639a26-0b3c-4507-abf5-fa5c56a14795"
+            },
+            "ColumnName": "上月套数"
+          },
+          {
+            "GUID": "ca625626-9e8e-4ca0-bf92-5b8ac5471702",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月排名",
+              "GUID": "a09a5ef6-7070-4036-874e-4a82c614de0d"
+            },
+            "ColumnName": "上月排名"
+          },
+          {
+            "GUID": "ef43ca3a-82f3-4f40-8440-52640bad0723",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月排名",
+              "GUID": "96b5f029-e28c-4a2f-b53f-e2be0a383813"
+            },
+            "ColumnName": "本月排名"
+          },
+          {
+            "GUID": "182fba65-4729-45d2-a53a-1c581c928d43",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_Creator",
+              "GUID": "ad589f00-8450-40a9-9ce7-af0e023d8988"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "42093371-de99-4255-ae4f-f7ae73d15991",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "9f9ca453-9804-4903-a80f-322692987f01"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "dee3edb2-0cbc-45f8-9dc2-b1d9715140be",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "caad5366-1c45-4f37-a15b-93fa43ad7d2c"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "66f0020c-068c-4f72-b61c-56a146638df3",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "9ce08042-a21c-4777-9c48-1e3fff5148f8"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "house_管理驾驶舱1",
+            "ColumnName": "本月排名",
+            "GUID": "14c20472-25b5-4d30-a140-375e7e8f480e"
+          },
+          "Value": "1"
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源4",
+      "GUID": "e9ced042-9a2f-421e-8240-335036f1610a",
+      "DataSourceSetting": {
+        "TableName": "house_管理驾驶舱1",
+        "BindingInfos": [
+          {
+            "GUID": "d3d03f27-c17a-4d67-9744-afb37a2a979c",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "姓名",
+              "GUID": "5facd571-1080-4f84-b7f2-e2b032203842"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "b95cb09f-1481-4b0d-921c-226301530600",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月签约金额",
+              "GUID": "c06c6528-26a9-4f6f-8cbd-bd2aaccb12ea"
+            },
+            "ColumnName": "本月签约金额"
+          },
+          {
+            "GUID": "fd17d4bb-386a-409c-98b7-89dfb05410c7",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月套数",
+              "GUID": "d53ef1ac-73a1-4991-be24-0dd719a1b8a2"
+            },
+            "ColumnName": "本月套数"
+          },
+          {
+            "GUID": "649c42aa-8faf-4f3c-9d89-238ddd9677e7",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月签约金额",
+              "GUID": "e9e854b7-be8d-4967-82c7-a615fc609cb7"
+            },
+            "ColumnName": "上月签约金额"
+          },
+          {
+            "GUID": "08f77507-89c3-4538-8428-ac634a1ca51f",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月套数",
+              "GUID": "a08d7a83-af28-4388-a13b-3616294b8be1"
+            },
+            "ColumnName": "上月套数"
+          },
+          {
+            "GUID": "7a6478fb-2e9d-477a-b704-1d5a3e6e3bd3",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月排名",
+              "GUID": "357ebad5-db78-4540-97f6-423186e46247"
+            },
+            "ColumnName": "上月排名"
+          },
+          {
+            "GUID": "fb4388f3-6529-419b-9b36-899fefd551c5",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月排名",
+              "GUID": "6119c329-43be-498d-8196-9f4ca03a1969"
+            },
+            "ColumnName": "本月排名"
+          },
+          {
+            "GUID": "2debb22f-16cd-4dd0-841c-805ee4c27583",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_Creator",
+              "GUID": "8b5cab1b-dcc0-4654-859e-567ed7991cbf"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "cac273de-a9df-419c-89f2-7b387fccc67a",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "1176878b-4fe6-418b-8ca6-f675f65f95a5"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "3b7ff953-bad9-45b3-b869-a53b02942c5a",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "c849254a-ea37-4d88-ad60-f2a877c51623"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "f6243beb-1c47-4baa-8b08-164d5251d5cb",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "e9b532b5-96a5-45f2-813f-f347a6ad1a2c"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "house_管理驾驶舱1",
+            "ColumnName": "本月排名",
+            "GUID": "fe50d09e-9430-4b39-967d-4cd683a48c1e"
+          },
+          "Value": "2"
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源5",
+      "GUID": "3e1b643b-bfd0-425b-84e2-3a6486294ec8",
+      "DataSourceSetting": {
+        "TableName": "house_管理驾驶舱1",
+        "BindingInfos": [
+          {
+            "GUID": "03503c51-91bb-4ac8-9526-a47afafb5727",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "姓名",
+              "GUID": "9bed11e6-0bf9-45fd-bd6a-479217d38c0d"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "fc369cbc-2f85-4dc8-b6a7-7c105e2116fb",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月签约金额",
+              "GUID": "9eedd77a-f26b-46f7-b372-84ea5ab813cb"
+            },
+            "ColumnName": "本月签约金额"
+          },
+          {
+            "GUID": "ffb92348-6430-4974-bd4b-a028146bc9ef",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月套数",
+              "GUID": "8c42b3d8-7fed-4569-8883-63792365d2cc"
+            },
+            "ColumnName": "本月套数"
+          },
+          {
+            "GUID": "134cbf72-26a5-4ab9-a288-8b946aff4597",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月签约金额",
+              "GUID": "e510d319-8a41-453b-a9e6-32b8091483d5"
+            },
+            "ColumnName": "上月签约金额"
+          },
+          {
+            "GUID": "834233c4-a534-432f-8f05-e4c985f2bc10",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月套数",
+              "GUID": "7debfcbd-f16a-43b2-9e7a-d35951a34ca1"
+            },
+            "ColumnName": "上月套数"
+          },
+          {
+            "GUID": "371a32b5-4bc1-4ba5-b2c7-b1c0610ac18f",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月排名",
+              "GUID": "6352c1b4-df8c-49cf-8454-a8203af2c340"
+            },
+            "ColumnName": "上月排名"
+          },
+          {
+            "GUID": "393d002f-f1f4-4da3-8df5-c12159b80f48",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月排名",
+              "GUID": "2fea141d-08b4-40ad-b9ac-1a54866bb1cb"
+            },
+            "ColumnName": "本月排名"
+          },
+          {
+            "GUID": "006db95c-f597-4457-b737-7b757b5b56b4",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_Creator",
+              "GUID": "0938b93f-72ad-4c82-8358-9b96c56a5a06"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "13940348-003c-498b-8020-fafdaed03516",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "ad91fdb2-79d0-4c9e-8f62-71cf8929ee93"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "bce6e2d7-cba1-47f5-871d-99290a176b0a",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "70c2b0ee-f320-49df-8083-fc0dfd8e3cc2"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "fb1487b4-d82e-43de-85d6-b030ec4d9100",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "4c25d11b-2ecb-4abe-a1ee-10ac3a979411"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "house_管理驾驶舱1",
+            "ColumnName": "本月排名",
+            "GUID": "7df704a3-4927-46bc-b74d-0015319cd0be"
+          },
+          "Value": "3"
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源6",
+      "GUID": "60c65555-4b93-4d2d-be5c-b46704e42858",
+      "DataSourceSetting": {
+        "TableName": "house_管理驾驶舱1",
+        "BindingInfos": [
+          {
+            "GUID": "169d95f9-b1ee-4210-b44a-f75b2aa5a9f6",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "姓名",
+              "GUID": "a0155c25-75f6-4060-bcaf-f0dc9fca046c"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "e7d08ea2-c147-484d-8518-e178932dca70",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月签约金额",
+              "GUID": "6ac89264-82cb-4f9c-9e42-2d8f4dbe0d55"
+            },
+            "ColumnName": "本月签约金额"
+          },
+          {
+            "GUID": "dd0bd87a-23c4-4c4c-ba2e-b62a95f1b6da",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月套数",
+              "GUID": "7bd533cc-1242-4f68-bdac-c30a5b167e21"
+            },
+            "ColumnName": "本月套数"
+          },
+          {
+            "GUID": "db326b74-fe6a-4543-afe2-a16a4fccf263",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月签约金额",
+              "GUID": "cc4e3343-ed20-4592-97f2-37228c2afaca"
+            },
+            "ColumnName": "上月签约金额"
+          },
+          {
+            "GUID": "c47f0033-5308-4a45-a589-2bf1877ab165",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月套数",
+              "GUID": "1717ef98-2b5e-46e3-b770-4eed37acfe59"
+            },
+            "ColumnName": "上月套数"
+          },
+          {
+            "GUID": "987eaa93-0ceb-4e6d-b6a9-66f86be1a6e3",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "上月排名",
+              "GUID": "e043f561-4c39-4390-ab48-aefa689cdbeb"
+            },
+            "ColumnName": "上月排名"
+          },
+          {
+            "GUID": "20373441-e18d-4677-ac27-92b63f4d1003",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "本月排名",
+              "GUID": "ae390761-784b-4859-99e3-fd644522deb9"
+            },
+            "ColumnName": "本月排名"
+          },
+          {
+            "GUID": "939072ad-8557-4e8b-a4ea-3aca2623082e",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_Creator",
+              "GUID": "40558aae-5c73-47fa-97e5-5dec1134a374"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "90f3b061-6a62-451d-a305-f186617f3de9",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "fe8aa86a-0e0f-483c-b573-d54912a6e722"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "baefc440-ad21-4f6c-9753-31f230934856",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "044bcf1d-8594-44b0-9b40-4895b86dbc13"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "e6ea46d3-43ee-47e2-b829-a92aea781d0b",
+            "BindingInfo": {
+              "TableName": "house_管理驾驶舱1",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "589cca11-d8d8-4678-9235-a343d10c242b"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "房地产-管理驾驶舱"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "房地产-管理驾驶舱",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}

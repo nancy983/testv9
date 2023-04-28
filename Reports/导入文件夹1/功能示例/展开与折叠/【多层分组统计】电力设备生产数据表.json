@@ -1,0 +1,138 @@
+{
+  "Name": "【多层分组统计】电力设备生产数据表",
+  "DataSources": [
+    {
+      "Name": "电力设备生产数据",
+      "GUID": "75f1c1cd-bb34-45fc-8ac0-6bf32020de35",
+      "DataSourceSetting": {
+        "TableName": "电力设备生产数据",
+        "BindingInfos": [
+          {
+            "GUID": "3543a88f-dd9e-47a5-8f88-d15c5c50ed5e",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "ID",
+              "GUID": "32720eac-94e8-4bce-a241-ce0cd719a3e6"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "f717c9fd-4418-4e18-a402-78447967a263",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "生产方式",
+              "GUID": "f0c76929-d5bc-47a2-8612-8f579225eef4"
+            },
+            "ColumnName": "生产方式"
+          },
+          {
+            "GUID": "a629314e-efe0-4033-9c91-53d310fe1711",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "产品性质",
+              "GUID": "62268c35-dbfa-49bd-a7c5-e47657a8c360"
+            },
+            "ColumnName": "产品性质"
+          },
+          {
+            "GUID": "308e5831-53b6-45ab-b38d-10d3afccea6a",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "TYPE",
+              "GUID": "4afc7da6-a423-4e81-86e9-9d6729c64746"
+            },
+            "ColumnName": "TYPE"
+          },
+          {
+            "GUID": "7d20eef7-79d6-422f-877f-9db5204f32e0",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "QTY",
+              "GUID": "1c0a5c5d-9477-4538-8008-53c096398f86"
+            },
+            "ColumnName": "QTY"
+          },
+          {
+            "GUID": "d01f492d-0459-43d6-9342-21b2ca76deef",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "所属事业部",
+              "GUID": "35932aca-96f3-4f45-a141-b37dabc9ed58"
+            },
+            "ColumnName": "所属事业部"
+          },
+          {
+            "GUID": "7c9feab1-2f61-4b95-b626-0f60698402eb",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "计划采购时间",
+              "GUID": "5de8fd58-b8b0-48e2-a37d-fbba4018deca"
+            },
+            "ColumnName": "计划采购时间"
+          },
+          {
+            "GUID": "7e924476-8a37-4b33-9c33-2a3ba7f02a33",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "周",
+              "GUID": "57d68aa0-690d-47c2-9df9-ee9910469f78"
+            },
+            "ColumnName": "周"
+          },
+          {
+            "GUID": "9f566fc8-aaa2-42f9-9d0a-c103296acf52",
+            "BindingInfo": {
+              "TableName": "电力设备生产数据",
+              "ColumnName": "月",
+              "GUID": "b07f2cbc-adb8-42e3-9e7d-12ea9e48942d"
+            },
+            "ColumnName": "月"
+          }
+        ],
+        "OrderBySqlCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "电力设备生产数据",
+                "ColumnName": "生产方式",
+                "GUID": "8aae9d76-6562-46b6-bc28-19d4d83364cd"
+              },
+              "Order": 0
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【多层分组统计】电力设备生产数据表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【多层分组统计】电力设备生产数据表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

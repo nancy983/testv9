@@ -1,0 +1,248 @@
+{
+  "Name": "交通事故大数据分析-受害人",
+  "DataSources": [
+    {
+      "Name": "traffic_accidentbyposition",
+      "GUID": "b4ae02da-13a5-49d3-9dcb-abe5fbd1a9e0",
+      "DataSourceSetting": {
+        "TableName": "traffic_accidentbyposition",
+        "BindingInfos": [
+          {
+            "GUID": "2b6e3363-ea95-4743-a603-841027b5a1fb",
+            "BindingInfo": {
+              "TableName": "traffic_accidentbyposition",
+              "ColumnName": "部位",
+              "GUID": "09c17f28-598f-4ebe-957b-f905f1aacd2b"
+            },
+            "ColumnName": "部位"
+          },
+          {
+            "GUID": "81a00419-8c0b-4568-aad6-45846de712f3",
+            "BindingInfo": {
+              "TableName": "traffic_accidentbyposition",
+              "ColumnName": "人数",
+              "GUID": "0378eebb-5030-400b-bccc-82c2d3a20bda"
+            },
+            "ColumnName": "人数"
+          },
+          {
+            "GUID": "1f4ab25e-1fdd-4d1e-9b1f-686ccb93ab1e",
+            "BindingInfo": {
+              "TableName": "traffic_accidentbyposition",
+              "ColumnName": "FGC_Creator",
+              "GUID": "18f38cd3-98b6-4bfa-becf-eeda83e45ffb"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "5cba90dc-d0e6-4faa-a2c4-45a83863d193",
+            "BindingInfo": {
+              "TableName": "traffic_accidentbyposition",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "d06f6af3-745e-4181-9940-c1b916c09794"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "a138baac-dd8a-442c-9267-b21b0d4ab9eb",
+            "BindingInfo": {
+              "TableName": "traffic_accidentbyposition",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "99da3fcf-4bca-4feb-bc92-9d6b92ed53bc"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "8251d548-8bda-4732-b40a-6187a2295328",
+            "BindingInfo": {
+              "TableName": "traffic_accidentbyposition",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "7239038d-0541-4a6b-b244-d9372938137a"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "Traffic_Victims",
+      "GUID": "5045d02b-43e3-4e91-83f2-e10bbd3525f7",
+      "DataSourceSetting": {
+        "TableName": "traffic_victims",
+        "BindingInfos": [
+          {
+            "GUID": "596adbfe-6df0-470a-b77b-1f2701d4b366",
+            "BindingInfo": {
+              "TableName": "traffic_victims",
+              "ColumnName": "受伤者的身份",
+              "GUID": "9249b68f-fe9c-4197-80b0-a57d19be58f0"
+            },
+            "ColumnName": "受伤者的身份"
+          },
+          {
+            "GUID": "bb877a29-c938-4e40-95ba-85c75c752d70",
+            "BindingInfo": {
+              "TableName": "traffic_victims",
+              "ColumnName": "人数",
+              "GUID": "64b102ff-fb5e-4116-b118-d09fe28cecc8"
+            },
+            "ColumnName": "人数"
+          },
+          {
+            "GUID": "ee7aa2cc-c56f-4b5f-9f0a-c724123740d6",
+            "BindingInfo": {
+              "TableName": "traffic_victims",
+              "ColumnName": "FGC_Creator",
+              "GUID": "c935c25b-edad-4d36-b2c7-ca691982c5f6"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "293e4ef6-8916-4af6-8986-a2ecd044ba95",
+            "BindingInfo": {
+              "TableName": "traffic_victims",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "1ed34baf-91a4-4c65-a69e-8f5f07e2e7bd"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "eec28b79-9b58-429e-a39c-f0976b1fa4c2",
+            "BindingInfo": {
+              "TableName": "traffic_victims",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "1ab45224-1381-453c-89a8-0aa5bdbbdaf5"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "cc014b07-1483-4d03-802e-41a442069360",
+            "BindingInfo": {
+              "TableName": "traffic_victims",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "fbcd33ce-4097-46c5-a0e4-06f2996875ff"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_Accidentsbyage",
+      "GUID": "d30ad9fb-c1de-4495-936a-bb74070b7aee",
+      "DataSourceSetting": {
+        "TableName": "traffic_accidentsbyage",
+        "BindingInfos": [
+          {
+            "GUID": "f6006fd4-bf21-4ee4-81d1-88d7405b4617",
+            "BindingInfo": {
+              "TableName": "traffic_accidentsbyage",
+              "ColumnName": "年龄",
+              "GUID": "8f629048-fd90-4c23-b54b-9fdfb76d1988"
+            },
+            "ColumnName": "年龄"
+          },
+          {
+            "GUID": "77b8084b-21b2-4cfa-a30a-657d3833de8d",
+            "BindingInfo": {
+              "TableName": "traffic_accidentsbyage",
+              "ColumnName": "男",
+              "GUID": "414326c9-97e4-4e1d-b67f-eb6d8945b301"
+            },
+            "ColumnName": "男"
+          },
+          {
+            "GUID": "c265b9ba-28db-4172-9ebc-99a1d0529842",
+            "BindingInfo": {
+              "TableName": "traffic_accidentsbyage",
+              "ColumnName": "女",
+              "GUID": "4492e62b-266c-4fc7-a4b9-8f68da3d92d0"
+            },
+            "ColumnName": "女"
+          },
+          {
+            "GUID": "c9570fad-3604-4ce1-a66d-855a54c961d8",
+            "BindingInfo": {
+              "TableName": "traffic_accidentsbyage",
+              "ColumnName": "FGC_Creator",
+              "GUID": "e91d8da6-9366-4e6f-97b0-7ca2e2cfb12f"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "3fa4d0a8-25c4-473e-b0df-1a49967049ac",
+            "BindingInfo": {
+              "TableName": "traffic_accidentsbyage",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "8bf46c2f-312f-43c3-ba21-5bf138cb82c3"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "a2ea7380-8ce6-469c-a0e5-476e27c49870",
+            "BindingInfo": {
+              "TableName": "traffic_accidentsbyage",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "80b50d1c-16fe-47fb-b0ed-269e257726f7"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "c3c16ee8-e00c-4eb7-afc5-3cb87cc80e24",
+            "BindingInfo": {
+              "TableName": "traffic_accidentsbyage",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "0d93fb20-324e-474a-b88d-fc9ff5ceeeb5"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "交通事故大数据分析-受害人"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "交通事故大数据分析-受害人",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

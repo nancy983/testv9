@@ -1,0 +1,226 @@
+{
+  "Name": "【复杂交叉表】财政教育经费投入情况表",
+  "DataSources": [
+    {
+      "Name": "财政教育经费",
+      "GUID": "e46fcc24-f830-4787-ab8e-f1b3d8644800",
+      "DataSourceSetting": {
+        "TableName": "财政教育经费",
+        "BindingInfos": [
+          {
+            "GUID": "5c4a70ee-a3c5-411d-8469-69b6e5e2dee8",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "ID",
+              "GUID": "f4e83cc7-147b-4132-a0a3-9bcd5a2d4da4"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "c3be571d-13e6-44cc-b8fe-ea6be701b758",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "学校类别",
+              "GUID": "0fd29e14-a33d-4e3a-a06c-b5133494271b"
+            },
+            "ColumnName": "学校类别"
+          },
+          {
+            "GUID": "b6af46c8-dc47-43fe-ac5f-5938b469f998",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "学校名称",
+              "GUID": "33f46496-7143-4c01-8c7e-c216a1f18767"
+            },
+            "ColumnName": "学校名称"
+          },
+          {
+            "GUID": "375f2f6d-0e50-43ae-9bf4-85164c04862e",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "教育人员经费",
+              "GUID": "c666ff5c-3619-46ca-85c2-3da8640e91a7"
+            },
+            "ColumnName": "教育人员经费"
+          },
+          {
+            "GUID": "70e49dbf-56f7-482e-8f1a-31ffc93c9658",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "教育日常公用经费",
+              "GUID": "ea82f124-01f7-41e7-a3dd-478d4a8b91dc"
+            },
+            "ColumnName": "教育日常公用经费"
+          },
+          {
+            "GUID": "d0e32f6c-2b5a-40c8-8c7b-6da033a04bff",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "教育标准化建设经费",
+              "GUID": "39444e21-e270-4247-b71f-f015108089e5"
+            },
+            "ColumnName": "教育标准化建设经费"
+          },
+          {
+            "GUID": "b991b2c8-bbc1-4ecf-91fa-689a4328aef0",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "教育信息化建设经费",
+              "GUID": "f31325b5-31bc-42d2-a313-2b330e46f9e0"
+            },
+            "ColumnName": "教育信息化建设经费"
+          },
+          {
+            "GUID": "6d4ef2cb-d8bf-4610-8e02-75eaf5862bfa",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "基建拨款",
+              "GUID": "ffdd8226-b0cd-463f-90ae-1c797c041781"
+            },
+            "ColumnName": "基建拨款"
+          },
+          {
+            "GUID": "699d6890-51ac-4248-ab3e-e7e3a21e92e3",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "村人员经费",
+              "GUID": "83b5791c-e958-407f-90e4-8cdd875d436b"
+            },
+            "ColumnName": "村人员经费"
+          },
+          {
+            "GUID": "3300ed9c-22ab-40bc-b1f0-a006a579a2de",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "村日常公用经费",
+              "GUID": "fa2540b9-1a7e-4ae2-9d41-a8d2a8bed3dc"
+            },
+            "ColumnName": "村日常公用经费"
+          },
+          {
+            "GUID": "c6ec6880-6f3b-4fde-9981-a9fbe71cdc00",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "村项目经费",
+              "GUID": "9e1cc1c5-7f4a-4770-a01e-17a3e074fcdf"
+            },
+            "ColumnName": "村项目经费"
+          },
+          {
+            "GUID": "bb599d05-c128-4db3-bc71-307039a0beb9",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "村基建投入",
+              "GUID": "38147653-c02c-43b4-9f0e-dab9ebdab47e"
+            },
+            "ColumnName": "村基建投入"
+          },
+          {
+            "GUID": "2105139a-e018-4a96-b07a-b6dcca9f0640",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "社会项目经费",
+              "GUID": "8b36c1a9-4db7-4e05-b129-514e573b7d04"
+            },
+            "ColumnName": "社会项目经费"
+          },
+          {
+            "GUID": "66231aaf-e152-4222-9d68-1fad14cb928b",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "社会基建投入",
+              "GUID": "90a33fe0-3247-452d-b6c7-f6a329f1cabd"
+            },
+            "ColumnName": "社会基建投入"
+          },
+          {
+            "GUID": "407f958e-071c-40d5-8f96-638745f0c7c9",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "信息化本年投入",
+              "GUID": "24f5430c-8d0d-4b1b-abaa-16e3541e57cd"
+            },
+            "ColumnName": "信息化本年投入"
+          },
+          {
+            "GUID": "f4d7abbb-b9d9-420e-92de-9b2292abcf7b",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "电脑合计",
+              "GUID": "75fd0d18-b7e1-4c0a-bb7a-71e660222642"
+            },
+            "ColumnName": "电脑合计"
+          },
+          {
+            "GUID": "0193d9b6-def5-49f8-9d86-2e0c7f3ff97e",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "电脑本年",
+              "GUID": "ad9fc988-a838-4160-a557-631ac37f1045"
+            },
+            "ColumnName": "电脑本年"
+          },
+          {
+            "GUID": "4ea457f4-9f58-4bd4-a06d-8508454b8ce4",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "校园网合计",
+              "GUID": "c8ddf891-6c5c-45ad-98ab-c82ceaef7ced"
+            },
+            "ColumnName": "校园网合计"
+          },
+          {
+            "GUID": "16c03f49-67f0-4595-a3de-f3ea3a8f150a",
+            "BindingInfo": {
+              "TableName": "财政教育经费",
+              "ColumnName": "校园网本年",
+              "GUID": "f2e9342d-91c2-4b64-9d21-14c203144c83"
+            },
+            "ColumnName": "校园网本年"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【复杂交叉表】财政教育经费投入情况表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【复杂交叉表】财政教育经费投入情况表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

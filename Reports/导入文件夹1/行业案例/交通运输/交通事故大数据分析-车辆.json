@@ -1,0 +1,167 @@
+{
+  "Name": "交通事故大数据分析-车辆",
+  "DataSources": [
+    {
+      "Name": "traffic_vehiclebrand",
+      "GUID": "54a9b6bc-f19c-46ab-97c0-91a0d7d46e70",
+      "DataSourceSetting": {
+        "TableName": "traffic_vehiclebrand",
+        "BindingInfos": [
+          {
+            "GUID": "a2d08834-5bd7-4faa-b6cd-de6eb4c86139",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclebrand",
+              "ColumnName": "汽车品牌",
+              "GUID": "9540303d-0e53-467c-a020-a66ed10afab2"
+            },
+            "ColumnName": "汽车品牌"
+          },
+          {
+            "GUID": "7865f4a4-421d-45a5-8397-4dc8cf6116b2",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclebrand",
+              "ColumnName": "数量",
+              "GUID": "d680c6cf-481b-41e9-8116-503798257acd"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "5c93c2b9-4c73-4d80-b649-4aa85106b0b2",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclebrand",
+              "ColumnName": "FGC_Creator",
+              "GUID": "d43d2e03-cede-48b2-94c3-9b18b3f44175"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "75ae526e-3151-41eb-b8fc-af350d093c70",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclebrand",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "298f6304-57a3-4bc8-b3b1-402aba42e211"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "1781eaa9-4432-42c2-b742-1296e280b518",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclebrand",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "67427645-a22c-411c-9445-bba9c6e667e3"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "84f85a45-2bf5-4ab4-aa43-b9e1eb6d6aec",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclebrand",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "a6923dc2-6868-45a5-b1c0-34a957b9a447"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_vehiclemodel",
+      "GUID": "77249810-7aa7-485c-8858-5636a3724cea",
+      "DataSourceSetting": {
+        "TableName": "traffic_vehiclemodel",
+        "BindingInfos": [
+          {
+            "GUID": "694cee13-0849-4fb8-9632-9550ba23fd48",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclemodel",
+              "ColumnName": "规格型号",
+              "GUID": "dd1d9da0-b1c7-4f13-bf40-9d01e4eccb59"
+            },
+            "ColumnName": "规格型号"
+          },
+          {
+            "GUID": "67593ee2-a951-4263-a71e-b9facee44bc5",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclemodel",
+              "ColumnName": "数量",
+              "GUID": "0d7227da-43fc-4194-982f-841d5e04abc6"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "86617909-0abc-4526-913c-3184daa5e866",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclemodel",
+              "ColumnName": "FGC_Creator",
+              "GUID": "c049935c-60f8-4665-8105-996516363813"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "4e866f42-3430-42c2-a759-51a82837e951",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclemodel",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "3c1035be-c724-41a4-8054-6d2633e57fbb"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "6d6b691d-19d2-4b51-9837-a4d27f96065f",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclemodel",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "26737f73-4755-4b07-a44b-940e6b4fb0ed"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "0433b132-1c17-4167-966f-54f17b64fe90",
+            "BindingInfo": {
+              "TableName": "traffic_vehiclemodel",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "225bd873-de00-4ad9-96c1-216d5b968e96"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "交通事故大数据分析-车辆"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "交通事故大数据分析-车辆",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

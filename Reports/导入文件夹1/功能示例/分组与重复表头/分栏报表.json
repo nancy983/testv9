@@ -1,0 +1,118 @@
+{
+  "Name": "分栏报表",
+  "DataSources": [
+    {
+      "Name": "物品清单",
+      "GUID": "988eeee6-5234-4eaa-8e03-f13753b025a7",
+      "DataSourceSetting": {
+        "TableName": "物品清单",
+        "BindingInfos": [
+          {
+            "GUID": "323cfb50-a9cd-4bf6-9a58-a495dd256e1e",
+            "BindingInfo": {
+              "TableName": "物品清单",
+              "ColumnName": "项目ID",
+              "GUID": "bded2a5a-6481-497c-883d-7c3d38e554ad"
+            },
+            "ColumnName": "项目ID"
+          },
+          {
+            "GUID": "eeb60346-122c-4895-94b5-f1c5c0d02da3",
+            "BindingInfo": {
+              "TableName": "物品清单",
+              "ColumnName": "类别名称",
+              "GUID": "596758f2-5a12-437c-a124-f6645df5cc41"
+            },
+            "ColumnName": "类别名称"
+          },
+          {
+            "GUID": "fadd7e47-e6d1-4d1e-9a63-2427285e459c",
+            "BindingInfo": {
+              "TableName": "物品清单",
+              "ColumnName": "必需性",
+              "GUID": "231b040f-5117-454a-83b8-8e9fcea11e26"
+            },
+            "ColumnName": "必需性"
+          },
+          {
+            "GUID": "f675fe88-3c6a-43b8-82cd-373b2f512c1c",
+            "BindingInfo": {
+              "TableName": "物品清单",
+              "ColumnName": "项目名称",
+              "GUID": "c0a8b585-38c0-4d39-b57f-b76459b0afde"
+            },
+            "ColumnName": "项目名称"
+          },
+          {
+            "GUID": "de6a2699-2f73-4413-8323-8365df8edb76",
+            "BindingInfo": {
+              "TableName": "物品清单",
+              "ColumnName": "数量",
+              "GUID": "a87301f7-2760-427c-a377-5b981fc7729b"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "b304d375-161f-4137-9847-236ac7793595",
+            "BindingInfo": {
+              "TableName": "物品清单",
+              "ColumnName": "项目编号",
+              "GUID": "da0d1e32-497c-410d-9082-c6476984933a"
+            },
+            "ColumnName": "项目编号"
+          },
+          {
+            "GUID": "69858145-2454-479e-9fca-d120fd67e90d",
+            "BindingInfo": {
+              "TableName": "物品清单",
+              "ColumnName": "行号",
+              "GUID": "115ef1fe-9c4a-4fae-9bdb-50473d59a7b6"
+            },
+            "ColumnName": "行号"
+          }
+        ],
+        "OrderBySqlCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "物品清单",
+                "ColumnName": "行号",
+                "GUID": "02e94564-6e77-4664-8070-76c413657e52"
+              },
+              "Order": 0
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "分栏报表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "分栏报表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

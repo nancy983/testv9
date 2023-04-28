@@ -1,0 +1,219 @@
+{
+  "Name": "关键字测试",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "任务ID"
+        },
+        {
+          "Name": "任务名称"
+        },
+        {
+          "Name": "任务描述"
+        },
+        {
+          "Name": "发件人"
+        },
+        {
+          "Name": "流程"
+        },
+        {
+          "Name": "流程ID"
+        },
+        {
+          "Name": "流程定义ID"
+        },
+        {
+          "Name": "流程开始时间"
+        },
+        {
+          "Name": "负责人"
+        },
+        {
+          "Name": "任务开始时间"
+        },
+        {
+          "Name": "空"
+        },
+        {
+          "Name": "现在"
+        },
+        {
+          "Name": "事件类型"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "流程和任务信息",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "任务ID",
+            "GUID": "f5f517b9-bec1-420c-9fa1-6de794344b81"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=任务ID"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "任务名称",
+            "GUID": "cc06de0b-1303-4795-96e7-f32a2ffcc905"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=任务名称"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "任务描述",
+            "GUID": "75663eec-fb1b-45de-8743-a9d490e046e3"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=任务描述"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "发件人",
+            "GUID": "b3130396-7e10-4329-8e2e-ee9111067590"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=发件人"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "流程",
+            "GUID": "63e4d6be-978e-4142-ab90-bbe7cb08f04c"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=流程"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "流程ID",
+            "GUID": "085641d3-f37e-41ca-9928-ab08827da949"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=流程ID"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "流程定义ID",
+            "GUID": "c50288f8-98ac-4eb8-99f5-7151a7186d5d"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=流程定义ID"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "流程开始时间",
+            "GUID": "f03b6b56-96e9-4520-b830-66461d21c4ec"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=流程开始时间"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "负责人",
+            "GUID": "826cccde-1d9f-4cd6-8e9d-166ba7162eb9"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=负责人"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "任务开始时间",
+            "GUID": "0c0dc062-0762-4a04-b48a-4d3f2eb8564b"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=任务开始时间"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "空",
+            "GUID": "900140d2-f924-4c02-bffe-9050015270d9"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=空"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "现在",
+            "GUID": "a19e8fdf-732f-411f-af5f-f68c1309840e"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=现在"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "流程和任务信息",
+            "ColumnName": "事件类型",
+            "GUID": "ad2b771a-2747-43e2-b85b-634ff595f548"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=事件类型"
+          }
+        }
+      ]
+    }
+  ]
+}

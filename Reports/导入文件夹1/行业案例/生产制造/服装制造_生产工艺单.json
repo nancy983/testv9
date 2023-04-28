@@ -1,0 +1,744 @@
+{
+  "Name": "服装制造_生产工艺单",
+  "DataSources": [
+    {
+      "Name": "规格详情",
+      "GUID": "1b09a629-ba4f-4b08-af95-c311c97d80c5",
+      "DataSourceSetting": {
+        "TableName": "manufacture_规格详情",
+        "BindingInfos": [
+          {
+            "GUID": "7172a471-bcc8-495b-a1be-7d462e779082",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "部位",
+              "GUID": "a7985523-4f85-43c8-bf9a-a8bc197f6f21"
+            },
+            "ColumnName": "部位"
+          },
+          {
+            "GUID": "6efe40c9-e6a8-4db8-9dcb-11c34bd1d63d",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "号型",
+              "GUID": "ee1e0e52-ab4a-4771-988b-26948a0abf97"
+            },
+            "ColumnName": "号型"
+          },
+          {
+            "GUID": "48f8301e-dc7d-4157-a203-b1ac9b8c50ec",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "类别",
+              "GUID": "40bb1ba7-b764-4b97-9bde-acb34fd94f62"
+            },
+            "ColumnName": "类别"
+          },
+          {
+            "GUID": "d02505fb-196c-4c91-bafc-a39a08d81a0d",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "数据",
+              "GUID": "57bb1bbe-7bec-45f7-9d16-528cca275a53"
+            },
+            "ColumnName": "数据"
+          },
+          {
+            "GUID": "8777b4a3-d8ff-4943-958a-baed24d01431",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "公差",
+              "GUID": "e1001662-8ddd-4c4e-8720-bcd66535c702"
+            },
+            "ColumnName": "公差"
+          },
+          {
+            "GUID": "edc9b9ca-6fb0-4b87-8ce2-11ae929e54c5",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "测量方法",
+              "GUID": "e3c25176-efb8-401f-87ff-92962e4caf99"
+            },
+            "ColumnName": "测量方法"
+          },
+          {
+            "GUID": "8caf715e-7602-4bb2-9946-a53ef554e120",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "FGC_Creator",
+              "GUID": "81680edc-3776-45a0-9956-b74a8fda3e3d"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "29ca3bdf-318e-4af2-84f1-9f343d57d272",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "64d35eb3-a75e-457f-af29-4204d9767d61"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "f990e72f-4129-4c71-b2d9-16b02ab6e1b5",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "3b9cb1ee-b243-4f67-8f25-cc3b55eda63c"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "ce16135e-1790-4444-9345-5fd730d40dcf",
+            "BindingInfo": {
+              "TableName": "manufacture_规格详情",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "cab82421-0b86-436f-86fd-e835eb522c5e"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "使用面料",
+      "GUID": "e7d3275e-1787-49c1-8fd1-e7f2ec36ad7d",
+      "DataSourceSetting": {
+        "TableName": "manufacture_使用面料",
+        "BindingInfos": [
+          {
+            "GUID": "add5e1c5-956d-423d-b774-f130a17f41b5",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "品种",
+              "GUID": "b31c71a8-e21f-4177-a548-1fc53c8a6fcf"
+            },
+            "ColumnName": "品种"
+          },
+          {
+            "GUID": "27291287-fb3d-4cc6-b194-f9434c8649fc",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "幅宽",
+              "GUID": "2999dd75-fee2-4e87-b8a5-379e8b5dc172"
+            },
+            "ColumnName": "幅宽"
+          },
+          {
+            "GUID": "9304bd00-c24f-4ade-9faf-7d70112f7266",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "料率(件)",
+              "GUID": "717e3c16-fd22-4686-8f75-5128a8784a9b"
+            },
+            "ColumnName": "料率_件_"
+          },
+          {
+            "GUID": "cabfb51d-f3b4-44a5-8813-2dc037ec2f49",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "料率(套)",
+              "GUID": "8cad7337-1ec0-461a-8883-f326c59d4919"
+            },
+            "ColumnName": "料率_套_"
+          },
+          {
+            "GUID": "16bd7a75-a305-4721-a495-d63a2414af11",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "裁剪方法",
+              "GUID": "b1d22139-a4ec-4416-a8eb-5dc67234b656"
+            },
+            "ColumnName": "裁剪方法"
+          },
+          {
+            "GUID": "424eb5a1-c119-43fb-8a32-f22b1e7b5d24",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_Creator",
+              "GUID": "ceefe9d7-b352-4d39-9bd2-02331582b8e6"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "cc1b8868-b029-4380-a45e-7a1de2d90c1d",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "1777768f-f380-45fd-9da5-17079ab0c94d"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "08d5783f-0e2e-439d-8372-e8b04cc1f4e1",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "ac4161c5-3d16-4826-8a0f-b0369341e1e1"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "4f7959d4-d337-4495-a417-562191d34591",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "f7f4caf3-12f6-453a-b87d-a0752cde34ce"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "裁剪方法",
+      "GUID": "cc638c27-9475-4e66-8c99-baa9bf44b201",
+      "DataSourceSetting": {
+        "TableName": "manufacture_使用面料",
+        "BindingInfos": [
+          {
+            "GUID": "b4c43200-4668-4347-91d1-e7645f15eea7",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "品种",
+              "GUID": "ac48b7ba-1279-4fca-80a1-79b18c73975f"
+            },
+            "ColumnName": "品种"
+          },
+          {
+            "GUID": "36246475-1987-4685-bcf0-b52cccc2981d",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "幅宽",
+              "GUID": "488597d6-4269-4570-9cc1-c3222fcbd560"
+            },
+            "ColumnName": "幅宽"
+          },
+          {
+            "GUID": "09c7e042-f5bf-4d24-98de-b621087d4446",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "料率(件)",
+              "GUID": "8f5a29f0-624a-47e2-8683-221f57c47825"
+            },
+            "ColumnName": "料率_件_"
+          },
+          {
+            "GUID": "c5623cd6-89c1-4e89-9563-16b437f2012a",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "料率(套)",
+              "GUID": "20149e58-2ac7-4971-ba74-92ef86f47cf6"
+            },
+            "ColumnName": "料率_套_"
+          },
+          {
+            "GUID": "12e1a2d0-f298-4f51-85d3-69d387246c42",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "裁剪方法",
+              "GUID": "84336697-48ce-469e-9faa-74ac9a978540"
+            },
+            "ColumnName": "裁剪方法"
+          },
+          {
+            "GUID": "90177c4a-0ed1-4075-a364-c7f4c3020740",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_Creator",
+              "GUID": "c003702c-1906-4113-a550-a9334391ebf4"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "b576cf1b-bb69-45c3-8e67-8c68edd177f4",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "f8d34082-a67f-4a57-89a5-4ba82b5564bf"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "206cefbc-2067-4b9c-990c-319055ba28fb",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "0ddc5d4a-f08a-4f45-b928-680a8f1c262b"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "4fbad300-b22d-454a-9f2b-47af99397c2a",
+            "BindingInfo": {
+              "TableName": "manufacture_使用面料",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "ae3479ab-2aad-446c-9fd6-1816ed3c8318"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "OrderBySqlCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "manufacture_使用面料",
+                "ColumnName": "裁剪方法",
+                "GUID": "1ae23513-2932-4f74-b4d3-fc662585c478"
+              },
+              "Order": 0
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "辅料详情",
+      "GUID": "131191c4-5641-4648-aad7-14e1bbe0cb80",
+      "DataSourceSetting": {
+        "TableName": "manufacture_辅料详情",
+        "BindingInfos": [
+          {
+            "GUID": "c7f2a4b6-339c-4c49-bd88-af80fc288f7c",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "分类",
+              "GUID": "1346dc4a-89c5-4865-be80-ccc35dd65956"
+            },
+            "ColumnName": "分类"
+          },
+          {
+            "GUID": "b8cca4b4-561f-47e2-940a-2763494d29c4",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "品名",
+              "GUID": "701ee255-ce53-4fe0-bfc8-5c0e5e6cf568"
+            },
+            "ColumnName": "品名"
+          },
+          {
+            "GUID": "59e26ed5-9779-4001-8fb9-a8db0e260b92",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "规格",
+              "GUID": "4c37bdcb-ff72-4acd-b5ce-2041bcd5efc8"
+            },
+            "ColumnName": "规格"
+          },
+          {
+            "GUID": "519ed78b-d421-490a-aa1e-8fbb44d8d94e",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "数量",
+              "GUID": "333b9fc7-01b0-4950-be80-4b14a1dfae1f"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "17fb1aba-723d-4a32-aaa0-fae1d90f1b39",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "使用部位",
+              "GUID": "fdc46372-e6e9-4845-98fe-8c597caccf0f"
+            },
+            "ColumnName": "使用部位"
+          },
+          {
+            "GUID": "8b0779bc-ac16-433f-928d-6cda9b09b61e",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "FGC_Creator",
+              "GUID": "d9bc658d-2388-4823-8923-17a350ecd151"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "e7862a09-82ef-4fb9-8022-15f22a24c5b8",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "a3fe5970-f487-4506-ae61-224c24c99817"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "9240d0f9-bf9f-4c49-980f-1da6bee4e3b9",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "67dbd2d8-d13a-4b6f-af81-cbee5e101560"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "ea704dfb-a778-4846-b7ad-055e94d58409",
+            "BindingInfo": {
+              "TableName": "manufacture_辅料详情",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "8a3cb1e2-3143-46e4-8d57-dee5c5859a13"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "颜色详情",
+      "GUID": "0651dae3-1bb6-4b22-8b8d-ef292de9a293",
+      "DataSourceSetting": {
+        "TableName": "manufacture_颜色详情",
+        "BindingInfos": [
+          {
+            "GUID": "496aa2b2-11ab-40db-a47d-11e2dab91745",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "分类",
+              "GUID": "afe0af8a-6f03-4631-8f89-2c47d05006e8"
+            },
+            "ColumnName": "分类"
+          },
+          {
+            "GUID": "b07fa2f4-19ad-4274-870d-0f45f4d80404",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "部位",
+              "GUID": "f8582af1-e902-4bdc-b89a-6700b294e8ef"
+            },
+            "ColumnName": "部位"
+          },
+          {
+            "GUID": "eddec87f-0dea-4fb7-b351-b336b1106b3d",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "颜色",
+              "GUID": "d4e1d8e2-b7bd-4bb8-9441-6c85dc7232c0"
+            },
+            "ColumnName": "颜色"
+          },
+          {
+            "GUID": "42cf16dd-c995-42aa-a30e-e697d03b1ed8",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "编号",
+              "GUID": "cef6c305-77aa-426b-be5a-fb5f1773da4b"
+            },
+            "ColumnName": "编号"
+          },
+          {
+            "GUID": "0be60d42-0be4-4312-99ac-015f60a9e0ab",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "成分",
+              "GUID": "add2d6d9-903d-4b8d-bd50-8ee29d9f1b91"
+            },
+            "ColumnName": "成分"
+          },
+          {
+            "GUID": "3e344d22-b8e0-45d5-ba56-927a46f738bc",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "FGC_Creator",
+              "GUID": "42d532bf-ebd3-479f-a412-866e30285ecb"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "9dcc66dd-71d1-4240-a9cd-218642fd8abc",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "cd4327e3-4eb5-4428-b3e5-b5302ebe2154"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "24899100-6a70-4d21-837a-32c52161358b",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "dfdf72a7-4e21-4e9b-8923-155fdcbd26cd"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "c4340661-4c8a-4f5b-9006-3460d52701d3",
+            "BindingInfo": {
+              "TableName": "manufacture_颜色详情",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "42ded3fe-50a8-4bd3-aa89-93b21d3ad017"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "裁剪详情",
+      "GUID": "0ac31e8d-241d-4a3f-97c8-3fb49da37658",
+      "DataSourceSetting": {
+        "TableName": "manufacture_裁剪详情",
+        "BindingInfos": [
+          {
+            "GUID": "cd942e2c-430f-42fb-8d1f-60b08d819bca",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "分类",
+              "GUID": "56ad14c3-a5f1-46fe-a1ce-428539cc0545"
+            },
+            "ColumnName": "分类"
+          },
+          {
+            "GUID": "d4891769-8da3-4ed4-8d29-386d23703ad8",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "部位",
+              "GUID": "e5578f84-eb67-4a37-81ff-362dc9615b49"
+            },
+            "ColumnName": "部位"
+          },
+          {
+            "GUID": "6c450e13-5886-461d-8cbc-53e35e35a046",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "纱向",
+              "GUID": "5a1d0764-ba02-447e-99a4-3348b74dd0ad"
+            },
+            "ColumnName": "纱向"
+          },
+          {
+            "GUID": "b6221714-ee0d-4f29-9612-9648eb3f575e",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "数量",
+              "GUID": "0e3a69bc-aa23-47da-aaed-75c7d9064bd6"
+            },
+            "ColumnName": "数量"
+          },
+          {
+            "GUID": "3f2881f0-1e97-4152-a2b1-0089f4b30a7e",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "FGC_Creator",
+              "GUID": "5c8626d9-b1d3-435e-8a43-c4b9f6de1358"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "160da863-7768-410c-8003-82cdb8e05791",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "cb2434bc-ee6d-4bcb-9a06-044d00a18939"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "e9aeee44-a718-4c2c-bd83-49e0e0bacebf",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "8ed1b038-3656-4380-ae0c-47f71ea3dd76"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "bd601365-5a46-4e7a-afb8-e405bebbf407",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪详情",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "c06d5881-90f3-40ab-b2de-ee1491f1ad49"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "裁剪",
+      "GUID": "37515689-ff82-4018-b879-374c1cba513c",
+      "DataSourceSetting": {
+        "TableName": "manufacture_裁剪",
+        "BindingInfos": [
+          {
+            "GUID": "b596b3fd-8099-497c-adbb-7f713979350e",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "分类",
+              "GUID": "ed266855-fdcd-4731-aead-575dfa8a5fba"
+            },
+            "ColumnName": "分类"
+          },
+          {
+            "GUID": "8a14639f-f931-49ae-b087-412a5961b295",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "部位",
+              "GUID": "9d560fb9-3033-4fe4-96b8-e4a0f892d89e"
+            },
+            "ColumnName": "部位"
+          },
+          {
+            "GUID": "af809977-b3f7-4e78-87c8-439dcd27c461",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "使用缝线",
+              "GUID": "72818904-f9df-4414-a908-ae0ad051d0e4"
+            },
+            "ColumnName": "使用缝线"
+          },
+          {
+            "GUID": "9164c6dd-c46d-492c-80ac-b8f0d311df82",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "针距 3cm",
+              "GUID": "27e45021-ed15-459d-a214-52789892f2b8"
+            },
+            "ColumnName": "针距_3cm"
+          },
+          {
+            "GUID": "aaa262bf-9672-4296-8ecb-d6b4a172cf41",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "扣眼",
+              "GUID": "a91dc427-1d7b-405e-8dee-92cf837d3b7a"
+            },
+            "ColumnName": "扣眼"
+          },
+          {
+            "GUID": "1545b45b-f0bd-485e-8200-a0eec545cf3a",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "FGC_Creator",
+              "GUID": "36394037-01a6-42ee-ad5c-b83dbf82c4eb"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "32c7127e-8fd4-43e3-8c11-ae65d1ded6e9",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "b78cb83c-1f8c-49c0-b4b8-5c25383afe3f"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "5e5640a7-ec05-4d69-86d9-eb144c989ec2",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "df104ad9-29ef-40cd-a10f-ef30104466cd"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "1f8753e7-1598-4641-b5d5-4c410786a42f",
+            "BindingInfo": {
+              "TableName": "manufacture_裁剪",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "91652c21-eaf1-4255-9757-b303441c4fcc"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "服装制造_生产工艺单"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "服装制造_生产工艺单",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 5
+}

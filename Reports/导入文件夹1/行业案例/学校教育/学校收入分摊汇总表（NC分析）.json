@@ -1,0 +1,336 @@
+{
+  "Name": "学校收入分摊汇总表（NC分析）",
+  "DataSources": [
+    {
+      "Name": "学校收入分摊表",
+      "GUID": "dd5e5745-f622-4a59-9f5a-11e5279555ef",
+      "DataSourceSetting": {
+        "TableName": "学校收入分摊表",
+        "BindingInfos": [
+          {
+            "GUID": "78a755e6-1679-4029-9faa-d5b121d33be3",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "ID",
+              "GUID": "5cbaf7af-fd54-423e-b4da-c9465157debf"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "b3357c85-69bb-42b2-9436-253118e3a38b",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "城际",
+              "GUID": "5d226540-55fd-40e5-9353-05ae77dbfbf7"
+            },
+            "ColumnName": "城际"
+          },
+          {
+            "GUID": "a681e87c-ad7d-488a-b165-9394ce060774",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "校园",
+              "GUID": "1df08e32-6a51-40c7-b328-a902aa752d2a"
+            },
+            "ColumnName": "校园"
+          },
+          {
+            "GUID": "6bd0368b-cc74-4dd4-b288-97c0e005b5cf",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "NC账套",
+              "GUID": "faf75644-09b7-46cd-a818-f0e1cbe91d43"
+            },
+            "ColumnName": "NC账套"
+          },
+          {
+            "GUID": "871ae96f-d277-42c2-a082-7d07b8386a62",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "学号",
+              "GUID": "ea57b6ec-3a95-4343-933e-f051514ff1a8"
+            },
+            "ColumnName": "学号"
+          },
+          {
+            "GUID": "aa64e20f-f983-47ab-a24b-7377593ac6b8",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "姓名",
+              "GUID": "faef54a9-fc2b-419f-aa1f-53310ce5f6a5"
+            },
+            "ColumnName": "姓名"
+          },
+          {
+            "GUID": "b2a17b6f-933b-459c-87b3-c19cc8f5b869",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "性质",
+              "GUID": "a75f5cae-7674-4b73-80bc-9e86b733b055"
+            },
+            "ColumnName": "性质"
+          },
+          {
+            "GUID": "3fd7fa74-9c8a-46c7-b51f-a2019365b082",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "缴费金额",
+              "GUID": "66b4a329-37dc-4e52-97ef-881db48af38b"
+            },
+            "ColumnName": "缴费金额"
+          },
+          {
+            "GUID": "cc6c129c-1fa8-4193-99e4-7e6c3aa8c3c1",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "缴费时间",
+              "GUID": "abebd83a-fcb6-4269-888a-97071657081c"
+            },
+            "ColumnName": "缴费时间"
+          },
+          {
+            "GUID": "d0e8f5de-d02d-4411-b0cc-ca819ca29976",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "缴费性质",
+              "GUID": "81da5358-f9e0-463b-a7dd-577c53b5cb47"
+            },
+            "ColumnName": "缴费性质"
+          },
+          {
+            "GUID": "4a1d5f17-4418-411a-8364-c874aa025f6c",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "缴费所属期间",
+              "GUID": "1dd09e6e-7c44-4b26-8b90-59012013141d"
+            },
+            "ColumnName": "缴费所属期间"
+          },
+          {
+            "GUID": "73cf567d-b442-407e-bf92-37330ccc2896",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "缴费月份",
+              "GUID": "046ab986-f68f-4f26-99a0-5dac9203782a"
+            },
+            "ColumnName": "缴费月份"
+          },
+          {
+            "GUID": "a6cc3c33-b00a-4cf0-bfa5-c2ec5e2b0fce",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "缴费方式",
+              "GUID": "3c74e09b-2cb0-47e3-80c0-153cd21aa61c"
+            },
+            "ColumnName": "缴费方式"
+          },
+          {
+            "GUID": "fab73e8e-6b3f-498c-bc71-9df99edb5838",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "退费日期",
+              "GUID": "a14ec5fe-9d96-4f5f-950e-7d9f1dadd17e"
+            },
+            "ColumnName": "退费日期"
+          },
+          {
+            "GUID": "72884c28-75aa-4961-b4e6-f00bbb3dfd04",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "退费金额",
+              "GUID": "0e95d6bd-0dc2-4af0-902c-b4cdb05028ce"
+            },
+            "ColumnName": "退费金额"
+          },
+          {
+            "GUID": "f3cb8c8b-454d-43bd-8e06-2f132f5e2f15",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "退费性质",
+              "GUID": "2113fc35-1dda-4ae2-97ef-3f7327f7d36a"
+            },
+            "ColumnName": "退费性质"
+          },
+          {
+            "GUID": "4c019ea2-719c-4a46-b15b-1f0063d76b6d",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "退费所属期间",
+              "GUID": "e5502767-be4f-4e9e-932c-19b15621b4fb"
+            },
+            "ColumnName": "退费所属期间"
+          },
+          {
+            "GUID": "dbbcd0b2-851c-4eff-a207-7b362be5bdea",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "时间",
+              "GUID": "ebcc22f2-3036-49c6-87e9-5bec96ac3961"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "477904fd-239c-4586-ab7d-ec96970ff97c",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "出勤天数",
+              "GUID": "e806ca18-c66c-42eb-8026-f47aa038281b"
+            },
+            "ColumnName": "出勤天数"
+          },
+          {
+            "GUID": "4499d61a-52cc-4fc1-a277-057dbcb71cc7",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "分摊标准",
+              "GUID": "d5b85a92-65c3-4138-9860-d0e50ad2a5df"
+            },
+            "ColumnName": "分摊标准"
+          },
+          {
+            "GUID": "aa23b3c2-e2ca-4889-87d2-b23181817e89",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "收入类型",
+              "GUID": "f3f22c78-adf3-4b61-bf17-a4d1f0c850b1"
+            },
+            "ColumnName": "收入类型"
+          },
+          {
+            "GUID": "629b27cf-de9c-4e52-9c6d-fd2b626637cf",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "收入费用",
+              "GUID": "900401af-5146-496c-a043-8d7ef94be731"
+            },
+            "ColumnName": "收入费用"
+          },
+          {
+            "GUID": "ed7000b3-2418-4838-90b1-8435cf8a8841",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "收入学费",
+              "GUID": "dba701ca-ac5b-4ac7-abb5-b61893dcf41c"
+            },
+            "ColumnName": "收入学费"
+          },
+          {
+            "GUID": "4213afe0-afab-4075-abe1-bffbec2412f6",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "收入餐费",
+              "GUID": "a723fcb2-1c72-46b3-a865-92e7498954d2"
+            },
+            "ColumnName": "收入餐费"
+          },
+          {
+            "GUID": "b2fb27a0-c80e-472a-b80f-945592f8cf8c",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "收入校车费",
+              "GUID": "8ae92664-c021-43fb-8260-94c3fc30493b"
+            },
+            "ColumnName": "收入校车费"
+          },
+          {
+            "GUID": "12e697d6-2d88-474f-841d-5ecf97d76029",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "收入其它",
+              "GUID": "ab9b9f8d-4f40-4d30-97f3-029c61175852"
+            },
+            "ColumnName": "收入其它"
+          },
+          {
+            "GUID": "c8d67fa0-4159-4f9a-8ef9-a731591f644f",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "FGC_Creator",
+              "GUID": "44214721-9bb8-4110-97cf-b7b8bc08fa7d"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "54bf9a9f-fca9-4e4d-b103-2c9d26e25b28",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "0be2a3c0-948d-4c1a-9dff-18bea66ce78a"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "3968ef26-bc4f-4df8-8125-fec5216f4144",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "3aa47ed8-5ca1-45e5-bd61-e8b3ad7760fb"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "2cc8c3d7-973a-4209-a5fb-23624b22bc12",
+            "BindingInfo": {
+              "TableName": "学校收入分摊表",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "b026eb2f-dab4-4ccb-9727-c6f0418a0633"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "学校收入分摊汇总表（NC分析）"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "学校收入分摊汇总表（NC分析）",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

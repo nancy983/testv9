@@ -1,0 +1,339 @@
+{
+  "Name": "入库能力监控",
+  "DataSources": [
+    {
+      "Name": "traffic_Performance",
+      "GUID": "f553a392-f664-4084-acc1-2efeb0f2f842",
+      "DataSourceSetting": {
+        "TableName": "traffic_performance",
+        "BindingInfos": [
+          {
+            "GUID": "348ade00-8255-40f3-85fd-b59e2d60c7cc",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "group",
+              "GUID": "dcd19753-85c6-4d4a-b5e3-4b57a99b95dd"
+            },
+            "ColumnName": "group"
+          },
+          {
+            "GUID": "25928d64-0b96-4b43-853e-e081772bce2c",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "early",
+              "GUID": "2503b75d-5172-4430-9127-af10a683d06a"
+            },
+            "ColumnName": "early"
+          },
+          {
+            "GUID": "761d966a-7030-4a5f-b0ab-198099a7d784",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "onTime",
+              "GUID": "48af9004-1f03-4f32-b260-83da7be0e946"
+            },
+            "ColumnName": "onTime"
+          },
+          {
+            "GUID": "50828c0c-bc65-441d-93f5-b908eb842188",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "late",
+              "GUID": "f7ab42cc-b830-4e90-802d-91027d64d2d7"
+            },
+            "ColumnName": "late"
+          },
+          {
+            "GUID": "88daaecf-c7fd-44f0-9b45-53e5646f7a2d",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "inventory",
+              "GUID": "274664b4-a0da-4bd1-b667-a947dde5f9d1"
+            },
+            "ColumnName": "inventory"
+          },
+          {
+            "GUID": "567d7ce3-6f2f-46b4-9595-6c8ffec4a263",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "FGC_Creator",
+              "GUID": "841a1d05-e2a6-490e-b9db-2627fd859637"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "43f465b4-cfda-46bb-945b-92d21c1fbd9f",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "48a40631-93f7-45aa-8b00-9c804d17da6a"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "d6b54627-3e4d-42d9-8633-7da7fc68bbcc",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "29876ea3-a4cb-4eff-9efb-ebd536bfd5fe"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "35906f6b-183d-45be-af51-4fda838306d8",
+            "BindingInfo": {
+              "TableName": "traffic_performance",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "0c62b68d-8e98-4a85-bd81-2c446eea518f"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "number",
+        "number",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_performancebyhour",
+      "GUID": "31909287-87c5-4e71-b23c-d0d46743e804",
+      "DataSourceSetting": {
+        "TableName": "traffic_performancebyhour",
+        "BindingInfos": [
+          {
+            "GUID": "c3aec213-edef-42b1-af6c-981c8eef94a5",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyhour",
+              "ColumnName": "time",
+              "GUID": "434a4fca-06a7-4a8a-8f80-6bc5f3bbea7c"
+            },
+            "ColumnName": "time"
+          },
+          {
+            "GUID": "f66b8d61-67a7-4f75-9af8-39b7e1caf352",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyhour",
+              "ColumnName": "number",
+              "GUID": "5c0d3324-c7fb-490b-9154-af20af3c1d98"
+            },
+            "ColumnName": "number"
+          },
+          {
+            "GUID": "821fc897-1243-4e73-b5d0-ee85e2d05e21",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyhour",
+              "ColumnName": "FGC_Creator",
+              "GUID": "0e1d8a58-e5e2-415d-a2e3-74bf2c8793b6"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "bc39ef83-bfcd-4d6e-92e8-077e4acf01ce",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyhour",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "b5e5b174-68ef-43eb-8eaa-91a4cce61fe7"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "af06d54a-cdc1-4baa-91c4-ef877a8d5aca",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyhour",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "d13b8381-64c7-4bc2-839c-fe9bcbf8e96f"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "f645a53a-ccb6-4119-8be4-9b1b6dc686a7",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyhour",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "56201555-1f13-4796-a901-a8b0fde36047"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_performancebyproduct",
+      "GUID": "b2ac4557-ce02-4a7d-96d5-d29dd76c4c19",
+      "DataSourceSetting": {
+        "TableName": "traffic_performancebyproduct",
+        "BindingInfos": [
+          {
+            "GUID": "2ce9db44-b678-4c40-bff4-b1c7ef80084c",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyproduct",
+              "ColumnName": "product",
+              "GUID": "4feb57fb-ad6b-4bea-a009-5567a04fa8e0"
+            },
+            "ColumnName": "product"
+          },
+          {
+            "GUID": "2a9dc37a-d465-44f4-8a3a-ca019f7d021e",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyproduct",
+              "ColumnName": "Quantity",
+              "GUID": "8dfa9dd8-2588-440b-adf3-38bf81dadb04"
+            },
+            "ColumnName": "Quantity"
+          },
+          {
+            "GUID": "d8a913fc-7c71-404a-93b2-3f5861b2dc97",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyproduct",
+              "ColumnName": "FGC_Creator",
+              "GUID": "e266bec4-63f3-4d35-8ead-6517a4e48f10"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "68f637d1-a349-4d4e-a4f0-9a7def83a248",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyproduct",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "8483933f-dc50-40ee-acb3-c4622575dd7a"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "91bed8f2-82e4-4071-8d91-a8233816da41",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyproduct",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "e6fcb43f-0620-4f47-965a-d47e6b28e3bb"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "2a2f591a-2877-44c5-a186-1fcbcd9caff4",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyproduct",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "44d5d270-9b52-44bc-a668-cc1ddf0761a7"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "traffic_performancebyworker",
+      "GUID": "35b4d58f-5843-4fd6-b8c4-28efb3df8bd9",
+      "DataSourceSetting": {
+        "TableName": "traffic_performancebyworker",
+        "BindingInfos": [
+          {
+            "GUID": "b5744600-89f4-4217-8463-c7e77d16c54f",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyworker",
+              "ColumnName": "mount",
+              "GUID": "0abb0cd2-f19f-43e7-840d-1d0563240746"
+            },
+            "ColumnName": "mount"
+          },
+          {
+            "GUID": "92b29f75-02d9-4ed6-94dd-7e3ff2765e02",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyworker",
+              "ColumnName": "wage",
+              "GUID": "e836edfc-c119-43d6-9e7b-419d5635fba1"
+            },
+            "ColumnName": "wage"
+          },
+          {
+            "GUID": "f27eacc3-3f14-4cbf-b470-1f10cba48f8c",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyworker",
+              "ColumnName": "FGC_Creator",
+              "GUID": "5ff132c0-ffca-43ac-baee-6cf8d810351d"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "e727a2ce-e04f-48ca-8d76-d0e9f4311513",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyworker",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "fb45b185-ceed-4a1d-918d-f4ba8d2f621f"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "a0bacc2b-a619-4006-92a7-5afef98cacef",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyworker",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "1a53a501-90d4-41ba-b0de-dac171acfeec"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "4b25927c-4f0c-467f-ab85-ad81fc6fbafb",
+            "BindingInfo": {
+              "TableName": "traffic_performancebyworker",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "851e6e5d-e9e4-4136-9eb6-915fc51e9f1d"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "number",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "入库能力监控"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "入库能力监控",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 4
+}

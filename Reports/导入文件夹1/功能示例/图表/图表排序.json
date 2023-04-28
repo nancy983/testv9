@@ -1,0 +1,66 @@
+{
+  "Name": "图表排序",
+  "DataSources": [
+    {
+      "Name": "Sales",
+      "GUID": "99d99c37-7460-4d73-8132-4354290a530a",
+      "DataSourceSetting": {
+        "TableName": "Sales",
+        "BindingInfos": [
+          {
+            "GUID": "531f4866-6102-4d56-9b11-b66f622414ee",
+            "BindingInfo": {
+              "TableName": "Sales",
+              "ColumnName": "产品名称",
+              "GUID": "7ad55dd2-6dec-4954-991b-0ce696517057"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "5364e89a-ab0e-481c-8f1a-04fe34b9316d",
+            "BindingInfo": {
+              "TableName": "Sales",
+              "ColumnName": "货主地区",
+              "GUID": "cea8bac7-93fd-4914-9b22-c6eda15488cb"
+            },
+            "ColumnName": "货主地区"
+          },
+          {
+            "GUID": "44f86b75-7f21-454c-85e2-74d22d5776a0",
+            "BindingInfo": {
+              "TableName": "Sales",
+              "ColumnName": "销售量",
+              "GUID": "d3bf9b36-6760-4f64-b033-5b89777b400e"
+            },
+            "ColumnName": "销售量"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "图表排序"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "图表排序",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

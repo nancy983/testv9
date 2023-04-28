@@ -1,0 +1,166 @@
+{
+  "Name": "表达式1-作用域",
+  "DataSources": [
+    {
+      "Name": "作用域",
+      "GUID": "839908af-60ef-41a6-be7e-700ab13647f3",
+      "DataSourceSetting": {
+        "TableName": "作用域",
+        "BindingInfos": [
+          {
+            "GUID": "bc28c6bf-1759-4318-b417-c4e5592ea38f",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "产品ID",
+              "GUID": "5d516a24-342b-496a-bdad-aac9eac6549b"
+            },
+            "ColumnName": "产品ID"
+          },
+          {
+            "GUID": "8dce6f35-9748-4aa6-ac2a-cacc8e2c2db0",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "产品名称",
+              "GUID": "1150bae8-5d6d-4df4-8cd0-7c5e8c7126cb"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "c72f71fa-da1d-41e6-80ae-e73b415af182",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "供应商ID",
+              "GUID": "e90d9258-cd50-4003-90fd-8347ddb5bfe5"
+            },
+            "ColumnName": "供应商ID"
+          },
+          {
+            "GUID": "a37e9a1d-93b7-4625-b4cd-f213e5b44dff",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "类别ID",
+              "GUID": "1d6b0d7f-80dd-4015-b662-c67f1ebe6294"
+            },
+            "ColumnName": "类别ID"
+          },
+          {
+            "GUID": "b0930ddf-ce84-4246-97c9-6a5262d0514a",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "单位数量",
+              "GUID": "76bfab4c-cc37-4c99-810b-5ac53a156653"
+            },
+            "ColumnName": "单位数量"
+          },
+          {
+            "GUID": "60151d9c-d00e-46fd-9b49-f03a0017f488",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "单价",
+              "GUID": "561e56c5-7f8b-4d83-bb18-b1805e3998c0"
+            },
+            "ColumnName": "单价"
+          },
+          {
+            "GUID": "66db4408-65a3-483d-9e33-54de736e1c99",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "库存量",
+              "GUID": "bd6ac276-2c5a-4427-8b81-d4c52b6fcd57"
+            },
+            "ColumnName": "库存量"
+          },
+          {
+            "GUID": "1fa3fbaf-1594-46cb-9f8c-2919f480afca",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "订购量",
+              "GUID": "339f69de-12f7-4dbd-b851-abe222b0acf3"
+            },
+            "ColumnName": "订购量"
+          },
+          {
+            "GUID": "e823b0e8-3dd5-4d63-b113-c0faee429082",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "再订购量",
+              "GUID": "59c5cda1-3b88-4d4d-8bfe-0516524f5fc0"
+            },
+            "ColumnName": "再订购量"
+          },
+          {
+            "GUID": "aa97db8b-ac45-4613-a5de-6f5c29ec7409",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "中止",
+              "GUID": "2c4cc3ca-b105-4d3a-abe1-1987cc83a315"
+            },
+            "ColumnName": "中止"
+          },
+          {
+            "GUID": "d3bec9e0-75fe-4a2f-a0e8-d22510274972",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "图片",
+              "GUID": "851e64c7-b9fa-47b8-9532-4d5065038fa6"
+            },
+            "ColumnName": "图片"
+          },
+          {
+            "GUID": "ef9479b2-7e23-4004-b6a3-eab75d804d82",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "产品描述",
+              "GUID": "67965c28-066d-447e-948f-962db72db912"
+            },
+            "ColumnName": "产品描述"
+          },
+          {
+            "GUID": "bcbc88fb-1a00-4824-a046-1dede2936f3c",
+            "BindingInfo": {
+              "TableName": "作用域",
+              "ColumnName": "类别名称",
+              "GUID": "679d7a43-4915-4e42-a6f6-c8d153801904"
+            },
+            "ColumnName": "类别名称"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "integer",
+        "integer",
+        "string",
+        "number",
+        "integer",
+        "integer",
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "表达式1-作用域"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "表达式1-作用域",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 1
+}

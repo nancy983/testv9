@@ -1,0 +1,237 @@
+{
+  "Name": "【不规则表格】商品质检报告书",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "84bd2802-73b2-4e52-af75-2e9a0d4091e1",
+      "DataSourceSetting": {
+        "TableName": "表2",
+        "BindingInfos": [
+          {
+            "GUID": "5b553b04-f132-4420-98b4-c702134c7837",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "ID",
+              "GUID": "771a0358-7816-455a-814f-036a08a66a0d"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "989a6988-2eae-42fc-8331-72c3039a3660",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_Creator",
+              "GUID": "2aa6a722-e1e9-449f-a0e1-dc93559a561a"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "febc4ba8-e91b-4330-9c9f-cab88f2fc7ed",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "2133bf44-203d-4d43-9862-db7a18970ebb"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "0278dd48-b87f-4601-bcf2-2b4669d8caaf",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "a8394ebd-cb54-4482-96e6-18ef261db3db"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "083ed4b5-2262-4b18-bd91-b0b2df5829cb",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "c0e99313-af57-47a3-bf8c-885d30da4048"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "DS_检测报告",
+      "GUID": "4145b2e6-11a9-49db-8a53-ebefe29e4e84",
+      "DataSourceSetting": {
+        "TableName": "DS_检测报告",
+        "BindingInfos": [
+          {
+            "GUID": "956467d9-8990-40fc-9e4c-9eeb38c51241",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "ID",
+              "GUID": "9c8cd186-8a0d-4c94-a5e7-4e6fb44697df"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "da8be34f-c975-4be0-b44b-cd67eedb2f76",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "序号",
+              "GUID": "8f99d280-310f-470d-8c6d-a865e8c1e2b1"
+            },
+            "ColumnName": "序号"
+          },
+          {
+            "GUID": "6e669039-b6ec-45ca-9372-1f8d84476057",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "Item1",
+              "GUID": "0dd417c7-3484-4794-a0e5-954c9a05e389"
+            },
+            "ColumnName": "Item1"
+          },
+          {
+            "GUID": "0362290a-fcb4-43f8-9963-138931b00d1c",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "Item2",
+              "GUID": "bb33cc04-8055-4b90-a0b1-65cc84054b1d"
+            },
+            "ColumnName": "Item2"
+          },
+          {
+            "GUID": "08a13ec6-7e35-4a37-8079-dc4ec8857c67",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "Item3",
+              "GUID": "828bf7ae-fe03-490a-9f26-3884afbae279"
+            },
+            "ColumnName": "Item3"
+          },
+          {
+            "GUID": "8ceb5d74-73a4-4884-a154-e2ead9ab273b",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "Item4",
+              "GUID": "cfc26be0-96ab-4703-92de-8064fd02b7b2"
+            },
+            "ColumnName": "Item4"
+          },
+          {
+            "GUID": "37479f4f-3bd0-4c23-8cb5-f7f7c5624471",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "技术要求",
+              "GUID": "bb760a12-b7eb-4bd7-803c-110f22ee2188"
+            },
+            "ColumnName": "技术要求"
+          },
+          {
+            "GUID": "178c83fc-0c39-4d34-a478-94157399d13b",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "类别",
+              "GUID": "feff1e02-62dc-4e88-9434-55fb0180d9db"
+            },
+            "ColumnName": "类别"
+          },
+          {
+            "GUID": "84874560-75fd-4fdb-a064-896fb0ccb91e",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "检测结果",
+              "GUID": "0478e955-a10f-4208-8d3c-385d4c96faae"
+            },
+            "ColumnName": "检测结果"
+          },
+          {
+            "GUID": "8e834a44-169a-4db5-86d1-e58e6e206a84",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "单项结论",
+              "GUID": "9a8a71a6-469d-4b35-9ab0-a762aea10119"
+            },
+            "ColumnName": "单项结论"
+          },
+          {
+            "GUID": "4d759d7a-6cb2-4a94-94f8-d8da9b76316c",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "FGC_Creator",
+              "GUID": "b873122d-5ae3-4d49-9fe0-9c60c99e1a93"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "51164e4d-4145-43f9-aed8-a268681af307",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "4e2f9388-9c4c-407c-b755-fa1e31e81bff"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "f32c26ea-cdfd-4472-8456-b1c58cba8877",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "04009020-8a8b-49cf-b401-f909814bd720"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "28fb690a-c6dc-4caf-9ddf-642b4ad55588",
+            "BindingInfo": {
+              "TableName": "DS_检测报告",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "15b6eab4-c142-48fa-af61-4438996688a3"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【不规则表格】商品质检报告书"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【不规则表格】商品质检报告书",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

@@ -1,0 +1,968 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 53
+  },
+  "Values": {
+    "1,2": "添加记录",
+    "1,16": "我的待办",
+    "1,31": "特定行结果为多行，发起流程显示异常，点击提交会提示更新数据库失败",
+    "2,22": "发起流程_当前行",
+    "2,31": "发起流程_特定行",
+    "3,19": "更改",
+    "3,22": "发起流程",
+    "3,31": "特定行为一行可以发起流程成功",
+    "4,31": "发起流程_特定行",
+    "6,31": "只能选择一行，选择多行时，发起流程显示异常，点击提交会提示更新数据库失败",
+    "7,31": "发起流程_选择行",
+    "8,31": "不关联数据表_测试result.page",
+    "9,31": "发起流程_不关联数据表",
+    "10,31": "流程实例名称：当设置的公式计算结果为#value,将发布流程失败",
+    "11,31": "发起流程_参数",
+    "11,41": "发起流程_参数",
+    "13,31": "发起流程结果",
+    "15,31": "发起流程结果.ID",
+    "17,31": "发起流程结果.errormessage",
+    "19,31": "发起流程结果.Page",
+    "21,41": "发起流程_参数",
+    "23,31": "打开在线设计器"
+  },
+  "Formulas": {
+    "21,31": "E4+N4"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "请假表_详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=请假表_详情页面!add"
+                }
+              },
+              {
+                "Source": "add_update",
+                "TargetCell": {
+                  "SerializeProperty": "=请假表_详情页面!opreation"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "1,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "SelectedTable": "请假表",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "请假表",
+                "ColumnName": "请假天数",
+                "GUID": "60360b66-5188-4f3f-9c48-27d43acaf081"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=测试流程客户端命令!Z2"
+              }
+            }
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_我的待办"
+          }
+        ],
+        "Text": "我的待办",
+        "TemplateKey": "样式4"
+      }
+    },
+    "1,25": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1"
+      }
+    },
+    "2,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "请假表",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "RowCount": 12,
+        "ColumnCount": 28,
+        "TopCondition": null,
+        "ListViewStyleName": "样式3",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2
+      }
+    },
+    "2,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "SelectedTable": "请假表",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "请假表",
+                "ColumnName": "请假人",
+                "GUID": "7d9392f2-caf2-468d-935b-ae2dcadb4167"
+              },
+              "Value": "%CurrentUser.UserName%"
+            }
+          }
+        ],
+        "Text": "发起流程_特定行",
+        "TemplateKey": "样式4"
+      }
+    },
+    "2,42": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "ID",
+        "GUID": "10df4096-5fa7-401a-b2f8-1ab2258993db"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "3,4": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "请假人",
+        "GUID": "f2b4d7f6-9acf-4f5f-a218-eca68805e70f"
+      }
+    },
+    "3,7": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "开始日期",
+        "GUID": "d0fa9504-4349-4fe6-aa16-bffe8ec74739"
+      }
+    },
+    "3,10": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "结束日期",
+        "GUID": "a0d6393e-14d7-4605-988a-5fac13666255"
+      }
+    },
+    "3,13": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "请假天数",
+        "GUID": "7b4d9b33-66ac-4516-927e-170e9c5fdbce"
+      }
+    },
+    "3,16": {
+      "BindingInfo": {
+        "TableName": "请假表",
+        "ColumnName": "请假理由",
+        "GUID": "4b1e7884-bd43-4c41-a4f6-97067bcd754d"
+      }
+    },
+    "3,19": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "请假表_详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=请假表_详情页面!add"
+                }
+              },
+              {
+                "Source": "add_update",
+                "TargetCell": {
+                  "SerializeProperty": "=请假表_详情页面!opreation"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "3,22": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "ProcessInstanceName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=测试流程客户端命令!E4"
+            },
+            "SelectedTable": "请假表"
+          },
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=测试流程客户端命令!发起流程结果.ID"
+            }
+          }
+        ],
+        "Text": "发起流程"
+      }
+    },
+    "4,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "ProcessInstanceName": "aaa",
+            "SelectedTable": "请假表",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "请假表",
+                "ColumnName": "ID",
+                "GUID": "f4d1708d-3ba8-4c20-bdb7-799b14666ea5"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=测试流程客户端命令!ID"
+              }
+            }
+          }
+        ],
+        "Text": "发起流程_特定行",
+        "TemplateKey": "样式4"
+      }
+    },
+    "4,42": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "SelectedTable": "请假表",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "请假表",
+                "ColumnName": "请假理由",
+                "GUID": "c23393cb-2d79-489d-b506-372369ed4826"
+              },
+              "Value": "%Null%"
+            }
+          }
+        ],
+        "TemplateKey": "样式4"
+      }
+    },
+    "7,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "SelectedTable": "请假表",
+            "RowsToUpdate": 2,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "请假表",
+                "ColumnName": "ID",
+                "GUID": "c500e1be-1eb5-4e39-9af8-cdfa5e8d57c8"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=测试流程客户端命令!AQ6"
+              }
+            }
+          }
+        ],
+        "Text": "发起流程_选择行",
+        "TemplateKey": "样式4"
+      }
+    },
+    "8,42": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "样式4"
+      }
+    },
+    "9,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "ProcessInstanceName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=测试流程客户端命令!E4"
+            }
+          },
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "ValueFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=测试流程客户端命令!发起流程结果.Page"
+            },
+            "PassValues": [
+              {
+                "Source": "process",
+                "CellName": "opreation"
+              }
+            ]
+          }
+        ],
+        "Text": "发起流程_不关联数据表",
+        "TemplateKey": "样式4"
+      }
+    },
+    "11,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "ProcessInstanceName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=测试流程客户端命令!E4&测试流程客户端命令!Q4"
+            },
+            "SelectedTable": "请假表"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!result"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!resultid"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.ID"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!message"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.ErrorMessage"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!page"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.Page"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "发起流程_参数",
+        "TemplateKey": "样式4"
+      }
+    },
+    "11,41": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "ProcessInstanceName": "请假流程",
+            "SelectedTable": "请假表"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!result"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!resultid"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.ID"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!message"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.ErrorMessage"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!page"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.Page"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "发起流程_参数",
+        "TemplateKey": "样式4"
+      }
+    },
+    "13,37": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1"
+      }
+    },
+    "15,2": {
+      "CellType": {
+        "$type": "Forguncy.ProcessPanelCellType, ServerDesignerCommon",
+        "PostCommands": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_我的待办"
+          }
+        ],
+        "TemplateKey": "样式1",
+        "ActionButtonStyleTemplateInfos": []
+      }
+    },
+    "15,37": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1"
+      }
+    },
+    "17,39": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1"
+      }
+    },
+    "19,37": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1"
+      }
+    },
+    "21,41": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionResourceName": "请假流程",
+            "ProcessInstanceName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=NOW()"
+            },
+            "SelectedTable": "请假表"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!result"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!resultid"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.ID"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!message"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.ErrorMessage"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!page"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=测试流程客户端命令!发起流程结果.Page"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "发起流程_参数",
+        "TemplateKey": "样式4"
+      }
+    },
+    "23,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessOpenOnlineCommand, ServerDesignerCommon",
+            "ProcessDefinitionId": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=测试流程客户端命令!AP15"
+            },
+            "ProcessName": "请假_操作"
+          }
+        ],
+        "Text": "打开在线设计器",
+        "TemplateKey": "样式5"
+      }
+    },
+    "23,41": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Blue",
+        "@",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "1,25": 1,
+      "3,19": 0,
+      "3,22": 0,
+      "3,23": 2,
+      "3,24": 2,
+      "3,25": 2,
+      "3,26": 2,
+      "3,27": 2,
+      "3,28": 2,
+      "3,29": 2,
+      "4,31": 3,
+      "4,32": 4,
+      "4,33": 4,
+      "4,34": 4,
+      "4,35": 4,
+      "4,36": 4,
+      "4,37": 4,
+      "4,38": 4,
+      "4,39": 4,
+      "7,31": 3,
+      "7,32": 4,
+      "7,33": 4,
+      "7,34": 4,
+      "7,35": 4,
+      "7,36": 4,
+      "7,37": 4,
+      "7,38": 4,
+      "7,39": 4,
+      "9,41": 5,
+      "9,42": 5,
+      "9,43": 5,
+      "9,44": 5,
+      "9,45": 5,
+      "9,46": 5,
+      "9,47": 5,
+      "9,48": 5,
+      "9,49": 5,
+      "11,31": 3,
+      "11,32": 4,
+      "11,33": 4,
+      "11,34": 4,
+      "11,35": 4,
+      "11,36": 4,
+      "11,37": 4,
+      "11,38": 4,
+      "11,39": 4,
+      "11,41": 3,
+      "11,42": 4,
+      "11,43": 4,
+      "11,44": 4,
+      "11,45": 4,
+      "11,46": 4,
+      "11,47": 4,
+      "11,48": 4,
+      "11,49": 4,
+      "13,37": 1,
+      "15,37": 6,
+      "15,38": 4,
+      "15,39": 4,
+      "15,40": 4,
+      "15,41": 4,
+      "15,42": 4,
+      "15,43": 4,
+      "15,44": 4,
+      "15,45": 4,
+      "15,46": 4,
+      "17,39": 6,
+      "17,40": 4,
+      "17,41": 4,
+      "17,42": 4,
+      "17,43": 4,
+      "17,44": 4,
+      "17,45": 4,
+      "17,46": 4,
+      "17,47": 4,
+      "17,48": 4,
+      "19,37": 6,
+      "19,38": 4,
+      "19,39": 4,
+      "19,40": 4,
+      "19,41": 4,
+      "19,42": 4,
+      "19,43": 4,
+      "19,44": 4,
+      "19,45": 4,
+      "19,46": 4,
+      "21,41": 3,
+      "21,42": 4,
+      "21,43": 4,
+      "21,44": 4,
+      "21,45": 4,
+      "21,46": 4,
+      "21,47": 4,
+      "21,48": 4,
+      "21,49": 4,
+      "25,31": 5,
+      "25,32": 5,
+      "25,33": 5,
+      "25,34": 5,
+      "25,35": 5,
+      "25,36": 5,
+      "25,37": 5,
+      "25,38": 5,
+      "25,39": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "FontSize": 12.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,16,1,8",
+    "1,25,1,5",
+    "2,31,1,9",
+    "2,42,1,9",
+    "3,4,1,3",
+    "3,7,1,3",
+    "3,10,1,3",
+    "3,13,1,3",
+    "3,16,1,3",
+    "3,19,1,3",
+    "3,22,1,8",
+    "4,2,10,28",
+    "4,31,1,9",
+    "4,42,1,9",
+    "7,31,1,9",
+    "8,42,1,9",
+    "9,31,1,9",
+    "11,31,1,9",
+    "11,41,1,9",
+    "13,37,1,10",
+    "15,2,9,28",
+    "15,37,1,10",
+    "17,39,1,10",
+    "19,37,1,10",
+    "21,31,1,7",
+    "21,41,1,9",
+    "23,31,1,9",
+    "23,41,2,11",
+    "2,4,1,3",
+    "2,7,1,3",
+    "2,10,1,3",
+    "2,13,1,3",
+    "2,16,1,3",
+    "2,19,1,3",
+    "2,22,1,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "ID",
+      "Formula": "测试流程客户端命令!$AQ$3"
+    },
+    {
+      "Name": "result",
+      "Formula": "测试流程客户端命令!$AL$14"
+    },
+    {
+      "Name": "resultid",
+      "Formula": "测试流程客户端命令!$AL$16"
+    },
+    {
+      "Name": "message",
+      "Formula": "测试流程客户端命令!$AN$18"
+    },
+    {
+      "Name": "page",
+      "Formula": "测试流程客户端命令!$AL$20"
+    },
+    {
+      "Name": "添加记录",
+      "Formula": "测试流程客户端命令!$C$2"
+    },
+    {
+      "Name": "我的待办",
+      "Formula": "测试流程客户端命令!$Q$2"
+    },
+    {
+      "Name": "文本框",
+      "Formula": "测试流程客户端命令!$Z$2"
+    },
+    {
+      "Name": "发起流程_特定行",
+      "Formula": "测试流程客户端命令!$AF$3"
+    },
+    {
+      "Name": "发起流程_特定行1",
+      "Formula": "测试流程客户端命令!$AF$5"
+    },
+    {
+      "Name": "按钮",
+      "Formula": "测试流程客户端命令!$AQ$5"
+    },
+    {
+      "Name": "发起流程_选择行",
+      "Formula": "测试流程客户端命令!$AF$8"
+    },
+    {
+      "Name": "按钮1",
+      "Formula": "测试流程客户端命令!$AQ$9"
+    },
+    {
+      "Name": "发起流程_不关联数据表",
+      "Formula": "测试流程客户端命令!$AF$10"
+    },
+    {
+      "Name": "发起流程_参数",
+      "Formula": "测试流程客户端命令!$AF$12"
+    },
+    {
+      "Name": "发起流程_参数1",
+      "Formula": "测试流程客户端命令!$AP$12"
+    },
+    {
+      "Name": "流程命令条",
+      "Formula": "测试流程客户端命令!$C$16"
+    },
+    {
+      "Name": "发起流程_参数2",
+      "Formula": "测试流程客户端命令!$AP$22"
+    },
+    {
+      "Name": "打开在线设计器",
+      "Formula": "测试流程客户端命令!$AF$24"
+    },
+    {
+      "Name": "登录用户",
+      "Formula": "测试流程客户端命令!$AP$24"
+    }
+  ]
+}//7ctmuWuBlvIYZGoOxVcWfKncZGWNKrt5J6zYZ71KEQWa3UK3Od3HqBCnQnwpxp2Ujmw57y30eReHUODom5+7u9QiYJEws7MnwqjFiPsp9+g2Xyb9HCVHOYLcGWZ9RSVmHFwJSaeK+wHUPlDJG4EAPuZF5ci65bdxBR/hcREiUFccXbG8FS7gtOHUyfYKysMmVc7xFDGbBZ6GthlgMBOZPtXTERguGZzm8PDyrURxiKeMFn3F/1a1cMxH7tuY9P1fSu4rmCD7+00VCbFSD+qsO+7JunS2GjlcHk4VGgu28U/lUwcuQoCvaTNDS5Pzf3j8GFSFKTIJIB4Iet77xBKPs6GtFINGOVp0egE29pElr/L8WTMG35QvIJyg6oDGqz285r1b4rgThgMviy3sBjDH3MJm+1Omy/r63WgnpcchysJQO6V4M0NvRN0MJyr53yKXHqZEAM6ufhOs9HJW9+VY02ffD7hJSl6Zsc30/nHKtJxyW9HQ88nQkg2yCOIM05VI7JpOStByZC+si/F7E/HlKANR0wJvYy3tidvpuJo72IpCUXcij5O5cxMmfDHgpNHNVomSqB/hHB9+fES7N+zUpV/YChA6XvUUB8SWlU58fV+W5JIisb6EXEk5Oke37H4q0Of+ULXUUHIKXa989KxHb4jW2vGvgA4gE01JUfmhQ3inKtknmI2rqcWeyMuF7XFXLW2kiY9PRy8GGdbEycVhBwD6tteq8c/ezBXeQWQrf2HZkjAa92I3iBYzSrNUinfxebRx+fK5fpI83EXn/mmtiEctpBMmlb77xVWWi74SOTLNqG+/1hjKpv4urvESwzO8ReH66mFhKfQ4NX/RTIZOZI6nSF6oywKRVAVrue8Q96VrWK+ddpdZWIKthnRMdA7XQufQLijrsJpOoyAJHBhIxQ==|920

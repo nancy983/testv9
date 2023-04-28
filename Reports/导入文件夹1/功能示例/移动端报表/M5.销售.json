@@ -1,0 +1,75 @@
+{
+  "Name": "M5.销售",
+  "DataSources": [
+    {
+      "Name": "mobile_salesdata",
+      "GUID": "3a5819ac-ff35-4224-80d5-bfb044937ccf",
+      "DataSourceSetting": {
+        "TableName": "mobile_salesdata",
+        "BindingInfos": [
+          {
+            "GUID": "48d80466-1605-4639-ab56-8689c0402022",
+            "BindingInfo": {
+              "TableName": "mobile_salesdata",
+              "ColumnName": "车型号",
+              "GUID": "7d8e385d-f146-48a5-80e1-1347bc22ecfc"
+            },
+            "ColumnName": "车型号"
+          },
+          {
+            "GUID": "228e270c-5369-4f94-9b18-3a7ba09ca4d6",
+            "BindingInfo": {
+              "TableName": "mobile_salesdata",
+              "ColumnName": "销售",
+              "GUID": "6ccc981d-d366-44ad-b59f-0a5004bc6ebc"
+            },
+            "ColumnName": "销售"
+          },
+          {
+            "GUID": "aba3098d-1e57-4d7c-8d4d-3c92915744a2",
+            "BindingInfo": {
+              "TableName": "mobile_salesdata",
+              "ColumnName": "利润",
+              "GUID": "5980f5d8-4055-4c39-851a-5ea70587cc6f"
+            },
+            "ColumnName": "利润"
+          },
+          {
+            "GUID": "7150fb33-ba5e-4736-b338-ea3f426fd3d8",
+            "BindingInfo": {
+              "TableName": "mobile_salesdata",
+              "ColumnName": "服务类型",
+              "GUID": "72b1051e-0ce1-4a26-8da2-505ab1237592"
+            },
+            "ColumnName": "服务类型"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "number",
+        "number",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "M5.销售"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "M5.销售",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 5
+}

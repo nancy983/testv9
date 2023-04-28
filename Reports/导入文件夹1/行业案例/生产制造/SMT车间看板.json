@@ -1,0 +1,390 @@
+{
+  "Name": "SMT车间看板",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "7b71a68e-6a7a-4b26-93a6-293b0c91d658",
+      "DataSourceSetting": {
+        "TableName": "produce_品质",
+        "BindingInfos": [
+          {
+            "GUID": "4a17b391-4c04-4385-8031-7fd312155558",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "产品名称",
+              "GUID": "72d93dce-4b72-45ae-8a53-f5ef001e01d4"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "7c3bb4bb-fdde-4fb9-838f-9dc989ddda6e",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "合格",
+              "GUID": "e4d5ffe6-dcc0-4a88-afe4-21c51c4f263c"
+            },
+            "ColumnName": "合格"
+          },
+          {
+            "GUID": "f8b3c2d8-0a49-49c8-aa4d-1c13b7c92824",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "次品",
+              "GUID": "5dd1b0ce-1dc3-4a62-b062-60b7c9c79351"
+            },
+            "ColumnName": "次品"
+          },
+          {
+            "GUID": "7f0826b2-9081-450d-a275-63ef5d3e0786",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "揽料",
+              "GUID": "6a6fc892-509e-4e44-aa4a-2feaec565abb"
+            },
+            "ColumnName": "揽料"
+          },
+          {
+            "GUID": "6ebbc49e-5c6d-431c-af13-7cfb4985efdb",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "计划产量",
+              "GUID": "932464c8-20ea-42a5-a420-6f7f75a3ee49"
+            },
+            "ColumnName": "计划产量"
+          },
+          {
+            "GUID": "7d3edab3-cc20-49a5-9b40-4404700de0e1",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "实际产量",
+              "GUID": "3767b928-9bf9-472e-b584-6ef008df3b00"
+            },
+            "ColumnName": "实际产量"
+          },
+          {
+            "GUID": "d16bcb14-16bb-4453-a263-580c8dfb8caa",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_Creator",
+              "GUID": "1b085b96-6f6b-4001-bd65-9d1946821b85"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "1cb19a85-861d-40ca-b101-ab0097cb73d4",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "7e73fde5-7203-4988-98f1-0c22e9bb17e8"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "61f89f4c-db43-4006-b82a-76ed90496d8f",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "bca8f302-2c8a-4316-8dbc-ffc58adf2a47"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "5d17695f-1fbb-437b-8864-fc19a5c14fb2",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "f8b9ba2f-a7ef-4e58-94cb-7db7dccfef39"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源2",
+      "GUID": "437db40d-4ebb-447c-b03a-40c6a622ab8a",
+      "DataSourceSetting": {
+        "TableName": "produce_产线",
+        "BindingInfos": [
+          {
+            "GUID": "49f87cea-2ca8-4c21-8c71-e17b4131f3eb",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "产线",
+              "GUID": "9a225003-2c19-44ce-9da3-40e8f70eb577"
+            },
+            "ColumnName": "产线"
+          },
+          {
+            "GUID": "3e939584-0aba-4c56-9b1f-34e427fedd04",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "总量",
+              "GUID": "436a8019-5bdc-4209-aca9-6100865be2ad"
+            },
+            "ColumnName": "总量"
+          },
+          {
+            "GUID": "b5cc3c22-6999-43f5-a577-dfbd48fdcb15",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "完成数量",
+              "GUID": "7cfda627-fa4d-42a7-9a82-d23859364346"
+            },
+            "ColumnName": "完成数量"
+          },
+          {
+            "GUID": "3cee1cf0-303e-4765-a096-46c4be2f4c7c",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "状态",
+              "GUID": "cae1dc71-245b-424b-811c-b36da5a07a74"
+            },
+            "ColumnName": "状态"
+          },
+          {
+            "GUID": "2a1df220-a0ef-4346-8a0f-f8886c634835",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "已花费时间",
+              "GUID": "cb36ce30-d54f-4988-b54b-736bd769aa8d"
+            },
+            "ColumnName": "已花费时间"
+          },
+          {
+            "GUID": "6a828db3-c543-4660-9e5f-891c10638235",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "起始型号",
+              "GUID": "466ac9b6-c906-4f62-bcb0-3df4100f1892"
+            },
+            "ColumnName": "起始型号"
+          },
+          {
+            "GUID": "0f968ce1-6c55-4421-ae38-5771df9f3c3c",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "中止型号",
+              "GUID": "0449d737-d6c7-4ce8-81b2-d273b4650a0f"
+            },
+            "ColumnName": "中止型号"
+          },
+          {
+            "GUID": "32b62a67-b319-452c-b527-5ced415e54b0",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "开始时间",
+              "GUID": "7d69e7aa-e85b-43dd-84e8-e83b013f3672"
+            },
+            "ColumnName": "开始时间"
+          },
+          {
+            "GUID": "041bbad9-e0b4-42f6-a90c-3287c810a734",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "FGC_Creator",
+              "GUID": "5b078974-6516-4d67-8e8d-d3f15c16e2eb"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "b71dbb1f-7f8c-4afb-ac8c-bd37b85699d4",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "aef4a7c9-d31c-4009-8bda-b393c5d48f43"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "c58bc75d-54e7-4daa-b0ed-f34d9657541e",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "66791ed5-5746-4d3c-9ac1-4ba7882fd66e"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "78a6c58d-ec7d-492a-82dd-27e7447d3350",
+            "BindingInfo": {
+              "TableName": "produce_产线",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "49679360-7b9c-4ba3-92c0-ad7fd42ce12b"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "数据源3",
+      "GUID": "255ea0ba-6b13-4940-a252-b1d652d1f165",
+      "DataSourceSetting": {
+        "TableName": "produce_品质",
+        "BindingInfos": [
+          {
+            "GUID": "0ef35d82-89c8-4d17-9763-0f78dca520a6",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "产品名称",
+              "GUID": "aac1c74a-77c5-4d41-abe0-de64634c69af"
+            },
+            "ColumnName": "产品名称"
+          },
+          {
+            "GUID": "9c470357-8345-4fab-8a13-1b42838989b2",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "合格",
+              "GUID": "dbccc422-01e9-40b3-8f13-3be7403079f4"
+            },
+            "ColumnName": "合格"
+          },
+          {
+            "GUID": "527f0271-8481-47de-afab-12c322b34f9f",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "次品",
+              "GUID": "5915b8cb-8e44-4e14-b84b-8f69906c152b"
+            },
+            "ColumnName": "次品"
+          },
+          {
+            "GUID": "a9c0f329-35b9-410b-a354-6d902613dec3",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "揽料",
+              "GUID": "5880625c-a3c6-4a35-9248-6e99f4479177"
+            },
+            "ColumnName": "揽料"
+          },
+          {
+            "GUID": "67cbda31-7837-4d1c-9487-b11302330811",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "计划产量",
+              "GUID": "f5674cad-b2c3-4eed-9b7b-1d9ece21d203"
+            },
+            "ColumnName": "计划产量"
+          },
+          {
+            "GUID": "7b70545f-b82d-4fb9-a30a-77ff6debbc00",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "实际产量",
+              "GUID": "0926dc22-9999-4f71-bfe7-9db4b17fe3c6"
+            },
+            "ColumnName": "实际产量"
+          },
+          {
+            "GUID": "20bcbc18-7fe5-467e-abd3-0846f928eb36",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_Creator",
+              "GUID": "39cc9bed-f325-46ce-8a45-840d2ed02703"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "c9c7d1fe-bbee-4d6f-8b42-37a4d737fc81",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "9cde40e6-710a-45b5-9574-b3c187e8999b"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "8ca00d2d-50ce-4c90-a701-6bc41b142db8",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "c82bc15c-2cc3-4afe-9f8e-ace7228b29f6"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "e464704c-1dd5-4c01-bf75-d1d12b8c30c5",
+            "BindingInfo": {
+              "TableName": "produce_品质",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "6af93f55-c76d-479d-b2fd-d56c701d530c"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ],
+        "OrderBySqlCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "produce_品质",
+                "ColumnName": "次品",
+                "GUID": "93ecd361-7fce-4a5b-ae62-83d88c110948"
+              },
+              "Order": 0
+            }
+          ]
+        }
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "SMT车间看板"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "SMT车间看板",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}

@@ -1,0 +1,277 @@
+{
+  "Name": "钣金制造设备效率 OEE - 宕机及生产率",
+  "DataSources": [
+    {
+      "Name": "manufacture_03",
+      "GUID": "308b9d1a-f7a3-440b-98ca-a5bb9798a1ae",
+      "DataSourceSetting": {
+        "TableName": "manufacture_03",
+        "BindingInfos": [
+          {
+            "GUID": "04bd9e0f-6f6d-425a-b84a-f09ac6eef31d",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "故障机器",
+              "GUID": "a92337c9-5af6-4525-843f-6a8d95ae9a4d"
+            },
+            "ColumnName": "故障机器"
+          },
+          {
+            "GUID": "4081bdba-6921-45bb-b97b-3587b0177ad3",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "故障率",
+              "GUID": "449a37bf-8651-451b-bb09-f4fe42297743"
+            },
+            "ColumnName": "故障率"
+          },
+          {
+            "GUID": "4db9b4a9-bbf1-40a0-a8a7-7235ab7e6e00",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "时间",
+              "GUID": "46c9a334-b168-48d8-9e8c-8977c34900b2"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "bdf99747-1a63-4ea0-878f-f6e7e0796557",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "故障零件数",
+              "GUID": "22fd11d2-987e-44ac-9b0d-7cd4f9d74153"
+            },
+            "ColumnName": "故障零件数"
+          },
+          {
+            "GUID": "eb17b135-ed2c-4bb3-90a5-b5577769cd8f",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "全局设备效率",
+              "GUID": "ac5cb2d8-d037-4210-962f-bda70162b184"
+            },
+            "ColumnName": "全局设备效率"
+          },
+          {
+            "GUID": "cd4f705e-2658-4661-97b1-97612808bdd7",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "机器类别",
+              "GUID": "e393cf0c-2a82-444a-89fe-e5ef21575872"
+            },
+            "ColumnName": "机器类别"
+          },
+          {
+            "GUID": "1a08f6ba-9f72-4351-af5f-5ce3c93a8662",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "维修费用",
+              "GUID": "b61083c9-0e57-49ec-978e-3e4cecd0fff7"
+            },
+            "ColumnName": "维修费用"
+          },
+          {
+            "GUID": "2eb049b1-6694-4fd4-b615-84564c583af9",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "厂商",
+              "GUID": "6da146f9-4024-4d8f-b473-56d81adb7f70"
+            },
+            "ColumnName": "厂商"
+          },
+          {
+            "GUID": "21343fd0-87b2-4d1e-bdc5-de39a8158553",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_Creator",
+              "GUID": "17d3aac2-8e0b-4011-bc29-e11b5a0ed18f"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "2439e596-1c08-4e8f-af65-04e958bd4375",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "5521df29-e762-4da7-b124-3be9ed2e79e1"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "77c32399-4b17-4161-8211-8fbc5f6c0651",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "34f466e2-8a68-431e-a22d-92394119f086"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "cedb31cb-ac50-4cf9-8c8d-f2ac46d93f92",
+            "BindingInfo": {
+              "TableName": "manufacture_03",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "da7b783c-847a-4355-8151-aa498353fbf5"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    },
+    {
+      "Name": "manufacture_08",
+      "GUID": "0ce8a311-e65b-4547-af96-a7fa09ef7351",
+      "DataSourceSetting": {
+        "TableName": "manufacture_08",
+        "BindingInfos": [
+          {
+            "GUID": "b8aec824-55ac-4517-990a-4b728ce7e7c7",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "次品筛选",
+              "GUID": "6568d065-c0f7-4d31-a54d-f7efaf3411c3"
+            },
+            "ColumnName": "次品筛选"
+          },
+          {
+            "GUID": "de9fc029-80f0-4677-a210-3715f6edbbfd",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "空闲模式",
+              "GUID": "0d935857-bede-4855-915b-65139cd98445"
+            },
+            "ColumnName": "空闲模式"
+          },
+          {
+            "GUID": "dcc2de24-b2b2-4b82-b31f-71e0bb071c4b",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "生产模式",
+              "GUID": "c663c0c3-db17-4148-be0d-496a26db2c75"
+            },
+            "ColumnName": "生产模式"
+          },
+          {
+            "GUID": "5f9fa2c1-1a45-4218-ac74-b5c0607731f6",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "线上运行",
+              "GUID": "dc81d9f4-91c2-4c3c-892c-28175631eaf2"
+            },
+            "ColumnName": "线上运行"
+          },
+          {
+            "GUID": "2e836499-1eae-45a1-aab3-3d2e4aa4b941",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "其它",
+              "GUID": "782483a1-b097-4856-9222-7275a1922e20"
+            },
+            "ColumnName": "其它"
+          },
+          {
+            "GUID": "269e5091-7b22-4be6-ae0a-325d8a5f874d",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "时间",
+              "GUID": "d2e62a4e-cca2-4ac6-8897-7b2921fa54eb"
+            },
+            "ColumnName": "时间"
+          },
+          {
+            "GUID": "7931d00c-fe0c-49cb-83cd-cbaaf1c3e37a",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "产值",
+              "GUID": "96886d23-1f95-4c31-b98d-17b25e59f813"
+            },
+            "ColumnName": "产值"
+          },
+          {
+            "GUID": "a7e137d2-ed03-4147-bdf6-9e9e8491d3a2",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "FGC_Creator",
+              "GUID": "ebe2ae7d-a8af-4c29-bf64-fcf0ed6f373f"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "ec50889c-15ea-46a4-8e5a-3bd98685c7a8",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "a7a07362-f374-4eec-9d6c-d7594cd2ab84"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "eaab0042-9ecc-4c74-bd23-9c9e6a778add",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "8fe29336-e02c-42c7-8cd7-ebf797fccc15"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "a39ea22e-f956-41ee-9ac4-169774e368e3",
+            "BindingInfo": {
+              "TableName": "manufacture_08",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "e182b0dc-92b9-4ec6-a5fd-ec983136ff55"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "钣金制造设备效率 OEE - 宕机及生产率"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "钣金制造设备效率 OEE - 宕机及生产率",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 8
+}

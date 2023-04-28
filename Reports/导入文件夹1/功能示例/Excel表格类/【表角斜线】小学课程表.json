@@ -1,0 +1,96 @@
+{
+  "Name": "【表角斜线】小学课程表",
+  "DataSources": [
+    {
+      "Name": "表2",
+      "GUID": "7f9d0511-db1b-4117-a044-357c45761c74",
+      "DataSourceSetting": {
+        "TableName": "表2",
+        "BindingInfos": [
+          {
+            "GUID": "4033bd2d-8105-43c3-a242-7c7965772065",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "ID",
+              "GUID": "2437b06b-6734-4148-9f36-c18153a7526c"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "21f8bd13-91fa-4252-842c-e3422c44ce67",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "字段1",
+              "GUID": "abc7e4f9-fa8e-41a4-8dea-f803feb5219f"
+            },
+            "ColumnName": "字段1"
+          },
+          {
+            "GUID": "1d1271cf-459d-4994-95d9-98dddc51dbb5",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_Creator",
+              "GUID": "8a5d9d69-2928-4431-926e-dd8563417ca1"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "d3736b44-0607-434d-af4c-7c02679e0767",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "74e8b3f5-fee1-4a48-a3c3-2d4b33b278e8"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "8b76fb95-f84d-494e-9216-6f9714c5ba5b",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "816bba86-2621-46d5-a689-f0b3cc538030"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "5efaf5d3-afba-48bc-9184-da3f41c0a875",
+            "BindingInfo": {
+              "TableName": "表2",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "48dbdde1-383f-4f70-af52-82054cbb80f9"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "integer",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6,
+      "name": "【表角斜线】小学课程表"
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "resourceName": "【表角斜线】小学课程表",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 3
+}
