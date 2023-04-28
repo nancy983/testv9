@@ -1072,7 +1072,16 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:24:34.4328678+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\nancyyang\\页面1.json"
+    ]
   },
   {
     "ModuleName": "PageReport/报表1",
