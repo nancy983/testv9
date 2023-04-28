@@ -1367,16 +1367,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T16:27:34.5200621+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet.json"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -6626,22 +6617,10 @@
   },
   {
     "ModuleName": "UserControlPage/验证组件信息",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T16:26:33.9823439+08:00",
     "ModuleType": 31
   },
   {
     "ModuleName": "Tables/使用数据库",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T16:27:03.2435631+08:00",
     "ModuleType": 22
   },
   {
@@ -6750,12 +6729,6 @@
   },
   {
     "ModuleName": "Table/请假数据表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T16:35:02.4370922+08:00",
     "ModuleType": 7
   },
   {

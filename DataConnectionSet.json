@@ -43,5 +43,10 @@
     "ConnectionString": "Data Source=xa-dd3-fs16ms8;Initial Catalog=TestDB;Persist Security Info=True;User ID=forguncytest;Password=xA123456",
     "DataBaseType": 1,
     "ID": "SqlServer2"
+  },
+  {
+    "ConnectionString": "Data Source=xa-dd3-fs16ms8;Initial Catalog=xa-dd3-emmazy;Persist Security Info=True;User ID=sa;Password=xA20200326",
+    "DataBaseType": 1,
+    "ID": "SqlServer4"
   }
 ]
