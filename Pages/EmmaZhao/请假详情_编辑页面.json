@@ -1,0 +1,165 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "用户:",
+    "7,6": "剩余天数:",
+    "9,6": "请假记录ID:",
+    "11,10": "确定",
+    "11,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "ID",
+        "GUID": "cccdacd1-d32f-4fa0-9da9-678c11c2a79d"
+      }
+    },
+    "5,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "用户",
+        "GUID": "d800f702-8f08-4ad8-8f3b-f7c422df24e3"
+      },
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "7,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "剩余天数",
+        "GUID": "e64659dc-0871-49ad-a6b6-4b57d946cbfe"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "9,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "请假记录ID",
+        "GUID": "56b72124-39a6-455b-a81f-2f3de0b2fa24"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "11,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "请假详情"
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "确定",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "11,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "7,6": 0,
+      "9,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,10,1,4",
+    "11,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//sBe2oiNAY7V2MgBYqfKs2Hvda8gwpn6ec94jihgF97T0q3I8dBCNVeM1g5WHpVhUx6dmhgWE6TASvGF69yxmSv48AvieJv7sfbunHhazhR8ZtoD8VKX85LlLS+9AUqfg6jreFHqK6DBWdSZtTCL3BoNK/E3UicWTQ8oRpwYJWeJgmg07XsJG+++HmnAm5cZErWjoJHEKdWotn1sFR8B6CGqPNPW8K7svupm6Tojhw5MvGJTrHZiYy3LpaDF7PwLRFkGWb5APEjuPI1U4hb/cWCr11DnqpbR/eTx1fEtXGamNyNyj7VcsC/vAEyLVYpVNSJEdUDtrmBip+rplBjt3QP+On0XoRwIH9wAiploStp42usdPt4GSWwpRFVct9HNReb4INrvDFPTI/WiFUcEbs5/VPw97M33hvkBLzXaguHqExVMLotJyCnY6m10x4XtJe/gnw8Zu0Atjr+Dq0HJtubtn6C5mAEHinr7rC0FZHii/9VChowQF7h6dVAWq2LqDQ0yp5yUIu6U5/QLUJTAcdXmVWROWlusoQTaN04uK7uDEnn4TwSgHUviS/NMsx1P7cGrvZ4q14ePdiCRod+XZQI6Czh6FJ6k//g+tQOiN1/sKfa8c+6Es2znjcSC6bcdG9mipInl6/9f+brVWgIcGWcZkrT2Zh54blYBnKMfw7geJ2+jqsttq8mOXF4qN+d4LS43MMb0NL/5M8paaeHavmbbN3Z2/aRG3P8vSQAD0J9+T0R0B5m9++HOhfR3o7wZYxVoF1rGbUztuN8NqDhNquIA2MqKUFjjnb/sHsadwbJt00uOJZBL4XzWyaN+y1IH4A6X3b6W5IoGOFjkpmmB0ysk515+OEV9zBFRtzH+M1jkswiG3HdruzUKP5nz18Vqdre9sU6VOk7U/z1DEFinv3Q==|920

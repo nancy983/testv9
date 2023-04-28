@@ -1,0 +1,175 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "添加记录",
+    "3,13": "编辑记录",
+    "3,20": "删除",
+    "5,6": "ID:",
+    "7,6": "用户:",
+    "9,6": "剩余天数:",
+    "11,6": "请假记录ID:",
+    "14,16": "关闭"
+  },
+  "AttachInfos": {
+    "3,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "请假详情_添加页面"
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "3,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "请假详情_编辑页面"
+          }
+        ],
+        "Text": "编辑记录"
+      }
+    },
+    "3,20": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "请假详情",
+            "UpdateType": "delete",
+            "ConfirmText": "您确定要删除吗？"
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "5,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "ID",
+        "GUID": "1a51fbf7-3a20-4a4d-87a7-2981b74d597e"
+      }
+    },
+    "7,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "用户",
+        "GUID": "13363dbd-f667-4e1b-83bc-7b029827b387"
+      }
+    },
+    "9,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "剩余天数",
+        "GUID": "a7662b16-6127-4c85-b8d3-cda46bb55d04"
+      }
+    },
+    "11,14": {
+      "BindingInfo": {
+        "TableName": "请假详情",
+        "ColumnName": "请假记录ID",
+        "GUID": "d1a31aa7-ad3c-47ee-abbb-3f8f33ce29c6"
+      }
+    },
+    "14,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "关闭",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": true
+      },
+      {
+        "FontWeight": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Blue",
+        "Bold",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "3,13": 0,
+      "3,20": 0,
+      "5,6": 1,
+      "7,6": 1,
+      "9,6": 1,
+      "11,6": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "14,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//43wNgTe6bA/1Zn2wEoYJr0WEA+2f+oyK3dYNp0tYfOPwfWEwz2AQM/CLEYgXS31tIpmVN0y8qHcMwmZ55VFk7W9WCCPXgdw/teGis8iPqhhV4MHZpWQVA5tORrHdhQsR4Aapvu0b6EAQ/uRuiXvQe7Qrr0Zdyur8SJNYDCCyuacc9OKODXtBxwg2eQWc3vLx5goIv7aFV1n0hoeX4aMKCLpLCjcEZjt1BJO9ghEF7l2aBQrAztIfVz6bQ3A+RMA2QdUy9p7R4/KOibcsNgaXQGbYynQx1lK0vjWFvw35ybc2jDTqzt9kVaCPOxhu4uSla86OllqgPdxdnHJJUw1WxWLEvZEUDrsnJvoQRfBoxO/wV/r84oV/79DGMyXuc28SeDHUSJsZaW+EUtyLXPNniYihOIjteKymoNO0drAsoXgOjhRwBHSycthpwMosTmECIKMAWuMW3IrBApWFUZ8K1ySqddgMu4ujNVvmR3ywR8SRPraT9HxnaG3tc7rS87Lf9zNs8/cqm7NdSjDgQeFCu9ktwrUPCXCo64mcGeSPf/rrNp3iBYvrN49/ZPzF8GUefecZuYJRuNFvybxsXUHWWBqsVTgCDEBbhu4Sea9zC/W2w8LDR+HGc8iTKAHNVWGC/qlmznN7D8TOZs+YKh2hpih4sZHp46gU0+zW4swK2OLzlyz7vM1L80oobmJxK2FwitJSajf5qOB6pYCQOtPHx92zkYO1x8MpJnvgd80loGt6eqzxpbmyABtbKTPZT9pF+j11pWPKa5SbADIas76quWJhI7EFmtOKeSL6Uj18vjQbrBnr5hrXRcH9QVddFmrlP2gwsZKJd84K6PeyVEEtzC2LnMDqwDODDgW6EGeqs2Yyzn27Z3OAQv/gxvSw5SwwjErjIeBJjsYEWiCOwcefIQ==|920

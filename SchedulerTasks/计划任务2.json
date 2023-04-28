@@ -1,0 +1,17 @@
+{
+  "Name": "计划任务2",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.AppReDeployTrigger, ServerDesignerCommon"
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.CheckUserSubscribeNotificationCommand, ServerDesignerCommon",
+      "UserName": "Administrator",
+      "MessageName": "服务端通知1",
+      "ResultName": "resultinfo"
+    }
+  ]
+}
