@@ -1042,7 +1042,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\WendyWang",
+      "Email": "wendy.wang@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:55:46.4905238+08:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet.json"
+    ]
   },
   {
     "ModuleName": "Upload",
