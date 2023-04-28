@@ -6034,7 +6034,14 @@
   },
   {
     "ModuleName": "Process/文件夹1",
-    "ModuleType": 29
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-04-28T17:35:35.9222019+08:00",
+    "ModuleType": 29,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "UserControlPages/工作流表单模板/文件夹1",
