@@ -1563,7 +1563,16 @@
   },
   {
     "ModuleName": "PCPage/测试流程客户端命令",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T17:04:24.2132489+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\导入文件夹1\\测试流程页面\\测试流程客户端命令.json"
+    ]
   },
   {
     "ModuleName": "Pages/导入文件夹1",
