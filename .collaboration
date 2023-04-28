@@ -843,20 +843,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:16:50.039949+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "image/内置图片",
@@ -1032,96 +1019,7 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:16:50.0397957+08:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": [
-      "Upload\\065ef6e1-c20e-4eb5-8429-43b8749cdeda_5.medium.png",
-      "Upload\\065ef6e1-c20e-4eb5-8429-43b8749cdeda_5.png",
-      "Upload\\065ef6e1-c20e-4eb5-8429-43b8749cdeda_5.small.png",
-      "Upload\\10e5fa35-4d9f-4b3f-b523-dfb0d2eed72b_sale_order.png",
-      "Upload\\10e5fa35-4d9f-4b3f-b523-dfb0d2eed72b_sale_order.small.png",
-      "Upload\\44a0d8ad-7176-492e-a29a-563875dc08de_outgoing_storage.png",
-      "Upload\\44a0d8ad-7176-492e-a29a-563875dc08de_outgoing_storage.small.png",
-      "Upload\\485db3a3-5064-430d-a56e-135e978cdecd_6.medium.png",
-      "Upload\\485db3a3-5064-430d-a56e-135e978cdecd_6.png",
-      "Upload\\485db3a3-5064-430d-a56e-135e978cdecd_6.small.png",
-      "Upload\\52d9ae96-ea95-46d8-9939-d7aa78a679b5_微信截图_20221228141311.medium.png",
-      "Upload\\52d9ae96-ea95-46d8-9939-d7aa78a679b5_微信截图_20221228141311.png",
-      "Upload\\52d9ae96-ea95-46d8-9939-d7aa78a679b5_微信截图_20221228141311.small.png",
-      "Upload\\5d3cceb6-5dfa-4837-ab91-ee332c1764e5_reporter.png",
-      "Upload\\5d3cceb6-5dfa-4837-ab91-ee332c1764e5_reporter.small.png",
-      "Upload\\5d95c8c1-701e-4ff9-9938-de69855412bc_微信截图_20221228141219.medium.png",
-      "Upload\\5d95c8c1-701e-4ff9-9938-de69855412bc_微信截图_20221228141219.png",
-      "Upload\\5d95c8c1-701e-4ff9-9938-de69855412bc_微信截图_20221228141219.small.png",
-      "Upload\\643a8572-2179-4126-baee-3ad17260fcc4_inventory.png",
-      "Upload\\643a8572-2179-4126-baee-3ad17260fcc4_inventory.small.png",
-      "Upload\\75c7accc-b366-4088-b88e-10eb4cd08ad3_微信截图_20221228140917.medium.png",
-      "Upload\\75c7accc-b366-4088-b88e-10eb4cd08ad3_微信截图_20221228140917.png",
-      "Upload\\75c7accc-b366-4088-b88e-10eb4cd08ad3_微信截图_20221228140917.small.png",
-      "Upload\\7abefd9d-40da-4064-9b7a-0e070cdf05ff_package.png",
-      "Upload\\7abefd9d-40da-4064-9b7a-0e070cdf05ff_package.small.png",
-      "Upload\\7c3aa89a-773e-4f6d-b7b5-3bbe158c7ffa_ingoing_storage.png",
-      "Upload\\7c3aa89a-773e-4f6d-b7b5-3bbe158c7ffa_ingoing_storage.small.png",
-      "Upload\\835b9aa2-a824-47dd-818c-178722663309_2.medium.png",
-      "Upload\\835b9aa2-a824-47dd-818c-178722663309_2.png",
-      "Upload\\835b9aa2-a824-47dd-818c-178722663309_2.small.png",
-      "Upload\\8d4a1e4e-ac13-4bf6-8631-e6fc21d88660_4.medium.png",
-      "Upload\\8d4a1e4e-ac13-4bf6-8631-e6fc21d88660_4.png",
-      "Upload\\8d4a1e4e-ac13-4bf6-8631-e6fc21d88660_4.small.png",
-      "Upload\\90b952b0-2763-4e74-ab1c-5f4ce52af88a_2.medium.png",
-      "Upload\\90b952b0-2763-4e74-ab1c-5f4ce52af88a_2.png",
-      "Upload\\90b952b0-2763-4e74-ab1c-5f4ce52af88a_2.small.png",
-      "Upload\\92c9f441-e9da-4237-b5f3-5add5e0113d7_3.medium.png",
-      "Upload\\92c9f441-e9da-4237-b5f3-5add5e0113d7_3.png",
-      "Upload\\92c9f441-e9da-4237-b5f3-5add5e0113d7_3.small.png",
-      "Upload\\937231ec-f11b-4e2a-9d70-2e613a4b03f6_3.medium.png",
-      "Upload\\937231ec-f11b-4e2a-9d70-2e613a4b03f6_3.png",
-      "Upload\\937231ec-f11b-4e2a-9d70-2e613a4b03f6_3.small.png",
-      "Upload\\99204eac-d4b4-48f5-b38e-e69aab677153_1.medium.png",
-      "Upload\\99204eac-d4b4-48f5-b38e-e69aab677153_1.png",
-      "Upload\\99204eac-d4b4-48f5-b38e-e69aab677153_1.small.png",
-      "Upload\\9cbb6b48-e0d0-46e7-9309-cb46221311b9_微信截图_20221228141247.medium.png",
-      "Upload\\9cbb6b48-e0d0-46e7-9309-cb46221311b9_微信截图_20221228141247.png",
-      "Upload\\9cbb6b48-e0d0-46e7-9309-cb46221311b9_微信截图_20221228141247.small.png",
-      "Upload\\abc572ec-e4a0-41ec-893f-cd4c624b7858_微信截图_20221228141152.medium.png",
-      "Upload\\abc572ec-e4a0-41ec-893f-cd4c624b7858_微信截图_20221228141152.png",
-      "Upload\\abc572ec-e4a0-41ec-893f-cd4c624b7858_微信截图_20221228141152.small.png",
-      "Upload\\ad74dd63-e525-4483-8be1-36fab672f080_微信截图_20221228141027.medium.png",
-      "Upload\\ad74dd63-e525-4483-8be1-36fab672f080_微信截图_20221228141027.png",
-      "Upload\\ad74dd63-e525-4483-8be1-36fab672f080_微信截图_20221228141027.small.png",
-      "Upload\\add740b6-245e-45cf-92bb-5df8ed45da7e_2.medium.png",
-      "Upload\\add740b6-245e-45cf-92bb-5df8ed45da7e_2.png",
-      "Upload\\add740b6-245e-45cf-92bb-5df8ed45da7e_2.small.png",
-      "Upload\\b497c9a7-cf0c-4330-8d3f-811be426da0c_package.png",
-      "Upload\\b497c9a7-cf0c-4330-8d3f-811be426da0c_package.small.png",
-      "Upload\\b4fb5e7c-438b-424f-af06-15567391e1cc_6.medium.png",
-      "Upload\\b4fb5e7c-438b-424f-af06-15567391e1cc_6.png",
-      "Upload\\b4fb5e7c-438b-424f-af06-15567391e1cc_6.small.png",
-      "Upload\\ba0d86a5-9423-4670-bcde-7bb354303ccc_5.medium.png",
-      "Upload\\ba0d86a5-9423-4670-bcde-7bb354303ccc_5.png",
-      "Upload\\ba0d86a5-9423-4670-bcde-7bb354303ccc_5.small.png",
-      "Upload\\bb78eb3e-ddc4-4d07-adcc-c6d6cbcc78a9_purchase.png",
-      "Upload\\bb78eb3e-ddc4-4d07-adcc-c6d6cbcc78a9_purchase.small.png",
-      "Upload\\bcb3b3d0-2ea4-4528-8243-7bc9c9b55df6_7.png",
-      "Upload\\bcb3b3d0-2ea4-4528-8243-7bc9c9b55df6_7.small.png",
-      "Upload\\cec90388-4ec8-4373-87ae-9cdbe7a2e52a_package.png",
-      "Upload\\cec90388-4ec8-4373-87ae-9cdbe7a2e52a_package.small.png",
-      "Upload\\d8de5670-2c86-4256-8095-f820c56b6ecb_微信截图_20221228141116.png",
-      "Upload\\d8de5670-2c86-4256-8095-f820c56b6ecb_微信截图_20221228141116.small.png",
-      "Upload\\db6aa36f-cf6d-47b5-91da-cd61a29ffef8_1.medium.png",
-      "Upload\\db6aa36f-cf6d-47b5-91da-cd61a29ffef8_1.png",
-      "Upload\\db6aa36f-cf6d-47b5-91da-cd61a29ffef8_1.small.png",
-      "Upload\\fd4ce2cd-8f7a-4d89-8f7a-44547ede0b7e_4.medium.png",
-      "Upload\\fd4ce2cd-8f7a-4d89-8f7a-44547ede0b7e_4.png",
-      "Upload\\fd4ce2cd-8f7a-4d89-8f7a-44547ede0b7e_4.small.png",
-      "Upload\\ff869f68-9764-47fd-9eea-643a29e1d40d_7.png",
-      "Upload\\ff869f68-9764-47fd-9eea-643a29e1d40d_7.small.png"
-    ]
+    "ModuleType": 26
   },
   {
     "ModuleName": "ProcessItem/流程1",
@@ -4234,22 +4132,10 @@
   },
   {
     "ModuleName": "MobilePage/FGC_棋盘式导航首页_手机端",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:16:50.0398521+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/创建收集页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-04-28T17:17:34.0158795+08:00",
     "ModuleType": 2
   },
   {
