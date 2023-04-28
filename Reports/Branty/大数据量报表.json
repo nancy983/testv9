@@ -1,0 +1,143 @@
+{
+  "Name": "大数据量报表",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "b0c3bc16-8cc0-4b88-bf17-eb206f66a196",
+      "DataSourceSetting": {
+        "TableName": "BigTable",
+        "BindingInfos": [
+          {
+            "GUID": "2ce4556e-43e1-4cb5-8544-45f524aac5b1",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "ID",
+              "GUID": "fadf5d53-7ac9-42da-8a6e-5c774159def5"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "2fe997a6-36e1-45e9-9c80-552399ed7e0b",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "Date",
+              "GUID": "89ee1c98-2643-4de5-ad76-22a90ad49263"
+            },
+            "ColumnName": "Date"
+          },
+          {
+            "GUID": "b7e1fbc0-b0bb-4de6-a1ab-e29682bcad87",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "Country",
+              "GUID": "88a838d8-0afe-436f-958f-9f7861f3cd4e"
+            },
+            "ColumnName": "Country"
+          },
+          {
+            "GUID": "82c8b07c-ea69-4dd4-9652-9a3b2db29e62",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "Product",
+              "GUID": "7896d3ac-816e-407e-88d2-dc6caf7952ac"
+            },
+            "ColumnName": "Product"
+          },
+          {
+            "GUID": "61b7b83b-e47c-475e-8d1a-666dacf04d8d",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "Color",
+              "GUID": "16dab170-3d37-48e2-b9d0-f19e53090727"
+            },
+            "ColumnName": "Color"
+          },
+          {
+            "GUID": "77828532-1eb4-4ec0-a1f0-fca817bd86d6",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "Amount",
+              "GUID": "4026f772-bf3e-41a5-8fad-c9d099804d9a"
+            },
+            "ColumnName": "Amount"
+          },
+          {
+            "GUID": "66168dd7-0f11-4949-815e-9e691315275f",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "Active",
+              "GUID": "6cd80410-20ff-4e27-94ea-6c4fe178d0a5"
+            },
+            "ColumnName": "Active"
+          },
+          {
+            "GUID": "c6b52677-9a34-4304-8332-3e0e61744cf9",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "FGC_Creator",
+              "GUID": "8dc30366-59dd-4b0b-9d51-e8bd372ed263"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "31e16d87-bd5a-4a09-a461-cc30902d2b0d",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "ce8ae5ac-262b-4396-91b8-e5e774c90971"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "e4367a5e-d649-4cd2-ae87-f1a9c04118d2",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "09301281-2a04-466f-9bcb-96c6617a80bd"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "90d0dc91-a0fd-4559-9590-c8e31af09867",
+            "BindingInfo": {
+              "TableName": "BigTable",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "cbd8c381-1fba-46cb-8da2-833f8351f70e"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "date-time",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "boolean",
+        "string",
+        "date-time",
+        "string",
+        "date-time"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 1
+}

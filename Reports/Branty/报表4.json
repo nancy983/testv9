@@ -1,0 +1,95 @@
+{
+  "Name": "报表4",
+  "DataSources": [
+    {
+      "Name": "数据源1",
+      "GUID": "d4f0782a-83c6-4147-83ae-53cbd1a1be7b",
+      "DataSourceSetting": {
+        "TableName": "ColorTable",
+        "BindingInfos": [
+          {
+            "GUID": "7fed95e7-c229-4b48-914c-bf47b124a0fa",
+            "BindingInfo": {
+              "TableName": "ColorTable",
+              "ColumnName": "ID",
+              "GUID": "0ae7a188-8aa8-4231-bb76-cac384d47704"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "e78a583c-5c70-40f5-832a-36ed3fabc718",
+            "BindingInfo": {
+              "TableName": "ColorTable",
+              "ColumnName": "MasterColor",
+              "GUID": "2ac6a671-e058-4620-af17-ba6cc16105de"
+            },
+            "ColumnName": "MasterColor"
+          },
+          {
+            "GUID": "b740b3f7-6be1-4c89-baff-4ca62d9eefdc",
+            "BindingInfo": {
+              "TableName": "ColorTable",
+              "ColumnName": "FGC_Creator",
+              "GUID": "fb6d6e7f-5cc7-42b0-ba56-4e2dcf212e0a"
+            },
+            "ColumnName": "创建者"
+          },
+          {
+            "GUID": "93313afa-cf57-485e-928b-aa670b3feae6",
+            "BindingInfo": {
+              "TableName": "ColorTable",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "f648e795-8ee0-4ca5-831a-cd896bdd0ccf"
+            },
+            "ColumnName": "创建日期"
+          },
+          {
+            "GUID": "26672555-8723-4f5b-8827-9c9987718eb3",
+            "BindingInfo": {
+              "TableName": "ColorTable",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "763f4799-794e-468d-8839-889bc1b5de28"
+            },
+            "ColumnName": "最后更新者"
+          },
+          {
+            "GUID": "c6d64264-6f33-46f4-8b3d-b71d3d80a8f5",
+            "BindingInfo": {
+              "TableName": "ColorTable",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "75ae2901-3069-4a03-9ce7-d637d73a7777"
+            },
+            "ColumnName": "最后更新日期"
+          }
+        ]
+      },
+      "ColumnsType": [
+        "integer",
+        "string",
+        "string",
+        "date-time",
+        "string",
+        "date-time"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "activeReportType": 1,
+      "type": 6
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "ReportType": 1,
+  "Weight": 2
+}
