@@ -1,172 +1,512 @@
 [
   {
     "ModuleName": "Table/供应商_客户表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348001+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\其他\\供应商_客户表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/帮助手册表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348221+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\其他\\帮助手册表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/状态字典表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348256+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\其他\\状态字典表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/移动端ListView表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348294+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\其他\\移动端ListView表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/类型",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348328+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\其他\\类型.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/项目表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348361+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\其他\\项目表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出入库类型表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.934842+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\出入库\\出入库类型表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出入库表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348556+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\出入库\\出入库表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出入库详情表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348643+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\出入库\\出入库详情表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_HI_COMMENT_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348719+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\审核流程\\ACT_HI_COMMENT_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_HI_PROCINST_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348761+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\审核流程\\ACT_HI_PROCINST_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_HI_TASKINST_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348873+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\审核流程\\ACT_HI_TASKINST_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_RE_PROCDEF_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348971+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\审核流程\\ACT_RE_PROCDEF_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_RU_TASK_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349015+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\审核流程\\ACT_RU_TASK_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/BigTable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.934908+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\导入文件夹1\\BigTable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/ColorTable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349122+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\导入文件夹1\\ColorTable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/CountryTable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349167+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\导入文件夹1\\CountryTable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DateTable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349216+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\导入文件夹1\\DateTable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/ProductTable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.934932+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\导入文件夹1\\ProductTable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/供应商客户物品相关表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349391+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\物品\\供应商客户物品相关表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/单位表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349437+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\物品\\单位表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/物品类目",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349481+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\物品\\物品类目.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/物品表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349527+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\物品\\物品表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/用户信息视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349615+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\用户表\\用户信息视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/组织结构成员表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349664+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\用户表\\组织结构成员表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/组织结构表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349715+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\用户表\\组织结构表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/盘点表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349796+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\盘点\\盘点表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/盘点详情表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349845+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\盘点\\盘点详情表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/采购订单付款历史表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349968+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\采购\\采购订单付款历史表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/采购订单到票历史表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350021+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\采购\\采购订单到票历史表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/采购订单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350072+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\采购\\采购订单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/采购订单详情表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350187+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\采购\\采购订单详情表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/销售订单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350265+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\销售\\销售订单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/销售订单详情表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350317+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\销售\\销售订单详情表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -1133,31 +1473,94 @@
   },
   {
     "ModuleName": "Table/流程和任务信息",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350487+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹2\\业务数据表\\流程和任务信息.json"
+    ]
   },
   {
     "ModuleName": "Tables/导入文件夹2",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350756+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹2"
+    ]
   },
   {
     "ModuleName": "Tables/导入文件夹2/业务数据表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350741+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹2\\业务数据表"
+    ]
   },
   {
     "ModuleName": "Table/任务信息",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350412+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹2\\业务数据表\\任务信息.json"
+    ]
   },
   {
     "ModuleName": "Table/请假表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350658+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹2\\业务数据表\\请假表.json"
+    ]
   },
   {
     "ModuleName": "Table/请假表附件表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935072+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹2\\业务数据表\\请假表附件表.json"
+    ]
   },
   {
     "ModuleName": "Table/用户表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350555+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹2\\业务数据表\\用户表.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/管理流程定义_挂起",
@@ -1277,631 +1680,1910 @@
   },
   {
     "ModuleName": "Table/店面满意度",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350848+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Excel表格类\\店面满意度.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364155+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3"
+    ]
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357556+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例"
+    ]
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/Excel表格类",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350948+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Excel表格类"
+    ]
   },
   {
     "ModuleName": "Table/线体生产",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350923+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Excel表格类\\线体生产.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/c_乙方信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351026+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售合同\\c_乙方信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/Word文档类",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352493+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类"
+    ]
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/Word文档类/销售合同",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351467+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售合同"
+    ]
   },
   {
     "ModuleName": "Table/c_合同",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351094+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售合同\\c_合同.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/c_合同付款",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351219+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售合同\\c_合同付款.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/c_甲方信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351289+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售合同\\c_甲方信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/c_订单明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351359+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售合同\\c_订单明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/c_送货信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351429+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售合同\\c_送货信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_bom",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351538+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_bom.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_二次加工",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351609+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_二次加工.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_成衣加工",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351685+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_成衣加工.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_数量明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351775+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_数量明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_样品信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351852+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_样品信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_物料bom明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351925+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_物料bom明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_相关说明",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9351998+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_相关说明.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/dress_配色表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352105+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\dress_配色表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DS_检测报告",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352193+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\DS_检测报告.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/干部履历",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352267+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\干部履历.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/表2",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352385+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\表2.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/销售明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935246+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\Word文档类\\销售明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/demo_销售明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935257+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\交叉分析表\\demo_销售明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/交叉分析表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352671+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\交叉分析表"
+    ]
   },
   {
     "ModuleName": "Table/财政教育经费",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352651+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\交叉分析表\\财政教育经费.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/供应商",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352816+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\分组与重复表头\\供应商.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/分组与重复表头",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353063+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\分组与重复表头"
+    ]
   },
   {
     "ModuleName": "TableView/单级分组",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9352913+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\分组与重复表头\\单级分组.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/物品清单",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935304+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\分组与重复表头\\物品清单.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/奖金明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353149+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\动态自定义表格\\奖金明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/动态自定义表格",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353198+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\动态自定义表格"
+    ]
   },
   {
     "ModuleName": "Table/y2y_销售",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353289+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\同比环比\\y2y_销售.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/同比环比",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353494+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\同比环比"
+    ]
   },
   {
     "ModuleName": "TableView/月合计数据",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353388+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\同比环比\\月合计数据.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/环比基数数据集",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353473+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\同比环比\\环比基数数据集.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/diamonds",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353586+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\diamonds.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/图表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354511+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表"
+    ]
   },
   {
     "ModuleName": "TableView/Sales",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935367+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\Sales.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/tourism_jysj",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353765+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\tourism_jysj.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/tourism_jysj_view",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9353854+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\tourism_jysj_view.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/产品",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935394+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\产品.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/各月收入",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354046+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\各月收入.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/类别",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935413+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\类别.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/订单",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354216+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\订单.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/订单明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354309+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\订单明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/雇员",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354483+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\图表\\雇员.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/搭赠费",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354604+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\展开与折叠\\搭赠费.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/展开与折叠",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354897+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\展开与折叠"
+    ]
   },
   {
     "ModuleName": "Table/电力设备生产数据",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354729+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\展开与折叠\\电力设备生产数据.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/项目进度",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9354821+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\展开与折叠\\项目进度.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/CourierOrderDetail",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355032+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\报表套打\\CourierOrderDetail.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/报表套打",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355347+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\报表套打"
+    ]
   },
   {
     "ModuleName": "TableView/OrderDetail",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355125+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\报表套打\\OrderDetail.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/客户",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355218+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\报表套打\\客户.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/运货商",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355324+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\报表套打\\运货商.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/SalesByCategory",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355443+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\数据可视化\\SalesByCategory.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/数据可视化",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355737+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\数据可视化"
+    ]
   },
   {
     "ModuleName": "TableView/SalesBySupplier",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935554+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\数据可视化\\SalesBySupplier.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/支出预算",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355713+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\数据可视化\\支出预算.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/航班信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935588+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\条形码\\航班信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/条形码",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9355906+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\条形码"
+    ]
   },
   {
     "ModuleName": "Table/mobile_mkt1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935601+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_mkt1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/移动端报表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9356927+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表"
+    ]
   },
   {
     "ModuleName": "Table/mobile_mkt2",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9356176+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_mkt2.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/mobile_mkt3",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9356274+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_mkt3.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/mobile_salesdata",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.935642+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_salesdata.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/mobile_利润",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9356535+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_利润.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/mobile_员工",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9356635+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_员工.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/mobile_客户",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9356734+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_客户.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/mobile_账单",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9356881+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\移动端报表\\mobile_账单.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/sales_产品",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357035+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\表达式\\sales_产品.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/功能示例/表达式",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357536+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\表达式"
+    ]
   },
   {
     "ModuleName": "Table/sales_类别",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357136+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\表达式\\sales_类别.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/作用域",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357243+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\表达式\\作用域.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/省份列表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357407+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\表达式\\省份列表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/行号",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357513+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\功能示例\\表达式\\行号.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_accidentbyposition",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357748+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accidentbyposition.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/行业案例",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364141+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例"
+    ]
   },
   {
     "ModuleName": "Tables/导入文件夹3/行业案例/交通运输",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360478+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输"
+    ]
   },
   {
     "ModuleName": "Table/traffic_vehiclemodel",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357857+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_vehiclemodel.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_vehiclebrand",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9357966+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_vehiclebrand.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_transport2",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9358076+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_transport2.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_performancebyworker",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9358196+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_performancebyworker.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_performancebyproduct",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9358305+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_performancebyproduct.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_performancebyhour",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9358468+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_performancebyhour.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_performance",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9358651+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_performance.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/traffic_accuracybyworker_view",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9358844+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybyworker_view.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_accuracybyworker",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9359003+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybyworker.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/traffic_accuracybytime_view",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9359131+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybytime_view.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_accuracybytime",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9359297+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybytime.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/traffic_accuracybysite_view",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9359413+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybysite_view.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_accuracybysite",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9359615+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybysite.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_accuracybyquantity",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9359731+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybyquantity.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/traffic_accuracybyproduct_view",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9359841+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybyproduct_view.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_accuracybyproduct",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360018+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accuracybyproduct.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_accidentsbyage",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360209+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_accidentsbyage.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/traffic_victims",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360323+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\traffic_victims.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/货物实时跟踪报表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360438+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\交通运输\\货物实时跟踪报表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/学校收入分摊表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360647+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\学校教育\\学校收入分摊表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/行业案例/学校教育",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360791+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\学校教育"
+    ]
   },
   {
     "ModuleName": "Table/学校综合业绩",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9360769+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\学校教育\\学校综合业绩.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/house_媒体效果统计图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.936096+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\房地产\\house_媒体效果统计图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/行业案例/房地产",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361626+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\房地产"
+    ]
   },
   {
     "ModuleName": "Table/house_客户特征分析",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361081+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\房地产\\house_客户特征分析.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/house_管理驾驶舱",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361201+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\房地产\\house_管理驾驶舱.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/house_管理驾驶舱1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361331+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\房地产\\house_管理驾驶舱1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/house_项目存量统计报表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361486+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\房地产\\house_项目存量统计报表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/house_项目现金流量表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361604+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\房地产\\house_项目现金流量表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/hm_产能dashboard",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361806+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\hm_产能dashboard.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹3/行业案例/生产制造",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364125+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造"
+    ]
   },
   {
     "ModuleName": "Table/produce_品质",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9361934+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\produce_品质.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/produce_产线",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9362055+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\produce_产线.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_颜色详情",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9362193+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_颜色详情.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_辅料详情",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9362425+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_辅料详情.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_规格详情",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9362567+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_规格详情.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_裁剪详情",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9362699+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_裁剪详情.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_裁剪",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9362812+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_裁剪.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_使用面料",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9362931+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_使用面料.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_08",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363097+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_08.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_04",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363215+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_04.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_03",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363363+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_03.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_02",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363483+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_02.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/manufacture_01",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363615+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\manufacture_01.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/hm_产能dashboard2",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363733+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\hm_产能dashboard2.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/hm_产能dashboard1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363849+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\hm_产能dashboard1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/smt生产看板人员名单01",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9363985+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\smt生产看板人员名单01.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/smt生产看板人员名单02柱状图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364104+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\导入文件夹3\\行业案例\\生产制造\\smt生产看板人员名单02柱状图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -2411,43 +4093,133 @@
   },
   {
     "ModuleName": "Tables/库存管理",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350349+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/其他",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348381+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\其他"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/出入库",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9348668+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\出入库"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/审核流程",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349034+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\审核流程"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/导入文件夹1",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349344+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\导入文件夹1"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/物品",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349547+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\物品"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/用户表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349734+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\用户表"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/盘点",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9349864+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\盘点"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/采购",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350208+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\采购"
+    ]
   },
   {
     "ModuleName": "Tables/库存管理/销售",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9350336+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\库存管理\\销售"
+    ]
   },
   {
     "ModuleName": "UserControlPage/搜索框",
@@ -2583,172 +4355,542 @@
   },
   {
     "ModuleName": "TableView/请假表视图1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9369972+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\内建表\\请假表视图1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/wendy外联和内建",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9370214+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建"
+    ]
   },
   {
     "ModuleName": "Tables/wendy外联和内建/ODBC",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365945+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\ODBC"
+    ]
   },
   {
     "ModuleName": "Table/表123456789012345678901234567890",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9369614+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\内建表\\表123456789012345678901234567890.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/请假表na",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9369758+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\内建表\\请假表na.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/wendy外联和内建/Tibero",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.936947+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Tibero"
+    ]
   },
   {
     "ModuleName": "Table/美妆产品信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9367922+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\SqlServer\\美妆产品信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/店舗マスタ",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365345+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\MySql\\店舗マスタ.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/wendy外联和内建/DaMeng",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364877+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\DaMeng"
+    ]
   },
   {
     "ModuleName": "Table/员工表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365007+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\MySql\\员工表.json"
+    ]
   },
   {
     "ModuleName": "TableView/商品明细视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365188+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\MySql\\商品明细视图.json"
+    ]
   },
   {
     "ModuleName": "Table/表36",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365543+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\MySql\\表36.json"
+    ]
   },
   {
     "ModuleName": "TableView/表36视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365732+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\MySql\\表36视图.json"
+    ]
   },
   {
     "ModuleName": "Table/学生",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.936623+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Oracle\\学生.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/wendy外联和内建/PostGre",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9367416+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\PostGre"
+    ]
   },
   {
     "ModuleName": "Table/专业字典表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9366098+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Oracle\\专业字典表.json"
+    ]
   },
   {
     "ModuleName": "TableView/轿车信息视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9366671+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Oracle\\轿车信息视图.json"
+    ]
   },
   {
     "ModuleName": "Table/表23",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9366365+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Oracle\\表23.json"
+    ]
   },
   {
     "ModuleName": "TableView/表23视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9366504+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Oracle\\表23视图.json"
+    ]
   },
   {
     "ModuleName": "Table/年级",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9366969+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\PostGre\\年级.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/wendy外联和内建/Oracle",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9366692+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Oracle"
+    ]
   },
   {
     "ModuleName": "Table/汽车企业信息",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9367102+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\PostGre\\汽车企业信息.json"
+    ]
   },
   {
     "ModuleName": "TableView/ビュー2",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9366824+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\PostGre\\ビュー2.json"
+    ]
   },
   {
     "ModuleName": "Table/表6",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9367234+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\PostGre\\表6.json"
+    ]
   },
   {
     "ModuleName": "TableView/表6视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9367394+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\PostGre\\表6视图.json"
+    ]
   },
   {
     "ModuleName": "Table/厂商信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364347+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\DaMeng\\厂商信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/wendy外联和内建/MySql",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365752+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\MySql"
+    ]
   },
   {
     "ModuleName": "Table/工序名称",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364475+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\DaMeng\\工序名称.json"
+    ]
   },
   {
     "ModuleName": "TableView/班级信息视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364598+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\DaMeng\\班级信息视图.json"
+    ]
   },
   {
     "ModuleName": "Table/表5",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364732+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\DaMeng\\表5.json"
+    ]
   },
   {
     "ModuleName": "TableView/表5视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9364856+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\DaMeng\\表5视图.json"
+    ]
   },
   {
     "ModuleName": "Table/mastertable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9368867+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Tibero\\mastertable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/wendy外联和内建/SqlServer",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9368382+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\SqlServer"
+    ]
   },
   {
     "ModuleName": "Table/AA3",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9368626+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Tibero\\AA3.json"
+    ]
   },
   {
     "ModuleName": "TableView/View1",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9369009+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Tibero\\View1.json"
+    ]
   },
   {
     "ModuleName": "Table/表15",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9369188+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Tibero\\表15.json"
+    ]
   },
   {
     "ModuleName": "TableView/表15视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9369348+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\Tibero\\表15视图.json"
+    ]
   },
   {
     "ModuleName": "TableView/汽车销售信息",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9365924+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\ODBC\\汽车销售信息.json"
+    ]
   },
   {
     "ModuleName": "Tables/wendy外联和内建/内建表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9370009+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\内建表"
+    ]
   },
   {
     "ModuleName": "Table/表1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9370194+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\表1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -2773,23 +4915,68 @@
   },
   {
     "ModuleName": "Table/会员信息表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9367726+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\SqlServer\\会员信息表.json"
+    ]
   },
   {
     "ModuleName": "TableView/ビュー1",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9367553+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\SqlServer\\ビュー1.json"
+    ]
   },
   {
     "ModuleName": "Table/表27",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.936806+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\SqlServer\\表27.json"
+    ]
   },
   {
     "ModuleName": "TableView/表27视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9368196+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\SqlServer\\表27视图.json"
+    ]
   },
   {
     "ModuleName": "Table/记录表51",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9368352+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\wendy外联和内建\\SqlServer\\记录表51.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/横向菜单导航-PC-1360_768",
@@ -2941,170 +5128,518 @@
   },
   {
     "ModuleName": "Table/产品信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9370437+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\分析页\\产品信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/组件",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9774659+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件"
+    ]
   },
   {
     "ModuleName": "Tables/组件/详情页/基础详情页",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9773575+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\基础详情页"
+    ]
   },
   {
     "ModuleName": "Tables/组件/详情页",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9774642+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页"
+    ]
   },
   {
     "ModuleName": "Table/产品大类",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.937059+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\分析页\\产品大类.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/产品类别",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9370738+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\分析页\\产品类别.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/店铺信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9370905+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\分析页\\店铺信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/销售信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9371059+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\分析页\\销售信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/动态表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.937125+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\工作台\\动态表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/组件/详情页/高级详情页",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9774623+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\高级详情页"
+    ]
   },
   {
     "ModuleName": "Table/团队表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9371402+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\工作台\\团队表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/导航菜单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9371557+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\工作台\\导航菜单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/快捷导航表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9371767+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\工作台\\快捷导航表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/行为字典表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9371924+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\工作台\\行为字典表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/项目信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.937208+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\工作台\\项目信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/快捷导航配置表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372497+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\列表页\\卡片列表\\快捷导航配置表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/组件/列表页",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372736+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\列表页"
+    ]
   },
   {
     "ModuleName": "Tables/组件/表单页",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372936+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\表单页"
+    ]
   },
   {
     "ModuleName": "Table/徽标物品信息表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372681+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\列表页\\搜索列表\\徽标物品信息表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/组件/表单页/高级表单",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.937292+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\表单页\\高级表单"
+    ]
   },
   {
     "ModuleName": "Table/员工信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.93729+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\表单页\\高级表单\\员工信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/组件/列表页/卡片列表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372523+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\列表页\\卡片列表"
+    ]
   },
   {
     "ModuleName": "Tables/组件/列表页/搜索列表",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372719+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\列表页\\搜索列表"
+    ]
   },
   {
     "ModuleName": "Table/取货单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9373115+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\基础详情页\\取货单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/组件/Dashboard/分析页",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9371084+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\分析页"
+    ]
   },
   {
     "ModuleName": "Tables/组件/Dashboard",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372176+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard"
+    ]
   },
   {
     "ModuleName": "Table/基础详情用户信息表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9771287+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\基础详情页\\基础详情用户信息表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/退款申请表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9772901+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\基础详情页\\退款申请表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/退货商品表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9773228+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\基础详情页\\退货商品表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/退货进度表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9773437+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\基础详情页\\退货进度表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/操作日志表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9773776+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\高级详情页\\操作日志表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/组件/Dashboard/工作台",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9372153+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\组件\\Dashboard\\工作台"
+    ]
   },
   {
     "ModuleName": "Table/来电记录表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9773987+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\高级详情页\\来电记录表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/用户信息子表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9774212+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\高级详情页\\用户信息子表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/用户信息表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9774408+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\高级详情页\\用户信息表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/订单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9774591+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\组件\\详情页\\高级详情页\\订单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -3903,20 +6438,58 @@
   },
   {
     "ModuleName": "Table/FGC_项目表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347594+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹\\工作台\\FGC_项目表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/FGC_页面模板文件夹",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347957+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹"
+    ]
   },
   {
     "ModuleName": "Tables/FGC_页面模板文件夹/工作台",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347756+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹\\工作台"
+    ]
   },
   {
     "ModuleName": "Table/FGC_动态表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347699+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹\\工作台\\FGC_动态表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -3965,21 +6538,60 @@
   },
   {
     "ModuleName": "Table/FGC_订单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347846+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹\\主子表页\\FGC_订单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/FGC_页面模板文件夹/主子表页",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347941+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹\\主子表页"
+    ]
   },
   {
     "ModuleName": "Table/FGC_订单明细",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347885+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹\\主子表页\\FGC_订单明细.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/FGC_商品目录表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T16:33:19.9347919+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\FGC_页面模板文件夹\\主子表页\\FGC_商品目录表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
