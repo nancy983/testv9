@@ -1572,7 +1572,18 @@
   },
   {
     "ModuleName": "ProcessItem/流程1",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\brantyyan",
+      "Email": "branty.yan@grapecity.com"
+    },
+    "LockDateTime": "2023-04-28T15:46:43.5022277+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\文件夹1\\流程1.json",
+      "Process\\文件夹1\\流程1.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
